@@ -1,0 +1,175 @@
+{
+  "createdAt": "2026-10-15T12:29:23.311Z",
+  "gender": 0,
+  "category": "shirtColor",
+  "source": "final-fixed",
+  "cases": 8,
+  "crop": {
+    "x": 535,
+    "y": 375,
+    "width": 135,
+    "height": 180
+  },
+  "qaOnly": true,
+  "productionArtChanged": false,
+  "realBrowserCaptures": true,
+  "renderedMockups": false,
+  "scale": 1.5,
+  "sheets": [
+    "page-1.png"
+  ],
+  "records": [
+    {
+      "value": 0,
+      "name": "Розовый",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-shirtColor-00-down.jpg",
+      "sourceSha256": "8b54bd7c7b36fc1d1131e81c161baee0479385da88c80519bedff0dc570e7d4f",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtColor-00-down-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Розовый",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-shirtColor-00-left.jpg",
+      "sourceSha256": "54b6ba5c7e42ed4048909f09f2ec8c24730603012a30fdeae92cd2cc334c58a0",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtColor-00-left-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Розовый",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-shirtColor-00-up.jpg",
+      "sourceSha256": "62d7458ccd400d74245ed6177882fd70b992437e97ceba04812b3d39527aee38",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtColor-00-up-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Розовый",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-shirtColor-00-right.jpg",
+      "sourceSha256": "bb4a60f3751d74ecb0c9c0f5beef89a6fe5ea5e39b9950469f6e605e08c017b5",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtColor-00-right-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Чёрный",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-shirtColor-06-down.jpg",
+      "sourceSha256": "4455d142b53278283ff35cb5b84b61c9a57d80c81b37e097411bca4e7ed25f45",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtColor-06-down-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Чёрный",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-shirtColor-06-left.jpg",
+      "sourceSha256": "58558eba008d4410e95657de698a9cd122695c31145a8f53372376f26e33ea8d",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtColor-06-left-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Чёрный",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-shirtColor-06-up.jpg",
+      "sourceSha256": "2572381916201626a97d6a66796524623f49535f48b9d44bd1b45a22e12ac8e6",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtColor-06-up-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Чёрный",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-shirtColor-06-right.jpg",
+      "sourceSha256": "dfa47a5ca20ac4d2c3683526e3ea0ee7a48263cd5ca2a6abe837a56e5391b052",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtColor-06-right-crop.png"
+    }
+  ]
+}

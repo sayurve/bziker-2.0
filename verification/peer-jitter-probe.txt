@@ -1,0 +1,85 @@
+{
+  "distance": 134.16000000000008,
+  "sourceFrames": [
+    0
+  ],
+  "gaitFrames": [
+    0,
+    1
+  ],
+  "firstCycle": [
+    {
+      "time": 0,
+      "x": 300,
+      "walking": false,
+      "gaitFrame": 0,
+      "sourceFrame": 0
+    },
+    {
+      "time": 0,
+      "x": 300,
+      "walking": false,
+      "gaitFrame": 0,
+      "sourceFrame": 0
+    },
+    {
+      "time": 20,
+      "x": 303.44,
+      "walking": true,
+      "gaitFrame": 0,
+      "sourceFrame": 0
+    },
+    {
+      "time": 100,
+      "x": 317.2,
+      "walking": true,
+      "gaitFrame": 1,
+      "sourceFrame": 0
+    },
+    {
+      "time": 120,
+      "x": 320.64,
+      "walking": true,
+      "gaitFrame": 1,
+      "sourceFrame": 0
+    },
+    {
+      "time": 140,
+      "x": 322.36,
+      "walking": false,
+      "gaitFrame": 0,
+      "sourceFrame": 0
+    },
+    {
+      "time": 200,
+      "x": 322.36,
+      "walking": false,
+      "gaitFrame": 0,
+      "sourceFrame": 0
+    },
+    {
+      "time": 800,
+      "x": 322.36,
+      "walking": false,
+      "gaitFrame": 0,
+      "sourceFrame": 0
+    },
+    {
+      "time": 1000,
+      "x": 322.36,
+      "walking": false,
+      "gaitFrame": 0,
+      "sourceFrame": 0
+    },
+    {
+      "time": 1000,
+      "x": 322.36,
+      "walking": false,
+      "gaitFrame": 0,
+      "sourceFrame": 0
+    }
+  ],
+  "cycles": 6,
+  "stepPerPoll": 22.36,
+  "pollMs": 1000
+}

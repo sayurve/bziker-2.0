@@ -1,0 +1,22 @@
+{
+  "status": "draft",
+  "tool": "built-in image_gen",
+  "sourceOutput": "/Users/sapp/.codex/generated_images/01a13c9a-ae7d-7bc2-83f6-88b8b5a5e67b/exec-7681b279-5c0d-45c0-a6a3-40319224bc1f.png",
+  "masterPath": "art/drafts/canonical-actions-v30/water/male-right/water-four-master.png",
+  "actualSize": [
+    1086,
+    1448
+  ],
+  "rawMasterUnchanged": true,
+  "masterSHA256": "6099010d7bb3d7425d4b042809cd5f6d76c6585eccccdf42c0396341ea42dd2f",
+  "uniformFineScale": 0.17679558011049723,
+  "exportEvidence": "art/drafts/canonical-actions-v30/water/male-right/export-evidence.json",
+  "promptPath": "art/drafts/canonical-actions-v30/water/male-right/prompt.txt",
+  "reviewReceipt": "verification/canonical-seated-water-review-v30.json",
+  "poses": [
+    "cast",
+    "hold",
+    "reel",
+    "row"
+  ]
+}

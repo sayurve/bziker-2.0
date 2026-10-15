@@ -1,0 +1,157 @@
+{
+  "status": "independently-viewed-entire-contact",
+  "files": [
+    {
+      "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-pet-00.jpg",
+      "sha256": "55239e5064891ca1f65b55ae6fdf20777e3af4d484d0e289fbb5940dfde9ca3c",
+      "sourceSize": [
+        703,
+        929
+      ],
+      "crop": [
+        260,
+        385,
+        495,
+        585
+      ],
+      "qaDisplaySize": [
+        352,
+        300
+      ]
+    },
+    {
+      "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-pet-05.jpg",
+      "sha256": "0db4898bc496c2c4b6051d7428f716b68289da2943d63ee23e1d37f0881a89a9",
+      "sourceSize": [
+        703,
+        929
+      ],
+      "crop": [
+        260,
+        385,
+        495,
+        585
+      ],
+      "qaDisplaySize": [
+        352,
+        300
+      ]
+    },
+    {
+      "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-pet-10.jpg",
+      "sha256": "62879569d62ba5a58a11b145bdca5e04581aa4a2f2640246ca335f1429088fc4",
+      "sourceSize": [
+        703,
+        929
+      ],
+      "crop": [
+        260,
+        385,
+        495,
+        585
+      ],
+      "qaDisplaySize": [
+        352,
+        300
+      ]
+    },
+    {
+      "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-pet-16.jpg",
+      "sha256": "caed834a94a5bd19edc66223375c591ada2a3d2be181656bf54510c220dd6e2a",
+      "sourceSize": [
+        703,
+        929
+      ],
+      "crop": [
+        260,
+        385,
+        495,
+        585
+      ],
+      "qaDisplaySize": [
+        352,
+        300
+      ]
+    },
+    {
+      "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-pet-22.jpg",
+      "sha256": "f515c85506821435ca31a8fafc01347afb6ba9949eaa890b04db9384cb1f0258",
+      "sourceSize": [
+        703,
+        929
+      ],
+      "crop": [
+        260,
+        385,
+        495,
+        585
+      ],
+      "qaDisplaySize": [
+        352,
+        300
+      ]
+    },
+    {
+      "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-pet-28.jpg",
+      "sha256": "57157b53e154c55a493d5a448bb455b60c289aafcb65caa6510ff65e6eaec599",
+      "sourceSize": [
+        703,
+        929
+      ],
+      "crop": [
+        260,
+        385,
+        495,
+        585
+      ],
+      "qaDisplaySize": [
+        352,
+        300
+      ]
+    },
+    {
+      "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-pet-34.jpg",
+      "sha256": "fbc813339b6ab9e4404e12839659fd132ad8605a3131b236e733fcb3d8525239",
+      "sourceSize": [
+        703,
+        929
+      ],
+      "crop": [
+        260,
+        385,
+        495,
+        585
+      ],
+      "qaDisplaySize": [
+        352,
+        300
+      ]
+    },
+    {
+      "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-pet-37.jpg",
+      "sha256": "cfe17b9e308905a240f22481a063985fb693c4612f382f8f2a9edc933601a92e",
+      "sourceSize": [
+        703,
+        929
+      ],
+      "crop": [
+        260,
+        385,
+        495,
+        585
+      ],
+      "qaDisplaySize": [
+        352,
+        300
+      ]
+    }
+  ],
+  "contactSHA256": "6cc8b56bc84751c8505d392bc96823474f49d119f9475f46ff525f2ef742c842",
+  "limits": "Only8selected shots of38 plus full16 viewed; no complete pet animation or direct-touch approval.",
+  "reviewedAt": "2026-10-15T16:06:05.195405+00:00",
+  "observations": [
+    "Same male H7 face/white hairstyle/collar retained through bend and squat; no new visible head/neck detachment.",
+    "The lowered hand in16/22/28 points toward pavement while dog reaction rises above it; sustained actual hand-to-dog contact is not established by this sample.",
+    "Final37 is after action and faces up; not evidence of a different identity."
+  ]
+}

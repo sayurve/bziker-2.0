@@ -1,0 +1,30 @@
+✔ lab manifests explicitly preview complete source poses, with all palettes and four authored directions (5.628917ms)
+✔ lab steps one controller frame by distance and invalid outfit preserves snapshot (0.96125ms)
+✔ lab renders actual source artwork into constant native canvases without manufacturing garment layers (1987.7055ms)
+✔ standalone lab exposes deterministic QA fields and account-free local Phaser entrypoint (0.630208ms)
+✔ definition contract exists and returns an immutable isolated value (1.422625ms)
+✔ model requires every authored direction, pose, constant layer canvas and attachments (1.402208ms)
+✔ draft definitions and garments need explicit lab opt-in (1.153125ms)
+✔ garment validates model compatibility, all poses, layer identity and explicit texture reference (1.912125ms)
+✔ distance alone selects one frame shared by every layer and direction ordering (0.872375ms)
+✔ repeated state does not restart and timed actions hold final pose (0.37ms)
+✔ stop and teleport discard movement phase; reduced motion cannot accumulate hidden stride (0.464834ms)
+✔ outfit changes preserve phase and invalid changes leave complete snapshot untouched (1.244041ms)
+✔ Phaser layers use common anchor and one uniform scale without resizing (0.87325ms)
+✔ Phaser missing textures, missing atlas frames and allocation errors roll back whole outfit (2.397125ms)
+✔ outfit preflight checks every pose texture, including currently invisible frames (0.869209ms)
+✔ view rejects mismatched logical frame dimensions before changing children (0.546125ms)
+✔ view releases its own objects without destroying attached foreign objects or shared textures (0.475459ms)
+✔ all poses expose the same named attachment points (0.133792ms)
+✔ timed loops honor authored durations, PNG null frames and outfit clearing retain phase (0.6055ms)
+✔ any looping distance action follows distance and repeated state retains its phase (0.385375ms)
+✔ every provided distance clock requires positive finite cycle and looping action (0.645042ms)
+✔ large page lag clamps a finite timed action to its authored end (0.262042ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2252.962417

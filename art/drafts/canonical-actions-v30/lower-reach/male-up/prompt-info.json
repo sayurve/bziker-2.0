@@ -1,0 +1,28 @@
+{
+  "status": "draft",
+  "tool": "built-in image_gen",
+  "sourceToolPath": "/Users/sapp/.codex/generated_images/01a13c9a-2181-7ab2-8e08-dacd16b99b77/exec-7ddb56fe-cd20-4d33-a6d4-f64063dd61ec.png",
+  "exactPrompt": "prompt.txt",
+  "reference": "reference-native-8x.png",
+  "original": "game/assets/canonical-idle-v2/male-up-fine.png",
+  "requestedDimensions": [
+    1536,
+    1024
+  ],
+  "requestedCells": [
+    768,
+    1024
+  ],
+  "poses": [
+    "bend-reach",
+    "deep-squat-reach"
+  ],
+  "review": "pending native body/head/alpha review",
+  "runtimeActivated": false,
+  "actualDimensions": [
+    1536,
+    1024
+  ],
+  "sourceSHA256": "269c552898162db0814cd6451f21fe85ff923b4cbef919647077a32bf92a0454",
+  "referenceSHA256": "98203f39ea0f5dbf199386dedc052613ee070b6e9188ec406bf638b25c3d3963"
+}

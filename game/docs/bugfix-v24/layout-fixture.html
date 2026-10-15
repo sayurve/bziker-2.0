@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Бзикер — локальная проверка размеров</title><link rel="stylesheet" href="/web/styles.css?v=24-3"><link rel="stylesheet" href="/web/world.css"><link rel="stylesheet" href="/web/construction.css?v=24-3"><link rel="stylesheet" href="/web/source-ui.css?v=24-3"></head>
+<body data-screen="fixture" data-phone-open="false"><nav class="fixture-nav" aria-label="Проверяемый экран"><a href="?surface=phone&tab=apps&mode=normal">Телефон</a> · <a href="?surface=profile">Персонаж</a> · <a href="?surface=inventory">Сумка</a> · <a href="?surface=construction">Стройка</a> · <a href="?surface=cards">Карты</a> · <a href="?surface=sky">Небо</a><p id="fixture-status">Только локальные фиктивные данные. Действия не отправляются.</p></nav><main id="app"></main>
+<dialog id="phone-dialog" aria-labelledby="phone-title"><img class="source-phone-hands" src="/assets/design-ui-hands-male.png" alt="" aria-hidden="true"><div class="phone-status"><span id="phone-wallet" aria-label="Баланс Бзинге"></span></div><div class="phone-speaker" aria-hidden="true"></div><div class="phone-screen"><div class="dialog-heading"><div><strong class="phone-brand">ТЕЛЕБЗИ</strong><h2 id="phone-title">Меню</h2></div><button id="expand-phone" class="quiet" type="button" aria-label="Развернуть телефон" aria-pressed="false">⛶</button><button id="close-phone" class="quiet" type="button" aria-label="Закрыть телефон">×</button></div><div id="phone-content"></div><button id="phone-back" data-action="phone-back" class="phone-back" type="button" aria-label="Назад к приложениям"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="5" y="5" width="14" height="14" rx="1" fill="none" stroke="currentColor" stroke-width="2"/></svg></button></div></dialog>
+<dialog id="construction-dialog" aria-labelledby="construction-title"><div class="dialog-heading"><h2 id="construction-title">Стройка кланового дома</h2><button class="quiet" type="button" aria-label="Закрыть стройку">×</button></div><div id="construction-content"></div></dialog>
+<script type="module">
+import {phoneAppsHTML,skySceneHTML,resultsPodiumHTML} from '/web/gameplay-ui.js';
+import {cityPhoneHTML} from '/web/city-features.js';
+import {cardGamesPanelHTML,cardTableHTML,slotResultHTML} from '/web/card-games.js';
+import {profileBuilderHTML} from '/web/profile-builder.js';
+import {constructionHTML} from '/web/construction-ui.js';
+import {inventoryHTML} from '/web/inventory-ui.js';
+import {accountFormHTML} from '/web/account-ui.js';
+import {loadSourceActor} from '/web/source-actors.js';
+import {preloadDesignViews} from '/web/design-assets.js';
+import {sourceFurnitureAssetId} from '/web/source-interiors.js';
+import {fitFurniturePreview} from '/web/furniture-preview.js';
+import {drawFurnitureVolume} from '/web/interiors.js';
+import {furnitureFootprint,worldMap} from '/web/world.js';
+const params=new URL(location.href).searchParams,surface=params.get('surface')||'phone',tab=params.get('tab')||'apps';
+const name='А'.repeat(32),title='Комната'.repeat(11)+'123';
+const profile={id:'fixture-player',name,avatar:{gender:0,hairStyle:0,shirtStyle:0}};
+const catalogue=[['coffee','Кофе','food','shop-food'],['snack','Сэндвич','food','shop-food'],['cigarette','Сигареты','consumable','shop-food'],['cards','Колода карт','deck','shop-food'],['rod','Удочка','tool','shop-food'],['pet-dog','Собака','pet','shop-food'],['pet-cat','Кошка','pet','shop-food'],['fish','Улов','catch',null],['litter','Мусор','litter',null],['sofa','Диван','furniture','shop-furniture'],['sport','Спортивный костюм','outfit','shop-clothes']].map(([id,label,kind,shop],index)=>({id,name:label,kind,shop,description:'Длинное описание предмета для проверки ширины и переноса слов '+name,price:25+index,avatar:kind==='outfit'?{outfit:3}:undefined}));
+const economy={balance:9999999,catalog:catalogue,inventory:catalogue.slice(0,9).map((item,index)=>({item_id:item.id,item,quantity:index+1})),inventory_used:9,quests:[{id:'fixture-quest',name:name,description:'Длинное описание задания для проверки размеров.',reward:100,eligible:true}],daily:{claimed:0,limit:30}};
+const players=[profile,{id:'fixture-peer',name:'Б'.repeat(32),avatar:{gender:1,hairStyle:6}}];
+const table={id:'fixture-table',title,game:'poker',source:'casino',state:'playing',my_id:profile.id,host_id:profile.id,turn_id:profile.id,stake:100,can_act:true,players:players.map((player,index)=>({...player,cards:index?[]:['AS','KH','QD','JC','10S'],card_count:5,done:false})),results:[]};
+const own={id:'fixture-clan',is_leader:true,member_count:4,members:players,base:null},plot={id:'base-1',name:'Участок 01',door:{x:100,y:100}};
+const scene={role:'participant',mode:'individual',state:'answering',answer_policy:'all',jury_count:1,players:players.map((player,index)=>({...player,score:10-index})),teams:[]};
+const app=document.querySelector('#app'),phone=document.querySelector('#phone-dialog');
+document.addEventListener('submit',event=>event.preventDefault());
+function phoneHTML(){
+ if(tab==='apps')return phoneAppsHTML({name});
+ if(tab==='casino'||tab==='cards')return cardGamesPanelHTML({tables:[{id:table.id,title,game:'poker',state:'waiting',source:tab==='cards'?'deck':'casino',player_count:4,stake:100}],invitations:[{id:'fixture-invite',from:players[1],title,game:'poker',stake:100}]},{source:tab==='cards'?'deck':'casino',balance:economy.balance,hasDeck:true})+(tab==='casino'?slotResultHTML({reels:['cherry','diamond','seven'],payout:30,net:20,balance:economy.balance}):'');
+ if(tab==='search')return '<form><label>Найти по нику<input type="search" maxlength="32" value="'+name+'"></label><button class="primary wide" type="submit">Найти</button></form>'+cityPhoneHTML('friends',{profile,economy,friends:{friends:players,requests:[]}});
+ return cityPhoneHTML(tab,{profile,economy,friends:{friends:players,requests:[{id:'fixture-friend',from:players[1]}],sent:[{to:players[1]}]},destinations:[{id:'fixture-city',label:'Длинное название места '+name}],spotId:'fixture-spot',fishing:{}});
+}
+if(surface==='phone'){phone.classList.toggle('expanded',params.get('mode')!=='normal');document.body.dataset.phoneOpen='true';document.querySelector('#phone-title').textContent='Проверка: '+tab;document.querySelector('#phone-content').innerHTML=phoneHTML();phone.show();document.querySelector('#expand-phone').onclick=()=>phone.classList.toggle('expanded');document.querySelector('#close-phone').onclick=()=>phone.close();}
+else if(surface==='profile'){document.body.dataset.screen='profile';app.innerHTML=profileBuilderHTML({avatar:profile.avatar,name,editing:true,genderExpanded:false});}
+else if(surface==='inventory'){app.innerHTML='<section id="inventory-drawer" class="inventory-drawer" role="dialog" aria-labelledby="inventory-title">'+inventoryHTML(economy,'coffee')+'</section>';}
+else if(surface==='construction'){const dialog=document.querySelector('#construction-dialog');document.querySelector('#construction-content').innerHTML=constructionHTML({own,plot,state:{scene:'city',position:plot.door}});dialog.showModal();}
+else if(surface==='cards')app.innerHTML=cardTableHTML(table);
+else if(surface==='sky')app.innerHTML=skySceneHTML(scene)+resultsPodiumHTML(scene);
+else if(surface==='account')app.innerHTML=accountFormHTML({mode:'register'});
+else if(surface==='furniture'){
+ const items=['board','tv','bookcase','chair','sofa','desk'].flatMap(type=>[0,90,180,270].map(rotation=>({type,rotation,source_theme:'modern'})));
+ const directions={0:'front',90:'left',180:'back',270:'right'};
+ await preloadDesignViews(items.map(item=>({id:sourceFurnitureAssetId(item),direction:directions[item.rotation]})));
+ app.innerHTML='<h1 style="font-size:20px">Предпросмотр мебели</h1><div id="furniture-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(88px,1fr));gap:12px"></div>';
+ for(const item of items){
+  const shape=furnitureFootprint(item),width=shape.width*worldMap.base.grid.cell_width,height=shape.height*worldMap.base.grid.cell_height;
+  const cell=document.createElement('div'),canvas=document.createElement('canvas');canvas.width=176;canvas.height=144;canvas.style='display:block;width:88px;height:72px;background:#eee;border:1px solid #aaa';
+  cell.append(canvas,document.createTextNode(item.type+' '+item.rotation+'°'));document.querySelector('#furniture-gallery').append(cell);
+  const ctx=canvas.getContext('2d'),fit=fitFurniturePreview(item,{width,height},canvas);ctx.imageSmoothingEnabled=false;ctx.translate(fit.x,fit.y);ctx.scale(fit.scale,fit.scale);drawFurnitureVolume(ctx,item,item.type,0,0,width,height,'#faf8f2');
+ }
+}
+document.querySelector('#fixture-status').dataset.ready='true';
+</script></body></html>

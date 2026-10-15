@@ -1,0 +1,30 @@
+.................F.......................................F............................................................................................................................F........................................
+======================================================================
+FAIL: test_catalog_retains_legacy_animals_and_adds_walkers (test_ambient_animals_v7.AmbientAnimalTests.test_catalog_retains_legacy_animals_and_adds_walkers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_ambient_animals_v7.py", line 29, in test_catalog_retains_legacy_animals_and_adds_walkers
+    self.assertGreaterEqual(math.hypot(p['x']-tree['x'],p['y']-tree['y']), tree['radius']+18, (animal['id'], tree['id']))
+AssertionError: 59.61543424315552 not greater than or equal to 61 : ('station-dog', 'tree-v11-2-1-7')
+
+======================================================================
+FAIL: test_all_27_routes_persist_continuous_pedestrian_walks_without_reconciliation (test_city_routes_v9.CityRoutesV9Tests.test_all_27_routes_persist_continuous_pedestrian_walks_without_reconciliation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_city_routes_v9.py", line 42, in test_all_27_routes_persist_continuous_pedestrian_walks_without_reconciliation
+    self.assertGreater(count, 1900, 'The check must walk the complete road network, rather than only its vertices')
+AssertionError: 1842 not greater than 1900 : The check must walk the complete road network, rather than only its vertices
+
+======================================================================
+FAIL: test_full_snapshot_parity_for_scenes_privacy_ownership_and_fresh_changes (test_snapshot_batching_v6.SnapshotBatchingV6Tests.test_full_snapshot_parity_for_scenes_privacy_ownership_and_fresh_changes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_snapshot_batching_v6.py", line 117, in test_full_snapshot_parity_for_scenes_privacy_ownership_and_fresh_changes
+    self.assertEqual(projected, expected)
+AssertionError: {'cit[113 chars]'x': 3360.0, 'y': 2610.0}, 'arena_lobby_id': N[43820 chars] 10}} != {'cit[113 chars]'x': 760.0, 'y': 2610.0}, 'arena_lobby_id': No[43810 chars] 10}}
+Diff is 117694 characters long. Set self.maxDiff to None to see it.
+
+----------------------------------------------------------------------
+Ran 223 tests in 21.538s
+
+FAILED (failures=3)

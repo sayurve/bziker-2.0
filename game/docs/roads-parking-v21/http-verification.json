@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "url": "/world-map.json",
+      "status": 200,
+      "sha256": "6edc5160487a5f1a26de9dcc7ea0e1f4f5b681d79d9fcda1cee17f2f1d7b29bb",
+      "matches_disk": true
+    },
+    {
+      "url": "/city-collisions.json",
+      "status": 200,
+      "sha256": "875a34b92d61d3771b3d2c99b7266afc1767a101e8d5ff92ebe73a35a46b9f6c",
+      "matches_disk": true
+    },
+    {
+      "url": "/interiors-map.json",
+      "status": 200,
+      "sha256": "4bbcf843a0d08dfb81de085d219b8231b41a0b3a41b346902b7a976dc2a3b472",
+      "matches_disk": true
+    },
+    {
+      "url": "/city-ground.js",
+      "status": 200,
+      "sha256": "4138bf72e596ae1b327b2cd0675f6b63dffc7c9f49d4a87e868d7926f84bc52b",
+      "matches_disk": true
+    },
+    {
+      "url": "/road-topology.js",
+      "status": 200,
+      "sha256": "4d62273db97cbf2ca299b1a02de4be58b7714fbaed1fd6775d496cf3f48a58ac",
+      "matches_disk": true
+    }
+  ],
+  "all_match": true
+}

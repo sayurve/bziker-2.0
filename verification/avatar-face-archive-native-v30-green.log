@@ -1,0 +1,33 @@
+✔ shared native sprite preserves logical grounding geometry and every stored customization value (49.830833ms)
+✔ eight gait samples display four complete approved native poses and hold each twice (1961.87125ms)
+✔ phone and sitting share the native renderer and retain the actual seated legs (371.233875ms)
+✔ authored left/right views remain distinct and malformed directions resolve to the approved down identity (37.041291ms)
+✔ fractional display scaling paints one whole native texture at integer destination edges (0.669167ms)
+✔ native gait shoulders, sleeves, head and torso remain one actual alpha component (227.059291ms)
+✔ world action progress keeps the canonical face and common ground across actual finite keyposes (1141.034541ms)
+✔ open phone holds one seated pose during every action while anonymous imagery stays neutral (118.280625ms)
+✔ held litter follows the moving palm and never leaks into headgear or anonymous portraits (191.256959ms)
+✔ finite action pixels fit every saved costume and authored body/hand alpha stays attached (3645.906041ms)
+✔ empty, draft and unreviewed locomotion leave normal source run selection unchanged (2.790792ms)
+✔ approved whole poses keep all four native phases, logical canvas and feet anchor (1.051417ms)
+✔ ordinary walk shares approved gait while missing directions and explicit archives retain safe adapters (0.842917ms)
+✔ approved locomotion uses the same accepted-distance clock and resets only at stop or scene transfer (4.634083ms)
+✔ actor preload ignores draft motion PNGs and decodes all approved coarse and detail pages (164.569875ms)
+✔ customization and fine native rendering retain their pixels and geometry under a reviewed motion override (141.920625ms)
+✔ the imported actor catalog retains all 22 entities and 374 original base actions (36.084833ms)
+✔ whole walking frames advance by discrete source order without moving the feet anchor (47.237709ms)
+✔ phone and food select seated source cycles without dropping the sitting context (1.288292ms)
+✔ animals use deterministic actual breeds and source gait frames at the existing world coordinate (0.549708ms)
+✔ canonical water keeps the reviewed body identity and never stands a seated boat occupant up; original source clips remain explicit archives (0.693708ms)
+✔ every supplied scenario and every animal action is addressable instead of silently becoming idle (6.857458ms)
+✔ untrusted animation identifiers cannot select inherited object properties (0.527375ms)
+✔ source pages are compact PNG atlases with normalized transparent cell bounds (168.918208ms)
+✔ canvas source rendering retains custom hair, skin, clothes and costume identity (331.403416ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8157.963791

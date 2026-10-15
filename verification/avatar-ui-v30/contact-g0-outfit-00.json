@@ -1,0 +1,102 @@
+{
+  "status": "awaiting-visual-review",
+  "contact": "contact-g0-outfit-00.png",
+  "records": [
+    {
+      "source": "g0-outfit-00-up.jpg",
+      "sha256": "0eaf073d3aae727bd5a3d20e1860859d7531bc45077bf36e75f5c4237336ad5a",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 0
+    },
+    {
+      "source": "g0-outfit-00-left.jpg",
+      "sha256": "76a431f4c0c0beded6110eac43d8194a25d8a89882a7f9dac5ef1b2ded3ee346",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 0
+    },
+    {
+      "source": "g0-outfit-00-down.jpg",
+      "sha256": "3582d58090b4a3cb4c3602697850a87c2d3d1743316b0dd8b0b76d424e18c2cb",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 0
+    },
+    {
+      "source": "g0-outfit-00-right.jpg",
+      "sha256": "864a59e1a36c0939592f87e7ee53f58a4d7af6d4240ce38293e904c82398366f",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 0
+    },
+    {
+      "source": "g0-outfit-01-up.jpg",
+      "sha256": "99bb54d9b4618209252393151f7875bd66b73b29f43026a6f6fbcb8756eda46b",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 1
+    },
+    {
+      "source": "g0-outfit-01-left.jpg",
+      "sha256": "b9fc765c884e241b37f90ba05d4b93c908dd137e5717976c66fc08fff440219e",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 1
+    },
+    {
+      "source": "g0-outfit-01-down.jpg",
+      "sha256": "f0ed65e8eecd71707d0477930e9e9af91c69ca82d003de66fbe227f2aac2bbfb",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 1
+    },
+    {
+      "source": "g0-outfit-01-right.jpg",
+      "sha256": "18337aaac265fbc49129921de153a94c5b1b4d3519182370830b87850d2d621d",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 1
+    }
+  ]
+}

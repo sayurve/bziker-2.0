@@ -1,0 +1,4 @@
+interface:
+  display_name: "Бзикер — персонажи и одежда"
+  short_description: "Позы, слои одежды и анимации Бзикер для В"
+  default_prompt: "Используй $bziker-character-pipeline для подготовки совместимого комплекта поз и одежды Бзикер 2.0."

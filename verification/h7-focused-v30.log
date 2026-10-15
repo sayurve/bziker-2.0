@@ -1,0 +1,69 @@
+{
+  "preset": {
+    "gender": 0,
+    "skin": 3,
+    "hairStyle": 7,
+    "hairColor": 6,
+    "shirtStyle": 2,
+    "shirtColor": 8,
+    "pantsStyle": 0,
+    "pantsColor": 1,
+    "accessory": 0,
+    "shoesColor": 0,
+    "headwear": 0,
+    "outfit": 0
+  },
+  "scope": "single male H7 only, actual whole native figures; canonical world actions and explicitly separate historical specials",
+  "requests": 1164,
+  "uniqueSnapshots": 292,
+  "hashesBefore": {
+    "game/web/source-actors.js": "c73e4d0fa823d8d4f72bcb1625cfff902e2bdb8ee3c86b14abe7ed1ac1b2c5ba",
+    "game/web/actor-sprite.js": "be8e935642374699951146083fbef4ec1ad690a7de8a06ae2153f34dc9b4271b",
+    "game/web/interaction-actors-data.js": "34a771f62dc4ad38f5efd79788dd681b2ffe1a79751f4d4ce27faa23657cffa6",
+    "game/web/canonical-actors-data.js": "d24ca352e05bf07c32b21ffe6775a53be6feebe3c047b61069245fccfef3a7eb",
+    "game/web/locomotion-actors-data.js": "ca80688f968f0fa059d584e5eac3a6bd035bec515498e4d06bfbd6176a7e8b73"
+  },
+  "hashesAfter": {
+    "game/web/source-actors.js": "c73e4d0fa823d8d4f72bcb1625cfff902e2bdb8ee3c86b14abe7ed1ac1b2c5ba",
+    "game/web/actor-sprite.js": "be8e935642374699951146083fbef4ec1ad690a7de8a06ae2153f34dc9b4271b",
+    "game/web/interaction-actors-data.js": "34a771f62dc4ad38f5efd79788dd681b2ffe1a79751f4d4ce27faa23657cffa6",
+    "game/web/canonical-actors-data.js": "d24ca352e05bf07c32b21ffe6775a53be6feebe3c047b61069245fccfef3a7eb",
+    "game/web/locomotion-actors-data.js": "ca80688f968f0fa059d584e5eac3a6bd035bec515498e4d06bfbd6176a7e8b73"
+  },
+  "uiDifferenceCases": 0,
+  "scalpResidualCases": 0,
+  "edgeCases": 0,
+  "faceChangedCases": 0,
+  "bodyAlphaLossCases": 0,
+  "contacts": [
+    "motion-down-0.png",
+    "standing-down-0.png",
+    "standing-down-1.png",
+    "seated-down-0.png",
+    "archive-down-0.png",
+    "motion-right-0.png",
+    "standing-right-0.png",
+    "standing-right-1.png",
+    "seated-right-0.png",
+    "archive-right-0.png",
+    "motion-up-0.png",
+    "standing-up-0.png",
+    "standing-up-1.png",
+    "seated-up-0.png",
+    "archive-up-0.png",
+    "motion-left-0.png",
+    "standing-left-0.png",
+    "standing-left-1.png",
+    "seated-left-0.png",
+    "archive-left-0.png",
+    "water-right-0.png"
+  ],
+  "detachedCanonicalCases": 0,
+  "canonicalMetrics": {
+    "uiDiff": 0,
+    "scalpResidual": 0,
+    "edge": 0,
+    "faceChanged": 0,
+    "bodyAlphaLoss": 0
+  }
+}

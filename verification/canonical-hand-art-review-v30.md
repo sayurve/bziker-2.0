@@ -1,0 +1,11 @@
+# HAND32 limited art acceptance
+
+Root explicitly viewed all eight `canonical-hand-{male,female}-{down,right,up,left}-v30-draft.png` contacts and approved the 32 native whole-body HAND poses in the current task. The approval states: same C head/hair/face across poses; compact proportions and rendering style match idle; soles stay at the same height; chest, mouth and release arms are visibly different; no neck/waist holes observed; genuine palms occlude the face only in the mouth pose.
+
+Exact approved fine/coarse PNG hashes (64 resources) and eight unchanged raw-sheet hashes are locked in `canonical-hand-root-receipt-v30.json`. These are newly drawn HAND bodies from built-in image_gen; no v29 legacy-body graft is included. The current canonical C head is retained through its actual donor alpha, without resizing it. Body scale remains one uniform scalar per model: male .181, female .170. Explicit source-cell foot/neck registration compensates whole-figure source placement; it does not normalize visible bounds or warp limbs.
+
+Technical checks: `canonical-hand-test-v30.log`, 7/7 PASS over all 32 poses — 96×128/48×64 resources, unchanged raw SHA, uniform scalar and authored anchor round-trip, >40,000 exact C-head RGBA comparisons outside real palm foreground, exact source RGBA for restored palms, source opacity for visible palm anchors, explicit occluded rear palms, one connected head/body, transparent safety edge, common sole y125 and C-height match, exact native→coarse nearest derivative. Export metrics report zero head mismatch, zero altered retained neutral-coat pixels and zero canvas-edge opacity.
+
+Export surgery retains real source neutral coat, dark contour, actual body neck and actual visible palms. It never paints unknown skin or manufactures a limb. Rear chest and mouth carry `propLayer: behind-body` and explicit occlusion; the female rear chest anchor is an authored occluded anatomical point, not falsely reported as visible flesh.
+
+This receipt approves the observed native body/identity art only. Runtime integration, clothing combinations, prop positions/occlusion and browser acceptance remain separate checks. Original raw sheets, prompts, C/L, source-actors and runtime files were not edited by this exporter.

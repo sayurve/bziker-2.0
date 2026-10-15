@@ -1,0 +1,290 @@
+[
+  {
+    "i": 0,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/isolated-down-00.jpg",
+    "at": 1792084995023,
+    "diag": {
+      "worldFps": "120.1",
+      "worldFrameMs": "8.33",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "0.99",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "4",
+      "worldX": "5744.00",
+      "worldY": "3311.32"
+    }
+  },
+  {
+    "i": 1,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/isolated-down-01.jpg",
+    "at": 1792084995121,
+    "diag": {
+      "worldFps": "120.1",
+      "worldFrameMs": "8.33",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "0.99",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "4",
+      "worldX": "5744.00",
+      "worldY": "3327.18"
+    }
+  },
+  {
+    "i": 2,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/isolated-down-02.jpg",
+    "at": 1792084995166,
+    "diag": {
+      "worldFps": "120.1",
+      "worldFrameMs": "8.33",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "0.99",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "4",
+      "worldX": "5744.00",
+      "worldY": "3335.66"
+    }
+  },
+  {
+    "i": 3,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/isolated-down-03.jpg",
+    "at": 1792084995213,
+    "diag": {
+      "worldFps": "120.1",
+      "worldFrameMs": "8.33",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "0.99",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "4",
+      "worldX": "5744.00",
+      "worldY": "3342.90"
+    }
+  },
+  {
+    "i": 4,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/isolated-down-04.jpg",
+    "at": 1792084995278,
+    "diag": {
+      "worldFps": "120.1",
+      "worldFrameMs": "8.33",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "0.99",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "4",
+      "worldX": "5744.00",
+      "worldY": "3354.42"
+    }
+  },
+  {
+    "i": 5,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/isolated-down-05.jpg",
+    "at": 1792084995340,
+    "diag": {
+      "worldFps": "120.1",
+      "worldFrameMs": "8.33",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "0.99",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "4",
+      "worldX": "5744.00",
+      "worldY": "3362.92"
+    }
+  },
+  {
+    "i": 6,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/isolated-down-06.jpg",
+    "at": 1792084995381,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.47",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "4",
+      "worldX": "5744.00",
+      "worldY": "3373.01"
+    }
+  },
+  {
+    "i": 7,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/isolated-down-07.jpg",
+    "at": 1792084995428,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.47",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "4",
+      "worldX": "5744.00",
+      "worldY": "3380.08"
+    }
+  },
+  {
+    "i": 8,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/isolated-down-08.jpg",
+    "at": 1792084995537,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.47",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "4",
+      "worldX": "5744.00",
+      "worldY": "3398.81"
+    }
+  },
+  {
+    "i": 9,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/isolated-down-09.jpg",
+    "at": 1792084995627,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.47",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "4",
+      "worldX": "5744.00",
+      "worldY": "3414.62"
+    }
+  },
+  {
+    "i": 10,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/isolated-down-10.jpg",
+    "at": 1792084995662,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.47",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "4",
+      "worldX": "5744.00",
+      "worldY": "3420.35"
+    }
+  },
+  {
+    "i": 11,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/isolated-down-11.jpg",
+    "at": 1792084995729,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.47",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "4",
+      "worldX": "5744.00",
+      "worldY": "3431.82"
+    }
+  },
+  {
+    "i": 12,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/isolated-down-12.jpg",
+    "at": 1792084995829,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.47",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "4",
+      "worldX": "5744.00",
+      "worldY": "3449.02"
+    }
+  },
+  {
+    "i": 13,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/isolated-down-13.jpg",
+    "at": 1792084995885,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.47",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "4",
+      "worldX": "5744.00",
+      "worldY": "3458.95"
+    }
+  },
+  {
+    "i": 14,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/isolated-down-14.jpg",
+    "at": 1792084995932,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.47",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "4",
+      "worldX": "5744.00",
+      "worldY": "3467.60"
+    }
+  },
+  {
+    "i": 15,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/isolated-down-15.jpg",
+    "at": 1792084995974,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.47",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "4",
+      "worldX": "5744.00",
+      "worldY": "3471.95"
+    }
+  },
+  {
+    "i": 16,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/isolated-down-16.jpg",
+    "at": 1792084996034,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.47",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "4",
+      "worldX": "5744.00",
+      "worldY": "3471.95"
+    }
+  },
+  {
+    "i": 17,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/isolated-down-17.jpg",
+    "at": 1792084996134,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.47",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "4",
+      "worldX": "5744.00",
+      "worldY": "3471.95"
+    }
+  }
+]

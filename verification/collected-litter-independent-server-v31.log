@@ -1,0 +1,10 @@
+test_collection_survives_service_restart_and_expiration_of_the_pick_effect (test_collected_litter_ownership_v31.CollectedLitterOwnershipTests.test_collection_survives_service_restart_and_expiration_of_the_pick_effect) ... ok
+test_duplicate_pick_and_binning_do_not_reveal_the_collected_ground_again (test_collected_litter_ownership_v31.CollectedLitterOwnershipTests.test_duplicate_pick_and_binning_do_not_reveal_the_collected_ground_again) ... ok
+test_inventory_failure_rolls_back_the_collection_record_and_allows_retry (test_collected_litter_ownership_v31.CollectedLitterOwnershipTests.test_inventory_failure_rolls_back_the_collection_record_and_allows_retry) ... ok
+test_moscow_midnight_resets_visible_collection_without_deleting_inventory (test_collected_litter_ownership_v31.CollectedLitterOwnershipTests.test_moscow_midnight_resets_visible_collection_without_deleting_inventory) ... ok
+test_snapshot_contains_only_the_requesting_accounts_collected_target_ids (test_collected_litter_ownership_v31.CollectedLitterOwnershipTests.test_snapshot_contains_only_the_requesting_accounts_collected_target_ids) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.119s
+
+OK

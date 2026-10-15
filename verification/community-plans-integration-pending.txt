@@ -1,0 +1,39 @@
+test_build_replaces_content_but_keeps_the_existing_shell_and_unknown_rooms (test_community_interior_plans.CommunityPlans.test_build_replaces_content_but_keeps_the_existing_shell_and_unknown_rooms) ... ok
+test_each_room_has_its_existing_action_and_a_distinct_purpose (test_community_interior_plans.CommunityPlans.test_each_room_has_its_existing_action_and_a_distinct_purpose) ... ok
+test_generated_public_map_keeps_community_actions_and_all_real_seat_routes (test_community_interior_plans.CommunityPlans.test_generated_public_map_keeps_community_actions_and_all_real_seat_routes) ... 
+  test_generated_public_map_keeps_community_actions_and_all_real_seat_routes (test_community_interior_plans.CommunityPlans.test_generated_public_map_keeps_community_actions_and_all_real_seat_routes) (room='arena') ... FAIL
+  test_generated_public_map_keeps_community_actions_and_all_real_seat_routes (test_community_interior_plans.CommunityPlans.test_generated_public_map_keeps_community_actions_and_all_real_seat_routes) (room='results') ... FAIL
+test_generated_public_map_keeps_community_actions_and_all_real_seat_routes (test_community_interior_plans.CommunityPlans.test_generated_public_map_keeps_community_actions_and_all_real_seat_routes) ... FAIL
+test_real_supports_clear_entry_axis_and_all_actions_and_seats_are_reachable (test_community_interior_plans.CommunityPlans.test_real_supports_clear_entry_axis_and_all_actions_and_seats_are_reachable) ... ok
+
+======================================================================
+FAIL: test_generated_public_map_keeps_community_actions_and_all_real_seat_routes (test_community_interior_plans.CommunityPlans.test_generated_public_map_keeps_community_actions_and_all_real_seat_routes) (room='arena')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/sapp/Desktop/Игра/Bzikert 2.0/game/tests/test_community_interior_plans.py", line 112, in test_generated_public_map_keeps_community_actions_and_all_real_seat_routes
+    self.assertGreaterEqual(len(r['seats']), 4)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 not greater than or equal to 4
+
+======================================================================
+FAIL: test_generated_public_map_keeps_community_actions_and_all_real_seat_routes (test_community_interior_plans.CommunityPlans.test_generated_public_map_keeps_community_actions_and_all_real_seat_routes) (room='results')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/sapp/Desktop/Игра/Bzikert 2.0/game/tests/test_community_interior_plans.py", line 112, in test_generated_public_map_keeps_community_actions_and_all_real_seat_routes
+    self.assertGreaterEqual(len(r['seats']), 4)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 not greater than or equal to 4
+
+======================================================================
+FAIL: test_generated_public_map_keeps_community_actions_and_all_real_seat_routes (test_community_interior_plans.CommunityPlans.test_generated_public_map_keeps_community_actions_and_all_real_seat_routes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/sapp/Desktop/Игра/Bzikert 2.0/game/tests/test_community_interior_plans.py", line 116, in test_generated_public_map_keeps_community_actions_and_all_real_seat_routes
+    self.assertFalse(any('battle-' in p['source_asset'] for p in current['results']['props']))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.155s
+
+FAILED (failures=3)

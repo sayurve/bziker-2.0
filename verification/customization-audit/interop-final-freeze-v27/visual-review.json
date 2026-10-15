@@ -1,0 +1,198 @@
+{
+  "reviewedAt": "2026-10-15T11:44:18.624860+00:00",
+  "sourceSnapshot": {
+    "game/web/avatar.js": "2ba445c67ed7cef5a8cdea6ade353ec32bfae18e72d87b7029c23b6ea0e86d7c",
+    "game/web/source-actors.js": "e335bd0224fc2cc01f6dd8f1c646c55bf98252066854cddcab018e46b0f3bdb8",
+    "game/web/actor-sprite.js": "dd5716f4e9beb3e508513e4b3d9dc4f8c9e675e29ba25aaf1089ef45d5f73a69",
+    "game/web/actor-hair-data.js": "a36efd9c23ae568d2cd5224ebe9feb274866e16d8a0fa8fb55becf7bb0f0bea2",
+    "game/web/actor-custom-data.js": "6c32b6b014e44b69ba06969e367ee1a02662b3b6ab5092f91fea37423fe43fcf",
+    "game/web/actor-atlas-data.js": "be7043781e5c68465d0af1747a8c7f256dd0a4efa648a07dab90f98d2b569a06",
+    "game/web/source-actors-data.js": "2753bf062e500cc18cc65751c94ad95e57cedb77fa1298327320d330809c92a1",
+    "game/web/canonical-actors-data.js": "9744e32229dd06b998aeb5811871c812188cdc6e7002c97f9ca3632435cfe415",
+    "game/web/locomotion.js": "0e21e1877c7e63e074a55f86108b72c1307efad9fcd63cebb4584a25512a5e98",
+    "game/web/locomotion-actors-data.js": "3736a50b9fc041baf97137212d3ab486bc7f134e7aaf1c6cc22437ab2f2d3007"
+  },
+  "sourceStillMatchesAtDiagnostic": true,
+  "sheetsVisuallyReviewed": [
+    {
+      "path": "outfits-g0.png",
+      "sha256": "65ac3433c4ff8ea8701a247302f0b86e52fd2061123ed7d4cc8015d5667bdd96"
+    },
+    {
+      "path": "outfits-g1.png",
+      "sha256": "7b1f38b9815bc24996346ce60384bc1838d2c971534cb967943306d1113ac5fa"
+    },
+    {
+      "path": "hair-g0-c0-h0.png",
+      "sha256": "236082c696df5cb1cb346a5cd3bb39265d34c5fc6164c9b375aa93a868c4ddb0"
+    },
+    {
+      "path": "hair-g0-c0-h1.png",
+      "sha256": "31dd8e7b6b1e0aab3fda3ac445ea53818485e5d6c89daf66319f7a320c8cfcbe"
+    },
+    {
+      "path": "hair-g0-c0-h2.png",
+      "sha256": "d49c298997dd197e252ab4e0c5d6494847e79adf25bba7b46d19f1131269ab59"
+    },
+    {
+      "path": "hair-g0-c0-h3.png",
+      "sha256": "207a494783c3c3b44422e7172d0f3b1f1c8cf80d542af3179a50f5a9eafb6106"
+    },
+    {
+      "path": "hair-g0-c0-h4.png",
+      "sha256": "27a9a95a551fdf7ccad76ace72eacaee10a180a16e3fc8d342e728cf9d39b0a7"
+    },
+    {
+      "path": "hair-g0-c6-h0.png",
+      "sha256": "343e819b043cbdfbb29cb4c7d046d00234f3a4898eeb581942d8a19249d58a29"
+    },
+    {
+      "path": "hair-g0-c6-h1.png",
+      "sha256": "96c0d452e43ed2062caa71ccfb61b01d75a3d7e91668a8ef3a76ea54e9e82575"
+    },
+    {
+      "path": "hair-g0-c6-h2.png",
+      "sha256": "6eb2128ee5742aed2e132560ab9defd1bfb417f8efa2848564294b5526fe91e7"
+    },
+    {
+      "path": "hair-g0-c6-h3.png",
+      "sha256": "91b4c7ab0070a758ad6e9063f9562f2e5df0459b159f3dec4f2475100f3cffe4"
+    },
+    {
+      "path": "hair-g0-c6-h4.png",
+      "sha256": "80f3608b54f6a196d89e8513249aca754aef67afa5c84451dbf73798071917c2"
+    },
+    {
+      "path": "hair-g1-c0-h0.png",
+      "sha256": "d2a0920a823d48e0834a1b0df8db9b48427962200fab5192feba62e6a3d36b27"
+    },
+    {
+      "path": "hair-g1-c0-h1.png",
+      "sha256": "328492c62305e6387aabb8752c8c89d9569e498dba50593d6c2ed5e5dc960c1c"
+    },
+    {
+      "path": "hair-g1-c0-h2.png",
+      "sha256": "ffe33aba07c78fdb0f37366c5fa6fb96cc43702b60c8289a2852778486671f07"
+    },
+    {
+      "path": "hair-g1-c0-h3.png",
+      "sha256": "5712e2027f752c64b77d09c7cabaa6a3515f6223026d7021bfd93abceeea3e65"
+    },
+    {
+      "path": "hair-g1-c0-h4.png",
+      "sha256": "5117521c9d171ac1b3c98f5cb810f6a8c92a71ce587825367335f15a102b5f71"
+    },
+    {
+      "path": "hair-g1-c6-h0.png",
+      "sha256": "adf3d42b22f5f0a03c945163eac34ac7916ffa0c0b59e6d46458468203c00152"
+    },
+    {
+      "path": "hair-g1-c6-h1.png",
+      "sha256": "7d5607e81c9cc2687dd1928aaefe2c9ffa8d8734d57d5845caf8c9a8be36209c"
+    },
+    {
+      "path": "hair-g1-c6-h2.png",
+      "sha256": "9d1684e3e0fd4cb2507654cbe148a03d8bdb63465b99e3b697ade8d91aa87b5a"
+    },
+    {
+      "path": "hair-g1-c6-h3.png",
+      "sha256": "ca761c7cc0fd6b571ad978164b5632f1f4a9bbab116ba9ece4ea11707114d5b5"
+    },
+    {
+      "path": "hair-g1-c6-h4.png",
+      "sha256": "107095b4079853f0b15679578a87cad94f90f66c71308557a31ab787db8687b8"
+    }
+  ],
+  "attentionImage": "outfit-face-attention-zoom.png",
+  "fullFacePolygonCandidateCases": 116,
+  "changedPixelsAcrossCandidateCases": 1789,
+  "changedPixelsInsideAuthoredHeadBox": 82,
+  "insideHeadBoxCases": [
+    {
+      "gender": 0,
+      "outfit": 6,
+      "facing": "left",
+      "phase": 0
+    },
+    {
+      "gender": 0,
+      "outfit": 6,
+      "facing": "left",
+      "phase": 2
+    },
+    {
+      "gender": 1,
+      "outfit": 6,
+      "facing": "down",
+      "phase": 0
+    },
+    {
+      "gender": 1,
+      "outfit": 6,
+      "facing": "down",
+      "phase": 1
+    },
+    {
+      "gender": 1,
+      "outfit": 6,
+      "facing": "down",
+      "phase": 2
+    },
+    {
+      "gender": 1,
+      "outfit": 6,
+      "facing": "down",
+      "phase": 3
+    },
+    {
+      "gender": 1,
+      "outfit": 6,
+      "facing": "right",
+      "phase": 0
+    },
+    {
+      "gender": 1,
+      "outfit": 6,
+      "facing": "right",
+      "phase": 1
+    },
+    {
+      "gender": 1,
+      "outfit": 6,
+      "facing": "right",
+      "phase": 2
+    },
+    {
+      "gender": 1,
+      "outfit": 6,
+      "facing": "right",
+      "phase": 3
+    },
+    {
+      "gender": 1,
+      "outfit": 6,
+      "facing": "left",
+      "phase": 0
+    },
+    {
+      "gender": 1,
+      "outfit": 6,
+      "facing": "left",
+      "phase": 1
+    },
+    {
+      "gender": 1,
+      "outfit": 6,
+      "facing": "left",
+      "phase": 2
+    },
+    {
+      "gender": 1,
+      "outfit": 6,
+      "facing": "left",
+      "phase": 3
+    }
+  ],
+  "confirmedFinding": "outfit6 vertical detail overwrites warm facial pixels, e.g. g1/down/phase0 fine48,58",
+  "technicalPassIsNotArtApproval": true
+}

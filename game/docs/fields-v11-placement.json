@@ -1,0 +1,55 @@
+{
+  "seed": 11092026,
+  "source_sha256": "2c1dafd378b80466dd3b37df51f17cc5be281fb4ae9959ce8d2bb8e2f99e45e8",
+  "animals_sha256": "7d350ab8fc839f0c765b32c2bc9fb1a5b9e49d312334593491731dbe046b7dfa",
+  "animal_route_count": 12,
+  "animal_segment_count": 48,
+  "tree_count": 330,
+  "flower_planters": 10,
+  "sectors": [
+    {
+      "row": 1,
+      "col": 1,
+      "target": 70,
+      "added": 70
+    },
+    {
+      "row": 1,
+      "col": 2,
+      "target": 55,
+      "added": 55
+    },
+    {
+      "row": 1,
+      "col": 3,
+      "target": 40,
+      "added": 40
+    },
+    {
+      "row": 2,
+      "col": 1,
+      "target": 75,
+      "added": 75
+    },
+    {
+      "row": 2,
+      "col": 2,
+      "target": 55,
+      "added": 55
+    },
+    {
+      "row": 2,
+      "col": 3,
+      "target": 35,
+      "added": 35
+    }
+  ],
+  "bounds": "tree cached sprite: [x−58s, y−120s, 124s, 165s]",
+  "road_clearance": "all route widths / 2 + 27px; generated approaches / 2 + 8px",
+  "animal_clearance": "each closed route segment: body radius 18px + tree radius; full sprite sweep x±30px/y−41..+14px",
+  "tree_kinds": [
+    "round",
+    "birch",
+    "pine"
+  ]
+}

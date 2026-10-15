@@ -1,0 +1,198 @@
+{
+  "status": "awaiting-visual-review",
+  "contact": "contact-g1-shirtStyle-00.png",
+  "records": [
+    {
+      "source": "g1-shirtStyle-00-up.jpg",
+      "sha256": "d789251e243293b4e6651ec0ec9fc2ba318bdd3116061284671b6032e0c33e2f",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 0
+    },
+    {
+      "source": "g1-shirtStyle-00-left.jpg",
+      "sha256": "0181b4bb4da7ba34ef53762f146232e0cf59d34c546ec428643faa970b53f4ec",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 0
+    },
+    {
+      "source": "g1-shirtStyle-00-down.jpg",
+      "sha256": "6b110af8bc8f1d2ee0741a99d1c5fd26efe866f0d2271e1f07ed07023ac0db89",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 0
+    },
+    {
+      "source": "g1-shirtStyle-00-right.jpg",
+      "sha256": "672840b8d8e3be3f2db6bb5b2b54707ceef642e4f8210cf2443e0492d61e0703",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 0
+    },
+    {
+      "source": "g1-shirtStyle-01-up.jpg",
+      "sha256": "2aac47e295ed92bade4a506615913776474b813df872702db939bb4763bc13a3",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 1
+    },
+    {
+      "source": "g1-shirtStyle-01-left.jpg",
+      "sha256": "4bccf8b02e5cdf7a8e622ab08b9c9bfd0ffdf193421643807f811cbdb3265c86",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 1
+    },
+    {
+      "source": "g1-shirtStyle-01-down.jpg",
+      "sha256": "098bfeb4e78db2aa6895df589912f757ab12330abd6f48a08d31a9575099d227",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 1
+    },
+    {
+      "source": "g1-shirtStyle-01-right.jpg",
+      "sha256": "4eae31d3006b746defdc3731c8403c2419be1aa3654d85655166a739ea679a63",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 1
+    },
+    {
+      "source": "g1-shirtStyle-02-up.jpg",
+      "sha256": "e6be6619fb3b22488924da6ac141dd9a335d640476a56e0c53255e47e6568de8",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 2
+    },
+    {
+      "source": "g1-shirtStyle-02-left.jpg",
+      "sha256": "c78f163811d94a010dc55a8759de97501435a6e4e5fde76ceec8cb99bb05908f",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 2
+    },
+    {
+      "source": "g1-shirtStyle-02-down.jpg",
+      "sha256": "4b40ec41237c4a1bd64908bf48781a331c847df69ba63133b12f69049ec43373",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 2
+    },
+    {
+      "source": "g1-shirtStyle-02-right.jpg",
+      "sha256": "ac1175a0d096a96af4c523166cc3f44066e7572fa5f43e38b0b9ac6c5add9b70",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 2
+    },
+    {
+      "source": "g1-shirtStyle-03-up.jpg",
+      "sha256": "9a50dd0f017a8e1b933ea99972a45edfa79ed7ffbdce86bb9dd133e4fa1b5171",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 3
+    },
+    {
+      "source": "g1-shirtStyle-03-left.jpg",
+      "sha256": "fe6e74f6468241df3fc17b2515fab6b1adf68d1bc9e0f2847717927fcc22d285",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 3
+    },
+    {
+      "source": "g1-shirtStyle-03-down.jpg",
+      "sha256": "4c2ef4953d2005675a9b0d8efdc30bdf429392631460c10a3e04eeb3b741495e",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 3
+    },
+    {
+      "source": "g1-shirtStyle-03-right.jpg",
+      "sha256": "03939655e392b5bbd450854dc55a9e8022924e99be1a9c52dace02814592b754",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 3
+    }
+  ]
+}

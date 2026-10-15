@@ -1,0 +1,37 @@
+......................................................................................................................................................................................................./Users/sapp/Desktop/Игра/Bzikert 2.0 GitHub/game/economy.py:93: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10b19cd60>
+  db.execute('CREATE TABLE IF NOT EXISTS friendships (first_id TEXT NOT NULL, second_id TEXT NOT NULL, PRIMARY KEY(first_id,second_id), CHECK(first_id<second_id))')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/sapp/Desktop/Игра/Bzikert 2.0 GitHub/game/economy.py:93: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10b9e3a60>
+  db.execute('CREATE TABLE IF NOT EXISTS friendships (first_id TEXT NOT NULL, second_id TEXT NOT NULL, PRIMARY KEY(first_id,second_id), CHECK(first_id<second_id))')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.................................../opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/__init__.py:185: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10bf023e0>
+  def dumps(obj, *, skipkeys=False, ensure_ascii=True, check_circular=True,
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+........................../Users/sapp/Desktop/Игра/Bzikert 2.0 GitHub/game/economy.py:82: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10bf023e0>
+  db.execute('CREATE TABLE IF NOT EXISTS quest_claims (account_id TEXT NOT NULL, quest_id TEXT NOT NULL, PRIMARY KEY(account_id,quest_id))')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/sapp/Desktop/Игра/Bzikert 2.0 GitHub/game/economy.py:82: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10bf03f10>
+  db.execute('CREATE TABLE IF NOT EXISTS quest_claims (account_id TEXT NOT NULL, quest_id TEXT NOT NULL, PRIMARY KEY(account_id,quest_id))')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/sapp/Desktop/Игра/Bzikert 2.0 GitHub/game/economy.py:82: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10bf016c0>
+  db.execute('CREATE TABLE IF NOT EXISTS quest_claims (account_id TEXT NOT NULL, quest_id TEXT NOT NULL, PRIMARY KEY(account_id,quest_id))')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/sapp/Desktop/Игра/Bzikert 2.0 GitHub/game/economy.py:82: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10bf01e40>
+  db.execute('CREATE TABLE IF NOT EXISTS quest_claims (account_id TEXT NOT NULL, quest_id TEXT NOT NULL, PRIMARY KEY(account_id,quest_id))')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+..................../Users/sapp/Desktop/Игра/Bzikert 2.0 GitHub/game/tests/test_shop_plans.py:104: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10bf02200>
+  points = [(start['x'] + ix * step, start['y'] + iy * step) for ix, iy in visited]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/Users/sapp/Desktop/Игра/Bzikert 2.0 GitHub/game/tests/test_shop_plans.py:104: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x10bf015d0>
+  points = [(start['x'] + ix * step, start['y'] + iy * step) for ix, iy in visited]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.........................................................................
+----------------------------------------------------------------------
+Ran 353 tests in 62.792s
+
+OK
+{"file_count": 27, "total_bytes": 4199, "largest_file_bytes": 2436, "native_reference_count": 18, "publication_performed": false, "live_database_included": false, "archive_bytes": 6553}
+{"file_count": 27, "total_bytes": 4199, "largest_file_bytes": 2436, "native_reference_count": 18, "publication_performed": false, "live_database_included": false, "archive_bytes": 6553}
+{"file_count": 27, "total_bytes": 4199, "largest_file_bytes": 2436, "native_reference_count": 18, "publication_performed": false, "live_database_included": false}
+{"file_count": 28, "total_bytes": 4248, "archive_bytes": 6826, "archive_sha256": "56e6f788357a3f986450b088968b68518228f545b78cc467b742055d15993f71", "manifest_sha256": "404832de07d66c6adece574bf87afe9e097155e232139497820cfb94bbe38f07", "publication_performed": false}
+{"file_count": 27, "total_bytes": 4199, "largest_file_bytes": 2436, "native_reference_count": 18, "publication_performed": false, "live_database_included": false}

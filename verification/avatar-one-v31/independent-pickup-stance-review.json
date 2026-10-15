@@ -1,0 +1,54 @@
+{
+  "scope": "ONE male H7 white6 skin3 shirt8 only; independent actual UI file review, no browser interaction",
+  "status": "viewed with separate unresolved late-action ordering finding",
+  "worldSha": "a94b566cde2bede8e931bfcbfd10886312d96f1bfb7cd9bd9cb96dde403a692b",
+  "sourceActorsSha": "a101e25573dd30747c40477e738ce5eb40857f7881cff9a7c48338f4795cb071",
+  "viewedEntire": [
+    "pickup-stance-ui-contact.png",
+    "pickup-stance-ui-06.jpg",
+    "pickup-stance-inventory.jpg"
+  ],
+  "files": {
+    "pickup-stance-ui-contact.png": "20e22866b65d2f4a6acfc9b1de03cd956d5bd9180c429d0006a2b9b1159aadf9",
+    "pickup-stance-ui-06.jpg": "d24cdeccb69c74f4739672fd6e890c770ceb15ec517e78b6091aec218dd7b789",
+    "pickup-stance-inventory.jpg": "220c3e008aa84781c672c0e13e0bec3b463b1b76fe316204c1fd6b31e421a394",
+    "pickup-stance-before.jpg": "d38fc3c0ec8d796f4630052e35fa8bf28fc2246aab81d579cf1cda36542d96b6",
+    "pickup-stance-ui-00.jpg": "7d3bd633152279c74bd899ea671e614779fab59472ae4a87469e3e8b590baebf",
+    "pickup-stance-ui-01.jpg": "7d3bd633152279c74bd899ea671e614779fab59472ae4a87469e3e8b590baebf",
+    "pickup-stance-ui-02.jpg": "d1cfa4e959855725167c9f4b7044a0b0c6601fab63f743dc9d936e05d31664c1",
+    "pickup-stance-ui-03.jpg": "d1cfa4e959855725167c9f4b7044a0b0c6601fab63f743dc9d936e05d31664c1",
+    "pickup-stance-ui-04.jpg": "01c272526ba681afb286c32931b7d3a3120c9b37d7a2ba53e57475467ec0b857",
+    "pickup-stance-ui-05.jpg": "01c272526ba681afb286c32931b7d3a3120c9b37d7a2ba53e57475467ec0b857",
+    "pickup-stance-ui-07.jpg": "22464c2b1dd77f21b64eecd50608c8d76ce496ed5b401335fdc5fadfd0029376",
+    "pickup-stance-ui-08.jpg": "df8970e94d527cb9f2c0db453208a4bbbd52fff72f56dce002a00885c3cf984d",
+    "pickup-stance-ui-09.jpg": "4bcc3b493f75d0129c78ddfc371ba1b50ff68db49685df7e6ff0c6a107083daf",
+    "pickup-stance-ui-10.jpg": "bb40c2c52da1201aea0b75f930aab087ad935455c7c9babae93400542d1d00c1",
+    "pickup-stance-ui-11.jpg": "98ad05b103c2b21232e69fbff96021ed9baa28ce8eafcea037850f875f344ba9",
+    "pickup-stance-after-reload.jpg": "03e0a85e40805d0c41082979f881236708a12a253fb90be77363b6a8ea4dac32",
+    "pickup-stance-throw-contact.png": "b465481a8fcfe7a429fcc7c34e588da083ef2400994abe4677131695129cd47c",
+    "pickup-stance-throw-00.jpg": "a2e2506a56903080aa405baaa69cbc468d399f3f4ef1c23c0faefbcb9a603692",
+    "pickup-stance-throw-01.jpg": "f2d16367bba8a70388cb8dbaa53b9b7164957e6651c0beb8797ae6fbebb75843",
+    "pickup-stance-throw-02.jpg": "f2d16367bba8a70388cb8dbaa53b9b7164957e6651c0beb8797ae6fbebb75843",
+    "pickup-stance-throw-03.jpg": "f2d16367bba8a70388cb8dbaa53b9b7164957e6651c0beb8797ae6fbebb75843",
+    "pickup-stance-throw-04.jpg": "e536c6fac59feddf51b453969fe9357386af15a42843af6617503f0675eb52fc",
+    "pickup-stance-throw-05.jpg": "f78c4cb1086aff6fdc032a9bf44a1adae2edbb3811fbfce1863c22588c7e5ae5",
+    "pickup-stance-throw-06.jpg": "789d443f7fc5e417dc6fa87f4a1e81c78036adaedb8ead6f14398d141bb87840",
+    "pickup-stance-throw-07.jpg": "5a1b84c8c9f33fd9243097955c546a233cfbeedc0e796ef3a523efc1105bf037",
+    "pickup-stance-throw-08.jpg": "7936cb783b01e871cb15d593aecd99542693eaf9b74504b7ca8db5a8597dda49",
+    "pickup-stance-throw-09.jpg": "f3733c99241806fbaaeadacc556c831ddaa478efd7bde8b2f59d172f964a9efd",
+    "pickup-stance-throw-10.jpg": "6a12636592988525936e2a7c3a825bce65755dd7b637d13bcc4cd4c83283d41a"
+  },
+  "notes": [
+    "Contact sheet includes before +12 actual UI frames.",
+    "Hand reaches source pile at left-facing squat06/07; pile absent after contact.",
+    "Approach gait undersampled in actual screenshots; real L bitmap independently covered by Node test.",
+    "Inventory2/10: trash1 and rod1; no claim of empty inventory.",
+    "No new visible major face, hair, shoulder discontinuity in this ONE selection.",
+    "Root-labelled after-reload screenshot independently viewed: pile absent at same place; reload operation itself performed by root.",
+    "Subsequent11-frame throw contact viewed entire: paper reaches bin opening/lower lip07 and arm returns; no claim that snapshots cover all flight positions."
+  ],
+  "additionalViewedEntire": [
+    "pickup-stance-after-reload.jpg",
+    "pickup-stance-throw-contact.png"
+  ]
+}

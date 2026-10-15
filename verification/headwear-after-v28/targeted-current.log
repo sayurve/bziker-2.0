@@ -1,0 +1,19 @@
+✔ changing hair never deletes the genuine fine skin hidden by a brown coarse sample (77.547041ms)
+✔ native eyes retain every bright eye pixel through all 12 hairstyles and motion directions (5077.400666ms)
+✔ native rear and side ear skin survives every hairstyle without turning into white hair (368.2545ms)
+✔ short rear styles preserve the genuine native lower nape until a reviewed hidden-neck layer exists (2166.593584ms)
+✔ all native hairstyle phases keep a transparent safety edge without resizing the head or actor (6816.184583ms)
+✔ all 12 hairstyles preserve every opaque native authored face pixel on current approved idle and running heads (5596.769916ms)
+✔ rear glasses have no opaque lens or bridge stripe across the native back of the head (101.255625ms)
+✔ side glasses surround the authored eye line instead of being only a portrait-row stripe (170.100417ms)
+✔ beast costume ears attach to the actual crown in both genders and every direction (138.003208ms)
+✔ native coat does not introduce disconnected alpha islands around the moving body (483.233334ms)
+✔ a front chest badge is not drawn through hair on the back (15.756542ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 20698.02625

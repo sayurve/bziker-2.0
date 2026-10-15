@@ -1,0 +1,20 @@
+✔ approved HAND and LOWER production resources really decode, preload, and retain individual whole PNG bytes and per-pose metadata (81.653208ms)
+✔ LOWER endpoint bodies, heads and attachments are literal HAND master reuse, not separate nearly matching figures (0.676ms)
+✔ ordinary finite world gestures now render these canonical whole bodies with actual prop attachments and selected hair/clothes (1009.781375ms)
+✔ new water equipment uses the reviewed pose palm, separate supporting grip and authored angle (2.833875ms)
+✔ water body states select finite authored cast/hold/reel/row poses, preserve real coordinates and expose the same frame equipment metadata (1.696166ms)
+✔ phone on a boat or in implicit seated fishing freezes the exact reviewed water hold body and never stands the actor up (0.308792ms)
+✔ unreviewed or invalid water attachments retain actual legacy water rather than partly activating a new body (0.255125ms)
+✔ standing phone selects the exact approved idle model and facing, never the old narrow phone body (1.498541ms)
+✔ standing phone is static across action/page clocks and keeps customization pixels outside its separate item (341.50025ms)
+✔ standing phone attaches to the selected pose actual native palm and is preloaded without a lazy action sequence (0.770417ms)
+✔ seated phone and occupied boats retain the seated context and pelvis instead of selecting standing idle (0.350666ms)
+✔ seated phone retains the exact selected seated body/head/anchor across every phone clock and adds only the separate held phone (208.124708ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1422.771542

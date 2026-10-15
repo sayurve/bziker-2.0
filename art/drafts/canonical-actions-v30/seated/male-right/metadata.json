@@ -1,0 +1,121 @@
+{
+  "status": "draft",
+  "tool": "built-in image_gen",
+  "rawMasterUnchanged": true,
+  "sourceOutput": "/Users/sapp/.codex/generated_images/01a13c9a-ae7d-7bc2-83f6-88b8b5a5e67b/exec-ca29a256-7be1-485c-b6b0-5a8c1e9217a1.png",
+  "master": "art/drafts/canonical-actions-v30/seated/male-right/seated-four-master.png",
+  "masterSha256": "1a8a31e352250f6fd0f3b2e6740d23efe4c7f214a42a0d0fc3a00f58dd6c9875",
+  "actualSize": [
+    1086,
+    1448
+  ],
+  "requestedSize": [
+    1536,
+    2048
+  ],
+  "layout": "2x2",
+  "cell": [
+    543,
+    724
+  ],
+  "uniformScale": 0.17679558011049723,
+  "referencePaths": [
+    "game/assets/canonical-idle-v2/male-right-fine.png",
+    "art/drafts/canonical-idle-v2/male-idle-right.png"
+  ],
+  "poses": [
+    {
+      "pose": "neutral",
+      "cell": [
+        0,
+        0,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "output": "neutral-fine-raw.png",
+      "nativeCanvas": [
+        96,
+        128
+      ],
+      "nativeAlphaBounds": [
+        24,
+        14,
+        85,
+        124
+      ],
+      "edgeInk": 0,
+      "anchorStatus": "Authored pelvis/ground registration pending pilot review; no bbox normalization applied"
+    },
+    {
+      "pose": "hand-chest",
+      "cell": [
+        543,
+        0,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "output": "hand-chest-fine-raw.png",
+      "nativeCanvas": [
+        96,
+        128
+      ],
+      "nativeAlphaBounds": [
+        19,
+        14,
+        79,
+        124
+      ],
+      "edgeInk": 0,
+      "anchorStatus": "Authored pelvis/ground registration pending pilot review; no bbox normalization applied"
+    },
+    {
+      "pose": "hand-mouth",
+      "cell": [
+        0,
+        724,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "output": "hand-mouth-fine-raw.png",
+      "nativeCanvas": [
+        96,
+        128
+      ],
+      "nativeAlphaBounds": [
+        24,
+        8,
+        85,
+        118
+      ],
+      "edgeInk": 0,
+      "anchorStatus": "Authored pelvis/ground registration pending pilot review; no bbox normalization applied"
+    },
+    {
+      "pose": "reach",
+      "cell": [
+        543,
+        724,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "output": "reach-fine-raw.png",
+      "nativeCanvas": [
+        96,
+        128
+      ],
+      "nativeAlphaBounds": [
+        18,
+        8,
+        88,
+        118
+      ],
+      "edgeInk": 0,
+      "anchorStatus": "Authored pelvis/ground registration pending pilot review; no bbox normalization applied"
+    }
+  ],
+  "review": "Pilot generated, wholebody/registration/identity review required before otherdirections or runtime use; newfullposes do not establish separate clothing layers"
+}

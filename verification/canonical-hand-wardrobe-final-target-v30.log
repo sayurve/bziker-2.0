@@ -1,0 +1,33 @@
+✔ real raincoat remains yellow on authored male down squat sleeve below old y44 cut (44.716417ms)
+✔ real raincoat remains yellow on authored male right squat sleeve below old y44 cut (33.316208ms)
+✔ real raincoat remains yellow on authored male up squat sleeve below old y44 cut (39.843208ms)
+✔ real raincoat remains yellow on authored male left squat sleeve below old y44 cut (22.61225ms)
+✔ real raincoat remains yellow on authored female down squat sleeve below old y44 cut (57.215208ms)
+✔ real raincoat remains yellow on authored female right squat sleeve below old y44 cut (80.68375ms)
+✔ real raincoat remains yellow on authored female up squat sleeve below old y44 cut (21.806583ms)
+✔ real raincoat remains yellow on authored female left squat sleeve below old y44 cut (19.210542ms)
+✔ basic selected shirt colour reaches actual bent male down cloth (8.890084ms)
+✔ basic selected shirt colour reaches actual bent male right cloth (7.709875ms)
+✔ basic selected shirt colour reaches actual bent male up cloth (7.273209ms)
+✔ basic selected shirt colour reaches actual bent male left cloth (6.981417ms)
+✔ basic selected shirt colour reaches actual bent female down cloth (6.585042ms)
+✔ basic selected shirt colour reaches actual bent female right cloth (5.936041ms)
+✔ basic selected shirt colour reaches actual bent female up cloth (6.042875ms)
+✔ basic selected shirt colour reaches actual bent female left cloth (5.622459ms)
+✔ current male down shorts expose softly shaded selected skin instead of near-black trouser texture (26.236417ms)
+✔ current male right shorts expose softly shaded selected skin instead of near-black trouser texture (23.885ms)
+✔ current male up shorts expose softly shaded selected skin instead of near-black trouser texture (18.639958ms)
+✔ current male left shorts expose softly shaded selected skin instead of near-black trouser texture (20.104917ms)
+✔ current female down shorts expose softly shaded selected skin instead of near-black trouser texture (18.662667ms)
+✔ current female right shorts expose softly shaded selected skin instead of near-black trouser texture (17.4865ms)
+✔ current female up shorts expose softly shaded selected skin instead of near-black trouser texture (15.838334ms)
+✔ current female left shorts expose softly shaded selected skin instead of near-black trouser texture (15.701666ms)
+✔ shorts retain exact actual head and warm hand pixels plus native alpha on all 64 HAND/LOWER snapshots (1008.262917ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1835.387667

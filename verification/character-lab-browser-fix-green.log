@@ -1,0 +1,12 @@
+✔ lab manifests explicitly preview complete source poses, with all palettes and four authored directions (8.200083ms)
+✔ lab steps one controller frame by distance and invalid outfit preserves snapshot (1.521709ms)
+✔ lab renders actual source artwork into constant native canvases without manufacturing garment layers (2018.315375ms)
+✔ standalone lab exposes deterministic QA fields and account-free local Phaser entrypoint (1.08575ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2416.508875

@@ -1,0 +1,11 @@
+✔ approved female identity has four independently authored donor faces and retains each exact opaque face through idle and all run phases (47.72525ms)
+✔ female body materials, hands, boots and grounding survive new identity without geometry or alpha damage (71.675708ms)
+✔ female extraction discards faint background residues without discarding any actual opaque head pixel (4.518791ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 283.164042

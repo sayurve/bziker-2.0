@@ -1,0 +1,403 @@
+{
+  "createdAt": "2026-10-15T12:36:56.033Z",
+  "gender": 1,
+  "category": "headwear",
+  "source": "final-fixed",
+  "cases": 20,
+  "crop": {
+    "x": 535,
+    "y": 375,
+    "width": 135,
+    "height": 180
+  },
+  "qaOnly": true,
+  "productionArtChanged": false,
+  "realBrowserCaptures": true,
+  "renderedMockups": false,
+  "scale": 1.5,
+  "sheets": [
+    "page-1.png"
+  ],
+  "records": [
+    {
+      "value": 0,
+      "name": "Без убора",
+      "gender": 1,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-00-down.jpg",
+      "sourceSha256": "0053995bb2552d0c9da3504a4e3c5cdb30d25ba1e00df5fb2349eda36acab4ee",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-00-down-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Без убора",
+      "gender": 1,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-00-left.jpg",
+      "sourceSha256": "ffbabd90332c536e7a807e1088dcb89cf5ceb0380369fd21a78c43b67d7f3c70",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-00-left-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Без убора",
+      "gender": 1,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-00-up.jpg",
+      "sourceSha256": "ceae1f4177f2b33c7c11917add9c003f1c060df4a714d3a47002ee5c2dfddadb",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-00-up-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Без убора",
+      "gender": 1,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-00-right.jpg",
+      "sourceSha256": "c81043a121bcfe14f8adf43180f4e9cd67b9fa017799b108a7619d71109269cb",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-00-right-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Кепка",
+      "gender": 1,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-01-down.jpg",
+      "sourceSha256": "3d9f580cd05979ca36cf69c9ed009c3b785a1e1c4c00453979d3d8fffb603e70",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-01-down-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Кепка",
+      "gender": 1,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-01-left.jpg",
+      "sourceSha256": "ac406662daccf63ac5a5b9d160162e25bded5153188101509865dc9e9a1bdc5f",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-01-left-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Кепка",
+      "gender": 1,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-01-up.jpg",
+      "sourceSha256": "d2ad6acf50e75eb6f204b58add84ebf1465571385b7a49e132b07e004f9ef0ee",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-01-up-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Кепка",
+      "gender": 1,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-01-right.jpg",
+      "sourceSha256": "4fda52a42cca35661fb0993c4640cab4896d33c6e034791118e8f0f87238e2f7",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-01-right-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Шапка",
+      "gender": 1,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-02-down.jpg",
+      "sourceSha256": "359fca92f8513c512e2948a99e35d0c7d5947c06d3370f5120127593d357bd68",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-02-down-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Шапка",
+      "gender": 1,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-02-left.jpg",
+      "sourceSha256": "957ca7bbdb78a0de5c32f2e2d29b33cf884d6f0cc83b92f8c9ba62eb1f566a20",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-02-left-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Шапка",
+      "gender": 1,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-02-up.jpg",
+      "sourceSha256": "f2c20ad19050a997dd34e78543d54d6badfb502f64639092e58dd77c02b867a5",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-02-up-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Шапка",
+      "gender": 1,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-02-right.jpg",
+      "sourceSha256": "b8004fea4934fceb043e40d349cc06a5390c326f81ee8f6f11f08c903d6e47a3",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-02-right-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Панама",
+      "gender": 1,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-03-down.jpg",
+      "sourceSha256": "74e1e47993462365f9d46d5ac5148d7393d0f6f45e5f8ee615efabb214fca6c9",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-03-down-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Панама",
+      "gender": 1,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-03-left.jpg",
+      "sourceSha256": "4fa9829894f5157b77bba99a2edc8ff7300ca09b23c35dcc9376f69dc6cc74a1",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-03-left-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Панама",
+      "gender": 1,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-03-up.jpg",
+      "sourceSha256": "1dbe4e7610adca8a7f538886340f53b5b66e376da1d563a2a9f87bce1a319f15",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-03-up-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Панама",
+      "gender": 1,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-03-right.jpg",
+      "sourceSha256": "6fb183436d2c9922d36e09731e333cb7bb2630b4a24e17ed5b716f2fc4168702",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-03-right-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Берет",
+      "gender": 1,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-04-down.jpg",
+      "sourceSha256": "046b8a76bd46d6412810db8671e8ed272f3f146cf0ae1719566abee1bdaf7dfb",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-04-down-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Берет",
+      "gender": 1,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-04-left.jpg",
+      "sourceSha256": "44af02cfe51c17ba9612fbe19f2bdc469cea5843bbfc76d4011c1bcd0af622d0",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-04-left-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Берет",
+      "gender": 1,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-04-up.jpg",
+      "sourceSha256": "55552fca75906fb5e03ce9ab40d6f9319114357b8e7956f4f48767a8bc7a1568",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-04-up-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Берет",
+      "gender": 1,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final-fixed/g1-headwear-04-right.jpg",
+      "sourceSha256": "286460daf8c731f4ad825554fd71e4b8af5b311af561257b589a1707c165212b",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g1-headwear-04-right-crop.png"
+    }
+  ]
+}

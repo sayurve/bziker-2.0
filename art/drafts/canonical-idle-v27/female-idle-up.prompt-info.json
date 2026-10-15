@@ -1,0 +1,10 @@
+{
+  "dir": "up",
+  "source": "/Users/sapp/.codex/generated_images/01a11cc3-6744-72b3-ad8a-81b59ea9f091/exec-de2a1756-c67f-4df4-a03f-2d5c53398247.png",
+  "target": "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/drafts/canonical-idle-v27/female-idle-up.png",
+  "prompt": "Use case: identity-preserve. Edit target: the attached male standing idle up sprite. Create the matching female standing idle sprite for the same game, preserving exactly this pixel-art rendering style, pose, clothing (charcoal open jacket, light gray shirt, black trousers, dark shoes), colors, face/head/hair, camera, root location, transparent canvas, grounded feet and relative body height. Change ONLY the body silhouette: waist about six percent narrower and shoulders about three percent narrower. Keep the same relaxed actual standing pose, arms down, both feet on the same ground. Do not make a walk/run pose. Do not change face style, eye size, hair shape, head proportion, clothing detail or lighting. Do not add feminine makeup, eyelashes, skirt, breasts or any objects. No text, no grid, no shadow. Preserve the original framing and exact canvas dimensions if possible. This is a narrow body variant of exactly the input sprite, with one coherent outline and matching pixel texture, not a new character design.",
+  "reference": "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/drafts/canonical-idle-v2/male-idle-up.png",
+  "sha256": "5b08b2f912a3c4e303e5a1ec682bd32320979fc19225577ab9a50b9598710702",
+  "status": "draft",
+  "sourceTool": "image_gen"
+}

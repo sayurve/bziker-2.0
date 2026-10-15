@@ -1,0 +1,2 @@
+# Optional asset import/rebuild tools only. Not required by server.py.
+Pillow>=10,<13

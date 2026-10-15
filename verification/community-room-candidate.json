@@ -1,0 +1,3350 @@
+{
+  "rooms": [
+    {
+      "id": "arena",
+      "label": "Зал «Своей игры»",
+      "kind": "quizfoyer",
+      "width": 1722,
+      "height": 1238,
+      "bounds": {
+        "left": 329.92562,
+        "right": 1392.07438,
+        "top": 748,
+        "bottom": 1088
+      },
+      "door": {
+        "x": 7168,
+        "y": 7360
+      },
+      "spawn": {
+        "x": 861.0,
+        "y": 1043
+      },
+      "exit": {
+        "x": 861.0,
+        "y": 1068
+      },
+      "action": {
+        "id": "games",
+        "label": "Выбрать или создать матч",
+        "prop_id": "service",
+        "x": 859.6307055,
+        "y": 846,
+        "radius": 110
+      },
+      "solids": [
+        {
+          "prop_id": "service",
+          "x": 811.0,
+          "y": 758,
+          "width": 97.261411,
+          "height": 48
+        },
+        {
+          "prop_id": "staff",
+          "x": 938.261411,
+          "y": 780,
+          "width": 24,
+          "height": 14
+        },
+        {
+          "prop_id": "blue",
+          "x": 404.92562,
+          "y": 798,
+          "width": 162.029361,
+          "height": 45
+        },
+        {
+          "prop_id": "violet",
+          "x": 1142.07438,
+          "y": 798,
+          "width": 172.966457,
+          "height": 45
+        },
+        {
+          "prop_id": "spectator-blue",
+          "x": 424.92562,
+          "y": 953,
+          "width": 145.06383,
+          "height": 38
+        },
+        {
+          "prop_id": "spectator-violet",
+          "x": 1132.07438,
+          "y": 953,
+          "width": 145.06383,
+          "height": 38
+        },
+        {
+          "prop_id": "plant-1",
+          "x": 354.92562,
+          "y": 858,
+          "width": 37.835052,
+          "height": 28
+        },
+        {
+          "prop_id": "plant-2",
+          "x": 1327.07438,
+          "y": 858,
+          "width": 37.835052,
+          "height": 28
+        }
+      ],
+      "seats": [
+        {
+          "id": "interior:arena:spectator-blue:seat-1",
+          "prop_id": "spectator-blue",
+          "x": 424.92562,
+          "y": 953,
+          "width": 145.06383,
+          "height": 38,
+          "seat": {
+            "x": 461.1915775,
+            "y": 991
+          },
+          "approach": {
+            "x": 461.1915775,
+            "y": 1027
+          },
+          "facing": "up"
+        },
+        {
+          "id": "interior:arena:spectator-blue:seat-2",
+          "prop_id": "spectator-blue",
+          "x": 424.92562,
+          "y": 953,
+          "width": 145.06383,
+          "height": 38,
+          "seat": {
+            "x": 533.7234925,
+            "y": 991
+          },
+          "approach": {
+            "x": 533.7234925,
+            "y": 1027
+          },
+          "facing": "up"
+        },
+        {
+          "id": "interior:arena:spectator-violet:seat-1",
+          "prop_id": "spectator-violet",
+          "x": 1132.07438,
+          "y": 953,
+          "width": 145.06383,
+          "height": 38,
+          "seat": {
+            "x": 1168.3403375,
+            "y": 991
+          },
+          "approach": {
+            "x": 1168.3403375,
+            "y": 1027
+          },
+          "facing": "up"
+        },
+        {
+          "id": "interior:arena:spectator-violet:seat-2",
+          "prop_id": "spectator-violet",
+          "x": 1132.07438,
+          "y": 953,
+          "width": 145.06383,
+          "height": 38,
+          "seat": {
+            "x": 1240.8722525,
+            "y": 991
+          },
+          "approach": {
+            "x": 1240.8722525,
+            "y": 1027
+          },
+          "facing": "up"
+        }
+      ],
+      "counter": {
+        "x": 811.0,
+        "y": 758,
+        "width": 97.261411,
+        "height": 48
+      },
+      "cutouts": [],
+      "props": [
+        {
+          "id": "service",
+          "type": "trophy",
+          "x": 811.0,
+          "y": 758,
+          "width": 97.261411,
+          "height": 48,
+          "solid": true,
+          "source_asset": "bzik-hub-interior-central-statue",
+          "source_direction": "front",
+          "visual": {
+            "x": 859.630705,
+            "y": 806,
+            "width": 97.261411,
+            "height": 120,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 806
+        },
+        {
+          "id": "blue",
+          "type": "board",
+          "x": 404.92562,
+          "y": 798,
+          "width": 162.029361,
+          "height": 45,
+          "solid": true,
+          "source_asset": "bzik-hub-interior-battle-blue",
+          "source_direction": "front",
+          "visual": {
+            "x": 485.9403,
+            "y": 843,
+            "width": 162.029361,
+            "height": 145,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 843
+        },
+        {
+          "id": "violet",
+          "type": "board",
+          "x": 1142.07438,
+          "y": 798,
+          "width": 172.966457,
+          "height": 45,
+          "solid": true,
+          "source_asset": "bzik-hub-interior-battle-violet",
+          "source_direction": "front",
+          "visual": {
+            "x": 1228.557609,
+            "y": 843,
+            "width": 172.966457,
+            "height": 145,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 843
+        },
+        {
+          "id": "spectator-blue",
+          "type": "sofa",
+          "x": 424.92562,
+          "y": 953,
+          "width": 145.06383,
+          "height": 38,
+          "solid": true,
+          "source_asset": "clan-furniture-sofa-modern",
+          "source_direction": "back",
+          "visual": {
+            "x": 497.457535,
+            "y": 991,
+            "width": 145.06383,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 991
+        },
+        {
+          "id": "spectator-violet",
+          "type": "sofa",
+          "x": 1132.07438,
+          "y": 953,
+          "width": 145.06383,
+          "height": 38,
+          "solid": true,
+          "source_asset": "clan-furniture-sofa-modern",
+          "source_direction": "back",
+          "visual": {
+            "x": 1204.606295,
+            "y": 991,
+            "width": 145.06383,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 991
+        },
+        {
+          "id": "plant-1",
+          "type": "plant",
+          "x": 354.92562,
+          "y": 858,
+          "width": 37.835052,
+          "height": 28,
+          "solid": true,
+          "source_asset": "bzik-hub-interior-plant",
+          "source_direction": "front",
+          "visual": {
+            "x": 373.843146,
+            "y": 886,
+            "width": 37.835052,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 886
+        },
+        {
+          "id": "plant-2",
+          "type": "plant",
+          "x": 1327.07438,
+          "y": 858,
+          "width": 37.835052,
+          "height": 28,
+          "solid": true,
+          "source_asset": "bzik-hub-interior-plant",
+          "source_direction": "front",
+          "visual": {
+            "x": 1345.991906,
+            "y": 886,
+            "width": 37.835052,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 886
+        }
+      ],
+      "zones": [],
+      "entry_label": "СВОЯ ИГРА · СБОР КОМАНД",
+      "layout_version": 23,
+      "visual_version": 25,
+      "modular_source": true,
+      "source_family": "bzik-hub",
+      "interaction_radius": 110,
+      "source_reference": "bzik-hub-interior",
+      "surfaces": [
+        {
+          "id": "floor",
+          "asset_id": "bzik-hub-interior-floor",
+          "visual": {
+            "x": 861.0,
+            "y": 1168,
+            "width": 1561.983471,
+            "height": 500,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 329.92562,
+            "y": 748,
+            "width": 1062.14876,
+            "height": 340
+          }
+        },
+        {
+          "id": "back-wall",
+          "asset_id": "bzik-hub-interior-wall-back",
+          "visual": {
+            "x": 438.265823,
+            "y": 772.835443,
+            "width": 422.734177,
+            "height": 198.835443,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 329.92562,
+            "y": 574,
+            "width": 320.7072913924052,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 748,
+            "wall_native_y": 322,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "back-wall-1",
+          "asset_id": "bzik-hub-interior-wall-back",
+          "visual": {
+            "x": 861.0,
+            "y": 772.835443,
+            "width": 422.734177,
+            "height": 198.835443,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 648.632911392405,
+            "y": 574,
+            "width": 424.7341772151899,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 748,
+            "wall_native_y": 322,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "back-wall-2",
+          "asset_id": "bzik-hub-interior-wall-back",
+          "visual": {
+            "x": 1283.734177,
+            "y": 772.835443,
+            "width": 422.734177,
+            "height": 198.835443,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 1071.367088607595,
+            "y": 574,
+            "width": 320.70729139240507,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 748,
+            "wall_native_y": 322,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "front-cutaway",
+          "asset_id": "station-interior-back-wall",
+          "visual": {
+            "x": 657.457327,
+            "y": 1108,
+            "width": 655.063415,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 329.92562,
+            "y": 1088,
+            "width": 1062.14876,
+            "height": 20
+          }
+        },
+        {
+          "id": "front-cutaway-1",
+          "asset_id": "station-interior-back-wall",
+          "visual": {
+            "x": 1312.520742,
+            "y": 1108,
+            "width": 655.063415,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 329.92562,
+            "y": 1088,
+            "width": 1062.14876,
+            "height": 20
+          }
+        }
+      ],
+      "details": [
+        {
+          "id": "header",
+          "asset_id": "bzik-hub-interior-header",
+          "source_direction": "front",
+          "visual": {
+            "x": 861.0,
+            "y": 684.44,
+            "width": 206.46789,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 684.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "entry-door",
+          "asset_id": "bzik-hub-interior-entry-door",
+          "source_direction": "front",
+          "visual": {
+            "x": 377.722314,
+            "y": 750,
+            "width": 126.545936,
+            "height": 125,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 750,
+          "interactive": false,
+          "collision": false,
+          "mounting": "floor"
+        },
+        {
+          "id": "overhead-light",
+          "asset_id": "bzik-hub-interior-overhead-light",
+          "source_direction": "front",
+          "visual": {
+            "x": 1137.158678,
+            "y": 600.237569,
+            "width": 75.0,
+            "height": 22.237569,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 600.237569,
+          "interactive": false,
+          "collision": false,
+          "mounting": "ceiling"
+        },
+        {
+          "id": "selector-sign",
+          "asset_id": "bzik-hub-interior-selector-sign",
+          "source_direction": "front",
+          "visual": {
+            "x": 606.084298,
+            "y": 668.34,
+            "width": 140.0,
+            "height": 37.8,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 668.34,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-1",
+          "asset_id": "bzik-hub-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 466.700884,
+            "y": 684.44,
+            "width": 25.550528,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 684.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-2",
+          "asset_id": "bzik-hub-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 730.700884,
+            "y": 684.44,
+            "width": 25.550528,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 684.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-3",
+          "asset_id": "bzik-hub-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 994.700884,
+            "y": 684.44,
+            "width": 25.550528,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 684.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-4",
+          "asset_id": "bzik-hub-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 1258.700884,
+            "y": 684.44,
+            "width": 25.550528,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 684.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "floor-light-1",
+          "asset_id": "bzik-hub-interior-floor-light",
+          "source_direction": "front",
+          "visual": {
+            "x": 521.112397,
+            "y": 1083,
+            "width": 18,
+            "height": 17.637363,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 1083,
+          "interactive": false,
+          "collision": false
+        },
+        {
+          "id": "floor-light-2",
+          "asset_id": "bzik-hub-interior-floor-light",
+          "source_direction": "front",
+          "visual": {
+            "x": 1200.887603,
+            "y": 1083,
+            "width": 18,
+            "height": 17.637363,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 1083,
+          "interactive": false,
+          "collision": false
+        },
+        {
+          "id": "entry-steps",
+          "asset_id": "bzik-hub-interior-entry-steps",
+          "source_direction": "front",
+          "visual": {
+            "x": 861.0,
+            "y": 1108,
+            "width": 130,
+            "height": 39.167862,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "foreground",
+          "depth": 1108,
+          "interactive": false,
+          "collision": false
+        }
+      ],
+      "actor_height": 80,
+      "floor_material": {
+        "asset_id": "clan-surface-floor-concrete-texture",
+        "color": "#b3bac5",
+        "tile_world_size": [
+          320,
+          320
+        ],
+        "regions": [
+          [
+            [
+              329.92562,
+              748
+            ],
+            [
+              1392.07438,
+              748
+            ],
+            [
+              1392.07438,
+              1088
+            ],
+            [
+              329.92562,
+              1088
+            ]
+          ]
+        ]
+      },
+      "circulation": {
+        "entry": {
+          "x": 801.0,
+          "y": 933,
+          "width": 120,
+          "height": 155
+        }
+      },
+      "staff": {
+        "x": 950.261411,
+        "y": 794,
+        "source_asset": "mascot-location-mall",
+        "source_direction": "front",
+        "visual": {
+          "x": 950.261411,
+          "y": 794,
+          "width": 50.424963,
+          "height": 84,
+          "anchorX": 0.5,
+          "anchorY": 1,
+          "crop": "solid"
+        },
+        "depth": 794,
+        "footprint": {
+          "x": 938.261411,
+          "y": 780,
+          "width": 24,
+          "height": 14
+        }
+      },
+      "wall_body_height": 176,
+      "wall_cutaway": {
+        "asset_id": "clan-surface-wall-metal-texture",
+        "tile_world_size": [
+          160,
+          160
+        ],
+        "color": null,
+        "regions": [
+          {
+            "x": 311.92562,
+            "y": 748,
+            "width": 18,
+            "height": 360
+          },
+          {
+            "x": 1392.07438,
+            "y": 748,
+            "width": 18,
+            "height": 360
+          },
+          {
+            "x": 329.92562,
+            "y": 1088,
+            "width": 1062.14876,
+            "height": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "results",
+      "label": "Галерея результатов",
+      "kind": "gallery",
+      "width": 1535,
+      "height": 1108,
+      "bounds": {
+        "left": 300.154545,
+        "right": 1234.845455,
+        "top": 678,
+        "bottom": 958
+      },
+      "door": {
+        "x": 1517,
+        "y": 2440
+      },
+      "spawn": {
+        "x": 767.5,
+        "y": 913
+      },
+      "exit": {
+        "x": 767.5,
+        "y": 938
+      },
+      "action": {
+        "id": "results",
+        "label": "Рейтинг и результаты",
+        "prop_id": "service",
+        "x": 419.131379,
+        "y": 783,
+        "radius": 110
+      },
+      "solids": [
+        {
+          "prop_id": "service",
+          "x": 345.154545,
+          "y": 703,
+          "width": 147.953668,
+          "height": 40
+        },
+        {
+          "prop_id": "staff",
+          "x": 523.108213,
+          "y": 717,
+          "width": 24,
+          "height": 14
+        },
+        {
+          "prop_id": "gallery-trophy",
+          "x": 723.5,
+          "y": 698,
+          "width": 87.53527,
+          "height": 45
+        },
+        {
+          "prop_id": "gallery-hologram",
+          "x": 949.845455,
+          "y": 708,
+          "width": 73.561077,
+          "height": 32
+        },
+        {
+          "prop_id": "result-archives",
+          "x": 1089.845455,
+          "y": 703,
+          "width": 121.435294,
+          "height": 32
+        },
+        {
+          "prop_id": "gallery-seat-left",
+          "x": 365.154545,
+          "y": 833,
+          "width": 145.06383,
+          "height": 38
+        },
+        {
+          "prop_id": "gallery-seat-right",
+          "x": 974.845455,
+          "y": 833,
+          "width": 145.06383,
+          "height": 38
+        },
+        {
+          "prop_id": "plant-1",
+          "x": 320.154545,
+          "y": 773,
+          "width": 37.835052,
+          "height": 28
+        },
+        {
+          "prop_id": "plant-2",
+          "x": 1176.845455,
+          "y": 773,
+          "width": 37.835052,
+          "height": 28
+        }
+      ],
+      "seats": [
+        {
+          "id": "interior:results:gallery-seat-left:seat-1",
+          "prop_id": "gallery-seat-left",
+          "x": 365.154545,
+          "y": 833,
+          "width": 145.06383,
+          "height": 38,
+          "seat": {
+            "x": 401.4205025,
+            "y": 871
+          },
+          "approach": {
+            "x": 401.4205025,
+            "y": 907
+          },
+          "facing": "up"
+        },
+        {
+          "id": "interior:results:gallery-seat-left:seat-2",
+          "prop_id": "gallery-seat-left",
+          "x": 365.154545,
+          "y": 833,
+          "width": 145.06383,
+          "height": 38,
+          "seat": {
+            "x": 473.95241749999997,
+            "y": 871
+          },
+          "approach": {
+            "x": 473.95241749999997,
+            "y": 907
+          },
+          "facing": "up"
+        },
+        {
+          "id": "interior:results:gallery-seat-right:seat-1",
+          "prop_id": "gallery-seat-right",
+          "x": 974.845455,
+          "y": 833,
+          "width": 145.06383,
+          "height": 38,
+          "seat": {
+            "x": 1011.1114125,
+            "y": 871
+          },
+          "approach": {
+            "x": 1011.1114125,
+            "y": 907
+          },
+          "facing": "up"
+        },
+        {
+          "id": "interior:results:gallery-seat-right:seat-2",
+          "prop_id": "gallery-seat-right",
+          "x": 974.845455,
+          "y": 833,
+          "width": 145.06383,
+          "height": 38,
+          "seat": {
+            "x": 1083.6433275,
+            "y": 871
+          },
+          "approach": {
+            "x": 1083.6433275,
+            "y": 907
+          },
+          "facing": "up"
+        }
+      ],
+      "counter": {
+        "x": 345.154545,
+        "y": 703,
+        "width": 147.953668,
+        "height": 40
+      },
+      "cutouts": [],
+      "props": [
+        {
+          "id": "service",
+          "type": "table",
+          "x": 345.154545,
+          "y": 703,
+          "width": 147.953668,
+          "height": 40,
+          "solid": true,
+          "source_asset": "clan-furniture-computer-desk-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 419.131379,
+            "y": 743,
+            "width": 147.953668,
+            "height": 80,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 743
+        },
+        {
+          "id": "gallery-trophy",
+          "type": "trophy",
+          "x": 723.5,
+          "y": 698,
+          "width": 87.53527,
+          "height": 45,
+          "solid": true,
+          "source_asset": "bzik-hub-interior-central-statue",
+          "source_direction": "front",
+          "visual": {
+            "x": 767.267635,
+            "y": 743,
+            "width": 87.53527,
+            "height": 108,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 743
+        },
+        {
+          "id": "gallery-hologram",
+          "type": "board",
+          "x": 949.845455,
+          "y": 708,
+          "width": 73.561077,
+          "height": 32,
+          "solid": true,
+          "source_asset": "clan-furniture-hologram-tech",
+          "source_direction": "front",
+          "visual": {
+            "x": 986.625993,
+            "y": 740,
+            "width": 73.561077,
+            "height": 110,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 740
+        },
+        {
+          "id": "result-archives",
+          "type": "bookcase",
+          "x": 1089.845455,
+          "y": 703,
+          "width": 121.435294,
+          "height": 32,
+          "solid": true,
+          "source_asset": "clan-furniture-bookcase-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 1150.563102,
+            "y": 735,
+            "width": 121.435294,
+            "height": 130,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 735
+        },
+        {
+          "id": "gallery-seat-left",
+          "type": "sofa",
+          "x": 365.154545,
+          "y": 833,
+          "width": 145.06383,
+          "height": 38,
+          "solid": true,
+          "source_asset": "clan-furniture-sofa-modern",
+          "source_direction": "back",
+          "visual": {
+            "x": 437.68646,
+            "y": 871,
+            "width": 145.06383,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 871
+        },
+        {
+          "id": "gallery-seat-right",
+          "type": "sofa",
+          "x": 974.845455,
+          "y": 833,
+          "width": 145.06383,
+          "height": 38,
+          "solid": true,
+          "source_asset": "clan-furniture-sofa-modern",
+          "source_direction": "back",
+          "visual": {
+            "x": 1047.37737,
+            "y": 871,
+            "width": 145.06383,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 871
+        },
+        {
+          "id": "plant-1",
+          "type": "plant",
+          "x": 320.154545,
+          "y": 773,
+          "width": 37.835052,
+          "height": 28,
+          "solid": true,
+          "source_asset": "bzik-hub-interior-plant",
+          "source_direction": "front",
+          "visual": {
+            "x": 339.072071,
+            "y": 801,
+            "width": 37.835052,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 801
+        },
+        {
+          "id": "plant-2",
+          "type": "plant",
+          "x": 1176.845455,
+          "y": 773,
+          "width": 37.835052,
+          "height": 28,
+          "solid": true,
+          "source_asset": "bzik-hub-interior-plant",
+          "source_direction": "front",
+          "visual": {
+            "x": 1195.762981,
+            "y": 801,
+            "width": 37.835052,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 801
+        }
+      ],
+      "zones": [],
+      "entry_label": "ГАЛЕРЕЯ · РЕЙТИНГ И АРХИВ",
+      "layout_version": 23,
+      "visual_version": 25,
+      "modular_source": true,
+      "source_family": "bzik-hub",
+      "interaction_radius": 110,
+      "source_reference": "bzik-hub-interior",
+      "surfaces": [
+        {
+          "id": "floor",
+          "asset_id": "bzik-hub-interior-floor",
+          "visual": {
+            "x": 767.5,
+            "y": 1038,
+            "width": 1374.545455,
+            "height": 440,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 300.154545,
+            "y": 678,
+            "width": 934.6909099999999,
+            "height": 280
+          }
+        },
+        {
+          "id": "back-wall",
+          "asset_id": "bzik-hub-interior-wall-back",
+          "visual": {
+            "x": 344.765823,
+            "y": 702.835443,
+            "width": 422.734177,
+            "height": 198.835443,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 300.154545,
+            "y": 504,
+            "width": 256.9783663924052,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 678,
+            "wall_native_y": 322,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "back-wall-1",
+          "asset_id": "bzik-hub-interior-wall-back",
+          "visual": {
+            "x": 767.5,
+            "y": 702.835443,
+            "width": 422.734177,
+            "height": 198.835443,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 555.132911392405,
+            "y": 504,
+            "width": 424.7341772151899,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 678,
+            "wall_native_y": 322,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "back-wall-2",
+          "asset_id": "bzik-hub-interior-wall-back",
+          "visual": {
+            "x": 1190.234177,
+            "y": 702.835443,
+            "width": 422.734177,
+            "height": 198.835443,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 977.867088607595,
+            "y": 504,
+            "width": 256.97836639240495,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 678,
+            "wall_native_y": 322,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "front-cutaway",
+          "asset_id": "station-interior-back-wall",
+          "visual": {
+            "x": 627.686252,
+            "y": 978,
+            "width": 655.063415,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 300.154545,
+            "y": 958,
+            "width": 934.6909099999999,
+            "height": 20
+          }
+        },
+        {
+          "id": "front-cutaway-1",
+          "asset_id": "station-interior-back-wall",
+          "visual": {
+            "x": 1282.749667,
+            "y": 978,
+            "width": 655.063415,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 300.154545,
+            "y": 958,
+            "width": 934.6909099999999,
+            "height": 20
+          }
+        }
+      ],
+      "details": [
+        {
+          "id": "header",
+          "asset_id": "bzik-hub-interior-header",
+          "source_direction": "front",
+          "visual": {
+            "x": 767.5,
+            "y": 614.44,
+            "width": 206.46789,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 614.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "entry-door",
+          "asset_id": "bzik-hub-interior-entry-door",
+          "source_direction": "front",
+          "visual": {
+            "x": 342.215636,
+            "y": 680,
+            "width": 126.545936,
+            "height": 125,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 680,
+          "interactive": false,
+          "collision": false,
+          "mounting": "floor"
+        },
+        {
+          "id": "overhead-light",
+          "asset_id": "bzik-hub-interior-overhead-light",
+          "source_direction": "front",
+          "visual": {
+            "x": 1010.519636,
+            "y": 530.237569,
+            "width": 75.0,
+            "height": 22.237569,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 530.237569,
+          "interactive": false,
+          "collision": false,
+          "mounting": "ceiling"
+        },
+        {
+          "id": "wall-light-1",
+          "asset_id": "bzik-hub-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 436.929809,
+            "y": 614.44,
+            "width": 25.550528,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 614.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-2",
+          "asset_id": "bzik-hub-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 636.929809,
+            "y": 614.44,
+            "width": 25.550528,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 614.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-3",
+          "asset_id": "bzik-hub-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 900.929809,
+            "y": 614.44,
+            "width": 25.550528,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 614.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-4",
+          "asset_id": "bzik-hub-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 1116.929809,
+            "y": 614.44,
+            "width": 25.550528,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 614.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "floor-light-1",
+          "asset_id": "bzik-hub-interior-floor-light",
+          "source_direction": "front",
+          "visual": {
+            "x": 468.398909,
+            "y": 953,
+            "width": 18,
+            "height": 17.637363,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 953,
+          "interactive": false,
+          "collision": false
+        },
+        {
+          "id": "floor-light-2",
+          "asset_id": "bzik-hub-interior-floor-light",
+          "source_direction": "front",
+          "visual": {
+            "x": 1066.601091,
+            "y": 953,
+            "width": 18,
+            "height": 17.637363,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 953,
+          "interactive": false,
+          "collision": false
+        },
+        {
+          "id": "entry-steps",
+          "asset_id": "bzik-hub-interior-entry-steps",
+          "source_direction": "front",
+          "visual": {
+            "x": 767.5,
+            "y": 978,
+            "width": 130,
+            "height": 39.167862,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "foreground",
+          "depth": 978,
+          "interactive": false,
+          "collision": false
+        }
+      ],
+      "actor_height": 80,
+      "floor_material": {
+        "asset_id": "clan-surface-floor-concrete-texture",
+        "color": "#b3bac5",
+        "tile_world_size": [
+          320,
+          320
+        ],
+        "regions": [
+          [
+            [
+              300.154545,
+              678
+            ],
+            [
+              1234.845455,
+              678
+            ],
+            [
+              1234.845455,
+              958
+            ],
+            [
+              300.154545,
+              958
+            ]
+          ]
+        ]
+      },
+      "circulation": {
+        "entry": {
+          "x": 707.5,
+          "y": 863,
+          "width": 120,
+          "height": 95
+        }
+      },
+      "staff": {
+        "x": 535.108213,
+        "y": 731,
+        "source_asset": "mascot-location-mall",
+        "source_direction": "front",
+        "visual": {
+          "x": 535.108213,
+          "y": 731,
+          "width": 50.424963,
+          "height": 84,
+          "anchorX": 0.5,
+          "anchorY": 1,
+          "crop": "solid"
+        },
+        "depth": 731,
+        "footprint": {
+          "x": 523.108213,
+          "y": 717,
+          "width": 24,
+          "height": 14
+        }
+      },
+      "wall_body_height": 176,
+      "wall_cutaway": {
+        "asset_id": "clan-surface-wall-metal-texture",
+        "tile_world_size": [
+          160,
+          160
+        ],
+        "color": null,
+        "regions": [
+          {
+            "x": 282.154545,
+            "y": 678,
+            "width": 18,
+            "height": 300
+          },
+          {
+            "x": 1234.845455,
+            "y": 678,
+            "width": 18,
+            "height": 300
+          },
+          {
+            "x": 300.154545,
+            "y": 958,
+            "width": 934.6909099999999,
+            "height": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "clans",
+      "label": "Дом кланов",
+      "kind": "clanhall",
+      "width": 1525,
+      "height": 831,
+      "bounds": {
+        "left": 298.636424,
+        "right": 1226.363576,
+        "top": 261,
+        "bottom": 701
+      },
+      "door": {
+        "x": 1416,
+        "y": 1144
+      },
+      "spawn": {
+        "x": 762.5,
+        "y": 656
+      },
+      "exit": {
+        "x": 762.5,
+        "y": 681
+      },
+      "action": {
+        "id": "clans",
+        "label": "Управление кланом",
+        "prop_id": "service",
+        "x": 422.76685899999995,
+        "y": 361,
+        "radius": 110
+      },
+      "solids": [
+        {
+          "prop_id": "service",
+          "x": 343.636424,
+          "y": 281,
+          "width": 158.26087,
+          "height": 40
+        },
+        {
+          "prop_id": "staff",
+          "x": 531.897294,
+          "y": 295,
+          "width": 24,
+          "height": 14
+        },
+        {
+          "prop_id": "registry-terminal",
+          "x": 682.5,
+          "y": 286,
+          "width": 138.706564,
+          "height": 40
+        },
+        {
+          "prop_id": "registry-seat",
+          "x": 737.5,
+          "y": 371,
+          "width": 38.067227,
+          "height": 28
+        },
+        {
+          "prop_id": "management-screen",
+          "x": 1101.363576,
+          "y": 286,
+          "width": 80.248447,
+          "height": 35
+        },
+        {
+          "prop_id": "archives",
+          "x": 328.636424,
+          "y": 471,
+          "width": 126.105882,
+          "height": 32
+        },
+        {
+          "prop_id": "conference-table",
+          "x": 916.363576,
+          "y": 471,
+          "width": 170.434783,
+          "height": 45
+        },
+        {
+          "prop_id": "conference-table:north-1",
+          "x": 928.363576,
+          "y": 406,
+          "width": 38.343949,
+          "height": 25
+        },
+        {
+          "prop_id": "conference-table:south-1",
+          "x": 928.363576,
+          "y": 561,
+          "width": 38.067227,
+          "height": 28
+        },
+        {
+          "prop_id": "conference-table:north-2",
+          "x": 1034.798359,
+          "y": 406,
+          "width": 38.343949,
+          "height": 25
+        },
+        {
+          "prop_id": "conference-table:south-2",
+          "x": 1034.798359,
+          "y": 561,
+          "width": 38.067227,
+          "height": 28
+        },
+        {
+          "prop_id": "waiting-sofa",
+          "x": 363.636424,
+          "y": 591,
+          "width": 144.897119,
+          "height": 38
+        },
+        {
+          "prop_id": "plant-1",
+          "x": 323.636424,
+          "y": 626,
+          "width": 45.257271,
+          "height": 28
+        },
+        {
+          "prop_id": "plant-2",
+          "x": 1161.363576,
+          "y": 626,
+          "width": 45.257271,
+          "height": 28
+        }
+      ],
+      "seats": [
+        {
+          "id": "interior:clans:registry-seat",
+          "prop_id": "registry-seat",
+          "x": 737.5,
+          "y": 371,
+          "width": 38.067227,
+          "height": 28,
+          "seat": {
+            "x": 756.5336135,
+            "y": 399
+          },
+          "approach": {
+            "x": 756.5336135,
+            "y": 435
+          },
+          "facing": "up"
+        },
+        {
+          "id": "interior:clans:conference-table:north-1",
+          "prop_id": "conference-table:north-1",
+          "x": 928.363576,
+          "y": 406,
+          "width": 38.343949,
+          "height": 25,
+          "seat": {
+            "x": 947.5355505,
+            "y": 431
+          },
+          "approach": {
+            "x": 947.5355505,
+            "y": 370
+          },
+          "facing": "down"
+        },
+        {
+          "id": "interior:clans:conference-table:south-1",
+          "prop_id": "conference-table:south-1",
+          "x": 928.363576,
+          "y": 561,
+          "width": 38.067227,
+          "height": 28,
+          "seat": {
+            "x": 947.3971895,
+            "y": 589
+          },
+          "approach": {
+            "x": 947.3971895,
+            "y": 625
+          },
+          "facing": "up"
+        },
+        {
+          "id": "interior:clans:conference-table:north-2",
+          "prop_id": "conference-table:north-2",
+          "x": 1034.798359,
+          "y": 406,
+          "width": 38.343949,
+          "height": 25,
+          "seat": {
+            "x": 1053.9703335,
+            "y": 431
+          },
+          "approach": {
+            "x": 1053.9703335,
+            "y": 370
+          },
+          "facing": "down"
+        },
+        {
+          "id": "interior:clans:conference-table:south-2",
+          "prop_id": "conference-table:south-2",
+          "x": 1034.798359,
+          "y": 561,
+          "width": 38.067227,
+          "height": 28,
+          "seat": {
+            "x": 1053.8319725,
+            "y": 589
+          },
+          "approach": {
+            "x": 1053.8319725,
+            "y": 625
+          },
+          "facing": "up"
+        },
+        {
+          "id": "interior:clans:waiting-sofa:seat-1",
+          "prop_id": "waiting-sofa",
+          "x": 363.636424,
+          "y": 591,
+          "width": 144.897119,
+          "height": 38,
+          "seat": {
+            "x": 399.86070374999997,
+            "y": 629
+          },
+          "approach": {
+            "x": 399.86070374999997,
+            "y": 665
+          },
+          "facing": "down"
+        },
+        {
+          "id": "interior:clans:waiting-sofa:seat-2",
+          "prop_id": "waiting-sofa",
+          "x": 363.636424,
+          "y": 591,
+          "width": 144.897119,
+          "height": 38,
+          "seat": {
+            "x": 472.30926324999996,
+            "y": 629
+          },
+          "approach": {
+            "x": 472.30926324999996,
+            "y": 665
+          },
+          "facing": "down"
+        }
+      ],
+      "counter": {
+        "x": 343.636424,
+        "y": 281,
+        "width": 158.26087,
+        "height": 40
+      },
+      "cutouts": [],
+      "props": [
+        {
+          "id": "service",
+          "type": "table",
+          "x": 343.636424,
+          "y": 281,
+          "width": 158.26087,
+          "height": 40,
+          "solid": true,
+          "source_asset": "clan-furniture-table-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 422.766859,
+            "y": 321,
+            "width": 158.26087,
+            "height": 65,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 321
+        },
+        {
+          "id": "registry-terminal",
+          "type": "display-desk",
+          "x": 682.5,
+          "y": 286,
+          "width": 138.706564,
+          "height": 40,
+          "solid": true,
+          "source_asset": "clan-furniture-computer-desk-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 751.853282,
+            "y": 326,
+            "width": 138.706564,
+            "height": 75,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 326
+        },
+        {
+          "id": "registry-seat",
+          "type": "chair",
+          "x": 737.5,
+          "y": 371,
+          "width": 38.067227,
+          "height": 28,
+          "solid": true,
+          "source_asset": "clan-furniture-chair-modern",
+          "source_direction": "back",
+          "visual": {
+            "x": 756.533614,
+            "y": 399,
+            "width": 38.067227,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 399
+        },
+        {
+          "id": "management-screen",
+          "type": "board",
+          "x": 1101.363576,
+          "y": 286,
+          "width": 80.248447,
+          "height": 35,
+          "solid": true,
+          "source_asset": "clan-furniture-hologram-tech",
+          "source_direction": "front",
+          "visual": {
+            "x": 1141.4878,
+            "y": 321,
+            "width": 80.248447,
+            "height": 120,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 321
+        },
+        {
+          "id": "archives",
+          "type": "bookcase",
+          "x": 328.636424,
+          "y": 471,
+          "width": 126.105882,
+          "height": 32,
+          "solid": true,
+          "source_asset": "clan-furniture-bookcase-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 391.689365,
+            "y": 503,
+            "width": 126.105882,
+            "height": 135,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 503
+        },
+        {
+          "id": "conference-table",
+          "type": "table",
+          "x": 916.363576,
+          "y": 471,
+          "width": 170.434783,
+          "height": 45,
+          "solid": true,
+          "source_asset": "clan-furniture-table-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 1001.580968,
+            "y": 516,
+            "width": 170.434783,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 516
+        },
+        {
+          "id": "conference-table:north-1",
+          "type": "chair",
+          "x": 928.363576,
+          "y": 406,
+          "width": 38.343949,
+          "height": 25,
+          "solid": true,
+          "source_asset": "clan-furniture-chair-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 947.535551,
+            "y": 431,
+            "width": 38.343949,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 431
+        },
+        {
+          "id": "conference-table:south-1",
+          "type": "chair",
+          "x": 928.363576,
+          "y": 561,
+          "width": 38.067227,
+          "height": 28,
+          "solid": true,
+          "source_asset": "clan-furniture-chair-modern",
+          "source_direction": "back",
+          "visual": {
+            "x": 947.39719,
+            "y": 589,
+            "width": 38.067227,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 589
+        },
+        {
+          "id": "conference-table:north-2",
+          "type": "chair",
+          "x": 1034.798359,
+          "y": 406,
+          "width": 38.343949,
+          "height": 25,
+          "solid": true,
+          "source_asset": "clan-furniture-chair-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 1053.970334,
+            "y": 431,
+            "width": 38.343949,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 431
+        },
+        {
+          "id": "conference-table:south-2",
+          "type": "chair",
+          "x": 1034.798359,
+          "y": 561,
+          "width": 38.067227,
+          "height": 28,
+          "solid": true,
+          "source_asset": "clan-furniture-chair-modern",
+          "source_direction": "back",
+          "visual": {
+            "x": 1053.831973,
+            "y": 589,
+            "width": 38.067227,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 589
+        },
+        {
+          "id": "waiting-sofa",
+          "type": "sofa",
+          "x": 363.636424,
+          "y": 591,
+          "width": 144.897119,
+          "height": 38,
+          "solid": true,
+          "source_asset": "clan-furniture-sofa-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 436.084983,
+            "y": 629,
+            "width": 144.897119,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 629
+        },
+        {
+          "id": "plant-1",
+          "type": "plant",
+          "x": 323.636424,
+          "y": 626,
+          "width": 45.257271,
+          "height": 28,
+          "solid": true,
+          "source_asset": "clan-furniture-plant-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 346.265059,
+            "y": 654,
+            "width": 45.257271,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 654
+        },
+        {
+          "id": "plant-2",
+          "type": "plant",
+          "x": 1161.363576,
+          "y": 626,
+          "width": 45.257271,
+          "height": 28,
+          "solid": true,
+          "source_asset": "clan-furniture-plant-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 1183.992212,
+            "y": 654,
+            "width": 45.257271,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 654
+        }
+      ],
+      "zones": [],
+      "entry_label": "ДОМ КЛАНОВ · РЕСЕПШЕН СПРАВА",
+      "layout_version": 23,
+      "visual_version": 25,
+      "modular_source": true,
+      "source_family": "clan",
+      "interaction_radius": 110,
+      "source_reference": "bzik-hub-interior",
+      "surfaces": [
+        {
+          "id": "floor",
+          "asset_id": "clan-surface-floor-tile",
+          "visual": {
+            "x": 762.5,
+            "y": 761,
+            "width": 1364.304636,
+            "height": 540,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 298.636424,
+            "y": 261,
+            "width": 927.7271519999999,
+            "height": 440
+          }
+        },
+        {
+          "id": "back-wall",
+          "asset_id": "clan-surface-wall-plaster",
+          "visual": {
+            "x": 417.304124,
+            "y": 263.0,
+            "width": 690.391753,
+            "height": 176.0,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 298.636424,
+            "y": 87,
+            "width": 464.863576,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 261,
+            "wall_native_y": 220,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "back-wall-1",
+          "asset_id": "clan-surface-wall-plaster",
+          "visual": {
+            "x": 1107.695876,
+            "y": 263.0,
+            "width": 690.391753,
+            "height": 176.0,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 761.5,
+            "y": 87,
+            "width": 464.86357599999997,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 261,
+            "wall_native_y": 220,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "front-cutaway",
+          "asset_id": "clan-surface-wall-plaster",
+          "visual": {
+            "x": 643.8323,
+            "y": 721,
+            "width": 690.391753,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 298.636424,
+            "y": 701,
+            "width": 927.7271519999999,
+            "height": 20
+          }
+        },
+        {
+          "id": "front-cutaway-1",
+          "asset_id": "clan-surface-wall-plaster",
+          "visual": {
+            "x": 1334.224053,
+            "y": 721,
+            "width": 690.391753,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 298.636424,
+            "y": 701,
+            "width": 927.7271519999999,
+            "height": 20
+          }
+        }
+      ],
+      "details": [
+        {
+          "id": "clock",
+          "asset_id": "station-interior-clock",
+          "source_direction": "front",
+          "visual": {
+            "x": 595.509113,
+            "y": 185.082405,
+            "width": 45.0,
+            "height": 45.28481,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 185.082405,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-1",
+          "asset_id": "station-interior-wall-lamp",
+          "source_direction": "front",
+          "visual": {
+            "x": 416.440806,
+            "y": 197.44,
+            "width": 19.608764,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 197.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-2",
+          "asset_id": "station-interior-wall-lamp",
+          "source_direction": "front",
+          "visual": {
+            "x": 648.440806,
+            "y": 197.44,
+            "width": 19.608764,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 197.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-3",
+          "asset_id": "station-interior-wall-lamp",
+          "source_direction": "front",
+          "visual": {
+            "x": 880.440806,
+            "y": 197.44,
+            "width": 19.608764,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 197.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-4",
+          "asset_id": "station-interior-wall-lamp",
+          "source_direction": "front",
+          "visual": {
+            "x": 1112.440806,
+            "y": 197.44,
+            "width": 19.608764,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 197.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        }
+      ],
+      "actor_height": 80,
+      "floor_material": {
+        "asset_id": "clan-surface-floor-tile-texture",
+        "color": null,
+        "tile_world_size": [
+          320,
+          320
+        ],
+        "regions": [
+          [
+            [
+              298.636424,
+              261
+            ],
+            [
+              1226.363576,
+              261
+            ],
+            [
+              1226.363576,
+              701
+            ],
+            [
+              298.636424,
+              701
+            ]
+          ]
+        ]
+      },
+      "circulation": {
+        "entry": {
+          "x": 702.5,
+          "y": 446,
+          "width": 120,
+          "height": 255
+        }
+      },
+      "staff": {
+        "x": 543.897294,
+        "y": 309,
+        "source_asset": "mascot-location-clan",
+        "source_direction": "front",
+        "visual": {
+          "x": 543.897294,
+          "y": 309,
+          "width": 50.547584,
+          "height": 84,
+          "anchorX": 0.5,
+          "anchorY": 1,
+          "crop": "solid"
+        },
+        "depth": 309,
+        "footprint": {
+          "x": 531.897294,
+          "y": 295,
+          "width": 24,
+          "height": 14
+        }
+      },
+      "wall_body_height": 176,
+      "wall_cutaway": {
+        "asset_id": "clan-surface-wall-plaster-texture",
+        "tile_world_size": [
+          160,
+          160
+        ],
+        "color": null,
+        "regions": [
+          {
+            "x": 280.636424,
+            "y": 261,
+            "width": 18,
+            "height": 460
+          },
+          {
+            "x": 1226.363576,
+            "y": 261,
+            "width": 18,
+            "height": 460
+          },
+          {
+            "x": 298.636424,
+            "y": 701,
+            "width": 927.7271519999999,
+            "height": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "terrace",
+      "label": "Творческая гостиная",
+      "kind": "terrace",
+      "width": 1498,
+      "height": 907,
+      "bounds": {
+        "left": 294.2,
+        "right": 1203.8,
+        "top": 337,
+        "bottom": 777
+      },
+      "door": {
+        "x": 11600,
+        "y": 3424
+      },
+      "spawn": {
+        "x": 749.0,
+        "y": 732
+      },
+      "exit": {
+        "x": 749.0,
+        "y": 757
+      },
+      "action": {
+        "id": "messages",
+        "label": "Открыть сообщения",
+        "prop_id": "service",
+        "x": 748.4941635,
+        "y": 437,
+        "radius": 110
+      },
+      "solids": [
+        {
+          "prop_id": "service",
+          "x": 684.0,
+          "y": 357,
+          "width": 128.988327,
+          "height": 40
+        },
+        {
+          "prop_id": "staff",
+          "x": 842.988327,
+          "y": 371,
+          "width": 24,
+          "height": 14
+        },
+        {
+          "prop_id": "reading-library",
+          "x": 319.2,
+          "y": 357,
+          "width": 153.828947,
+          "height": 32
+        },
+        {
+          "prop_id": "reading-sofa",
+          "x": 983.8,
+          "y": 357,
+          "width": 140.278884,
+          "height": 38
+        },
+        {
+          "prop_id": "conversation-left",
+          "x": 389.2,
+          "y": 522,
+          "width": 138.910506,
+          "height": 45
+        },
+        {
+          "prop_id": "conversation-left:north-1",
+          "x": 401.2,
+          "y": 457,
+          "width": 43.002833,
+          "height": 25
+        },
+        {
+          "prop_id": "conversation-left:south-1",
+          "x": 401.2,
+          "y": 612,
+          "width": 45.405405,
+          "height": 28
+        },
+        {
+          "prop_id": "conversation-left:north-2",
+          "x": 476.110506,
+          "y": 457,
+          "width": 43.002833,
+          "height": 25
+        },
+        {
+          "prop_id": "conversation-left:south-2",
+          "x": 476.110506,
+          "y": 612,
+          "width": 45.405405,
+          "height": 28
+        },
+        {
+          "prop_id": "conversation-right",
+          "x": 928.8,
+          "y": 557,
+          "width": 138.910506,
+          "height": 45
+        },
+        {
+          "prop_id": "conversation-right:north-1",
+          "x": 940.8,
+          "y": 492,
+          "width": 43.002833,
+          "height": 25
+        },
+        {
+          "prop_id": "conversation-right:south-1",
+          "x": 940.8,
+          "y": 647,
+          "width": 45.405405,
+          "height": 28
+        },
+        {
+          "prop_id": "conversation-right:north-2",
+          "x": 1015.710506,
+          "y": 492,
+          "width": 43.002833,
+          "height": 25
+        },
+        {
+          "prop_id": "conversation-right:south-2",
+          "x": 1015.710506,
+          "y": 647,
+          "width": 45.405405,
+          "height": 28
+        },
+        {
+          "prop_id": "plant-1",
+          "x": 319.2,
+          "y": 702,
+          "width": 48.186047,
+          "height": 28
+        },
+        {
+          "prop_id": "plant-2",
+          "x": 1143.8,
+          "y": 702,
+          "width": 48.186047,
+          "height": 28
+        }
+      ],
+      "seats": [
+        {
+          "id": "interior:terrace:reading-sofa:seat-1",
+          "prop_id": "reading-sofa",
+          "x": 983.8,
+          "y": 357,
+          "width": 140.278884,
+          "height": 38,
+          "seat": {
+            "x": 1018.8697209999999,
+            "y": 395
+          },
+          "approach": {
+            "x": 1018.8697209999999,
+            "y": 431
+          },
+          "facing": "down"
+        },
+        {
+          "id": "interior:terrace:reading-sofa:seat-2",
+          "prop_id": "reading-sofa",
+          "x": 983.8,
+          "y": 357,
+          "width": 140.278884,
+          "height": 38,
+          "seat": {
+            "x": 1089.009163,
+            "y": 395
+          },
+          "approach": {
+            "x": 1089.009163,
+            "y": 431
+          },
+          "facing": "down"
+        },
+        {
+          "id": "interior:terrace:conversation-left:north-1",
+          "prop_id": "conversation-left:north-1",
+          "x": 401.2,
+          "y": 457,
+          "width": 43.002833,
+          "height": 25,
+          "seat": {
+            "x": 422.7014165,
+            "y": 482
+          },
+          "approach": {
+            "x": 422.7014165,
+            "y": 421
+          },
+          "facing": "down"
+        },
+        {
+          "id": "interior:terrace:conversation-left:south-1",
+          "prop_id": "conversation-left:south-1",
+          "x": 401.2,
+          "y": 612,
+          "width": 45.405405,
+          "height": 28,
+          "seat": {
+            "x": 423.9027025,
+            "y": 640
+          },
+          "approach": {
+            "x": 423.9027025,
+            "y": 676
+          },
+          "facing": "up"
+        },
+        {
+          "id": "interior:terrace:conversation-left:north-2",
+          "prop_id": "conversation-left:north-2",
+          "x": 476.110506,
+          "y": 457,
+          "width": 43.002833,
+          "height": 25,
+          "seat": {
+            "x": 497.6119225,
+            "y": 482
+          },
+          "approach": {
+            "x": 497.6119225,
+            "y": 421
+          },
+          "facing": "down"
+        },
+        {
+          "id": "interior:terrace:conversation-left:south-2",
+          "prop_id": "conversation-left:south-2",
+          "x": 476.110506,
+          "y": 612,
+          "width": 45.405405,
+          "height": 28,
+          "seat": {
+            "x": 498.8132085,
+            "y": 640
+          },
+          "approach": {
+            "x": 498.8132085,
+            "y": 676
+          },
+          "facing": "up"
+        },
+        {
+          "id": "interior:terrace:conversation-right:north-1",
+          "prop_id": "conversation-right:north-1",
+          "x": 940.8,
+          "y": 492,
+          "width": 43.002833,
+          "height": 25,
+          "seat": {
+            "x": 962.3014165,
+            "y": 517
+          },
+          "approach": {
+            "x": 962.3014165,
+            "y": 456
+          },
+          "facing": "down"
+        },
+        {
+          "id": "interior:terrace:conversation-right:south-1",
+          "prop_id": "conversation-right:south-1",
+          "x": 940.8,
+          "y": 647,
+          "width": 45.405405,
+          "height": 28,
+          "seat": {
+            "x": 963.5027024999999,
+            "y": 675
+          },
+          "approach": {
+            "x": 963.5027024999999,
+            "y": 711
+          },
+          "facing": "up"
+        },
+        {
+          "id": "interior:terrace:conversation-right:north-2",
+          "prop_id": "conversation-right:north-2",
+          "x": 1015.710506,
+          "y": 492,
+          "width": 43.002833,
+          "height": 25,
+          "seat": {
+            "x": 1037.2119225,
+            "y": 517
+          },
+          "approach": {
+            "x": 1037.2119225,
+            "y": 456
+          },
+          "facing": "down"
+        },
+        {
+          "id": "interior:terrace:conversation-right:south-2",
+          "prop_id": "conversation-right:south-2",
+          "x": 1015.710506,
+          "y": 647,
+          "width": 45.405405,
+          "height": 28,
+          "seat": {
+            "x": 1038.4132085,
+            "y": 675
+          },
+          "approach": {
+            "x": 1038.4132085,
+            "y": 711
+          },
+          "facing": "up"
+        }
+      ],
+      "counter": {
+        "x": 684.0,
+        "y": 357,
+        "width": 128.988327,
+        "height": 40
+      },
+      "cutouts": [],
+      "props": [
+        {
+          "id": "service",
+          "type": "table",
+          "x": 684.0,
+          "y": 357,
+          "width": 128.988327,
+          "height": 40,
+          "solid": true,
+          "source_asset": "clan-furniture-table-wood",
+          "source_direction": "front",
+          "visual": {
+            "x": 748.494164,
+            "y": 397,
+            "width": 128.988327,
+            "height": 65,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 397
+        },
+        {
+          "id": "reading-library",
+          "type": "bookcase",
+          "x": 319.2,
+          "y": 357,
+          "width": 153.828947,
+          "height": 32,
+          "solid": true,
+          "source_asset": "clan-furniture-bookcase-wood",
+          "source_direction": "front",
+          "visual": {
+            "x": 396.114473,
+            "y": 389,
+            "width": 153.828947,
+            "height": 135,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 389
+        },
+        {
+          "id": "reading-sofa",
+          "type": "sofa",
+          "x": 983.8,
+          "y": 357,
+          "width": 140.278884,
+          "height": 38,
+          "solid": true,
+          "source_asset": "clan-furniture-sofa-wood",
+          "source_direction": "front",
+          "visual": {
+            "x": 1053.939442,
+            "y": 395,
+            "width": 140.278884,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 395
+        },
+        {
+          "id": "conversation-left",
+          "type": "table",
+          "x": 389.2,
+          "y": 522,
+          "width": 138.910506,
+          "height": 45,
+          "solid": true,
+          "source_asset": "clan-furniture-table-wood",
+          "source_direction": "front",
+          "visual": {
+            "x": 458.655253,
+            "y": 567,
+            "width": 138.910506,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 567
+        },
+        {
+          "id": "conversation-left:north-1",
+          "type": "chair",
+          "x": 401.2,
+          "y": 457,
+          "width": 43.002833,
+          "height": 25,
+          "solid": true,
+          "source_asset": "clan-furniture-chair-wood",
+          "source_direction": "front",
+          "visual": {
+            "x": 422.701416,
+            "y": 482,
+            "width": 43.002833,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 482
+        },
+        {
+          "id": "conversation-left:south-1",
+          "type": "chair",
+          "x": 401.2,
+          "y": 612,
+          "width": 45.405405,
+          "height": 28,
+          "solid": true,
+          "source_asset": "clan-furniture-chair-wood",
+          "source_direction": "back",
+          "visual": {
+            "x": 423.902702,
+            "y": 640,
+            "width": 45.405405,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 640
+        },
+        {
+          "id": "conversation-left:north-2",
+          "type": "chair",
+          "x": 476.110506,
+          "y": 457,
+          "width": 43.002833,
+          "height": 25,
+          "solid": true,
+          "source_asset": "clan-furniture-chair-wood",
+          "source_direction": "front",
+          "visual": {
+            "x": 497.611922,
+            "y": 482,
+            "width": 43.002833,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 482
+        },
+        {
+          "id": "conversation-left:south-2",
+          "type": "chair",
+          "x": 476.110506,
+          "y": 612,
+          "width": 45.405405,
+          "height": 28,
+          "solid": true,
+          "source_asset": "clan-furniture-chair-wood",
+          "source_direction": "back",
+          "visual": {
+            "x": 498.813208,
+            "y": 640,
+            "width": 45.405405,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 640
+        },
+        {
+          "id": "conversation-right",
+          "type": "table",
+          "x": 928.8,
+          "y": 557,
+          "width": 138.910506,
+          "height": 45,
+          "solid": true,
+          "source_asset": "clan-furniture-table-wood",
+          "source_direction": "front",
+          "visual": {
+            "x": 998.255253,
+            "y": 602,
+            "width": 138.910506,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 602
+        },
+        {
+          "id": "conversation-right:north-1",
+          "type": "chair",
+          "x": 940.8,
+          "y": 492,
+          "width": 43.002833,
+          "height": 25,
+          "solid": true,
+          "source_asset": "clan-furniture-chair-wood",
+          "source_direction": "front",
+          "visual": {
+            "x": 962.301417,
+            "y": 517,
+            "width": 43.002833,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 517
+        },
+        {
+          "id": "conversation-right:south-1",
+          "type": "chair",
+          "x": 940.8,
+          "y": 647,
+          "width": 45.405405,
+          "height": 28,
+          "solid": true,
+          "source_asset": "clan-furniture-chair-wood",
+          "source_direction": "back",
+          "visual": {
+            "x": 963.502703,
+            "y": 675,
+            "width": 45.405405,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 675
+        },
+        {
+          "id": "conversation-right:north-2",
+          "type": "chair",
+          "x": 1015.710506,
+          "y": 492,
+          "width": 43.002833,
+          "height": 25,
+          "solid": true,
+          "source_asset": "clan-furniture-chair-wood",
+          "source_direction": "front",
+          "visual": {
+            "x": 1037.211923,
+            "y": 517,
+            "width": 43.002833,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 517
+        },
+        {
+          "id": "conversation-right:south-2",
+          "type": "chair",
+          "x": 1015.710506,
+          "y": 647,
+          "width": 45.405405,
+          "height": 28,
+          "solid": true,
+          "source_asset": "clan-furniture-chair-wood",
+          "source_direction": "back",
+          "visual": {
+            "x": 1038.413209,
+            "y": 675,
+            "width": 45.405405,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 675
+        },
+        {
+          "id": "plant-1",
+          "type": "plant",
+          "x": 319.2,
+          "y": 702,
+          "width": 48.186047,
+          "height": 28,
+          "solid": true,
+          "source_asset": "clan-furniture-plant-wood",
+          "source_direction": "front",
+          "visual": {
+            "x": 343.293023,
+            "y": 730,
+            "width": 48.186047,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 730
+        },
+        {
+          "id": "plant-2",
+          "type": "plant",
+          "x": 1143.8,
+          "y": 702,
+          "width": 48.186047,
+          "height": 28,
+          "solid": true,
+          "source_asset": "clan-furniture-plant-wood",
+          "source_direction": "front",
+          "visual": {
+            "x": 1167.893024,
+            "y": 730,
+            "width": 48.186047,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 730
+        }
+      ],
+      "zones": [],
+      "entry_label": "ГОСТИНАЯ · РАБОТА И ОТДЫХ",
+      "layout_version": 23,
+      "visual_version": 25,
+      "modular_source": true,
+      "source_family": "terrace",
+      "interaction_radius": 110,
+      "source_reference": "bar-pivkovy-tuz-interior",
+      "surfaces": [
+        {
+          "id": "floor",
+          "asset_id": "clan-surface-floor-board",
+          "visual": {
+            "x": 749.0,
+            "y": 837,
+            "width": 1337.647059,
+            "height": 540,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 294.2,
+            "y": 337,
+            "width": 909.5999999999999,
+            "height": 440
+          }
+        },
+        {
+          "id": "back-wall",
+          "asset_id": "clan-surface-wall-wood",
+          "visual": {
+            "x": 311.648829,
+            "y": 339.0,
+            "width": 437.351171,
+            "height": 176.0,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 294.2,
+            "y": 163,
+            "width": 237.12441471571907,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 337,
+            "wall_native_y": 373,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "back-wall-1",
+          "asset_id": "clan-surface-wall-wood",
+          "visual": {
+            "x": 749.0,
+            "y": 339.0,
+            "width": 437.351171,
+            "height": 176.0,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 529.3244147157191,
+            "y": 163,
+            "width": 439.3511705685619,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 337,
+            "wall_native_y": 373,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "back-wall-2",
+          "asset_id": "clan-surface-wall-wood",
+          "visual": {
+            "x": 1186.351171,
+            "y": 339.0,
+            "width": 437.351171,
+            "height": 176.0,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 966.6755852842809,
+            "y": 163,
+            "width": 237.124414715719,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 337,
+            "wall_native_y": 373,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "front-cutaway",
+          "asset_id": "clan-surface-wall-wood",
+          "visual": {
+            "x": 512.875585,
+            "y": 797,
+            "width": 437.351171,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 294.2,
+            "y": 777,
+            "width": 909.5999999999999,
+            "height": 20
+          }
+        },
+        {
+          "id": "front-cutaway-1",
+          "asset_id": "clan-surface-wall-wood",
+          "visual": {
+            "x": 950.226756,
+            "y": 797,
+            "width": 437.351171,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 294.2,
+            "y": 777,
+            "width": 909.5999999999999,
+            "height": 20
+          }
+        },
+        {
+          "id": "front-cutaway-2",
+          "asset_id": "clan-surface-wall-wood",
+          "visual": {
+            "x": 1387.577926,
+            "y": 797,
+            "width": 437.351171,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 294.2,
+            "y": 777,
+            "width": 909.5999999999999,
+            "height": 20
+          }
+        }
+      ],
+      "details": [
+        {
+          "id": "clock",
+          "asset_id": "station-interior-clock",
+          "source_direction": "front",
+          "visual": {
+            "x": 858.152,
+            "y": 261.082405,
+            "width": 45.0,
+            "height": 45.28481,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 261.082405,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-1",
+          "asset_id": "station-interior-wall-lamp",
+          "source_direction": "front",
+          "visual": {
+            "x": 404.004382,
+            "y": 273.44,
+            "width": 19.608764,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 273.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-2",
+          "asset_id": "station-interior-wall-lamp",
+          "source_direction": "front",
+          "visual": {
+            "x": 636.004382,
+            "y": 273.44,
+            "width": 19.608764,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 273.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-3",
+          "asset_id": "station-interior-wall-lamp",
+          "source_direction": "front",
+          "visual": {
+            "x": 908.004382,
+            "y": 273.44,
+            "width": 19.608764,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 273.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-4",
+          "asset_id": "station-interior-wall-lamp",
+          "source_direction": "front",
+          "visual": {
+            "x": 1092.004382,
+            "y": 273.44,
+            "width": 19.608764,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 273.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        }
+      ],
+      "actor_height": 80,
+      "floor_material": {
+        "asset_id": "clan-surface-floor-board-texture",
+        "color": null,
+        "tile_world_size": [
+          320,
+          320
+        ],
+        "regions": [
+          [
+            [
+              294.2,
+              337
+            ],
+            [
+              1203.8,
+              337
+            ],
+            [
+              1203.8,
+              777
+            ],
+            [
+              294.2,
+              777
+            ]
+          ]
+        ]
+      },
+      "circulation": {
+        "entry": {
+          "x": 689.0,
+          "y": 522,
+          "width": 120,
+          "height": 255
+        }
+      },
+      "staff": {
+        "x": 854.988327,
+        "y": 385,
+        "source_asset": "mascot-location-clan",
+        "source_direction": "front",
+        "visual": {
+          "x": 854.988327,
+          "y": 385,
+          "width": 50.547584,
+          "height": 84,
+          "anchorX": 0.5,
+          "anchorY": 1,
+          "crop": "solid"
+        },
+        "depth": 385,
+        "footprint": {
+          "x": 842.988327,
+          "y": 371,
+          "width": 24,
+          "height": 14
+        }
+      },
+      "wall_body_height": 176,
+      "wall_cutaway": {
+        "asset_id": "clan-surface-wall-wood-texture",
+        "tile_world_size": [
+          160,
+          160
+        ],
+        "color": null,
+        "regions": [
+          {
+            "x": 276.2,
+            "y": 337,
+            "width": 18,
+            "height": 460
+          },
+          {
+            "x": 1203.8,
+            "y": 337,
+            "width": 18,
+            "height": 460
+          },
+          {
+            "x": 294.2,
+            "y": 777,
+            "width": 909.5999999999999,
+            "height": 20
+          }
+        ]
+      }
+    }
+  ]
+}

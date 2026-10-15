@@ -1,0 +1,8 @@
+Use case: precise-object-edit / identity-preserve.
+Input image 1 is the LEFT-FACING IDLE edit target just generated. Input image 2 is the RIGHT-FACING IDLE identity and exact framing master. Input images 3 and 4 are the original canonical run references.
+
+Change ONLY the overall placement and tiny size mismatch of image 1 through this image edit. Keep the SAME LEFT-facing newly drawn man, LEFT-facing eye/nose/toes, relaxed hanging arms, two planted feet, same face, hairstyle, bulky large head, compact grey jacket/light shirt/black trousers/dark boots, same pixel artwork. Do NOT mirror anything; do not change him into a running pose. Preserve the other-side drawing details.
+
+CRITICAL MEASURED ALIGNMENT CORRECTION: Image 1 is exactly1150x1367 but its visible crown is currently y217 and soles y1281. Image2's correct crown is y169 and soles y1253. On the SAME transparent 1150x1367 canvas make the entire left idle character occupy y169 through y1253, matching the right master. This means move the character upward about48px at the crown while increasing his total visible height only about2 percent, with final feet at y1253. Maintain his existing head/body ratio and proportions uniformly. Keep horizontal center x575. Keep both soles on the SAME invisible baseline. Do not crop or change the canvas or add margin outside it. All hair and shoes fully visible.
+
+There must be genuine transparent alpha around the character, without floor, shadow, backdrop, grid, crosshair, text, or labels. ONE sprite, not a comparison sheet.

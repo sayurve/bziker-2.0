@@ -1,0 +1,2014 @@
+{
+  "schema_version": 22,
+  "source_commit": "90a1e90",
+  "width": 7680,
+  "height": 5120,
+  "landmarks": {
+    "station": {
+      "x": 5045,
+      "y": 1595
+    },
+    "welcome": {
+      "x": 4835,
+      "y": 1615
+    },
+    "plaza": {
+      "x": 3590,
+      "y": 2170
+    },
+    "district": {
+      "x": 1255,
+      "y": 1555
+    },
+    "park": {
+      "x": 3436,
+      "y": 2035
+    },
+    "dock": {
+      "x": 5450,
+      "y": 1720
+    },
+    "archive": {
+      "x": 3905,
+      "y": 2710
+    },
+    "smoking": {
+      "x": 4220,
+      "y": 2450
+    },
+    "fountain": {
+      "x": 3565,
+      "y": 1940
+    },
+    "gazebo": {
+      "x": 3590,
+      "y": 1250
+    }
+  },
+  "buildings": [
+    {
+      "id": "railway",
+      "name": "ВОКЗАЛ БЗИКЕР",
+      "x": 4530,
+      "y": 1330,
+      "width": 1109,
+      "height": 170,
+      "footprint": {
+        "x": 4530,
+        "y": 1330,
+        "width": 1109,
+        "height": 170
+      },
+      "depth": 1500,
+      "design": {
+        "assetId": "railway-station",
+        "x": 5085,
+        "y": 1500,
+        "width": 1275,
+        "height": 633.278146,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.48,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 5060,
+          "y": 1500
+        }
+      },
+      "door": {
+        "x": 5060,
+        "y": 1524
+      }
+    },
+    {
+      "id": "clans",
+      "name": "ДОМ КЛАНОВ",
+      "x": 606,
+      "y": 680,
+      "width": 587,
+      "height": 100,
+      "footprint": {
+        "x": 606,
+        "y": 680,
+        "width": 587,
+        "height": 100
+      },
+      "depth": 780,
+      "design": {
+        "assetId": "clan-base-modern-clubhouse",
+        "x": 900,
+        "y": 780,
+        "width": 675,
+        "height": 356.349734,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.465,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 876,
+          "y": 780
+        }
+      },
+      "door": {
+        "x": 876,
+        "y": 804
+      }
+    },
+    {
+      "id": "arena",
+      "name": "СВОЯ ИГРА",
+      "x": 4884,
+      "y": 4680,
+      "width": 892,
+      "height": 155,
+      "footprint": {
+        "x": 4884,
+        "y": 4680,
+        "width": 892,
+        "height": 155
+      },
+      "depth": 4835,
+      "design": {
+        "assetId": "shopping-mall-bzik-hub",
+        "x": 5330,
+        "y": 4835,
+        "width": 1025,
+        "height": 554.753989,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 5330,
+          "y": 4835
+        }
+      },
+      "door": {
+        "x": 5330,
+        "y": 4859
+      }
+    },
+    {
+      "id": "profile",
+      "name": "СТУДИЯ ОБРАЗОВ",
+      "x": 3508,
+      "y": 3264,
+      "width": 313,
+      "height": 86,
+      "footprint": {
+        "x": 3508,
+        "y": 3264,
+        "width": 313,
+        "height": 86
+      },
+      "depth": 3350,
+      "design": {
+        "assetId": "clothing-shop",
+        "x": 3665,
+        "y": 3350,
+        "width": 360,
+        "height": 307.753479,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.46,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 3651,
+          "y": 3350
+        }
+      },
+      "door": {
+        "x": 3651,
+        "y": 3374
+      }
+    },
+    {
+      "id": "results",
+      "name": "ГАЛЕРЕЯ РЕЗУЛЬТАТОВ",
+      "x": 906,
+      "y": 1468,
+      "width": 209,
+      "height": 42,
+      "footprint": {
+        "x": 906,
+        "y": 1468,
+        "width": 209,
+        "height": 42
+      },
+      "depth": 1510,
+      "design": {
+        "assetId": "clan-base-stone-mansion",
+        "x": 1010,
+        "y": 1510,
+        "width": 240,
+        "height": 151.219512,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.45,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 998,
+          "y": 1510
+        }
+      },
+      "door": {
+        "x": 998,
+        "y": 1534
+      }
+    },
+    {
+      "id": "messages",
+      "name": "КАФЕ БЗИКЕР",
+      "x": 3969,
+      "y": 4491,
+      "width": 761,
+      "height": 134,
+      "footprint": {
+        "x": 3969,
+        "y": 4491,
+        "width": 761,
+        "height": 134
+      },
+      "depth": 4625,
+      "design": {
+        "assetId": "bar-pivkovy-tuz",
+        "x": 4350,
+        "y": 4625,
+        "width": 875,
+        "height": 478.75,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.45,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 4306,
+          "y": 4625
+        }
+      },
+      "door": {
+        "x": 4306,
+        "y": 4649
+      }
+    },
+    {
+      "id": "terrace",
+      "name": "ТВОРЧЕСКАЯ ГОСТИНАЯ",
+      "x": 7185,
+      "y": 2062,
+      "width": 370,
+      "height": 63,
+      "footprint": {
+        "x": 7185,
+        "y": 2062,
+        "width": 370,
+        "height": 63
+      },
+      "depth": 2125,
+      "design": {
+        "assetId": "clan-base-wood-clubhouse",
+        "x": 7370,
+        "y": 2125,
+        "width": 425,
+        "height": 225.361842,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 7370,
+          "y": 2125
+        }
+      },
+      "door": {
+        "x": 7370,
+        "y": 2149
+      }
+    },
+    {
+      "id": "shop-food",
+      "name": "ЛАВКА МАСКОТА",
+      "x": 3928,
+      "y": 3351,
+      "width": 413,
+      "height": 94,
+      "footprint": {
+        "x": 3928,
+        "y": 3351,
+        "width": 413,
+        "height": 94
+      },
+      "depth": 3445,
+      "design": {
+        "assetId": "food-kiosk",
+        "x": 4135,
+        "y": 3445,
+        "width": 475,
+        "height": 336.458333,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 4135,
+          "y": 3445
+        }
+      },
+      "door": {
+        "x": 4135,
+        "y": 3469
+      }
+    },
+    {
+      "id": "shop-clothes",
+      "name": "ГАРДЕРОБ БЗИКЕР",
+      "x": 2132,
+      "y": 4055,
+      "width": 696,
+      "height": 170,
+      "footprint": {
+        "x": 2132,
+        "y": 4055,
+        "width": 696,
+        "height": 170
+      },
+      "depth": 4225,
+      "design": {
+        "assetId": "clothing-shop",
+        "x": 2480,
+        "y": 4225,
+        "width": 800,
+        "height": 683.89662,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.46,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 2448,
+          "y": 4225
+        }
+      },
+      "door": {
+        "x": 2448,
+        "y": 4249
+      }
+    },
+    {
+      "id": "shop-furniture",
+      "name": "МЕБЕЛЬНАЯ МАСТЕРСКАЯ",
+      "x": 2985,
+      "y": 3958,
+      "width": 740,
+      "height": 162,
+      "footprint": {
+        "x": 2985,
+        "y": 3958,
+        "width": 740,
+        "height": 162
+      },
+      "depth": 4120,
+      "design": {
+        "assetId": "furniture-store",
+        "x": 3355,
+        "y": 4120,
+        "width": 850,
+        "height": 578.147612,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.45,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 3313,
+          "y": 4120
+        }
+      },
+      "door": {
+        "x": 3313,
+        "y": 4144
+      }
+    },
+    {
+      "id": "casino",
+      "name": "КАЗИНО БЗИКЕР",
+      "x": 2655,
+      "y": 2930,
+      "width": 740,
+      "height": 170,
+      "footprint": {
+        "x": 2655,
+        "y": 2930,
+        "width": 740,
+        "height": 170
+      },
+      "depth": 3100,
+      "design": {
+        "assetId": "casino-modern",
+        "x": 3025,
+        "y": 3100,
+        "width": 850,
+        "height": 804.580153,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.45,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 2983,
+          "y": 3100
+        }
+      },
+      "door": {
+        "x": 2983,
+        "y": 3124
+      }
+    }
+  ],
+  "district_buildings": [
+    {
+      "id": "base-1",
+      "name": "УЧАСТОК 01",
+      "x": 1348,
+      "y": 2540,
+      "width": 304,
+      "height": 60,
+      "footprint": {
+        "x": 1348,
+        "y": 2540,
+        "width": 304,
+        "height": 60
+      },
+      "depth": 2600,
+      "design": {
+        "assetId": "construction-site-compact",
+        "x": 1500,
+        "y": 2600,
+        "width": 350,
+        "height": 215.636704,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.533,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 1512,
+          "y": 2600
+        }
+      },
+      "door": {
+        "x": 1512,
+        "y": 2624
+      }
+    },
+    {
+      "id": "base-2",
+      "name": "УЧАСТОК 02",
+      "x": 565,
+      "y": 2293,
+      "width": 239,
+      "height": 47,
+      "footprint": {
+        "x": 565,
+        "y": 2293,
+        "width": 239,
+        "height": 47
+      },
+      "depth": 2340,
+      "design": {
+        "assetId": "construction-site-compact",
+        "x": 685,
+        "y": 2340,
+        "width": 275,
+        "height": 169.428839,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.533,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 694,
+          "y": 2340
+        }
+      },
+      "door": {
+        "x": 694,
+        "y": 2364
+      }
+    },
+    {
+      "id": "base-3",
+      "name": "УЧАСТОК 03",
+      "x": 1794,
+      "y": 2654,
+      "width": 283,
+      "height": 56,
+      "footprint": {
+        "x": 1794,
+        "y": 2654,
+        "width": 283,
+        "height": 56
+      },
+      "depth": 2710,
+      "design": {
+        "assetId": "construction-site-compact",
+        "x": 1935,
+        "y": 2710,
+        "width": 325,
+        "height": 200.234082,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.533,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 1946,
+          "y": 2710
+        }
+      },
+      "door": {
+        "x": 1946,
+        "y": 2734
+      }
+    },
+    {
+      "id": "base-4",
+      "name": "УЧАСТОК 04",
+      "x": 52,
+      "y": 216,
+      "width": 196,
+      "height": 39,
+      "footprint": {
+        "x": 52,
+        "y": 216,
+        "width": 196,
+        "height": 39
+      },
+      "depth": 255,
+      "design": {
+        "assetId": "construction-site-compact",
+        "x": 150,
+        "y": 255,
+        "width": 225,
+        "height": 138.623596,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.533,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 157,
+          "y": 255
+        }
+      },
+      "door": {
+        "x": 157,
+        "y": 279
+      }
+    },
+    {
+      "id": "base-5",
+      "name": "УЧАСТОК 05",
+      "x": 1330,
+      "y": 4073,
+      "width": 239,
+      "height": 47,
+      "footprint": {
+        "x": 1330,
+        "y": 4073,
+        "width": 239,
+        "height": 47
+      },
+      "depth": 4120,
+      "design": {
+        "assetId": "construction-site-compact",
+        "x": 1450,
+        "y": 4120,
+        "width": 275,
+        "height": 169.428839,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.533,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 1459,
+          "y": 4120
+        }
+      },
+      "door": {
+        "x": 1459,
+        "y": 4144
+      }
+    },
+    {
+      "id": "base-6",
+      "name": "УЧАСТОК 06",
+      "x": 158,
+      "y": 3265,
+      "width": 304,
+      "height": 60,
+      "footprint": {
+        "x": 158,
+        "y": 3265,
+        "width": 304,
+        "height": 60
+      },
+      "depth": 3325,
+      "design": {
+        "assetId": "construction-site-compact",
+        "x": 310,
+        "y": 3325,
+        "width": 350,
+        "height": 215.636704,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.533,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 322,
+          "y": 3325
+        }
+      },
+      "door": {
+        "x": 322,
+        "y": 3349
+      }
+    },
+    {
+      "id": "base-7",
+      "name": "УЧАСТОК 07",
+      "x": 1090,
+      "y": 4763,
+      "width": 239,
+      "height": 47,
+      "footprint": {
+        "x": 1090,
+        "y": 4763,
+        "width": 239,
+        "height": 47
+      },
+      "depth": 4810,
+      "design": {
+        "assetId": "construction-site-compact",
+        "x": 1210,
+        "y": 4810,
+        "width": 275,
+        "height": 169.428839,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.533,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 1219,
+          "y": 4810
+        }
+      },
+      "door": {
+        "x": 1219,
+        "y": 4834
+      }
+    },
+    {
+      "id": "base-8",
+      "name": "УЧАСТОК 08",
+      "x": 491,
+      "y": 1357,
+      "width": 218,
+      "height": 43,
+      "footprint": {
+        "x": 491,
+        "y": 1357,
+        "width": 218,
+        "height": 43
+      },
+      "depth": 1400,
+      "design": {
+        "assetId": "construction-site-compact",
+        "x": 600,
+        "y": 1400,
+        "width": 250,
+        "height": 154.026217,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.533,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 608,
+          "y": 1400
+        }
+      },
+      "door": {
+        "x": 608,
+        "y": 1424
+      }
+    }
+  ],
+  "background_buildings": [
+    {
+      "id": "apartment-2",
+      "kind": "apartment",
+      "x": 773,
+      "y": 251,
+      "width": 214,
+      "height": 89,
+      "footprint": {
+        "x": 773,
+        "y": 251,
+        "width": 214,
+        "height": 89
+      },
+      "depth": 340,
+      "design": {
+        "assetId": "ordinary-house-red-brick-view-right",
+        "x": 880,
+        "y": 340,
+        "width": 246,
+        "height": 319.253333,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "right",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 880,
+          "y": 340
+        }
+      },
+      "door": {
+        "x": 880,
+        "y": 364
+      }
+    },
+    {
+      "id": "apartment-3",
+      "kind": "apartment",
+      "x": 2503,
+      "y": 328,
+      "width": 235,
+      "height": 67,
+      "footprint": {
+        "x": 2503,
+        "y": 328,
+        "width": 235,
+        "height": 67
+      },
+      "depth": 395,
+      "design": {
+        "assetId": "ordinary-house-beige-panel-view-back",
+        "x": 2620,
+        "y": 395,
+        "width": 270,
+        "height": 240.275229,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "back",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 2620,
+          "y": 395
+        }
+      },
+      "door": {
+        "x": 2620,
+        "y": 419
+      }
+    },
+    {
+      "id": "apartment-4",
+      "kind": "apartment",
+      "x": 4290,
+      "y": 299,
+      "width": 200,
+      "height": 96,
+      "footprint": {
+        "x": 4290,
+        "y": 299,
+        "width": 200,
+        "height": 96
+      },
+      "depth": 395,
+      "design": {
+        "assetId": "ordinary-house-grey-panel-view-left",
+        "x": 4390,
+        "y": 395,
+        "width": 230,
+        "height": 343.890675,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "left",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 4390,
+          "y": 395
+        }
+      },
+      "door": {
+        "x": 4390,
+        "y": 419
+      }
+    },
+    {
+      "id": "apartment-5",
+      "kind": "apartment",
+      "x": 4734,
+      "y": 462,
+      "width": 261,
+      "height": 63,
+      "footprint": {
+        "x": 4734,
+        "y": 462,
+        "width": 261,
+        "height": 63
+      },
+      "depth": 525,
+      "design": {
+        "assetId": "ordinary-house-red-brick-view-front",
+        "x": 4865,
+        "y": 525,
+        "width": 300,
+        "height": 223.873122,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 4865,
+          "y": 525
+        }
+      },
+      "door": {
+        "x": 4865,
+        "y": 549
+      }
+    },
+    {
+      "id": "apartment-6",
+      "kind": "apartment",
+      "x": 5239,
+      "y": 565,
+      "width": 171,
+      "height": 75,
+      "footprint": {
+        "x": 5239,
+        "y": 565,
+        "width": 171,
+        "height": 75
+      },
+      "depth": 640,
+      "design": {
+        "assetId": "ordinary-house-beige-panel-view-right",
+        "x": 5325,
+        "y": 640,
+        "width": 197,
+        "height": 267.164384,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "right",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 5325,
+          "y": 640
+        }
+      },
+      "door": {
+        "x": 5325,
+        "y": 664
+      }
+    },
+    {
+      "id": "apartment-8",
+      "kind": "apartment",
+      "x": 5928,
+      "y": 910,
+      "width": 164,
+      "height": 75,
+      "footprint": {
+        "x": 5928,
+        "y": 910,
+        "width": 164,
+        "height": 75
+      },
+      "depth": 985,
+      "design": {
+        "assetId": "ordinary-house-red-brick-view-left",
+        "x": 6010,
+        "y": 985,
+        "width": 189,
+        "height": 266.789634,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "left",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 6010,
+          "y": 985
+        }
+      },
+      "door": {
+        "x": 6010,
+        "y": 1009
+      }
+    },
+    {
+      "id": "apartment-11",
+      "kind": "apartment",
+      "x": 7257,
+      "y": 1709,
+      "width": 257,
+      "height": 61,
+      "footprint": {
+        "x": 7257,
+        "y": 1709,
+        "width": 257,
+        "height": 61
+      },
+      "depth": 1770,
+      "design": {
+        "assetId": "ordinary-house-red-brick-view-back",
+        "x": 7385,
+        "y": 1770,
+        "width": 295,
+        "height": 219.338336,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "back",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 7385,
+          "y": 1770
+        }
+      },
+      "door": {
+        "x": 7385,
+        "y": 1794
+      }
+    },
+    {
+      "id": "apartment-12",
+      "kind": "apartment",
+      "x": 216,
+      "y": 2196,
+      "width": 178,
+      "height": 69,
+      "footprint": {
+        "x": 216,
+        "y": 2196,
+        "width": 178,
+        "height": 69
+      },
+      "depth": 2265,
+      "design": {
+        "assetId": "ordinary-house-beige-panel-view-left",
+        "x": 305,
+        "y": 2265,
+        "width": 205,
+        "height": 245.481013,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "left",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 305,
+          "y": 2265
+        }
+      },
+      "door": {
+        "x": 305,
+        "y": 2289
+      }
+    },
+    {
+      "id": "apartment-14",
+      "kind": "apartment",
+      "x": 1839,
+      "y": 2358,
+      "width": 171,
+      "height": 72,
+      "footprint": {
+        "x": 1839,
+        "y": 2358,
+        "width": 171,
+        "height": 72
+      },
+      "depth": 2430,
+      "design": {
+        "assetId": "ordinary-house-red-brick-view-right",
+        "x": 1925,
+        "y": 2430,
+        "width": 197,
+        "height": 255.662222,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "right",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 1925,
+          "y": 2430
+        }
+      },
+      "door": {
+        "x": 1925,
+        "y": 2454
+      }
+    },
+    {
+      "id": "apartment-15",
+      "kind": "apartment",
+      "x": 116,
+      "y": 2960,
+      "width": 209,
+      "height": 60,
+      "footprint": {
+        "x": 116,
+        "y": 2960,
+        "width": 209,
+        "height": 60
+      },
+      "depth": 3020,
+      "design": {
+        "assetId": "ordinary-house-beige-panel-view-back",
+        "x": 220,
+        "y": 3020,
+        "width": 240,
+        "height": 213.577982,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "back",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 220,
+          "y": 3020
+        }
+      },
+      "door": {
+        "x": 220,
+        "y": 3044
+      }
+    },
+    {
+      "id": "apartment-17",
+      "kind": "apartment",
+      "x": 44,
+      "y": 3594,
+      "width": 252,
+      "height": 61,
+      "footprint": {
+        "x": 44,
+        "y": 3594,
+        "width": 252,
+        "height": 61
+      },
+      "depth": 3655,
+      "design": {
+        "assetId": "ordinary-house-red-brick-view-front",
+        "x": 170,
+        "y": 3655,
+        "width": 290,
+        "height": 216.410684,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 170,
+          "y": 3655
+        }
+      },
+      "door": {
+        "x": 170,
+        "y": 3679
+      }
+    },
+    {
+      "id": "apartment-18",
+      "kind": "apartment",
+      "x": 540,
+      "y": 4571,
+      "width": 250,
+      "height": 109,
+      "footprint": {
+        "x": 540,
+        "y": 4571,
+        "width": 250,
+        "height": 109
+      },
+      "depth": 4680,
+      "design": {
+        "assetId": "ordinary-house-beige-panel-view-right",
+        "x": 665,
+        "y": 4680,
+        "width": 287,
+        "height": 389.219178,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "right",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 665,
+          "y": 4680
+        }
+      },
+      "door": {
+        "x": 665,
+        "y": 4704
+      }
+    },
+    {
+      "id": "apartment-23",
+      "kind": "apartment",
+      "x": 2620,
+      "y": 4563,
+      "width": 261,
+      "height": 62,
+      "footprint": {
+        "x": 2620,
+        "y": 4563,
+        "width": 261,
+        "height": 62
+      },
+      "depth": 4625,
+      "design": {
+        "assetId": "ordinary-house-red-brick-view-back",
+        "x": 2750,
+        "y": 4625,
+        "width": 300,
+        "height": 223.055935,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "back",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 2750,
+          "y": 4625
+        }
+      },
+      "door": {
+        "x": 2750,
+        "y": 4649
+      }
+    },
+    {
+      "id": "apartment-24",
+      "kind": "apartment",
+      "x": 3932,
+      "y": 4905,
+      "width": 196,
+      "height": 75,
+      "footprint": {
+        "x": 3932,
+        "y": 4905,
+        "width": 196,
+        "height": 75
+      },
+      "depth": 4980,
+      "design": {
+        "assetId": "ordinary-house-beige-panel-view-left",
+        "x": 4030,
+        "y": 4980,
+        "width": 225,
+        "height": 269.43038,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "left",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 4030,
+          "y": 4980
+        }
+      },
+      "door": {
+        "x": 4030,
+        "y": 5004
+      }
+    },
+    {
+      "id": "apartment-28",
+      "kind": "apartment",
+      "x": 6211,
+      "y": 3720,
+      "width": 228,
+      "height": 110,
+      "footprint": {
+        "x": 6211,
+        "y": 3720,
+        "width": 228,
+        "height": 110
+      },
+      "depth": 3830,
+      "design": {
+        "assetId": "ordinary-house-grey-panel-view-left",
+        "x": 6325,
+        "y": 3830,
+        "width": 262,
+        "height": 391.736334,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "left",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 6325,
+          "y": 3830
+        }
+      },
+      "door": {
+        "x": 6325,
+        "y": 3854
+      }
+    },
+    {
+      "id": "apartment-29",
+      "kind": "apartment",
+      "x": 7104,
+      "y": 4412,
+      "width": 261,
+      "height": 63,
+      "footprint": {
+        "x": 7104,
+        "y": 4412,
+        "width": 261,
+        "height": 63
+      },
+      "depth": 4475,
+      "design": {
+        "assetId": "ordinary-house-red-brick-view-front",
+        "x": 7235,
+        "y": 4475,
+        "width": 300,
+        "height": 223.873122,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 7235,
+          "y": 4475
+        }
+      },
+      "door": {
+        "x": 7235,
+        "y": 4499
+      }
+    },
+    {
+      "id": "apartment-30",
+      "kind": "apartment",
+      "x": 7436,
+      "y": 4342,
+      "width": 178,
+      "height": 78,
+      "footprint": {
+        "x": 7436,
+        "y": 4342,
+        "width": 178,
+        "height": 78
+      },
+      "depth": 4420,
+      "design": {
+        "assetId": "ordinary-house-beige-panel-view-right",
+        "x": 7525,
+        "y": 4420,
+        "width": 205,
+        "height": 278.013699,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "right",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 7525,
+          "y": 4420
+        }
+      },
+      "door": {
+        "x": 7525,
+        "y": 4444
+      }
+    },
+    {
+      "id": "apartment-34",
+      "kind": "apartment",
+      "x": 5879,
+      "y": 4855,
+      "width": 182,
+      "height": 80,
+      "footprint": {
+        "x": 5879,
+        "y": 4855,
+        "width": 182,
+        "height": 80
+      },
+      "depth": 4935,
+      "design": {
+        "assetId": "ordinary-house-grey-panel-view-right",
+        "x": 5970,
+        "y": 4935,
+        "width": 209,
+        "height": 285.907303,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "right",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 5970,
+          "y": 4935
+        }
+      },
+      "door": {
+        "x": 5970,
+        "y": 4959
+      }
+    },
+    {
+      "id": "apartment-35",
+      "kind": "apartment",
+      "x": 381,
+      "y": 2983,
+      "width": 218,
+      "height": 52,
+      "footprint": {
+        "x": 381,
+        "y": 2983,
+        "width": 218,
+        "height": 52
+      },
+      "depth": 3035,
+      "design": {
+        "assetId": "ordinary-house-red-brick-view-back",
+        "x": 490,
+        "y": 3035,
+        "width": 250,
+        "height": 185.879945,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "back",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 490,
+          "y": 3035
+        }
+      },
+      "door": {
+        "x": 490,
+        "y": 3059
+      }
+    },
+    {
+      "id": "apartment-38",
+      "kind": "apartment",
+      "x": 1841,
+      "y": 4884,
+      "width": 207,
+      "height": 86,
+      "footprint": {
+        "x": 1841,
+        "y": 4884,
+        "width": 207,
+        "height": 86
+      },
+      "depth": 4970,
+      "design": {
+        "assetId": "ordinary-house-red-brick-view-right",
+        "x": 1945,
+        "y": 4970,
+        "width": 238,
+        "height": 308.871111,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "right",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 1945,
+          "y": 4970
+        }
+      },
+      "door": {
+        "x": 1945,
+        "y": 4994
+      }
+    },
+    {
+      "id": "apartment-39",
+      "kind": "apartment",
+      "x": 3154,
+      "y": 475,
+      "width": 261,
+      "height": 75,
+      "footprint": {
+        "x": 3154,
+        "y": 475,
+        "width": 261,
+        "height": 75
+      },
+      "depth": 550,
+      "design": {
+        "assetId": "ordinary-house-beige-panel-view-back",
+        "x": 3285,
+        "y": 550,
+        "width": 300,
+        "height": 266.972477,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "back",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 3285,
+          "y": 550
+        }
+      },
+      "door": {
+        "x": 3285,
+        "y": 574
+      }
+    },
+    {
+      "id": "apartment-40",
+      "kind": "apartment",
+      "x": 3768,
+      "y": 317,
+      "width": 204,
+      "height": 98,
+      "footprint": {
+        "x": 3768,
+        "y": 317,
+        "width": 204,
+        "height": 98
+      },
+      "depth": 415,
+      "design": {
+        "assetId": "ordinary-house-grey-panel-view-left",
+        "x": 3870,
+        "y": 415,
+        "width": 234,
+        "height": 349.871383,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "left",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 3870,
+          "y": 415
+        }
+      },
+      "door": {
+        "x": 3870,
+        "y": 439
+      }
+    },
+    {
+      "id": "apartment-48",
+      "kind": "apartment",
+      "x": 3689,
+      "y": 2919,
+      "width": 171,
+      "height": 66,
+      "footprint": {
+        "x": 3689,
+        "y": 2919,
+        "width": 171,
+        "height": 66
+      },
+      "depth": 2985,
+      "design": {
+        "assetId": "ordinary-house-beige-panel-view-left",
+        "x": 3775,
+        "y": 2985,
+        "width": 197,
+        "height": 235.901266,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "left",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 3775,
+          "y": 2985
+        }
+      },
+      "door": {
+        "x": 3775,
+        "y": 3009
+      }
+    },
+    {
+      "id": "apartment-52",
+      "kind": "apartment",
+      "x": 858,
+      "y": 4896,
+      "width": 164,
+      "height": 79,
+      "footprint": {
+        "x": 858,
+        "y": 4896,
+        "width": 164,
+        "height": 79
+      },
+      "depth": 4975,
+      "design": {
+        "assetId": "ordinary-house-grey-panel-view-left",
+        "x": 940,
+        "y": 4975,
+        "width": 189,
+        "height": 282.588424,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "left",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 940,
+          "y": 4975
+        }
+      },
+      "door": {
+        "x": 940,
+        "y": 4999
+      }
+    },
+    {
+      "id": "apartment-59",
+      "kind": "apartment",
+      "x": 465,
+      "y": 4867,
+      "width": 200,
+      "height": 48,
+      "footprint": {
+        "x": 465,
+        "y": 4867,
+        "width": 200,
+        "height": 48
+      },
+      "depth": 4915,
+      "design": {
+        "assetId": "ordinary-house-red-brick-view-back",
+        "x": 565,
+        "y": 4915,
+        "width": 230,
+        "height": 171.00955,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "back",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 565,
+          "y": 4915
+        }
+      },
+      "door": {
+        "x": 565,
+        "y": 4939
+      }
+    },
+    {
+      "id": "apartment-60",
+      "kind": "apartment",
+      "x": 4044,
+      "y": 394,
+      "width": 171,
+      "height": 66,
+      "footprint": {
+        "x": 4044,
+        "y": 394,
+        "width": 171,
+        "height": 66
+      },
+      "depth": 460,
+      "design": {
+        "assetId": "ordinary-house-beige-panel-view-left",
+        "x": 4130,
+        "y": 460,
+        "width": 197,
+        "height": 235.901266,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "left",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 4130,
+          "y": 460
+        }
+      },
+      "door": {
+        "x": 4130,
+        "y": 484
+      }
+    },
+    {
+      "id": "apartment-62",
+      "kind": "apartment",
+      "x": 53,
+      "y": 2711,
+      "width": 164,
+      "height": 69,
+      "footprint": {
+        "x": 53,
+        "y": 2711,
+        "width": 164,
+        "height": 69
+      },
+      "depth": 2780,
+      "design": {
+        "assetId": "ordinary-house-red-brick-view-right",
+        "x": 135,
+        "y": 2780,
+        "width": 189,
+        "height": 245.28,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "right",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 135,
+          "y": 2780
+        }
+      },
+      "door": {
+        "x": 135,
+        "y": 2804
+      }
+    },
+    {
+      "id": "apartment-65",
+      "kind": "apartment",
+      "x": 3230,
+      "y": 752,
+      "width": 200,
+      "height": 48,
+      "footprint": {
+        "x": 3230,
+        "y": 752,
+        "width": 200,
+        "height": 48
+      },
+      "depth": 800,
+      "design": {
+        "assetId": "ordinary-house-red-brick-view-front",
+        "x": 3330,
+        "y": 800,
+        "width": 230,
+        "height": 171.63606,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 3330,
+          "y": 800
+        }
+      },
+      "door": {
+        "x": 3330,
+        "y": 824
+      }
+    },
+    {
+      "id": "apartment-66",
+      "kind": "apartment",
+      "x": 1035,
+      "y": 3230,
+      "width": 160,
+      "height": 70,
+      "footprint": {
+        "x": 1035,
+        "y": 3230,
+        "width": 160,
+        "height": 70
+      },
+      "depth": 3300,
+      "design": {
+        "assetId": "ordinary-house-beige-panel-view-right",
+        "x": 1115,
+        "y": 3300,
+        "width": 184,
+        "height": 249.534247,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "right",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 1115,
+          "y": 3300
+        }
+      },
+      "door": {
+        "x": 1115,
+        "y": 3324
+      }
+    },
+    {
+      "id": "apartment-67",
+      "kind": "apartment",
+      "x": 902,
+      "y": 1231,
+      "width": 196,
+      "height": 59,
+      "footprint": {
+        "x": 902,
+        "y": 1231,
+        "width": 196,
+        "height": 59
+      },
+      "depth": 1290,
+      "design": {
+        "assetId": "ordinary-house-grey-panel-view-back",
+        "x": 1000,
+        "y": 1290,
+        "width": 225,
+        "height": 209.942639,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "back",
+        "baked_scene": false,
+        "doorAnchor": {
+          "x": 0.5,
+          "y": 1
+        },
+        "doorOffsetY": 24,
+        "doorTarget": {
+          "x": 1000,
+          "y": 1290
+        }
+      },
+      "door": {
+        "x": 1000,
+        "y": 1314
+      }
+    }
+  ]
+}

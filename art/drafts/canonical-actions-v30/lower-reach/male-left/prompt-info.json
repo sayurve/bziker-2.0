@@ -1,0 +1,28 @@
+{
+  "status": "draft",
+  "tool": "built-in image_gen",
+  "sourceToolPath": "/Users/sapp/.codex/generated_images/01a13c9a-2181-7ab2-8e08-dacd16b99b77/exec-b88766c6-f25c-4efe-9126-9c9b23f81aaf.png",
+  "exactPrompt": "prompt.txt",
+  "reference": "reference-native-8x.png",
+  "original": "game/assets/canonical-idle-v2/male-left-fine.png",
+  "requestedDimensions": [
+    1536,
+    1024
+  ],
+  "requestedCells": [
+    768,
+    1024
+  ],
+  "poses": [
+    "bend-reach",
+    "deep-squat-reach"
+  ],
+  "review": "pending native body/head/alpha review",
+  "runtimeActivated": false,
+  "actualDimensions": [
+    1536,
+    1024
+  ],
+  "sourceSHA256": "0feba57cd8b48d3faa2cbbf7db8e69f69a3b58a00b1a24caa28eeea28f511a8f",
+  "referenceSHA256": "2113b4d5bbd05d0b9c19f621f54fbf43c37fad8523e9cb0bafd6b43722684fee"
+}

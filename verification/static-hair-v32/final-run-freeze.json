@@ -1,0 +1,7 @@
+{
+  "game/web/source-actors.js": "a6377f7840eeb2da912266488105876d53d3e8533b47d8a31758bc3cc0366ef5",
+  "game/web/phaser-world-renderer.js": "93fabca405458cf776c177b5b4d07eaa17920bc0ef2ed74902fb537bc5d46a48",
+  "game/web/world-camera.js": "44254ed011fc28f41604711fb978d21d94368072349c6d11e273f276cdea52af",
+  "game/tests/static-locomotion-head-v32.test.mjs": "df52133f7c8442e961594551c25d7a3a844f082dc43e1509ed4443f872ae42fb",
+  "game/tests/hairstyle-native-v27.test.mjs": "028d4222fceced25e876c6978d780a43e7473d348fa3f4e5474cca41c5fd36ed"
+}

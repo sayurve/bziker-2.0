@@ -1,0 +1,6 @@
+test_all_browser_module_dependencies_have_both_public_aliases (test_static_dependency_v24.StaticDependencyV24Tests.test_all_browser_module_dependencies_have_both_public_aliases) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.035s
+
+OK

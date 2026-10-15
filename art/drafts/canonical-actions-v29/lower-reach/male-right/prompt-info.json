@@ -1,0 +1,33 @@
+{
+  "status": "draft",
+  "tool": "built-in image_gen",
+  "intent": "identity-preserve edit of actual approved C male-right idle fullbody, new lowerreach family",
+  "sourceToolPath": "/Users/sapp/.codex/generated_images/01a13c9a-2181-7ab2-8e08-dacd16b99b77/exec-71ea920e-2efe-4eaa-b16d-46ab850be9c3.png",
+  "sheet": "art/drafts/canonical-actions-v29/lower-reach/male-right/sheet.png",
+  "sha256": "86c6aacf1c19aee75c64f5f3622692ed21daa8e1c8ca00d26c0d28858427991c",
+  "actualDimensions": [
+    1086,
+    1448
+  ],
+  "prompt": "art/drafts/canonical-actions-v29/lower-reach/male-right/prompt.txt",
+  "references": [
+    {
+      "path": "art/drafts/canonical-actions-v29/lower-reach/male-right/reference-native-8x.png",
+      "sha256": "82bb98c889bd173fda590e98fbfc75eafda97c4bcfa8890537c6365d695040a7",
+      "original": "game/assets/canonical-idle-v2/male-right-fine.png",
+      "originalSHA256": "9eee484ea8fd0f10833772726be630c1d1af73ce9a1c892bc6947283094759c3",
+      "transform": "uniform exact8x nearest on samefullcanvas; no crop/fit"
+    }
+  ],
+  "requestedDimensions": [
+    1536,
+    2048
+  ],
+  "poses": [
+    "standing-reach",
+    "bend-knees-reach",
+    "squat-ground-reach",
+    "rise-handhold"
+  ],
+  "approval": false
+}

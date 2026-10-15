@@ -1,0 +1,377 @@
+{
+  "roadCount": 27,
+  "roadSegments": 86,
+  "approaches": 19,
+  "seats": 22,
+  "samples": [
+    {
+      "id": "arrival",
+      "kind": "walkway",
+      "width": 64,
+      "length": 3960.3,
+      "samples": 503,
+      "bad": 0
+    },
+    {
+      "id": "avenue",
+      "kind": "road",
+      "width": 110,
+      "length": 3611.4,
+      "samples": 459,
+      "bad": 0
+    },
+    {
+      "id": "west-street",
+      "kind": "road",
+      "width": 110,
+      "length": 5214.4,
+      "samples": 663,
+      "bad": 0
+    },
+    {
+      "id": "east-street",
+      "kind": "road",
+      "width": 110,
+      "length": 3045.2,
+      "samples": 388,
+      "bad": 0
+    },
+    {
+      "id": "quarter-north",
+      "kind": "road",
+      "width": 90,
+      "length": 2591.1,
+      "samples": 331,
+      "bad": 0
+    },
+    {
+      "id": "quarter-south",
+      "kind": "road",
+      "width": 90,
+      "length": 1612.1,
+      "samples": 208,
+      "bad": 0
+    },
+    {
+      "id": "access-base-1",
+      "kind": "walkway",
+      "width": 44,
+      "length": 135,
+      "samples": 20,
+      "bad": 0
+    },
+    {
+      "id": "access-base-2",
+      "kind": "walkway",
+      "width": 44,
+      "length": 135,
+      "samples": 20,
+      "bad": 0
+    },
+    {
+      "id": "access-base-3",
+      "kind": "walkway",
+      "width": 44,
+      "length": 135,
+      "samples": 20,
+      "bad": 0
+    },
+    {
+      "id": "access-base-4",
+      "kind": "walkway",
+      "width": 44,
+      "length": 135,
+      "samples": 20,
+      "bad": 0
+    },
+    {
+      "id": "access-base-5",
+      "kind": "walkway",
+      "width": 44,
+      "length": 75,
+      "samples": 12,
+      "bad": 0
+    },
+    {
+      "id": "access-base-6",
+      "kind": "walkway",
+      "width": 44,
+      "length": 75,
+      "samples": 12,
+      "bad": 0
+    },
+    {
+      "id": "access-base-7",
+      "kind": "walkway",
+      "width": 44,
+      "length": 75,
+      "samples": 12,
+      "bad": 0
+    },
+    {
+      "id": "access-base-8",
+      "kind": "walkway",
+      "width": 44,
+      "length": 75,
+      "samples": 12,
+      "bad": 0
+    },
+    {
+      "id": "door-clans",
+      "kind": "walkway",
+      "width": 52,
+      "length": 535,
+      "samples": 70,
+      "bad": 0
+    },
+    {
+      "id": "door-arena",
+      "kind": "walkway",
+      "width": 52,
+      "length": 261.1,
+      "samples": 36,
+      "bad": 0
+    },
+    {
+      "id": "door-profile",
+      "kind": "walkway",
+      "width": 52,
+      "length": 471.5,
+      "samples": 62,
+      "bad": 0
+    },
+    {
+      "id": "door-results",
+      "kind": "walkway",
+      "width": 52,
+      "length": 403.4,
+      "samples": 53,
+      "bad": 0
+    },
+    {
+      "id": "door-messages",
+      "kind": "walkway",
+      "width": 52,
+      "length": 295.8,
+      "samples": 40,
+      "bad": 0
+    },
+    {
+      "id": "door-terrace",
+      "kind": "walkway",
+      "width": 52,
+      "length": 805.7,
+      "samples": 105,
+      "bad": 0
+    },
+    {
+      "id": "door-shop-food",
+      "kind": "walkway",
+      "width": 52,
+      "length": 581,
+      "samples": 78,
+      "bad": 0
+    },
+    {
+      "id": "door-shop-clothes",
+      "kind": "walkway",
+      "width": 52,
+      "length": 574.1,
+      "samples": 75,
+      "bad": 0
+    },
+    {
+      "id": "door-shop-furniture",
+      "kind": "walkway",
+      "width": 52,
+      "length": 77,
+      "samples": 12,
+      "bad": 0
+    },
+    {
+      "id": "door-casino",
+      "kind": "walkway",
+      "width": 52,
+      "length": 536.7,
+      "samples": 70,
+      "bad": 0
+    },
+    {
+      "id": "park-promenade",
+      "kind": "walkway",
+      "width": 64,
+      "length": 3941.4,
+      "samples": 507,
+      "bad": 0
+    },
+    {
+      "id": "fishing-east-path",
+      "kind": "walkway",
+      "width": 44,
+      "length": 436.3,
+      "samples": 58,
+      "bad": 0
+    },
+    {
+      "id": "smoking-path",
+      "kind": "walkway",
+      "width": 44,
+      "length": 488.6,
+      "samples": 64,
+      "bad": 0
+    },
+    {
+      "id": "approach-railway",
+      "kind": "generated-approach",
+      "width": 64,
+      "length": 35,
+      "samples": 6,
+      "bad": 0
+    },
+    {
+      "id": "approach-clans",
+      "kind": "generated-approach",
+      "width": 56,
+      "length": 467,
+      "samples": 61,
+      "bad": 0
+    },
+    {
+      "id": "approach-arena",
+      "kind": "generated-approach",
+      "width": 56,
+      "length": 234,
+      "samples": 32,
+      "bad": 0
+    },
+    {
+      "id": "approach-profile",
+      "kind": "generated-approach",
+      "width": 56,
+      "length": 359,
+      "samples": 48,
+      "bad": 0
+    },
+    {
+      "id": "approach-results",
+      "kind": "generated-approach",
+      "width": 56,
+      "length": 308.3,
+      "samples": 41,
+      "bad": 0
+    },
+    {
+      "id": "approach-messages",
+      "kind": "generated-approach",
+      "width": 56,
+      "length": 194.1,
+      "samples": 27,
+      "bad": 0
+    },
+    {
+      "id": "approach-terrace",
+      "kind": "generated-approach",
+      "width": 56,
+      "length": 805.7,
+      "samples": 105,
+      "bad": 0
+    },
+    {
+      "id": "approach-shop-food",
+      "kind": "generated-approach",
+      "width": 56,
+      "length": 581,
+      "samples": 78,
+      "bad": 0
+    },
+    {
+      "id": "approach-shop-clothes",
+      "kind": "generated-approach",
+      "width": 56,
+      "length": 259,
+      "samples": 35,
+      "bad": 0
+    },
+    {
+      "id": "approach-shop-furniture",
+      "kind": "generated-approach",
+      "width": 56,
+      "length": 77,
+      "samples": 12,
+      "bad": 0
+    },
+    {
+      "id": "approach-casino",
+      "kind": "generated-approach",
+      "width": 56,
+      "length": 402.3,
+      "samples": 53,
+      "bad": 0
+    },
+    {
+      "id": "approach-base-1",
+      "kind": "generated-approach",
+      "width": 48,
+      "length": 77.4,
+      "samples": 13,
+      "bad": 0
+    },
+    {
+      "id": "approach-base-2",
+      "kind": "generated-approach",
+      "width": 48,
+      "length": 96.3,
+      "samples": 15,
+      "bad": 0
+    },
+    {
+      "id": "approach-base-3",
+      "kind": "generated-approach",
+      "width": 48,
+      "length": 78,
+      "samples": 13,
+      "bad": 0
+    },
+    {
+      "id": "approach-base-4",
+      "kind": "generated-approach",
+      "width": 48,
+      "length": 77,
+      "samples": 12,
+      "bad": 0
+    },
+    {
+      "id": "approach-base-5",
+      "kind": "generated-approach",
+      "width": 48,
+      "length": 36.4,
+      "samples": 6,
+      "bad": 0
+    },
+    {
+      "id": "approach-base-6",
+      "kind": "generated-approach",
+      "width": 48,
+      "length": 17.6,
+      "samples": 4,
+      "bad": 0
+    },
+    {
+      "id": "approach-base-7",
+      "kind": "generated-approach",
+      "width": 48,
+      "length": 35.8,
+      "samples": 6,
+      "bad": 0
+    },
+    {
+      "id": "approach-base-8",
+      "kind": "generated-approach",
+      "width": 48,
+      "length": 25.6,
+      "samples": 5,
+      "bad": 0
+    }
+  ],
+  "failures": []
+}

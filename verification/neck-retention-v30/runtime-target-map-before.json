@@ -1,0 +1,837 @@
+{
+  "Asha": "3c60c0717a4bb5bf398502528b6091e0e13bda02f91c12c4e78649c6994f9fa3",
+  "rows": [
+    {
+      "actorId": "human-male",
+      "family": "hand",
+      "dir": "right",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/male-hand-right-0-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-right-0.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "hand",
+      "dir": "right",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/male-hand-right-1-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-right-1.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "hand",
+      "dir": "right",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/male-hand-right-2-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-right-2.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "hand",
+      "dir": "right",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/male-hand-right-3-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-right-3.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "hand",
+      "dir": "down",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/male-hand-down-0-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-down-0.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "hand",
+      "dir": "down",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/male-hand-down-1-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-down-1.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "hand",
+      "dir": "down",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/male-hand-down-2-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-down-2.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "hand",
+      "dir": "down",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/male-hand-down-3-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-down-3.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "hand",
+      "dir": "left",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/male-hand-left-0-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-left-0.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "hand",
+      "dir": "left",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/male-hand-left-1-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-left-1.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "hand",
+      "dir": "left",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/male-hand-left-2-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-left-2.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "hand",
+      "dir": "left",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/male-hand-left-3-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-left-3.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "hand",
+      "dir": "up",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/male-hand-up-0-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-up-0.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "hand",
+      "dir": "up",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/male-hand-up-1-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-up-1.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "hand",
+      "dir": "up",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/male-hand-up-2-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-up-2.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "hand",
+      "dir": "up",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/male-hand-up-3-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-up-3.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "lowerReach",
+      "dir": "down",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/male-hand-down-0-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-down-0.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "lowerReach",
+      "dir": "down",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/male-lowerReach-down-1-fine.png",
+      "coarse": "game/assets/interaction-v29/male-lowerReach-down-1.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "lowerReach",
+      "dir": "down",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/male-lowerReach-down-2-fine.png",
+      "coarse": "game/assets/interaction-v29/male-lowerReach-down-2.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "lowerReach",
+      "dir": "down",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/male-hand-down-1-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-down-1.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "lowerReach",
+      "dir": "right",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/male-hand-right-0-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-right-0.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "lowerReach",
+      "dir": "right",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/male-lowerReach-right-1-fine.png",
+      "coarse": "game/assets/interaction-v29/male-lowerReach-right-1.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "lowerReach",
+      "dir": "right",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/male-lowerReach-right-2-fine.png",
+      "coarse": "game/assets/interaction-v29/male-lowerReach-right-2.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "lowerReach",
+      "dir": "right",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/male-hand-right-1-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-right-1.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "lowerReach",
+      "dir": "up",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/male-hand-up-0-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-up-0.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "lowerReach",
+      "dir": "up",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/male-lowerReach-up-1-fine.png",
+      "coarse": "game/assets/interaction-v29/male-lowerReach-up-1.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "lowerReach",
+      "dir": "up",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/male-lowerReach-up-2-fine.png",
+      "coarse": "game/assets/interaction-v29/male-lowerReach-up-2.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "lowerReach",
+      "dir": "up",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/male-hand-up-1-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-up-1.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "lowerReach",
+      "dir": "left",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/male-hand-left-0-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-left-0.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "lowerReach",
+      "dir": "left",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/male-lowerReach-left-1-fine.png",
+      "coarse": "game/assets/interaction-v29/male-lowerReach-left-1.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "lowerReach",
+      "dir": "left",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/male-lowerReach-left-2-fine.png",
+      "coarse": "game/assets/interaction-v29/male-lowerReach-left-2.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "lowerReach",
+      "dir": "left",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/male-hand-left-1-fine.png",
+      "coarse": "game/assets/interaction-v29/male-hand-left-1.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "seated",
+      "dir": "right",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/male-seated-right-0-fine.png",
+      "coarse": "game/assets/interaction-v29/male-seated-right-0.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "seated",
+      "dir": "right",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/male-seated-right-1-fine.png",
+      "coarse": "game/assets/interaction-v29/male-seated-right-1.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "seated",
+      "dir": "right",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/male-seated-right-2-fine.png",
+      "coarse": "game/assets/interaction-v29/male-seated-right-2.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "seated",
+      "dir": "right",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/male-seated-right-3-fine.png",
+      "coarse": "game/assets/interaction-v29/male-seated-right-3.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "seated",
+      "dir": "left",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/male-seated-left-0-fine.png",
+      "coarse": "game/assets/interaction-v29/male-seated-left-0.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "seated",
+      "dir": "left",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/male-seated-left-1-fine.png",
+      "coarse": "game/assets/interaction-v29/male-seated-left-1.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "seated",
+      "dir": "left",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/male-seated-left-2-fine.png",
+      "coarse": "game/assets/interaction-v29/male-seated-left-2.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "seated",
+      "dir": "left",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/male-seated-left-3-fine.png",
+      "coarse": "game/assets/interaction-v29/male-seated-left-3.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "seated",
+      "dir": "down",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/male-seated-down-0-fine.png",
+      "coarse": "game/assets/interaction-v29/male-seated-down-0.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "seated",
+      "dir": "down",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/male-seated-down-1-fine.png",
+      "coarse": "game/assets/interaction-v29/male-seated-down-1.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "seated",
+      "dir": "down",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/male-seated-down-2-fine.png",
+      "coarse": "game/assets/interaction-v29/male-seated-down-2.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "seated",
+      "dir": "down",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/male-seated-down-3-fine.png",
+      "coarse": "game/assets/interaction-v29/male-seated-down-3.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "seated",
+      "dir": "up",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/male-seated-up-0-fine.png",
+      "coarse": "game/assets/interaction-v29/male-seated-up-0.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "seated",
+      "dir": "up",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/male-seated-up-1-fine.png",
+      "coarse": "game/assets/interaction-v29/male-seated-up-1.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "seated",
+      "dir": "up",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/male-seated-up-2-fine.png",
+      "coarse": "game/assets/interaction-v29/male-seated-up-2.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "seated",
+      "dir": "up",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/male-seated-up-3-fine.png",
+      "coarse": "game/assets/interaction-v29/male-seated-up-3.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "water",
+      "dir": "right",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/male-water-right-0-fine.png",
+      "coarse": "game/assets/interaction-v29/male-water-right-0.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "water",
+      "dir": "right",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/male-water-right-1-fine.png",
+      "coarse": "game/assets/interaction-v29/male-water-right-1.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "water",
+      "dir": "right",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/male-water-right-2-fine.png",
+      "coarse": "game/assets/interaction-v29/male-water-right-2.png"
+    },
+    {
+      "actorId": "human-male",
+      "family": "water",
+      "dir": "right",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/male-water-right-3-fine.png",
+      "coarse": "game/assets/interaction-v29/male-water-right-3.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "hand",
+      "dir": "right",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/female-hand-right-0-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-right-0.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "hand",
+      "dir": "right",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/female-hand-right-1-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-right-1.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "hand",
+      "dir": "right",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/female-hand-right-2-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-right-2.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "hand",
+      "dir": "right",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/female-hand-right-3-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-right-3.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "hand",
+      "dir": "down",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/female-hand-down-0-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-down-0.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "hand",
+      "dir": "down",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/female-hand-down-1-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-down-1.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "hand",
+      "dir": "down",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/female-hand-down-2-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-down-2.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "hand",
+      "dir": "down",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/female-hand-down-3-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-down-3.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "hand",
+      "dir": "left",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/female-hand-left-0-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-left-0.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "hand",
+      "dir": "left",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/female-hand-left-1-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-left-1.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "hand",
+      "dir": "left",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/female-hand-left-2-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-left-2.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "hand",
+      "dir": "left",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/female-hand-left-3-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-left-3.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "hand",
+      "dir": "up",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/female-hand-up-0-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-up-0.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "hand",
+      "dir": "up",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/female-hand-up-1-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-up-1.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "hand",
+      "dir": "up",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/female-hand-up-2-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-up-2.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "hand",
+      "dir": "up",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/female-hand-up-3-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-up-3.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "dir": "down",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/female-hand-down-0-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-down-0.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "dir": "down",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/female-lowerReach-down-1-fine.png",
+      "coarse": "game/assets/interaction-v29/female-lowerReach-down-1.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "dir": "down",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/female-lowerReach-down-2-fine.png",
+      "coarse": "game/assets/interaction-v29/female-lowerReach-down-2.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "dir": "down",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/female-hand-down-1-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-down-1.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "dir": "right",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/female-hand-right-0-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-right-0.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "dir": "right",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/female-lowerReach-right-1-fine.png",
+      "coarse": "game/assets/interaction-v29/female-lowerReach-right-1.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "dir": "right",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/female-lowerReach-right-2-fine.png",
+      "coarse": "game/assets/interaction-v29/female-lowerReach-right-2.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "dir": "right",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/female-hand-right-1-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-right-1.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "dir": "up",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/female-hand-up-0-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-up-0.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "dir": "up",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/female-lowerReach-up-1-fine.png",
+      "coarse": "game/assets/interaction-v29/female-lowerReach-up-1.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "dir": "up",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/female-lowerReach-up-2-fine.png",
+      "coarse": "game/assets/interaction-v29/female-lowerReach-up-2.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "dir": "up",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/female-hand-up-1-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-up-1.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "dir": "left",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/female-hand-left-0-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-left-0.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "dir": "left",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/female-lowerReach-left-1-fine.png",
+      "coarse": "game/assets/interaction-v29/female-lowerReach-left-1.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "dir": "left",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/female-lowerReach-left-2-fine.png",
+      "coarse": "game/assets/interaction-v29/female-lowerReach-left-2.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "dir": "left",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/female-hand-left-1-fine.png",
+      "coarse": "game/assets/interaction-v29/female-hand-left-1.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "seated",
+      "dir": "right",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/female-seated-right-0-fine.png",
+      "coarse": "game/assets/interaction-v29/female-seated-right-0.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "seated",
+      "dir": "right",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/female-seated-right-1-fine.png",
+      "coarse": "game/assets/interaction-v29/female-seated-right-1.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "seated",
+      "dir": "right",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/female-seated-right-2-fine.png",
+      "coarse": "game/assets/interaction-v29/female-seated-right-2.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "seated",
+      "dir": "right",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/female-seated-right-3-fine.png",
+      "coarse": "game/assets/interaction-v29/female-seated-right-3.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "seated",
+      "dir": "left",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/female-seated-left-0-fine.png",
+      "coarse": "game/assets/interaction-v29/female-seated-left-0.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "seated",
+      "dir": "left",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/female-seated-left-1-fine.png",
+      "coarse": "game/assets/interaction-v29/female-seated-left-1.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "seated",
+      "dir": "left",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/female-seated-left-2-fine.png",
+      "coarse": "game/assets/interaction-v29/female-seated-left-2.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "seated",
+      "dir": "left",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/female-seated-left-3-fine.png",
+      "coarse": "game/assets/interaction-v29/female-seated-left-3.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "seated",
+      "dir": "down",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/female-seated-down-0-fine.png",
+      "coarse": "game/assets/interaction-v29/female-seated-down-0.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "seated",
+      "dir": "down",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/female-seated-down-1-fine.png",
+      "coarse": "game/assets/interaction-v29/female-seated-down-1.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "seated",
+      "dir": "down",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/female-seated-down-2-fine.png",
+      "coarse": "game/assets/interaction-v29/female-seated-down-2.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "seated",
+      "dir": "down",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/female-seated-down-3-fine.png",
+      "coarse": "game/assets/interaction-v29/female-seated-down-3.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "seated",
+      "dir": "up",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/female-seated-up-0-fine.png",
+      "coarse": "game/assets/interaction-v29/female-seated-up-0.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "seated",
+      "dir": "up",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/female-seated-up-1-fine.png",
+      "coarse": "game/assets/interaction-v29/female-seated-up-1.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "seated",
+      "dir": "up",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/female-seated-up-2-fine.png",
+      "coarse": "game/assets/interaction-v29/female-seated-up-2.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "seated",
+      "dir": "up",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/female-seated-up-3-fine.png",
+      "coarse": "game/assets/interaction-v29/female-seated-up-3.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "water",
+      "dir": "right",
+      "index": 0,
+      "fine": "game/assets/interaction-v29/female-water-right-0-fine.png",
+      "coarse": "game/assets/interaction-v29/female-water-right-0.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "water",
+      "dir": "right",
+      "index": 1,
+      "fine": "game/assets/interaction-v29/female-water-right-1-fine.png",
+      "coarse": "game/assets/interaction-v29/female-water-right-1.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "water",
+      "dir": "right",
+      "index": 2,
+      "fine": "game/assets/interaction-v29/female-water-right-2-fine.png",
+      "coarse": "game/assets/interaction-v29/female-water-right-2.png"
+    },
+    {
+      "actorId": "human-female",
+      "family": "water",
+      "dir": "right",
+      "index": 3,
+      "fine": "game/assets/interaction-v29/female-water-right-3-fine.png",
+      "coarse": "game/assets/interaction-v29/female-water-right-3.png"
+    }
+  ]
+}

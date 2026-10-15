@@ -1,0 +1,666 @@
+{
+  "before": [
+    {
+      "id": "messages",
+      "bounds": {
+        "left": 324.414141,
+        "right": 1361.585859,
+        "top": 280,
+        "bottom": 780
+      },
+      "actor_height": 80,
+      "body_radius": 14,
+      "grid_step": 8,
+      "valid_nodes": 6110,
+      "reachable_nodes": 6110,
+      "spawn_valid": true,
+      "targets": [
+        {
+          "id": "action",
+          "point": [
+            509.414141,
+            395
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.1622776601683795
+        },
+        {
+          "id": "exit",
+          "point": [
+            843.0,
+            760
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 1.4141409999999723
+        },
+        {
+          "id": "interior:messages:bar-stool-1",
+          "point": [
+            415.48284349999994,
+            489
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.2275276967837283
+        },
+        {
+          "id": "interior:messages:bar-stool-2",
+          "point": [
+            515.4828435,
+            489
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 1.366497359494815
+        },
+        {
+          "id": "interior:messages:bar-stool-3",
+          "point": [
+            615.4828435,
+            489
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.2275276967837283
+        },
+        {
+          "id": "interior:messages:table-1:left",
+          "point": [
+            1061.08188,
+            476
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 4.055351448656575
+        },
+        {
+          "id": "interior:messages:table-1:right",
+          "point": [
+            1272.2926655,
+            476
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 5.571620257797666
+        },
+        {
+          "id": "interior:messages:table-2:left",
+          "point": [
+            408.91016199999996,
+            691
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 4.612794037504938
+        },
+        {
+          "id": "interior:messages:table-2:right",
+          "point": [
+            620.1209474999999,
+            691
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.014293022989349
+        },
+        {
+          "id": "interior:messages:table-3:left",
+          "point": [
+            1061.08188,
+            691
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.073414285793729
+        },
+        {
+          "id": "interior:messages:table-3:right",
+          "point": [
+            1272.2926655,
+            691
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 4.903361326386353
+        }
+      ],
+      "solid_overlaps": [],
+      "seats": 9,
+      "props": 13
+    },
+    {
+      "id": "casino",
+      "bounds": {
+        "left": 381.302317,
+        "right": 1661.697683,
+        "top": 296,
+        "bottom": 836
+      },
+      "actor_height": 80,
+      "body_radius": 14,
+      "grid_step": 8,
+      "valid_nodes": 7591,
+      "reachable_nodes": 7591,
+      "spawn_valid": true,
+      "targets": [
+        {
+          "id": "action",
+          "point": [
+            505.393226,
+            401
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 4.034971182831535
+        },
+        {
+          "id": "exit",
+          "point": [
+            1021.5,
+            816
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 0.19768299999998362
+        },
+        {
+          "id": "interior:casino:slots:seat-1",
+          "point": [
+            879.5246305000001,
+            482
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 2.98976207954453
+        },
+        {
+          "id": "interior:casino:slots:seat-2",
+          "point": [
+            1034.5246305,
+            482
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.4227974366419427
+        },
+        {
+          "id": "interior:casino:bar:seat-1",
+          "point": [
+            1432.0896320000002,
+            482
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.43061582069826
+        },
+        {
+          "id": "interior:casino:bar:seat-2",
+          "point": [
+            1552.0896320000002,
+            482
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.43061582069826
+        },
+        {
+          "id": "interior:casino:roulette:north-1",
+          "point": [
+            526.749553,
+            490
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 2.46870250125363
+        },
+        {
+          "id": "interior:casino:roulette:south-1",
+          "point": [
+            527.3269475,
+            757
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.6192718413418494
+        },
+        {
+          "id": "interior:casino:roulette:north-2",
+          "point": [
+            613.349553,
+            490
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 2.00055773215771
+        },
+        {
+          "id": "interior:casino:roulette:south-2",
+          "point": [
+            613.9269475000001,
+            757
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.06433732828655
+        },
+        {
+          "id": "interior:casino:roulette:north-3",
+          "point": [
+            699.9495529999999,
+            490
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 2.414533172208709
+        },
+        {
+          "id": "interior:casino:roulette:south-3",
+          "point": [
+            700.5269475,
+            757
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.0985799750095633
+        },
+        {
+          "id": "interior:casino:poker-one:north-1",
+          "point": [
+            1327.144919,
+            490
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 2.719408415520513
+        },
+        {
+          "id": "interior:casino:poker-one:south-1",
+          "point": [
+            1327.7223135000002,
+            757
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.854397885534441
+        },
+        {
+          "id": "interior:casino:poker-one:north-2",
+          "point": [
+            1415.896399,
+            490
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.27555513199262
+        },
+        {
+          "id": "interior:casino:poker-one:south-2",
+          "point": [
+            1416.4737935,
+            757
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 4.365577074116523
+        },
+        {
+          "id": "interior:casino:poker-one:north-3",
+          "point": [
+            1504.647878,
+            490
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.897791477839736
+        },
+        {
+          "id": "interior:casino:poker-one:south-3",
+          "point": [
+            1505.2252725,
+            757
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 4.938580753109116
+        }
+      ],
+      "solid_overlaps": [],
+      "seats": 16,
+      "props": 23
+    }
+  ],
+  "after": [
+    {
+      "id": "messages",
+      "bounds": {
+        "left": 283.845118,
+        "right": 1148.154882,
+        "top": 254,
+        "bottom": 654
+      },
+      "actor_height": 80,
+      "body_radius": 14,
+      "grid_step": 8,
+      "valid_nodes": 3579,
+      "reachable_nodes": 3579,
+      "spawn_valid": true,
+      "targets": [
+        {
+          "id": "action",
+          "point": [
+            461.845118,
+            357
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 2.23606797749979
+        },
+        {
+          "id": "exit",
+          "point": [
+            716.0,
+            634
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 4.002997431166302
+        },
+        {
+          "id": "interior:messages:bar-stool-1",
+          "point": [
+            371.84511799999996,
+            446
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 5.684341886080802e-14
+        },
+        {
+          "id": "interior:messages:bar-stool-2",
+          "point": [
+            461.84511799999996,
+            446
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 1.9999999999999432
+        },
+        {
+          "id": "interior:messages:bar-stool-3",
+          "point": [
+            551.845118,
+            446
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 4.0
+        },
+        {
+          "id": "interior:messages:table-1:left",
+          "point": [
+            813.3299485,
+            422
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 1.4848305000000437
+        },
+        {
+          "id": "interior:messages:table-1:right",
+          "point": [
+            1114.0868189999999,
+            422
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 1.758299000000079
+        },
+        {
+          "id": "interior:messages:table-2:left",
+          "point": [
+            339.0201845,
+            584
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 2.1634498559990307
+        },
+        {
+          "id": "interior:messages:table-2:right",
+          "point": [
+            639.777055,
+            584
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 4.411363572861512
+        },
+        {
+          "id": "interior:messages:table-3:left",
+          "point": [
+            793.3299485,
+            584
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.2134214808720674
+        },
+        {
+          "id": "interior:messages:table-3:right",
+          "point": [
+            1094.086819,
+            584
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.004200954230869
+        }
+      ],
+      "solid_overlaps": [],
+      "seats": 9,
+      "props": 13
+    },
+    {
+      "id": "casino",
+      "bounds": {
+        "left": 343.827027,
+        "right": 1464.172973,
+        "top": 274,
+        "bottom": 734
+      },
+      "actor_height": 80,
+      "body_radius": 14,
+      "grid_step": 8,
+      "valid_nodes": 4973,
+      "reachable_nodes": 4973,
+      "spawn_valid": true,
+      "targets": [
+        {
+          "id": "action",
+          "point": [
+            477.917936,
+            381
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.555928633462848
+        },
+        {
+          "id": "exit",
+          "point": [
+            904.0,
+            714
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 0.1729729999999563
+        },
+        {
+          "id": "interior:casino:slots:seat-1",
+          "point": [
+            842.0,
+            463
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.704296378359703
+        },
+        {
+          "id": "interior:casino:slots:seat-2",
+          "point": [
+            966.0,
+            463
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.5125528691721013
+        },
+        {
+          "id": "interior:casino:bar:seat-1",
+          "point": [
+            1228.172973,
+            468
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 4.165586469504221
+        },
+        {
+          "id": "interior:casino:bar:seat-2",
+          "point": [
+            1340.172973,
+            468
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 4.165586469504221
+        },
+        {
+          "id": "interior:casino:roulette:north-1",
+          "point": [
+            503.827027,
+            453
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.0
+        },
+        {
+          "id": "interior:casino:roulette:south-1",
+          "point": [
+            503.827027,
+            715
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 1.0
+        },
+        {
+          "id": "interior:casino:roulette:north-2",
+          "point": [
+            583.827027,
+            453
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.0
+        },
+        {
+          "id": "interior:casino:roulette:south-2",
+          "point": [
+            583.827027,
+            715
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 1.0
+        },
+        {
+          "id": "interior:casino:roulette:north-3",
+          "point": [
+            663.827027,
+            453
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.0
+        },
+        {
+          "id": "interior:casino:roulette:south-3",
+          "point": [
+            663.827027,
+            715
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 1.0
+        },
+        {
+          "id": "interior:casino:poker-one:north-1",
+          "point": [
+            1144.172973,
+            453
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.019880566333036
+        },
+        {
+          "id": "interior:casino:poker-one:south-1",
+          "point": [
+            1144.172973,
+            715
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 1.058148682802157
+        },
+        {
+          "id": "interior:casino:poker-one:north-2",
+          "point": [
+            1224.172973,
+            453
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.019880566333036
+        },
+        {
+          "id": "interior:casino:poker-one:south-2",
+          "point": [
+            1224.172973,
+            715
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 1.058148682802157
+        },
+        {
+          "id": "interior:casino:poker-one:north-3",
+          "point": [
+            1304.172973,
+            453
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 3.019880566333036
+        },
+        {
+          "id": "interior:casino:poker-one:south-3",
+          "point": [
+            1304.172973,
+            715
+          ],
+          "valid": true,
+          "exact_approach_reachable": true,
+          "nearest_grid_distance": 1.058148682802157
+        }
+      ],
+      "solid_overlaps": [],
+      "seats": 16,
+      "props": 23
+    }
+  ]
+}

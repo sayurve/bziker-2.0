@@ -1,0 +1,11 @@
+✔ only reviewed per-frame whole-pose compatibility changes raster/head, retaining source timeline/hand/pelvis/prop semantics (1.448625ms)
+✔ empty, draft, unchecked, incomplete and malformed action compatibility cannot replace real source artwork (0.29975ms)
+✔ approved action resources preload at actor readiness while draft resources are never requested (0.870167ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 126.096625

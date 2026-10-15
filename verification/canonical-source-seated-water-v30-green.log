@@ -1,0 +1,21 @@
+✔ the imported actor catalog retains all 22 entities and 374 original base actions (34.677792ms)
+✔ whole walking frames advance by discrete source order without moving the feet anchor (45.443958ms)
+✔ phone and food select seated source cycles without dropping the sitting context (1.158667ms)
+✔ animals use deterministic actual breeds and source gait frames at the existing world coordinate (0.613542ms)
+✔ canonical water keeps the reviewed body identity and never stands a seated boat occupant up; original source clips remain explicit archives (1.222292ms)
+✔ every supplied scenario and every animal action is addressable instead of silently becoming idle (5.301791ms)
+✔ untrusted animation identifiers cannot select inherited object properties (0.963584ms)
+✔ source pages are compact PNG atlases with normalized transparent cell bounds (170.19225ms)
+✔ canvas source rendering retains custom hair, skin, clothes and costume identity (245.686292ms)
+✔ native water equipment follows the authored hand without moving or mirroring the actor (3.041625ms)
+✔ an uncaught cast cannot show a fish; the successful catch is pocketed once (0.458625ms)
+✔ male actor-only frames use their measured hands without duplicating the embedded catch (0.664042ms)
+✔ only the three independent native equipment PNGs are decoded and drawn (171.373ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 575.732417

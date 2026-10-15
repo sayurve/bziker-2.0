@@ -1,0 +1,381 @@
+{
+  "gender": "female",
+  "dir": "up",
+  "status": "draft",
+  "poses": [
+    {
+      "frame": 1,
+      "pelvis": [
+        22.5,
+        48
+      ],
+      "nativePelvis": [
+        45,
+        96
+      ],
+      "sourcePelvis": [
+        404,
+        735
+      ],
+      "pelvisAuthority": "authored native coat/pants waist boundary; no bbox fit",
+      "fine": "art/drafts/canonical-actions-v30/lower-reach/female-up/pose-1-fine.png",
+      "coarse": "art/drafts/canonical-actions-v30/lower-reach/female-up/pose-1.png",
+      "bodyFine": "art/drafts/canonical-actions-v30/lower-reach/female-up/pose-1-body-fine.png",
+      "head": {
+        "top": 8.5,
+        "bottom": 32.5,
+        "left": 15,
+        "right": 39,
+        "portraitChin": 33,
+        "eyeAnchor": [
+          27,
+          22.549999999999997
+        ],
+        "eyeLine": 22.549999999999997,
+        "neckAnchor": [
+          27,
+          32
+        ],
+        "facePolygon": [],
+        "scalpPolygon": [
+          [
+            16.125,
+            14.825
+          ],
+          [
+            19.425,
+            10.474999999999998
+          ],
+          [
+            26.625,
+            9.049999999999999
+          ],
+          [
+            33.525000000000006,
+            10.624999999999998
+          ],
+          [
+            37.575,
+            14.974999999999998
+          ],
+          [
+            38.4,
+            23.299999999999997
+          ],
+          [
+            36.525,
+            28.324999999999996
+          ],
+          [
+            31.95,
+            31.174999999999997
+          ],
+          [
+            26.775000000000002,
+            31.924999999999997
+          ],
+          [
+            21.525,
+            30.5
+          ],
+          [
+            17.85,
+            28.099999999999998
+          ],
+          [
+            16.125,
+            23.15
+          ]
+        ]
+      },
+      "hand": [
+        35.5,
+        51
+      ],
+      "sourceSheet": "art/drafts/canonical-actions-v30/lower-reach/female-up/sheet.png",
+      "sourceSheetSHA256": "b5f0bab01864453d4f6931c98bbedcf597df727acfadeca83d884b511c130776",
+      "sourceCell": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "sourceRoot": [
+        428,
+        975
+      ],
+      "sourceNeck": [
+        478,
+        480
+      ],
+      "sourcePalm": [
+        611,
+        786
+      ],
+      "uniformFineScale": 0.125,
+      "nativeOffset": [
+        -5.5,
+        4.125
+      ],
+      "headTranslationFromCurrentC": [
+        6,
+        -1
+      ],
+      "canonicalDonor": "art/drafts/canonical-face-v29/female-heads-v1/up-fine.png",
+      "canonicalDonorSHA256": "2ae2be1acd7415ec2bc0e22d56496c6733df64f44cf0a30044296d7d35e258bb",
+      "removeHeadPolygon": [
+        [
+          14,
+          -2
+        ],
+        [
+          94,
+          -2
+        ],
+        [
+          94,
+          50
+        ],
+        [
+          85,
+          75
+        ],
+        [
+          69,
+          79
+        ],
+        [
+          61,
+          71
+        ],
+        [
+          47,
+          71
+        ],
+        [
+          38,
+          79
+        ],
+        [
+          22,
+          75
+        ],
+        [
+          14,
+          50
+        ]
+      ],
+      "removedSourceHeadPixels": 1122,
+      "preservedPixelsBelowHeadDomain": 4608,
+      "canvas": [
+        96,
+        128
+      ],
+      "anchor": [
+        48,
+        126
+      ],
+      "opaqueBounds": [
+        22,
+        18,
+        77,
+        125
+      ],
+      "transformedSourceOpaqueBounds": [
+        21,
+        27,
+        75,
+        125
+      ],
+      "clippedOpaqueSourcePixels": 0,
+      "sha256": "60ddbf6ebdb1df3fab9c32994715d89c945ea9d1b5ff12c2f56ca27000f24d6b"
+    },
+    {
+      "frame": 2,
+      "pelvis": [
+        21.5,
+        54
+      ],
+      "nativePelvis": [
+        43,
+        108
+      ],
+      "sourcePelvis": [
+        270,
+        831
+      ],
+      "pelvisAuthority": "authored native coat/pants waist boundary; no bbox fit",
+      "fine": "art/drafts/canonical-actions-v30/lower-reach/female-up/pose-2-fine.png",
+      "coarse": "art/drafts/canonical-actions-v30/lower-reach/female-up/pose-2.png",
+      "bodyFine": "art/drafts/canonical-actions-v30/lower-reach/female-up/pose-2-body-fine.png",
+      "head": {
+        "top": 16,
+        "bottom": 40,
+        "left": 16.5,
+        "right": 40.5,
+        "portraitChin": 40.5,
+        "eyeAnchor": [
+          28.5,
+          30.049999999999997
+        ],
+        "eyeLine": 30.049999999999997,
+        "neckAnchor": [
+          28.5,
+          39.5
+        ],
+        "facePolygon": [],
+        "scalpPolygon": [
+          [
+            17.625,
+            22.325
+          ],
+          [
+            20.925,
+            17.974999999999998
+          ],
+          [
+            28.125,
+            16.549999999999997
+          ],
+          [
+            35.025000000000006,
+            18.125
+          ],
+          [
+            39.075,
+            22.474999999999998
+          ],
+          [
+            39.9,
+            30.799999999999997
+          ],
+          [
+            38.025,
+            35.824999999999996
+          ],
+          [
+            33.45,
+            38.675
+          ],
+          [
+            28.275000000000002,
+            39.425
+          ],
+          [
+            23.025,
+            38
+          ],
+          [
+            19.35,
+            35.599999999999994
+          ],
+          [
+            17.625,
+            30.65
+          ]
+        ]
+      },
+      "hand": [
+        34.5,
+        59
+      ],
+      "sourceSheet": "art/drafts/canonical-actions-v30/lower-reach/female-up/sheet.png",
+      "sourceSheetSHA256": "b5f0bab01864453d4f6931c98bbedcf597df727acfadeca83d884b511c130776",
+      "sourceCell": [
+        768,
+        0,
+        768,
+        1024
+      ],
+      "sourceRoot": [
+        310,
+        975
+      ],
+      "sourceNeck": [
+        382,
+        595
+      ],
+      "sourcePalm": [
+        479,
+        907
+      ],
+      "uniformFineScale": 0.125,
+      "nativeOffset": [
+        9.25,
+        4.125
+      ],
+      "headTranslationFromCurrentC": [
+        9,
+        14
+      ],
+      "canonicalDonor": "art/drafts/canonical-face-v29/female-heads-v1/up-fine.png",
+      "canonicalDonorSHA256": "2ae2be1acd7415ec2bc0e22d56496c6733df64f44cf0a30044296d7d35e258bb",
+      "removeHeadPolygon": [
+        [
+          17,
+          13
+        ],
+        [
+          97,
+          13
+        ],
+        [
+          97,
+          65
+        ],
+        [
+          88,
+          90
+        ],
+        [
+          72,
+          94
+        ],
+        [
+          64,
+          86
+        ],
+        [
+          50,
+          86
+        ],
+        [
+          41,
+          94
+        ],
+        [
+          25,
+          90
+        ],
+        [
+          17,
+          65
+        ]
+      ],
+      "removedSourceHeadPixels": 1152,
+      "preservedPixelsBelowHeadDomain": 3168,
+      "canvas": [
+        96,
+        128
+      ],
+      "anchor": [
+        48,
+        126
+      ],
+      "opaqueBounds": [
+        24,
+        33,
+        80,
+        125
+      ],
+      "transformedSourceOpaqueBounds": [
+        24,
+        42,
+        74,
+        125
+      ],
+      "clippedOpaqueSourcePixels": 0,
+      "sha256": "ac05634675bf85754cfbe73a5dc5a5ad06d3c34c24a49a76b0417b9221b1963a"
+    }
+  ]
+}

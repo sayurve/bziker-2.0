@@ -1,0 +1,11 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Create a production 4-frame LEFT-facing grounded locomotion sheet of the exact female pixel character in reference1: long wavy brown hair, gray open jacket/pale Tshirt, black pants/shoes, same young face. Reference2 gives the four corrected full-body pose types; do not mirror any image, draw the left camera independently. ONE 1024x1024 transparent square, 2x2 equal cells, no words/grid/shadow/scenery. Identical head and torso coordinates, stature and palette in all cells; fixed ground under shoes. A top-left: NEAREST leg extends FORWARD LEFT, nearest ARM goes BACK RIGHT behind torso. B top-right: NEAREST leg straight VERTICAL supporting under hip, FAR knee bent passing forwardleft; nearest ARM hangs back toward right hip. C bottom-left: FAR leg extends FORWARD LEFT to ground, NEAREST leg extends BACK RIGHT, NEAREST ARM bends FORWARD LEFT across the front of Tshirt, far arm backright. D bottom-right: FAR leg VERTICAL support under hip, NEAREST knee bent/lifted forwardLEFT; nearest ARM bends forwardLEFT across chest, far arm behindright. A and C must visibly have opposite arm foreground/back placement. B and D must visibly switch supporting leg ownership: near leg slightly lighter charcoal, far leg darker. Only 2 arms/2 legs per sprite. In ALL four phases one shoe touches exactly the same baseline, NEVER BOTH feet lifted. No hopping, no tucked whole body, no head change. Sharp native pixel clusters and crisp alpha. No automatic silhouette-fit scaling. Camera LEFT in every cell.",
+  "referenced_image_paths": [
+    "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/references/canonical-run/female-run-left-native.png",
+    "/Users/sapp/.codex/generated_images/01a11cc3-6744-72b3-ad8a-81b59ea9f091/exec-97a988b0-ba62-4456-9874-ff95539e6c85.png"
+  ],
+  "transparent_background": true,
+  "source_file": "/Users/sapp/.codex/generated_images/01a11cc3-6744-72b3-ad8a-81b59ea9f091/exec-f17d895b-db13-4404-8cce-fce3f8e67a4d.png",
+  "status": "draft"
+}

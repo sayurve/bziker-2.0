@@ -1,0 +1,590 @@
+{
+  "status": "draft-proposal",
+  "zoom": 2,
+  "window": [
+    96,
+    80
+  ],
+  "faceResize": false,
+  "rows": [
+    "native male",
+    "native female",
+    "candidate male shared",
+    "candidate female shared"
+  ],
+  "sources": [
+    {
+      "gender": "male",
+      "dir": "down",
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#06_Бег_Спереди",
+      "rect": {
+        "path": "assets/design-actor-detail-base-human-male-1.png",
+        "x": 384,
+        "y": 256,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "sourceAtlasSHA256": "663ad18e9a90e507beed9c85351713ee95e268b4c9c99eca0895aaca14de8b66",
+      "file": "art/drafts/locomotion-v27/shared-head-style-proposal/male-down-native-run0-head-fine.png",
+      "headLayerSHA256": "6caf6f0792eefdc4d364d3b0d0195bfb1659f8f2ea1e02769848b9e3ec04711a",
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 36,
+        "eyeAnchor": [
+          24,
+          23
+        ],
+        "eyeLine": 23,
+        "neckAnchor": [
+          24,
+          30.5
+        ],
+        "facePolygon": [
+          [
+            14.5,
+            13.5
+          ],
+          [
+            32.5,
+            13.5
+          ],
+          [
+            33,
+            18.5
+          ],
+          [
+            36.5,
+            19.5
+          ],
+          [
+            37,
+            24.5
+          ],
+          [
+            34.5,
+            26
+          ],
+          [
+            31.5,
+            28.5
+          ],
+          [
+            28,
+            31
+          ],
+          [
+            21.5,
+            31
+          ],
+          [
+            18,
+            29
+          ],
+          [
+            15,
+            27
+          ],
+          [
+            11,
+            25.5
+          ],
+          [
+            10.5,
+            20.5
+          ],
+          [
+            14.5,
+            19.5
+          ]
+        ]
+      },
+      "mask": [
+        [
+          17,
+          5
+        ],
+        [
+          80,
+          5
+        ],
+        [
+          80,
+          46
+        ],
+        [
+          73,
+          51
+        ],
+        [
+          67,
+          56
+        ],
+        [
+          59,
+          61
+        ],
+        [
+          52,
+          64
+        ],
+        [
+          44,
+          64
+        ],
+        [
+          37,
+          60
+        ],
+        [
+          29,
+          56
+        ],
+        [
+          22,
+          52
+        ],
+        [
+          17,
+          45
+        ]
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "right",
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#07_Бег_Справа",
+      "rect": {
+        "path": "assets/design-actor-detail-base-human-male-1.png",
+        "x": 0,
+        "y": 384,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "sourceAtlasSHA256": "663ad18e9a90e507beed9c85351713ee95e268b4c9c99eca0895aaca14de8b66",
+      "file": "art/drafts/locomotion-v27/shared-head-style-proposal/male-right-native-run0-head-fine.png",
+      "headLayerSHA256": "28d3ee9492fd16959c789e39849c10ff5d0dd0145fb733a14958bda77450839d",
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 14,
+        "right": 37,
+        "eyeAnchor": [
+          31.5,
+          23.5
+        ],
+        "eyeLine": 23.5,
+        "neckAnchor": [
+          27.5,
+          30
+        ]
+      },
+      "mask": "authored male side curved mask from composition-evidence.json"
+    },
+    {
+      "gender": "male",
+      "dir": "up",
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#08_Бег_Сзади",
+      "rect": {
+        "path": "assets/design-actor-detail-base-human-male-1.png",
+        "x": 384,
+        "y": 384,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "sourceAtlasSHA256": "663ad18e9a90e507beed9c85351713ee95e268b4c9c99eca0895aaca14de8b66",
+      "file": "art/drafts/locomotion-v27/shared-head-style-proposal/male-up-native-run0-head-fine.png",
+      "headLayerSHA256": "a91ac1adc6c06308aa7161e3a86850c72bf9d8ccbb72f67d3225a40f01476786",
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36,
+        "eyeAnchor": [
+          24,
+          19.5
+        ],
+        "eyeLine": 19.5,
+        "neckAnchor": [
+          24,
+          29
+        ],
+        "facePolygon": []
+      },
+      "mask": [
+        [
+          19,
+          5
+        ],
+        [
+          80,
+          5
+        ],
+        [
+          80,
+          44
+        ],
+        [
+          72,
+          50
+        ],
+        [
+          65,
+          55
+        ],
+        [
+          56,
+          59
+        ],
+        [
+          40,
+          59
+        ],
+        [
+          32,
+          56
+        ],
+        [
+          24,
+          51
+        ],
+        [
+          19,
+          45
+        ]
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "left",
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#09_Бег_Слева",
+      "rect": {
+        "path": "assets/design-actor-detail-base-human-male-1.png",
+        "x": 0,
+        "y": 512,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "sourceAtlasSHA256": "663ad18e9a90e507beed9c85351713ee95e268b4c9c99eca0895aaca14de8b66",
+      "file": "art/drafts/locomotion-v27/shared-head-style-proposal/male-left-native-run0-head-fine.png",
+      "headLayerSHA256": "808c31b3f5e25b41a95be00ba614066ddc946dd5cc1802c382dbab3de8e9d022",
+      "head": {
+        "top": 6,
+        "bottom": 28,
+        "left": 10,
+        "right": 31,
+        "eyeAnchor": [
+          13.5,
+          24
+        ],
+        "eyeLine": 24,
+        "neckAnchor": [
+          20,
+          30.5
+        ]
+      },
+      "mask": "authored male side curved mask from composition-evidence.json"
+    },
+    {
+      "gender": "female",
+      "dir": "down",
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#06_Бег_Спереди",
+      "rect": {
+        "path": "assets/design-actor-detail-base-human-female-1.png",
+        "x": 384,
+        "y": 256,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "sourceAtlasSHA256": "b720684638e56c8795b0c33d9d9bf4170922145364ab49174d1d6df75217e351",
+      "file": "art/drafts/locomotion-v27/shared-head-style-proposal/female-down-native-run0-head-fine.png",
+      "headLayerSHA256": "ad35f7d8dba8f80e8c4b3cd8e7bcca0ca0eaaa31a626f33dac651ba9bf5a2811",
+      "head": {
+        "top": 11,
+        "bottom": 33,
+        "left": 8,
+        "right": 37
+      },
+      "mask": [
+        [
+          10,
+          14
+        ],
+        [
+          87,
+          14
+        ],
+        [
+          87,
+          77
+        ],
+        [
+          75,
+          77
+        ],
+        [
+          68,
+          70
+        ],
+        [
+          61,
+          68
+        ],
+        [
+          55,
+          72
+        ],
+        [
+          42,
+          72
+        ],
+        [
+          35,
+          68
+        ],
+        [
+          29,
+          72
+        ],
+        [
+          21,
+          77
+        ],
+        [
+          10,
+          77
+        ]
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "right",
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#07_Бег_Справа",
+      "rect": {
+        "path": "assets/design-actor-detail-base-human-female-1.png",
+        "x": 0,
+        "y": 384,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "sourceAtlasSHA256": "b720684638e56c8795b0c33d9d9bf4170922145364ab49174d1d6df75217e351",
+      "file": "art/drafts/locomotion-v27/shared-head-style-proposal/female-right-native-run0-head-fine.png",
+      "headLayerSHA256": "2cbf3e68f93b180ae76e2c843100515b595c56eda108b5ca13acc70658050ddf",
+      "head": {
+        "top": 11,
+        "bottom": 33,
+        "left": 14,
+        "right": 42
+      },
+      "mask": [
+        [
+          17,
+          12
+        ],
+        [
+          92,
+          12
+        ],
+        [
+          92,
+          65
+        ],
+        [
+          82,
+          69
+        ],
+        [
+          75,
+          70
+        ],
+        [
+          68,
+          73
+        ],
+        [
+          60,
+          72
+        ],
+        [
+          54,
+          69
+        ],
+        [
+          47,
+          70
+        ],
+        [
+          41,
+          74
+        ],
+        [
+          31,
+          77
+        ],
+        [
+          21,
+          77
+        ],
+        [
+          17,
+          69
+        ]
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "up",
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#08_Бег_Сзади",
+      "rect": {
+        "path": "assets/design-actor-detail-base-human-female-1.png",
+        "x": 384,
+        "y": 384,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "sourceAtlasSHA256": "b720684638e56c8795b0c33d9d9bf4170922145364ab49174d1d6df75217e351",
+      "file": "art/drafts/locomotion-v27/shared-head-style-proposal/female-up-native-run0-head-fine.png",
+      "headLayerSHA256": "c72abe9a31cd3e467528e3c8d59b195ce2cbbd4e004b12ea823e1fb0dbafca2d",
+      "head": {
+        "top": 9,
+        "bottom": 31,
+        "left": 9,
+        "right": 38
+      },
+      "mask": [
+        [
+          12,
+          10
+        ],
+        [
+          87,
+          10
+        ],
+        [
+          87,
+          77
+        ],
+        [
+          79,
+          82
+        ],
+        [
+          68,
+          82
+        ],
+        [
+          60,
+          78
+        ],
+        [
+          52,
+          80
+        ],
+        [
+          40,
+          80
+        ],
+        [
+          31,
+          83
+        ],
+        [
+          21,
+          81
+        ],
+        [
+          12,
+          75
+        ]
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "left",
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#09_Бег_Слева",
+      "rect": {
+        "path": "assets/design-actor-detail-base-human-female-1.png",
+        "x": 0,
+        "y": 512,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "sourceAtlasSHA256": "b720684638e56c8795b0c33d9d9bf4170922145364ab49174d1d6df75217e351",
+      "file": "art/drafts/locomotion-v27/shared-head-style-proposal/female-left-native-run0-head-fine.png",
+      "headLayerSHA256": "2f58fe707fb0d3a60750c096e03535d394cea66cc488372304e1ff5297c800d1",
+      "head": {
+        "top": 11,
+        "bottom": 33,
+        "left": 5,
+        "right": 33
+      },
+      "mask": [
+        [
+          3,
+          12
+        ],
+        [
+          83,
+          12
+        ],
+        [
+          88,
+          72
+        ],
+        [
+          82,
+          79
+        ],
+        [
+          70,
+          79
+        ],
+        [
+          59,
+          74
+        ],
+        [
+          51,
+          69
+        ],
+        [
+          44,
+          71
+        ],
+        [
+          39,
+          73
+        ],
+        [
+          32,
+          72
+        ],
+        [
+          24,
+          70
+        ],
+        [
+          18,
+          66
+        ],
+        [
+          10,
+          64
+        ],
+        [
+          3,
+          57
+        ]
+      ]
+    }
+  ]
+}

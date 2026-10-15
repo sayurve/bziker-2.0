@@ -1,0 +1,201 @@
+✖ legacy carry with black eyes retains genuine fine face flesh for every selected hairstyle (18.887709ms)
+✔ selected hair retains exact original raised-hand flesh (61.29175ms)
+✖ long white strands survive every coarse garment edit on the original rear pet gesture (14.337958ms)
+✔ selected long hair keeps the native opaque neck boundary on the canonical standing phone (25.832625ms)
+✖ legacy left drinking retains genuine ear and face even when a prop supplies a white-eye candidate (10.741ms)
+✖ bent pickup keeps actual gray sleeve outside the loose head search box (10.55875ms)
+✖ bent pickup also retains real gray sleeve inside imprecise source head bounds (11.050667ms)
+✖ hair tint preserves actual dark pickup hands even when flesh touches the source head (7.738959ms)
+✔ wardrobe cannot overwrite retained natural scalp in a bent source pose (24.9025ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 3
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 189.380417
+
+✖ failing tests:
+
+test at [instrumented original actor module]:16:1
+✖ legacy carry with black eyes retains genuine fine face flesh for every selected hairstyle (18.887709ms)
+  AssertionError [ERR_ASSERTION]: style1/colour0: closed/black eyes must not remove the face
+  + actual - expected
+  
+    [
+  +   0,
+  +   0,
+  +   0,
+  +   0
+  -   222,
+  -   128,
+  -   88,
+  -   255
+    ]
+  
+      at TestContext.<anonymous> ([instrumented original actor module]:18:82)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [Array],
+    expected: [Array],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at [instrumented original actor module]:27:1
+✖ long white strands survive every coarse garment edit on the original rear pet gesture (14.337958ms)
+  AssertionError [ERR_ASSERTION]: {"shirtStyle":0}
+  + actual - expected
+  
+    [
+  +   51,
+  +   44,
+  +   37,
+      255,
+  -   255,
+  -   255,
+  -   255
+    ]
+  
+      at TestContext.<anonymous> ([instrumented original actor module]:28:315)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [Array],
+    expected: [Array],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at [instrumented original actor module]:34:1
+✖ legacy left drinking retains genuine ear and face even when a prop supplies a white-eye candidate (10.741ms)
+  AssertionError [ERR_ASSERTION]: style1/colour0: mug must not replace the face authority
+  + actual - expected
+  
+    [
+  +   0,
+  +   0,
+  +   0,
+  +   0
+  -   236,
+  -   160,
+  -   114,
+  -   255
+    ]
+  
+      at TestContext.<anonymous> ([instrumented original actor module]:36:82)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [Array],
+    expected: [Array],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at [instrumented original actor module]:39:1
+✖ bent pickup keeps actual gray sleeve outside the loose head search box (10.55875ms)
+  AssertionError [ERR_ASSERTION]: style2: a source sleeve is not removable scalp
+  + actual - expected
+  
+    [
+  +   0,
+  +   0,
+  +   0,
+  +   0
+  -   65,
+  -   59,
+  -   60,
+  -   255
+    ]
+  
+      at TestContext.<anonymous> ([instrumented original actor module]:41:39)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [Array],
+    expected: [Array],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at [instrumented original actor module]:45:1
+✖ bent pickup also retains real gray sleeve inside imprecise source head bounds (11.050667ms)
+  AssertionError [ERR_ASSERTION]: style2: coarse bounds cannot classify cloth as hair
+  + actual - expected
+  
+    [
+  +   0,
+  +   0,
+  +   0,
+  +   0
+  -   65,
+  -   61,
+  -   65,
+  -   255
+    ]
+  
+      at TestContext.<anonymous> ([instrumented original actor module]:46:223)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [Array],
+    expected: [Array],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at [instrumented original actor module]:50:1
+✖ hair tint preserves actual dark pickup hands even when flesh touches the source head (7.738959ms)
+  AssertionError [ERR_ASSERTION]: source hands are not hair material
+  + actual - expected
+  
+    [
+  -   120,
+  -   81,
+  -   61,
+      255,
+  +   255,
+  +   255,
+  +   255
+    ]
+  
+      at TestContext.<anonymous> ([instrumented original actor module]:52:208)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [Array],
+    expected: [Array],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

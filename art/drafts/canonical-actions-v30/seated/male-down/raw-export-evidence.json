@@ -1,0 +1,105 @@
+{
+  "status": "draft",
+  "family": "seated",
+  "gender": "male",
+  "dir": "down",
+  "master": "art/drafts/canonical-actions-v30/seated/male-down/seated-four-master.png",
+  "sourceOutput": "/Users/sapp/.codex/generated_images/01a13c9a-ae7d-7bc2-83f6-88b8b5a5e67b/exec-9ae763c8-474c-4e8d-aafd-cbf11d225c13.png",
+  "rawMasterUnchanged": true,
+  "masterSHA256": "7e6c7194a3b7d214640ec068efd53d840ec9ee090ea62da356ad1af262a31b52",
+  "actualSize": [
+    1086,
+    1448
+  ],
+  "requestedSize": [
+    1536,
+    2048
+  ],
+  "cell": [
+    543,
+    724
+  ],
+  "fixedUniformScale": 0.17679558011049723,
+  "referencePaths": [
+    "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/drafts/canonical-actions-v30/references/male-down-runtime-8x.png",
+    "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/drafts/canonical-actions-v30/seated/male-right/seated-four-master.png"
+  ],
+  "poses": [
+    {
+      "pose": "neutral",
+      "file": "art/drafts/canonical-actions-v30/seated/male-down/neutral-fine-raw.png",
+      "sourceCell": [
+        0,
+        0,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        31,
+        16,
+        78,
+        127
+      ],
+      "opaquePixels": 4088,
+      "edgeInk": 0
+    },
+    {
+      "pose": "hand-chest",
+      "file": "art/drafts/canonical-actions-v30/seated/male-down/hand-chest-fine-raw.png",
+      "sourceCell": [
+        543,
+        0,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        18,
+        16,
+        65,
+        127
+      ],
+      "opaquePixels": 4043,
+      "edgeInk": 0
+    },
+    {
+      "pose": "hand-mouth",
+      "file": "art/drafts/canonical-actions-v30/seated/male-down/hand-mouth-fine-raw.png",
+      "sourceCell": [
+        0,
+        724,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        31,
+        8,
+        78,
+        118
+      ],
+      "opaquePixels": 4005,
+      "edgeInk": 0
+    },
+    {
+      "pose": "reach",
+      "file": "art/drafts/canonical-actions-v30/seated/male-down/reach-fine-raw.png",
+      "sourceCell": [
+        543,
+        724,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        18,
+        8,
+        65,
+        119
+      ],
+      "opaquePixels": 3988,
+      "edgeInk": 0
+    }
+  ]
+}

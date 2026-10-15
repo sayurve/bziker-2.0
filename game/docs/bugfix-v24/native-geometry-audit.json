@@ -1,0 +1,1284 @@
+{
+  "audit_version": 2,
+  "method": {
+    "native_renderer": "drawSourceEntity + preloadDesignViews",
+    "ground": "fully painted modular parking rectangle and authored curb/bumpers",
+    "canvas": "@napi-rs/canvas",
+    "opaque_alpha_minimum": 160,
+    "tree_selection": "membership in map.decor.trees",
+    "future_clan_facades": "all six independent native views per plot",
+    "baseline_character": "avatarGeometry.height × worldScale (default 1.25)",
+    "pedestrian_paint": "40px path + two4px curb edges; round joins/caps",
+    "pedestrian_clearance": "60px cut mouth sampled across its width and curb depth;14px character clearance",
+    "parking_assignment": "real building door+24 to the selected authored vehicle/pedestrian opening, physically clear and on painted pavement"
+  },
+  "map_sha256": "4159e4039c2d506c2baaeb304831797fbce2a32c5d1fa9879ceb151fe57ec17b",
+  "final_map_sha256": "4159e4039c2d506c2baaeb304831797fbce2a32c5d1fa9879ceb151fe57ec17b",
+  "snapshot_stable": true,
+  "schema": 23,
+  "counts": {
+    "lots": 42,
+    "bays": 64,
+    "cars": 22,
+    "nativelyRenderedCars": 22,
+    "emptyBays": 42,
+    "driveways": 42,
+    "pedestrianEntries": 83,
+    "pedestrianWalkways": 83,
+    "parkingAssignments": 49,
+    "buildings": 49,
+    "mapTrees": 772,
+    "sceneTrees": 772,
+    "nativelyRenderedTrees": 772,
+    "lamps": 143,
+    "pairCandidates": 320,
+    "crownPairCandidates": 15
+  },
+  "scale": {
+    "carLengthMinimum": 174.99999934782608,
+    "carLengthMaximum": 205,
+    "opaqueCarLengthMinimum": 175,
+    "opaqueCarLengthMaximum": 205,
+    "baselineCharacterHeight": 80,
+    "oldCity21CarLength": 110,
+    "baySize": {
+      "width": 240,
+      "height": 120
+    },
+    "lotSizes": [
+      {
+        "id": "parking-block-1",
+        "width": 468,
+        "height": 288,
+        "bays": 2
+      },
+      {
+        "id": "parking-block-2",
+        "width": 468,
+        "height": 288,
+        "bays": 2
+      },
+      {
+        "id": "parking-block-3",
+        "width": 708,
+        "height": 288,
+        "bays": 4
+      },
+      {
+        "id": "parking-block-4",
+        "width": 468,
+        "height": 288,
+        "bays": 2
+      },
+      {
+        "id": "parking-block-5",
+        "width": 468,
+        "height": 408,
+        "bays": 3
+      },
+      {
+        "id": "parking-block-6",
+        "width": 708,
+        "height": 288,
+        "bays": 4
+      },
+      {
+        "id": "parking-block-7",
+        "width": 468,
+        "height": 408,
+        "bays": 3
+      },
+      {
+        "id": "parking-block-8",
+        "width": 708,
+        "height": 288,
+        "bays": 4
+      },
+      {
+        "id": "parking-block-9",
+        "width": 468,
+        "height": 288,
+        "bays": 2
+      },
+      {
+        "id": "parking-block-10",
+        "width": 468,
+        "height": 288,
+        "bays": 2
+      },
+      {
+        "id": "parking-block-11",
+        "width": 468,
+        "height": 288,
+        "bays": 2
+      },
+      {
+        "id": "parking-block-12",
+        "width": 708,
+        "height": 288,
+        "bays": 4
+      },
+      {
+        "id": "parking-local-apartment-39",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-apartment-4",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-apartment-28",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-apartment-65",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-apartment-52",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-terrace",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-apartment-67",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-apartment-5",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-base-6",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-railway",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-apartment-59",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-apartment-23",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-apartment-24",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-base-8",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-apartment-18",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-apartment-35",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-messages",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-apartment-17",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-apartment-3",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-shop-furniture",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-base-7",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-apartment-66",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-base-1",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-shop-clothes",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-base-4",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-apartment-11",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-profile",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-base-2",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-casino",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      },
+      {
+        "id": "parking-local-results",
+        "width": 468,
+        "height": 168,
+        "bays": 1
+      }
+    ],
+    "cars": [
+      {
+        "id": "parked-block-1-1",
+        "asset": "vehicle-mercedes-cabriolet-white",
+        "direction": "right",
+        "worldWidth": 189.99999865945946,
+        "worldHeight": 69.742063,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.374999983243243
+      },
+      {
+        "id": "parked-block-2-1",
+        "asset": "vehicle-zaporozhets-red",
+        "direction": "right",
+        "worldWidth": 177.9999998823529,
+        "worldHeight": 86.105691,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.2249999985294115
+      },
+      {
+        "id": "parked-block-3-1",
+        "asset": "vehicle-bentley-black",
+        "direction": "right",
+        "worldWidth": 198,
+        "worldHeight": 71.35841584158416,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.475
+      },
+      {
+        "id": "parked-block-3-2",
+        "asset": "vehicle-g-wagen-blue",
+        "direction": "right",
+        "worldWidth": 199.99999991860463,
+        "worldHeight": 102.584493,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.499999998982558
+      },
+      {
+        "id": "parked-block-3-3",
+        "asset": "vehicle-pickup-green",
+        "direction": "left",
+        "worldWidth": 204.99999972173913,
+        "worldHeight": 95.445344,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.562499996521739
+      },
+      {
+        "id": "parked-block-4-1",
+        "asset": "vehicle-g-wagen-blue",
+        "direction": "right",
+        "worldWidth": 199.99999991860463,
+        "worldHeight": 102.584493,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.499999998982558
+      },
+      {
+        "id": "parked-block-5-1",
+        "asset": "vehicle-pickup-green",
+        "direction": "right",
+        "worldWidth": 205,
+        "worldHeight": 94.61538461538461,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.5625
+      },
+      {
+        "id": "parked-block-5-2",
+        "asset": "vehicle-compact-hatchback-white",
+        "direction": "right",
+        "worldWidth": 175,
+        "worldHeight": 87.5,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.1875
+      },
+      {
+        "id": "parked-block-6-1",
+        "asset": "vehicle-compact-hatchback-white",
+        "direction": "right",
+        "worldWidth": 175,
+        "worldHeight": 87.5,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.1875
+      },
+      {
+        "id": "parked-block-6-2",
+        "asset": "vehicle-mercedes-cabriolet-red",
+        "direction": "right",
+        "worldWidth": 189.99999994623658,
+        "worldHeight": 69.980198,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.374999999327957
+      },
+      {
+        "id": "parked-block-6-3",
+        "asset": "vehicle-zaporozhets-black",
+        "direction": "left",
+        "worldWidth": 178,
+        "worldHeight": 84.96252465483235,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.225
+      },
+      {
+        "id": "parked-block-7-1",
+        "asset": "vehicle-mercedes-cabriolet-red",
+        "direction": "right",
+        "worldWidth": 189.99999994623658,
+        "worldHeight": 69.980198,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.374999999327957
+      },
+      {
+        "id": "parked-block-7-2",
+        "asset": "vehicle-zaporozhets-black",
+        "direction": "right",
+        "worldWidth": 177.99999916260163,
+        "worldHeight": 86.537549,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.2249999895325203
+      },
+      {
+        "id": "parked-block-8-1",
+        "asset": "vehicle-zaporozhets-black",
+        "direction": "right",
+        "worldWidth": 177.99999916260163,
+        "worldHeight": 86.537549,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.2249999895325203
+      },
+      {
+        "id": "parked-block-8-2",
+        "asset": "vehicle-bentley-blue",
+        "direction": "right",
+        "worldWidth": 197.9999992076503,
+        "worldHeight": 72.035785,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.4749999900956285
+      },
+      {
+        "id": "parked-block-8-3",
+        "asset": "vehicle-g-wagen-green",
+        "direction": "left",
+        "worldWidth": 200,
+        "worldHeight": 102.40963855421687,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.5
+      },
+      {
+        "id": "parked-block-9-1",
+        "asset": "vehicle-bentley-blue",
+        "direction": "right",
+        "worldWidth": 197.9999992076503,
+        "worldHeight": 72.035785,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.4749999900956285
+      },
+      {
+        "id": "parked-block-10-1",
+        "asset": "vehicle-g-wagen-green",
+        "direction": "right",
+        "worldWidth": 200,
+        "worldHeight": 102.1868787276342,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.5
+      },
+      {
+        "id": "parked-block-11-1",
+        "asset": "vehicle-pickup-white",
+        "direction": "right",
+        "worldWidth": 204.99999914163092,
+        "worldHeight": 94.771825,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.5624999892703864
+      },
+      {
+        "id": "parked-block-12-1",
+        "asset": "vehicle-compact-hatchback-red",
+        "direction": "right",
+        "worldWidth": 174.99999934782608,
+        "worldHeight": 87.673267,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.187499991847826
+      },
+      {
+        "id": "parked-block-12-2",
+        "asset": "vehicle-mercedes-cabriolet-black",
+        "direction": "right",
+        "worldWidth": 190,
+        "worldHeight": 69.67935871743487,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.375
+      },
+      {
+        "id": "parked-block-12-3",
+        "asset": "vehicle-zaporozhets-blue",
+        "direction": "left",
+        "worldWidth": 178,
+        "worldHeight": 84.97838899803537,
+        "characterFrameHeight": 80,
+        "lengthToCharacterHeight": 2.225
+      }
+    ],
+    "actualCarPaint": [
+      {
+        "id": "parked-block-1-1",
+        "opaquePixels": 9419,
+        "opaquePaintBounds": {
+          "x": 2719,
+          "y": 5305,
+          "width": 190,
+          "height": 70
+        }
+      },
+      {
+        "id": "parked-block-2-1",
+        "opaquePixels": 10663,
+        "opaquePaintBounds": {
+          "x": 717,
+          "y": 1849,
+          "width": 178,
+          "height": 86
+        }
+      },
+      {
+        "id": "parked-block-3-1",
+        "opaquePixels": 10216,
+        "opaquePaintBounds": {
+          "x": 6531,
+          "y": 5625,
+          "width": 198,
+          "height": 71
+        }
+      },
+      {
+        "id": "parked-block-3-2",
+        "opaquePixels": 14803,
+        "opaquePaintBounds": {
+          "x": 6530,
+          "y": 5728,
+          "width": 200,
+          "height": 102
+        }
+      },
+      {
+        "id": "parked-block-3-3",
+        "opaquePixels": 13565,
+        "opaquePaintBounds": {
+          "x": 6948,
+          "y": 5613,
+          "width": 205,
+          "height": 95
+        }
+      },
+      {
+        "id": "parked-block-4-1",
+        "opaquePixels": 14803,
+        "opaquePaintBounds": {
+          "x": 8594,
+          "y": 7312,
+          "width": 200,
+          "height": 102
+        }
+      },
+      {
+        "id": "parked-block-5-1",
+        "opaquePixels": 13119,
+        "opaquePaintBounds": {
+          "x": 11792,
+          "y": 5716,
+          "width": 205,
+          "height": 94
+        }
+      },
+      {
+        "id": "parked-block-5-2",
+        "opaquePixels": 10769,
+        "opaquePaintBounds": {
+          "x": 11807,
+          "y": 5841,
+          "width": 175,
+          "height": 87
+        }
+      },
+      {
+        "id": "parked-block-6-1",
+        "opaquePixels": 10769,
+        "opaquePaintBounds": {
+          "x": 9511,
+          "y": 105,
+          "width": 175,
+          "height": 87
+        }
+      },
+      {
+        "id": "parked-block-6-2",
+        "opaquePixels": 9396,
+        "opaquePaintBounds": {
+          "x": 9503,
+          "y": 233,
+          "width": 190,
+          "height": 70
+        }
+      },
+      {
+        "id": "parked-block-6-3",
+        "opaquePixels": 10374,
+        "opaquePaintBounds": {
+          "x": 9929,
+          "y": 105,
+          "width": 178,
+          "height": 85
+        }
+      },
+      {
+        "id": "parked-block-7-1",
+        "opaquePixels": 9396,
+        "opaquePaintBounds": {
+          "x": 175,
+          "y": 129,
+          "width": 190,
+          "height": 70
+        }
+      },
+      {
+        "id": "parked-block-7-2",
+        "opaquePixels": 10691,
+        "opaquePaintBounds": {
+          "x": 181,
+          "y": 240,
+          "width": 178,
+          "height": 86
+        }
+      },
+      {
+        "id": "parked-block-8-1",
+        "opaquePixels": 10691,
+        "opaquePaintBounds": {
+          "x": 6309,
+          "y": 3864,
+          "width": 178,
+          "height": 86
+        }
+      },
+      {
+        "id": "parked-block-8-2",
+        "opaquePixels": 10310,
+        "opaquePaintBounds": {
+          "x": 6299,
+          "y": 3992,
+          "width": 198,
+          "height": 72
+        }
+      },
+      {
+        "id": "parked-block-8-3",
+        "opaquePixels": 15014,
+        "opaquePaintBounds": {
+          "x": 6718,
+          "y": 3857,
+          "width": 200,
+          "height": 102
+        }
+      },
+      {
+        "id": "parked-block-9-1",
+        "opaquePixels": 10310,
+        "opaquePaintBounds": {
+          "x": 419,
+          "y": 2960,
+          "width": 198,
+          "height": 72
+        }
+      },
+      {
+        "id": "parked-block-10-1",
+        "opaquePixels": 14760,
+        "opaquePaintBounds": {
+          "x": 5298,
+          "y": 4465,
+          "width": 200,
+          "height": 102
+        }
+      },
+      {
+        "id": "parked-block-11-1",
+        "opaquePixels": 13067,
+        "opaquePaintBounds": {
+          "x": 11824,
+          "y": 7476,
+          "width": 205,
+          "height": 95
+        }
+      },
+      {
+        "id": "parked-block-12-1",
+        "opaquePixels": 10789,
+        "opaquePaintBounds": {
+          "x": 2951,
+          "y": 7832,
+          "width": 175,
+          "height": 87
+        }
+      },
+      {
+        "id": "parked-block-12-2",
+        "opaquePixels": 9419,
+        "opaquePaintBounds": {
+          "x": 2943,
+          "y": 7961,
+          "width": 190,
+          "height": 70
+        }
+      },
+      {
+        "id": "parked-block-12-3",
+        "opaquePixels": 10361,
+        "opaquePaintBounds": {
+          "x": 3369,
+          "y": 7833,
+          "width": 178,
+          "height": 85
+        }
+      }
+    ]
+  },
+  "walking": {
+    "unit": "world-pixels; not real-world metres",
+    "count": 49,
+    "minimum": 24,
+    "maximum": 1207.8552881001933,
+    "mean": 487.48242177337227,
+    "median": 453.46964166721904,
+    "p95": 1081.6274352364871,
+    "assignments": [
+      {
+        "building_id": "railway",
+        "parking_id": "parking-local-railway",
+        "entry_id": "parking-local-railway-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 209.84756372185976,
+        "directEntryDistance": 228.98908270919816,
+        "measuredWorldDistance": 242.2757247325857,
+        "savedWorldDistance": 242.276,
+        "points": 3
+      },
+      {
+        "building_id": "clans",
+        "parking_id": "parking-local-base-4",
+        "entry_id": "parking-local-base-4-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 125.29964086141668,
+        "directEntryDistance": 146,
+        "measuredWorldDistance": 184.4581043954044,
+        "savedWorldDistance": 184.458,
+        "points": 3
+      },
+      {
+        "building_id": "arena",
+        "parking_id": "parking-local-messages",
+        "entry_id": "parking-local-messages-pedestrian-entry-2",
+        "entry_type": "pedestrian",
+        "doorToLot": 482.8457310570323,
+        "directEntryDistance": 497.7750495956985,
+        "measuredWorldDistance": 828.8790060419734,
+        "savedWorldDistance": 828.879,
+        "points": 5
+      },
+      {
+        "building_id": "profile",
+        "parking_id": "parking-local-profile",
+        "entry_id": "parking-local-profile-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 125.29964086141668,
+        "directEntryDistance": 146,
+        "measuredWorldDistance": 172.27099136416967,
+        "savedWorldDistance": 172.271,
+        "points": 3
+      },
+      {
+        "building_id": "results",
+        "parking_id": "parking-local-results",
+        "entry_id": "parking-local-results-vehicle-entry",
+        "entry_type": "vehicle",
+        "doorToLot": 354.3910269744424,
+        "directEntryDistance": 470.88958366054345,
+        "measuredWorldDistance": 784.0172819531255,
+        "savedWorldDistance": 784.017,
+        "points": 5
+      },
+      {
+        "building_id": "messages",
+        "parking_id": "parking-local-messages",
+        "entry_id": "parking-local-messages-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 125.29964086141668,
+        "directEntryDistance": 162.78820596099706,
+        "measuredWorldDistance": 190.97160961528678,
+        "savedWorldDistance": 190.972,
+        "points": 3
+      },
+      {
+        "building_id": "terrace",
+        "parking_id": "parking-local-terrace",
+        "entry_id": "parking-local-terrace-pedestrian-entry-3",
+        "entry_type": "pedestrian",
+        "doorToLot": 200,
+        "directEntryDistance": 176,
+        "measuredWorldDistance": 176,
+        "savedWorldDistance": 176,
+        "points": 2
+      },
+      {
+        "building_id": "shop-food",
+        "parking_id": "parking-local-profile",
+        "entry_id": "parking-local-profile-pedestrian-entry-2",
+        "entry_type": "pedestrian",
+        "doorToLot": 203.2141727340886,
+        "directEntryDistance": 221.84679398179276,
+        "measuredWorldDistance": 240.8506157185428,
+        "savedWorldDistance": 240.851,
+        "points": 3
+      },
+      {
+        "building_id": "shop-clothes",
+        "parking_id": "parking-local-shop-clothes",
+        "entry_id": "parking-local-shop-clothes-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 200,
+        "directEntryDistance": 176,
+        "measuredWorldDistance": 176,
+        "savedWorldDistance": 176,
+        "points": 2
+      },
+      {
+        "building_id": "shop-furniture",
+        "parking_id": "parking-local-shop-furniture",
+        "entry_id": "parking-local-shop-furniture-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 499,
+        "directEntryDistance": 499.5768209194657,
+        "measuredWorldDistance": 499.5768209194657,
+        "savedWorldDistance": 499.577,
+        "points": 2
+      },
+      {
+        "building_id": "casino",
+        "parking_id": "parking-local-casino",
+        "entry_id": "parking-local-casino-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 125.29964086141668,
+        "directEntryDistance": 146,
+        "measuredWorldDistance": 175.33200586162073,
+        "savedWorldDistance": 175.332,
+        "points": 3
+      },
+      {
+        "building_id": "base-1",
+        "parking_id": "parking-local-base-1",
+        "entry_id": "parking-local-base-1-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 125.29964086141668,
+        "directEntryDistance": 146,
+        "measuredWorldDistance": 178.2640252484656,
+        "savedWorldDistance": 178.264,
+        "points": 3
+      },
+      {
+        "building_id": "base-2",
+        "parking_id": "parking-local-base-2",
+        "entry_id": "parking-local-base-2-vehicle-entry",
+        "entry_type": "vehicle",
+        "doorToLot": 445.85199337896876,
+        "directEntryDistance": 562.2561693747788,
+        "measuredWorldDistance": 867.183092370744,
+        "savedWorldDistance": 867.183,
+        "points": 4
+      },
+      {
+        "building_id": "base-3",
+        "parking_id": "parking-block-1",
+        "entry_id": "parking-block-1-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 456,
+        "directEntryDistance": 458.11788875790484,
+        "measuredWorldDistance": 462.51065441895213,
+        "savedWorldDistance": 462.511,
+        "points": 3
+      },
+      {
+        "building_id": "base-4",
+        "parking_id": "parking-local-base-4",
+        "entry_id": "parking-local-base-4-pedestrian-entry-2",
+        "entry_type": "pedestrian",
+        "doorToLot": 468,
+        "directEntryDistance": 664.8308055437865,
+        "measuredWorldDistance": 1081.6274352364871,
+        "savedWorldDistance": 1081.627,
+        "points": 5
+      },
+      {
+        "building_id": "base-5",
+        "parking_id": "parking-local-apartment-66",
+        "entry_id": "parking-local-apartment-66-vehicle-entry",
+        "entry_type": "vehicle",
+        "doorToLot": 445.85199337896876,
+        "directEntryDistance": 562.2561693747788,
+        "measuredWorldDistance": 979.8121253265772,
+        "savedWorldDistance": 979.812,
+        "points": 4
+      },
+      {
+        "building_id": "base-6",
+        "parking_id": "parking-local-base-6",
+        "entry_id": "parking-local-base-6-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 200,
+        "directEntryDistance": 176,
+        "measuredWorldDistance": 176,
+        "savedWorldDistance": 176,
+        "points": 2
+      },
+      {
+        "building_id": "base-7",
+        "parking_id": "parking-local-base-7",
+        "entry_id": "parking-local-base-7-vehicle-entry",
+        "entry_type": "vehicle",
+        "doorToLot": 174,
+        "directEntryDistance": 489.50587330490737,
+        "measuredWorldDistance": 495.8617437451409,
+        "savedWorldDistance": 495.862,
+        "points": 4
+      },
+      {
+        "building_id": "base-8",
+        "parking_id": "parking-local-base-8",
+        "entry_id": "parking-local-base-8-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 200,
+        "directEntryDistance": 176,
+        "measuredWorldDistance": 176,
+        "savedWorldDistance": 176,
+        "points": 2
+      },
+      {
+        "building_id": "apartment-48",
+        "parking_id": "parking-local-apartment-18",
+        "entry_id": "parking-local-apartment-18-pedestrian-entry-3",
+        "entry_type": "pedestrian",
+        "doorToLot": 200,
+        "directEntryDistance": 176,
+        "measuredWorldDistance": 176,
+        "savedWorldDistance": 176,
+        "points": 2
+      },
+      {
+        "building_id": "apartment-18",
+        "parking_id": "parking-local-apartment-18",
+        "entry_id": "parking-local-apartment-18-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 489.1829923454003,
+        "directEntryDistance": 513.6418986025186,
+        "measuredWorldDistance": 538.4306682975398,
+        "savedWorldDistance": 538.431,
+        "points": 4
+      },
+      {
+        "building_id": "apartment-34",
+        "parking_id": "parking-block-5",
+        "entry_id": "parking-block-5-vehicle-entry",
+        "entry_type": "vehicle",
+        "doorToLot": 296.8164415931166,
+        "directEntryDistance": 644.8317610043723,
+        "measuredWorldDistance": 940.8428686294926,
+        "savedWorldDistance": 940.843,
+        "points": 5
+      },
+      {
+        "building_id": "apartment-62",
+        "parking_id": "parking-local-base-1",
+        "entry_id": "parking-local-base-1-pedestrian-entry-2",
+        "entry_type": "pedestrian",
+        "doorToLot": 294.1836161311503,
+        "directEntryDistance": 333.4186557467953,
+        "measuredWorldDistance": 453.46964166721904,
+        "savedWorldDistance": 453.47,
+        "points": 5
+      },
+      {
+        "building_id": "apartment-12",
+        "parking_id": "parking-local-apartment-67",
+        "entry_id": "parking-local-apartment-67-vehicle-entry",
+        "entry_type": "vehicle",
+        "doorToLot": 262.08395601409865,
+        "directEntryDistance": 613.5568433323843,
+        "measuredWorldDistance": 644.4274867668896,
+        "savedWorldDistance": 644.427,
+        "points": 3
+      },
+      {
+        "building_id": "apartment-52",
+        "parking_id": "parking-local-apartment-52",
+        "entry_id": "parking-local-apartment-52-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 200,
+        "directEntryDistance": 176,
+        "measuredWorldDistance": 176,
+        "savedWorldDistance": 176,
+        "points": 2
+      },
+      {
+        "building_id": "apartment-4",
+        "parking_id": "parking-local-apartment-4",
+        "entry_id": "parking-local-apartment-4-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 200,
+        "directEntryDistance": 176,
+        "measuredWorldDistance": 176,
+        "savedWorldDistance": 176,
+        "points": 2
+      },
+      {
+        "building_id": "apartment-40",
+        "parking_id": "parking-local-apartment-4",
+        "entry_id": "parking-local-apartment-4-pedestrian-entry-2",
+        "entry_type": "pedestrian",
+        "doorToLot": 280.6920020235703,
+        "directEntryDistance": 332.0060240417333,
+        "measuredWorldDistance": 428.61908295395796,
+        "savedWorldDistance": 428.619,
+        "points": 3
+      },
+      {
+        "building_id": "apartment-17",
+        "parking_id": "parking-local-apartment-17",
+        "entry_id": "parking-local-apartment-17-pedestrian-entry-2",
+        "entry_type": "pedestrian",
+        "doorToLot": 241,
+        "directEntryDistance": 595.4838368923207,
+        "measuredWorldDistance": 1204.408750979313,
+        "savedWorldDistance": 1204.409,
+        "points": 7
+      },
+      {
+        "building_id": "apartment-59",
+        "parking_id": "parking-local-apartment-59",
+        "entry_id": "parking-local-apartment-59-vehicle-entry",
+        "entry_type": "vehicle",
+        "doorToLot": 240,
+        "directEntryDistance": 230.33888078220747,
+        "measuredWorldDistance": 230.33888078220747,
+        "savedWorldDistance": 230.339,
+        "points": 2
+      },
+      {
+        "building_id": "apartment-66",
+        "parking_id": "parking-local-apartment-66",
+        "entry_id": "parking-local-apartment-66-pedestrian-entry-2",
+        "entry_type": "pedestrian",
+        "doorToLot": 48,
+        "directEntryDistance": 24,
+        "measuredWorldDistance": 24,
+        "savedWorldDistance": 24,
+        "points": 2
+      },
+      {
+        "building_id": "apartment-38",
+        "parking_id": "parking-block-4",
+        "entry_id": "parking-block-4-pedestrian-entry-2",
+        "entry_type": "pedestrian",
+        "doorToLot": 454.5987241513113,
+        "directEntryDistance": 487.16732238523554,
+        "measuredWorldDistance": 578.885445257717,
+        "savedWorldDistance": 578.885,
+        "points": 4
+      },
+      {
+        "building_id": "apartment-2",
+        "parking_id": "parking-local-apartment-67",
+        "entry_id": "parking-local-apartment-67-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 489.19525754038136,
+        "directEntryDistance": 490.5670188669434,
+        "measuredWorldDistance": 541.3177380197125,
+        "savedWorldDistance": 541.318,
+        "points": 5
+      },
+      {
+        "building_id": "apartment-6",
+        "parking_id": "parking-local-apartment-23",
+        "entry_id": "parking-local-apartment-23-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 264,
+        "directEntryDistance": 240.13329631685815,
+        "measuredWorldDistance": 240.13329631685815,
+        "savedWorldDistance": 240.133,
+        "points": 2
+      },
+      {
+        "building_id": "apartment-24",
+        "parking_id": "parking-local-apartment-24",
+        "entry_id": "parking-local-apartment-24-pedestrian-entry-2",
+        "entry_type": "pedestrian",
+        "doorToLot": 228.25424421026653,
+        "directEntryDistance": 282.3118842698621,
+        "measuredWorldDistance": 380.4905353630171,
+        "savedWorldDistance": 380.491,
+        "points": 3
+      },
+      {
+        "building_id": "apartment-60",
+        "parking_id": "parking-local-apartment-3",
+        "entry_id": "parking-local-apartment-3-vehicle-entry",
+        "entry_type": "vehicle",
+        "doorToLot": 228.25424421026653,
+        "directEntryDistance": 284.87190103623766,
+        "measuredWorldDistance": 310.15229029542235,
+        "savedWorldDistance": 310.152,
+        "points": 3
+      },
+      {
+        "building_id": "apartment-5",
+        "parking_id": "parking-local-apartment-5",
+        "entry_id": "parking-local-apartment-5-vehicle-entry",
+        "entry_type": "vehicle",
+        "doorToLot": 258.2401982651036,
+        "directEntryDistance": 609.6064304122783,
+        "measuredWorldDistance": 630.1842684830249,
+        "savedWorldDistance": 630.184,
+        "points": 4
+      },
+      {
+        "building_id": "apartment-15",
+        "parking_id": "parking-local-apartment-35",
+        "entry_id": "parking-local-apartment-35-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 262.08395601409865,
+        "directEntryDistance": 326.4352922096507,
+        "measuredWorldDistance": 349.71780926358736,
+        "savedWorldDistance": 349.718,
+        "points": 4
+      },
+      {
+        "building_id": "apartment-14",
+        "parking_id": "parking-local-apartment-28",
+        "entry_id": "parking-local-apartment-28-pedestrian-entry-2",
+        "entry_type": "pedestrian",
+        "doorToLot": 144,
+        "directEntryDistance": 120,
+        "measuredWorldDistance": 120,
+        "savedWorldDistance": 120,
+        "points": 2
+      },
+      {
+        "building_id": "apartment-35",
+        "parking_id": "parking-local-apartment-35",
+        "entry_id": "parking-local-apartment-35-pedestrian-entry-2",
+        "entry_type": "pedestrian",
+        "doorToLot": 426.9332500520427,
+        "directEntryDistance": 532.7213155112155,
+        "measuredWorldDistance": 1207.8552881001933,
+        "savedWorldDistance": 1207.855,
+        "points": 8
+      },
+      {
+        "building_id": "apartment-39",
+        "parking_id": "parking-local-apartment-39",
+        "entry_id": "parking-local-apartment-39-vehicle-entry",
+        "entry_type": "vehicle",
+        "doorToLot": 310.46416862497995,
+        "directEntryDistance": 662.9871793632211,
+        "measuredWorldDistance": 682.5217893488051,
+        "savedWorldDistance": 682.522,
+        "points": 3
+      },
+      {
+        "building_id": "apartment-28",
+        "parking_id": "parking-local-apartment-28",
+        "entry_id": "parking-local-apartment-28-vehicle-entry",
+        "entry_type": "vehicle",
+        "doorToLot": 277.5031531352392,
+        "directEntryDistance": 393.8781537480849,
+        "measuredWorldDistance": 886.6635063636149,
+        "savedWorldDistance": 886.664,
+        "points": 5
+      },
+      {
+        "building_id": "apartment-29",
+        "parking_id": "parking-block-11",
+        "entry_id": "parking-block-11-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 164.9242250247064,
+        "directEntryDistance": 287.47173774129516,
+        "measuredWorldDistance": 567.418803133651,
+        "savedWorldDistance": 567.419,
+        "points": 4
+      },
+      {
+        "building_id": "apartment-23",
+        "parking_id": "parking-local-apartment-23",
+        "entry_id": "parking-local-apartment-23-vehicle-entry",
+        "entry_type": "vehicle",
+        "doorToLot": 473.8311935700308,
+        "directEntryDistance": 637.1938480556761,
+        "measuredWorldDistance": 924.0424663205879,
+        "savedWorldDistance": 924.042,
+        "points": 4
+      },
+      {
+        "building_id": "apartment-30",
+        "parking_id": "parking-block-5",
+        "entry_id": "parking-block-5-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 184,
+        "directEntryDistance": 204.89997559785115,
+        "measuredWorldDistance": 214.21791885040795,
+        "savedWorldDistance": 214.218,
+        "points": 4
+      },
+      {
+        "building_id": "apartment-67",
+        "parking_id": "parking-local-apartment-67",
+        "entry_id": "parking-local-apartment-67-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 40,
+        "directEntryDistance": 180.70971196922426,
+        "measuredWorldDistance": 193.69296989054448,
+        "savedWorldDistance": 193.693,
+        "points": 3
+      },
+      {
+        "building_id": "apartment-65",
+        "parking_id": "parking-local-apartment-65",
+        "entry_id": "parking-local-apartment-65-pedestrian-entry-2",
+        "entry_type": "pedestrian",
+        "doorToLot": 220.10906387516167,
+        "directEntryDistance": 570.1403336021756,
+        "measuredWorldDistance": 613.9315234770485,
+        "savedWorldDistance": 613.932,
+        "points": 4
+      },
+      {
+        "building_id": "apartment-8",
+        "parking_id": "parking-local-terrace",
+        "entry_id": "parking-local-terrace-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 456.4252403187186,
+        "directEntryDistance": 512.4099920961729,
+        "measuredWorldDistance": 747.2195526633001,
+        "savedWorldDistance": 747.22,
+        "points": 4
+      },
+      {
+        "building_id": "apartment-3",
+        "parking_id": "parking-local-apartment-3",
+        "entry_id": "parking-local-apartment-3-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 395.9040287746514,
+        "directEntryDistance": 512.2499389946279,
+        "measuredWorldDistance": 581.6881650046363,
+        "savedWorldDistance": 581.688,
+        "points": 4
+      },
+      {
+        "building_id": "apartment-11",
+        "parking_id": "parking-local-apartment-11",
+        "entry_id": "parking-local-apartment-11-pedestrian-entry-1",
+        "entry_type": "pedestrian",
+        "doorToLot": 419.3757265269415,
+        "directEntryDistance": 751.2895580267304,
+        "measuredWorldDistance": 1036.0766837179488,
+        "savedWorldDistance": 1036.077,
+        "points": 5
+      }
+    ]
+  },
+  "collision_map_sha256": "4159e4039c2d506c2baaeb304831797fbce2a32c5d1fa9879ceb151fe57ec17b",
+  "lotProblems": [],
+  "carProblems": [],
+  "driveProblems": [],
+  "supportProblems": [],
+  "landscapeProblems": [],
+  "pedestrianProblems": [],
+  "assignmentProblems": [],
+  "opaqueOverlaps": []
+}

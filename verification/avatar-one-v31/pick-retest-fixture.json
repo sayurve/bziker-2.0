@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-15T16:13:40.751151+00:00",
+  "scope": "disposable local QA only; no live game DB touched",
+  "database": "/tmp/bziker-locations-v26-qa.sqlite3",
+  "account": "LocationQA",
+  "reason": "Repeat the real in-game pickup/throw after correcting native bin slot endpoint. Restore naturally by completing the same pickup again.",
+  "before": [
+    {
+      "account_id": "Bl-qtHytVcLiMoFsdLHrrZKiaBIMX1Oh",
+      "target_id": "litter-park-1",
+      "day": "2026-10-15"
+    }
+  ]
+}

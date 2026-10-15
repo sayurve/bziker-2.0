@@ -1,0 +1,48 @@
+/** Read-only native-render interoperability sweep. Run only after root freeze. */
+import {readFile,writeFile,mkdir}from'node:fs/promises';
+import {createHash}from'node:crypto';import{createRequire}from'node:module';import{fileURLToPath}from'node:url';
+import {defaultAvatar,parts,drawAvatarCanvas,avatarRaster}from'../../game/web/avatar.js';
+import {loadSourceActor,sourceActorFrame}from'../../game/web/source-actors.js';
+const args=process.argv.slice(2),matrix={paidOutfits:{genders:2,outfits:7,directions:4,runPhases:4,cases:224},hairHeadwear:{genders:2,hairStyles:12,headwear:5,hairColors:[0,6],directions:4,runPhases:4,cases:3840},total:4064};
+if(args.includes('--help')||!args.length){console.log('Usage: node verification/customization-audit/final-interoperability.mjs --plan\n       node verification/customization-audit/final-interoperability.mjs --run LABEL\n--run: explicit post-freeze execution. Native files only; writes verification output, no DB/browser/runtime edits.');process.exit(0);}
+if(args[0]==='--plan'){console.log(JSON.stringify(matrix,null,2));process.exit(0);}
+if(args[0]!=='--run'||!args[1]||!/^[a-z0-9-]+$/.test(args[1]))throw Error('Expected --run LABEL (simple unique lowercase label)');
+const root=new URL('../../',import.meta.url),game=new URL('game/',root),out=new URL('interop-'+args[1]+'/',import.meta.url);
+await mkdir(out,{recursive:false}); // A named result is never silently overwritten.
+const {createCanvas,loadImage}=createRequire(process.execPath)('@napi-rs/canvas'),hash=a=>createHash('sha256').update(a).digest('hex');
+const files=['game/web/avatar.js','game/web/source-actors.js','game/web/actor-sprite.js','game/web/actor-hair-data.js','game/web/actor-custom-data.js','game/web/actor-atlas-data.js','game/web/source-actors-data.js','game/web/canonical-actors-data.js','game/web/locomotion.js','game/web/locomotion-actors-data.js'];
+const snapshot=async()=>Object.fromEntries(await Promise.all(files.map(async p=>{try{return[p,hash(await readFile(new URL(p,root)))];}catch(e){if(e.code==='ENOENT')return[p,null];throw e;}})));
+const before=await snapshot(),loaded=new Map(),nativeResources=new Map(),load=async p=>{if(!loaded.has(p)){const url=new URL(p.replace(/^\//,''),game),[im,bytes]=await Promise.all([loadImage(fileURLToPath(url)),readFile(url)]);loaded.set(p,im);nativeResources.set(p,{path:p,sha256:hash(bytes),sizeBytes:bytes.length,width:im.width,height:im.height});}return loaded.get(p);};
+for(const id of['human-male','human-female'])await loadSourceActor(id,{createCanvas,loadImage:load});
+const dirs=['down','right','up','left'],records=[],baselines=new Map(),sheets=[];
+function render(a,opts){const canvas=createCanvas(96,128),c=canvas.getContext('2d');drawAvatarCanvas(c,a,0,0,{...opts,scale:2});const pixels=c.getImageData(0,0,96,128).data;return{canvas,pixels,frame:sourceActorFrame(a,opts),raster:avatarRaster(a,opts)};}
+function polygon(p,x,y){let inside=false;for(let i=0,j=p.length-1;i<p.length;j=i++){const a=p[i],b=p[j];if((a[1]>y)!==(b[1]>y)&&x<(b[0]-a[0])*(y-a[1])/(b[1]-a[1])+a[0])inside=!inside;}return inside;}
+function metrics(actual,base){const p=actual.pixels,b=base.pixels,h=base.frame.head;let ink=0,left=96,right=-1,top=128,bottom=-1,faceChanged=0,faceLost=0,maskSamples=0;const firstFaceChanges=[];
+ for(let y=0;y<128;y++)for(let x=0;x<96;x++){const n=(y*96+x)*4;if(p[n+3]){ink++;left=Math.min(left,x);right=Math.max(right,x);top=Math.min(top,y);bottom=Math.max(bottom,y);}
+  if(!h||!b[n+3])continue;const inside=x>=h.left*2&&x<=(h.right+1)*2&&y>=(h.top+6)*2&&y<=(h.bottom+1)*2;
+  const strong=b[n]>=210&&b[n]-b[n+1]>75&&b[n+1]-b[n+2]>20;
+  const protectedPixel=Array.isArray(h.facePolygon)?polygon(h.facePolygon,x/2,y/2):inside&&strong;
+  if(protectedPixel){maskSamples++;if(!p[n+3])faceLost++;if([0,1,2,3].some(k=>p[n+k]!==b[n+k])){faceChanged++;if(firstFaceChanges.length<8)firstFaceChanges.push({x,y,before:[...b.slice(n,n+4)],after:[...p.slice(n,n+4)]});}}
+ }
+ const edges={left:left===0,right:right===95,top:top===0,bottom:bottom===127};
+ return{ink,bbox:ink?[left,top,right+1,bottom+1]:null,edges,faceMask:Array.isArray(h?.facePolygon)?'authored-polygon':'diagnostic-strong-flesh-only',maskSamples,faceChanged,faceLost,firstFaceChanges,headRegistrationUnchanged:JSON.stringify(actual.frame.head)===JSON.stringify(base.frame.head),anchorUnchanged:JSON.stringify(actual.frame.anchor)===JSON.stringify(base.frame.anchor),sourceFrameUnchanged:actual.frame.atlas===base.frame.atlas&&JSON.stringify(actual.frame.rect)===JSON.stringify(base.frame.rect),sourceRaster:actual.raster.key.startsWith('source-v17:'),rgbaSha256:hash(p)};
+}
+function baseline(gender,facing,phase){const key=[gender,facing,phase].join(':');if(!baselines.has(key))baselines.set(key,render({...defaultAvatar,gender},{facing,walking:true,running:true,walkFrame:phase*2}));return baselines.get(key);}
+function sheet(title,rows){const canvas=createCanvas(16*102+110,rows*140+48),c=canvas.getContext('2d');c.fillStyle='#e8e5dc';c.fillRect(0,0,canvas.width,canvas.height);c.fillStyle='#202629';c.font='14px sans-serif';c.fillText(title,8,18);for(let d=0;d<4;d++)for(let p=0;p<4;p++)c.fillText(dirs[d]+p,114+(d*4+p)*102,41);return{canvas,c};}
+function paint(s,actual,row,col,rowLabel){const x=110+col*102,y=48+row*140;s.c.fillStyle='#18212a';s.c.fillRect(x,y,101,139);s.c.drawImage(actual.canvas,x+3,y+4);s.c.fillStyle='#202629';s.c.font='13px sans-serif';s.c.fillText(rowLabel,5,y+55,103);}
+function append(kind,settings,actual,base){const m=metrics(actual,base),bm=metrics(base,base);records.push({kind,...settings,clip:actual.frame.id,atlas:actual.frame.atlas,frameIndex:actual.frame.frameIndex,head:actual.frame.head,...m,newEdge:Object.keys(m.edges).some(k=>m.edges[k]&&!bm.edges[k])});}
+for(const gender of[0,1]){
+ const s=sheet(`Purchased outfit matrix: G${gender}; outfit0 own clothes; actual native run phases`,7);
+ for(let outfit=0;outfit<7;outfit++)for(let d=0;d<4;d++)for(let phase=0;phase<4;phase++){const facing=dirs[d],opts={facing,walking:true,running:true,walkFrame:phase*2},a={...defaultAvatar,gender,outfit},actual=render(a,opts);append('outfit',{gender,outfit,facing,phase},actual,baseline(gender,facing,phase));paint(s,actual,outfit,d*4+phase,`${outfit} ${parts.outfit.options[outfit]}`);}
+ const file=`outfits-g${gender}.png`;await writeFile(new URL(file,out),s.canvas.toBuffer('image/png'));sheets.push(file);
+}
+for(const gender of[0,1])for(const hairColor of[0,6])for(let headwear=0;headwear<5;headwear++){
+ const s=sheet(`Hair/headwear: G${gender} color${hairColor} headwear${headwear}; actual native run phases`,12);
+ for(let hairStyle=0;hairStyle<12;hairStyle++)for(let d=0;d<4;d++)for(let phase=0;phase<4;phase++){const facing=dirs[d],opts={facing,walking:true,running:true,walkFrame:phase*2},a={...defaultAvatar,gender,hairStyle,headwear,hairColor},actual=render(a,opts);append('hair-headwear',{gender,hairStyle,headwear,hairColor,facing,phase},actual,baseline(gender,facing,phase));paint(s,actual,hairStyle,d*4+phase,`${hairStyle} ${parts.hairStyle.options[hairStyle]}`);}
+ const file=`hair-g${gender}-c${hairColor}-h${headwear}.png`;await writeFile(new URL(file,out),s.canvas.toBuffer('image/png'));sheets.push(file);
+}
+const after=await snapshot(),resources=[...nativeResources.values()],resourceChanges=[];for(const resource of resources){const bytes=await readFile(new URL(resource.path.replace(/^\//,''),game));if(hash(bytes)!==resource.sha256)resourceChanges.push(resource.path);}
+const stable=JSON.stringify(before)===JSON.stringify(after)&&resourceChanges.length===0,bad=records.filter(r=>!r.ink||!r.sourceRaster||!r.headRegistrationUnchanged||!r.anchorUnchanged||!r.sourceFrameUnchanged||r.newEdge),face=records.filter(r=>r.faceChanged||r.faceLost);
+const summary={checkedAt:new Date().toISOString(),matrix,actualCounts:{outfits:records.filter(r=>r.kind==='outfit').length,hairHeadwear:records.filter(r=>r.kind==='hair-headwear').length,total:records.length},sourceHashes:before,sourceFilesStable:stable,nativeFilesLoaded:loaded.size,nativeResources:resources,resourceChanges,sheets,technicalFailureCases:bad.length,faceCandidateCases:face.length,strictAuthoredPolygonFailures:face.filter(r=>r.faceMask==='authored-polygon').length,edgeCases:records.filter(r=>Object.values(r.edges).some(Boolean)).length,newEdgeCases:records.filter(r=>r.newEdge).length,nonemptyCases:records.filter(r=>r.ink>0).length,limits:['No DB/API/browser writes or ownership bypass; root bought paid outfits through real UI before this sweep','Strong-flesh face comparisons are diagnostics when an authored facePolygon is absent; inspect candidate cases before claiming identity PASS','Face identity means unchanged underlying native face in the same frame, not equivalence between independently authored directions/phases','Head registration/anchor are compared; intentional hairstyle/hat silhouette changes are not normalized to a shared bbox','All4064 cases rendered, contact sheets not automatically visually reviewed by this script','Runs only; idle/walking general coverage is in render-options.mjs and root UI walkthrough']};
+await writeFile(new URL('metrics.json',out),JSON.stringify(records,null,2)+'\n');await writeFile(new URL('summary.json',out),JSON.stringify(summary,null,2)+'\n');await writeFile(new URL('attention-cases.json',out),JSON.stringify({technical:bad,faceCandidates:face},null,2)+'\n');console.log(JSON.stringify({output:fileURLToPath(out),...summary.actualCounts,stable,technicalFailures:bad.length,faceCandidates:face.length,newEdges:summary.newEdgeCases}));
+if(!stable||records.length!==4064||bad.length)process.exitCode=1;

@@ -1,0 +1,99 @@
+{
+  "createdAt": "2026-10-15T12:29:23.236Z",
+  "gender": 0,
+  "category": "skin",
+  "source": "final-fixed",
+  "cases": 4,
+  "crop": {
+    "x": 535,
+    "y": 375,
+    "width": 135,
+    "height": 180
+  },
+  "qaOnly": true,
+  "productionArtChanged": false,
+  "realBrowserCaptures": true,
+  "renderedMockups": false,
+  "scale": 1.5,
+  "sheets": [
+    "page-1.png"
+  ],
+  "records": [
+    {
+      "value": 4,
+      "name": "Фарфоровый",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-skin-04-down.jpg",
+      "sourceSha256": "5f36b5593ecea49569e56bf63b6fab91eed3c71f6a3f26512311f693505bc0df",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-skin-04-down-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Фарфоровый",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-skin-04-left.jpg",
+      "sourceSha256": "1e990040a94b0feea47e54bc64925d2430a127dff0d0051148b74d9e869ddf3d",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-skin-04-left-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Фарфоровый",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-skin-04-up.jpg",
+      "sourceSha256": "f341773671d8d9a48bef66a6ad02a202780f81c1acd471c2e50e2c9ef48717c4",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-skin-04-up-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Фарфоровый",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-skin-04-right.jpg",
+      "sourceSha256": "caf7cef2d0b016dad21cd565272abbfbe71bcf470eb1e0ca91b8ce77f345f5fe",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-skin-04-right-crop.png"
+    }
+  ]
+}

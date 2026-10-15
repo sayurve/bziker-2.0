@@ -1,0 +1,11 @@
+✔ approved HAND and LOWER production resources really decode, preload, and retain individual whole PNG bytes and per-pose metadata (41.766291ms)
+✔ LOWER endpoint bodies, heads and attachments are literal HAND master reuse, not separate nearly matching figures (0.683667ms)
+✔ ordinary finite world gestures now render these canonical whole bodies with actual prop attachments and selected hair/clothes (649.024292ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 971.17025

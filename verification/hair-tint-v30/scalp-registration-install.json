@@ -1,0 +1,332 @@
+{
+  "status": "approved semantic metadata",
+  "source": "verification/hair-tint-v30/scalp-authoring.json",
+  "sourceSHA256": "e86fca9a481af64ec0cc7ad98b543bfdf395319e8a9119abeea7a51490427319",
+  "scope": "maleDOWN/UP only; exact neck translations; PNG bytes untouched",
+  "records": [
+    {
+      "label": "canonical",
+      "dir": "down",
+      "frame": "0",
+      "neckDelta": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "canonical",
+      "dir": "up",
+      "frame": "0",
+      "neckDelta": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "locomotion",
+      "dir": "down",
+      "frame": "0",
+      "neckDelta": [
+        0,
+        -2
+      ]
+    },
+    {
+      "label": "locomotion",
+      "dir": "down",
+      "frame": "1",
+      "neckDelta": [
+        0,
+        -2
+      ]
+    },
+    {
+      "label": "locomotion",
+      "dir": "down",
+      "frame": "2",
+      "neckDelta": [
+        0,
+        -2
+      ]
+    },
+    {
+      "label": "locomotion",
+      "dir": "down",
+      "frame": "3",
+      "neckDelta": [
+        0,
+        -2
+      ]
+    },
+    {
+      "label": "locomotion",
+      "dir": "up",
+      "frame": "0",
+      "neckDelta": [
+        0,
+        -1.5
+      ]
+    },
+    {
+      "label": "locomotion",
+      "dir": "up",
+      "frame": "1",
+      "neckDelta": [
+        0,
+        -1.5
+      ]
+    },
+    {
+      "label": "locomotion",
+      "dir": "up",
+      "frame": "2",
+      "neckDelta": [
+        0,
+        -1.5
+      ]
+    },
+    {
+      "label": "locomotion",
+      "dir": "up",
+      "frame": "3",
+      "neckDelta": [
+        0,
+        -1.5
+      ]
+    },
+    {
+      "label": "interaction/hand",
+      "dir": "down",
+      "frame": "0",
+      "neckDelta": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "interaction/hand",
+      "dir": "down",
+      "frame": "1",
+      "neckDelta": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "interaction/hand",
+      "dir": "down",
+      "frame": "2",
+      "neckDelta": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "interaction/hand",
+      "dir": "down",
+      "frame": "3",
+      "neckDelta": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "interaction/hand",
+      "dir": "up",
+      "frame": "0",
+      "neckDelta": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "interaction/hand",
+      "dir": "up",
+      "frame": "1",
+      "neckDelta": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "interaction/hand",
+      "dir": "up",
+      "frame": "2",
+      "neckDelta": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "interaction/hand",
+      "dir": "up",
+      "frame": "3",
+      "neckDelta": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "interaction/lowerReach",
+      "dir": "down",
+      "frame": "0",
+      "neckDelta": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "interaction/lowerReach",
+      "dir": "down",
+      "frame": "1",
+      "neckDelta": [
+        -0.5,
+        3.5
+      ]
+    },
+    {
+      "label": "interaction/lowerReach",
+      "dir": "down",
+      "frame": "2",
+      "neckDelta": [
+        0,
+        10.5
+      ]
+    },
+    {
+      "label": "interaction/lowerReach",
+      "dir": "down",
+      "frame": "3",
+      "neckDelta": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "interaction/lowerReach",
+      "dir": "up",
+      "frame": "0",
+      "neckDelta": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "interaction/lowerReach",
+      "dir": "up",
+      "frame": "1",
+      "neckDelta": [
+        3,
+        -0.5
+      ]
+    },
+    {
+      "label": "interaction/lowerReach",
+      "dir": "up",
+      "frame": "2",
+      "neckDelta": [
+        5.5,
+        6.5
+      ]
+    },
+    {
+      "label": "interaction/lowerReach",
+      "dir": "up",
+      "frame": "3",
+      "neckDelta": [
+        0,
+        0
+      ]
+    },
+    {
+      "label": "interaction/seated",
+      "dir": "down",
+      "frame": "0",
+      "neckDelta": [
+        0,
+        -1
+      ]
+    },
+    {
+      "label": "interaction/seated",
+      "dir": "down",
+      "frame": "1",
+      "neckDelta": [
+        0,
+        -1
+      ]
+    },
+    {
+      "label": "interaction/seated",
+      "dir": "down",
+      "frame": "2",
+      "neckDelta": [
+        0,
+        -0.5
+      ]
+    },
+    {
+      "label": "interaction/seated",
+      "dir": "down",
+      "frame": "3",
+      "neckDelta": [
+        0,
+        -1
+      ]
+    },
+    {
+      "label": "interaction/seated",
+      "dir": "up",
+      "frame": "0",
+      "neckDelta": [
+        0,
+        2
+      ]
+    },
+    {
+      "label": "interaction/seated",
+      "dir": "up",
+      "frame": "1",
+      "neckDelta": [
+        0,
+        2
+      ]
+    },
+    {
+      "label": "interaction/seated",
+      "dir": "up",
+      "frame": "2",
+      "neckDelta": [
+        0,
+        2
+      ]
+    },
+    {
+      "label": "interaction/seated",
+      "dir": "up",
+      "frame": "3",
+      "neckDelta": [
+        0,
+        2
+      ]
+    },
+    {
+      "label": "interaction/male-seated-front",
+      "dir": "down",
+      "frame": "1",
+      "neckDelta": [
+        0,
+        7
+      ]
+    },
+    {
+      "label": "interaction/male-seated-back",
+      "dir": "up",
+      "frame": "1",
+      "neckDelta": [
+        0,
+        8
+      ]
+    }
+  ]
+}

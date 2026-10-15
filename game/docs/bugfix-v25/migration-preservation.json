@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-11T17:31:32.794299+00:00",
+  "scope": "Only the explicitly chosen source backup is opened read-only; full server initialization operates solely on a disposable clone.",
+  "source_backup": "data/backups/before-interior-controls-v25-20261011.db",
+  "source_design_release": null,
+  "source_saved_map_version": 23,
+  "target_map_version": 23,
+  "target_map_sha256": "4159e4039c2d506c2baaeb304831797fbce2a32c5d1fa9879ceb151fe57ec17b",
+  "target_collision_count": 1468,
+  "source_sha256_before": "def9850684b94836dcb8c52d39db41183a537b642a4925d1edc0eb8fa6592751",
+  "source_sha256_after": "def9850684b94836dcb8c52d39db41183a537b642a4925d1edc0eb8fa6592751",
+  "source_bytes_unchanged": true,
+  "source_integrity_check": "ok",
+  "clone_integrity_check": "ok",
+  "geometry_unchanged_during_check": true,
+  "comparison": "All columns and all rows compared through sorted canonical row digests, preserving duplicates; no row values disclosed.",
+  "business_tables_checked": 33,
+  "business_rows_checked": 173,
+  "all_business_tables_unchanged": true,
+  "unexpected_changes": [],
+  "business_tables": [
+    {
+      "table": "account_attempts",
+      "rows_before": 1,
+      "rows_after": 1,
+      "unchanged": true
+    },
+    {
+      "table": "account_credentials",
+      "rows_before": 1,
+      "rows_after": 1,
+      "unchanged": true
+    },
+    {
+      "table": "account_pets",
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    {
+      "table": "accounts",
+      "rows_before": 21,
+      "rows_after": 21,
+      "unchanged": true
+    },
+    {
+      "table": "active_accounts",
+      "rows_before": 1,
+      "rows_after": 1,
+      "unchanged": true
+    },
+    {
+      "table": "activity_events",
+      "rows_before": 21,
+      "rows_after": 21,
+      "unchanged": true
+    },
+    {
+      "table": "base_guests",
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    {
+      "table": "base_invitations",
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    {
+      "table": "card_invitations",
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    {
+      "table": "card_tables",
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    {
+      "table": "casino_spins",
+      "rows_before": 11,
+      "rows_after": 11,
+      "unchanged": true
+    },
+    {
+      "table": "clan_members",
+      "rows_before": 3,
+      "rows_after": 3,
+      "unchanged": true
+    },
+    {
+      "table": "clan_requests",
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    {
+      "table": "clan_results",
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    {
+      "table": "clans",
+      "rows_before": 4,
+      "rows_after": 4,
+      "unchanged": true
+    },
+    {
+      "table": "daily_quest_claims",
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    {
+      "table": "direct_messages",
+      "rows_before": 4,
+      "rows_after": 4,
+      "unchanged": true
+    },
+    {
+      "table": "economy_ledger",
+      "rows_before": 45,
+      "rows_after": 45,
+      "unchanged": true
+    },
+    {
+      "table": "fishing_sessions",
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    {
+      "table": "friend_requests",
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    {
+      "table": "friendships",
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    {
+      "table": "inventory",
+      "rows_before": 4,
+      "rows_after": 4,
+      "unchanged": true
+    },
+    {
+      "table": "invitations",
+      "rows_before": 5,
+      "rows_after": 5,
+      "unchanged": true
+    },
+    {
+      "table": "litter_picks",
+      "rows_before": 3,
+      "rows_after": 3,
+      "unchanged": true
+    },
+    {
+      "table": "lobbies",
+      "rows_before": 5,
+      "rows_after": 5,
+      "unchanged": true
+    },
+    {
+      "table": "nickname_reservations",
+      "rows_before": 12,
+      "rows_after": 12,
+      "unchanged": true
+    },
+    {
+      "table": "quest_claims",
+      "rows_before": 2,
+      "rows_after": 2,
+      "unchanged": true
+    },
+    {
+      "table": "sessions",
+      "rows_before": 1,
+      "rows_after": 1,
+      "unchanged": true
+    },
+    {
+      "table": "smoking_requests",
+      "rows_before": 0,
+      "rows_after": 0,
+      "unchanged": true
+    },
+    {
+      "table": "wallets",
+      "rows_before": 21,
+      "rows_after": 21,
+      "unchanged": true
+    },
+    {
+      "table": "world_action_effects",
+      "rows_before": 1,
+      "rows_after": 1,
+      "unchanged": true
+    },
+    {
+      "table": "world_animal_pauses",
+      "rows_before": 5,
+      "rows_after": 5,
+      "unchanged": true
+    },
+    {
+      "table": "world_pet_effects",
+      "rows_before": 2,
+      "rows_after": 2,
+      "unchanged": true
+    }
+  ],
+  "allowed_runtime_tables": [
+    {
+      "table": "presence",
+      "rows_before": 1,
+      "rows_after": 1,
+      "unchanged": true
+    },
+    {
+      "table": "world_boats",
+      "rows_before": 3,
+      "rows_after": 3,
+      "unchanged": true
+    },
+    {
+      "table": "world_metadata",
+      "rows_before": 1,
+      "rows_after": 1,
+      "unchanged": true
+    },
+    {
+      "table": "world_positions",
+      "rows_before": 2,
+      "rows_after": 2,
+      "unchanged": true
+    }
+  ],
+  "privacy": "No account IDs, names, credentials, session tokens, message content, or database row values included.",
+  "geometry_verification_status": "verified_final_snapshot",
+  "requires_final_geometry_reverification": false,
+  "final_geometry_sha256": "4159e4039c2d506c2baaeb304831797fbce2a32c5d1fa9879ceb151fe57ec17b"
+}

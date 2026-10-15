@@ -1,0 +1,9 @@
+{
+  "archive": "bziker-city-v12.zip",
+  "crc": "PASS",
+  "source_bytes": "PASS",
+  "private_state_excluded": "PASS",
+  "fresh_extracted_server": "PASS",
+  "authenticated_construction_checks": 56,
+  "water_boat_pet_http_checks": 143
+}

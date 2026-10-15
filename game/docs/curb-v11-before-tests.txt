@@ -1,0 +1,117 @@
+✖ city smoking platform has no path curb or diagonal paving seams through its interior (19.604584ms)
+✖ overview smoking platform has no path curb or diagonal paving seams through its interior (11.66825ms)
+✖ public paths join each other without leaving an interior curb at their shared mouth (0.755917ms)
+✖ a walkway mouth cannot paint its cap curb over the adjoining street sidewalk (0.543125ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 0
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 221.881459
+
+✖ failing tests:
+
+test at tests/curb-joins-v11.test.mjs:19:32
+✖ city smoking platform has no path curb or diagonal paving seams through its interior (19.604584ms)
+  AssertionError [ERR_ASSERTION]: path seam inside platform at 6148,2232
+  + actual - expected
+
+    [
+  +   167,
+  +   177,
+  +   167
+  -   201,
+  -   206,
+  -   197
+    ]
+
+      at TestContext.<anonymous> (file://$LOCAL_WORKSPACE/.codex/worktrees/bziker-game/%D0%9A%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82/output/bziker/tests/curb-joins-v11.test.mjs:21:108)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [ 167, 177, 167 ],
+    expected: [ 201, 206, 197 ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/curb-joins-v11.test.mjs:19:32
+✖ overview smoking platform has no path curb or diagonal paving seams through its interior (11.66825ms)
+  AssertionError [ERR_ASSERTION]: path seam inside platform at 6148,2232
+  + actual - expected
+
+    [
+  +   167,
+  +   177,
+  +   167
+  -   201,
+  -   206,
+  -   197
+    ]
+
+      at TestContext.<anonymous> (file://$LOCAL_WORKSPACE/.codex/worktrees/bziker-game/%D0%9A%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82/output/bziker/tests/curb-joins-v11.test.mjs:21:108)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [ 167, 177, 167 ],
+    expected: [ 201, 206, 197 ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/curb-joins-v11.test.mjs:23:1
+✖ public paths join each other without leaving an interior curb at their shared mouth (0.755917ms)
+  AssertionError [ERR_ASSERTION]: interior curb at shared path mouth 324,160
+      at TestContext.<anonymous> (file://$LOCAL_WORKSPACE/.codex/worktrees/bziker-game/%D0%9A%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82/output/bziker/tests/curb-joins-v11.test.mjs:27:195)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [ 144, 157, 147 ],
+    expected: [ 144, 157, 147 ],
+    operator: 'notDeepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/curb-joins-v11.test.mjs:30:1
+✖ a walkway mouth cannot paint its cap curb over the adjoining street sidewalk (0.543125ms)
+  AssertionError [ERR_ASSERTION]: walkway cap must not create a curb across the sidewalk
+  + actual - expected
+
+    [
+  +   144,
+  +   157,
+  +   147
+  -   201,
+  -   206,
+  -   197
+    ]
+
+      at TestContext.<anonymous> (file://$LOCAL_WORKSPACE/.codex/worktrees/bziker-game/%D0%9A%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82/output/bziker/tests/curb-joins-v11.test.mjs:34:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [ 144, 157, 147 ],
+    expected: [ 201, 206, 197 ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

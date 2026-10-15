@@ -1,0 +1,479 @@
+{
+  "createdAt": "2026-10-15T11:49:35.636Z",
+  "gender": 0,
+  "category": "accessory",
+  "source": "final",
+  "cases": 24,
+  "crop": {
+    "x": 535,
+    "y": 375,
+    "width": 135,
+    "height": 180
+  },
+  "qaOnly": true,
+  "productionArtChanged": false,
+  "realBrowserCaptures": true,
+  "renderedMockups": false,
+  "scale": 1.5,
+  "sheets": [
+    "page-1.png"
+  ],
+  "records": [
+    {
+      "value": 0,
+      "name": "Без аксессуара",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-00-down.jpg",
+      "sourceSha256": "d277c0f5f5e6b69a55ce24787fe267f882fa80084339f8c25bce296e0cbd7f4b",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-00-down-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Без аксессуара",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-00-left.jpg",
+      "sourceSha256": "79a3c5eb00ff3bf3bbe4b72f46763dfc7b3499e5975cc9e8ac18b694b238af76",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-00-left-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Без аксессуара",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-00-up.jpg",
+      "sourceSha256": "5838e639a6412574fb7f07847218575ecd00f487a64181b0a473d54864b1c285",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-00-up-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Без аксессуара",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-00-right.jpg",
+      "sourceSha256": "da6841b76dcba24a029976e0f67f30254b3f95c968143664dc735b1d717583b1",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-00-right-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Очки",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-01-down.jpg",
+      "sourceSha256": "d2b3d5ad88add88b5123d2043a03e48877deb22cc487132ee6a1992c60a892f1",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-01-down-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Очки",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-01-left.jpg",
+      "sourceSha256": "711c9e34f83041098f9b5c6f198313ab355ae017c459e50de8fd7cc9c6d8c3d8",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-01-left-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Очки",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-01-up.jpg",
+      "sourceSha256": "6bcd46f3335b77f5cd68f58ecd796bf0e72b3559b48d36e67e4408253aaa5f17",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-01-up-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Очки",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-01-right.jpg",
+      "sourceSha256": "a9973a4034fb596d7f4eae363639ef0c84a6b739db348327a4d9eb05c9637010",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-01-right-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Значок",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-02-down.jpg",
+      "sourceSha256": "efcc09465600d768a83f94f63cac4c381d2cf64ef9453f1c26b5fa21f47b9d2f",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-02-down-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Значок",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-02-left.jpg",
+      "sourceSha256": "abcec8dbd639801f559287074a5fdbaa39be0043103b823fecb8bfd08652f397",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-02-left-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Значок",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-02-up.jpg",
+      "sourceSha256": "baa9ca0dcbfd7fc27c8b18ce81b0ceb8fd46fbe2b33951d333d8f1af4f92dbde",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-02-up-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Значок",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-02-right.jpg",
+      "sourceSha256": "d98a471f33a6b8e1d050770e81eeaf7ecb2e62a9f376a88f3ec8f1a175c4fdbb",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-02-right-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Кепка",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-03-down.jpg",
+      "sourceSha256": "336d6be595c20295003fd9cb4734dd65d5b06014bcf652a8397ae148cfac6e8e",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-03-down-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Кепка",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-03-left.jpg",
+      "sourceSha256": "bf8e7646ebb70c9f23f41dec21628d54ebcbc50705f7fe7a7bd4d16aae48a62d",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-03-left-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Кепка",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-03-up.jpg",
+      "sourceSha256": "57181ba533864adc53d6c569262d0f4b9950c252ae5c23a57d6acc8362ab88b9",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-03-up-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Кепка",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-03-right.jpg",
+      "sourceSha256": "09b3ac27e3d73c0e261795d22a359dad0bfd6553d74fe84977bbf286b8f26d67",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-03-right-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Наушники",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-04-down.jpg",
+      "sourceSha256": "383b20e858d1b19490ff1e8f478bb492a825e0b0854005cd666743f487c83804",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-04-down-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Наушники",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-04-left.jpg",
+      "sourceSha256": "f8e488008c30ba492859d8ed2441825eba1235e67db60bf586aa70fd5adfa31c",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-04-left-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Наушники",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-04-up.jpg",
+      "sourceSha256": "c91fb5f248804461ce1c3b03e2fd0cd0a4cba4fa4afe9bd7a72954ec2768f658",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-04-up-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Наушники",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-04-right.jpg",
+      "sourceSha256": "7fb4140cb2222a5bc2d73c4ce4ee9ef26133d55ed892ba5ecca7a3c83c3a6d97",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-04-right-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Сумка",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-05-down.jpg",
+      "sourceSha256": "32e77772446f3b6e98fa61376787c2136dab59d05f81b16e302d52b7c422c696",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-05-down-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Сумка",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-05-left.jpg",
+      "sourceSha256": "631c1fdf0e135529d3d9cb5d89c6aea7af7ffd6f6dd0cf049712298dba2fabe7",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-05-left-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Сумка",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-05-up.jpg",
+      "sourceSha256": "0eb23d6c6683cb9223eeeac0e29cb5ce82e411b51b51d85f97e95679b992ca45",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-05-up-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Сумка",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-accessory-05-right.jpg",
+      "sourceSha256": "ca0f3d3aff7a9d8518b2d6cfc88eb22668583a3f41cc09e8ed0332447f7b365e",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-05-right-crop.png"
+    }
+  ]
+}

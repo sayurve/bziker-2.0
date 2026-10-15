@@ -1,0 +1,130 @@
+[
+  {
+    "gender": "male",
+    "dir": "right",
+    "phase": 0,
+    "top": 12,
+    "bottom": 125,
+    "height": 114
+  },
+  {
+    "gender": "male",
+    "dir": "right",
+    "phase": 1,
+    "top": 11,
+    "bottom": 125,
+    "height": 115
+  },
+  {
+    "gender": "male",
+    "dir": "right",
+    "phase": 2,
+    "top": 12,
+    "bottom": 125,
+    "height": 114
+  },
+  {
+    "gender": "male",
+    "dir": "right",
+    "phase": 3,
+    "top": 11,
+    "bottom": 125,
+    "height": 115
+  },
+  {
+    "gender": "female",
+    "dir": "right",
+    "phase": 0,
+    "top": 15,
+    "bottom": 125,
+    "height": 111
+  },
+  {
+    "gender": "female",
+    "dir": "right",
+    "phase": 1,
+    "top": 15,
+    "bottom": 125,
+    "height": 111
+  },
+  {
+    "gender": "female",
+    "dir": "right",
+    "phase": 2,
+    "top": 16,
+    "bottom": 125,
+    "height": 110
+  },
+  {
+    "gender": "female",
+    "dir": "right",
+    "phase": 3,
+    "top": 15,
+    "bottom": 125,
+    "height": 111
+  },
+  {
+    "gender": "male",
+    "dir": "left",
+    "phase": 0,
+    "top": 14,
+    "bottom": 125,
+    "height": 112
+  },
+  {
+    "gender": "male",
+    "dir": "left",
+    "phase": 1,
+    "top": 14,
+    "bottom": 125,
+    "height": 112
+  },
+  {
+    "gender": "male",
+    "dir": "left",
+    "phase": 2,
+    "top": 14,
+    "bottom": 125,
+    "height": 112
+  },
+  {
+    "gender": "male",
+    "dir": "left",
+    "phase": 3,
+    "top": 14,
+    "bottom": 125,
+    "height": 112
+  },
+  {
+    "gender": "female",
+    "dir": "left",
+    "phase": 0,
+    "top": 18,
+    "bottom": 125,
+    "height": 108
+  },
+  {
+    "gender": "female",
+    "dir": "left",
+    "phase": 1,
+    "top": 18,
+    "bottom": 125,
+    "height": 108
+  },
+  {
+    "gender": "female",
+    "dir": "left",
+    "phase": 2,
+    "top": 18,
+    "bottom": 125,
+    "height": 108
+  },
+  {
+    "gender": "female",
+    "dir": "left",
+    "phase": 3,
+    "top": 18,
+    "bottom": 125,
+    "height": 108
+  }
+]

@@ -1,0 +1,55 @@
+{
+  x: 46,
+  y: 15,
+  raw: '#120706',
+  afterHair: null,
+  selected: false,
+  hair: true,
+  face: false,
+  authFace: false,
+  scalp: true
+}
+{
+  x: 28,
+  y: 18,
+  raw: '#130403',
+  afterHair: null,
+  selected: false,
+  hair: true,
+  face: false,
+  authFace: false,
+  scalp: true
+}
+{
+  x: 28,
+  y: 19,
+  raw: '#0e0301',
+  afterHair: null,
+  selected: false,
+  hair: true,
+  face: false,
+  authFace: false,
+  scalp: true
+}
+{
+  x: 67,
+  y: 41,
+  raw: '#110403',
+  afterHair: null,
+  selected: false,
+  hair: true,
+  face: false,
+  authFace: false,
+  scalp: true
+}
+{
+  x: 64,
+  y: 49,
+  raw: '#0d0302',
+  afterHair: null,
+  selected: false,
+  hair: true,
+  face: false,
+  authFace: false,
+  scalp: true
+}

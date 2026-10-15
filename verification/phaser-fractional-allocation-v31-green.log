@@ -1,0 +1,19 @@
+✔ 121 half-pixel translations retain one native actor texture and refresh only changed poses (73.019916ms)
+✔ a real throw envelope resize replaces the texture without retaining old GPU capacity (63.970792ms)
+✔ fractional native paint preserves all body pixels, transparent padding and exact source origin (39.691875ms)
+✔ raster bounds include fractional edges without squeezing the underlying texture (0.799958ms)
+✔ visible bounds are independent of DPR and physical canvas dimensions (0.086083ms)
+✔ animation repaint key follows discrete authored samples instead of render FPS (0.076333ms)
+✔ an existing game canvas is booted with an explicit Phaser renderer (0.120541ms)
+✔ reduced motion still redraws changed actor poses while retaining unchanged textures (0.869584ms)
+✔ changed clan house art redraws despite an unchanged object id and dimensions (0.407333ms)
+✔ actual bounded world painter preserves the whole paper at both native bin openings from a legal approach (84.751375ms)
+✔ throw texture remains stable over the entire action and contains every arc point plus real paper extent (23.3585ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 519.409958

@@ -1,0 +1,554 @@
+{
+  "baselineRevision": "7f355bcda4c59a91532f08bf5634c71c59a40ba8",
+  "mapWidth": 8400,
+  "mapHeight": 5200,
+  "approaches": 19,
+  "roadJunctions": 6,
+  "publicPathVertices": 21,
+  "squareCorners": 8,
+  "totalJoinImages": 35,
+  "checks": [
+    {
+      "stage": "before",
+      "render": "city",
+      "scale": 1,
+      "samples": 21216,
+      "interiorCurbFailures": 225,
+      "affectedSurfaces": [
+        "west-street",
+        "east-street",
+        "quarter-north",
+        "quarter-south",
+        "arrival",
+        "park-promenade",
+        "approach-arena",
+        "approach-results",
+        "approach-shop-clothes",
+        "approach-casino",
+        "plaza",
+        "smoking"
+      ],
+      "firstFailures": [
+        {
+          "id": "west-street",
+          "x": 5972,
+          "y": 1390
+        },
+        {
+          "id": "west-street",
+          "x": 5972,
+          "y": 1790
+        },
+        {
+          "id": "west-street",
+          "x": 5828,
+          "y": 1790
+        },
+        {
+          "id": "west-street",
+          "x": 5960,
+          "y": 2223
+        },
+        {
+          "id": "west-street",
+          "x": 5764,
+          "y": 3096
+        },
+        {
+          "id": "west-street",
+          "x": 5756,
+          "y": 3096
+        },
+        {
+          "id": "west-street",
+          "x": 5735,
+          "y": 3479
+        },
+        {
+          "id": "west-street",
+          "x": 5731,
+          "y": 3535
+        },
+        {
+          "id": "west-street",
+          "x": 5871,
+          "y": 3623
+        },
+        {
+          "id": "west-street",
+          "x": 5156,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5148,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5140,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5132,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5124,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5116,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5108,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5100,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5092,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5084,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5076,
+          "y": 3888
+        }
+      ]
+    },
+    {
+      "stage": "before",
+      "render": "city",
+      "scale": 0.5,
+      "samples": 21216,
+      "interiorCurbFailures": 191,
+      "affectedSurfaces": [
+        "west-street",
+        "east-street",
+        "quarter-north",
+        "quarter-south",
+        "arrival",
+        "park-promenade",
+        "approach-results",
+        "approach-shop-clothes",
+        "approach-casino",
+        "plaza",
+        "smoking"
+      ],
+      "firstFailures": [
+        {
+          "id": "west-street",
+          "x": 5972,
+          "y": 1390
+        },
+        {
+          "id": "west-street",
+          "x": 5972,
+          "y": 1790
+        },
+        {
+          "id": "west-street",
+          "x": 5828,
+          "y": 1790
+        },
+        {
+          "id": "west-street",
+          "x": 5960,
+          "y": 2223
+        },
+        {
+          "id": "west-street",
+          "x": 5756,
+          "y": 3096
+        },
+        {
+          "id": "west-street",
+          "x": 5731,
+          "y": 3535
+        },
+        {
+          "id": "west-street",
+          "x": 5871,
+          "y": 3623
+        },
+        {
+          "id": "west-street",
+          "x": 5156,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5148,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5140,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5132,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5124,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5116,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5108,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5100,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5092,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5084,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5076,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5068,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5060,
+          "y": 3888
+        }
+      ]
+    },
+    {
+      "stage": "before",
+      "render": "minimap",
+      "scale": 1,
+      "samples": 21216,
+      "interiorCurbFailures": 225,
+      "affectedSurfaces": [
+        "west-street",
+        "east-street",
+        "quarter-north",
+        "quarter-south",
+        "arrival",
+        "park-promenade",
+        "approach-arena",
+        "approach-results",
+        "approach-shop-clothes",
+        "approach-casino",
+        "plaza",
+        "smoking"
+      ],
+      "firstFailures": [
+        {
+          "id": "west-street",
+          "x": 5972,
+          "y": 1390
+        },
+        {
+          "id": "west-street",
+          "x": 5972,
+          "y": 1790
+        },
+        {
+          "id": "west-street",
+          "x": 5828,
+          "y": 1790
+        },
+        {
+          "id": "west-street",
+          "x": 5960,
+          "y": 2223
+        },
+        {
+          "id": "west-street",
+          "x": 5764,
+          "y": 3096
+        },
+        {
+          "id": "west-street",
+          "x": 5756,
+          "y": 3096
+        },
+        {
+          "id": "west-street",
+          "x": 5735,
+          "y": 3479
+        },
+        {
+          "id": "west-street",
+          "x": 5731,
+          "y": 3535
+        },
+        {
+          "id": "west-street",
+          "x": 5871,
+          "y": 3623
+        },
+        {
+          "id": "west-street",
+          "x": 5156,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5148,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5140,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5132,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5124,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5116,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5108,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5100,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5092,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5084,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5076,
+          "y": 3888
+        }
+      ]
+    },
+    {
+      "stage": "before",
+      "render": "minimap",
+      "scale": 0.5,
+      "samples": 21216,
+      "interiorCurbFailures": 191,
+      "affectedSurfaces": [
+        "west-street",
+        "east-street",
+        "quarter-north",
+        "quarter-south",
+        "arrival",
+        "park-promenade",
+        "approach-results",
+        "approach-shop-clothes",
+        "approach-casino",
+        "plaza",
+        "smoking"
+      ],
+      "firstFailures": [
+        {
+          "id": "west-street",
+          "x": 5972,
+          "y": 1390
+        },
+        {
+          "id": "west-street",
+          "x": 5972,
+          "y": 1790
+        },
+        {
+          "id": "west-street",
+          "x": 5828,
+          "y": 1790
+        },
+        {
+          "id": "west-street",
+          "x": 5960,
+          "y": 2223
+        },
+        {
+          "id": "west-street",
+          "x": 5756,
+          "y": 3096
+        },
+        {
+          "id": "west-street",
+          "x": 5731,
+          "y": 3535
+        },
+        {
+          "id": "west-street",
+          "x": 5871,
+          "y": 3623
+        },
+        {
+          "id": "west-street",
+          "x": 5156,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5148,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5140,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5132,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5124,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5116,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5108,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5100,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5092,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5084,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5076,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5068,
+          "y": 3888
+        },
+        {
+          "id": "west-street",
+          "x": 5060,
+          "y": 3888
+        }
+      ]
+    },
+    {
+      "stage": "after",
+      "render": "city",
+      "scale": 1,
+      "samples": 21216,
+      "interiorCurbFailures": 0,
+      "affectedSurfaces": [],
+      "firstFailures": []
+    },
+    {
+      "stage": "after",
+      "render": "city",
+      "scale": 0.5,
+      "samples": 21216,
+      "interiorCurbFailures": 0,
+      "affectedSurfaces": [],
+      "firstFailures": []
+    },
+    {
+      "stage": "after",
+      "render": "minimap",
+      "scale": 1,
+      "samples": 21216,
+      "interiorCurbFailures": 0,
+      "affectedSurfaces": [],
+      "firstFailures": []
+    },
+    {
+      "stage": "after",
+      "render": "minimap",
+      "scale": 0.5,
+      "samples": 21216,
+      "interiorCurbFailures": 0,
+      "affectedSurfaces": [],
+      "firstFailures": []
+    }
+  ],
+  "images": [
+    "curb-v11-approaches-before.png",
+    "curb-v11-joins-before.png",
+    "curb-v11-approaches-before-minimap.png",
+    "curb-v11-joins-before-minimap.png",
+    "curb-v11-approaches-after.png",
+    "curb-v11-joins-after.png",
+    "curb-v11-approaches-after-minimap.png",
+    "curb-v11-joins-after-minimap.png"
+  ],
+  "sourceUnchangedDuringRun": true,
+  "sourceHashes": {
+    "web/city-ground.js": "57c2e26792f8fba43d138092834e013d9f1293922db80fe09a2de479ecc6faab",
+    "web/road-topology.js": "f13ccdf92f6d092ee7fdcc0c931626c157041aafafcb961204bab4d0c81a4b45",
+    "web/world-map.json": "29d42c3c05d02e065373433a336d88a98de409228058751b292d738904d08899"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "status": "draft",
+  "art_approved": false,
+  "tool": "built-in image_gen",
+  "direction": "left",
+  "pose": "idle, arms lowered, both feet planted",
+  "actual_size": [
+    1150,
+    1367
+  ],
+  "sourcepath": "/Users/sapp/.codex/generated_images/01a13c9a-ae7d-7bc2-83f6-88b8b5a5e67b/exec-5670b26a-92d3-4504-ac02-7ae62c526ca0.png",
+  "savedpath": "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/drafts/canonical-idle-v2/male-idle-left.png",
+  "source_sha256": "42ddae0c87d99e1aa14f7d094473f985ef86a304589f09bce9d1eae275cde14f",
+  "saved_sha256": "42ddae0c87d99e1aa14f7d094473f985ef86a304589f09bce9d1eae275cde14f",
+  "byte_identical_copy": true,
+  "postprocessing": {
+    "crop": false,
+    "resize": false,
+    "mirror": false,
+    "pixel_edits": false
+  },
+  "references": {
+    "main_edit_target": "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/drafts/canonical-idle-v2/male-idle-right.png",
+    "canonical_run": [
+      "art/references/canonical-run/reference-01.png",
+      "art/references/canonical-run/reference-02.png"
+    ],
+    "old_thin_idle_used": false
+  },
+  "true_alpha": true,
+  "alpha_range": [
+    0,
+    255
+  ],
+  "alpha_bbox_threshold_128": [
+    353,
+    191,
+    801,
+    1235
+  ],
+  "requested_alignment": {
+    "canvas": [
+      1150,
+      1367
+    ],
+    "crown_y": 169,
+    "sole_y": 1253,
+    "center_x": 575
+  },
+  "alignment_match": false,
+  "alignment_note": "Selected unmodified image has visible alpha>128 crown y191 and bottom-exclusive y1235: still smaller vertically than the requested right master. Do not silently normalize or approve.",
+  "visual_review": {
+    "performed": true,
+    "left_facing": true,
+    "arms_relaxed_down": true,
+    "both_feet_planted": true,
+    "large_head_compact_torso": true,
+    "grey_jacket_light_shirt_black_trousers_dark_boots": true,
+    "no_floor_shadow_grid_cross_text_observed": true,
+    "asymmetric_detail_identity": "Newly generated view; not a programmed mirror. Exact asymmetric detail fidelity requires review because supplied canonical run screenshots show the right-facing side."
+  },
+  "attempts": 3,
+  "selected_attempt": 2,
+  "not_selected": [
+    {
+      "sourcepath": "/Users/sapp/.codex/generated_images/01a13c9a-ae7d-7bc2-83f6-88b8b5a5e67b/exec-0d58f96e-588d-420d-81d4-61fb552e3ddb.png",
+      "actual_size": [
+        1150,
+        1367
+      ],
+      "alpha_bbox_threshold_128": [
+        344,
+        217,
+        806,
+        1281
+      ],
+      "reason": "Visible figure too far down"
+    },
+    {
+      "sourcepath": "/Users/sapp/.codex/generated_images/01a13c9a-ae7d-7bc2-83f6-88b8b5a5e67b/exec-c3d67fa3-2bd1-4df0-9089-f1c59c3bed7d.png",
+      "actual_size": [
+        1150,
+        1368
+      ],
+      "alpha_bbox_threshold_128": [
+        351,
+        190,
+        807,
+        1226
+      ],
+      "reason": "Canvas height changed to1368; figure shorter than target"
+    }
+  ]
+}

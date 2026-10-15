@@ -1,0 +1,742 @@
+{
+  "status": "limited-native-art-approved; runtime wardrobe/props pending",
+  "frames": [
+    {
+      "family": "male-right",
+      "pose": 0,
+      "opaqueBounds": [
+        23,
+        14,
+        72,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 1925,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1727,
+      "foregroundPixels": 96,
+      "palmRGBA": [
+        252,
+        168,
+        114,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "male-right",
+      "pose": 1,
+      "opaqueBounds": [
+        23,
+        14,
+        72,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 1925,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1706,
+      "foregroundPixels": 97,
+      "palmRGBA": [
+        252,
+        168,
+        115,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "male-right",
+      "pose": 2,
+      "opaqueBounds": [
+        23,
+        14,
+        72,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 1857,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1779,
+      "foregroundPixels": 92,
+      "palmRGBA": [
+        252,
+        165,
+        111,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "male-right",
+      "pose": 3,
+      "opaqueBounds": [
+        23,
+        14,
+        80,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 1925,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1713,
+      "foregroundPixels": 114,
+      "palmRGBA": [
+        251,
+        148,
+        95,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "male-down",
+      "pose": 0,
+      "opaqueBounds": [
+        22,
+        15,
+        73,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 2071,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 2068,
+      "foregroundPixels": 104,
+      "palmRGBA": [
+        249,
+        172,
+        122,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "male-down",
+      "pose": 1,
+      "opaqueBounds": [
+        22,
+        15,
+        73,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 2060,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 2074,
+      "foregroundPixels": 114,
+      "palmRGBA": [
+        249,
+        171,
+        122,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "male-down",
+      "pose": 2,
+      "opaqueBounds": [
+        22,
+        15,
+        73,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 1952,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 2123,
+      "foregroundPixels": 126,
+      "palmRGBA": [
+        248,
+        170,
+        124,
+        254
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "male-down",
+      "pose": 3,
+      "opaqueBounds": [
+        22,
+        15,
+        73,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 2071,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 2068,
+      "foregroundPixels": 151,
+      "palmRGBA": [
+        248,
+        171,
+        124,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "male-left",
+      "pose": 0,
+      "opaqueBounds": [
+        18,
+        15,
+        67,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 1892,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1761,
+      "foregroundPixels": 89,
+      "palmRGBA": [
+        248,
+        161,
+        113,
+        254
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "male-left",
+      "pose": 1,
+      "opaqueBounds": [
+        18,
+        15,
+        67,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 1892,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1828,
+      "foregroundPixels": 91,
+      "palmRGBA": [
+        247,
+        165,
+        114,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "male-left",
+      "pose": 2,
+      "opaqueBounds": [
+        17,
+        15,
+        67,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 1879,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1854,
+      "foregroundPixels": 80,
+      "palmRGBA": [
+        236,
+        139,
+        90,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "male-left",
+      "pose": 3,
+      "opaqueBounds": [
+        2,
+        15,
+        67,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 1892,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1821,
+      "foregroundPixels": 127,
+      "palmRGBA": [
+        224,
+        125,
+        87,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "male-up",
+      "pose": 0,
+      "opaqueBounds": [
+        24,
+        14,
+        74,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 1917,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1516,
+      "foregroundPixels": 53,
+      "palmRGBA": [
+        250,
+        173,
+        129,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "male-up",
+      "pose": 1,
+      "opaqueBounds": [
+        24,
+        14,
+        74,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 1917,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1543,
+      "foregroundPixels": 0,
+      "palmRGBA": [
+        243,
+        156,
+        111,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "male-up",
+      "pose": 2,
+      "opaqueBounds": [
+        24,
+        14,
+        74,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 1917,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1526,
+      "foregroundPixels": 0,
+      "palmRGBA": [
+        248,
+        167,
+        122,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "male-up",
+      "pose": 3,
+      "opaqueBounds": [
+        18,
+        14,
+        74,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 1917,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1511,
+      "foregroundPixels": 63,
+      "palmRGBA": [
+        215,
+        116,
+        82,
+        252
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "female-right",
+      "pose": 0,
+      "opaqueBounds": [
+        24,
+        19,
+        73,
+        125
+      ],
+      "sourceScale": 0.17,
+      "headCompared": 1811,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1666,
+      "foregroundPixels": 77,
+      "palmRGBA": [
+        249,
+        166,
+        116,
+        254
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "female-right",
+      "pose": 1,
+      "opaqueBounds": [
+        24,
+        19,
+        73,
+        125
+      ],
+      "sourceScale": 0.17,
+      "headCompared": 1811,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1688,
+      "foregroundPixels": 65,
+      "palmRGBA": [
+        248,
+        166,
+        116,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "female-right",
+      "pose": 2,
+      "opaqueBounds": [
+        24,
+        19,
+        73,
+        125
+      ],
+      "sourceScale": 0.17,
+      "headCompared": 1768,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1733,
+      "foregroundPixels": 90,
+      "palmRGBA": [
+        248,
+        163,
+        112,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "female-right",
+      "pose": 3,
+      "opaqueBounds": [
+        24,
+        19,
+        77,
+        125
+      ],
+      "sourceScale": 0.17,
+      "headCompared": 1811,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1681,
+      "foregroundPixels": 90,
+      "palmRGBA": [
+        224,
+        120,
+        81,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "female-down",
+      "pose": 0,
+      "opaqueBounds": [
+        25,
+        19,
+        70,
+        125
+      ],
+      "sourceScale": 0.17,
+      "headCompared": 1816,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1527,
+      "foregroundPixels": 69,
+      "palmRGBA": [
+        250,
+        167,
+        115,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "female-down",
+      "pose": 1,
+      "opaqueBounds": [
+        25,
+        19,
+        70,
+        125
+      ],
+      "sourceScale": 0.17,
+      "headCompared": 1816,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1517,
+      "foregroundPixels": 63,
+      "palmRGBA": [
+        249,
+        163,
+        109,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "female-down",
+      "pose": 2,
+      "opaqueBounds": [
+        25,
+        19,
+        70,
+        125
+      ],
+      "sourceScale": 0.17,
+      "headCompared": 1793,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1552,
+      "foregroundPixels": 73,
+      "palmRGBA": [
+        249,
+        168,
+        116,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "female-down",
+      "pose": 3,
+      "opaqueBounds": [
+        25,
+        19,
+        70,
+        125
+      ],
+      "sourceScale": 0.17,
+      "headCompared": 1816,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1514,
+      "foregroundPixels": 93,
+      "palmRGBA": [
+        250,
+        165,
+        115,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "female-left",
+      "pose": 0,
+      "opaqueBounds": [
+        14,
+        20,
+        61,
+        125
+      ],
+      "sourceScale": 0.17,
+      "headCompared": 1741,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1630,
+      "foregroundPixels": 54,
+      "palmRGBA": [
+        247,
+        163,
+        111,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "female-left",
+      "pose": 1,
+      "opaqueBounds": [
+        14,
+        20,
+        61,
+        125
+      ],
+      "sourceScale": 0.17,
+      "headCompared": 1741,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1667,
+      "foregroundPixels": 55,
+      "palmRGBA": [
+        248,
+        157,
+        106,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "female-left",
+      "pose": 2,
+      "opaqueBounds": [
+        14,
+        20,
+        61,
+        125
+      ],
+      "sourceScale": 0.17,
+      "headCompared": 1687,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1662,
+      "foregroundPixels": 70,
+      "palmRGBA": [
+        243,
+        144,
+        97,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "female-left",
+      "pose": 3,
+      "opaqueBounds": [
+        9,
+        20,
+        61,
+        125
+      ],
+      "sourceScale": 0.17,
+      "headCompared": 1741,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1628,
+      "foregroundPixels": 74,
+      "palmRGBA": [
+        236,
+        120,
+        80,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "female-up",
+      "pose": 0,
+      "opaqueBounds": [
+        25,
+        19,
+        71,
+        125
+      ],
+      "sourceScale": 0.17,
+      "headCompared": 1704,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1479,
+      "foregroundPixels": 42,
+      "palmRGBA": [
+        250,
+        167,
+        123,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "female-up",
+      "pose": 1,
+      "opaqueBounds": [
+        25,
+        19,
+        71,
+        125
+      ],
+      "sourceScale": 0.17,
+      "headCompared": 1704,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1496,
+      "foregroundPixels": 0,
+      "palmRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "female-up",
+      "pose": 2,
+      "opaqueBounds": [
+        25,
+        19,
+        71,
+        125
+      ],
+      "sourceScale": 0.17,
+      "headCompared": 1704,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1488,
+      "foregroundPixels": 0,
+      "palmRGBA": [
+        245,
+        167,
+        123,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "female-up",
+      "pose": 3,
+      "opaqueBounds": [
+        21,
+        19,
+        71,
+        125
+      ],
+      "sourceScale": 0.17,
+      "headCompared": 1704,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1474,
+      "foregroundPixels": 54,
+      "palmRGBA": [
+        205,
+        117,
+        79,
+        253
+      ],
+      "edgeAlpha": 0
+    }
+  ],
+  "approvedFamilies": 8
+}

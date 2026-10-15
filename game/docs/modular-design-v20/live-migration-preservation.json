@@ -1,0 +1,19 @@
+{
+  "scope": "Live database before restart compared after migration, browser refresh and station entry/exit. active_accounts is the heartbeat table; its timestamp changes on authenticated bootstrap (world.py _admit), so it is treated as runtime for this live check. The separate clone migration checks all 33 non-position tables unchanged before any browser actions.",
+  "map_version_after": 20,
+  "integrity_check": "ok",
+  "persistent_tables_checked": 32,
+  "persistent_rows_checked": 160,
+  "all_persistent_tables_unchanged": true,
+  "unexpected_changes": [],
+  "active_account_membership_matches_backup": true,
+  "active_account_timestamp_changed": true,
+  "runtime_tables": [
+    "active_accounts",
+    "presence",
+    "world_boats",
+    "world_metadata",
+    "world_positions"
+  ],
+  "privacy": "No row values, account IDs, credentials or messages disclosed."
+}

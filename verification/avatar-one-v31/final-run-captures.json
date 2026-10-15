@@ -1,0 +1,290 @@
+[
+  {
+    "dir": "down",
+    "frame": 0,
+    "ms": 87,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-down-00.jpg"
+  },
+  {
+    "dir": "down",
+    "frame": 1,
+    "ms": 190,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-down-01.jpg"
+  },
+  {
+    "dir": "down",
+    "frame": 2,
+    "ms": 242,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-down-02.jpg"
+  },
+  {
+    "dir": "down",
+    "frame": 3,
+    "ms": 292,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-down-03.jpg"
+  },
+  {
+    "dir": "down",
+    "frame": 4,
+    "ms": 392,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-down-04.jpg"
+  },
+  {
+    "dir": "down",
+    "frame": 5,
+    "ms": 493,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-down-05.jpg"
+  },
+  {
+    "dir": "down",
+    "frame": 6,
+    "ms": 555,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-down-06.jpg"
+  },
+  {
+    "dir": "down",
+    "frame": 7,
+    "ms": 585,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-down-07.jpg"
+  },
+  {
+    "dir": "down",
+    "frame": 8,
+    "ms": 700,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-down-08.jpg"
+  },
+  {
+    "dir": "down",
+    "frame": 9,
+    "ms": 747,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-down-09.jpg"
+  },
+  {
+    "dir": "down",
+    "frame": 10,
+    "ms": 801,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-down-10.jpg"
+  },
+  {
+    "dir": "down",
+    "frame": 11,
+    "ms": 903,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-down-11.jpg"
+  },
+  {
+    "dir": "up",
+    "frame": 0,
+    "ms": 286,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-up-00.jpg"
+  },
+  {
+    "dir": "up",
+    "frame": 1,
+    "ms": 608,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-up-01.jpg"
+  },
+  {
+    "dir": "up",
+    "frame": 2,
+    "ms": 912,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-up-02.jpg"
+  },
+  {
+    "dir": "up",
+    "frame": 3,
+    "ms": 1216,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-up-03.jpg"
+  },
+  {
+    "dir": "up",
+    "frame": 4,
+    "ms": 1520,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-up-04.jpg"
+  },
+  {
+    "dir": "up",
+    "frame": 5,
+    "ms": 1822,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-up-05.jpg"
+  },
+  {
+    "dir": "up",
+    "frame": 6,
+    "ms": 2130,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-up-06.jpg"
+  },
+  {
+    "dir": "up",
+    "frame": 7,
+    "ms": 2433,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-up-07.jpg"
+  },
+  {
+    "dir": "up",
+    "frame": 8,
+    "ms": 2738,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-up-08.jpg"
+  },
+  {
+    "dir": "up",
+    "frame": 9,
+    "ms": 3042,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-up-09.jpg"
+  },
+  {
+    "dir": "up",
+    "frame": 10,
+    "ms": 3346,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-up-10.jpg"
+  },
+  {
+    "dir": "up",
+    "frame": 11,
+    "ms": 3650,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-up-11.jpg"
+  },
+  {
+    "dir": "left",
+    "frame": 0,
+    "ms": 303,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-left-00.jpg"
+  },
+  {
+    "dir": "left",
+    "frame": 1,
+    "ms": 605,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-left-01.jpg"
+  },
+  {
+    "dir": "left",
+    "frame": 2,
+    "ms": 911,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-left-02.jpg"
+  },
+  {
+    "dir": "left",
+    "frame": 3,
+    "ms": 1217,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-left-03.jpg"
+  },
+  {
+    "dir": "left",
+    "frame": 4,
+    "ms": 1509,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-left-04.jpg"
+  },
+  {
+    "dir": "left",
+    "frame": 5,
+    "ms": 1825,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-left-05.jpg"
+  },
+  {
+    "dir": "left",
+    "frame": 6,
+    "ms": 2131,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-left-06.jpg"
+  },
+  {
+    "dir": "left",
+    "frame": 7,
+    "ms": 2437,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-left-07.jpg"
+  },
+  {
+    "dir": "left",
+    "frame": 8,
+    "ms": 2740,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-left-08.jpg"
+  },
+  {
+    "dir": "left",
+    "frame": 9,
+    "ms": 3045,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-left-09.jpg"
+  },
+  {
+    "dir": "left",
+    "frame": 10,
+    "ms": 3349,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-left-10.jpg"
+  },
+  {
+    "dir": "left",
+    "frame": 11,
+    "ms": 3652,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-left-11.jpg"
+  },
+  {
+    "dir": "right",
+    "frame": 0,
+    "ms": 305,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-right-00.jpg"
+  },
+  {
+    "dir": "right",
+    "frame": 1,
+    "ms": 609,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-right-01.jpg"
+  },
+  {
+    "dir": "right",
+    "frame": 2,
+    "ms": 911,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-right-02.jpg"
+  },
+  {
+    "dir": "right",
+    "frame": 3,
+    "ms": 1213,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-right-03.jpg"
+  },
+  {
+    "dir": "right",
+    "frame": 4,
+    "ms": 1520,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-right-04.jpg"
+  },
+  {
+    "dir": "right",
+    "frame": 5,
+    "ms": 1824,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-right-05.jpg"
+  },
+  {
+    "dir": "right",
+    "frame": 6,
+    "ms": 2126,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-right-06.jpg"
+  },
+  {
+    "dir": "right",
+    "frame": 7,
+    "ms": 2430,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-right-07.jpg"
+  },
+  {
+    "dir": "right",
+    "frame": 8,
+    "ms": 2735,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-right-08.jpg"
+  },
+  {
+    "dir": "right",
+    "frame": 9,
+    "ms": 3039,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-right-09.jpg"
+  },
+  {
+    "dir": "right",
+    "frame": 10,
+    "ms": 3336,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-right-10.jpg"
+  },
+  {
+    "dir": "right",
+    "frame": 11,
+    "ms": 3646,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-run-right-11.jpg"
+  }
+]

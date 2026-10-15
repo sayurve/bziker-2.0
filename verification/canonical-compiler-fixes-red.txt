@@ -1,0 +1,78 @@
+✔ canonical export rejects missing directions and per-frame fitting (0.978583ms)
+✔ exporting another model preserves the first model and its provenance (107.555625ms)
+✔ actual canonical masters export fixed canvases using one immutable model scale (54.180959ms)
+✖ late invalid anchor, missing master and invalid existing metadata preserve every installed artifact (103.258416ms)
+✖ an in-master ground landmark that clips opaque feet is rejected without changing installed output (109.14325ms)
+✖ clipping validation uses alpha128 threshold without fitting the source silhouette (408.541958ms)
+✔ real male and female exports decode to fixed transparent canvases with authored grounded feet (105.249083ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 4
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1054.174916
+
+✖ failing tests:
+
+test at game/tests/canonical-export.test.mjs:47:1
+✖ late invalid anchor, missing master and invalid existing metadata preserve every installed artifact (103.258416ms)
+  AssertionError [ERR_ASSERTION]: anchor: a failed build must preserve all installed bytes
+  + actual - expected
+  
+    {
+  +   'assets/canonical-idle-v2/male-down-fine.png': 'a0c065c8264a4496fe87142abb73580050023e351d5608ea9aab6fc23864829f',
+  +   'assets/canonical-idle-v2/male-down.png': 'ef0c99b047bd45d9b8883960bfa30a4011db319b1c93e0983ab481e7d29237b7',
+  -   'assets/canonical-idle-v2/male-down-fine.png': '3b353d585b1b523c593025dfad67047f6777c861381e745f77f9ee877010169d',
+  -   'assets/canonical-idle-v2/male-down.png': 'e1f8678543a9043ae8e270853445fc658827ef9c339029dee6235adffe750633',
+      'assets/canonical-idle-v2/male-left-fine.png': '86c48ef7c90eb38d9693b48b6135566c9c4147a8bc5dd794010815984c371a35',
+      'assets/canonical-idle-v2/male-left.png': '74ff76c066d79352a2b1b4b61922834eb7ee7fe8e678a48f898528de8d999863',
+      'assets/canonical-idle-v2/male-right-fine.png': 'e2096bc4ed595f3c10328e4f96a8ae412a65fe03f36011f740ca92e41f411eda',
+      'assets/canonical-idle-v2/male-right.png': '90331d3d11b6a29daf6ffd3a8165c3d0afd042f94704276c0309b6d6e97348de',
+      'assets/canonical-idle-v2/male-up-fine.png': 'fac82e645a2e0bb8e92cdce0aed8240d3e9508f4e3f9bc42b98d9f5aa1ee5d0d',
+  
+      at file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/canonical-export.test.mjs:57:10
+      at async workingExport (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/canonical-export.test.mjs:45:242)
+      at async TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/canonical-export.test.mjs:48:66)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: { 'assets/canonical-idle-v2/male-down-fine.png': 'a0c065c8264a4496fe87142abb73580050023e351d5608ea9aab6fc23864829f', 'assets/canonical-idle-v2/male-down.png': 'ef0c99b047bd45d9b8883960bfa30a4011db319b1c93e0983ab481e7d29237b7', 'assets/canonical-idle-v2/male-left-fine.png': '86c48ef7c90eb38d9693b48b6135566c9c4147a8bc5dd794010815984c371a35', 'assets/canonical-idle-v2/male-left.png': '74ff76c066d79352a2b1b4b61922834eb7ee7fe8e678a48f898528de8d999863', 'assets/canonical-idle-v2/male-right-fine.png': 'e2096bc4ed595f3c10328e4f96a8ae412a65fe03f36011f740ca92e41f411eda', 'assets/canonical-idle-v2/male-right.png': '90331d3d11b6a29daf6ffd3a8165c3d0afd042f94704276c0309b6d6e97348de', 'assets/canonical-idle-v2/male-up-fine.png': 'fac82e645a2e0bb8e92cdce0aed8240d3e9508f4e3f9bc42b98d9f5aa1ee5d0d', 'assets/canonical-idle-v2/male-up.png': '567b3936ead60e154e490884d62e7f4073b5e1f0e13babfde5399daeef3d8bf6', 'web/canonical-actors-data.js': '092fce5325868f9728ae8a95e9dabcdcc9a5237b03d2b53f801e8a0afecf759b', 'docs/canonical-idle-v2-export.json': 'd35fbcbfc45b24c2da388c299b52eeff85eb24cb4657ed8bef1edea55504e54e' },
+    expected: { 'assets/canonical-idle-v2/male-down-fine.png': '3b353d585b1b523c593025dfad67047f6777c861381e745f77f9ee877010169d', 'assets/canonical-idle-v2/male-down.png': 'e1f8678543a9043ae8e270853445fc658827ef9c339029dee6235adffe750633', 'assets/canonical-idle-v2/male-left-fine.png': '86c48ef7c90eb38d9693b48b6135566c9c4147a8bc5dd794010815984c371a35', 'assets/canonical-idle-v2/male-left.png': '74ff76c066d79352a2b1b4b61922834eb7ee7fe8e678a48f898528de8d999863', 'assets/canonical-idle-v2/male-right-fine.png': 'e2096bc4ed595f3c10328e4f96a8ae412a65fe03f36011f740ca92e41f411eda', 'assets/canonical-idle-v2/male-right.png': '90331d3d11b6a29daf6ffd3a8165c3d0afd042f94704276c0309b6d6e97348de', 'assets/canonical-idle-v2/male-up-fine.png': 'fac82e645a2e0bb8e92cdce0aed8240d3e9508f4e3f9bc42b98d9f5aa1ee5d0d', 'assets/canonical-idle-v2/male-up.png': '567b3936ead60e154e490884d62e7f4073b5e1f0e13babfde5399daeef3d8bf6', 'web/canonical-actors-data.js': '092fce5325868f9728ae8a95e9dabcdcc9a5237b03d2b53f801e8a0afecf759b', 'docs/canonical-idle-v2-export.json': 'd35fbcbfc45b24c2da388c299b52eeff85eb24cb4657ed8bef1edea55504e54e' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at game/tests/canonical-export.test.mjs:61:1
+✖ an in-master ground landmark that clips opaque feet is rejected without changing installed output (109.14325ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/canonical-export.test.mjs:62:158
+      at async workingExport (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/canonical-export.test.mjs:45:242)
+      at async TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/canonical-export.test.mjs:62:2)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /opaque.*clip|clip.*opaque/i,
+    operator: 'rejects',
+    diff: 'simple'
+  }
+
+test at game/tests/canonical-export.test.mjs:64:1
+✖ clipping validation uses alpha128 threshold without fitting the source silhouette (408.541958ms)
+  AssertionError [ERR_ASSERTION]: Missing expected rejection.
+      at async file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/canonical-export.test.mjs:68:68
+      at async workingExport (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/canonical-export.test.mjs:45:242)
+      at async TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/canonical-export.test.mjs:65:2)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /opaque.*clip|clip.*opaque/i,
+    operator: 'rejects',
+    diff: 'simple'
+  }

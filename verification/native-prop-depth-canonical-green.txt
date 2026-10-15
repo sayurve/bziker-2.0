@@ -1,0 +1,17 @@
+✔ the native lamp head and pole stay in front of a legal player standing behind their ground base (28.049125ms)
+✔ the same lamp stays behind a player standing in front of its physical base (5.313792ms)
+✔ lamp silhouettes do not erase the player standing on adjacent visible pavement (9.502875ms)
+✔ the parked native car covers the player shadow behind its body and stays behind a player in front (22.469958ms)
+✔ the actual freestanding sign frame occludes the body of a player behind its feet (6.199083ms)
+✔ each visible native train body covers a player behind its local diagonal ground edge (23.468125ms)
+✔ diagonal coaches use their local ground edge rather than the farthest carriage corner (6.566917ms)
+✔ actual platform canopies and vertical panels occlude players while their open front floor remains usable (34.075666ms)
+✔ the two narrow railway bridge posts cover actors behind them without masking the open gap (15.349708ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 557.088292

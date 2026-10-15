@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Казино",
+    "movement": true,
+    "seatPhone": true,
+    "exit": true
+  },
+  {
+    "name": "Продуктовый",
+    "movement": true,
+    "exit": true
+  },
+  {
+    "name": "Магазин одежды",
+    "movement": true,
+    "exit": true
+  },
+  {
+    "name": "Магазин мебели",
+    "entryAction": "Магазин мебели",
+    "movement": true,
+    "exit": true
+  },
+  {
+    "name": "Дом кланов",
+    "entryAction": "Открыть кланы",
+    "movement": true,
+    "exit": true
+  },
+  {
+    "name": "Студия образов",
+    "entryAction": "Изменить образ",
+    "movement": true,
+    "exit": true
+  },
+  {
+    "name": "Галерея результатов",
+    "entryAction": "Результаты",
+    "movement": true,
+    "exit": true
+  },
+  {
+    "name": "Кафе и сообщения",
+    "entryAction": "Кафе / сообщения",
+    "movement": true,
+    "exit": true
+  },
+  {
+    "name": "Творческая гостиная",
+    "entryAction": "Войти в гостиную",
+    "movement": true,
+    "exit": true
+  },
+  {
+    "name": "Своя игра",
+    "entryAction": "Войти в «Свою игру»",
+    "movement": true,
+    "exit": true
+  },
+  {
+    "name": "Вокзал",
+    "movement": true,
+    "exit": true
+  }
+]

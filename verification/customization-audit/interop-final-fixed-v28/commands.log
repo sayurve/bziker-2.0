@@ -1,0 +1,6 @@
+node verification/customization-audit/render-options.mjs final-fixed-v28
+exit=0 idle=608 walk=2432 missingSource=0 allNonempty=true sourceFilesStable=true
+node verification/customization-audit/final-interoperability.mjs --run final-fixed-v28
+exit=0 outfits=224 hairHeadwear=3840 total=4064 stable=true technicalFailures=0 faceCandidates=0 newEdges=0
+node verification/customization-audit/inspect-outfit-faces.mjs interop-final-fixed-v28 interop-final-freeze-v27
+exit=0 cases=116 points=0 insideHeadBox=0 rows=6

@@ -1,0 +1,44 @@
+✔ canonical whole idle takes every male facing while absent female keeps source fallback (40.5035ms)
+✔ canonical loading decodes coarse and detail pages without removing original source resources (2.909834ms)
+✔ canonical idle never shadows walk, run, held litter, seated, phone or gesture clips (2.571708ms)
+✔ head-only and anonymous generic previews select the same canonical idle automatically (3.983959ms)
+✔ draft or unreviewed canonical artwork stays out of both idle selection and preload (15.1295ms)
+✔ real exported canonical PNGs preserve their declared canvases, alpha and frame metadata (232.191584ms)
+✔ real module approval status controls actual canonical preloads and selected idle (79.25125ms)
+✔ empty, draft and unreviewed locomotion leave normal source run selection unchanged (1.923125ms)
+✔ approved whole poses keep all four native phases, logical canvas and feet anchor (1.227959ms)
+✔ missing directions, ordinary walk, explicit source clips, idle, seated and phone keep their existing adapters (0.424333ms)
+✔ approved locomotion uses the same accepted-distance clock and resets only at stop or scene transfer (4.545542ms)
+✔ actor preload ignores draft motion PNGs and decodes all approved coarse and detail pages (215.55075ms)
+✔ customization and fine native rendering retain their pixels and geometry under a reviewed motion override (228.083708ms)
+✔ the imported actor catalog retains all 22 entities and 374 original base actions (36.111791ms)
+✔ whole walking frames advance by discrete source order without moving the feet anchor (40.687916ms)
+✔ phone and food select seated source cycles without dropping the sitting context (0.577666ms)
+✔ animals use deterministic actual breeds and source gait frames at the existing world coordinate (0.510291ms)
+✔ catching a fish uses the authored hand-to-pocket sequence and phone stays seated on a boat (0.296791ms)
+✔ every supplied scenario and every animal action is addressable instead of silently becoming idle (4.737834ms)
+✔ untrusted animation identifiers cannot select inherited object properties (0.783291ms)
+✔ source pages are compact PNG atlases with normalized transparent cell bounds (221.715125ms)
+✔ canvas source rendering retains custom hair, skin, clothes and costume identity (285.920583ms)
+✔ loaded head and headwear previews use the native source atlas rather than the retired reference renderer (57.535584ms)
+✔ native headwear hides the entire face while retaining the headwear, custom hair colour and hairstyle (100.706125ms)
+✔ native head-only canvas and SVG share exactly the same cropped pixels and jury remains anonymous (16.135375ms)
+✔ canonical portraits preserve complete native eyes and lower face while face-free previews remove those eyes (29.947833ms)
+✔ standing phone selects the exact approved idle model and facing, never the old narrow phone body (1.840417ms)
+✔ standing phone is static across action/page clocks and keeps customization pixels outside its separate item (299.065084ms)
+✔ standing phone attaches to the selected pose actual native palm and is preloaded without a lazy action sequence (0.75175ms)
+✔ seated phone and occupied boats retain the seated context and pelvis instead of selecting standing idle (0.43675ms)
+✔ accepted low-stick motion keeps its stride and movement path at 60,120 and240Hz (792.33675ms)
+✔ one-second slow peer samples preserve a complete stride at 60,120 and240Hz (3068.898375ms)
+✔ an unchanged peer sample completes arrival and stops rather than walking forever (30.123959ms)
+✔ a peer with no further samples stops after a bounded arrival grace without extrapolation (10.272875ms)
+✔ peer teleport and seated or phone state snap immediately and reset the gait (40.522958ms)
+✔ an ordinary self refresh preserves the in-progress stride and releasing input resets it (22.046667ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4198.531792

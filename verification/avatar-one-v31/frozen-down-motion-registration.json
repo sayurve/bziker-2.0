@@ -1,0 +1,55 @@
+{
+  "files": [
+    "frozen-run-down-00.jpg",
+    "frozen-run-down-04.jpg"
+  ],
+  "image": [
+    703,
+    928
+  ],
+  "region": "x100..610/y360..650 excluding actor/nick x270..460; uniform sample4; lower means better",
+  "best": [
+    {
+      "dx": -62,
+      "dy": -46,
+      "meanAbs": 1.285698179153278
+    },
+    {
+      "dx": -64,
+      "dy": -46,
+      "meanAbs": 2.7044929251930774
+    },
+    {
+      "dx": -60,
+      "dy": -46,
+      "meanAbs": 2.8617171204690233
+    },
+    {
+      "dx": -62,
+      "dy": -42,
+      "meanAbs": 3.0803878459890637
+    },
+    {
+      "dx": -62,
+      "dy": -50,
+      "meanAbs": 3.1708100794858787
+    },
+    {
+      "dx": -62,
+      "dy": -48,
+      "meanAbs": 3.348272168667907
+    },
+    {
+      "dx": -62,
+      "dy": -44,
+      "meanAbs": 3.5985117537628954
+    },
+    {
+      "dx": -64,
+      "dy": -42,
+      "meanAbs": 3.798635774282654
+    }
+  ],
+  "zero": 25.95619820733976,
+  "interpretation": "Image/background registration only. Does not record keyboard events or actual world coordinates."
+}

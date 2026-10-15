@@ -1,0 +1,25 @@
+{
+  "roadSegments": 27,
+  "allSegments": 86,
+  "junctions": 6,
+  "plantings": 32,
+  "planMs": 11.18341700000002,
+  "runs": [
+    {
+      "mode": "overview",
+      "sampled": 24160,
+      "excludedPaint": 559,
+      "badCount": 0,
+      "badExamples": [],
+      "drawMs": 0.7497920000000136
+    },
+    {
+      "mode": "world-ground-and-planters",
+      "sampled": 24160,
+      "excludedPaint": 559,
+      "badCount": 0,
+      "badExamples": [],
+      "drawMs": 48.286790999999994
+    }
+  ]
+}

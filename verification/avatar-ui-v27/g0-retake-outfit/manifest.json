@@ -1,0 +1,99 @@
+{
+  "createdAt": "2026-10-15T12:29:23.256Z",
+  "gender": 0,
+  "category": "outfit",
+  "source": "final-fixed",
+  "cases": 4,
+  "crop": {
+    "x": 535,
+    "y": 375,
+    "width": 135,
+    "height": 180
+  },
+  "qaOnly": true,
+  "productionArtChanged": false,
+  "realBrowserCaptures": true,
+  "renderedMockups": false,
+  "scale": 1.5,
+  "sheets": [
+    "page-1.png"
+  ],
+  "records": [
+    {
+      "value": 6,
+      "name": "Дождевик",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-outfit-06-down.jpg",
+      "sourceSha256": "c8120e45d076fc9fd63ab9c8a625e91efb01e3b04e96e706d84456d34206dbe8",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-06-down-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Дождевик",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-outfit-06-left.jpg",
+      "sourceSha256": "668461e6f15c965196fa235520e8f8e123f02881fb20fd32c02c45848a57a962",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-06-left-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Дождевик",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-outfit-06-up.jpg",
+      "sourceSha256": "76808b17829857c6d9c81c44cd2bd6fe9a87812db66d4a299e03cbe3e5f8b5de",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-06-up-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Дождевик",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-outfit-06-right.jpg",
+      "sourceSha256": "8822d1368a945f6b297915363bbd5e265edcf0b493ff47ed030a0561e4e4cf43",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-06-right-crop.png"
+    }
+  ]
+}

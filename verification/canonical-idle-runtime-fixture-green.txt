@@ -1,0 +1,13 @@
+✔ canonical whole idle takes every male facing while absent female keeps source fallback (33.986ms)
+✔ canonical loading decodes coarse and detail pages without removing original source resources (2.003542ms)
+✔ canonical idle never shadows walk, run, held litter, seated, phone or gesture clips (2.042917ms)
+✔ head-only and anonymous generic previews select the same canonical idle automatically (2.927417ms)
+✔ draft or unreviewed canonical artwork stays out of both idle selection and preload (10.371584ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 97.712209

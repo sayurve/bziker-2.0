@@ -1,0 +1,22 @@
+{
+  "tool": "built-in image_gen",
+  "status": "draft raw master; runtime complete-pose compatibility export reviewed separately",
+  "source": "/Users/sapp/.codex/generated_images/01a11cc3-6744-72b3-ad8a-81b59ea9f091/exec-c5e593ad-237f-4071-8006-ddb3b8c60e12.png",
+  "saved": "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/drafts/canonical-idle-v2/male-idle-right.png",
+  "source_sha256": "bcc8c713d308c151886d52d20573899552e10d8f21876dc58819c85aec24d854",
+  "saved_sha256": "bcc8c713d308c151886d52d20573899552e10d8f21876dc58819c85aec24d854",
+  "byte_identical_copy": true,
+  "references": [
+    "art/references/canonical-run/reference-01.png",
+    "art/references/canonical-run/reference-02.png"
+  ],
+  "excluded_reference": "third idle screenshot",
+  "postprocessing": {
+    "crop": false,
+    "resize": false,
+    "mirror": false,
+    "pixel_edits": false
+  },
+  "export_spec": "export-spec.json",
+  "runtime_art_review": "verification/canonical-idle-art-review.md"
+}

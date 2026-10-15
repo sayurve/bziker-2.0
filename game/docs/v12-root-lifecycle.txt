@@ -1,0 +1,110 @@
+✖ expanded city clamps finite positions and relocates building interiors (2.174625ms)
+✔ all working city doors activate, central results board stays accessible (0.293875ms)
+✔ axis-separated movement slides along walls and prevents tunnelling (0.336167ms)
+✔ district houses use shared bounds, doors and collision without fabricated clans (0.276209ms)
+✔ published map exactly matches client geometry (0.719583ms)
+✔ base rejects overlaps, unsupported furniture, bounds and full rooms (0.215958ms)
+✔ doors, smoke zone and every seat share interaction geometry (0.664083ms)
+✔ physical keys and Cyrillic shortcuts resolve to the same actions (0.126416ms)
+✔ travel has legal unified destinations and own base requires its actual clan building (0.447625ms)
+✔ park travel leaves the dog visible beside the player and immediately reachable for petting (0.365625ms)
+✔ successful action is visible immediately and an older in-flight world response cannot undo it (71.511ms)
+✔ food gesture preserves a real seat and emits its sound once per authoritative event (43.211334ms)
+✔ expired action resumes movement without relocating the player or repeating the sound (44.617208ms)
+✔ a neighbor action arriving with a position sample stops interpolation at that action point (47.408ms)
+✔ boarding keeps an authoritative water position, uses ordinary movement and phone never releases the boat (48.455875ms)
+✔ boat fishing passes its authorized spot and travel requires returning to the dock (50.030875ms)
+✔ boarding rejection stays on shore without success audio and a dock exit restores its dry approach (39.132125ms)
+✔ pet reactions sound once per server effect while own-pet and street-cat actions remain distinct (38.031791ms)
+✔ an authoritative boat release reconciles immediately to dry boarding without a station jump (37.3325ms)
+✔ an own pet can be patted with the action button inside a public room and a clan base (76.203833ms)
+✔ an owned pet does not replace the base exit action (38.381084ms)
+✔ tapping an own pet preserves seated phone state and a live pet gesture prevents walking (45.811833ms)
+✔ pet notification audio is local to the current room and nearby players (38.162292ms)
+✔ presence refresh runs within one second so peers can observe a two-second pet reaction (38.012042ms)
+✔ a live pet gesture pauses an idle player until it expires without changing the stored pose (42.983541ms)
+✔ empty clan plots open construction only after flushing the displayed approach position (38.583917ms)
+✔ door audio fires once after authoritative entry and never for a rejected door (39.096292ms)
+✔ base interior controls do not offer an exterior rebuild after construction (44.369625ms)
+✔ sit and stand audio follows accepted state and a phone overlay is silent to the world (38.2475ms)
+✔ footsteps require actual movement and stop when a phone is open (41.975167ms)
+✔ phone modal clears held walking and closing it requires fresh input (41.089458ms)
+✔ authoritative arena snapshot redirects once and stops city position writes (40.402292ms)
+✔ district navigation uses real scene moves and base returns to its house (39.662417ms)
+✔ settings remain mount scoped and background scenes release every listener (43.867791ms)
+✔ scene transition during refresh still writes district after stale response (39.609417ms)
+✔ initial unified quarter position survives reload without an unsolicited move (50.455708ms)
+✔ button and physical E on Russian layout both enter the nearest public building (39.508ms)
+✔ phone and seating write server activities while movement releases a seated pose (38.199167ms)
+✔ card takeover follows authority once and prevents fast travel (35.903667ms)
+✔ canvas door taps enter the same public room as the physical action key (39.2815ms)
+✔ a denied fast travel restores the authoritative scene and position (37.101875ms)
+✔ closing the phone during an in-flight opening sends the final closed state (37.704292ms)
+✔ leader base changes submit interior palettes without modifying the built exterior (40.113958ms)
+✔ premium placement requires an owned purchase even if the control is changed manually (53.415708ms)
+✔ closing phone survives immediate scene teardown and runs after an opening in flight (36.775417ms)
+✔ an opening queued by a destroyed mount cannot reopen the server phone pose (36.470542ms)
+✔ phone pose requests stay ordered across a replaced world mount (73.242375ms)
+✔ public city door enters a physical room without opening the phone feature (36.572ms)
+✔ interior reload retains authoritative room and sends room identity on walking (53.893583ms)
+✔ interior counter invokes its feature while its seat and exit use authoritative endpoints (36.449292ms)
+✔ camera and zoom align to physical pixels to keep small labels and sprites clear (37.105541ms)
+✔ same-room real peers are rendered and explicit foreign-room peers are excluded (39.991291ms)
+✔ door entry waits for an in-flight city move and flushes the displayed position (38.578ms)
+✔ a pending room entry cannot queue an idle city write behind the transition (38.699625ms)
+✔ the archive board remains a working results action outside the gallery door (35.864292ms)
+✔ canvas counter taps use the same allowed approach radius as E and the action button (39.909292ms)
+✔ a pending sit claim cannot be cancelled by a queued idle position write (39.803875ms)
+✔ an accepted guest base refreshes host furniture and revocation returns to authority immediately (36.210917ms)
+✔ a phone opened while sitting preserves the real seat and settings cannot move it (39.258875ms)
+✔ two-slot benches choose the nearest free real seat instead of an occupied centre (39.911042ms)
+✔ park fishing, dog, litter and bin actions flush position and pass authoritative IDs (956.550375ms)
+✔ the first animation frame survives a pending initial world snapshot and resumes when loaded (40.458416ms)
+✔ a player pushing against a solid keeps grounded idle feet instead of walking in place (38.953542ms)
+✔ one hundred same-scene peers preserve online presence while off-camera sprites are culled (38.274208ms)
+✔ remote snapshot movement turns and animates a peer, then settles at its server position (40.850459ms)
+✔ peer motion retargets from the displayed position and seats or phone overlays snap to authority (65.725041ms)
+✔ peer interpolation never walks across an interior solid or blends a room transfer (50.749292ms)
+✔ canvas follows changes to reduced motion and removes its preference listener on teardown (41.844708ms)
+✔ a world response started before a purchase cannot roll the wallet HUD back (35.717875ms)
+✔ opt-in world diagnostics publish observed frame timing in DOM at most once a second (113.917125ms)
+✔ a clan leader enters a playable base with a closed editor and canvas taps claim real seats (38.5795ms)
+✔ editor toggling preserves unsaved base paint and role loss closes it without submitting (36.44175ms)
+✔ fractional mobile canvas height maps sofa center and foot taps to the real legacy seat (38.271208ms)
+✔ one second of remote walking is not compressed into a quarter-second sprint (40.344166ms)
+✔ inventory has its own button and physical keyboard shortcut without moving the player (35.7735ms)
+ℹ tests 75
+ℹ suites 0
+ℹ pass 74
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3839.3995
+
+✖ failing tests:
+
+test at tests/world-helpers.test.mjs:6:1
+✖ expanded city clamps finite positions and relocates building interiors (2.174625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+
+    {
+  +   x: 4880,
+  +   y: 1829
+  -   x: 4859,
+  -   y: 1850
+    }
+
+      at TestContext.<anonymous> (file://$LOCAL_WORKSPACE/.codex/worktrees/bziker-game/%D0%9A%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82/output/bziker/tests/world-helpers.test.mjs:8:60)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { x: 4880, y: 1829 },
+    expected: { x: 4859, y: 1850 },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

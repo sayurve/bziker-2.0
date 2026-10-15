@@ -1,0 +1,136 @@
+{
+  "status": "draft",
+  "note": "Authored actual source neck/collar/hand-outline pixel preservation at reviewed join gaps. Copy existing RGBA only before exact donor; no new color/paint/no opacity invented. Original transparent negative space remains transparent.",
+  "frames": {
+    "seated/male-right/hand-mouth": [
+      [
+        64,
+        64
+      ]
+    ],
+    "seated/male-down/hand-mouth": [
+      [
+        37,
+        63
+      ]
+    ],
+    "seated/male-up/hand-mouth": [
+      [
+        59,
+        64
+      ],
+      [
+        60,
+        64
+      ],
+      [
+        61,
+        64
+      ]
+    ],
+    "seated/female-right/neutral": [
+      [
+        35,
+        57
+      ]
+    ],
+    "seated/female-left/hand-mouth": [
+      [
+        45,
+        65
+      ],
+      [
+        43,
+        66
+      ],
+      [
+        43,
+        67
+      ],
+      [
+        41,
+        66
+      ]
+    ],
+    "seated/female-down/neutral": [
+      [
+        58,
+        63
+      ],
+      [
+        58,
+        64
+      ]
+    ],
+    "seated/female-down/hand-chest": [
+      [
+        36,
+        61
+      ],
+      [
+        36,
+        62
+      ],
+      [
+        36,
+        63
+      ],
+      [
+        36,
+        64
+      ],
+      [
+        35,
+        64
+      ]
+    ],
+    "seated/female-down/hand-mouth": [
+      [
+        58,
+        63
+      ],
+      [
+        58,
+        64
+      ]
+    ],
+    "seated/female-down/reach": [
+      [
+        36,
+        61
+      ],
+      [
+        36,
+        62
+      ],
+      [
+        36,
+        63
+      ],
+      [
+        36,
+        64
+      ]
+    ],
+    "seated/female-up/hand-mouth": [
+      [
+        59,
+        63
+      ],
+      [
+        60,
+        63
+      ],
+      [
+        58,
+        63
+      ]
+    ],
+    "water/male-right/row": [
+      [
+        36,
+        60
+      ]
+    ]
+  }
+}

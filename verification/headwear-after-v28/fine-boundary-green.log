@@ -1,0 +1,22 @@
+✔ a real collision slide renders the direction actually travelled instead of running sideways into the wall (275.606208ms)
+✔ white hair recolours bright brown scalp pixels in every native direction and phase while preserving flesh and eyes (492.626166ms)
+✔ light hair retains every measured native mouth, chin and neck-outline pixel including dark flesh shadows (48.354042ms)
+✔ changing skin preserves the native dark eyes and neutral face details in both genders (126.873666ms)
+✔ skin edits preserve neutral native eye, sclera and outline colours across all running directions and phases (475.849958ms)
+✔ hair recolouring retains every measured native hand region, including raised dark-only fingertip rows, in all 32 running frames (580.556875ms)
+✔ rear glasses have no opaque lens or bridge stripe across the native back of the head (85.548292ms)
+✔ side glasses surround the authored eye line instead of being only a portrait-row stripe (169.312083ms)
+✔ beast costume ears attach to the actual crown in both genders and every direction (133.753625ms)
+✔ native coat does not introduce disconnected alpha islands around the moving body (469.559042ms)
+✔ a front chest badge is not drawn through hair on the back (13.800125ms)
+✔ current fine jaw boundary and lower body outline remain native when only hair colour changes (18.835583ms)
+✔ raincoat stripe cannot overwrite the actual fine female mouth/face through a coarse garment cell (7.83775ms)
+✔ hair colour preserves the complete current body and hands below each authored neck (329.356416ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2344.958291

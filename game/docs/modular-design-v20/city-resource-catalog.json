@@ -1,0 +1,2640 @@
+{
+  "schema": 20,
+  "bbox_format": "left,top,right,bottom; exclusive right/bottom",
+  "camera_policy": "independent native view, upright sprite; no mirrored or rotated facade",
+  "placement_contract": "explicit instance design + one footprint + ground-support depth",
+  "missing_native_resources": [
+    "seamless grass and all road-edge/corner/T tiles",
+    "fountain",
+    "gazebo",
+    "railway track",
+    "passenger coach",
+    "platform canopy"
+  ],
+  "groups": {
+    "public_facades": [
+      {
+        "assetId": "railway-station",
+        "url": "/assets/design-ff00aad480ce22bc02d0-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Здания/ЖД_вокзал/основной.png",
+        "width": 768,
+        "height": 485,
+        "solid_bbox": [
+          10,
+          85,
+          765,
+          460
+        ],
+        "visible_size": [
+          755,
+          375
+        ],
+        "aspect": 2.013333333333333,
+        "views": []
+      },
+      {
+        "assetId": "casino-modern",
+        "url": "/assets/design-60e1bd3700668068a887-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Здания/Казино/основной.png",
+        "width": 760,
+        "height": 768,
+        "solid_bbox": [
+          69,
+          99,
+          724,
+          719
+        ],
+        "visible_size": [
+          655,
+          620
+        ],
+        "aspect": 1.0564516129032258,
+        "views": []
+      },
+      {
+        "assetId": "clothing-shop",
+        "url": "/assets/design-a530d29d21be7b141bbc-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Здания/Магазин_одежды/основной.png",
+        "width": 768,
+        "height": 490,
+        "solid_bbox": [
+          147,
+          54,
+          650,
+          484
+        ],
+        "visible_size": [
+          503,
+          430
+        ],
+        "aspect": 1.169767441860465,
+        "views": []
+      },
+      {
+        "assetId": "furniture-store",
+        "url": "/assets/design-cccc1e0fd000a9f2e212-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Здания/Мебельный_магазин/основной.png",
+        "width": 768,
+        "height": 538,
+        "solid_bbox": [
+          73,
+          29,
+          764,
+          499
+        ],
+        "visible_size": [
+          691,
+          470
+        ],
+        "aspect": 1.4702127659574469,
+        "views": []
+      },
+      {
+        "assetId": "food-kiosk",
+        "url": "/assets/design-a85187cdc94c7f294dc7-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Здания/Ларёк_с_едой/основной.png",
+        "width": 768,
+        "height": 501,
+        "solid_bbox": [
+          125,
+          62,
+          677,
+          453
+        ],
+        "visible_size": [
+          552,
+          391
+        ],
+        "aspect": 1.411764705882353,
+        "views": []
+      },
+      {
+        "assetId": "bar-pivkovy-tuz",
+        "url": "/assets/design-4e18912f45477f6565b4-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Здания/Бар_Пивковый_туз/основной.png",
+        "width": 768,
+        "height": 543,
+        "solid_bbox": [
+          46,
+          107,
+          746,
+          490
+        ],
+        "visible_size": [
+          700,
+          383
+        ],
+        "aspect": 1.8276762402088773,
+        "views": []
+      },
+      {
+        "assetId": "shopping-mall-bzik-hub",
+        "url": "/assets/design-7aa31041b85696c45290-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Здания/ТЦ_Бзик_хаб/основной.png",
+        "width": 768,
+        "height": 471,
+        "solid_bbox": [
+          13,
+          61,
+          765,
+          468
+        ],
+        "visible_size": [
+          752,
+          407
+        ],
+        "aspect": 1.8476658476658476,
+        "views": []
+      }
+    ],
+    "clan_facades": [
+      {
+        "assetId": "clan-base-modern-clubhouse",
+        "url": "/assets/design-f7688d596e7734646482-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Здания/Клановые_базы/01_Современный_клубный_дом/основной.png",
+        "width": 768,
+        "height": 510,
+        "solid_bbox": [
+          14,
+          82,
+          766,
+          479
+        ],
+        "visible_size": [
+          752,
+          397
+        ],
+        "aspect": 1.894206549118388,
+        "views": []
+      },
+      {
+        "assetId": "clan-base-brick-loft",
+        "url": "/assets/design-4f6c6c1996fc71137d14-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Здания/Клановые_базы/02_Кирпичный_лофт/основной.png",
+        "width": 768,
+        "height": 519,
+        "solid_bbox": [
+          57,
+          48,
+          764,
+          489
+        ],
+        "visible_size": [
+          707,
+          441
+        ],
+        "aspect": 1.6031746031746033,
+        "views": []
+      },
+      {
+        "assetId": "clan-base-tech-headquarters",
+        "url": "/assets/design-bda6f0ca259d9b74a422-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Здания/Клановые_базы/03_Технологичный_штаб/основной.png",
+        "width": 768,
+        "height": 504,
+        "solid_bbox": [
+          25,
+          69,
+          763,
+          476
+        ],
+        "visible_size": [
+          738,
+          407
+        ],
+        "aspect": 1.8132678132678133,
+        "views": []
+      },
+      {
+        "assetId": "clan-base-wood-clubhouse",
+        "url": "/assets/design-ad626b8dc2a5374eb429-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Здания/Клановые_базы/04_Дом_с_деревянной_отделкой/основной.png",
+        "width": 768,
+        "height": 529,
+        "solid_bbox": [
+          3,
+          72,
+          763,
+          475
+        ],
+        "visible_size": [
+          760,
+          403
+        ],
+        "aspect": 1.8858560794044665,
+        "views": []
+      },
+      {
+        "assetId": "clan-base-stone-mansion",
+        "url": "/assets/design-9082c557c95ff3745212-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Здания/Клановые_базы/05_Каменный_особняк/основной.png",
+        "width": 768,
+        "height": 527,
+        "solid_bbox": [
+          22,
+          28,
+          760,
+          493
+        ],
+        "visible_size": [
+          738,
+          465
+        ],
+        "aspect": 1.5870967741935484,
+        "views": []
+      }
+    ],
+    "residential_views": [
+      {
+        "assetId": "ordinary-house-grey-panel-view-front",
+        "url": "/assets/design-6798d161bb91ea4cc28e-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Здания/Жилые_дома/01_Серая_панелька/Ракурсы/01_Спереди/основной.png",
+        "width": 768,
+        "height": 533,
+        "solid_bbox": [
+          170,
+          42,
+          623,
+          469
+        ],
+        "visible_size": [
+          453,
+          427
+        ],
+        "aspect": 1.0608899297423888,
+        "views": []
+      },
+      {
+        "assetId": "ordinary-house-grey-panel-view-right",
+        "url": "/assets/design-5e1d00b178c4601a9cf1-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Здания/Жилые_дома/01_Серая_панелька/Ракурсы/02_Справа/основной.png",
+        "width": 768,
+        "height": 495,
+        "solid_bbox": [
+          207,
+          4,
+          563,
+          491
+        ],
+        "visible_size": [
+          356,
+          487
+        ],
+        "aspect": 0.731006160164271,
+        "views": []
+      },
+      {
+        "assetId": "ordinary-house-grey-panel-view-back",
+        "url": "/assets/design-b121e89cb970bdaf058b-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Здания/Жилые_дома/01_Серая_панелька/Ракурсы/03_Сзади/основной.png",
+        "width": 768,
+        "height": 492,
+        "solid_bbox": [
+          129,
+          2,
+          652,
+          490
+        ],
+        "visible_size": [
+          523,
+          488
+        ],
+        "aspect": 1.0717213114754098,
+        "views": []
+      },
+      {
+        "assetId": "ordinary-house-grey-panel-view-left",
+        "url": "/assets/design-96a86b06e5c030cc3abe-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Здания/Жилые_дома/01_Серая_панелька/Ракурсы/04_Слева/основной.png",
+        "width": 768,
+        "height": 483,
+        "solid_bbox": [
+          236,
+          14,
+          547,
+          479
+        ],
+        "visible_size": [
+          311,
+          465
+        ],
+        "aspect": 0.6688172043010753,
+        "views": []
+      },
+      {
+        "assetId": "ordinary-house-grey-panel-view-top",
+        "url": "/assets/design-5212aa7cea7fccd855cf-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Здания/Жилые_дома/01_Серая_панелька/Ракурсы/05_Сверху/основной.png",
+        "width": 768,
+        "height": 517,
+        "solid_bbox": [
+          100,
+          96,
+          700,
+          403
+        ],
+        "visible_size": [
+          600,
+          307
+        ],
+        "aspect": 1.9543973941368078,
+        "views": []
+      },
+      {
+        "assetId": "ordinary-house-red-brick-view-front",
+        "url": "/assets/design-5ae7a72d7131ff109a16-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Здания/Жилые_дома/02_Кирпичный_дом/Ракурсы/01_Спереди/основной.png",
+        "width": 768,
+        "height": 504,
+        "solid_bbox": [
+          94,
+          43,
+          693,
+          490
+        ],
+        "visible_size": [
+          599,
+          447
+        ],
+        "aspect": 1.3400447427293065,
+        "views": []
+      },
+      {
+        "assetId": "ordinary-house-red-brick-view-right",
+        "url": "/assets/design-5783667f7340c723aa63-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Здания/Жилые_дома/02_Кирпичный_дом/Ракурсы/02_Справа/основной.png",
+        "width": 768,
+        "height": 587,
+        "solid_bbox": [
+          176,
+          2,
+          626,
+          586
+        ],
+        "visible_size": [
+          450,
+          584
+        ],
+        "aspect": 0.7705479452054794,
+        "views": []
+      },
+      {
+        "assetId": "ordinary-house-red-brick-view-back",
+        "url": "/assets/design-89e9b113834f11f2b935-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Здания/Жилые_дома/02_Кирпичный_дом/Ракурсы/03_Сзади/основной.png",
+        "width": 768,
+        "height": 552,
+        "solid_bbox": [
+          33,
+          1,
+          766,
+          546
+        ],
+        "visible_size": [
+          733,
+          545
+        ],
+        "aspect": 1.344954128440367,
+        "views": []
+      },
+      {
+        "assetId": "ordinary-house-red-brick-view-left",
+        "url": "/assets/design-58e80e05d7bf20a27aae-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Здания/Жилые_дома/02_Кирпичный_дом/Ракурсы/04_Слева/основной.png",
+        "width": 768,
+        "height": 510,
+        "solid_bbox": [
+          237,
+          32,
+          565,
+          495
+        ],
+        "visible_size": [
+          328,
+          463
+        ],
+        "aspect": 0.7084233261339092,
+        "views": []
+      },
+      {
+        "assetId": "ordinary-house-red-brick-view-top",
+        "url": "/assets/design-644d345713ad57329010-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Здания/Жилые_дома/02_Кирпичный_дом/Ракурсы/05_Сверху/основной.png",
+        "width": 768,
+        "height": 378,
+        "solid_bbox": [
+          3,
+          95,
+          736,
+          295
+        ],
+        "visible_size": [
+          733,
+          200
+        ],
+        "aspect": 3.665,
+        "views": []
+      },
+      {
+        "assetId": "ordinary-house-beige-panel-view-front",
+        "url": "/assets/design-cd16301154b7fa9f7b80-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Здания/Жилые_дома/03_Бежевая_панелька/Ракурсы/01_Спереди/основной.png",
+        "width": 768,
+        "height": 501,
+        "solid_bbox": [
+          151,
+          15,
+          635,
+          462
+        ],
+        "visible_size": [
+          484,
+          447
+        ],
+        "aspect": 1.0827740492170022,
+        "views": []
+      },
+      {
+        "assetId": "ordinary-house-beige-panel-view-right",
+        "url": "/assets/design-784793953a160547e84f-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Здания/Жилые_дома/03_Бежевая_панелька/Ракурсы/02_Справа/основной.png",
+        "width": 768,
+        "height": 500,
+        "solid_bbox": [
+          222,
+          2,
+          587,
+          497
+        ],
+        "visible_size": [
+          365,
+          495
+        ],
+        "aspect": 0.7373737373737373,
+        "views": []
+      },
+      {
+        "assetId": "ordinary-house-beige-panel-view-back",
+        "url": "/assets/design-c0c81bae60b59f58126c-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Здания/Жилые_дома/03_Бежевая_панелька/Ракурсы/03_Сзади/основной.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          120,
+          13,
+          665,
+          498
+        ],
+        "visible_size": [
+          545,
+          485
+        ],
+        "aspect": 1.1237113402061856,
+        "views": []
+      },
+      {
+        "assetId": "ordinary-house-beige-panel-view-left",
+        "url": "/assets/design-8260d34f7dbc6fb7f7b7-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Здания/Жилые_дома/03_Бежевая_панелька/Ракурсы/04_Слева/основной.png",
+        "width": 768,
+        "height": 510,
+        "solid_bbox": [
+          218,
+          21,
+          613,
+          494
+        ],
+        "visible_size": [
+          395,
+          473
+        ],
+        "aspect": 0.8350951374207188,
+        "views": []
+      },
+      {
+        "assetId": "ordinary-house-beige-panel-view-top",
+        "url": "/assets/design-35615b381e583860589a-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Здания/Жилые_дома/03_Бежевая_панелька/Ракурсы/05_Сверху/основной.png",
+        "width": 768,
+        "height": 503,
+        "solid_bbox": [
+          100,
+          105,
+          682,
+          374
+        ],
+        "visible_size": [
+          582,
+          269
+        ],
+        "aspect": 2.163568773234201,
+        "views": []
+      }
+    ],
+    "native_trees": [
+      {
+        "assetId": "tree-oak",
+        "url": "/assets/design-d5d851ea378815d14588-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Растения/Деревья/Дуб/основной.png",
+        "width": 518,
+        "height": 768,
+        "solid_bbox": [
+          6,
+          74,
+          512,
+          699
+        ],
+        "visible_size": [
+          506,
+          625
+        ],
+        "aspect": 0.8096,
+        "views": []
+      },
+      {
+        "assetId": "tree-birch",
+        "url": "/assets/design-0ea9ab4d1b477b44af37-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Растения/Деревья/Берёза/основной.png",
+        "width": 509,
+        "height": 768,
+        "solid_bbox": [
+          37,
+          18,
+          484,
+          746
+        ],
+        "visible_size": [
+          447,
+          728
+        ],
+        "aspect": 0.614010989010989,
+        "views": []
+      },
+      {
+        "assetId": "tree-maple",
+        "url": "/assets/design-2bd756040d8f2aaa4606-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Растения/Деревья/Клён/основной.png",
+        "width": 519,
+        "height": 768,
+        "solid_bbox": [
+          16,
+          27,
+          513,
+          732
+        ],
+        "visible_size": [
+          497,
+          705
+        ],
+        "aspect": 0.7049645390070922,
+        "views": []
+      },
+      {
+        "assetId": "tree-linden",
+        "url": "/assets/design-dcb6238dbb8c9ae52eb0-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Растения/Деревья/Липа/основной.png",
+        "width": 521,
+        "height": 768,
+        "solid_bbox": [
+          8,
+          28,
+          519,
+          766
+        ],
+        "visible_size": [
+          511,
+          738
+        ],
+        "aspect": 0.6924119241192412,
+        "views": []
+      },
+      {
+        "assetId": "tree-willow",
+        "url": "/assets/design-9e6f3daf28d0fe52e14c-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Растения/Деревья/Ива/основной.png",
+        "width": 514,
+        "height": 768,
+        "solid_bbox": [
+          9,
+          56,
+          507,
+          723
+        ],
+        "visible_size": [
+          498,
+          667
+        ],
+        "aspect": 0.7466266866566716,
+        "views": []
+      },
+      {
+        "assetId": "tree-poplar",
+        "url": "/assets/design-54070c8002c46e0ed28d-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Растения/Деревья/Тополь/основной.png",
+        "width": 461,
+        "height": 768,
+        "solid_bbox": [
+          130,
+          10,
+          326,
+          766
+        ],
+        "visible_size": [
+          196,
+          756
+        ],
+        "aspect": 0.25925925925925924,
+        "views": []
+      },
+      {
+        "assetId": "tree-pine",
+        "url": "/assets/design-33bab5fe49bc00463d55-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Растения/Деревья/Сосна/основной.png",
+        "width": 505,
+        "height": 768,
+        "solid_bbox": [
+          40,
+          13,
+          491,
+          753
+        ],
+        "visible_size": [
+          451,
+          740
+        ],
+        "aspect": 0.6094594594594595,
+        "views": []
+      },
+      {
+        "assetId": "tree-spruce",
+        "url": "/assets/design-845ae31309716b637295-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Растения/Деревья/Ель/основной.png",
+        "width": 520,
+        "height": 768,
+        "solid_bbox": [
+          31,
+          38,
+          500,
+          730
+        ],
+        "visible_size": [
+          469,
+          692
+        ],
+        "aspect": 0.6777456647398844,
+        "views": []
+      }
+    ],
+    "native_street_props": [
+      {
+        "assetId": "bench-long-wood",
+        "url": "/assets/design-4e723d2d5b98c86dea2b-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Скамейки/Длинная_деревянная/основной.png",
+        "width": 768,
+        "height": 509,
+        "solid_bbox": [
+          3,
+          106,
+          765,
+          411
+        ],
+        "visible_size": [
+          762,
+          305
+        ],
+        "aspect": 2.498360655737705,
+        "views": []
+      },
+      {
+        "assetId": "bench-medium-metal",
+        "url": "/assets/design-53367d9d6f26dcac750e-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Скамейки/Средняя_металлическая/основной.png",
+        "width": 768,
+        "height": 529,
+        "solid_bbox": [
+          60,
+          104,
+          680,
+          425
+        ],
+        "visible_size": [
+          620,
+          321
+        ],
+        "aspect": 1.9314641744548287,
+        "views": []
+      },
+      {
+        "assetId": "bench-short-backless",
+        "url": "/assets/design-a08db8853cedb73254e7-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Скамейки/Короткая_без_спинки/основной.png",
+        "width": 768,
+        "height": 506,
+        "solid_bbox": [
+          119,
+          166,
+          647,
+          367
+        ],
+        "visible_size": [
+          528,
+          201
+        ],
+        "aspect": 2.626865671641791,
+        "views": []
+      },
+      {
+        "assetId": "street-bin",
+        "url": "/assets/design-7a298f54893b22d65b7d-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Уличные_объекты/Урна/основной.png",
+        "width": 593,
+        "height": 768,
+        "solid_bbox": [
+          172,
+          138,
+          425,
+          639
+        ],
+        "visible_size": [
+          253,
+          501
+        ],
+        "aspect": 0.5049900199600799,
+        "views": []
+      },
+      {
+        "assetId": "streetlight-classic",
+        "url": "/assets/design-streetlight-classic.png",
+        "native": true,
+        "status": "saved",
+        "source": "01_Окружение/Уличные_объекты/Фонари/варианты.png",
+        "width": 203,
+        "height": 512,
+        "solid_bbox": [
+          16,
+          9,
+          194,
+          505
+        ],
+        "visible_size": [
+          178,
+          496
+        ],
+        "aspect": 0.3588709677419355,
+        "views": []
+      },
+      {
+        "assetId": "flowerbed-tulips",
+        "url": "/assets/design-79325388f78a3edc3402-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Растения/Клумбы/Тюльпаны/основной.png",
+        "width": 768,
+        "height": 697,
+        "solid_bbox": [
+          51,
+          205,
+          740,
+          528
+        ],
+        "visible_size": [
+          689,
+          323
+        ],
+        "aspect": 2.1331269349845203,
+        "views": []
+      },
+      {
+        "assetId": "flowerbed-daisies",
+        "url": "/assets/design-c13b7c6c237f391909b2-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Растения/Клумбы/Ромашки/основной.png",
+        "width": 768,
+        "height": 753,
+        "solid_bbox": [
+          21,
+          231,
+          753,
+          568
+        ],
+        "visible_size": [
+          732,
+          337
+        ],
+        "aspect": 2.172106824925816,
+        "views": []
+      },
+      {
+        "assetId": "flowerbed-petunias",
+        "url": "/assets/design-1974f5af59521bed70bd-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Растения/Клумбы/Петунии/основной.png",
+        "width": 768,
+        "height": 752,
+        "solid_bbox": [
+          51,
+          247,
+          741,
+          563
+        ],
+        "visible_size": [
+          690,
+          316
+        ],
+        "aspect": 2.1835443037974684,
+        "views": []
+      },
+      {
+        "assetId": "welcome-source-sign",
+        "url": "/assets/design-welcome-source-sign.png",
+        "native": true,
+        "status": "saved",
+        "source": "09_Интерфейс_игры/11_Вкладки_и_вход/Указатели/Приветственная_табличка/Приветствие_пиксельный_шрифт.png",
+        "width": 512,
+        "height": 401,
+        "solid_bbox": [
+          1,
+          1,
+          511,
+          400
+        ],
+        "visible_size": [
+          510,
+          399
+        ],
+        "aspect": 1.2781954887218046,
+        "views": []
+      }
+    ],
+    "native_ground_and_water": [
+      {
+        "assetId": "bziker-water-water-texture",
+        "url": "/assets/design-468c1eb0ad62d6a42d33-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/01_Вода/кадр_01.png",
+        "width": 768,
+        "height": 768,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          768
+        ],
+        "visible_size": [
+          768,
+          768
+        ],
+        "aspect": 1.0,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-lake",
+        "url": "/assets/design-ffd341eb2008eac5252a-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/02_Озеро/озеро.png",
+        "width": 768,
+        "height": 515,
+        "solid_bbox": [
+          29,
+          66,
+          743,
+          464
+        ],
+        "visible_size": [
+          714,
+          398
+        ],
+        "aspect": 1.7939698492462313,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-reeds",
+        "url": "/assets/design-8e7a253fc3b128d0e884-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/03_Растения/камыши.png",
+        "width": 768,
+        "height": 506,
+        "solid_bbox": [
+          221,
+          1,
+          562,
+          485
+        ],
+        "visible_size": [
+          341,
+          484
+        ],
+        "aspect": 0.7045454545454546,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-shore-grass",
+        "url": "/assets/design-b89da2fdf756e394f937-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/03_Растения/прибрежная_трава.png",
+        "width": 768,
+        "height": 504,
+        "solid_bbox": [
+          50,
+          39,
+          726,
+          465
+        ],
+        "visible_size": [
+          676,
+          426
+        ],
+        "aspect": 1.5868544600938967,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-shore-stones",
+        "url": "/assets/design-dcc6a3fad22567b99083-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/04_Камни/средние.png",
+        "width": 768,
+        "height": 482,
+        "solid_bbox": [
+          152,
+          102,
+          613,
+          390
+        ],
+        "visible_size": [
+          461,
+          288
+        ],
+        "aspect": 1.6006944444444444,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-shore-pebbles",
+        "url": "/assets/design-e813b73a0396207ed393-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/04_Камни/мелкие.png",
+        "width": 768,
+        "height": 271,
+        "solid_bbox": [
+          60,
+          38,
+          686,
+          178
+        ],
+        "visible_size": [
+          626,
+          140
+        ],
+        "aspect": 4.4714285714285715,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-shore-boulders",
+        "url": "/assets/design-5f7dd9632214289b6c9d-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/04_Камни/крупные.png",
+        "width": 768,
+        "height": 539,
+        "solid_bbox": [
+          126,
+          88,
+          699,
+          479
+        ],
+        "visible_size": [
+          573,
+          391
+        ],
+        "aspect": 1.4654731457800512,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-lake-with-plants",
+        "url": "/assets/design-0e33220fa6a860c8efae-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/02_Озеро/озеро_с_окружением.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          14,
+          25,
+          757,
+          475
+        ],
+        "visible_size": [
+          743,
+          450
+        ],
+        "aspect": 1.6511111111111112,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-water-frame-02",
+        "url": "/assets/design-74704e5be80b0a4c7516-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/01_Вода/кадр_02.png",
+        "width": 768,
+        "height": 768,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          768
+        ],
+        "visible_size": [
+          768,
+          768
+        ],
+        "aspect": 1.0,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-water-frame-03",
+        "url": "/assets/design-93cf77e40cce0f9c099a-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/01_Вода/кадр_03.png",
+        "width": 768,
+        "height": 768,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          768
+        ],
+        "visible_size": [
+          768,
+          768
+        ],
+        "aspect": 1.0,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-water-frame-04",
+        "url": "/assets/design-c61e028b724c71529ab3-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/01_Вода/кадр_04.png",
+        "width": 768,
+        "height": 768,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          768
+        ],
+        "visible_size": [
+          768,
+          768
+        ],
+        "aspect": 1.0,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-pier",
+        "url": "/assets/design-11419489283eb2901c1c-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/05_Пристань/пристань.png",
+        "width": 742,
+        "height": 768,
+        "solid_bbox": [
+          94,
+          53,
+          656,
+          723
+        ],
+        "visible_size": [
+          562,
+          670
+        ],
+        "aspect": 0.8388059701492537,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-fishing-rod",
+        "url": "/assets/design-c20975f3795b69b8fe58-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/07_Рыбалка/Удочка/основной.png",
+        "width": 768,
+        "height": 496,
+        "solid_bbox": [
+          3,
+          5,
+          763,
+          493
+        ],
+        "visible_size": [
+          760,
+          488
+        ],
+        "aspect": 1.5573770491803278,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-large-fishing-float",
+        "url": "/assets/design-2ceefae1d2257052364d-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/07_Рыбалка/Поплавок/основной.png",
+        "width": 748,
+        "height": 768,
+        "solid_bbox": [
+          218,
+          84,
+          543,
+          706
+        ],
+        "visible_size": [
+          325,
+          622
+        ],
+        "aspect": 0.522508038585209,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-freshwater-fish-catch",
+        "url": "/assets/design-3ff16f7cc0a6e8ed7f7b-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/07_Рыбалка/Рыба/основной.png",
+        "width": 765,
+        "height": 768,
+        "solid_bbox": [
+          82,
+          218,
+          761,
+          546
+        ],
+        "visible_size": [
+          679,
+          328
+        ],
+        "aspect": 2.0701219512195124,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-motorboat-fishing-seated",
+        "url": "/assets/design-7e6b03da3be5c964bc7f-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/07_Рыбалка/рыбак_в_лодке.png",
+        "width": 768,
+        "height": 532,
+        "solid_bbox": [
+          27,
+          84,
+          766,
+          457
+        ],
+        "visible_size": [
+          739,
+          373
+        ],
+        "aspect": 1.9812332439678284,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-motorboat-driver-seated",
+        "url": "/assets/design-edf9e59f294ba1c3e50f-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/06_Лодка/управление_с_сиденьем.png",
+        "width": 768,
+        "height": 500,
+        "solid_bbox": [
+          41,
+          126,
+          766,
+          427
+        ],
+        "visible_size": [
+          725,
+          301
+        ],
+        "aspect": 2.4086378737541527,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-fishing-six-stages-seated",
+        "url": "/assets/design-ec7b7237a29197835f78-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/07_Рыбалка/этапы_рыбалки.png",
+        "width": 768,
+        "height": 576,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          576
+        ],
+        "visible_size": [
+          768,
+          576
+        ],
+        "aspect": 1.3333333333333333,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-boat-empty-seat-v3",
+        "url": "/assets/design-fecffd597f0e70e50243-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/06_Лодка/лодка_с_сиденьем.png",
+        "width": 768,
+        "height": 530,
+        "solid_bbox": [
+          3,
+          208,
+          753,
+          455
+        ],
+        "visible_size": [
+          750,
+          247
+        ],
+        "aspect": 3.0364372469635628,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-seated-fishing-pocket-12",
+        "url": "/assets/design-100930e06fc72cefc708-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/07_Рыбалка/кадры_персонажа_12.png",
+        "width": 768,
+        "height": 566,
+        "solid_bbox": [
+          52,
+          3,
+          752,
+          543
+        ],
+        "visible_size": [
+          700,
+          540
+        ],
+        "aspect": 1.2962962962962963,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-boat-entry-driver-12",
+        "url": "/assets/design-8c98cd301a3a1ff01a22-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/06_Лодка/подход_посадка_управление_12.png",
+        "width": 768,
+        "height": 579,
+        "solid_bbox": [
+          32,
+          23,
+          750,
+          559
+        ],
+        "visible_size": [
+          718,
+          536
+        ],
+        "aspect": 1.3395522388059702,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-fish-held-pocket-8",
+        "url": "/assets/design-ce3d087ef7f7f9a57956-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/07_Рыбалка/рыба_в_руке_и_карман_8.png",
+        "width": 768,
+        "height": 397,
+        "solid_bbox": [
+          5,
+          4,
+          737,
+          390
+        ],
+        "visible_size": [
+          732,
+          386
+        ],
+        "aspect": 1.8963730569948187,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-four-new-boats-at-pier",
+        "url": "/assets/design-b589ead28e4516f7741b-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/05_Пристань/четыре_новые_лодки.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-motor-wake-sheet",
+        "url": "/assets/design-75d9b7863987eca3d92a-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/06_Лодка/шлейф_четыре_фазы.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          33,
+          53,
+          733,
+          473
+        ],
+        "visible_size": [
+          700,
+          420
+        ],
+        "aspect": 1.6666666666666667,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-animation-water-01_Рябь",
+        "url": "/assets/design-f1f24291389843a6b9ea-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/08_Анимации/00_Вода/01_Рябь/основной_кадр.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-animation-fishing-01_Заброс",
+        "url": "/assets/design-3c940b6f31f7d6df06df-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/08_Анимации/01_Рыбалка/01_Заброс/основной_кадр.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-animation-fishing-02_Ожидание",
+        "url": "/assets/design-3ebf5143406567992a07-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/08_Анимации/01_Рыбалка/02_Ожидание/основной_кадр.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-animation-fishing-03_Поклёвка",
+        "url": "/assets/design-2180cd5262e4673ff4bc-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/08_Анимации/01_Рыбалка/03_Поклёвка/основной_кадр.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-animation-fishing-04_Вытягивание",
+        "url": "/assets/design-ca8ce596bfdf31e22fd5-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/08_Анимации/01_Рыбалка/04_Вытягивание/основной_кадр.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-animation-fishing-05_Рыба_к_телу",
+        "url": "/assets/design-5b34d577502f5077e59a-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/08_Анимации/01_Рыбалка/05_Рыба_к_телу/основной_кадр.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-animation-fishing-06_В_карман",
+        "url": "/assets/design-0a69af079387efbae699-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/08_Анимации/01_Рыбалка/06_В_карман/основной_кадр.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-animation-fishing-07_После_улова",
+        "url": "/assets/design-fbb726f749eced4d8d6a-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/08_Анимации/01_Рыбалка/07_После_улова/основной_кадр.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-animation-boat-01_Подход",
+        "url": "/assets/design-ebe5c022492fcdaaaedb-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/08_Анимации/02_Лодка/01_Подход/основной_кадр.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-animation-boat-02_Посадка",
+        "url": "/assets/design-4375646c34fe491f421a-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/08_Анимации/02_Лодка/02_Посадка/основной_кадр.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-animation-boat-03_Управление",
+        "url": "/assets/design-b12090569cce836b1661-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/08_Анимации/02_Лодка/03_Управление/основной_кадр.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-animation-boat-04_Запуск_мотора",
+        "url": "/assets/design-13a0e7cf3b41bb3e1bad-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/08_Анимации/02_Лодка/04_Запуск_мотора/основной_кадр.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-animation-boat-05_Разгон",
+        "url": "/assets/design-b991ae3881de1ee08b14-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/08_Анимации/02_Лодка/05_Разгон/основной_кадр.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-animation-boat-06_Движение",
+        "url": "/assets/design-1bb1382522765543119e-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/08_Анимации/02_Лодка/06_Движение/основной_кадр.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-animation-boat-07_Остановка",
+        "url": "/assets/design-8b7a9c670cfde51d320c-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/08_Анимации/02_Лодка/07_Остановка/основной_кадр.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-animation-boat-08_На_месте",
+        "url": "/assets/design-e4943e367896c6f9883f-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/08_Анимации/02_Лодка/08_На_месте/основной_кадр.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-animation-boat-09_Возврат_к_пристани",
+        "url": "/assets/design-87649135d1f8110ee929-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/08_Анимации/02_Лодка/09_Возврат_к_пристани/основной_кадр.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-animation-boat-10_Выход",
+        "url": "/assets/design-f63033be32d41fdcebd0-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/08_Анимации/02_Лодка/10_Выход/основной_кадр.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "bziker-water-animation-boat-11_Уход",
+        "url": "/assets/design-affcb4e19a18f0964b5c-768.png",
+        "native": true,
+        "status": "saved-at-user-request",
+        "source": "01_Окружение/Водоём/08_Анимации/02_Лодка/11_Уход/основной_кадр.png",
+        "width": 768,
+        "height": 512,
+        "solid_bbox": [
+          0,
+          0,
+          768,
+          512
+        ],
+        "visible_size": [
+          768,
+          512
+        ],
+        "aspect": 1.5,
+        "views": []
+      },
+      {
+        "assetId": "city-parking-empty-view-top",
+        "url": "/assets/design-74ba1b370764025e4f16-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Площадки/Парковка/Ракурсы/05_Сверху/основной.png",
+        "width": 768,
+        "height": 519,
+        "solid_bbox": [
+          53,
+          16,
+          717,
+          474
+        ],
+        "visible_size": [
+          664,
+          458
+        ],
+        "aspect": 1.4497816593886463,
+        "views": []
+      },
+      {
+        "assetId": "city-basketball-court",
+        "url": "/assets/design-9e5098648f8b7a8871ee-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Площадки/Баскетбольный_корт/основной.png",
+        "width": 768,
+        "height": 521,
+        "solid_bbox": [
+          46,
+          1,
+          763,
+          506
+        ],
+        "visible_size": [
+          717,
+          505
+        ],
+        "aspect": 1.4198019801980197,
+        "views": []
+      },
+      {
+        "assetId": "city-tennis-court",
+        "url": "/assets/design-e4eaa626a2bfaf4802d1-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Площадки/Теннисный_корт/основной.png",
+        "width": 768,
+        "height": 498,
+        "solid_bbox": [
+          23,
+          18,
+          766,
+          478
+        ],
+        "visible_size": [
+          743,
+          460
+        ],
+        "aspect": 1.6152173913043477,
+        "views": []
+      },
+      {
+        "assetId": "source-road-asphalt-tile",
+        "url": "/assets/design-source-road-asphalt-tile.png",
+        "native": true,
+        "status": "saved",
+        "source": "01_Окружение/Дороги/Широкая_дорога/основной.png",
+        "width": 200,
+        "height": 130,
+        "solid_bbox": [
+          0,
+          0,
+          200,
+          130
+        ],
+        "visible_size": [
+          200,
+          130
+        ],
+        "aspect": 1.5384615384615385,
+        "views": []
+      }
+    ],
+    "native_smoking": [
+      {
+        "assetId": "smoking-area-bench",
+        "url": "/assets/design-4b797059ce72b3b7e962-512.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Уличные_объекты/Курилка/Элементы/Скамейка/основной.png",
+        "width": 512,
+        "height": 328,
+        "solid_bbox": [
+          57,
+          74,
+          478,
+          256
+        ],
+        "visible_size": [
+          421,
+          182
+        ],
+        "aspect": 2.3131868131868134,
+        "views": [
+          "front",
+          "right",
+          "back",
+          "left"
+        ]
+      },
+      {
+        "assetId": "smoking-area-ashtray-bin",
+        "url": "/assets/design-3180947030aaf7059069-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Уличные_объекты/Курилка/Элементы/Урна_пепельница/основной.png",
+        "width": 768,
+        "height": 623,
+        "solid_bbox": [
+          280,
+          21,
+          557,
+          545
+        ],
+        "visible_size": [
+          277,
+          524
+        ],
+        "aspect": 0.5286259541984732,
+        "views": []
+      },
+      {
+        "assetId": "smoking-area-sign",
+        "url": "/assets/design-d0efda177d69b541c7f4-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Уличные_объекты/Курилка/Элементы/Табличка/основной.png",
+        "width": 583,
+        "height": 768,
+        "solid_bbox": [
+          85,
+          71,
+          478,
+          707
+        ],
+        "visible_size": [
+          393,
+          636
+        ],
+        "aspect": 0.6179245283018868,
+        "views": []
+      },
+      {
+        "assetId": "smoking-area-paved-pad",
+        "url": "/assets/design-39c8131f3a90933dc5a3-768.png",
+        "native": true,
+        "status": "approved",
+        "source": "01_Окружение/Уличные_объекты/Курилка/Элементы/Площадка/основной.png",
+        "width": 768,
+        "height": 366,
+        "solid_bbox": [
+          4,
+          51,
+          767,
+          270
+        ],
+        "visible_size": [
+          763,
+          219
+        ],
+        "aspect": 3.4840182648401825,
+        "views": []
+      },
+      {
+        "assetId": "smoking-area-map-variant",
+        "url": "/assets/design-098e27229467741871cb-768.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Уличные_объекты/Курилка/Варианты/02_Для_карты/основной.png",
+        "width": 768,
+        "height": 747,
+        "solid_bbox": [
+          96,
+          103,
+          702,
+          666
+        ],
+        "visible_size": [
+          606,
+          563
+        ],
+        "aspect": 1.0763765541740675,
+        "views": []
+      }
+    ],
+    "native_vehicles": [
+      {
+        "assetId": "vehicle-mercedes-cabriolet-black",
+        "url": "/assets/design-05c32c137db6b34590c3-512.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Транспорт/01_Mercedes_кабриолет/Цвета/01_Чёрный/Ракурсы/01_Спереди/основной.png",
+        "width": 512,
+        "height": 504,
+        "solid_bbox": [
+          65,
+          100,
+          447,
+          415
+        ],
+        "visible_size": [
+          382,
+          315
+        ],
+        "aspect": 1.2126984126984126,
+        "views": [
+          "front",
+          "right",
+          "back",
+          "left"
+        ]
+      },
+      {
+        "assetId": "vehicle-mercedes-cabriolet-white",
+        "url": "/assets/design-d9c6b3b1b169ac03283b-512.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Транспорт/01_Mercedes_кабриолет/Цвета/02_Белый/Ракурсы/01_Спереди/основной.png",
+        "width": 510,
+        "height": 512,
+        "solid_bbox": [
+          66,
+          101,
+          455,
+          421
+        ],
+        "visible_size": [
+          389,
+          320
+        ],
+        "aspect": 1.215625,
+        "views": [
+          "front",
+          "right",
+          "back",
+          "left"
+        ]
+      },
+      {
+        "assetId": "vehicle-mercedes-cabriolet-red",
+        "url": "/assets/design-2ab5666dc9c4ff40ca66-512.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Транспорт/01_Mercedes_кабриолет/Цвета/03_Красный/Ракурсы/01_Спереди/основной.png",
+        "width": 503,
+        "height": 512,
+        "solid_bbox": [
+          67,
+          96,
+          461,
+          420
+        ],
+        "visible_size": [
+          394,
+          324
+        ],
+        "aspect": 1.2160493827160495,
+        "views": [
+          "front",
+          "right",
+          "back",
+          "left"
+        ]
+      },
+      {
+        "assetId": "vehicle-mercedes-cabriolet-blue",
+        "url": "/assets/design-c39734833177918c32bc-512.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Транспорт/01_Mercedes_кабриолет/Цвета/04_Синий/Ракурсы/01_Спереди/основной.png",
+        "width": 512,
+        "height": 486,
+        "solid_bbox": [
+          65,
+          82,
+          447,
+          396
+        ],
+        "visible_size": [
+          382,
+          314
+        ],
+        "aspect": 1.21656050955414,
+        "views": [
+          "front",
+          "right",
+          "back",
+          "left"
+        ]
+      },
+      {
+        "assetId": "vehicle-mercedes-cabriolet-green",
+        "url": "/assets/design-911d66702e45e34f0595-512.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Транспорт/01_Mercedes_кабриолет/Цвета/05_Зелёный/Ракурсы/01_Спереди/основной.png",
+        "width": 512,
+        "height": 502,
+        "solid_bbox": [
+          67,
+          101,
+          456,
+          422
+        ],
+        "visible_size": [
+          389,
+          321
+        ],
+        "aspect": 1.2118380062305296,
+        "views": [
+          "front",
+          "right",
+          "back",
+          "left"
+        ]
+      },
+      {
+        "assetId": "vehicle-g-wagen-black",
+        "url": "/assets/design-96616d4f2e71c4cc0256-512.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Транспорт/04_Гелендваген/Цвета/01_Чёрный/Ракурсы/01_Спереди/основной.png",
+        "width": 512,
+        "height": 494,
+        "solid_bbox": [
+          56,
+          43,
+          464,
+          462
+        ],
+        "visible_size": [
+          408,
+          419
+        ],
+        "aspect": 0.9737470167064439,
+        "views": [
+          "front",
+          "right",
+          "back",
+          "left"
+        ]
+      },
+      {
+        "assetId": "vehicle-g-wagen-white",
+        "url": "/assets/design-8414cc7aee17622d2390-512.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Транспорт/04_Гелендваген/Цвета/02_Белый/Ракурсы/01_Спереди/основной.png",
+        "width": 512,
+        "height": 508,
+        "solid_bbox": [
+          47,
+          42,
+          463,
+          470
+        ],
+        "visible_size": [
+          416,
+          428
+        ],
+        "aspect": 0.9719626168224299,
+        "views": [
+          "front",
+          "right",
+          "back",
+          "left"
+        ]
+      },
+      {
+        "assetId": "vehicle-g-wagen-red",
+        "url": "/assets/design-4bb0c8c8b41cec6fc99b-512.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Транспорт/04_Гелендваген/Цвета/03_Красный/Ракурсы/01_Спереди/основной.png",
+        "width": 512,
+        "height": 471,
+        "solid_bbox": [
+          56,
+          20,
+          462,
+          438
+        ],
+        "visible_size": [
+          406,
+          418
+        ],
+        "aspect": 0.9712918660287081,
+        "views": [
+          "front",
+          "right",
+          "back",
+          "left"
+        ]
+      },
+      {
+        "assetId": "vehicle-g-wagen-blue",
+        "url": "/assets/design-385fb856d1d6ed594086-512.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Транспорт/04_Гелендваген/Цвета/04_Синий/Ракурсы/01_Спереди/основной.png",
+        "width": 512,
+        "height": 512,
+        "solid_bbox": [
+          35,
+          31,
+          466,
+          474
+        ],
+        "visible_size": [
+          431,
+          443
+        ],
+        "aspect": 0.9729119638826185,
+        "views": [
+          "front",
+          "right",
+          "back",
+          "left"
+        ]
+      },
+      {
+        "assetId": "vehicle-g-wagen-green",
+        "url": "/assets/design-623256c46829f72d9ae2-512.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Транспорт/04_Гелендваген/Цвета/05_Зелёный/Ракурсы/01_Спереди/основной.png",
+        "width": 512,
+        "height": 512,
+        "solid_bbox": [
+          56,
+          57,
+          456,
+          468
+        ],
+        "visible_size": [
+          400,
+          411
+        ],
+        "aspect": 0.9732360097323601,
+        "views": [
+          "front",
+          "right",
+          "back",
+          "left"
+        ]
+      },
+      {
+        "assetId": "vehicle-compact-hatchback-black",
+        "url": "/assets/design-3886794148c58be89ae7-512.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Транспорт/06_Компактный_хэтчбек/Цвета/01_Чёрный/Ракурсы/01_Спереди/основной.png",
+        "width": 512,
+        "height": 448,
+        "solid_bbox": [
+          47,
+          18,
+          460,
+          413
+        ],
+        "visible_size": [
+          413,
+          395
+        ],
+        "aspect": 1.0455696202531646,
+        "views": [
+          "front",
+          "right",
+          "back",
+          "left"
+        ]
+      },
+      {
+        "assetId": "vehicle-compact-hatchback-white",
+        "url": "/assets/design-09de63217d80eb7c74dc-512.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Транспорт/06_Компактный_хэтчбек/Цвета/02_Белый/Ракурсы/01_Спереди/основной.png",
+        "width": 512,
+        "height": 493,
+        "solid_bbox": [
+          60,
+          57,
+          461,
+          443
+        ],
+        "visible_size": [
+          401,
+          386
+        ],
+        "aspect": 1.038860103626943,
+        "views": [
+          "front",
+          "right",
+          "back",
+          "left"
+        ]
+      },
+      {
+        "assetId": "vehicle-compact-hatchback-red",
+        "url": "/assets/design-b5cd2a482c4a91554c39-512.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Транспорт/06_Компактный_хэтчбек/Цвета/03_Красный/Ракурсы/01_Спереди/основной.png",
+        "width": 512,
+        "height": 512,
+        "solid_bbox": [
+          60,
+          62,
+          461,
+          447
+        ],
+        "visible_size": [
+          401,
+          385
+        ],
+        "aspect": 1.0415584415584416,
+        "views": [
+          "front",
+          "right",
+          "back",
+          "left"
+        ]
+      },
+      {
+        "assetId": "vehicle-compact-hatchback-blue",
+        "url": "/assets/design-7667f31ece908c9e7882-512.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Транспорт/06_Компактный_хэтчбек/Цвета/04_Синий/Ракурсы/01_Спереди/основной.png",
+        "width": 504,
+        "height": 512,
+        "solid_bbox": [
+          60,
+          69,
+          453,
+          448
+        ],
+        "visible_size": [
+          393,
+          379
+        ],
+        "aspect": 1.036939313984169,
+        "views": [
+          "front",
+          "right",
+          "back",
+          "left"
+        ]
+      },
+      {
+        "assetId": "vehicle-compact-hatchback-green",
+        "url": "/assets/design-042b382b842b1cc5eebc-512.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Транспорт/06_Компактный_хэтчбек/Цвета/05_Зелёный/Ракурсы/01_Спереди/основной.png",
+        "width": 512,
+        "height": 495,
+        "solid_bbox": [
+          60,
+          59,
+          458,
+          441
+        ],
+        "visible_size": [
+          398,
+          382
+        ],
+        "aspect": 1.0418848167539267,
+        "views": [
+          "front",
+          "right",
+          "back",
+          "left"
+        ]
+      },
+      {
+        "assetId": "vehicle-sports-coupe-red",
+        "url": "/assets/design-5c9093ec3f373dfb2521-512.png",
+        "native": true,
+        "status": "draft",
+        "source": "01_Окружение/Транспорт/Дополнительные_варианты/Спортивное_купе/Цвета/03_Красный/Ракурсы/01_Спереди/основной.png",
+        "width": 512,
+        "height": 498,
+        "solid_bbox": [
+          48,
+          85,
+          478,
+          418
+        ],
+        "visible_size": [
+          430,
+          333
+        ],
+        "aspect": 1.2912912912912913,
+        "views": [
+          "front",
+          "right",
+          "back",
+          "left"
+        ]
+      }
+    ],
+    "retained_supplementals": [
+      {
+        "assetId": "generated-environment-fountain",
+        "url": "/assets/generated-environment-v17-fountain.png",
+        "native": false,
+        "status": "generated-supplemental-v17",
+        "source": "docs/source-design-v17/generated-environment/missing-environment-v17-sheet.png",
+        "width": 430,
+        "height": 350,
+        "solid_bbox": [
+          16,
+          16,
+          414,
+          334
+        ],
+        "visible_size": [
+          398,
+          318
+        ],
+        "aspect": 1.251572327044025,
+        "views": []
+      },
+      {
+        "assetId": "generated-environment-gazebo",
+        "url": "/assets/generated-environment-v17-gazebo.png",
+        "native": false,
+        "status": "generated-supplemental-v17",
+        "source": "docs/source-design-v17/generated-environment/missing-environment-v17-sheet.png",
+        "width": 368,
+        "height": 429,
+        "solid_bbox": [
+          16,
+          16,
+          352,
+          413
+        ],
+        "visible_size": [
+          336,
+          397
+        ],
+        "aspect": 0.8463476070528967,
+        "views": []
+      },
+      {
+        "assetId": "generated-environment-railway-track",
+        "url": "/assets/generated-environment-v17-railway-track.png",
+        "native": false,
+        "status": "generated-supplemental-v17",
+        "source": "docs/source-design-v17/generated-environment/missing-environment-v17-sheet.png",
+        "width": 463,
+        "height": 202,
+        "solid_bbox": [
+          16,
+          16,
+          447,
+          186
+        ],
+        "visible_size": [
+          431,
+          170
+        ],
+        "aspect": 2.5352941176470587,
+        "views": []
+      },
+      {
+        "assetId": "generated-environment-platform-canopy",
+        "url": "/assets/generated-environment-v17-platform-canopy.png",
+        "native": false,
+        "status": "generated-supplemental-v17",
+        "source": "docs/source-design-v17/generated-environment/missing-environment-v17-sheet.png",
+        "width": 497,
+        "height": 309,
+        "solid_bbox": [
+          16,
+          16,
+          481,
+          293
+        ],
+        "visible_size": [
+          465,
+          277
+        ],
+        "aspect": 1.6787003610108304,
+        "views": []
+      },
+      {
+        "assetId": "generated-environment-passenger-coach",
+        "url": "/assets/generated-environment-v17-passenger-coach.png",
+        "native": false,
+        "status": "generated-supplemental-v17",
+        "source": "docs/source-design-v17/generated-environment/missing-environment-v17-sheet.png",
+        "width": 649,
+        "height": 224,
+        "solid_bbox": [
+          16,
+          16,
+          633,
+          208
+        ],
+        "visible_size": [
+          617,
+          192
+        ],
+        "aspect": 3.2135416666666665,
+        "views": []
+      },
+      {
+        "assetId": "generated-environment-park-shrub",
+        "url": "/assets/generated-environment-v17-park-shrub.png",
+        "native": false,
+        "status": "generated-supplemental-v17",
+        "source": "docs/source-design-v17/generated-environment/missing-environment-v17-sheet.png",
+        "width": 280,
+        "height": 262,
+        "solid_bbox": [
+          16,
+          16,
+          264,
+          246
+        ],
+        "visible_size": [
+          248,
+          230
+        ],
+        "aspect": 1.0782608695652174,
+        "views": []
+      }
+    ]
+  },
+  "final_scene": {
+    "schema_version": 20,
+    "map_sha256": "ff35fc0bdeda3f73a30ca5489eb55630c2fbbe356a5880a5cd9582b57508a177",
+    "animals_sha256": "4100b8c61a11f097c0bc9c091ec7d74cc305a49594efd225af7067d5b7e3f54c",
+    "counts": {
+      "public_buildings": 11,
+      "private_plots": 8,
+      "residential_buildings": 38,
+      "trees": 299,
+      "central_park_trees": 46,
+      "lamp_posts": 106,
+      "bench_groups": 11,
+      "seats": 22,
+      "park_seats": 12,
+      "parked_cars": 38,
+      "frontages": 57,
+      "road_and_walkway_records": 71,
+      "authored_action_routes": 30,
+      "moving_animals": 12,
+      "boats": 3,
+      "physical_supports": 579
+    },
+    "live_full_map_background": false,
+    "new_generated_art_in_v20": false,
+    "note": "Counts read from the final scene metadata, not totals available in the source catalogue.",
+    "collision_file_sha256": "a4e13981a68a4a2bb05e74ec13cbf953d0ce2e27f0ad6e6285d156349bbd9932",
+    "collision_map_sha256": "ff35fc0bdeda3f73a30ca5489eb55630c2fbbe356a5880a5cd9582b57508a177",
+    "verification": {
+      "shared_geometry_resource_private_envelope_tests_passed": 17,
+      "actual_bidirectional_road_and_frontage_records": 128,
+      "actual_walk_failures": 0,
+      "human_frames_rendered": 5000,
+      "human_control_points": 125,
+      "minimum_human_visible_fraction": 0.9999941381634866,
+      "animal_frames_rendered": 5760,
+      "minimum_animal_visible_fraction": 1,
+      "reports": [
+        "actual-city-routes.json",
+        "actual-actor-visibility.json",
+        "actual-animal-visibility.json"
+      ]
+    }
+  }
+}

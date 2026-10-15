@@ -1,0 +1,274 @@
+[
+  {
+    "gender": "male",
+    "dir": "front",
+    "frame": {
+      "page": 1,
+      "x": 48,
+      "y": 128,
+      "w": 48,
+      "h": 64,
+      "head": {
+        "top": 16,
+        "bottom": 38,
+        "left": 13,
+        "right": 35
+      },
+      "sourceScale": 0.32,
+      "hand": [
+        32,
+        49
+      ],
+      "pelvis": [
+        24,
+        50
+      ],
+      "detail": {
+        "path": "assets/design-actor-detail-gestures-male-2.png",
+        "x": 96,
+        "y": 256,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      }
+    }
+  },
+  {
+    "gender": "male",
+    "dir": "right",
+    "frame": {
+      "page": 1,
+      "x": 240,
+      "y": 128,
+      "w": 48,
+      "h": 64,
+      "head": {
+        "top": 19,
+        "bottom": 41,
+        "left": 17,
+        "right": 37
+      },
+      "sourceScale": 0.32,
+      "hand": [
+        31,
+        28
+      ],
+      "pelvis": [
+        24,
+        49
+      ],
+      "detail": {
+        "path": "assets/design-actor-detail-gestures-male-2.png",
+        "x": 480,
+        "y": 256,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      }
+    }
+  },
+  {
+    "gender": "male",
+    "dir": "back",
+    "frame": {
+      "page": 1,
+      "x": 48,
+      "y": 192,
+      "w": 48,
+      "h": 64,
+      "head": {
+        "top": 18,
+        "bottom": 38,
+        "left": 12,
+        "right": 34
+      },
+      "sourceScale": 0.32,
+      "hand": [
+        33,
+        33
+      ],
+      "pelvis": [
+        24,
+        54
+      ],
+      "detail": {
+        "path": "assets/design-actor-detail-gestures-male-2.png",
+        "x": 96,
+        "y": 384,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      }
+    }
+  },
+  {
+    "gender": "male",
+    "dir": "left",
+    "frame": {
+      "page": 1,
+      "x": 240,
+      "y": 192,
+      "w": 48,
+      "h": 64,
+      "head": {
+        "top": 17,
+        "bottom": 39,
+        "left": 11,
+        "right": 31
+      },
+      "sourceScale": 0.32,
+      "hand": [
+        18,
+        46
+      ],
+      "pelvis": [
+        24,
+        49
+      ],
+      "detail": {
+        "path": "assets/design-actor-detail-gestures-male-2.png",
+        "x": 480,
+        "y": 384,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      }
+    }
+  },
+  {
+    "gender": "female",
+    "dir": "front",
+    "frame": {
+      "page": 1,
+      "x": 48,
+      "y": 128,
+      "w": 48,
+      "h": 64,
+      "head": {
+        "top": 15,
+        "bottom": 37,
+        "left": 11,
+        "right": 36
+      },
+      "sourceScale": 0.305,
+      "hand": [
+        31,
+        51
+      ],
+      "pelvis": [
+        24,
+        53
+      ],
+      "detail": {
+        "path": "assets/design-actor-detail-gestures-female-2.png",
+        "x": 96,
+        "y": 256,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      }
+    }
+  },
+  {
+    "gender": "female",
+    "dir": "right",
+    "frame": {
+      "page": 1,
+      "x": 240,
+      "y": 128,
+      "w": 48,
+      "h": 64,
+      "head": {
+        "top": 16,
+        "bottom": 38,
+        "left": 10,
+        "right": 35
+      },
+      "sourceScale": 0.305,
+      "hand": [
+        33,
+        49
+      ],
+      "pelvis": [
+        24,
+        49
+      ],
+      "detail": {
+        "path": "assets/design-actor-detail-gestures-female-2.png",
+        "x": 480,
+        "y": 256,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      }
+    }
+  },
+  {
+    "gender": "female",
+    "dir": "back",
+    "frame": {
+      "page": 1,
+      "x": 48,
+      "y": 192,
+      "w": 48,
+      "h": 64,
+      "head": {
+        "top": 19,
+        "bottom": 41,
+        "left": 11,
+        "right": 36
+      },
+      "sourceScale": 0.305,
+      "hand": [
+        28,
+        40
+      ],
+      "pelvis": [
+        24,
+        51
+      ],
+      "detail": {
+        "path": "assets/design-actor-detail-gestures-female-2.png",
+        "x": 96,
+        "y": 384,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      }
+    }
+  },
+  {
+    "gender": "female",
+    "dir": "left",
+    "frame": {
+      "page": 1,
+      "x": 240,
+      "y": 192,
+      "w": 48,
+      "h": 64,
+      "head": {
+        "top": 20,
+        "bottom": 42,
+        "left": 13,
+        "right": 36
+      },
+      "sourceScale": 0.305,
+      "hand": [
+        15,
+        51
+      ],
+      "pelvis": [
+        24,
+        50
+      ],
+      "detail": {
+        "path": "assets/design-actor-detail-gestures-female-2.png",
+        "x": 480,
+        "y": 384,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      }
+    }
+  }
+]

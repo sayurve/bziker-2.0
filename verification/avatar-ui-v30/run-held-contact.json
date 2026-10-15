@@ -1,0 +1,197 @@
+{
+  "status": "awaiting visual review",
+  "records": [
+    {
+      "file": "run-held-down-0.jpg",
+      "sha256": "ab57e73e8cd274031354ce9439965517cd0f3ddc1fb1cd81030066080bc2f5a7",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "captureOrder": 0
+    },
+    {
+      "file": "run-held-down-1.jpg",
+      "sha256": "5c5bbadb19beeddeebb0697d3222227e88b6370345e97d39f3c0cb36439aeb58",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "captureOrder": 1
+    },
+    {
+      "file": "run-held-down-2.jpg",
+      "sha256": "ba2cc2504e8b2a92645d7a40d3ee5eb8f378bac7c6324b7abd791a3f56f7e438",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "captureOrder": 2
+    },
+    {
+      "file": "run-held-down-3.jpg",
+      "sha256": "2722f556b67f63bc20ef881e436fea09e27dbd2fbddb715f351ac586928bc94f",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "captureOrder": 3
+    },
+    {
+      "file": "run-held-right-0.jpg",
+      "sha256": "236e14e68656087ad269eb64450a1a7d7258ebce15f8044b63d349954fe390ea",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "captureOrder": 0
+    },
+    {
+      "file": "run-held-right-1.jpg",
+      "sha256": "0d63982050c32f4c70430a99c74905f86c809c51ee3db56606421dd6cebda010",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "captureOrder": 1
+    },
+    {
+      "file": "run-held-right-2.jpg",
+      "sha256": "a3f553042039c65cbf9ba3a7a712604dbcedbf26fb89a61787383aaaee19c644",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "captureOrder": 2
+    },
+    {
+      "file": "run-held-right-3.jpg",
+      "sha256": "15a3dfe277d425f398902d05c60d54fa3864c5d761c984aae281d45f72232503",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "captureOrder": 3
+    },
+    {
+      "file": "run-held-up-0.jpg",
+      "sha256": "9fc6667e731d93073454c2d08a5831e61754dd24c27b649dc33b84c07c64d3ab",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "captureOrder": 0
+    },
+    {
+      "file": "run-held-up-1.jpg",
+      "sha256": "1738f3975318e8aee3bd23f8800a318ed8b54458bb10f1d39cdadaa116f663f8",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "captureOrder": 1
+    },
+    {
+      "file": "run-held-up-2.jpg",
+      "sha256": "d6aecd8d3e36e0c99d6a1e773d9f47a2e2c7e7145bccab95f5e3b03f22bc5d2d",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "captureOrder": 2
+    },
+    {
+      "file": "run-held-up-3.jpg",
+      "sha256": "58dd1d89d559872dd3fbcc52bf0fa5b3421eaf6d62311ee660a2b372e39e5baa",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "captureOrder": 3
+    },
+    {
+      "file": "run-held-left-0.jpg",
+      "sha256": "d8b5f7e34422533b3e2afc79c1b330a561b6589eef0bef60c5989bcd579d5c76",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "captureOrder": 0
+    },
+    {
+      "file": "run-held-left-1.jpg",
+      "sha256": "c5b70c1822f9957b0c3a1835ff972ed81573d3c4034b435f9db42634f079f97c",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "captureOrder": 1
+    },
+    {
+      "file": "run-held-left-2.jpg",
+      "sha256": "da15d0e67bfe60601efd05069330d4518d79b3340c59f5c7e213457112bde137",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "captureOrder": 2
+    },
+    {
+      "file": "run-held-left-3.jpg",
+      "sha256": "4e339d88c9263fa3ba53359bad5fca01623d1de4cbb1a6ea582c951392e61011",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "captureOrder": 3
+    }
+  ]
+}

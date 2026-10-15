@@ -1,0 +1,467 @@
+{
+  "status": "draft",
+  "uniformFineScale": 0.10625,
+  "headRGBAResize": false,
+  "poses": [
+    {
+      "gender": "male",
+      "dir": "down",
+      "source": "game/assets/canonical-idle-v2/male-down-fine.png",
+      "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-down-native-run0-head-fine.png",
+      "delta": [
+        0,
+        4
+      ],
+      "targetNeck": [
+        48,
+        65
+      ],
+      "authoredRemovalPolygon": [
+        [
+          0,
+          0
+        ],
+        [
+          96,
+          0
+        ],
+        [
+          96,
+          63
+        ],
+        [
+          60,
+          63
+        ],
+        [
+          55,
+          67
+        ],
+        [
+          42,
+          67
+        ],
+        [
+          35,
+          62
+        ],
+        [
+          0,
+          62
+        ]
+      ],
+      "removed": 1904,
+      "top": 15,
+      "bottom": 125,
+      "height": 111,
+      "bodyChangesBelow80": 0
+    },
+    {
+      "gender": "male",
+      "dir": "right",
+      "source": "game/assets/canonical-idle-v2/male-right-fine.png",
+      "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-right-native-run0-head-fine.png",
+      "delta": [
+        -4,
+        3
+      ],
+      "targetNeck": [
+        51,
+        63
+      ],
+      "authoredRemovalPolygon": [
+        [
+          0,
+          0
+        ],
+        [
+          96,
+          0
+        ],
+        [
+          96,
+          66
+        ],
+        [
+          60,
+          66
+        ],
+        [
+          56,
+          64
+        ],
+        [
+          52,
+          65
+        ],
+        [
+          44,
+          60
+        ],
+        [
+          0,
+          59
+        ]
+      ],
+      "removed": 1900,
+      "top": 14,
+      "bottom": 125,
+      "height": 112,
+      "bodyChangesBelow80": 0
+    },
+    {
+      "gender": "male",
+      "dir": "up",
+      "source": "game/assets/canonical-idle-v2/male-up-fine.png",
+      "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-up-native-run0-head-fine.png",
+      "delta": [
+        0,
+        3
+      ],
+      "targetNeck": [
+        48,
+        61
+      ],
+      "authoredRemovalPolygon": [
+        [
+          0,
+          0
+        ],
+        [
+          96,
+          0
+        ],
+        [
+          96,
+          60
+        ],
+        [
+          64,
+          60
+        ],
+        [
+          58,
+          62
+        ],
+        [
+          40,
+          62
+        ],
+        [
+          32,
+          59
+        ],
+        [
+          0,
+          59
+        ]
+      ],
+      "removed": 1680,
+      "top": 14,
+      "bottom": 125,
+      "height": 112,
+      "bodyChangesBelow80": 0
+    },
+    {
+      "gender": "male",
+      "dir": "left",
+      "source": "game/assets/canonical-idle-v2/male-left-fine.png",
+      "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-left-native-run0-head-fine.png",
+      "delta": [
+        1,
+        3
+      ],
+      "targetNeck": [
+        41,
+        64
+      ],
+      "authoredRemovalPolygon": [
+        [
+          0,
+          0
+        ],
+        [
+          96,
+          0
+        ],
+        [
+          96,
+          60
+        ],
+        [
+          49,
+          60
+        ],
+        [
+          44,
+          65
+        ],
+        [
+          37,
+          65
+        ],
+        [
+          31,
+          63
+        ],
+        [
+          0,
+          63
+        ]
+      ],
+      "removed": 1770,
+      "top": 15,
+      "bottom": 125,
+      "height": 111,
+      "bodyChangesBelow80": 0
+    },
+    {
+      "gender": "female",
+      "dir": "down",
+      "source": "game/assets/canonical-idle-v2/female-down-fine.png",
+      "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-down-native-run0-head-fine.png",
+      "delta": [
+        0,
+        10
+      ],
+      "targetNeck": [
+        48,
+        71
+      ],
+      "authoredRemovalPolygon": [
+        [
+          0,
+          0
+        ],
+        [
+          96,
+          0
+        ],
+        [
+          96,
+          75
+        ],
+        [
+          67,
+          75
+        ],
+        [
+          60,
+          72
+        ],
+        [
+          56,
+          72
+        ],
+        [
+          53,
+          74
+        ],
+        [
+          42,
+          74
+        ],
+        [
+          38,
+          71
+        ],
+        [
+          29,
+          76
+        ],
+        [
+          0,
+          76
+        ]
+      ],
+      "removed": 2031,
+      "top": 21,
+      "bottom": 125,
+      "height": 105,
+      "bodyChangesBelow80": 0
+    },
+    {
+      "gender": "female",
+      "dir": "right",
+      "source": "game/assets/canonical-idle-v2/female-right-fine.png",
+      "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-right-native-run0-head-fine.png",
+      "delta": [
+        -7,
+        6
+      ],
+      "targetNeck": [
+        48,
+        66
+      ],
+      "authoredRemovalPolygon": [
+        [
+          0,
+          0
+        ],
+        [
+          96,
+          0
+        ],
+        [
+          96,
+          67
+        ],
+        [
+          60,
+          67
+        ],
+        [
+          56,
+          68
+        ],
+        [
+          50,
+          67
+        ],
+        [
+          46,
+          64
+        ],
+        [
+          43,
+          69
+        ],
+        [
+          37,
+          77
+        ],
+        [
+          0,
+          77
+        ]
+      ],
+      "removed": 1592,
+      "top": 17,
+      "bottom": 125,
+      "height": 109,
+      "bodyChangesBelow80": 0
+    },
+    {
+      "gender": "female",
+      "dir": "up",
+      "source": "game/assets/canonical-idle-v2/female-up-fine.png",
+      "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-up-native-run0-head-fine.png",
+      "delta": [
+        1,
+        12
+      ],
+      "targetNeck": [
+        49,
+        70
+      ],
+      "authoredRemovalPolygon": [
+        [
+          0,
+          0
+        ],
+        [
+          96,
+          0
+        ],
+        [
+          96,
+          73
+        ],
+        [
+          66,
+          73
+        ],
+        [
+          60,
+          71
+        ],
+        [
+          54,
+          73
+        ],
+        [
+          43,
+          73
+        ],
+        [
+          34,
+          72
+        ],
+        [
+          0,
+          74
+        ]
+      ],
+      "removed": 1730,
+      "top": 23,
+      "bottom": 125,
+      "height": 103,
+      "bodyChangesBelow80": 0
+    },
+    {
+      "gender": "female",
+      "dir": "left",
+      "source": "game/assets/canonical-idle-v2/female-left-fine.png",
+      "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-left-native-run0-head-fine.png",
+      "delta": [
+        4,
+        3
+      ],
+      "targetNeck": [
+        44,
+        64
+      ],
+      "authoredRemovalPolygon": [
+        [
+          0,
+          0
+        ],
+        [
+          96,
+          0
+        ],
+        [
+          96,
+          70
+        ],
+        [
+          68,
+          70
+        ],
+        [
+          60,
+          68
+        ],
+        [
+          52,
+          64
+        ],
+        [
+          48,
+          65
+        ],
+        [
+          44,
+          67
+        ],
+        [
+          37,
+          66
+        ],
+        [
+          30,
+          64
+        ],
+        [
+          0,
+          63
+        ]
+      ],
+      "removed": 1665,
+      "top": 15,
+      "bottom": 125,
+      "height": 111,
+      "bodyChangesBelow80": 0
+    }
+  ]
+}

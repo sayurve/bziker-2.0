@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "tests_run": 10,
+  "command": "python3 -m unittest discover -s tests -p test_materials.py",
+  "observed_output": "..........\n----------------------------------------------------------------------\nRan 10 tests in 1.306s\n\nOK\n",
+  "coverage": [
+    "byte preservation",
+    "no source hardlinks",
+    "no overwrites",
+    "source symlink rejection",
+    "database, credentials, logs and cache exclusion",
+    "manifest traversal rejection",
+    "nested destination rejection",
+    "corruption detection",
+    "source changes",
+    "unexpected library files",
+    "unexpected draft files",
+    "standalone verification without original"
+  ],
+  "scope": "Temporary fixtures; separate full-library verification is materials-verification.json",
+  "returncode": 0
+}

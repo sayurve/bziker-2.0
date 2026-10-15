@@ -1,0 +1,40 @@
+{
+  "status": "resolved independently on current frozen world",
+  "worldSha": "a94b566cde2bede8e931bfcbfd10886312d96f1bfb7cd9bd9cb96dde403a692b",
+  "sourceActorsSha": "a101e25573dd30747c40477e738ce5eb40857f7881cff9a7c48338f4795cb071",
+  "before": {
+    "beforeVisible": false,
+    "newDayVisible": true,
+    "latePreviousDayActionAccepted": true,
+    "afterLateActionExpiredVisible": false,
+    "expectedAfterLateActionExpiredVisible": true
+  },
+  "after": {
+    "beforeVisible": false,
+    "newDayVisible": true,
+    "latePreviousDayActionAccepted": false,
+    "afterLateActionExpiredVisible": true,
+    "expectedAfterLateActionExpiredVisible": true
+  },
+  "focusedTests": {
+    "pass": 7,
+    "fail": 0,
+    "skipped": 0,
+    "exitCode": 0,
+    "log": "pickup-independent-node-v31-after-fix.log",
+    "sha256": "25b42fa8854494bfa02333fac8956ce61d9a809dab4bb68d7b682e052ccc46f9"
+  },
+  "serverTests": {
+    "pass": 5,
+    "fail": 0,
+    "exitCode": 0,
+    "log": "collected-litter-independent-server-v31.log",
+    "sha256": "8a5faec0d6d32349d35a108052cecc4e22d0d7f13147536acf0f706595a089b9"
+  },
+  "remainingConfirmedFindings": [],
+  "limits": [
+    "Reviewed ONE preset actual UI at prior eaa923; current a94b change is stale-response guard only.",
+    "No new independent browser interaction or physical-phone test.",
+    "No claim of all actions/presets/game acceptance."
+  ]
+}

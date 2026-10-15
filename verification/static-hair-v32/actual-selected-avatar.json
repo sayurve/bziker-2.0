@@ -1,0 +1,17 @@
+{
+  "source": "separate local QA clone only; UI independently shows Женский / Хвост / Белый",
+  "avatar": {
+    "gender": 1,
+    "skin": 7,
+    "hairStyle": 7,
+    "hairColor": 6,
+    "shirtStyle": 2,
+    "shirtColor": 8,
+    "pantsStyle": 0,
+    "pantsColor": 1,
+    "accessory": 0,
+    "shoesColor": 0,
+    "outfit": 0,
+    "headwear": 0
+  }
+}

@@ -1,0 +1,78 @@
+✖ both actual palm strokes contact a real native animal head in all20 breeds without stretching or lifting the whole pet (0.939458ms)
+✖ contact is scoped to its actual target, approaches/withdraws continuously and reduced motion holds one native reaction (0.139833ms)
+✖ finite pet frame override never changes normal animal gait or accepts invalid contact phases (0.405209ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 0
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 324.430916
+
+✖ failing tests:
+
+test at game/tests/pet-contact-v31.test.mjs:2:1
+✖ both actual palm strokes contact a real native animal head in all20 breeds without stretching or lifting the whole pet (0.939458ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/pet-contact-v31.test.mjs:2:139)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at game/tests/pet-contact-v31.test.mjs:3:1
+✖ contact is scoped to its actual target, approaches/withdraws continuously and reduced motion holds one native reaction (0.139833ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'undefined'
+  - 'function'
+  
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/pet-contact-v31.test.mjs:3:139)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined',
+    expected: 'function',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at game/tests/pet-contact-v31.test.mjs:4:1
+✖ finite pet frame override never changes normal animal gait or accepts invalid contact phases (0.405209ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/pet-contact-v31.test.mjs:4:601)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

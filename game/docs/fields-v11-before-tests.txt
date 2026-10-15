@@ -1,0 +1,49 @@
+✖ open fields have 250–400 additional varied trees across every large map sector (0.917458ms)
+✔ the complete new crowns and shadows remain outside all roads and their shoulders and every house entrance (0.124667ms)
+✔ field trees leave buildings, existing trees, lamps, bins and usable activity areas unobscured (0.084041ms)
+✔ tree groups stay inside dry map land with open grass between the complete silhouettes (0.119125ms)
+✖ new flower planters use supported cached sprites beside clear pedestrian routes (0.213458ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 3
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 72.191208
+
+✖ failing tests:
+
+test at tests/field-trees-v11.test.mjs:41:1
+✖ open fields have 250–400 additional varied trees across every large map sector (0.917458ms)
+  AssertionError [ERR_ASSERTION]: Expected 250–400 new field trees, found 0
+      at TestContext.<anonymous> (file://$LOCAL_WORKSPACE/.codex/worktrees/bziker-game/%D0%9A%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82/output/bziker/tests/field-trees-v11.test.mjs:42:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/field-trees-v11.test.mjs:63:1
+✖ new flower planters use supported cached sprites beside clear pedestrian routes (0.213458ms)
+  AssertionError [ERR_ASSERTION]: Expected 8–16 flower planters, found 0
+      at TestContext.<anonymous> (file://$LOCAL_WORKSPACE/.codex/worktrees/bziker-game/%D0%9A%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82/output/bziker/tests/field-trees-v11.test.mjs:65:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

@@ -1,0 +1,358 @@
+{
+  "cases": 384,
+  "disconnected": 82,
+  "first": [
+    {
+      "gender": 0,
+      "facing": "up",
+      "phase": 0,
+      "hairStyle": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36,
+        "eyeAnchor": [
+          24,
+          19.5
+        ],
+        "eyeLine": 19.5,
+        "neckAnchor": [
+          24,
+          29
+        ],
+        "facePolygon": [],
+        "portraitChin": 30
+      },
+      "components": [
+        {
+          "size": 1164,
+          "bounds": [
+            29,
+            7,
+            66,
+            48
+          ]
+        },
+        {
+          "size": 2719,
+          "bounds": [
+            18,
+            39,
+            76,
+            125
+          ]
+        }
+      ],
+      "detached": true
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "phase": 0,
+      "hairStyle": 3,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36,
+        "eyeAnchor": [
+          24,
+          19.5
+        ],
+        "eyeLine": 19.5,
+        "neckAnchor": [
+          24,
+          29
+        ],
+        "facePolygon": [],
+        "portraitChin": 30
+      },
+      "components": [
+        {
+          "size": 1120,
+          "bounds": [
+            29,
+            5,
+            64,
+            48
+          ]
+        },
+        {
+          "size": 2719,
+          "bounds": [
+            18,
+            39,
+            76,
+            125
+          ]
+        }
+      ],
+      "detached": true
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "phase": 0,
+      "hairStyle": 7,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36,
+        "eyeAnchor": [
+          24,
+          19.5
+        ],
+        "eyeLine": 19.5,
+        "neckAnchor": [
+          24,
+          29
+        ],
+        "facePolygon": [],
+        "portraitChin": 30
+      },
+      "components": [
+        {
+          "size": 1144,
+          "bounds": [
+            29,
+            7,
+            64,
+            48
+          ]
+        },
+        {
+          "size": 2719,
+          "bounds": [
+            18,
+            39,
+            76,
+            125
+          ]
+        }
+      ],
+      "detached": true
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "phase": 0,
+      "hairStyle": 8,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36,
+        "eyeAnchor": [
+          24,
+          19.5
+        ],
+        "eyeLine": 19.5,
+        "neckAnchor": [
+          24,
+          29
+        ],
+        "facePolygon": [],
+        "portraitChin": 30
+      },
+      "components": [
+        {
+          "size": 1136,
+          "bounds": [
+            29,
+            5,
+            64,
+            48
+          ]
+        },
+        {
+          "size": 2719,
+          "bounds": [
+            18,
+            39,
+            76,
+            125
+          ]
+        }
+      ],
+      "detached": true
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "phase": 0,
+      "hairStyle": 10,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36,
+        "eyeAnchor": [
+          24,
+          19.5
+        ],
+        "eyeLine": 19.5,
+        "neckAnchor": [
+          24,
+          29
+        ],
+        "facePolygon": [],
+        "portraitChin": 30
+      },
+      "components": [
+        {
+          "size": 1268,
+          "bounds": [
+            25,
+            7,
+            68,
+            48
+          ]
+        },
+        {
+          "size": 2719,
+          "bounds": [
+            18,
+            39,
+            76,
+            125
+          ]
+        }
+      ],
+      "detached": true
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "phase": 1,
+      "hairStyle": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36,
+        "eyeAnchor": [
+          24,
+          19.5
+        ],
+        "eyeLine": 19.5,
+        "neckAnchor": [
+          24,
+          29
+        ],
+        "facePolygon": [],
+        "portraitChin": 30
+      },
+      "components": [
+        {
+          "size": 1164,
+          "bounds": [
+            29,
+            7,
+            66,
+            48
+          ]
+        },
+        {
+          "size": 2661,
+          "bounds": [
+            19,
+            39,
+            75,
+            125
+          ]
+        }
+      ],
+      "detached": true
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "phase": 1,
+      "hairStyle": 3,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36,
+        "eyeAnchor": [
+          24,
+          19.5
+        ],
+        "eyeLine": 19.5,
+        "neckAnchor": [
+          24,
+          29
+        ],
+        "facePolygon": [],
+        "portraitChin": 30
+      },
+      "components": [
+        {
+          "size": 1120,
+          "bounds": [
+            29,
+            5,
+            64,
+            48
+          ]
+        },
+        {
+          "size": 2661,
+          "bounds": [
+            19,
+            39,
+            75,
+            125
+          ]
+        }
+      ],
+      "detached": true
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "phase": 1,
+      "hairStyle": 7,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36,
+        "eyeAnchor": [
+          24,
+          19.5
+        ],
+        "eyeLine": 19.5,
+        "neckAnchor": [
+          24,
+          29
+        ],
+        "facePolygon": [],
+        "portraitChin": 30
+      },
+      "components": [
+        {
+          "size": 1144,
+          "bounds": [
+            29,
+            7,
+            64,
+            48
+          ]
+        },
+        {
+          "size": 2661,
+          "bounds": [
+            19,
+            39,
+            75,
+            125
+          ]
+        }
+      ],
+      "detached": true
+    }
+  ]
+}

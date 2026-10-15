@@ -1,0 +1,4694 @@
+{
+  "C": [
+    {
+      "direction": "down",
+      "frames": [
+        {
+          "page": 0,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 9,
+            "bottom": 35,
+            "left": 12,
+            "right": 35,
+            "portraitChin": 36,
+            "eyeAnchor": [
+              24,
+              27.900000000000002
+            ],
+            "eyeLine": 27.900000000000002,
+            "neckAnchor": [
+              24,
+              34.5
+            ],
+            "facePolygon": [
+              [
+                16.425,
+                22.875000000000004
+              ],
+              [
+                18.375,
+                22.800000000000004
+              ],
+              [
+                22.2,
+                21.750000000000004
+              ],
+              [
+                26.025000000000002,
+                20.625000000000004
+              ],
+              [
+                29.1,
+                19.050000000000004
+              ],
+              [
+                30.150000000000002,
+                22.800000000000004
+              ],
+              [
+                30.375,
+                25.200000000000003
+              ],
+              [
+                32.55,
+                25.050000000000004
+              ],
+              [
+                33.825,
+                27.300000000000004
+              ],
+              [
+                32.85,
+                29.250000000000004
+              ],
+              [
+                31.125,
+                30.675000000000004
+              ],
+              [
+                30.150000000000002,
+                32.400000000000006
+              ],
+              [
+                27.825,
+                33.975
+              ],
+              [
+                25.05,
+                34.875
+              ],
+              [
+                22.575,
+                34.875
+              ],
+              [
+                20.025000000000002,
+                33.975
+              ],
+              [
+                18.450000000000003,
+                32.550000000000004
+              ],
+              [
+                16.950000000000003,
+                30.675000000000004
+              ],
+              [
+                15.9,
+                28.950000000000003
+              ],
+              [
+                14.175,
+                29.025000000000002
+              ],
+              [
+                13.8,
+                27.975
+              ],
+              [
+                13.950000000000001,
+                25.275000000000002
+              ],
+              [
+                15.3,
+                24.750000000000004
+              ],
+              [
+                16.5,
+                25.500000000000004
+              ]
+            ],
+            "scalpPolygon": [
+              [
+                13.350000000000001,
+                15.300000000000004
+              ],
+              [
+                17.925,
+                10.725000000000003
+              ],
+              [
+                24.075,
+                9.900000000000004
+              ],
+              [
+                29.925,
+                12.075000000000005
+              ],
+              [
+                34.275,
+                16.800000000000004
+              ],
+              [
+                35.025,
+                22.725000000000005
+              ],
+              [
+                32.55,
+                24.825000000000003
+              ],
+              [
+                30.525000000000002,
+                25.125000000000004
+              ],
+              [
+                30.075,
+                22.725000000000005
+              ],
+              [
+                29.175,
+                20.175000000000004
+              ],
+              [
+                26.025000000000002,
+                21.525000000000002
+              ],
+              [
+                22.125,
+                23.025000000000002
+              ],
+              [
+                18.525,
+                23.775000000000002
+              ],
+              [
+                16.5,
+                23.325000000000003
+              ],
+              [
+                16.125,
+                25.800000000000004
+              ],
+              [
+                13.950000000000001,
+                24.675000000000004
+              ]
+            ]
+          },
+          "sourceScale": 0.05,
+          "headTranslation": [
+            0,
+            8
+          ],
+          "detail": {
+            "path": "assets/canonical-idle-v2/female-down-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              0,
+              8
+            ],
+            "neckAnchor": [
+              24,
+              34.5
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/down-fine.png"
+          }
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/canonical-idle-v2/female-down.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "c2697cd6e762c1a3dbb1b56a9ef2d20d5d07623432828419333ebdf140132639"
+        }
+      ],
+      "detail_images": [
+        {
+          "path": "assets/canonical-idle-v2/female-down-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "ce97ac5426d74daf57de01b7318a58b8c703a571307a321600e62f5cffda84c9"
+        }
+      ],
+      "provenance": {
+        "gender": "female",
+        "dir": "down",
+        "rawSourcePath": "art/drafts/canonical-idle-v27/female-idle-down.png",
+        "rawSHA256": "a16f39a241d0956401d4eb2dfb0451fbe61e00a72cd467528bd1b63ba8faefbd",
+        "rawDimensions": [
+          1151,
+          1367
+        ],
+        "uniformFineScale": 0.1,
+        "sourceRoot": [
+          575,
+          1243
+        ],
+        "sourceNeck": [
+          575,
+          669
+        ],
+        "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-down-native-run0-head-fine.png",
+        "headTranslation": [
+          0,
+          8
+        ],
+        "top": 19,
+        "bottom": 125,
+        "height": 107,
+        "bodyChangesBelowCollar": 0,
+        "removed": 1704,
+        "headDonor": {
+          "gender": "male",
+          "dir": "down",
+          "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#06_Бег_Спереди",
+          "rect": {
+            "path": "assets/design-actor-detail-base-human-male-1.png",
+            "x": 384,
+            "y": 256,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "sourceAtlasSHA256": "663ad18e9a90e507beed9c85351713ee95e268b4c9c99eca0895aaca14de8b66",
+          "file": "art/drafts/locomotion-v27/shared-head-style-proposal/male-down-native-run0-head-fine.png",
+          "headLayerSHA256": "6caf6f0792eefdc4d364d3b0d0195bfb1659f8f2ea1e02769848b9e3ec04711a",
+          "head": {
+            "top": 5,
+            "bottom": 27,
+            "left": 11,
+            "right": 36,
+            "eyeAnchor": [
+              24,
+              23
+            ],
+            "eyeLine": 23,
+            "neckAnchor": [
+              24,
+              30.5
+            ],
+            "facePolygon": [
+              [
+                14.5,
+                13.5
+              ],
+              [
+                32.5,
+                13.5
+              ],
+              [
+                33,
+                18.5
+              ],
+              [
+                36.5,
+                19.5
+              ],
+              [
+                37,
+                24.5
+              ],
+              [
+                34.5,
+                26
+              ],
+              [
+                31.5,
+                28.5
+              ],
+              [
+                28,
+                31
+              ],
+              [
+                21.5,
+                31
+              ],
+              [
+                18,
+                29
+              ],
+              [
+                15,
+                27
+              ],
+              [
+                11,
+                25.5
+              ],
+              [
+                10.5,
+                20.5
+              ],
+              [
+                14.5,
+                19.5
+              ]
+            ]
+          },
+          "mask": [
+            [
+              17,
+              5
+            ],
+            [
+              80,
+              5
+            ],
+            [
+              80,
+              46
+            ],
+            [
+              73,
+              51
+            ],
+            [
+              67,
+              56
+            ],
+            [
+              59,
+              61
+            ],
+            [
+              52,
+              64
+            ],
+            [
+              44,
+              64
+            ],
+            [
+              37,
+              60
+            ],
+            [
+              29,
+              56
+            ],
+            [
+              22,
+              52
+            ],
+            [
+              17,
+              45
+            ]
+          ]
+        },
+        "canonicalFace": {
+          "gender": "female",
+          "donor": "art/drafts/canonical-face-v29/female-heads-v1/down-fine.png",
+          "sourceSheet": "art/drafts/canonical-face-v29/female-heads-v1/sheet.png",
+          "sourceSHA256": "ab27a43b2f7d69122ad80d2726458e5c738196feee6c7b2c3f19d4aa0345f388",
+          "sourcePrompt": "art/drafts/canonical-face-v29/female-heads-v1/prompt-info.json",
+          "uniformFineScale": 0.15,
+          "alphaExtraction": "art/drafts/canonical-face-v29/female-heads-v1/export-evidence.json",
+          "review": "verification/canonical-female-face-art-review-v29.md"
+        }
+      }
+    },
+    {
+      "direction": "right",
+      "frames": [
+        {
+          "page": 0,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 9,
+            "bottom": 34,
+            "left": 12,
+            "right": 37,
+            "portraitChin": 34.5,
+            "eyeAnchor": [
+              29.4,
+              26.974999999999998
+            ],
+            "eyeLine": 26.974999999999998,
+            "neckAnchor": [
+              25.5,
+              33.5
+            ],
+            "facePolygon": [
+              [
+                27.15,
+                21.65
+              ],
+              [
+                28.724999999999998,
+                20.599999999999998
+              ],
+              [
+                30.974999999999994,
+                19.7
+              ],
+              [
+                32.4,
+                18.349999999999998
+              ],
+              [
+                32.849999999999994,
+                22.325
+              ],
+              [
+                33.375,
+                24.875
+              ],
+              [
+                33.974999999999994,
+                26.825
+              ],
+              [
+                34.65,
+                28.775
+              ],
+              [
+                33.599999999999994,
+                31.025
+              ],
+              [
+                31.724999999999994,
+                32.525
+              ],
+              [
+                30.525,
+                33.65
+              ],
+              [
+                27.9,
+                33.65
+              ],
+              [
+                26.175,
+                32.824999999999996
+              ],
+              [
+                24.9,
+                31.475
+              ],
+              [
+                23.925,
+                30.424999999999997
+              ],
+              [
+                22.349999999999998,
+                29.15
+              ],
+              [
+                21.75,
+                27.2
+              ],
+              [
+                22.5,
+                25.25
+              ],
+              [
+                23.775,
+                25.325
+              ],
+              [
+                24,
+                27.424999999999997
+              ],
+              [
+                25.349999999999998,
+                28.474999999999998
+              ],
+              [
+                25.8,
+                25.925
+              ],
+              [
+                26.55,
+                23.9
+              ]
+            ],
+            "scalpPolygon": [
+              [
+                13.05,
+                16.55
+              ],
+              [
+                17.475,
+                11.975
+              ],
+              [
+                24.45,
+                9.575
+              ],
+              [
+                31.200000000000003,
+                10.475
+              ],
+              [
+                35.775,
+                14.524999999999999
+              ],
+              [
+                36.375,
+                19.4
+              ],
+              [
+                34.05,
+                22.925
+              ],
+              [
+                32.625,
+                24.875
+              ],
+              [
+                32.25,
+                21.275
+              ],
+              [
+                31.049999999999997,
+                19.849999999999998
+              ],
+              [
+                28.8,
+                21.65
+              ],
+              [
+                27.375,
+                23.974999999999998
+              ],
+              [
+                26.099999999999998,
+                26.675
+              ],
+              [
+                25.05,
+                28.7
+              ],
+              [
+                23.7,
+                27.05
+              ],
+              [
+                23.7,
+                25.25
+              ],
+              [
+                22.349999999999998,
+                25.25
+              ],
+              [
+                21.375,
+                27.349999999999998
+              ],
+              [
+                21.825,
+                29.674999999999997
+              ],
+              [
+                18.825,
+                30.349999999999998
+              ],
+              [
+                15.225000000000001,
+                27.275
+              ],
+              [
+                13.35,
+                22.775
+              ]
+            ]
+          },
+          "sourceScale": 0.05,
+          "headTranslation": [
+            -4,
+            7
+          ],
+          "detail": {
+            "path": "assets/canonical-idle-v2/female-right-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              -4,
+              7
+            ],
+            "neckAnchor": [
+              25.5,
+              33.5
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/right-fine.png"
+          }
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/canonical-idle-v2/female-right.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "a686ebbe0620b095c0e9d8e78255317c37818530fc0e98a945130fa9fc5b1c98"
+        }
+      ],
+      "detail_images": [
+        {
+          "path": "assets/canonical-idle-v2/female-right-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "65072cb617b67a35ad12bfebf51ada29d3aa0ff315ba3395ddd60177df2a678e"
+        }
+      ],
+      "provenance": {
+        "gender": "female",
+        "dir": "right",
+        "rawSourcePath": "art/drafts/canonical-idle-v27/female-idle-right.png",
+        "rawSHA256": "50a2f944077b9edb3629ae252acdbe38f771c756c078f7e106841d8e837805ff",
+        "rawDimensions": [
+          1151,
+          1367
+        ],
+        "uniformFineScale": 0.1,
+        "sourceRoot": [
+          575,
+          1253
+        ],
+        "sourceNeck": [
+          603,
+          660
+        ],
+        "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-right-native-run0-head-fine.png",
+        "headTranslation": [
+          -4,
+          7
+        ],
+        "top": 18,
+        "bottom": 125,
+        "height": 108,
+        "bodyChangesBelowCollar": 0,
+        "removed": 1715,
+        "headDonor": {
+          "gender": "male",
+          "dir": "right",
+          "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#07_Бег_Справа",
+          "rect": {
+            "path": "assets/design-actor-detail-base-human-male-1.png",
+            "x": 0,
+            "y": 384,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "sourceAtlasSHA256": "663ad18e9a90e507beed9c85351713ee95e268b4c9c99eca0895aaca14de8b66",
+          "file": "art/drafts/locomotion-v27/shared-head-style-proposal/male-right-native-run0-head-fine.png",
+          "headLayerSHA256": "28d3ee9492fd16959c789e39849c10ff5d0dd0145fb733a14958bda77450839d",
+          "head": {
+            "top": 5,
+            "bottom": 27,
+            "left": 14,
+            "right": 37,
+            "eyeAnchor": [
+              31.5,
+              23.5
+            ],
+            "eyeLine": 23.5,
+            "neckAnchor": [
+              27.5,
+              30
+            ]
+          },
+          "mask": "authored male side curved mask from composition-evidence.json"
+        },
+        "canonicalFace": {
+          "gender": "female",
+          "donor": "art/drafts/canonical-face-v29/female-heads-v1/right-fine.png",
+          "sourceSheet": "art/drafts/canonical-face-v29/female-heads-v1/sheet.png",
+          "sourceSHA256": "ab27a43b2f7d69122ad80d2726458e5c738196feee6c7b2c3f19d4aa0345f388",
+          "sourcePrompt": "art/drafts/canonical-face-v29/female-heads-v1/prompt-info.json",
+          "uniformFineScale": 0.15,
+          "alphaExtraction": "art/drafts/canonical-face-v29/female-heads-v1/export-evidence.json",
+          "review": "verification/canonical-female-face-art-review-v29.md"
+        }
+      }
+    },
+    {
+      "direction": "up",
+      "frames": [
+        {
+          "page": 0,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 9,
+            "bottom": 33,
+            "left": 12,
+            "right": 36,
+            "portraitChin": 33.5,
+            "eyeAnchor": [
+              24,
+              23.049999999999997
+            ],
+            "eyeLine": 23.049999999999997,
+            "neckAnchor": [
+              24,
+              32.5
+            ],
+            "facePolygon": [],
+            "scalpPolygon": [
+              [
+                13.125000000000002,
+                15.325
+              ],
+              [
+                16.425,
+                10.974999999999998
+              ],
+              [
+                23.625,
+                9.549999999999999
+              ],
+              [
+                30.525000000000002,
+                11.124999999999998
+              ],
+              [
+                34.575,
+                15.474999999999998
+              ],
+              [
+                35.4,
+                23.799999999999997
+              ],
+              [
+                33.525,
+                28.824999999999996
+              ],
+              [
+                28.95,
+                31.674999999999997
+              ],
+              [
+                23.775000000000002,
+                32.425
+              ],
+              [
+                18.525,
+                31
+              ],
+              [
+                14.850000000000001,
+                28.599999999999998
+              ],
+              [
+                13.125000000000002,
+                23.65
+              ]
+            ]
+          },
+          "sourceScale": 0.05,
+          "headTranslation": [
+            0,
+            7
+          ],
+          "detail": {
+            "path": "assets/canonical-idle-v2/female-up-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              0,
+              7
+            ],
+            "neckAnchor": [
+              24,
+              32.5
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/up-fine.png"
+          }
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/canonical-idle-v2/female-up.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "5c7db4506f4274eb957c83026304b0d5b90a170a4aa3934fe1d481f2d1a91ab0"
+        }
+      ],
+      "detail_images": [
+        {
+          "path": "assets/canonical-idle-v2/female-up-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "0c070e07cc71a626ed41bc4207b5d5122989c434bbf1abc8f8259b2dcae1d99d"
+        }
+      ],
+      "provenance": {
+        "gender": "female",
+        "dir": "up",
+        "rawSourcePath": "art/drafts/canonical-idle-v27/female-idle-up.png",
+        "rawSHA256": "5b08b2f912a3c4e303e5a1ec682bd32320979fc19225577ab9a50b9598710702",
+        "rawDimensions": [
+          1085,
+          1450
+        ],
+        "uniformFineScale": 0.1,
+        "sourceRoot": [
+          542,
+          1299
+        ],
+        "sourceNeck": [
+          542,
+          687
+        ],
+        "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-up-native-run0-head-fine.png",
+        "headTranslation": [
+          0,
+          7
+        ],
+        "top": 18,
+        "bottom": 125,
+        "height": 108,
+        "bodyChangesBelowCollar": 0,
+        "removed": 1506,
+        "headDonor": {
+          "gender": "male",
+          "dir": "up",
+          "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#08_Бег_Сзади",
+          "rect": {
+            "path": "assets/design-actor-detail-base-human-male-1.png",
+            "x": 384,
+            "y": 384,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "sourceAtlasSHA256": "663ad18e9a90e507beed9c85351713ee95e268b4c9c99eca0895aaca14de8b66",
+          "file": "art/drafts/locomotion-v27/shared-head-style-proposal/male-up-native-run0-head-fine.png",
+          "headLayerSHA256": "a91ac1adc6c06308aa7161e3a86850c72bf9d8ccbb72f67d3225a40f01476786",
+          "head": {
+            "top": 5,
+            "bottom": 27,
+            "left": 12,
+            "right": 36,
+            "eyeAnchor": [
+              24,
+              19.5
+            ],
+            "eyeLine": 19.5,
+            "neckAnchor": [
+              24,
+              29
+            ],
+            "facePolygon": []
+          },
+          "mask": [
+            [
+              19,
+              5
+            ],
+            [
+              80,
+              5
+            ],
+            [
+              80,
+              44
+            ],
+            [
+              72,
+              50
+            ],
+            [
+              65,
+              55
+            ],
+            [
+              56,
+              59
+            ],
+            [
+              40,
+              59
+            ],
+            [
+              32,
+              56
+            ],
+            [
+              24,
+              51
+            ],
+            [
+              19,
+              45
+            ]
+          ]
+        },
+        "canonicalFace": {
+          "gender": "female",
+          "donor": "art/drafts/canonical-face-v29/female-heads-v1/up-fine.png",
+          "sourceSheet": "art/drafts/canonical-face-v29/female-heads-v1/sheet.png",
+          "sourceSHA256": "ab27a43b2f7d69122ad80d2726458e5c738196feee6c7b2c3f19d4aa0345f388",
+          "sourcePrompt": "art/drafts/canonical-face-v29/female-heads-v1/prompt-info.json",
+          "uniformFineScale": 0.15,
+          "alphaExtraction": "art/drafts/canonical-face-v29/female-heads-v1/export-evidence.json",
+          "review": "verification/canonical-female-face-art-review-v29.md"
+        }
+      }
+    },
+    {
+      "direction": "left",
+      "frames": [
+        {
+          "page": 0,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 9,
+            "bottom": 34,
+            "left": 6,
+            "right": 31,
+            "portraitChin": 35.5,
+            "eyeAnchor": [
+              14.049999999999999,
+              27.549999999999997
+            ],
+            "eyeLine": 27.549999999999997,
+            "neckAnchor": [
+              20.5,
+              34
+            ],
+            "facePolygon": [
+              [
+                11.575,
+                20.575
+              ],
+              [
+                13.6,
+                19.599999999999998
+              ],
+              [
+                14.799999999999999,
+                20.874999999999996
+              ],
+              [
+                16.224999999999998,
+                22.45
+              ],
+              [
+                17.349999999999998,
+                24.174999999999997
+              ],
+              [
+                17.65,
+                26.124999999999996
+              ],
+              [
+                18.325,
+                27.025
+              ],
+              [
+                20.05,
+                25.825
+              ],
+              [
+                21.25,
+                26.575
+              ],
+              [
+                21.4,
+                28.749999999999996
+              ],
+              [
+                20.349999999999998,
+                30.099999999999998
+              ],
+              [
+                18.775,
+                30.924999999999997
+              ],
+              [
+                17.125,
+                32.199999999999996
+              ],
+              [
+                15.7,
+                33.775
+              ],
+              [
+                13.6,
+                33.775
+              ],
+              [
+                12.174999999999999,
+                32.724999999999994
+              ],
+              [
+                10.75,
+                31.299999999999997
+              ],
+              [
+                9.174999999999999,
+                30.174999999999997
+              ],
+              [
+                8.799999999999999,
+                28.674999999999997
+              ],
+              [
+                9.625,
+                27.099999999999998
+              ],
+              [
+                10.975,
+                25.9
+              ]
+            ],
+            "scalpPolygon": [
+              [
+                7.75,
+                16.825
+              ],
+              [
+                12.25,
+                11.949999999999998
+              ],
+              [
+                19.075,
+                10.224999999999998
+              ],
+              [
+                25.9,
+                11.949999999999998
+              ],
+              [
+                29.799999999999997,
+                16.525
+              ],
+              [
+                30.625,
+                23.124999999999996
+              ],
+              [
+                28.599999999999998,
+                27.999999999999996
+              ],
+              [
+                24.325,
+                31.074999999999996
+              ],
+              [
+                21.025,
+                31.599999999999994
+              ],
+              [
+                20.724999999999998,
+                29.275
+              ],
+              [
+                21.25,
+                27.174999999999997
+              ],
+              [
+                20.05,
+                25.9
+              ],
+              [
+                18.25,
+                26.95
+              ],
+              [
+                17.275,
+                25.224999999999998
+              ],
+              [
+                16.3,
+                22.674999999999997
+              ],
+              [
+                14.649999999999999,
+                20.874999999999996
+              ],
+              [
+                13.525,
+                19.9
+              ],
+              [
+                11.5,
+                21.549999999999997
+              ],
+              [
+                10.225,
+                24.249999999999996
+              ],
+              [
+                8.799999999999999,
+                25.674999999999997
+              ]
+            ]
+          },
+          "sourceScale": 0.05,
+          "headTranslation": [
+            1,
+            7
+          ],
+          "detail": {
+            "path": "assets/canonical-idle-v2/female-left-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              1,
+              7
+            ],
+            "neckAnchor": [
+              20.5,
+              34
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/left-fine.png"
+          }
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/canonical-idle-v2/female-left.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "7aa2e2e70f7f61b216a0009052b4e386c390c192808cce6ecdeedb43401480d3"
+        }
+      ],
+      "detail_images": [
+        {
+          "path": "assets/canonical-idle-v2/female-left-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "889b4780df2c230419b85674c3ee76a2f869b73a7eb5e5d870d5703807143d21"
+        }
+      ],
+      "provenance": {
+        "gender": "female",
+        "dir": "left",
+        "rawSourcePath": "art/drafts/canonical-idle-v27/female-idle-left.png",
+        "rawSHA256": "6dbac045d0a11e0c33cbe4f9ecefc7436ba718de27cb4cb5fbea046fc07321a1",
+        "rawDimensions": [
+          1150,
+          1367
+        ],
+        "uniformFineScale": 0.1,
+        "sourceRoot": [
+          575,
+          1229
+        ],
+        "sourceNeck": [
+          509,
+          651
+        ],
+        "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-left-native-run0-head-fine.png",
+        "headTranslation": [
+          1,
+          7
+        ],
+        "top": 19,
+        "bottom": 125,
+        "height": 107,
+        "bodyChangesBelowCollar": 0,
+        "removed": 1542,
+        "headDonor": {
+          "gender": "male",
+          "dir": "left",
+          "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#09_Бег_Слева",
+          "rect": {
+            "path": "assets/design-actor-detail-base-human-male-1.png",
+            "x": 0,
+            "y": 512,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "sourceAtlasSHA256": "663ad18e9a90e507beed9c85351713ee95e268b4c9c99eca0895aaca14de8b66",
+          "file": "art/drafts/locomotion-v27/shared-head-style-proposal/male-left-native-run0-head-fine.png",
+          "headLayerSHA256": "808c31b3f5e25b41a95be00ba614066ddc946dd5cc1802c382dbab3de8e9d022",
+          "head": {
+            "top": 6,
+            "bottom": 28,
+            "left": 10,
+            "right": 31,
+            "eyeAnchor": [
+              13.5,
+              24
+            ],
+            "eyeLine": 24,
+            "neckAnchor": [
+              20,
+              30.5
+            ]
+          },
+          "mask": "authored male side curved mask from composition-evidence.json"
+        },
+        "canonicalFace": {
+          "gender": "female",
+          "donor": "art/drafts/canonical-face-v29/female-heads-v1/left-fine.png",
+          "sourceSheet": "art/drafts/canonical-face-v29/female-heads-v1/sheet.png",
+          "sourceSHA256": "ab27a43b2f7d69122ad80d2726458e5c738196feee6c7b2c3f19d4aa0345f388",
+          "sourcePrompt": "art/drafts/canonical-face-v29/female-heads-v1/prompt-info.json",
+          "uniformFineScale": 0.15,
+          "alphaExtraction": "art/drafts/canonical-face-v29/female-heads-v1/export-evidence.json",
+          "review": "verification/canonical-female-face-art-review-v29.md"
+        }
+      }
+    }
+  ],
+  "Lkeys": [
+    "status",
+    "mode",
+    "scope",
+    "editableMaster",
+    "wardrobeApproval",
+    "artReview",
+    "images",
+    "detail_images",
+    "run",
+    "provenance"
+  ],
+  "L": [
+    {
+      "direction": "right",
+      "frames": [
+        {
+          "page": 0,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 8,
+            "bottom": 32,
+            "left": 14,
+            "right": 39,
+            "portraitChin": 33,
+            "eyeAnchor": [
+              31.4,
+              25.474999999999998
+            ],
+            "eyeLine": 25.474999999999998,
+            "neckAnchor": [
+              27.5,
+              32
+            ],
+            "facePolygon": [
+              [
+                29.15,
+                20.15
+              ],
+              [
+                30.724999999999998,
+                19.099999999999998
+              ],
+              [
+                32.974999999999994,
+                18.2
+              ],
+              [
+                34.4,
+                16.849999999999998
+              ],
+              [
+                34.849999999999994,
+                20.825
+              ],
+              [
+                35.375,
+                23.375
+              ],
+              [
+                35.974999999999994,
+                25.325
+              ],
+              [
+                36.65,
+                27.275
+              ],
+              [
+                35.599999999999994,
+                29.525
+              ],
+              [
+                33.724999999999994,
+                31.025
+              ],
+              [
+                32.525,
+                32.15
+              ],
+              [
+                29.9,
+                32.15
+              ],
+              [
+                28.175,
+                31.324999999999996
+              ],
+              [
+                26.9,
+                29.975
+              ],
+              [
+                25.925,
+                28.924999999999997
+              ],
+              [
+                24.349999999999998,
+                27.65
+              ],
+              [
+                23.75,
+                25.7
+              ],
+              [
+                24.5,
+                23.75
+              ],
+              [
+                25.775,
+                23.825
+              ],
+              [
+                26,
+                25.924999999999997
+              ],
+              [
+                27.349999999999998,
+                26.974999999999998
+              ],
+              [
+                27.8,
+                24.425
+              ],
+              [
+                28.55,
+                22.4
+              ]
+            ],
+            "scalpPolygon": [
+              [
+                15.05,
+                15.05
+              ],
+              [
+                19.475,
+                10.475
+              ],
+              [
+                26.45,
+                8.075
+              ],
+              [
+                33.2,
+                8.975
+              ],
+              [
+                37.775,
+                13.024999999999999
+              ],
+              [
+                38.375,
+                17.9
+              ],
+              [
+                36.05,
+                21.425
+              ],
+              [
+                34.625,
+                23.375
+              ],
+              [
+                34.25,
+                19.775
+              ],
+              [
+                33.05,
+                18.349999999999998
+              ],
+              [
+                30.8,
+                20.15
+              ],
+              [
+                29.375,
+                22.474999999999998
+              ],
+              [
+                28.099999999999998,
+                25.175
+              ],
+              [
+                27.05,
+                27.2
+              ],
+              [
+                25.7,
+                25.55
+              ],
+              [
+                25.7,
+                23.75
+              ],
+              [
+                24.349999999999998,
+                23.75
+              ],
+              [
+                23.375,
+                25.849999999999998
+              ],
+              [
+                23.825,
+                28.174999999999997
+              ],
+              [
+                20.825,
+                28.849999999999998
+              ],
+              [
+                17.225,
+                25.775
+              ],
+              [
+                15.35,
+                21.275
+              ]
+            ]
+          },
+          "detail": {
+            "path": "assets/locomotion-v27/female-right-0-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "phase": 0,
+          "sourceRoot": [
+            320,
+            594
+          ],
+          "headTranslation": [
+            0,
+            4
+          ],
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              0,
+              4
+            ],
+            "neckAnchor": [
+              27.5,
+              32
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/right-fine.png"
+          }
+        },
+        {
+          "page": 1,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 8,
+            "bottom": 32,
+            "left": 12,
+            "right": 38,
+            "portraitChin": 33,
+            "eyeAnchor": [
+              29.9,
+              25.474999999999998
+            ],
+            "eyeLine": 25.474999999999998,
+            "neckAnchor": [
+              26,
+              32
+            ],
+            "facePolygon": [
+              [
+                27.65,
+                20.15
+              ],
+              [
+                29.224999999999998,
+                19.099999999999998
+              ],
+              [
+                31.474999999999994,
+                18.2
+              ],
+              [
+                32.9,
+                16.849999999999998
+              ],
+              [
+                33.349999999999994,
+                20.825
+              ],
+              [
+                33.875,
+                23.375
+              ],
+              [
+                34.474999999999994,
+                25.325
+              ],
+              [
+                35.15,
+                27.275
+              ],
+              [
+                34.099999999999994,
+                29.525
+              ],
+              [
+                32.224999999999994,
+                31.025
+              ],
+              [
+                31.025,
+                32.15
+              ],
+              [
+                28.4,
+                32.15
+              ],
+              [
+                26.675,
+                31.324999999999996
+              ],
+              [
+                25.4,
+                29.975
+              ],
+              [
+                24.425,
+                28.924999999999997
+              ],
+              [
+                22.849999999999998,
+                27.65
+              ],
+              [
+                22.25,
+                25.7
+              ],
+              [
+                23,
+                23.75
+              ],
+              [
+                24.275,
+                23.825
+              ],
+              [
+                24.5,
+                25.924999999999997
+              ],
+              [
+                25.849999999999998,
+                26.974999999999998
+              ],
+              [
+                26.3,
+                24.425
+              ],
+              [
+                27.05,
+                22.4
+              ]
+            ],
+            "scalpPolygon": [
+              [
+                13.55,
+                15.05
+              ],
+              [
+                17.975,
+                10.475
+              ],
+              [
+                24.95,
+                8.075
+              ],
+              [
+                31.700000000000003,
+                8.975
+              ],
+              [
+                36.275,
+                13.024999999999999
+              ],
+              [
+                36.875,
+                17.9
+              ],
+              [
+                34.55,
+                21.425
+              ],
+              [
+                33.125,
+                23.375
+              ],
+              [
+                32.75,
+                19.775
+              ],
+              [
+                31.549999999999997,
+                18.349999999999998
+              ],
+              [
+                29.3,
+                20.15
+              ],
+              [
+                27.875,
+                22.474999999999998
+              ],
+              [
+                26.599999999999998,
+                25.175
+              ],
+              [
+                25.55,
+                27.2
+              ],
+              [
+                24.2,
+                25.55
+              ],
+              [
+                24.2,
+                23.75
+              ],
+              [
+                22.849999999999998,
+                23.75
+              ],
+              [
+                21.875,
+                25.849999999999998
+              ],
+              [
+                22.325,
+                28.174999999999997
+              ],
+              [
+                19.325,
+                28.849999999999998
+              ],
+              [
+                15.725000000000001,
+                25.775
+              ],
+              [
+                13.85,
+                21.275
+              ]
+            ]
+          },
+          "detail": {
+            "path": "assets/locomotion-v27/female-right-1-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "phase": 1,
+          "sourceRoot": [
+            292,
+            594
+          ],
+          "headTranslation": [
+            -3,
+            4
+          ],
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              -3,
+              4
+            ],
+            "neckAnchor": [
+              26,
+              32
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/right-fine.png"
+          }
+        },
+        {
+          "page": 2,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 8,
+            "bottom": 33,
+            "left": 14,
+            "right": 39,
+            "portraitChin": 33.5,
+            "eyeAnchor": [
+              31.4,
+              25.974999999999998
+            ],
+            "eyeLine": 25.974999999999998,
+            "neckAnchor": [
+              27.5,
+              32.5
+            ],
+            "facePolygon": [
+              [
+                29.15,
+                20.65
+              ],
+              [
+                30.724999999999998,
+                19.599999999999998
+              ],
+              [
+                32.974999999999994,
+                18.7
+              ],
+              [
+                34.4,
+                17.349999999999998
+              ],
+              [
+                34.849999999999994,
+                21.325
+              ],
+              [
+                35.375,
+                23.875
+              ],
+              [
+                35.974999999999994,
+                25.825
+              ],
+              [
+                36.65,
+                27.775
+              ],
+              [
+                35.599999999999994,
+                30.025
+              ],
+              [
+                33.724999999999994,
+                31.525
+              ],
+              [
+                32.525,
+                32.65
+              ],
+              [
+                29.9,
+                32.65
+              ],
+              [
+                28.175,
+                31.824999999999996
+              ],
+              [
+                26.9,
+                30.475
+              ],
+              [
+                25.925,
+                29.424999999999997
+              ],
+              [
+                24.349999999999998,
+                28.15
+              ],
+              [
+                23.75,
+                26.2
+              ],
+              [
+                24.5,
+                24.25
+              ],
+              [
+                25.775,
+                24.325
+              ],
+              [
+                26,
+                26.424999999999997
+              ],
+              [
+                27.349999999999998,
+                27.474999999999998
+              ],
+              [
+                27.8,
+                24.925
+              ],
+              [
+                28.55,
+                22.9
+              ]
+            ],
+            "scalpPolygon": [
+              [
+                15.05,
+                15.55
+              ],
+              [
+                19.475,
+                10.975
+              ],
+              [
+                26.45,
+                8.575
+              ],
+              [
+                33.2,
+                9.475
+              ],
+              [
+                37.775,
+                13.524999999999999
+              ],
+              [
+                38.375,
+                18.4
+              ],
+              [
+                36.05,
+                21.925
+              ],
+              [
+                34.625,
+                23.875
+              ],
+              [
+                34.25,
+                20.275
+              ],
+              [
+                33.05,
+                18.849999999999998
+              ],
+              [
+                30.8,
+                20.65
+              ],
+              [
+                29.375,
+                22.974999999999998
+              ],
+              [
+                28.099999999999998,
+                25.675
+              ],
+              [
+                27.05,
+                27.7
+              ],
+              [
+                25.7,
+                26.05
+              ],
+              [
+                25.7,
+                24.25
+              ],
+              [
+                24.349999999999998,
+                24.25
+              ],
+              [
+                23.375,
+                26.349999999999998
+              ],
+              [
+                23.825,
+                28.674999999999997
+              ],
+              [
+                20.825,
+                29.349999999999998
+              ],
+              [
+                17.225,
+                26.275
+              ],
+              [
+                15.35,
+                21.775
+              ]
+            ]
+          },
+          "detail": {
+            "path": "assets/locomotion-v27/female-right-2-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "phase": 2,
+          "sourceRoot": [
+            322,
+            582
+          ],
+          "headTranslation": [
+            0,
+            5
+          ],
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              0,
+              5
+            ],
+            "neckAnchor": [
+              27.5,
+              32.5
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/right-fine.png"
+          }
+        },
+        {
+          "page": 3,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 8,
+            "bottom": 32,
+            "left": 13,
+            "right": 39,
+            "portraitChin": 33,
+            "eyeAnchor": [
+              30.9,
+              25.474999999999998
+            ],
+            "eyeLine": 25.474999999999998,
+            "neckAnchor": [
+              27,
+              32
+            ],
+            "facePolygon": [
+              [
+                28.65,
+                20.15
+              ],
+              [
+                30.224999999999998,
+                19.099999999999998
+              ],
+              [
+                32.474999999999994,
+                18.2
+              ],
+              [
+                33.9,
+                16.849999999999998
+              ],
+              [
+                34.349999999999994,
+                20.825
+              ],
+              [
+                34.875,
+                23.375
+              ],
+              [
+                35.474999999999994,
+                25.325
+              ],
+              [
+                36.15,
+                27.275
+              ],
+              [
+                35.099999999999994,
+                29.525
+              ],
+              [
+                33.224999999999994,
+                31.025
+              ],
+              [
+                32.025,
+                32.15
+              ],
+              [
+                29.4,
+                32.15
+              ],
+              [
+                27.675,
+                31.324999999999996
+              ],
+              [
+                26.4,
+                29.975
+              ],
+              [
+                25.425,
+                28.924999999999997
+              ],
+              [
+                23.849999999999998,
+                27.65
+              ],
+              [
+                23.25,
+                25.7
+              ],
+              [
+                24,
+                23.75
+              ],
+              [
+                25.275,
+                23.825
+              ],
+              [
+                25.5,
+                25.924999999999997
+              ],
+              [
+                26.849999999999998,
+                26.974999999999998
+              ],
+              [
+                27.3,
+                24.425
+              ],
+              [
+                28.05,
+                22.4
+              ]
+            ],
+            "scalpPolygon": [
+              [
+                14.55,
+                15.05
+              ],
+              [
+                18.975,
+                10.475
+              ],
+              [
+                25.95,
+                8.075
+              ],
+              [
+                32.7,
+                8.975
+              ],
+              [
+                37.275,
+                13.024999999999999
+              ],
+              [
+                37.875,
+                17.9
+              ],
+              [
+                35.55,
+                21.425
+              ],
+              [
+                34.125,
+                23.375
+              ],
+              [
+                33.75,
+                19.775
+              ],
+              [
+                32.55,
+                18.349999999999998
+              ],
+              [
+                30.3,
+                20.15
+              ],
+              [
+                28.875,
+                22.474999999999998
+              ],
+              [
+                27.599999999999998,
+                25.175
+              ],
+              [
+                26.55,
+                27.2
+              ],
+              [
+                25.2,
+                25.55
+              ],
+              [
+                25.2,
+                23.75
+              ],
+              [
+                23.849999999999998,
+                23.75
+              ],
+              [
+                22.875,
+                25.849999999999998
+              ],
+              [
+                23.325,
+                28.174999999999997
+              ],
+              [
+                20.325,
+                28.849999999999998
+              ],
+              [
+                16.725,
+                25.775
+              ],
+              [
+                14.85,
+                21.275
+              ]
+            ]
+          },
+          "detail": {
+            "path": "assets/locomotion-v27/female-right-3-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "phase": 3,
+          "sourceRoot": [
+            282,
+            586
+          ],
+          "headTranslation": [
+            -1,
+            4
+          ],
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              -1,
+              4
+            ],
+            "neckAnchor": [
+              27,
+              32
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/right-fine.png"
+          }
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/locomotion-v27/female-right-0.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "ba9685207c0f6812f3bbb312d7103546a2bccfefe6011d5c36cc5c56ff37fd18"
+        },
+        {
+          "path": "assets/locomotion-v27/female-right-1.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "5b9a2c34aac4f3471b187c8a458099092b967ad1d22670781db53120ee801dbd"
+        },
+        {
+          "path": "assets/locomotion-v27/female-right-2.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "e84e03d533cdd9c8b8867828c51ab3832b0616980229e147e1cd4085ca7b061b"
+        },
+        {
+          "path": "assets/locomotion-v27/female-right-3.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "1590557caa0bd4b97c2d099f3e36c97b28b0393f1826763d10598bbce90f0900"
+        }
+      ],
+      "detail_images": [
+        {
+          "path": "assets/locomotion-v27/female-right-0-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "278c555590b2625dcbf234109a044ba1b37227344408d7069928ee4c3c80fef0"
+        },
+        {
+          "path": "assets/locomotion-v27/female-right-1-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "7eed75cb034e61ffa437192fe88d4f05394de44f1470374b58dc93c2e653a4bb"
+        },
+        {
+          "path": "assets/locomotion-v27/female-right-2-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "6169a7852ec772826febf8298735ed4df46a6519f296d839ba00e0d4d3c57f5c"
+        },
+        {
+          "path": "assets/locomotion-v27/female-right-3-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "71f1accc5e2a178b2e76f4454575c2d5c37108dce55a2f4043fa8b1163bbddc6"
+        }
+      ]
+    },
+    {
+      "direction": "left",
+      "frames": [
+        {
+          "page": 0,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 9,
+            "bottom": 33,
+            "left": 8,
+            "right": 32,
+            "portraitChin": 35,
+            "eyeAnchor": [
+              15.549999999999999,
+              27.049999999999997
+            ],
+            "eyeLine": 27.049999999999997,
+            "neckAnchor": [
+              22,
+              33.5
+            ],
+            "facePolygon": [
+              [
+                13.075,
+                20.075
+              ],
+              [
+                15.1,
+                19.099999999999998
+              ],
+              [
+                16.299999999999997,
+                20.374999999999996
+              ],
+              [
+                17.724999999999998,
+                21.95
+              ],
+              [
+                18.849999999999998,
+                23.674999999999997
+              ],
+              [
+                19.15,
+                25.624999999999996
+              ],
+              [
+                19.825,
+                26.525
+              ],
+              [
+                21.55,
+                25.325
+              ],
+              [
+                22.75,
+                26.075
+              ],
+              [
+                22.9,
+                28.249999999999996
+              ],
+              [
+                21.849999999999998,
+                29.599999999999998
+              ],
+              [
+                20.275,
+                30.424999999999997
+              ],
+              [
+                18.625,
+                31.699999999999996
+              ],
+              [
+                17.2,
+                33.275
+              ],
+              [
+                15.1,
+                33.275
+              ],
+              [
+                13.674999999999999,
+                32.224999999999994
+              ],
+              [
+                12.25,
+                30.799999999999997
+              ],
+              [
+                10.674999999999999,
+                29.674999999999997
+              ],
+              [
+                10.299999999999999,
+                28.174999999999997
+              ],
+              [
+                11.125,
+                26.599999999999998
+              ],
+              [
+                12.475,
+                25.4
+              ]
+            ],
+            "scalpPolygon": [
+              [
+                9.25,
+                16.325
+              ],
+              [
+                13.75,
+                11.449999999999998
+              ],
+              [
+                20.575,
+                9.724999999999998
+              ],
+              [
+                27.4,
+                11.449999999999998
+              ],
+              [
+                31.299999999999997,
+                16.025
+              ],
+              [
+                32.125,
+                22.624999999999996
+              ],
+              [
+                30.099999999999998,
+                27.499999999999996
+              ],
+              [
+                25.825,
+                30.574999999999996
+              ],
+              [
+                22.525,
+                31.099999999999994
+              ],
+              [
+                22.224999999999998,
+                28.775
+              ],
+              [
+                22.75,
+                26.674999999999997
+              ],
+              [
+                21.55,
+                25.4
+              ],
+              [
+                19.75,
+                26.45
+              ],
+              [
+                18.775,
+                24.724999999999998
+              ],
+              [
+                17.8,
+                22.174999999999997
+              ],
+              [
+                16.15,
+                20.374999999999996
+              ],
+              [
+                15.025,
+                19.4
+              ],
+              [
+                13,
+                21.049999999999997
+              ],
+              [
+                11.725,
+                23.749999999999996
+              ],
+              [
+                10.299999999999999,
+                25.174999999999997
+              ]
+            ]
+          },
+          "detail": {
+            "path": "assets/locomotion-v27/female-left-0-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "phase": 0,
+          "sourceRoot": [
+            350,
+            613
+          ],
+          "headTranslation": [
+            4,
+            6
+          ],
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              4,
+              6
+            ],
+            "neckAnchor": [
+              22,
+              33.5
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/left-fine.png"
+          }
+        },
+        {
+          "page": 1,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 9,
+            "bottom": 33,
+            "left": 6,
+            "right": 31,
+            "portraitChin": 35,
+            "eyeAnchor": [
+              14.049999999999999,
+              27.049999999999997
+            ],
+            "eyeLine": 27.049999999999997,
+            "neckAnchor": [
+              20.5,
+              33.5
+            ],
+            "facePolygon": [
+              [
+                11.575,
+                20.075
+              ],
+              [
+                13.6,
+                19.099999999999998
+              ],
+              [
+                14.799999999999999,
+                20.374999999999996
+              ],
+              [
+                16.224999999999998,
+                21.95
+              ],
+              [
+                17.349999999999998,
+                23.674999999999997
+              ],
+              [
+                17.65,
+                25.624999999999996
+              ],
+              [
+                18.325,
+                26.525
+              ],
+              [
+                20.05,
+                25.325
+              ],
+              [
+                21.25,
+                26.075
+              ],
+              [
+                21.4,
+                28.249999999999996
+              ],
+              [
+                20.349999999999998,
+                29.599999999999998
+              ],
+              [
+                18.775,
+                30.424999999999997
+              ],
+              [
+                17.125,
+                31.699999999999996
+              ],
+              [
+                15.7,
+                33.275
+              ],
+              [
+                13.6,
+                33.275
+              ],
+              [
+                12.174999999999999,
+                32.224999999999994
+              ],
+              [
+                10.75,
+                30.799999999999997
+              ],
+              [
+                9.174999999999999,
+                29.674999999999997
+              ],
+              [
+                8.799999999999999,
+                28.174999999999997
+              ],
+              [
+                9.625,
+                26.599999999999998
+              ],
+              [
+                10.975,
+                25.4
+              ]
+            ],
+            "scalpPolygon": [
+              [
+                7.75,
+                16.325
+              ],
+              [
+                12.25,
+                11.449999999999998
+              ],
+              [
+                19.075,
+                9.724999999999998
+              ],
+              [
+                25.9,
+                11.449999999999998
+              ],
+              [
+                29.799999999999997,
+                16.025
+              ],
+              [
+                30.625,
+                22.624999999999996
+              ],
+              [
+                28.599999999999998,
+                27.499999999999996
+              ],
+              [
+                24.325,
+                30.574999999999996
+              ],
+              [
+                21.025,
+                31.099999999999994
+              ],
+              [
+                20.724999999999998,
+                28.775
+              ],
+              [
+                21.25,
+                26.674999999999997
+              ],
+              [
+                20.05,
+                25.4
+              ],
+              [
+                18.25,
+                26.45
+              ],
+              [
+                17.275,
+                24.724999999999998
+              ],
+              [
+                16.3,
+                22.174999999999997
+              ],
+              [
+                14.649999999999999,
+                20.374999999999996
+              ],
+              [
+                13.525,
+                19.4
+              ],
+              [
+                11.5,
+                21.049999999999997
+              ],
+              [
+                10.225,
+                23.749999999999996
+              ],
+              [
+                8.799999999999999,
+                25.174999999999997
+              ]
+            ]
+          },
+          "detail": {
+            "path": "assets/locomotion-v27/female-left-1-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "phase": 1,
+          "sourceRoot": [
+            310,
+            613
+          ],
+          "headTranslation": [
+            1,
+            6
+          ],
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              1,
+              6
+            ],
+            "neckAnchor": [
+              20.5,
+              33.5
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/left-fine.png"
+          }
+        },
+        {
+          "page": 2,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 9,
+            "bottom": 33,
+            "left": 7,
+            "right": 32,
+            "portraitChin": 35,
+            "eyeAnchor": [
+              15.049999999999999,
+              27.049999999999997
+            ],
+            "eyeLine": 27.049999999999997,
+            "neckAnchor": [
+              21.5,
+              33.5
+            ],
+            "facePolygon": [
+              [
+                12.575,
+                20.075
+              ],
+              [
+                14.6,
+                19.099999999999998
+              ],
+              [
+                15.799999999999999,
+                20.374999999999996
+              ],
+              [
+                17.224999999999998,
+                21.95
+              ],
+              [
+                18.349999999999998,
+                23.674999999999997
+              ],
+              [
+                18.65,
+                25.624999999999996
+              ],
+              [
+                19.325,
+                26.525
+              ],
+              [
+                21.05,
+                25.325
+              ],
+              [
+                22.25,
+                26.075
+              ],
+              [
+                22.4,
+                28.249999999999996
+              ],
+              [
+                21.349999999999998,
+                29.599999999999998
+              ],
+              [
+                19.775,
+                30.424999999999997
+              ],
+              [
+                18.125,
+                31.699999999999996
+              ],
+              [
+                16.7,
+                33.275
+              ],
+              [
+                14.6,
+                33.275
+              ],
+              [
+                13.174999999999999,
+                32.224999999999994
+              ],
+              [
+                11.75,
+                30.799999999999997
+              ],
+              [
+                10.174999999999999,
+                29.674999999999997
+              ],
+              [
+                9.799999999999999,
+                28.174999999999997
+              ],
+              [
+                10.625,
+                26.599999999999998
+              ],
+              [
+                11.975,
+                25.4
+              ]
+            ],
+            "scalpPolygon": [
+              [
+                8.75,
+                16.325
+              ],
+              [
+                13.25,
+                11.449999999999998
+              ],
+              [
+                20.075,
+                9.724999999999998
+              ],
+              [
+                26.9,
+                11.449999999999998
+              ],
+              [
+                30.799999999999997,
+                16.025
+              ],
+              [
+                31.625,
+                22.624999999999996
+              ],
+              [
+                29.599999999999998,
+                27.499999999999996
+              ],
+              [
+                25.325,
+                30.574999999999996
+              ],
+              [
+                22.025,
+                31.099999999999994
+              ],
+              [
+                21.724999999999998,
+                28.775
+              ],
+              [
+                22.25,
+                26.674999999999997
+              ],
+              [
+                21.05,
+                25.4
+              ],
+              [
+                19.25,
+                26.45
+              ],
+              [
+                18.275,
+                24.724999999999998
+              ],
+              [
+                17.3,
+                22.174999999999997
+              ],
+              [
+                15.649999999999999,
+                20.374999999999996
+              ],
+              [
+                14.525,
+                19.4
+              ],
+              [
+                12.5,
+                21.049999999999997
+              ],
+              [
+                11.225,
+                23.749999999999996
+              ],
+              [
+                9.799999999999999,
+                25.174999999999997
+              ]
+            ]
+          },
+          "detail": {
+            "path": "assets/locomotion-v27/female-left-2-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "phase": 2,
+          "sourceRoot": [
+            352,
+            567
+          ],
+          "headTranslation": [
+            3,
+            6
+          ],
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              3,
+              6
+            ],
+            "neckAnchor": [
+              21.5,
+              33.5
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/left-fine.png"
+          }
+        },
+        {
+          "page": 3,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 9,
+            "bottom": 33,
+            "left": 6,
+            "right": 31,
+            "portraitChin": 35,
+            "eyeAnchor": [
+              14.049999999999999,
+              27.049999999999997
+            ],
+            "eyeLine": 27.049999999999997,
+            "neckAnchor": [
+              20.5,
+              33.5
+            ],
+            "facePolygon": [
+              [
+                11.575,
+                20.075
+              ],
+              [
+                13.6,
+                19.099999999999998
+              ],
+              [
+                14.799999999999999,
+                20.374999999999996
+              ],
+              [
+                16.224999999999998,
+                21.95
+              ],
+              [
+                17.349999999999998,
+                23.674999999999997
+              ],
+              [
+                17.65,
+                25.624999999999996
+              ],
+              [
+                18.325,
+                26.525
+              ],
+              [
+                20.05,
+                25.325
+              ],
+              [
+                21.25,
+                26.075
+              ],
+              [
+                21.4,
+                28.249999999999996
+              ],
+              [
+                20.349999999999998,
+                29.599999999999998
+              ],
+              [
+                18.775,
+                30.424999999999997
+              ],
+              [
+                17.125,
+                31.699999999999996
+              ],
+              [
+                15.7,
+                33.275
+              ],
+              [
+                13.6,
+                33.275
+              ],
+              [
+                12.174999999999999,
+                32.224999999999994
+              ],
+              [
+                10.75,
+                30.799999999999997
+              ],
+              [
+                9.174999999999999,
+                29.674999999999997
+              ],
+              [
+                8.799999999999999,
+                28.174999999999997
+              ],
+              [
+                9.625,
+                26.599999999999998
+              ],
+              [
+                10.975,
+                25.4
+              ]
+            ],
+            "scalpPolygon": [
+              [
+                7.75,
+                16.325
+              ],
+              [
+                12.25,
+                11.449999999999998
+              ],
+              [
+                19.075,
+                9.724999999999998
+              ],
+              [
+                25.9,
+                11.449999999999998
+              ],
+              [
+                29.799999999999997,
+                16.025
+              ],
+              [
+                30.625,
+                22.624999999999996
+              ],
+              [
+                28.599999999999998,
+                27.499999999999996
+              ],
+              [
+                24.325,
+                30.574999999999996
+              ],
+              [
+                21.025,
+                31.099999999999994
+              ],
+              [
+                20.724999999999998,
+                28.775
+              ],
+              [
+                21.25,
+                26.674999999999997
+              ],
+              [
+                20.05,
+                25.4
+              ],
+              [
+                18.25,
+                26.45
+              ],
+              [
+                17.275,
+                24.724999999999998
+              ],
+              [
+                16.3,
+                22.174999999999997
+              ],
+              [
+                14.649999999999999,
+                20.374999999999996
+              ],
+              [
+                13.525,
+                19.4
+              ],
+              [
+                11.5,
+                21.049999999999997
+              ],
+              [
+                10.225,
+                23.749999999999996
+              ],
+              [
+                8.799999999999999,
+                25.174999999999997
+              ]
+            ]
+          },
+          "detail": {
+            "path": "assets/locomotion-v27/female-left-3-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "phase": 3,
+          "sourceRoot": [
+            310,
+            567
+          ],
+          "headTranslation": [
+            1,
+            6
+          ],
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              1,
+              6
+            ],
+            "neckAnchor": [
+              20.5,
+              33.5
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/left-fine.png"
+          }
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/locomotion-v27/female-left-0.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "c2ce79baf7808ffa0abe17f7f43beb6989efa293bb303c72615f522dcce42e9a"
+        },
+        {
+          "path": "assets/locomotion-v27/female-left-1.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "da7a977ddebdee298e8ac6bf14f698715260d84570fbdaee73a85ec76a4a1111"
+        },
+        {
+          "path": "assets/locomotion-v27/female-left-2.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "7d80e3bf3f8b9778f03a848ee13f5f703ded704338203eb144c102c79063ead7"
+        },
+        {
+          "path": "assets/locomotion-v27/female-left-3.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "a1eda5d2906aa63b0b8ffac3d0a12b0ad59b4a658a75b52bb2613245fe209b48"
+        }
+      ],
+      "detail_images": [
+        {
+          "path": "assets/locomotion-v27/female-left-0-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "ded3729167f5a2305f3202d889036ce63928fec8c6d44cfa34b816e5ebd9ac38"
+        },
+        {
+          "path": "assets/locomotion-v27/female-left-1-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "0c85be8bd72319faca2cd3f2000d372ed6f00267ccb4c611f25e47aec7b89512"
+        },
+        {
+          "path": "assets/locomotion-v27/female-left-2-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "20a55cca4245d6ff3fc251d8981d40e2351ccb63199fb13d7bac2e443405fbf6"
+        },
+        {
+          "path": "assets/locomotion-v27/female-left-3-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "7c80546a5a34f1474d342e30ad1040c2c2d07d2843b6acee8244c635beff19d3"
+        }
+      ]
+    },
+    {
+      "direction": "down",
+      "frames": [
+        {
+          "page": 0,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 8,
+            "bottom": 35,
+            "left": 12,
+            "right": 35,
+            "portraitChin": 35.5,
+            "eyeAnchor": [
+              24,
+              27.400000000000002
+            ],
+            "eyeLine": 27.400000000000002,
+            "neckAnchor": [
+              24,
+              34
+            ],
+            "facePolygon": [
+              [
+                16.425,
+                22.375000000000004
+              ],
+              [
+                18.375,
+                22.300000000000004
+              ],
+              [
+                22.2,
+                21.250000000000004
+              ],
+              [
+                26.025000000000002,
+                20.125000000000004
+              ],
+              [
+                29.1,
+                18.550000000000004
+              ],
+              [
+                30.150000000000002,
+                22.300000000000004
+              ],
+              [
+                30.375,
+                24.700000000000003
+              ],
+              [
+                32.55,
+                24.550000000000004
+              ],
+              [
+                33.825,
+                26.800000000000004
+              ],
+              [
+                32.85,
+                28.750000000000004
+              ],
+              [
+                31.125,
+                30.175000000000004
+              ],
+              [
+                30.150000000000002,
+                31.900000000000006
+              ],
+              [
+                27.825,
+                33.475
+              ],
+              [
+                25.05,
+                34.375
+              ],
+              [
+                22.575,
+                34.375
+              ],
+              [
+                20.025000000000002,
+                33.475
+              ],
+              [
+                18.450000000000003,
+                32.050000000000004
+              ],
+              [
+                16.950000000000003,
+                30.175000000000004
+              ],
+              [
+                15.9,
+                28.450000000000003
+              ],
+              [
+                14.175,
+                28.525000000000002
+              ],
+              [
+                13.8,
+                27.475
+              ],
+              [
+                13.950000000000001,
+                24.775000000000002
+              ],
+              [
+                15.3,
+                24.250000000000004
+              ],
+              [
+                16.5,
+                25.000000000000004
+              ]
+            ],
+            "scalpPolygon": [
+              [
+                13.350000000000001,
+                14.800000000000004
+              ],
+              [
+                17.925,
+                10.225000000000003
+              ],
+              [
+                24.075,
+                9.400000000000004
+              ],
+              [
+                29.925,
+                11.575000000000005
+              ],
+              [
+                34.275,
+                16.300000000000004
+              ],
+              [
+                35.025,
+                22.225000000000005
+              ],
+              [
+                32.55,
+                24.325000000000003
+              ],
+              [
+                30.525000000000002,
+                24.625000000000004
+              ],
+              [
+                30.075,
+                22.225000000000005
+              ],
+              [
+                29.175,
+                19.675000000000004
+              ],
+              [
+                26.025000000000002,
+                21.025000000000002
+              ],
+              [
+                22.125,
+                22.525000000000002
+              ],
+              [
+                18.525,
+                23.275000000000002
+              ],
+              [
+                16.5,
+                22.825000000000003
+              ],
+              [
+                16.125,
+                25.300000000000004
+              ],
+              [
+                13.950000000000001,
+                24.175000000000004
+              ]
+            ]
+          },
+          "detail": {
+            "path": "assets/locomotion-v27/female-down-0-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "phase": 0,
+          "headTranslation": [
+            0,
+            7
+          ],
+          "sourceBodyAtlas": "assets/design-actor-detail-base-human-female-1.png",
+          "sourceBodyRect": {
+            "path": "assets/design-actor-detail-base-human-female-1.png",
+            "x": 384,
+            "y": 256,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "bodyTranslation": [
+            0,
+            0
+          ],
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              0,
+              7
+            ],
+            "neckAnchor": [
+              24,
+              34
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/down-fine.png"
+          }
+        },
+        {
+          "page": 1,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 8,
+            "bottom": 34,
+            "left": 12,
+            "right": 35,
+            "portraitChin": 35,
+            "eyeAnchor": [
+              24,
+              26.900000000000002
+            ],
+            "eyeLine": 26.900000000000002,
+            "neckAnchor": [
+              24,
+              33.5
+            ],
+            "facePolygon": [
+              [
+                16.425,
+                21.875000000000004
+              ],
+              [
+                18.375,
+                21.800000000000004
+              ],
+              [
+                22.2,
+                20.750000000000004
+              ],
+              [
+                26.025000000000002,
+                19.625000000000004
+              ],
+              [
+                29.1,
+                18.050000000000004
+              ],
+              [
+                30.150000000000002,
+                21.800000000000004
+              ],
+              [
+                30.375,
+                24.200000000000003
+              ],
+              [
+                32.55,
+                24.050000000000004
+              ],
+              [
+                33.825,
+                26.300000000000004
+              ],
+              [
+                32.85,
+                28.250000000000004
+              ],
+              [
+                31.125,
+                29.675000000000004
+              ],
+              [
+                30.150000000000002,
+                31.400000000000006
+              ],
+              [
+                27.825,
+                32.975
+              ],
+              [
+                25.05,
+                33.875
+              ],
+              [
+                22.575,
+                33.875
+              ],
+              [
+                20.025000000000002,
+                32.975
+              ],
+              [
+                18.450000000000003,
+                31.550000000000004
+              ],
+              [
+                16.950000000000003,
+                29.675000000000004
+              ],
+              [
+                15.9,
+                27.950000000000003
+              ],
+              [
+                14.175,
+                28.025000000000002
+              ],
+              [
+                13.8,
+                26.975
+              ],
+              [
+                13.950000000000001,
+                24.275000000000002
+              ],
+              [
+                15.3,
+                23.750000000000004
+              ],
+              [
+                16.5,
+                24.500000000000004
+              ]
+            ],
+            "scalpPolygon": [
+              [
+                13.350000000000001,
+                14.300000000000004
+              ],
+              [
+                17.925,
+                9.725000000000003
+              ],
+              [
+                24.075,
+                8.900000000000004
+              ],
+              [
+                29.925,
+                11.075000000000005
+              ],
+              [
+                34.275,
+                15.800000000000004
+              ],
+              [
+                35.025,
+                21.725000000000005
+              ],
+              [
+                32.55,
+                23.825000000000003
+              ],
+              [
+                30.525000000000002,
+                24.125000000000004
+              ],
+              [
+                30.075,
+                21.725000000000005
+              ],
+              [
+                29.175,
+                19.175000000000004
+              ],
+              [
+                26.025000000000002,
+                20.525000000000002
+              ],
+              [
+                22.125,
+                22.025000000000002
+              ],
+              [
+                18.525,
+                22.775000000000002
+              ],
+              [
+                16.5,
+                22.325000000000003
+              ],
+              [
+                16.125,
+                24.800000000000004
+              ],
+              [
+                13.950000000000001,
+                23.675000000000004
+              ]
+            ]
+          },
+          "detail": {
+            "path": "assets/locomotion-v27/female-down-1-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "phase": 1,
+          "headTranslation": [
+            0,
+            6
+          ],
+          "sourceBodyAtlas": "assets/design-actor-detail-base-human-female-1.png",
+          "sourceBodyRect": {
+            "path": "assets/design-actor-detail-base-human-female-1.png",
+            "x": 480,
+            "y": 256,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "bodyTranslation": [
+            0,
+            0
+          ],
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              0,
+              6
+            ],
+            "neckAnchor": [
+              24,
+              33.5
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/down-fine.png"
+          }
+        },
+        {
+          "page": 2,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 8,
+            "bottom": 34,
+            "left": 12,
+            "right": 35,
+            "portraitChin": 35,
+            "eyeAnchor": [
+              24,
+              26.900000000000002
+            ],
+            "eyeLine": 26.900000000000002,
+            "neckAnchor": [
+              24,
+              33.5
+            ],
+            "facePolygon": [
+              [
+                16.425,
+                21.875000000000004
+              ],
+              [
+                18.375,
+                21.800000000000004
+              ],
+              [
+                22.2,
+                20.750000000000004
+              ],
+              [
+                26.025000000000002,
+                19.625000000000004
+              ],
+              [
+                29.1,
+                18.050000000000004
+              ],
+              [
+                30.150000000000002,
+                21.800000000000004
+              ],
+              [
+                30.375,
+                24.200000000000003
+              ],
+              [
+                32.55,
+                24.050000000000004
+              ],
+              [
+                33.825,
+                26.300000000000004
+              ],
+              [
+                32.85,
+                28.250000000000004
+              ],
+              [
+                31.125,
+                29.675000000000004
+              ],
+              [
+                30.150000000000002,
+                31.400000000000006
+              ],
+              [
+                27.825,
+                32.975
+              ],
+              [
+                25.05,
+                33.875
+              ],
+              [
+                22.575,
+                33.875
+              ],
+              [
+                20.025000000000002,
+                32.975
+              ],
+              [
+                18.450000000000003,
+                31.550000000000004
+              ],
+              [
+                16.950000000000003,
+                29.675000000000004
+              ],
+              [
+                15.9,
+                27.950000000000003
+              ],
+              [
+                14.175,
+                28.025000000000002
+              ],
+              [
+                13.8,
+                26.975
+              ],
+              [
+                13.950000000000001,
+                24.275000000000002
+              ],
+              [
+                15.3,
+                23.750000000000004
+              ],
+              [
+                16.5,
+                24.500000000000004
+              ]
+            ],
+            "scalpPolygon": [
+              [
+                13.350000000000001,
+                14.300000000000004
+              ],
+              [
+                17.925,
+                9.725000000000003
+              ],
+              [
+                24.075,
+                8.900000000000004
+              ],
+              [
+                29.925,
+                11.075000000000005
+              ],
+              [
+                34.275,
+                15.800000000000004
+              ],
+              [
+                35.025,
+                21.725000000000005
+              ],
+              [
+                32.55,
+                23.825000000000003
+              ],
+              [
+                30.525000000000002,
+                24.125000000000004
+              ],
+              [
+                30.075,
+                21.725000000000005
+              ],
+              [
+                29.175,
+                19.175000000000004
+              ],
+              [
+                26.025000000000002,
+                20.525000000000002
+              ],
+              [
+                22.125,
+                22.025000000000002
+              ],
+              [
+                18.525,
+                22.775000000000002
+              ],
+              [
+                16.5,
+                22.325000000000003
+              ],
+              [
+                16.125,
+                24.800000000000004
+              ],
+              [
+                13.950000000000001,
+                23.675000000000004
+              ]
+            ]
+          },
+          "detail": {
+            "path": "assets/locomotion-v27/female-down-2-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "phase": 2,
+          "headTranslation": [
+            0,
+            6
+          ],
+          "sourceBodyAtlas": "assets/design-actor-detail-base-human-female-1.png",
+          "sourceBodyRect": {
+            "path": "assets/design-actor-detail-base-human-female-1.png",
+            "x": 576,
+            "y": 256,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "bodyTranslation": [
+            0,
+            0
+          ],
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              0,
+              6
+            ],
+            "neckAnchor": [
+              24,
+              33.5
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/down-fine.png"
+          }
+        },
+        {
+          "page": 3,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 8,
+            "bottom": 34,
+            "left": 12,
+            "right": 35,
+            "portraitChin": 35,
+            "eyeAnchor": [
+              24,
+              26.900000000000002
+            ],
+            "eyeLine": 26.900000000000002,
+            "neckAnchor": [
+              24,
+              33.5
+            ],
+            "facePolygon": [
+              [
+                16.425,
+                21.875000000000004
+              ],
+              [
+                18.375,
+                21.800000000000004
+              ],
+              [
+                22.2,
+                20.750000000000004
+              ],
+              [
+                26.025000000000002,
+                19.625000000000004
+              ],
+              [
+                29.1,
+                18.050000000000004
+              ],
+              [
+                30.150000000000002,
+                21.800000000000004
+              ],
+              [
+                30.375,
+                24.200000000000003
+              ],
+              [
+                32.55,
+                24.050000000000004
+              ],
+              [
+                33.825,
+                26.300000000000004
+              ],
+              [
+                32.85,
+                28.250000000000004
+              ],
+              [
+                31.125,
+                29.675000000000004
+              ],
+              [
+                30.150000000000002,
+                31.400000000000006
+              ],
+              [
+                27.825,
+                32.975
+              ],
+              [
+                25.05,
+                33.875
+              ],
+              [
+                22.575,
+                33.875
+              ],
+              [
+                20.025000000000002,
+                32.975
+              ],
+              [
+                18.450000000000003,
+                31.550000000000004
+              ],
+              [
+                16.950000000000003,
+                29.675000000000004
+              ],
+              [
+                15.9,
+                27.950000000000003
+              ],
+              [
+                14.175,
+                28.025000000000002
+              ],
+              [
+                13.8,
+                26.975
+              ],
+              [
+                13.950000000000001,
+                24.275000000000002
+              ],
+              [
+                15.3,
+                23.750000000000004
+              ],
+              [
+                16.5,
+                24.500000000000004
+              ]
+            ],
+            "scalpPolygon": [
+              [
+                13.350000000000001,
+                14.300000000000004
+              ],
+              [
+                17.925,
+                9.725000000000003
+              ],
+              [
+                24.075,
+                8.900000000000004
+              ],
+              [
+                29.925,
+                11.075000000000005
+              ],
+              [
+                34.275,
+                15.800000000000004
+              ],
+              [
+                35.025,
+                21.725000000000005
+              ],
+              [
+                32.55,
+                23.825000000000003
+              ],
+              [
+                30.525000000000002,
+                24.125000000000004
+              ],
+              [
+                30.075,
+                21.725000000000005
+              ],
+              [
+                29.175,
+                19.175000000000004
+              ],
+              [
+                26.025000000000002,
+                20.525000000000002
+              ],
+              [
+                22.125,
+                22.025000000000002
+              ],
+              [
+                18.525,
+                22.775000000000002
+              ],
+              [
+                16.5,
+                22.325000000000003
+              ],
+              [
+                16.125,
+                24.800000000000004
+              ],
+              [
+                13.950000000000001,
+                23.675000000000004
+              ]
+            ]
+          },
+          "detail": {
+            "path": "assets/locomotion-v27/female-down-3-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "phase": 3,
+          "headTranslation": [
+            0,
+            6
+          ],
+          "sourceBodyAtlas": "assets/design-actor-detail-base-human-female-1.png",
+          "sourceBodyRect": {
+            "path": "assets/design-actor-detail-base-human-female-1.png",
+            "x": 672,
+            "y": 256,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "bodyTranslation": [
+            0,
+            0
+          ],
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              0,
+              6
+            ],
+            "neckAnchor": [
+              24,
+              33.5
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/down-fine.png"
+          }
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/locomotion-v27/female-down-0.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "23e6b2fb21ee1e012d616ecbe54579683e1d71a64d813f4a8b56153edaebcbe4"
+        },
+        {
+          "path": "assets/locomotion-v27/female-down-1.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "5de7728ffd581d56b3f10867b76fa4591330b9c9ec53cd6411698790205d9728"
+        },
+        {
+          "path": "assets/locomotion-v27/female-down-2.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "c1a8b2fa27a07f226f50a039551dd1eaba58acafcb46c098cc78bf574f39d35e"
+        },
+        {
+          "path": "assets/locomotion-v27/female-down-3.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "4b03a213d94b6a62d962ec55d650d3d3c1569ddbaadf241f718fc59c78b99e20"
+        }
+      ],
+      "detail_images": [
+        {
+          "path": "assets/locomotion-v27/female-down-0-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "f93172cb02f24054e7146be8c1590bf18a6504b1ba0b1bc9ee98b721ec5a40e2"
+        },
+        {
+          "path": "assets/locomotion-v27/female-down-1-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "c021657447044bdb79c8b7cf2d3e7ec8c7ff6c84bc17edbe902c184ebe7d7f14"
+        },
+        {
+          "path": "assets/locomotion-v27/female-down-2-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "9d14fd68a590bc285e8bad53a4374ffa6ee09f86d96d4db8339a766c4c456220"
+        },
+        {
+          "path": "assets/locomotion-v27/female-down-3-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "3d231a53f469e47d52ea00c70904fea30f20183f29bf97fe9ec1d7613bff0a72"
+        }
+      ]
+    },
+    {
+      "direction": "up",
+      "frames": [
+        {
+          "page": 0,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 8,
+            "bottom": 32,
+            "left": 12,
+            "right": 37,
+            "portraitChin": 32.5,
+            "eyeAnchor": [
+              24.5,
+              22.049999999999997
+            ],
+            "eyeLine": 22.049999999999997,
+            "neckAnchor": [
+              24.5,
+              31.5
+            ],
+            "facePolygon": [],
+            "scalpPolygon": [
+              [
+                13.625000000000002,
+                14.325
+              ],
+              [
+                16.925,
+                9.974999999999998
+              ],
+              [
+                24.125,
+                8.549999999999999
+              ],
+              [
+                31.025000000000002,
+                10.124999999999998
+              ],
+              [
+                35.075,
+                14.474999999999998
+              ],
+              [
+                35.9,
+                22.799999999999997
+              ],
+              [
+                34.025,
+                27.824999999999996
+              ],
+              [
+                29.45,
+                30.674999999999997
+              ],
+              [
+                24.275000000000002,
+                31.424999999999997
+              ],
+              [
+                19.025,
+                30
+              ],
+              [
+                15.350000000000001,
+                27.599999999999998
+              ],
+              [
+                13.625000000000002,
+                22.65
+              ]
+            ]
+          },
+          "detail": {
+            "path": "assets/locomotion-v27/female-up-0-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "phase": 0,
+          "headTranslation": [
+            1,
+            5
+          ],
+          "sourceRoot": [
+            271,
+            686
+          ],
+          "sourceNeck": [
+            274,
+            315
+          ],
+          "sourceBodyPNG": "art/drafts/locomotion-v27/female-up-v2/phase-0-body-source-fine.png",
+          "bodyTranslation": [
+            0,
+            0
+          ],
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              1,
+              5
+            ],
+            "neckAnchor": [
+              24.5,
+              31.5
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/up-fine.png"
+          }
+        },
+        {
+          "page": 1,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 8,
+            "bottom": 32,
+            "left": 11,
+            "right": 36,
+            "portraitChin": 32.5,
+            "eyeAnchor": [
+              23.5,
+              22.049999999999997
+            ],
+            "eyeLine": 22.049999999999997,
+            "neckAnchor": [
+              23.5,
+              31.5
+            ],
+            "facePolygon": [],
+            "scalpPolygon": [
+              [
+                12.625000000000002,
+                14.325
+              ],
+              [
+                15.925,
+                9.974999999999998
+              ],
+              [
+                23.125,
+                8.549999999999999
+              ],
+              [
+                30.025000000000002,
+                10.124999999999998
+              ],
+              [
+                34.075,
+                14.474999999999998
+              ],
+              [
+                34.9,
+                22.799999999999997
+              ],
+              [
+                33.025,
+                27.824999999999996
+              ],
+              [
+                28.45,
+                30.674999999999997
+              ],
+              [
+                23.275000000000002,
+                31.424999999999997
+              ],
+              [
+                18.025,
+                30
+              ],
+              [
+                14.350000000000001,
+                27.599999999999998
+              ],
+              [
+                12.625000000000002,
+                22.65
+              ]
+            ]
+          },
+          "detail": {
+            "path": "assets/locomotion-v27/female-up-1-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "phase": 1,
+          "headTranslation": [
+            -1,
+            5
+          ],
+          "sourceRoot": [
+            271,
+            686
+          ],
+          "sourceNeck": [
+            267,
+            315
+          ],
+          "sourceBodyPNG": "art/drafts/locomotion-v27/female-up-v2/phase-1-body-source-fine.png",
+          "bodyTranslation": [
+            0,
+            0
+          ],
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              -1,
+              5
+            ],
+            "neckAnchor": [
+              23.5,
+              31.5
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/up-fine.png"
+          }
+        },
+        {
+          "page": 2,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 8,
+            "bottom": 32,
+            "left": 12,
+            "right": 37,
+            "portraitChin": 32.5,
+            "eyeAnchor": [
+              24.5,
+              22.049999999999997
+            ],
+            "eyeLine": 22.049999999999997,
+            "neckAnchor": [
+              24.5,
+              31.5
+            ],
+            "facePolygon": [],
+            "scalpPolygon": [
+              [
+                13.625000000000002,
+                14.325
+              ],
+              [
+                16.925,
+                9.974999999999998
+              ],
+              [
+                24.125,
+                8.549999999999999
+              ],
+              [
+                31.025000000000002,
+                10.124999999999998
+              ],
+              [
+                35.075,
+                14.474999999999998
+              ],
+              [
+                35.9,
+                22.799999999999997
+              ],
+              [
+                34.025,
+                27.824999999999996
+              ],
+              [
+                29.45,
+                30.674999999999997
+              ],
+              [
+                24.275000000000002,
+                31.424999999999997
+              ],
+              [
+                19.025,
+                30
+              ],
+              [
+                15.350000000000001,
+                27.599999999999998
+              ],
+              [
+                13.625000000000002,
+                22.65
+              ]
+            ]
+          },
+          "detail": {
+            "path": "assets/locomotion-v27/female-up-2-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "phase": 2,
+          "headTranslation": [
+            1,
+            5
+          ],
+          "sourceRoot": [
+            271,
+            675
+          ],
+          "sourceNeck": [
+            274,
+            304
+          ],
+          "sourceBodyPNG": "art/drafts/locomotion-v27/female-up-v2/phase-2-body-source-fine.png",
+          "bodyTranslation": [
+            0,
+            0
+          ],
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              1,
+              5
+            ],
+            "neckAnchor": [
+              24.5,
+              31.5
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/up-fine.png"
+          }
+        },
+        {
+          "page": 3,
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64,
+          "head": {
+            "top": 8,
+            "bottom": 32,
+            "left": 11,
+            "right": 36,
+            "portraitChin": 32.5,
+            "eyeAnchor": [
+              23.5,
+              22.049999999999997
+            ],
+            "eyeLine": 22.049999999999997,
+            "neckAnchor": [
+              23.5,
+              31.5
+            ],
+            "facePolygon": [],
+            "scalpPolygon": [
+              [
+                12.625000000000002,
+                14.325
+              ],
+              [
+                15.925,
+                9.974999999999998
+              ],
+              [
+                23.125,
+                8.549999999999999
+              ],
+              [
+                30.025000000000002,
+                10.124999999999998
+              ],
+              [
+                34.075,
+                14.474999999999998
+              ],
+              [
+                34.9,
+                22.799999999999997
+              ],
+              [
+                33.025,
+                27.824999999999996
+              ],
+              [
+                28.45,
+                30.674999999999997
+              ],
+              [
+                23.275000000000002,
+                31.424999999999997
+              ],
+              [
+                18.025,
+                30
+              ],
+              [
+                14.350000000000001,
+                27.599999999999998
+              ],
+              [
+                12.625000000000002,
+                22.65
+              ]
+            ]
+          },
+          "detail": {
+            "path": "assets/locomotion-v27/female-up-3-fine.png",
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 128,
+            "factor": 2
+          },
+          "phase": 3,
+          "headTranslation": [
+            -1,
+            5
+          ],
+          "sourceRoot": [
+            271,
+            674
+          ],
+          "sourceNeck": [
+            267,
+            304
+          ],
+          "sourceBodyPNG": "art/drafts/locomotion-v27/female-up-v2/phase-3-body-source-fine.png",
+          "bodyTranslation": [
+            0,
+            0
+          ],
+          "canonicalFace": {
+            "gender": "female",
+            "translation": [
+              -1,
+              5
+            ],
+            "neckAnchor": [
+              23.5,
+              31.5
+            ],
+            "donor": "art/drafts/canonical-face-v29/female-heads-v1/up-fine.png"
+          }
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/locomotion-v27/female-up-0.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "8d4e8db6f9015fec402a94146668330feccbf5b03326dd535759947b2ccdd105"
+        },
+        {
+          "path": "assets/locomotion-v27/female-up-1.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "0e438276b699a4f9afe573656831698a7c33b832a627e4e2247bc7717f54194e"
+        },
+        {
+          "path": "assets/locomotion-v27/female-up-2.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "d01e01411c816a59f7fc2168fb51025812b8477d89e83b76cd48ec30b96247e6"
+        },
+        {
+          "path": "assets/locomotion-v27/female-up-3.png",
+          "width": 48,
+          "height": 64,
+          "sha256": "96d93ca924603ec59c41407d874039f2210ae34e38c21d2a90d41b8cca12977c"
+        }
+      ],
+      "detail_images": [
+        {
+          "path": "assets/locomotion-v27/female-up-0-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "8d87d5875ecaf7d1868099ace8cd1795f39ddc0cb7448c7abf82bce4fd079953"
+        },
+        {
+          "path": "assets/locomotion-v27/female-up-1-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "bd52575abc4c904d6e4407b93b5a36e61fa080c79cc7b251fc75c2b032756e90"
+        },
+        {
+          "path": "assets/locomotion-v27/female-up-2-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "98fbe57660f0429c82c10c3773df96f93696df4ce00ed6bc76efcdaba9272d9b"
+        },
+        {
+          "path": "assets/locomotion-v27/female-up-3-fine.png",
+          "width": 96,
+          "height": 128,
+          "sha256": "e11634f9481db5fbc076d61a5f59eec12e2286e946c67c94cad1a45da2400f5b"
+        }
+      ]
+    }
+  ]
+}

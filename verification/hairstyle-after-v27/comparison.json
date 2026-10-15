@@ -1,0 +1,18 @@
+{
+  "hairstyle-audit-v27": {
+    "requests": 2304,
+    "uniqueSelectedBrown": 792,
+    "rgbStrongDeletedCandidates": 477,
+    "newInteriorAlphaCandidates": 731,
+    "canvasSideClipped": 0,
+    "canvasTopClipped": 0
+  },
+  "hairstyle-after-v27": {
+    "requests": 2304,
+    "uniqueSelectedBrown": 792,
+    "rgbStrongDeletedCandidates": 81,
+    "newInteriorAlphaCandidates": 678,
+    "canvasSideClipped": 8,
+    "canvasTopClipped": 288
+  }
+}

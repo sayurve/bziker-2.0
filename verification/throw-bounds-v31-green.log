@@ -1,0 +1,19 @@
+✔ paper release uses the selected model and direction palm, including nondefault world scale (1.876375ms)
+✔ new water equipment uses the reviewed pose palm, separate supporting grip and authored angle (2.583083ms)
+✔ both actual palm strokes contact a real native animal head in all20 breeds without stretching or lifting the whole pet (29.910542ms)
+✔ contact is scoped to its actual target, approaches/withdraws continuously and reduced motion holds one native reaction (0.349ms)
+✔ finite pet frame override never changes normal animal gait or accepts invalid contact phases (0.272416ms)
+✔ actual mountWorld street-pet painter applies the shared palm/head registration (196.161208ms)
+✔ native male and female fishing props fit their Phaser texture throughout cast and catch (13.2425ms)
+✔ ordinary and expired actors retain the compact texture bounds (0.146084ms)
+✔ actor visual revisions follow pose and identity changes independently of translation (0.204542ms)
+✔ actual bounded world painter preserves the whole paper at both native bin openings from a legal approach (73.47425ms)
+✔ throw texture remains stable over the entire action and contains every arc point plus real paper extent (18.73675ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 594.655041

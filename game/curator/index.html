@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <link rel="icon" href="data:,">
+  <title>Бзикер — оценка ответов</title>
+  <style>
+    :root {
+      --sky: #85cdf8; --cloud: #ffffff; --ink: #161823;
+      --pink: #c7186b; --muted: #56616e; --green: #21744e;
+      --cloud-shape: polygon(12% 14%,20% 14%,20% 5%,38% 5%,38% 0,62% 0,62% 5%,80% 5%,80% 14%,88% 14%,88% 23%,95% 23%,95% 34%,100% 34%,100% 66%,95% 66%,95% 77%,88% 77%,88% 86%,78% 86%,78% 93%,61% 93%,61% 100%,39% 100%,39% 94%,21% 94%,21% 87%,12% 87%,12% 77%,5% 77%,5% 66%,0 66%,0 34%,5% 34%,5% 23%,12% 23%);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--sky); color: var(--ink); font-family: Verdana, sans-serif; }
+    button { font: inherit; color: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+    button:disabled { cursor: default; }
+    button:focus-visible { outline: 3px solid var(--pink); outline-offset: 5px; }
+    .page { max-width: 1120px; margin: auto; padding: 0 24px; }
+    .header { min-height: 88px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .wordmark { margin: 0; font-family: 'Courier New', monospace; font-size: 28px; font-weight: 900; letter-spacing: 2px; }
+    .header-caption { margin: 5px 0 0; font-size: 12px; }
+    .progress { padding: 12px 16px; background: #d4efff; font-size: 13px; white-space: nowrap; border: 2px solid var(--ink); }
+    .progress strong { font-variant-numeric: tabular-nums; }
+    .orbit { position: relative; max-width: 960px; height: 760px; margin: auto; }
+    .orbit-ring { position: absolute; left: 50%; top: 50%; width: 560px; height: 560px; transform: translate(-50%, -50%); border: 2px dashed #d2eeff; border-radius: 50%; pointer-events: none; }
+    .answer-tile { position: absolute; width: 286px; height: 204px; padding: 0; border: 0; background: transparent; transform: translate(-50%, -50%); }
+    .answer-tile[data-position="north"] { left: 50%; top: 14.5%; }
+    .answer-tile[data-position="east"] { left: 83%; top: 50%; }
+    .answer-tile[data-position="south"] { left: 50%; top: 85.5%; }
+    .answer-tile[data-position="west"] { left: 17%; top: 50%; }
+    .cloud-outline, .cloud-inner { position: absolute; clip-path: var(--cloud-shape); }
+    .cloud-outline { inset: 0; background: var(--ink); }
+    .cloud-inner { inset: 4px; background: var(--cloud); }
+    .answer-tile:hover .cloud-outline, .answer-tile:focus-visible .cloud-outline { background: var(--pink); }
+    .answer-tile:hover { transform: translate(-50%, calc(-50% - 3px)); }
+    .tile-content { position: relative; height: 100%; padding: 26px 32px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; }
+    .people { display: flex; justify-content: center; height: 27px; }
+    .people img { width: 25px; height: 27px; object-fit: contain; image-rendering: pixelated; }
+    .tile-label { font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 1.5px; color: var(--muted); }
+    .tile-preview { margin: 0; font-size: 12px; line-height: 1.55; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+    .tile-action { font-size: 12px; color: var(--pink); font-weight: bold; }
+    .answer-tile[data-rated="true"] .tile-action { color: var(--green); }
+    .question { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 270px; min-height: 242px; padding: 20px; background: var(--cloud); border: 4px solid var(--ink); text-align: center; }
+    .mascot { width: 86px; height: 70px; object-fit: contain; image-rendering: pixelated; }
+    .question-eyebrow { display: block; color: var(--pink); font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 1.5px; margin: 5px 0 10px; }
+    .question h2 { margin: 0; font-size: 16px; line-height: 1.55; }
+    .question-value { margin: 12px 0 0; font-size: 11px; color: var(--muted); }
+    .footer { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 24px; border-top: 2px solid #55a9df; padding: 16px 0 24px; }
+    .footer p { margin: 0; font-size: 12px; line-height: 1.6; }
+    .finish-button, .save-button { border: 2px solid var(--ink); background: var(--pink); color: #fff; min-height: 44px; padding: 12px 20px; font-size: 13px; font-weight: bold; }
+    .finish-button { white-space: nowrap; }
+    .finish-button:disabled, .save-button:disabled { background: #c9e8fc; color: #47627a; border-color: #47627a; }
+    dialog { width: min(520px, calc(100% - 32px)); padding: 28px; border: 4px solid var(--ink); color: var(--ink); background: #fff; max-height: calc(100dvh - 40px); overflow-y: auto; }
+    dialog::backdrop { background: #142c4c99; }
+    .dialog-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .dialog-header h2 { margin: 0; font-size: 22px; }
+    .close-button { width: 44px; height: 44px; background: #fff; border: 2px solid var(--ink); font-size: 25px; }
+    .detail-question { margin: 24px 0 18px; padding: 14px; background: #e9f7ff; font-size: 12px; line-height: 1.7; }
+    .detail-answer { margin: 0 0 22px; font-size: 14px; line-height: 1.8; white-space: pre-wrap; overflow-wrap: anywhere; }
+    .grade-hint { margin: 0 0 10px; font-size: 12px; line-height: 1.6; color: var(--muted); }
+    .grade-buttons { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; margin: 14px 0 24px; }
+    .grade-button { min-width: 0; min-height: 46px; border: 2px solid var(--ink); background: #fff; font-family: 'Courier New', monospace; font-size: 18px; font-weight: bold; }
+    .grade-button[aria-pressed="true"] { background: var(--pink); color: #fff; }
+    .grade-button:disabled { cursor: default; }
+    .save-button { width: 100%; }
+    .readonly-note { margin: 20px 0 0; font-size: 13px; color: var(--green); }
+    .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+    @media (max-width: 960px) and (min-width: 761px) {
+      .orbit { height: 760px; }
+      .answer-tile { width: 235px; height: 196px; }
+      .answer-tile[data-position="east"] { left: 84%; }
+      .answer-tile[data-position="west"] { left: 16%; }
+      .question { width: 205px; padding: 16px; }
+      .question h2 { font-size: 14px; }
+      .tile-content { padding: 26px 24px; }
+      .orbit-ring { width: 490px; height: 560px; }
+    }
+    @media (max-width: 760px) {
+      .page { padding: 0 12px; }
+      .header { min-height: 86px; gap: 8px; }
+      .wordmark { font-size: 24px; letter-spacing: 1px; }
+      .header-caption { font-size: 10px; }
+      .progress { padding: 10px; font-size: 11px; }
+      .orbit { height: 680px; }
+      .orbit-ring { width: 260px; height: 460px; }
+      .answer-tile { width: 238px; height: 156px; }
+      .answer-tile[data-position="north"] { top: 16%; }
+      .answer-tile[data-position="south"] { top: 84%; }
+      .answer-tile[data-position="east"], .answer-tile[data-position="west"] { width: 88px; height: 190px; }
+      .answer-tile[data-position="east"] { left: 88%; }
+      .answer-tile[data-position="west"] { left: 12%; }
+      .tile-content { padding: 18px 26px; gap: 6px; }
+      .people { height: 22px; }
+      .people img { width: 20px; height: 22px; }
+      .tile-preview { font-size: 11px; -webkit-line-clamp: 2; }
+      .tile-label { font-size: 10px; letter-spacing: .5px; }
+      .answer-tile[data-position="east"] .tile-content, .answer-tile[data-position="west"] .tile-content { padding: 30px 12px; }
+      .answer-tile[data-position="east"] .people, .answer-tile[data-position="west"] .people { display: none; }
+      .answer-tile[data-position="east"] .tile-preview, .answer-tile[data-position="west"] .tile-preview { -webkit-line-clamp: 4; overflow-wrap: anywhere; }
+      .answer-tile[data-position="east"] .tile-action, .answer-tile[data-position="west"] .tile-action { font-size: 10px; }
+      .question { width: 150px; min-height: 218px; padding: 12px; border-width: 3px; }
+      .question h2 { font-size: 12px; }
+      .question-eyebrow { font-size: 10px; letter-spacing: 1px; }
+      .question-value { font-size: 10px; }
+      .mascot { width: 70px; height: 58px; }
+      .footer { flex-direction: column; gap: 14px; text-align: center; padding-bottom: max(20px, env(safe-area-inset-bottom)); }
+      .finish-button { width: 100%; }
+      dialog { padding: 20px; }
+      .grade-buttons { grid-template-columns: repeat(5, 1fr); gap: 7px; }
+    }
+    @media (max-width: 350px) {
+      .answer-tile[data-position="east"], .answer-tile[data-position="west"] { width: 76px; }
+      .question { width: 126px; }
+      .tile-action { font-size: 9px !important; }
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .answer-tile { transition: transform 140ms ease; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="header">
+      <div><h1 class="wordmark">БЗИКЕР</h1><p class="header-caption">Креатив в работе · оценка ответов</p></div>
+      <div class="progress" aria-live="polite">Оценено <strong id="progress-count">0 / 4</strong></div>
+    </header>
+    <section class="orbit" aria-label="Четыре анонимных ответа вокруг вопроса">
+      <div class="orbit-ring" aria-hidden="true"></div>
+      <div class="question">
+        <img class="mascot" src="../assets/mascot-reference.png" alt="Маскот Бзикера">
+        <span class="question-eyebrow">Вопрос</span>
+        <h2 id="question-text">Придумайте креативный способ познакомить новых сотрудников с командой.</h2>
+        <p class="question-value">Тема «Идея» · 300 баллов</p>
+      </div>
+      <div id="answer-tiles"></div>
+    </section>
+    <footer class="footer">
+      <p id="footer-status" role="status">Откройте облако, прочитайте ответ и выберите оценку.</p>
+      <button id="finish-button" class="finish-button" type="button" disabled>Завершить оценку</button>
+    </footer>
+  </main>
+  <dialog id="answer-dialog" aria-labelledby="answer-title">
+    <div class="dialog-header"><h2 id="answer-title">Ответ</h2><button id="close-dialog" class="close-button" type="button" aria-label="Закрыть ответ">×</button></div>
+    <p class="detail-question" id="detail-question"></p>
+    <p class="detail-answer" id="detail-answer"></p>
+    <p class="grade-hint" id="grade-label">Оцените идею от 0 до 10: учитывайте её уместность, оригинальность и понятность.</p>
+    <div id="grade-buttons" class="grade-buttons" role="group" aria-labelledby="grade-label"></div>
+    <button id="save-grade" class="save-button" type="button" disabled>Сохранить оценку</button>
+    <p id="readonly-note" class="readonly-note" hidden>Оценивание завершено.</p>
+  </dialog>
+  <script>
+    (() => {
+      'use strict';
+      const question = document.getElementById('question-text').textContent;
+      // Demonstration responses intentionally contain no team or author data.
+      const answers = [
+        { id: 'p7k2m', text: 'Сделаем «карту команды»: каждый коллега оставит короткую карточку о своей работе и один необычный факт. Новичок сможет выбрать интересующую задачу и сразу найти человека, который поможет.' },
+        { id: 'r4n8x', text: 'Предложим новичку мини-квест по рабочему дню. В каждой точке — маленькое задание от коллеги. В финале получится личная схема: кто за что отвечает и к кому обращаться с вопросами.' },
+        { id: 'w9c3f', text: 'Организуем обмен историями «Один день — одна задача». Коллеги расскажут о реальном случае за две минуты, а новичок придумает свой вариант решения. Так знакомство сразу станет совместной работой.' },
+        { id: 't6b5q', text: 'Соберём «плейлист команды» из коротких голосовых историй: почему мы делаем эту работу, что уже придумали и что хотим изменить. Новичок добавит своё первое предложение, а команда обсудит его на встрече.' }
+      ];
+      const storageKey = 'bziker-curator-circle-demo-v1';
+      let state = { order: [], grades: {}, completed: false };
+      try {
+        const stored = JSON.parse(localStorage.getItem(storageKey));
+        if (stored && Array.isArray(stored.order) && stored.order.length === 4 && new Set(stored.order).size === 4 && stored.order.every(id => answers.some(a => a.id === id))) {
+          state.order = stored.order;
+          state.grades = Object.fromEntries(Object.entries(stored.grades || {}).filter(([id, value]) => answers.some(a => a.id === id) && Number.isInteger(value) && value >= 0 && value <= 10));
+          state.completed = Boolean(stored.completed) && Object.keys(state.grades).length === 4;
+        }
+      } catch (_) { /* Use a fresh demonstration if storage is unavailable. */ }
+      if (!state.order.length) {
+        state.order = answers.map(a => a.id);
+        for (let i = state.order.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [state.order[i], state.order[j]] = [state.order[j], state.order[i]];
+        }
+      }
+      const dialog = document.getElementById('answer-dialog');
+      const gradeContainer = document.getElementById('grade-buttons');
+      const saveButton = document.getElementById('save-grade');
+      const finishButton = document.getElementById('finish-button');
+      const status = document.getElementById('footer-status');
+      let activeAnswer = null;
+      let selectedGrade = null;
+      let returnFocus = null;
+      const gradeButtons = [];
+      const persist = () => { try { localStorage.setItem(storageKey, JSON.stringify(state)); } catch (_) {} };
+      function updateSelection() {
+        gradeButtons.forEach(button => {
+          button.setAttribute('aria-pressed', String(Number(button.dataset.grade) === selectedGrade));
+          button.disabled = state.completed;
+        });
+        saveButton.disabled = selectedGrade === null || state.completed;
+        saveButton.hidden = state.completed;
+        document.getElementById('readonly-note').hidden = !state.completed;
+      }
+      for (let value = 0; value <= 10; value++) {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'grade-button';
+        button.dataset.grade = String(value);
+        button.textContent = String(value);
+        button.setAttribute('aria-label', `Оценка ${value} из 10`);
+        button.setAttribute('aria-pressed', 'false');
+        button.addEventListener('click', () => { selectedGrade = value; updateSelection(); });
+        gradeContainer.append(button);
+        gradeButtons.push(button);
+      }
+      function openAnswer(id, trigger) {
+        activeAnswer = answers.find(a => a.id === id);
+        selectedGrade = Object.hasOwn(state.grades, id) ? state.grades[id] : null;
+        returnFocus = trigger;
+        document.getElementById('detail-question').textContent = question;
+        document.getElementById('detail-answer').textContent = activeAnswer.text;
+        updateSelection();
+        dialog.showModal();
+      }
+      function render() {
+        const count = Object.keys(state.grades).length;
+        document.getElementById('progress-count').textContent = `${count} / 4`;
+        const container = document.getElementById('answer-tiles');
+        container.replaceChildren();
+        const positions = ['north', 'east', 'south', 'west'];
+        state.order.forEach((id, index) => {
+          const answer = answers.find(a => a.id === id);
+          const rated = Object.hasOwn(state.grades, id);
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = 'answer-tile';
+          button.dataset.position = positions[index];
+          button.dataset.answer = id;
+          button.dataset.rated = String(rated);
+          button.setAttribute('aria-label', rated ? `Открыть ответ. Ваша оценка ${state.grades[id]} из 10` : 'Открыть анонимный ответ');
+          const outline = document.createElement('span');
+          outline.className = 'cloud-outline';
+          const inner = document.createElement('span');
+          inner.className = 'cloud-inner';
+          const content = document.createElement('span');
+          content.className = 'tile-content';
+          const people = document.createElement('span');
+          people.className = 'people';
+          people.setAttribute('aria-hidden', 'true');
+          for (let i = 0; i < 6; i++) {
+            const img = document.createElement('img');
+            img.src = '../assets/people-reference.png';
+            img.alt = '';
+            people.append(img);
+          }
+          const label = document.createElement('span');
+          label.className = 'tile-label';
+          label.textContent = 'Ответ';
+          const preview = document.createElement('span');
+          preview.className = 'tile-preview';
+          preview.textContent = answer.text;
+          const action = document.createElement('span');
+          action.className = 'tile-action';
+          action.textContent = rated ? `${state.grades[id]} / 10 ✓` : 'Оценить →';
+          content.append(people, label, preview, action);
+          button.append(outline, inner, content);
+          button.addEventListener('click', () => openAnswer(id, button));
+          container.append(button);
+        });
+        finishButton.disabled = count !== 4 || state.completed;
+        finishButton.textContent = state.completed ? 'Оценивание завершено' : 'Завершить оценку';
+      }
+      function closeDialog() {
+        dialog.close();
+        if (returnFocus && returnFocus.isConnected) returnFocus.focus();
+      }
+      document.getElementById('close-dialog').addEventListener('click', closeDialog);
+      dialog.addEventListener('click', event => {
+        const rect = dialog.getBoundingClientRect();
+        if (event.target === dialog && (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) closeDialog();
+      });
+      saveButton.addEventListener('click', () => {
+        if (!activeAnswer || selectedGrade === null || state.completed) return;
+        const id = activeAnswer.id;
+        state.grades[id] = selectedGrade;
+        persist();
+        render();
+        returnFocus = document.querySelector(`[data-answer="${id}"]`);
+        closeDialog();
+        status.textContent = Object.keys(state.grades).length === 4 ? 'Все четыре ответа оценены. Можно завершить оценивание.' : `Оценка ${selectedGrade} из 10 сохранена. Откройте следующий ответ.`;
+      });
+      finishButton.addEventListener('click', () => {
+        if (Object.keys(state.grades).length !== 4 || state.completed) return;
+        state.completed = true;
+        persist();
+        render();
+        status.textContent = 'Все четыре ответа оценены. Ваши оценки сохранены.';
+      });
+      persist();
+      render();
+      if (state.completed) status.textContent = 'Все четыре ответа оценены. Ваши оценки сохранены.';
+    })();
+  </script>
+</body>
+</html>

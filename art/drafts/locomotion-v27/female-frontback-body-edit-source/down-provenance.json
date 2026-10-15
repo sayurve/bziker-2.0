@@ -1,0 +1,115 @@
+{
+  "status": "native-edit-reference",
+  "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#06_Бег_Спереди",
+  "sourceActor": "human-male",
+  "sheet": [
+    768,
+    1024
+  ],
+  "cell": [
+    384,
+    512
+  ],
+  "uniformEnlargement": 4,
+  "nearest": true,
+  "alpha": true,
+  "noBackgroundLabelsGrid": true,
+  "bodyExportScaleForFemale": 0.23529411764705882,
+  "method": "Four original full96x128 native canvas crops, no silhouette fit, enlarged uniformly4x and placed2x2 in source order",
+  "poses": [
+    {
+      "n": 0,
+      "sourceAtlas": "assets/design-actor-detail-base-human-male-1.png",
+      "sourceAtlasSHA256": "663ad18e9a90e507beed9c85351713ee95e268b4c9c99eca0895aaca14de8b66",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-male-1.png",
+        "x": 384,
+        "y": 256,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "cellFile": "art/drafts/locomotion-v27/female-frontback-body-edit-source/male-down-phase-0-4x.png",
+      "sha256": "1085b632618cf6b15270f61362f410e6f792ef5c3cb1f3a58c283ef1b590475a",
+      "sourceRoot": [
+        192,
+        504
+      ],
+      "sourceNeck": [
+        192,
+        244
+      ]
+    },
+    {
+      "n": 1,
+      "sourceAtlas": "assets/design-actor-detail-base-human-male-1.png",
+      "sourceAtlasSHA256": "663ad18e9a90e507beed9c85351713ee95e268b4c9c99eca0895aaca14de8b66",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-male-1.png",
+        "x": 480,
+        "y": 256,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "cellFile": "art/drafts/locomotion-v27/female-frontback-body-edit-source/male-down-phase-1-4x.png",
+      "sha256": "acade49de0734902fdf709cd24d669950dc0343cafb6cd838da7ca6fd460ce89",
+      "sourceRoot": [
+        192,
+        504
+      ],
+      "sourceNeck": [
+        192,
+        244
+      ]
+    },
+    {
+      "n": 2,
+      "sourceAtlas": "assets/design-actor-detail-base-human-male-1.png",
+      "sourceAtlasSHA256": "663ad18e9a90e507beed9c85351713ee95e268b4c9c99eca0895aaca14de8b66",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-male-1.png",
+        "x": 576,
+        "y": 256,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "cellFile": "art/drafts/locomotion-v27/female-frontback-body-edit-source/male-down-phase-2-4x.png",
+      "sha256": "aa5da143655854962bc3b745f9a9e5f9dee8813590a67671c3cddcea50f12f0c",
+      "sourceRoot": [
+        192,
+        504
+      ],
+      "sourceNeck": [
+        192,
+        244
+      ]
+    },
+    {
+      "n": 3,
+      "sourceAtlas": "assets/design-actor-detail-base-human-male-1.png",
+      "sourceAtlasSHA256": "663ad18e9a90e507beed9c85351713ee95e268b4c9c99eca0895aaca14de8b66",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-male-1.png",
+        "x": 672,
+        "y": 256,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "cellFile": "art/drafts/locomotion-v27/female-frontback-body-edit-source/male-down-phase-3-4x.png",
+      "sha256": "adbfe27d4e4f4505c1d30f567eae90d50795022bcbd953d35877e942cb2af920",
+      "sourceRoot": [
+        192,
+        504
+      ],
+      "sourceNeck": [
+        192,
+        244
+      ]
+    }
+  ],
+  "sheetFile": "art/drafts/locomotion-v27/female-frontback-body-edit-source/male-down-run-2x2-4x.png",
+  "sheetSHA256": "b0a6522e589567105e3bcbd7688ae48cf2992c269cfce1a1cba23b442dd00b09"
+}

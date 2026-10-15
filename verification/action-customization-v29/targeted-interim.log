@@ -1,0 +1,110 @@
+✔ legacy carry with black eyes retains genuine fine face flesh for every selected hairstyle (242.334625ms)
+✖ selected hair preserves original raised-hand and shoulder contours instead of punching alpha holes (30.145167ms)
+✔ long white strands survive every coarse garment edit on the original rear pet gesture (103.747666ms)
+✔ selected long hair keeps the native opaque neck boundary on the canonical standing phone (31.890458ms)
+✔ changing hair never deletes the genuine fine skin hidden by a brown coarse sample (71.836292ms)
+✔ native eyes retain every bright eye pixel through all 12 hairstyles and motion directions (5746.040125ms)
+✔ native rear and side ear skin survives every hairstyle without turning into white hair (367.99975ms)
+✖ short rear styles preserve the genuine native lower nape until a reviewed hidden-neck layer exists (1053.445208ms)
+✔ all native hairstyle phases keep a transparent safety edge without resizing the head or actor (6753.602ms)
+✔ all 12 hairstyles preserve every opaque native authored face pixel on current approved idle and running heads (5616.288416ms)
+✔ rear glasses have no opaque lens or bridge stripe across the native back of the head (102.802541ms)
+✔ side glasses surround the authored eye line instead of being only a portrait-row stripe (188.048167ms)
+✔ beast costume ears attach to the actual crown in both genders and every direction (147.822458ms)
+✔ native coat does not introduce disconnected alpha islands around the moving body (485.515667ms)
+✔ a front chest badge is not drawn through hair on the back (14.186ms)
+✔ current fine jaw boundary and lower body outline remain native when only hair colour changes (19.930875ms)
+✖ raincoat stripe cannot overwrite the actual fine female mouth/face through a coarse garment cell (0.901458ms)
+✔ hair colour preserves the complete current body and hands below each authored neck (339.217ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 15
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 20198.776083
+
+✖ failing tests:
+
+test at game/tests/action-customization-v29.test.mjs:10:1
+✖ selected hair preserves original raised-hand and shoulder contours instead of punching alpha holes (30.145167ms)
+  AssertionError [ERR_ASSERTION]: style1: native contour 21,59
+  + actual - expected
+  
+    [
+  +   0,
+  +   0,
+  +   0,
+  +   0
+  -   22,
+  -   10,
+  -   7,
+  -   255
+    ]
+  
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/action-customization-v29.test.mjs:11:289)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [ 0, 0, 0, 0 ],
+    expected: [ 22, 10, 7, 255 ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at game/tests/hairstyle-native-v27.test.mjs:50:1
+✖ short rear styles preserve the genuine native lower nape until a reviewed hidden-neck layer exists (1053.445208ms)
+  AssertionError [ERR_ASSERTION]: 1/idle/0/style1: detached head at 40,59
+  
+  0 !== 255
+  
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/hairstyle-native-v27.test.mjs:56:109)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 255,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at game/tests/head-items-native-v28.test.mjs:26:1
+✖ raincoat stripe cannot overwrite the actual fine female mouth/face through a coarse garment cell (0.901458ms)
+  AssertionError [ERR_ASSERTION]: observe current genuine fine flesh
+  + actual - expected
+  
+    [
+  +   253,
+  +   181,
+  +   133,
+  -   251,
+  -   175,
+  -   130,
+      255
+    ]
+  
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/head-items-native-v28.test.mjs:27:118)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [ 253, 181, 133, 255 ],
+    expected: [ 251, 175, 130, 255 ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

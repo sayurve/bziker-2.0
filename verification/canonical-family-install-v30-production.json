@@ -1,0 +1,114 @@
+[
+  {
+    "actorId": "human-male",
+    "family": "hand",
+    "dir": "right",
+    "id": "canonical-hand-male-right",
+    "frames": 4
+  },
+  {
+    "actorId": "human-male",
+    "family": "hand",
+    "dir": "down",
+    "id": "canonical-hand-male-down",
+    "frames": 4
+  },
+  {
+    "actorId": "human-male",
+    "family": "hand",
+    "dir": "left",
+    "id": "canonical-hand-male-left",
+    "frames": 4
+  },
+  {
+    "actorId": "human-male",
+    "family": "hand",
+    "dir": "up",
+    "id": "canonical-hand-male-up",
+    "frames": 4
+  },
+  {
+    "actorId": "human-female",
+    "family": "hand",
+    "dir": "right",
+    "id": "canonical-hand-female-right",
+    "frames": 4
+  },
+  {
+    "actorId": "human-female",
+    "family": "hand",
+    "dir": "down",
+    "id": "canonical-hand-female-down",
+    "frames": 4
+  },
+  {
+    "actorId": "human-female",
+    "family": "hand",
+    "dir": "left",
+    "id": "canonical-hand-female-left",
+    "frames": 4
+  },
+  {
+    "actorId": "human-female",
+    "family": "hand",
+    "dir": "up",
+    "id": "canonical-hand-female-up",
+    "frames": 4
+  },
+  {
+    "actorId": "human-male",
+    "family": "lowerReach",
+    "dir": "down",
+    "id": "canonical-lowerReach-male-down",
+    "frames": 4
+  },
+  {
+    "actorId": "human-male",
+    "family": "lowerReach",
+    "dir": "right",
+    "id": "canonical-lowerReach-male-right",
+    "frames": 4
+  },
+  {
+    "actorId": "human-male",
+    "family": "lowerReach",
+    "dir": "up",
+    "id": "canonical-lowerReach-male-up",
+    "frames": 4
+  },
+  {
+    "actorId": "human-male",
+    "family": "lowerReach",
+    "dir": "left",
+    "id": "canonical-lowerReach-male-left",
+    "frames": 4
+  },
+  {
+    "actorId": "human-female",
+    "family": "lowerReach",
+    "dir": "down",
+    "id": "canonical-lowerReach-female-down",
+    "frames": 4
+  },
+  {
+    "actorId": "human-female",
+    "family": "lowerReach",
+    "dir": "right",
+    "id": "canonical-lowerReach-female-right",
+    "frames": 4
+  },
+  {
+    "actorId": "human-female",
+    "family": "lowerReach",
+    "dir": "up",
+    "id": "canonical-lowerReach-female-up",
+    "frames": 4
+  },
+  {
+    "actorId": "human-female",
+    "family": "lowerReach",
+    "dir": "left",
+    "id": "canonical-lowerReach-female-left",
+    "frames": 4
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "moduleSha256": "c09764364a44d128e6b86c2fce98ebe6c7b7f9c212cf95fd69566423f0d1d445",
+  "mapSha256": "0e4da5e3d9ea54fa8039eddfa0ff99983a55da99da94baa216849f7231314547",
+  "rooms": {
+    "profile": {
+      "differentKeys": [],
+      "corePlanMatches": true
+    },
+    "shop-clothes": {
+      "differentKeys": [],
+      "corePlanMatches": true
+    },
+    "shop-food": {
+      "differentKeys": [],
+      "corePlanMatches": true
+    },
+    "shop-furniture": {
+      "differentKeys": [],
+      "corePlanMatches": true
+    }
+  },
+  "status": "integrated four-room plan matches; target tests and current renderer reviewed",
+  "tests": {
+    "node": {
+      "passed": 16,
+      "failed": 0,
+      "includesFloorDecorRegression": true
+    },
+    "python": {
+      "passed": 4,
+      "failed": 0
+    },
+    "serverBfs": {
+      "targetsReached": 34,
+      "targetsTotal": 34,
+      "seatsValid": 8,
+      "solidOverlaps": 0
+    }
+  },
+  "cameraSha256": "c76b48e237d64806cc90e2156cb3e7e4d7e0549e808dd60dd938e5ff20fd5efb",
+  "renderMetrics": "verification/shop-render-metrics.json",
+  "bfsMetrics": "verification/shop-bfs-metrics.json",
+  "visualReview": {
+    "currentSource": "game/web/interiors-map.json",
+    "viewports": [
+      1204,
+      390
+    ],
+    "allFourReviewed": true,
+    "hangingSidePanelsInCurrentFull": false,
+    "upperSignsAndFixturesFitVertically": true,
+    "physicalPhoneTested": false,
+    "artApproved": false,
+    "postMatFixBrowserScreenshotsInspected": [
+      "verification/locations-v26/shop-clothes-browser-wide.png",
+      "verification/locations-v26/shop-clothes-browser-mobile.png"
+    ],
+    "postNativeWoodBrowserScreenshotsInspected": [
+      "verification/locations-v26/shop-furniture-browser-wide.png",
+      "verification/locations-v26/shop-furniture-browser-mobile.png"
+    ]
+  },
+  "floorDecor": {
+    "shopClothesMatBottom": 647,
+    "physicalFloorBottom": 653,
+    "clearance": 6,
+    "insideWalkingPlane": true
+  },
+  "fullProjectTests": {
+    "performedBy": "root",
+    "tools": 13,
+    "gamePython": 344,
+    "gameNode": 805,
+    "passed": true,
+    "source": "verification/project-full.json",
+    "logs": [
+      "verification/tools-tests-latest.log",
+      "verification/game-python-latest.log",
+      "verification/game-node-latest.log"
+    ]
+  },
+  "woodFloor": {
+    "shopFurnitureTileWorldSize": [
+      192,
+      192
+    ],
+    "native192Restored": true,
+    "physicalGeometryUnchanged": true
+  },
+  "cameraScaleQuantization": "1/(8*dpr)"
+}

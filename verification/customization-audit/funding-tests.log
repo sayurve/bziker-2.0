@@ -1,0 +1,12 @@
+test_conflicting_key_rolls_back (__main__.FundingTests.test_conflicting_key_rolls_back) ... ok
+test_idempotent_balance_and_no_inventory_grant (__main__.FundingTests.test_idempotent_balance_and_no_inventory_grant) ... ok
+test_invalid_amounts_rejected (__main__.FundingTests.test_invalid_amounts_rejected) ... ok
+test_non_qa_name_and_missing_database_rejected (__main__.FundingTests.test_non_qa_name_and_missing_database_rejected) ... ok
+test_production_path_never_opened (__main__.FundingTests.test_production_path_never_opened) ... ok
+test_symlink_and_hardlink_rejected (__main__.FundingTests.test_symlink_and_hardlink_rejected) ... ok
+test_wrong_profile_rejected_without_funding (__main__.FundingTests.test_wrong_profile_rejected_without_funding) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.018s
+
+OK

@@ -1,0 +1,11 @@
+✔ all sixteen reviewed new B/C poses decode as true-alpha native canvases and preserve the actual lower body outside head composition (47.740875ms)
+✔ source opaque pixels transform inside the fixed canvas before rasterization, with only uniform authored scale and root translation (1290.283ms)
+✔ every new body uses the unchanged per-gender canonical head by integer neck translation rather than head size fitting (21.766958ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1543.0375

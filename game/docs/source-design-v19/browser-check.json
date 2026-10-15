@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-11",
+  "oneExistingTab": true,
+  "newTabsOpened": 0,
+  "desktop": {
+    "width": 1365,
+    "height": 900,
+    "keyboardMovementObserved": true
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "horizontalOverflow": false,
+    "joystickMovementObserved": true,
+    "inventorySlots": 10,
+    "phonePositionPreserved": true,
+    "phonePose": "phone",
+    "telephoneDecorationClippedToViewport": true
+  },
+  "actualPhysicalPhoneTest": false,
+  "hundredPlayersLoadTest": false,
+  "screenshots": [
+    "desktop-city.png",
+    "desktop-interior.png",
+    "desktop-map.png",
+    "mobile-city.png",
+    "mobile-map.png",
+    "mobile-phone.png",
+    "mobile-inventory.png"
+  ],
+  "final_geometry_sha256": "a548c872ebfa973e3830418daf4f3b72a926647963350cb1993838ba2c8ed02b",
+  "final_reload_utc": "2026-10-11T01:09:35.311Z",
+  "fresh_console_errors": [],
+  "viewport_override_reset": true,
+  "final_url": "http://127.0.0.1:8791/",
+  "lighting_mode_restored": "auto"
+}

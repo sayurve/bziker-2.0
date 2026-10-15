@@ -1,0 +1,104 @@
+{
+  "status": "draft",
+  "family": "seated",
+  "gender": "male",
+  "dir": "right",
+  "master": "art/drafts/canonical-actions-v30/seated/male-right/seated-four-master.png",
+  "sourceOutput": "/Users/sapp/.codex/generated_images/01a13c9a-ae7d-7bc2-83f6-88b8b5a5e67b/exec-ca29a256-7be1-485c-b6b0-5a8c1e9217a1.png",
+  "rawMasterUnchanged": true,
+  "masterSHA256": "1a8a31e352250f6fd0f3b2e6740d23efe4c7f214a42a0d0fc3a00f58dd6c9875",
+  "actualSize": [
+    1086,
+    1448
+  ],
+  "requestedSize": [
+    1536,
+    2048
+  ],
+  "cell": [
+    543,
+    724
+  ],
+  "fixedUniformScale": 0.17679558011049723,
+  "referencePaths": [
+    "art/drafts/canonical-actions-v30/references/male-right-runtime-8x.png"
+  ],
+  "poses": [
+    {
+      "pose": "neutral",
+      "file": "art/drafts/canonical-actions-v30/seated/male-right/neutral-fine-raw.png",
+      "sourceCell": [
+        0,
+        0,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        24,
+        14,
+        85,
+        124
+      ],
+      "opaquePixels": 3650,
+      "edgeInk": 0
+    },
+    {
+      "pose": "hand-chest",
+      "file": "art/drafts/canonical-actions-v30/seated/male-right/hand-chest-fine-raw.png",
+      "sourceCell": [
+        543,
+        0,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        19,
+        14,
+        79,
+        124
+      ],
+      "opaquePixels": 3737,
+      "edgeInk": 0
+    },
+    {
+      "pose": "hand-mouth",
+      "file": "art/drafts/canonical-actions-v30/seated/male-right/hand-mouth-fine-raw.png",
+      "sourceCell": [
+        0,
+        724,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        24,
+        8,
+        85,
+        118
+      ],
+      "opaquePixels": 3828,
+      "edgeInk": 0
+    },
+    {
+      "pose": "reach",
+      "file": "art/drafts/canonical-actions-v30/seated/male-right/reach-fine-raw.png",
+      "sourceCell": [
+        543,
+        724,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        18,
+        8,
+        88,
+        118
+      ],
+      "opaquePixels": 3955,
+      "edgeInk": 0
+    }
+  ]
+}

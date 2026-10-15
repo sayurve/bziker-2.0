@@ -1,0 +1,79 @@
+{
+  "status": "draft",
+  "approved": false,
+  "asset": "male-idle-up.png",
+  "action": "idle",
+  "direction": "up",
+  "generator": "built-in image_gen",
+  "intent": "edit canonical right master into one true rear idle pose",
+  "source_path": "/Users/sapp/.codex/generated_images/01a13c9a-6df1-7e23-9234-eccad2b4ad49/exec-db883070-312c-42ec-b8e1-af01992f3be0.png",
+  "edit_target": "art/drafts/canonical-idle-v2/male-idle-right.png",
+  "identity_references": [
+    "art/references/canonical-run/reference-01.png",
+    "art/references/canonical-run/reference-02.png"
+  ],
+  "excluded_reference": "third idle screenshot — not provided to generator",
+  "prompt_path": "male-idle-up.prompt.txt",
+  "actual_size": [
+    1085,
+    1449
+  ],
+  "requested_size": [
+    1150,
+    1367
+  ],
+  "pixel_mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "alpha_bbox": [
+    41,
+    42,
+    1008,
+    1393
+  ],
+  "requested_figure_extent": {
+    "center_x": 575,
+    "crown_y": 169,
+    "soles_y": 1253
+  },
+  "size_matches_request": false,
+  "unmodified_generated_bytes": true,
+  "sha256": "449a31c5e8b80412e0fe8b711fed301d955d31aa742f8fe9f2c5629024c22580",
+  "postprocess": "none — copied original generated PNG bytes; no crop/resize/repaint",
+  "visual_inspection": {
+    "view_image_performed": true,
+    "observations": [
+      "Full rear-facing male figure; face and eyes not shown",
+      "Brown voluminous hair, short grey-jacket torso, black trousers and dark shoes",
+      "Arms hang beside body; both boots point away and share visible bottom baseline",
+      "No grid, crosshair, text or painted floor observed"
+    ],
+    "limitations": [
+      "Generator did not preserve requested 1150x1367 canvas or absolute crown/sole coordinates",
+      "True alpha channel present but low-alpha fringe/noise extends beyond opaque figure",
+      "A newly generated back view cannot establish pixel-identical head identity across directions"
+    ],
+    "status": "draft — not approved"
+  },
+  "art_review": "not approved; identity fidelity and directional alignment require review",
+  "alpha_bbox_ge_128": [
+    322,
+    236,
+    762,
+    1299
+  ],
+  "alpha_bbox_ge_200": [
+    322,
+    237,
+    762,
+    1299
+  ],
+  "alpha_bbox_ge_254": [
+    324,
+    237,
+    761,
+    1298
+  ]
+}

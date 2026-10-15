@@ -1,0 +1,351 @@
+[
+  {
+    "file": "materials/Bziker/05_Взаимодействия/Все_взаимодействия.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 960,
+          "height": 640,
+          "r_frame_rate": "24/1"
+        },
+        {
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "3209.000000"
+      }
+    }
+  },
+  {
+    "file": "materials/Bziker/05_Взаимодействия/Общий_обзор.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 960,
+          "height": 640,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "123.500000"
+      }
+    }
+  },
+  {
+    "file": "materials/Bziker/04_Анимации/Общий_обзор.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 480,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "88.000000"
+      }
+    }
+  },
+  {
+    "file": "materials/Bziker/04_Анимации/Все_анимации.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 480,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "748.000000"
+      }
+    }
+  },
+  {
+    "file": "materials/Bziker/09_Интерфейс_игры/12_Загрузка_и_вход/Регистрация.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 390,
+          "height": 844,
+          "r_frame_rate": "20/1"
+        }
+      ],
+      "format": {
+        "duration": "1.400000"
+      }
+    }
+  },
+  {
+    "file": "materials/Bziker/09_Интерфейс_игры/12_Загрузка_и_вход/Вход.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 390,
+          "height": 844,
+          "r_frame_rate": "20/1"
+        }
+      ],
+      "format": {
+        "duration": "1.400000"
+      }
+    }
+  },
+  {
+    "file": "materials/Bziker/09_Интерфейс_игры/12_Загрузка_и_вход/Загрузка_и_вход.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 390,
+          "height": 844,
+          "r_frame_rate": "20/1"
+        }
+      ],
+      "format": {
+        "duration": "8.500000"
+      }
+    }
+  },
+  {
+    "file": "materials/Bziker/Взаимодействия_полная_сборка.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 960,
+          "height": 640,
+          "r_frame_rate": "24/1"
+        },
+        {
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "4681.000000"
+      }
+    }
+  },
+  {
+    "file": "materials/Bziker/02_Персонажи/Женщина/Видео_основных_движений.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 480,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "34.000000"
+      }
+    }
+  },
+  {
+    "file": "materials/Bziker/02_Персонажи/Женщина/Видео_повседневных_действий.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 960,
+          "height": 640,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "736.000000"
+      }
+    }
+  },
+  {
+    "file": "materials/Bziker/02_Персонажи/Женщина/Видео_взаимодействий.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 960,
+          "height": 640,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "1619.000000"
+      }
+    }
+  },
+  {
+    "file": "materials/Bziker/09_Интерфейс_игры/10_Телебзи/Женские_руки.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 540,
+          "height": 902,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "3.208333"
+      }
+    }
+  },
+  {
+    "file": "materials/Bziker/06_Повседневные_действия/Все_повседневные_действия.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 960,
+          "height": 640,
+          "r_frame_rate": "24/1"
+        },
+        {
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "1472.000000"
+      }
+    }
+  },
+  {
+    "file": "materials/Bziker/06_Повседневные_действия/Обзор_действий.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 960,
+          "height": 640,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "120.000000"
+      }
+    }
+  },
+  {
+    "file": "materials/Bziker/06_Повседневные_действия/Исправления_дым_и_телефон.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 960,
+          "height": 640,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "36.000000"
+      }
+    }
+  },
+  {
+    "file": "materials/Bziker/07_Проверка_анимаций/Обновлённые_анимации.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 960,
+          "height": 640,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "119.000000"
+      }
+    }
+  },
+  {
+    "file": "materials/Bziker/09_Интерфейс_игры/10_Телебзи/Мужские_руки.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 540,
+          "height": 902,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "3.208333"
+      }
+    }
+  },
+  {
+    "file": "materials/Bziker/02_Персонажи/Мужчина/Видео_основных_движений.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 640,
+          "height": 480,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "34.000000"
+      }
+    }
+  },
+  {
+    "file": "materials/Bziker/02_Персонажи/Мужчина/Видео_повседневных_действий.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 960,
+          "height": 640,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "736.000000"
+      }
+    }
+  },
+  {
+    "file": "materials/Bziker/02_Персонажи/Мужчина/Видео_взаимодействий.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 960,
+          "height": 640,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "1590.000000"
+      }
+    }
+  }
+]

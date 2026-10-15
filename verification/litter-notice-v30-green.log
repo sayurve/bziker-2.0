@@ -1,0 +1,17 @@
+✔ actual UI reports an already-used daily target without replaying its old action or pickup sound (2.675833ms)
+✔ first pickup and a different independent target still update the real action and success notice (2.488583ms)
+✔ actual phone buttons remain aria-busy until awaited setPhone finishes and the next app can open (3.072458ms)
+✔ a rejected action reports the existing error and always clears async readiness (0.66125ms)
+✔ the existing mutation reentrancy guard rejects a second action without clearing the active busy cue (0.503625ms)
+✔ world-control loss keeps the existing early return and still clears aria-busy (0.524ms)
+✔ readiness covers awaited routing cleanup and overlapping accepted perform calls (0.54325ms)
+✔ a routing failure retains its rejection semantics but cannot strand the busy cue (0.6485ms)
+✔ the existing app container declares idle readiness before the first action (2.218792ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 148.647083

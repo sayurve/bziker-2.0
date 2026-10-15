@@ -1,0 +1,69 @@
+✔ definition contract exists and returns an immutable isolated value (2.318958ms)
+✔ model requires every authored direction, pose, constant layer canvas and attachments (1.366292ms)
+✔ draft definitions and garments need explicit lab opt-in (1.128084ms)
+✔ garment validates model compatibility, all poses, layer identity and explicit texture reference (2.305125ms)
+✔ distance alone selects one frame shared by every layer and direction ordering (1.132417ms)
+✔ repeated state does not restart and timed actions hold final pose (0.426583ms)
+✔ stop and teleport discard movement phase; reduced motion cannot accumulate hidden stride (0.651916ms)
+✔ outfit changes preserve phase and invalid changes leave complete snapshot untouched (3.477416ms)
+✔ Phaser layers use common anchor and one uniform scale without resizing (1.208333ms)
+✔ Phaser missing textures, missing atlas frames and allocation errors roll back whole outfit (2.332875ms)
+✔ outfit preflight checks every pose texture, including currently invisible frames (2.219834ms)
+✔ view rejects mismatched logical frame dimensions before changing children (0.578875ms)
+✔ view releases its own objects without destroying attached foreign objects or shared textures (0.601166ms)
+✔ all poses expose the same named attachment points (0.178083ms)
+✔ timed loops honor authored durations, PNG null frames and outfit clearing retain phase (0.889209ms)
+✖ any looping distance action follows distance and repeated state retains its phase (1.082666ms)
+✖ every provided distance clock requires positive finite cycle and looping action (0.376041ms)
+✔ large page lag clamps a finite timed action to its authored end (0.300625ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 16
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 90.386958
+
+✖ failing tests:
+
+test at game/tests/character-system.test.mjs:65:1
+✖ any looping distance action follows distance and repeated state retains its phase (1.082666ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 0.42857142857142855
+  - 0
+  
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/character-system.test.mjs:67:162)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0.42857142857142855,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at game/tests/character-system.test.mjs:69:1
+✖ every provided distance clock requires positive finite cycle and looping action (0.376041ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/character-system.test.mjs:70:257)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: /distancePerCycle|loop/,
+    operator: 'throws',
+    diff: 'simple'
+  }

@@ -1,0 +1,43 @@
+{
+  "format": "gzip PAX tar, split binary parts, same-SHA hardlink aliases",
+  "fileCount": 331189,
+  "originalBytes": 16327102047,
+  "uniquePayloadBytes": 6181416725,
+  "uniqueFiles": 54885,
+  "hardlinkAliases": 276304,
+  "manifestSHA256": "a2b673025a765ac5d063dc9ad91965f1bfc0345ba993e52173dad11741b8f85d",
+  "compressedBytes": 5427737084,
+  "parts": [
+    {
+      "name": "bziker-2.0-materials.tar.gz.part-001",
+      "bytes": 1073741824,
+      "sha256": "147fe7d451f78e202b9d709890970d8bce228623985280e8ecb50598c2528767"
+    },
+    {
+      "name": "bziker-2.0-materials.tar.gz.part-002",
+      "bytes": 1073741824,
+      "sha256": "78d85f2322169a1d8b6003f65412cebcf7644a60ab9e9026159e1096a89df78d"
+    },
+    {
+      "name": "bziker-2.0-materials.tar.gz.part-003",
+      "bytes": 1073741824,
+      "sha256": "05f8ea5fc88bc1ab9bbaf275c71b3ef61cbfc0da2fc2177fce05ac9a43687287"
+    },
+    {
+      "name": "bziker-2.0-materials.tar.gz.part-004",
+      "bytes": 1073741824,
+      "sha256": "d794bce4d65f379fbb34dfacb1d4b75e55e6d691c8f018a4960ece4412d4f93f"
+    },
+    {
+      "name": "bziker-2.0-materials.tar.gz.part-005",
+      "bytes": 1073741824,
+      "sha256": "e3cbec899c592f70ca4917bebb555c0072d9f97312266bb31c8ef10c022c4cb6"
+    },
+    {
+      "name": "bziker-2.0-materials.tar.gz.part-006",
+      "bytes": 59027964,
+      "sha256": "b33505f2a86e7a4a2528cc25a36989aee96e4f6e47968811b6ba998cdc2b7221"
+    }
+  ],
+  "sourceWritesPerformed": false
+}

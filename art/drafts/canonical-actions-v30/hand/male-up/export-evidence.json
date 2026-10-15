@@ -1,0 +1,1260 @@
+{
+  "status": "approved",
+  "sequence": {
+    "id": "canonical-hand-male-up",
+    "status": "approved",
+    "artReview": {
+      "checked": true,
+      "evidence": [
+        "verification/canonical-hand-art-review-v30.md",
+        "verification/canonical-hand-root-receipt-v30.json"
+      ]
+    },
+    "images": [
+      {
+        "path": "art/drafts/canonical-actions-v30/hand/male-up/pose-0.png",
+        "width": 48,
+        "height": 64,
+        "sha256": "ac6d0faf125ead2d4ae362576ca0851f54e59e478ee284a87a119b66619ce8a9"
+      },
+      {
+        "path": "art/drafts/canonical-actions-v30/hand/male-up/pose-1.png",
+        "width": 48,
+        "height": 64,
+        "sha256": "be8a4f5ba12973db5b858e482311f03156956bef697abe16e83c54fabebb1cc8"
+      },
+      {
+        "path": "art/drafts/canonical-actions-v30/hand/male-up/pose-2.png",
+        "width": 48,
+        "height": 64,
+        "sha256": "c2f9593c01ffb9efe782ba27f82dd98543609256b270735dea871c1b1fdec133"
+      },
+      {
+        "path": "art/drafts/canonical-actions-v30/hand/male-up/pose-3.png",
+        "width": 48,
+        "height": 64,
+        "sha256": "f99415ebbb9ad9ce6571d97f79ea5b860ce7ca6045c2b917548009dd79c70718"
+      }
+    ],
+    "detail_images": [
+      {
+        "path": "art/drafts/canonical-actions-v30/hand/male-up/pose-0-fine.png",
+        "width": 96,
+        "height": 128,
+        "sha256": "2046ed390f721ae130d6fb7df41ac3e5b982da9e90eef7a03a516bdba409d595"
+      },
+      {
+        "path": "art/drafts/canonical-actions-v30/hand/male-up/pose-1-fine.png",
+        "width": 96,
+        "height": 128,
+        "sha256": "fd7a2892c251ad5b087b1d1d4507647e2ed25e49998fc43536c49a48e96192be"
+      },
+      {
+        "path": "art/drafts/canonical-actions-v30/hand/male-up/pose-2-fine.png",
+        "width": 96,
+        "height": 128,
+        "sha256": "bcd8d0f1f40576a3a4b6dde674579251187b8f504bdceb61c48b880dcd63bc00"
+      },
+      {
+        "path": "art/drafts/canonical-actions-v30/hand/male-up/pose-3-fine.png",
+        "width": 96,
+        "height": 128,
+        "sha256": "e61ca948d539e1089b7d5f26f03aeb22bbbbb13350edfa1a6556dc173056f849"
+      }
+    ],
+    "frames": [
+      {
+        "page": 0,
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 64,
+        "head": {
+          "top": 6,
+          "bottom": 29,
+          "left": 12,
+          "right": 36,
+          "eyeAnchor": [
+            24,
+            21
+          ],
+          "eyeLine": 21,
+          "neckAnchor": [
+            24,
+            30.5
+          ],
+          "facePolygon": [],
+          "portraitChin": 31.5
+        },
+        "hand": [
+          18.5,
+          40.0
+        ],
+        "pelvis": [
+          24.0,
+          45.0
+        ],
+        "detail": {
+          "path": "art/drafts/canonical-actions-v30/hand/male-up/pose-0-fine.png",
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 128,
+          "factor": 2
+        },
+        "poseKey": "waist",
+        "provenance": {
+          "sourceCell": [
+            0,
+            0,
+            543,
+            724
+          ],
+          "sourceScale": 0.181,
+          "sourceRoot": [
+            299,
+            670
+          ],
+          "nativeOffset": [
+            -6.119,
+            4.730000000000004
+          ],
+          "sourcePalm": [
+            238.22651933701658,
+            415.8563535911602
+          ],
+          "nativePalm": [
+            37,
+            80
+          ],
+          "headDonor": "art/drafts/locomotion-v27/shared-head-style-proposal/male-up-native-run0-head-fine.png",
+          "headTranslation": [
+            0,
+            3
+          ],
+          "canonicalHead": "assets/canonical-idle-v2/male-up-fine.png",
+          "canonicalHeadSHA256": "5fbddf29e28bcd7f5f56af45ee091fab4edfd813f43defc59395f0c4d6f1b1ba",
+          "removeGeneratedHeadPolygon": [
+            [
+              8,
+              0
+            ],
+            [
+              88,
+              0
+            ],
+            [
+              88,
+              56
+            ],
+            [
+              80,
+              65
+            ],
+            [
+              65,
+              70
+            ],
+            [
+              39,
+              70
+            ],
+            [
+              23,
+              65
+            ],
+            [
+              8,
+              56
+            ]
+          ],
+          "retainedActualBodyNeckPolygon": [
+            [
+              43,
+              60.0
+            ],
+            [
+              52,
+              60.0
+            ],
+            [
+              53,
+              68.0
+            ],
+            [
+              43,
+              68.0
+            ]
+          ],
+          "foregroundPalmDomain": [
+            [
+              31,
+              73
+            ],
+            [
+              41,
+              73
+            ],
+            [
+              44,
+              78
+            ],
+            [
+              43,
+              86
+            ],
+            [
+              32,
+              87
+            ],
+            [
+              30,
+              81
+            ]
+          ],
+          "foregroundSourcePixelCount": 53,
+          "foregroundSourcePixels": [
+            [
+              33,
+              81
+            ],
+            [
+              33,
+              82
+            ],
+            [
+              33,
+              83
+            ],
+            [
+              34,
+              79
+            ],
+            [
+              34,
+              80
+            ],
+            [
+              34,
+              81
+            ],
+            [
+              34,
+              82
+            ],
+            [
+              34,
+              83
+            ],
+            [
+              35,
+              78
+            ],
+            [
+              35,
+              79
+            ],
+            [
+              35,
+              80
+            ],
+            [
+              35,
+              81
+            ],
+            [
+              35,
+              82
+            ],
+            [
+              35,
+              83
+            ],
+            [
+              35,
+              84
+            ],
+            [
+              36,
+              78
+            ],
+            [
+              36,
+              79
+            ],
+            [
+              36,
+              80
+            ],
+            [
+              36,
+              81
+            ],
+            [
+              36,
+              82
+            ],
+            [
+              36,
+              83
+            ],
+            [
+              36,
+              84
+            ],
+            [
+              37,
+              76
+            ],
+            [
+              37,
+              77
+            ],
+            [
+              37,
+              78
+            ],
+            [
+              37,
+              79
+            ],
+            [
+              37,
+              80
+            ],
+            [
+              37,
+              81
+            ],
+            [
+              37,
+              82
+            ],
+            [
+              37,
+              83
+            ],
+            [
+              37,
+              84
+            ],
+            [
+              38,
+              76
+            ],
+            [
+              38,
+              77
+            ],
+            [
+              38,
+              78
+            ],
+            [
+              38,
+              79
+            ],
+            [
+              38,
+              80
+            ],
+            [
+              38,
+              81
+            ],
+            [
+              38,
+              82
+            ],
+            [
+              38,
+              83
+            ],
+            [
+              38,
+              84
+            ],
+            [
+              39,
+              76
+            ],
+            [
+              39,
+              77
+            ],
+            [
+              39,
+              78
+            ],
+            [
+              39,
+              79
+            ],
+            [
+              39,
+              80
+            ],
+            [
+              39,
+              81
+            ],
+            [
+              39,
+              82
+            ],
+            [
+              39,
+              83
+            ],
+            [
+              40,
+              78
+            ],
+            [
+              40,
+              79
+            ],
+            [
+              40,
+              80
+            ],
+            [
+              40,
+              81
+            ],
+            [
+              40,
+              82
+            ]
+          ],
+          "sourcePelvis": [
+            299.0,
+            471.1049723756906
+          ],
+          "nativePelvis": [
+            48,
+            90
+          ],
+          "sourcePalmKind": "actual-source-palm"
+        }
+      },
+      {
+        "page": 1,
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 64,
+        "head": {
+          "top": 6,
+          "bottom": 29,
+          "left": 12,
+          "right": 36,
+          "eyeAnchor": [
+            24,
+            21
+          ],
+          "eyeLine": 21,
+          "neckAnchor": [
+            24,
+            30.5
+          ],
+          "facePolygon": [],
+          "portraitChin": 31.5
+        },
+        "hand": [
+          17.0,
+          30.0
+        ],
+        "pelvis": [
+          24.0,
+          45.0
+        ],
+        "detail": {
+          "path": "art/drafts/canonical-actions-v30/hand/male-up/pose-1-fine.png",
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 128,
+          "factor": 2
+        },
+        "poseKey": "chest",
+        "provenance": {
+          "sourceCell": [
+            543,
+            0,
+            543,
+            724
+          ],
+          "sourceScale": 0.181,
+          "sourceRoot": [
+            263,
+            670
+          ],
+          "nativeOffset": [
+            0.39699999999999847,
+            4.730000000000004
+          ],
+          "sourcePalm": [
+            185.65193370165747,
+            305.35911602209944
+          ],
+          "nativePalm": [
+            34,
+            60
+          ],
+          "headDonor": "art/drafts/locomotion-v27/shared-head-style-proposal/male-up-native-run0-head-fine.png",
+          "headTranslation": [
+            0,
+            3
+          ],
+          "canonicalHead": "assets/canonical-idle-v2/male-up-fine.png",
+          "canonicalHeadSHA256": "5fbddf29e28bcd7f5f56af45ee091fab4edfd813f43defc59395f0c4d6f1b1ba",
+          "removeGeneratedHeadPolygon": [
+            [
+              8,
+              0
+            ],
+            [
+              88,
+              0
+            ],
+            [
+              88,
+              56
+            ],
+            [
+              80,
+              65
+            ],
+            [
+              65,
+              70
+            ],
+            [
+              39,
+              70
+            ],
+            [
+              23,
+              65
+            ],
+            [
+              8,
+              56
+            ]
+          ],
+          "retainedActualBodyNeckPolygon": [
+            [
+              43,
+              60.0
+            ],
+            [
+              52,
+              60.0
+            ],
+            [
+              53,
+              68.0
+            ],
+            [
+              43,
+              68.0
+            ]
+          ],
+          "foregroundPalmDomain": [],
+          "foregroundSourcePixelCount": 0,
+          "foregroundSourcePixels": [],
+          "sourcePelvis": [
+            263.0,
+            471.1049723756906
+          ],
+          "nativePelvis": [
+            48,
+            90
+          ],
+          "palmIsOccluded": true,
+          "sourcePalmKind": "authored-occluded-anatomical-point"
+        },
+        "propLayer": "behind-body",
+        "handVisibility": "occluded-by-body"
+      },
+      {
+        "page": 2,
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 64,
+        "head": {
+          "top": 6,
+          "bottom": 29,
+          "left": 12,
+          "right": 36,
+          "eyeAnchor": [
+            24,
+            21
+          ],
+          "eyeLine": 21,
+          "neckAnchor": [
+            24,
+            30.5
+          ],
+          "facePolygon": [],
+          "portraitChin": 31.5
+        },
+        "hand": [
+          17.5,
+          27.5
+        ],
+        "pelvis": [
+          24.0,
+          45.0
+        ],
+        "detail": {
+          "path": "art/drafts/canonical-actions-v30/hand/male-up/pose-2-fine.png",
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 128,
+          "factor": 2
+        },
+        "poseKey": "mouth",
+        "provenance": {
+          "sourceCell": [
+            0,
+            724,
+            543,
+            724
+          ],
+          "sourceScale": 0.181,
+          "sourceRoot": [
+            299,
+            670
+          ],
+          "nativeOffset": [
+            -6.119,
+            4.730000000000004
+          ],
+          "sourcePalm": [
+            227.1767955801105,
+            277.7348066298342
+          ],
+          "nativePalm": [
+            35,
+            55
+          ],
+          "headDonor": "art/drafts/locomotion-v27/shared-head-style-proposal/male-up-native-run0-head-fine.png",
+          "headTranslation": [
+            0,
+            3
+          ],
+          "canonicalHead": "assets/canonical-idle-v2/male-up-fine.png",
+          "canonicalHeadSHA256": "5fbddf29e28bcd7f5f56af45ee091fab4edfd813f43defc59395f0c4d6f1b1ba",
+          "removeGeneratedHeadPolygon": [
+            [
+              8,
+              0
+            ],
+            [
+              88,
+              0
+            ],
+            [
+              88,
+              56
+            ],
+            [
+              80,
+              65
+            ],
+            [
+              65,
+              70
+            ],
+            [
+              39,
+              70
+            ],
+            [
+              23,
+              65
+            ],
+            [
+              8,
+              56
+            ]
+          ],
+          "retainedActualBodyNeckPolygon": [
+            [
+              43,
+              60.0
+            ],
+            [
+              52,
+              60.0
+            ],
+            [
+              53,
+              68.0
+            ],
+            [
+              43,
+              68.0
+            ]
+          ],
+          "foregroundPalmDomain": [],
+          "foregroundSourcePixelCount": 0,
+          "foregroundSourcePixels": [],
+          "sourcePelvis": [
+            299.0,
+            471.1049723756906
+          ],
+          "nativePelvis": [
+            48,
+            90
+          ],
+          "palmIsOccluded": true,
+          "sourcePalmKind": "authored-occluded-anatomical-point"
+        },
+        "propLayer": "behind-body",
+        "handVisibility": "occluded-by-head"
+      },
+      {
+        "page": 3,
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 64,
+        "head": {
+          "top": 6,
+          "bottom": 29,
+          "left": 12,
+          "right": 36,
+          "eyeAnchor": [
+            24,
+            21
+          ],
+          "eyeLine": 21,
+          "neckAnchor": [
+            24,
+            30.5
+          ],
+          "facePolygon": [],
+          "portraitChin": 31.5
+        },
+        "hand": [
+          11.5,
+          34.0
+        ],
+        "pelvis": [
+          24.0,
+          45.0
+        ],
+        "detail": {
+          "path": "art/drafts/canonical-actions-v30/hand/male-up/pose-3-fine.png",
+          "x": 0,
+          "y": 0,
+          "w": 96,
+          "h": 128,
+          "factor": 2
+        },
+        "poseKey": "extended",
+        "provenance": {
+          "sourceCell": [
+            543,
+            724,
+            543,
+            724
+          ],
+          "sourceScale": 0.181,
+          "sourceRoot": [
+            263,
+            670
+          ],
+          "nativeOffset": [
+            0.39699999999999847,
+            4.730000000000004
+          ],
+          "sourcePalm": [
+            124.87845303867404,
+            349.55801104972375
+          ],
+          "nativePalm": [
+            23,
+            68
+          ],
+          "headDonor": "art/drafts/locomotion-v27/shared-head-style-proposal/male-up-native-run0-head-fine.png",
+          "headTranslation": [
+            0,
+            3
+          ],
+          "canonicalHead": "assets/canonical-idle-v2/male-up-fine.png",
+          "canonicalHeadSHA256": "5fbddf29e28bcd7f5f56af45ee091fab4edfd813f43defc59395f0c4d6f1b1ba",
+          "removeGeneratedHeadPolygon": [
+            [
+              8,
+              0
+            ],
+            [
+              88,
+              0
+            ],
+            [
+              88,
+              56
+            ],
+            [
+              80,
+              65
+            ],
+            [
+              65,
+              70
+            ],
+            [
+              39,
+              70
+            ],
+            [
+              23,
+              65
+            ],
+            [
+              8,
+              56
+            ]
+          ],
+          "retainedActualBodyNeckPolygon": [
+            [
+              43,
+              60.0
+            ],
+            [
+              52,
+              60.0
+            ],
+            [
+              53,
+              68.0
+            ],
+            [
+              43,
+              68.0
+            ]
+          ],
+          "foregroundPalmDomain": [
+            [
+              17,
+              61
+            ],
+            [
+              27,
+              61
+            ],
+            [
+              30,
+              66
+            ],
+            [
+              29,
+              74
+            ],
+            [
+              18,
+              75
+            ],
+            [
+              16,
+              69
+            ]
+          ],
+          "foregroundSourcePixelCount": 63,
+          "foregroundSourcePixels": [
+            [
+              18,
+              68
+            ],
+            [
+              18,
+              69
+            ],
+            [
+              18,
+              70
+            ],
+            [
+              19,
+              67
+            ],
+            [
+              19,
+              68
+            ],
+            [
+              19,
+              69
+            ],
+            [
+              19,
+              70
+            ],
+            [
+              19,
+              71
+            ],
+            [
+              20,
+              67
+            ],
+            [
+              20,
+              68
+            ],
+            [
+              20,
+              69
+            ],
+            [
+              20,
+              70
+            ],
+            [
+              20,
+              71
+            ],
+            [
+              21,
+              67
+            ],
+            [
+              21,
+              68
+            ],
+            [
+              21,
+              69
+            ],
+            [
+              21,
+              70
+            ],
+            [
+              21,
+              71
+            ],
+            [
+              21,
+              72
+            ],
+            [
+              22,
+              67
+            ],
+            [
+              22,
+              68
+            ],
+            [
+              22,
+              69
+            ],
+            [
+              22,
+              70
+            ],
+            [
+              22,
+              71
+            ],
+            [
+              22,
+              72
+            ],
+            [
+              23,
+              66
+            ],
+            [
+              23,
+              67
+            ],
+            [
+              23,
+              68
+            ],
+            [
+              23,
+              69
+            ],
+            [
+              23,
+              70
+            ],
+            [
+              23,
+              71
+            ],
+            [
+              23,
+              72
+            ],
+            [
+              24,
+              65
+            ],
+            [
+              24,
+              66
+            ],
+            [
+              24,
+              67
+            ],
+            [
+              24,
+              68
+            ],
+            [
+              24,
+              69
+            ],
+            [
+              24,
+              70
+            ],
+            [
+              24,
+              71
+            ],
+            [
+              24,
+              72
+            ],
+            [
+              25,
+              65
+            ],
+            [
+              25,
+              66
+            ],
+            [
+              25,
+              67
+            ],
+            [
+              25,
+              68
+            ],
+            [
+              25,
+              69
+            ],
+            [
+              25,
+              70
+            ],
+            [
+              25,
+              71
+            ],
+            [
+              25,
+              72
+            ],
+            [
+              26,
+              65
+            ],
+            [
+              26,
+              66
+            ],
+            [
+              26,
+              67
+            ],
+            [
+              26,
+              68
+            ],
+            [
+              26,
+              69
+            ],
+            [
+              26,
+              70
+            ],
+            [
+              26,
+              71
+            ],
+            [
+              27,
+              65
+            ],
+            [
+              27,
+              66
+            ],
+            [
+              27,
+              67
+            ],
+            [
+              27,
+              68
+            ],
+            [
+              27,
+              69
+            ],
+            [
+              28,
+              66
+            ],
+            [
+              28,
+              67
+            ],
+            [
+              28,
+              68
+            ]
+          ],
+          "sourcePelvis": [
+            263.0,
+            471.1049723756906
+          ],
+          "nativePelvis": [
+            48,
+            90
+          ],
+          "sourcePalmKind": "actual-source-palm"
+        }
+      }
+    ],
+    "anchor": [
+      24,
+      63
+    ],
+    "sprite_size": [
+      48,
+      64
+    ],
+    "loop": false,
+    "fps": 4,
+    "duration": 1,
+    "timeline": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sourceKey": "art/drafts/canonical-actions-v30/hand/male-up/sheet.png",
+    "provenance": {
+      "sourceSHA256": "7bf4a66608ea727336cba41b93599a56bb3032572e537a0e0694ff6183389a0b",
+      "prompt": "art/drafts/canonical-actions-v30/hand/male-up/prompt-info.json",
+      "sourceScale": 0.181,
+      "canonicalHeadMetadata": "verification/canonical-master-heads-v30.json",
+      "exportScript": "verification/export-canonical-hand-v30.py",
+      "contact": "verification/canonical-hand-male-up-v30-draft.png",
+      "generatedBody": true,
+      "oldLegacyBodyUsed": false
+    }
+  },
+  "metrics": [
+    {
+      "family": "male-up",
+      "pose": 0,
+      "opaqueBounds": [
+        24,
+        14,
+        74,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 1917,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1516,
+      "foregroundPixels": 53,
+      "palmRGBA": [
+        250,
+        173,
+        129,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "male-up",
+      "pose": 1,
+      "opaqueBounds": [
+        24,
+        14,
+        74,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 1917,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1543,
+      "foregroundPixels": 0,
+      "palmRGBA": [
+        243,
+        156,
+        111,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "male-up",
+      "pose": 2,
+      "opaqueBounds": [
+        24,
+        14,
+        74,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 1917,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1526,
+      "foregroundPixels": 0,
+      "palmRGBA": [
+        248,
+        167,
+        122,
+        253
+      ],
+      "edgeAlpha": 0
+    },
+    {
+      "family": "male-up",
+      "pose": 3,
+      "opaqueBounds": [
+        18,
+        14,
+        74,
+        125
+      ],
+      "sourceScale": 0.181,
+      "headCompared": 1917,
+      "headMismatch": 0,
+      "keptClothPixelChanges": 0,
+      "removedGeneratedHead": 1511,
+      "foregroundPixels": 63,
+      "palmRGBA": [
+        215,
+        116,
+        82,
+        252
+      ],
+      "edgeAlpha": 0
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "status": "awaiting-visual-review",
+  "contact": "contact-g1-outfit-01.png",
+  "records": [
+    {
+      "source": "g1-outfit-06-up.jpg",
+      "sha256": "472bbe87eb1d2a602b03bfa075317b73752aaaee2c6290a63d160d6e20dbcb90",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 6
+    },
+    {
+      "source": "g1-outfit-06-left.jpg",
+      "sha256": "286ebac5d936b32cdb96430ba54f497955c4c069f9408070def0a58ba55088ae",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 6
+    },
+    {
+      "source": "g1-outfit-06-down.jpg",
+      "sha256": "4bf39c085b56bcf1ef483f41b06e943ed48abd300411b31394c855ed440c3cd1",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 6
+    },
+    {
+      "source": "g1-outfit-06-right.jpg",
+      "sha256": "2c7b80a0e9ae3e21753a9f1cd92c62d338abd58a2d2ca895c2ef04d782cdbd22",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 6
+    }
+  ]
+}

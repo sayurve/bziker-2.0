@@ -1,0 +1,36 @@
+{
+  "reviewed_implementation": "v11 c774387",
+  "production_modified": false,
+  "business_tables_unchanged": 10,
+  "database_integrity": "ok",
+  "one_existing_browser_tab": true,
+  "new_tabs": 0,
+  "viewport_cases": [
+    [
+      390,
+      844
+    ],
+    [
+      320,
+      740
+    ],
+    [
+      568,
+      320
+    ]
+  ],
+  "temporary_fixture_stopped": true,
+  "viewport_reset": true,
+  "main_account_restored": true,
+  "main_wallet": 35,
+  "console_warnings_errors": 0,
+  "independent_design_agent": "visual_design_review",
+  "independent_detector_agent": "visual_detector_review",
+  "motion_agent": "visual_motion_review",
+  "detector_findings": 1,
+  "detector_confirmed_visual_defects": 0,
+  "live_overlay_injected": false,
+  "no_overlay_reason": "Browser evaluate is read-only; native screenshots and DOM geometry used.",
+  "score": null,
+  "score_reason": "No overall numeric design score assigned; specific observed findings recorded."
+}

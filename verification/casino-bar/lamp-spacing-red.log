@@ -1,0 +1,21 @@
+test_all_exact_approaches_and_actions_reached_without_crossing_solids (__main__.CasinoBarPlanTests.test_all_exact_approaches_and_actions_reached_without_crossing_solids) ... ok
+test_feature_action_and_seat_identity_survive (__main__.CasinoBarPlanTests.test_feature_action_and_seat_identity_survive) ... ok
+test_native_aspect_and_central_aisle_remain (__main__.CasinoBarPlanTests.test_native_aspect_and_central_aisle_remain) ... ok
+test_pub_wall_lamps_use_separate_clear_wall_sections (__main__.CasinoBarPlanTests.test_pub_wall_lamps_use_separate_clear_wall_sections) ... FAIL
+test_side_chairs_use_matching_native_views_and_outer_approaches (__main__.CasinoBarPlanTests.test_side_chairs_use_matching_native_views_and_outer_approaches) ... ok
+test_unknown_room_unchanged (__main__.CasinoBarPlanTests.test_unknown_room_unchanged) ... ok
+test_wall_signs_shelves_and_lights_do_not_cover_each_other (__main__.CasinoBarPlanTests.test_wall_signs_shelves_and_lights_do_not_cover_each_other) ... ok
+
+======================================================================
+FAIL: test_pub_wall_lamps_use_separate_clear_wall_sections (__main__.CasinoBarPlanTests.test_pub_wall_lamps_use_separate_clear_wall_sections)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/sapp/Desktop/Игра/Bzikert 2.0/game/tests/test_casino_bar_plans.py", line 66, in test_pub_wall_lamps_use_separate_clear_wall_sections
+    self.assertGreater(lamps[1]['visual']['x']-lamps[0]['visual']['x'],(b['right']-b['left'])*.6)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 40.0 not greater than 518.5858584
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.479s
+
+FAILED (failures=1)

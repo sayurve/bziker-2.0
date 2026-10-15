@@ -1,0 +1,99 @@
+{
+  "createdAt": "2026-10-15T12:29:23.250Z",
+  "gender": 0,
+  "category": "shoesColor",
+  "source": "final-fixed",
+  "cases": 4,
+  "crop": {
+    "x": 535,
+    "y": 375,
+    "width": 135,
+    "height": 180
+  },
+  "qaOnly": true,
+  "productionArtChanged": false,
+  "realBrowserCaptures": true,
+  "renderedMockups": false,
+  "scale": 1.5,
+  "sheets": [
+    "page-1.png"
+  ],
+  "records": [
+    {
+      "value": 2,
+      "name": "Коралловая",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-shoesColor-02-down.jpg",
+      "sourceSha256": "915b385a75073c10c756a388cab38d55763b94f293793e50e8f8b1acde20898d",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-02-down-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Коралловая",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-shoesColor-02-left.jpg",
+      "sourceSha256": "17af38ad6b75f61d53a4968fa3f97ec8f45146e0b5bc2509798c261520a1148b",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-02-left-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Коралловая",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-shoesColor-02-up.jpg",
+      "sourceSha256": "71440fe73e756a20aace37706d5be43b9cba853816136ad1fbf45e60ea97b439",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-02-up-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Коралловая",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-shoesColor-02-right.jpg",
+      "sourceSha256": "47a173806d06555c61d67248f240c1f7eb6d7fc719bae806d1eca5daac891cf2",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-02-right-crop.png"
+    }
+  ]
+}

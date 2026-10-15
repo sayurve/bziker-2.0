@@ -1,0 +1,27 @@
+✔ railway arrival is a short distinct walk from the town rather than a wide empty gap (0.887458ms)
+✔ newcomers, map travel and the railway interior share the relocated doorway (0.233417ms)
+✔ the authored city has substantially denser lighting in all pedestrian districts (0.623625ms)
+✔ full visible contours leave all 27 routes and all 19 generated entrances open (128.193042ms)
+✔ new props keep clear of every house, tree, bench, planting, existing light and each other (4.940583ms)
+✔ street details are grounded beside their declared routes and outside the water (1.236625ms)
+✔ new waste bins participate in the existing disposal action (0.124167ms)
+✔ crossing landings, their tactile pads and the plaza title stay unobscured (0.312584ms)
+✔ each street sprite fits its declared complete bounds with stable pixels and ground depth (7.531ms)
+✔ world uses the shared large map and the shorter user-requested pedestrian arrival (3.331ms)
+✔ every outdoor bench has two real distinct seats and no tree covers a road or door (3.368708ms)
+✔ all compact public rooms use shared doors, real seat slots and labelled feature counters (1.55125ms)
+✔ shared furniture declares footprints, rotations and genuine sitting offsets (0.477167ms)
+✔ day and night preview share a twenty-minute periodic cycle (0.151583ms)
+✔ large-city ground caches small chunks rather than allocating a full map bitmap (59.04725ms)
+✔ new base furniture placement respects its full footprint while old compact saves remain valid (0.275875ms)
+✔ solid placement accepts rugs underneath furniture and requires rotation on expanded types (0.09175ms)
+✔ base movement obeys furniture footprints and can leave a real seated position (0.363708ms)
+✔ pet following uses only a purchased companion snapshot and tracks its real owner (0.207792ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 345.371708

@@ -1,0 +1,105 @@
+{
+  "status": "draft",
+  "family": "water",
+  "gender": "male",
+  "dir": "right",
+  "master": "art/drafts/canonical-actions-v30/water/male-right/water-four-master.png",
+  "sourceOutput": "/Users/sapp/.codex/generated_images/01a13c9a-ae7d-7bc2-83f6-88b8b5a5e67b/exec-7681b279-5c0d-45c0-a6a3-40319224bc1f.png",
+  "rawMasterUnchanged": true,
+  "masterSHA256": "6099010d7bb3d7425d4b042809cd5f6d76c6585eccccdf42c0396341ea42dd2f",
+  "actualSize": [
+    1086,
+    1448
+  ],
+  "requestedSize": [
+    1536,
+    2048
+  ],
+  "cell": [
+    543,
+    724
+  ],
+  "fixedUniformScale": 0.17679558011049723,
+  "referencePaths": [
+    "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/drafts/canonical-actions-v30/references/male-right-runtime-8x.png",
+    "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/drafts/canonical-actions-v30/seated/male-right/seated-four-master.png"
+  ],
+  "poses": [
+    {
+      "pose": "cast",
+      "file": "art/drafts/canonical-actions-v30/water/male-right/cast-fine-raw.png",
+      "sourceCell": [
+        0,
+        0,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        25,
+        11,
+        78,
+        128
+      ],
+      "opaquePixels": 4043,
+      "edgeInk": 40
+    },
+    {
+      "pose": "hold",
+      "file": "art/drafts/canonical-actions-v30/water/male-right/hold-fine-raw.png",
+      "sourceCell": [
+        543,
+        0,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        20,
+        11,
+        71,
+        128
+      ],
+      "opaquePixels": 3685,
+      "edgeInk": 40
+    },
+    {
+      "pose": "reel",
+      "file": "art/drafts/canonical-actions-v30/water/male-right/reel-fine-raw.png",
+      "sourceCell": [
+        0,
+        724,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        25,
+        0,
+        80,
+        125
+      ],
+      "opaquePixels": 3893,
+      "edgeInk": 40
+    },
+    {
+      "pose": "row",
+      "file": "art/drafts/canonical-actions-v30/water/male-right/row-fine-raw.png",
+      "sourceCell": [
+        543,
+        724,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        20,
+        0,
+        82,
+        124
+      ],
+      "opaquePixels": 3749,
+      "edgeInk": 40
+    }
+  ]
+}

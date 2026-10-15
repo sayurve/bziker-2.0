@@ -1,0 +1,13 @@
+/** Anonymous shared city animals: deterministic paths, dwell and short pet pauses. */
+async function readCatalog(){const url=new URL('./animals-map.json',import.meta.url);if(typeof process!=='undefined'&&process.versions?.node){const {readFile}=await import('node:fs/promises');return JSON.parse(await readFile(url,'utf8'));}const response=await fetch(url);if(!response.ok)throw new Error('Не удалось загрузить маршруты животных');return response.json();}
+export const ambientAnimals=Object.freeze((await readCatalog()).animals);
+const catchup=2;
+function routeTime(now,pause){const start=pause?.started_at,duration=pause?.duration;if(!Number.isFinite(start)||!Number.isFinite(duration)||duration<=0||now<start)return [now,false];const end=start+duration,anchor=Number.isFinite(pause?.route_time)?pause.route_time:start;if(now<end)return [anchor,true];if(now<end+catchup)return [now-(end-anchor)*(1-(now-end)/catchup)**2,false];return [now,false];}
+export function animalPosition(animal,now,pause=null){
+ const [moment,held]=routeTime(now,pause),route=animal.route,spans=route.map((p,i)=>{const n=route[(i+1)%route.length];return Math.hypot(n.x-p.x,n.y-p.y)/animal.speed;}),cycle=route.reduce((sum,p,i)=>sum+p.dwell+spans[i],0),base=Object.fromEntries(['id','kind','action','label','radius'].map(k=>[k,animal[k]]));let phase=((moment+(animal.phase||0))%cycle+cycle)%cycle;
+ for(let i=0;i<route.length;i++){const p=route[i],n=route[(i+1)%route.length],dx=n.x-p.x,dy=n.y-p.y,facing=Math.abs(dx)>Math.abs(dy)?dx>0?'right':'left':dy>0?'down':'up';if(phase<p.dwell)return {...base,x:p.x,y:p.y,facing,walking:false,walk_frame:0};phase-=p.dwell;if(phase<spans[i]){const t=spans[i]?phase/spans[i]:0;return {...base,x:p.x+dx*t,y:p.y+dy*t,facing,walking:!held,walk_frame:held?0:Math.floor(phase*animal.speed/10)%4};}phase-=spans[i];}
+ return {...base,x:route[0].x,y:route[0].y,facing:'down',walking:false,walk_frame:0};
+}
+export function animalsAt(now,pauses={}){return ambientAnimals.map(a=>{const pause=pauses[a.id],valid=pause&&pause.started_at<=now&&now<pause.started_at+pause.duration+catchup;return {...animalPosition(a,now,valid?pause:null),...(valid?{pause:Object.fromEntries(['started_at','duration','route_time'].filter(k=>Object.hasOwn(pause,k)).map(k=>[k,pause[k]]))}:{})};});}
+export function snapshotAnimalTime(snapshot,elapsedMs=0){return Number.isFinite(snapshot?.server_time)?snapshot.server_time+Math.max(0,Number.isFinite(elapsedMs)?elapsedMs:0)/1000:null;}
+export function nearestAnimalAction(animals,x,y){if(!Number.isFinite(x)||!Number.isFinite(y))return null;const animal=(animals||[]).filter(a=>Math.hypot(a.x-x,a.y-y)<=(a.radius||65)).sort((a,b)=>Math.hypot(a.x-x,a.y-y)-Math.hypot(b.x-x,b.y-y))[0];return animal?{...animal,kind:'activity'}:null;}

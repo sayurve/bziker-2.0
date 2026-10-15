@@ -1,0 +1,1063 @@
+{
+  "status": "draft",
+  "checks": [
+    "10 raw masters byte-identical to built-in outputs",
+    "all40 fixed96x128/coarse48x64 frames",
+    "one fixed128/724 body scale across all10 sheets; integer root translations",
+    "source opaque pixels validated before drawing: no clipped body source",
+    "exact runtime-quantized own canonical donor RGB/alpha outside authored foreground palms",
+    "one large8-connected figure per frame and explicit small-island inventory; connectivity is technical, not art approval"
+  ],
+  "frames": [
+    {
+      "key": "seated/male-right",
+      "pose": "neutral",
+      "sha256": "fc2d52fd29e015dbb40a326b62b72dd5236df296258302178800e3cf17953076",
+      "donorCheckedPixels": 1925,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3895
+      ],
+      "smallIslands": [],
+      "hand": [
+        31.5,
+        45.5
+      ],
+      "pelvis": [
+        20,
+        47.5
+      ],
+      "neck": [
+        23.5,
+        31.5
+      ]
+    },
+    {
+      "key": "seated/male-right",
+      "pose": "hand-chest",
+      "sha256": "135153529eca350bb5c27d5b88dd5cda8623b34570c32b757acc340a25bd7f3a",
+      "donorCheckedPixels": 1922,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3985
+      ],
+      "smallIslands": [],
+      "hand": [
+        33.5,
+        36.5
+      ],
+      "pelvis": [
+        20,
+        47.5
+      ],
+      "neck": [
+        23.5,
+        31.5
+      ]
+    },
+    {
+      "key": "seated/male-right",
+      "pose": "hand-mouth",
+      "sha256": "fd2c01b442e48878b3ba77ad14c4d75bcfb44a314daf497bbfc951595fde8880",
+      "donorCheckedPixels": 1870,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3989
+      ],
+      "smallIslands": [],
+      "hand": [
+        33,
+        29
+      ],
+      "pelvis": [
+        20,
+        47.5
+      ],
+      "neck": [
+        23.5,
+        31.5
+      ]
+    },
+    {
+      "key": "seated/male-right",
+      "pose": "reach",
+      "sha256": "4a99b83765375eb4b4b0e036927300da14038a30eb99db3ac50aee3886974da3",
+      "donorCheckedPixels": 1925,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        4184
+      ],
+      "smallIslands": [],
+      "hand": [
+        42.5,
+        32.5
+      ],
+      "pelvis": [
+        20,
+        47.5
+      ],
+      "neck": [
+        23.5,
+        31.5
+      ]
+    },
+    {
+      "key": "seated/male-left",
+      "pose": "neutral",
+      "sha256": "9c2391a70325f4d58d1c456a41372a8a59b1ad093e21014f13569d795316eb77",
+      "donorCheckedPixels": 1892,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3904
+      ],
+      "smallIslands": [],
+      "hand": [
+        18,
+        45.5
+      ],
+      "pelvis": [
+        30,
+        47.5
+      ],
+      "neck": [
+        25,
+        31.5
+      ]
+    },
+    {
+      "key": "seated/male-left",
+      "pose": "hand-chest",
+      "sha256": "a17ee8eb262dac5cea3c4f96a0166b1004c30de626d2238d78e493ce75fa79e7",
+      "donorCheckedPixels": 1892,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        4031
+      ],
+      "smallIslands": [],
+      "hand": [
+        18.5,
+        37.5
+      ],
+      "pelvis": [
+        30,
+        47.5
+      ],
+      "neck": [
+        25,
+        31.5
+      ]
+    },
+    {
+      "key": "seated/male-left",
+      "pose": "hand-mouth",
+      "sha256": "91c387234b46d57ad3dac84d506be45fd325d817f9fb3413ca654bc1271c4b01",
+      "donorCheckedPixels": 1889,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        4069
+      ],
+      "smallIslands": [],
+      "hand": [
+        14.5,
+        33
+      ],
+      "pelvis": [
+        30,
+        47.5
+      ],
+      "neck": [
+        25,
+        31.5
+      ]
+    },
+    {
+      "key": "seated/male-left",
+      "pose": "reach",
+      "sha256": "8caafcc6d4153353e74b62e8b52d81e720c4ddd808d0e6586c5172264442734b",
+      "donorCheckedPixels": 1892,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        4359
+      ],
+      "smallIslands": [],
+      "hand": [
+        9,
+        34
+      ],
+      "pelvis": [
+        30,
+        47.5
+      ],
+      "neck": [
+        25,
+        31.5
+      ]
+    },
+    {
+      "key": "seated/male-down",
+      "pose": "neutral",
+      "sha256": "dcc833ab14218c9c132f549d443a802c447b106edf0c0829506e1b749c703d6b",
+      "donorCheckedPixels": 2071,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        4325
+      ],
+      "smallIslands": [],
+      "hand": [
+        18.5,
+        45
+      ],
+      "pelvis": [
+        24,
+        47
+      ],
+      "neck": [
+        24,
+        31.5
+      ]
+    },
+    {
+      "key": "seated/male-down",
+      "pose": "hand-chest",
+      "sha256": "b84dd0af5beb294b0a54fc1a66e3b68fe9c7e1ae2311272574cbdb902fa803e7",
+      "donorCheckedPixels": 2032,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        4288
+      ],
+      "smallIslands": [],
+      "hand": [
+        24,
+        36
+      ],
+      "pelvis": [
+        24,
+        47
+      ],
+      "neck": [
+        24,
+        31.5
+      ]
+    },
+    {
+      "key": "seated/male-down",
+      "pose": "hand-mouth",
+      "sha256": "95b936625667e99855b16c7181e0aabe98fcd0873a76ed7769522e684a8b57d6",
+      "donorCheckedPixels": 2022,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        4237
+      ],
+      "smallIslands": [],
+      "hand": [
+        22,
+        34
+      ],
+      "pelvis": [
+        24,
+        47
+      ],
+      "neck": [
+        24,
+        32
+      ]
+    },
+    {
+      "key": "seated/male-down",
+      "pose": "reach",
+      "sha256": "edd3805659cac9c83fbd6a5fbea4410bebdd5c3c533a7e6640cb9a5f478e5e15",
+      "donorCheckedPixels": 2071,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        4228
+      ],
+      "smallIslands": [],
+      "hand": [
+        20,
+        37.5
+      ],
+      "pelvis": [
+        24,
+        47
+      ],
+      "neck": [
+        24,
+        31.5
+      ]
+    },
+    {
+      "key": "seated/male-up",
+      "pose": "neutral",
+      "sha256": "62d2aa80fdd56188beb0a1b0b7d1d528d9408d12cb06a5531f7084eb73be9694",
+      "donorCheckedPixels": 1917,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        4012
+      ],
+      "smallIslands": [],
+      "hand": [
+        16.5,
+        45.5
+      ],
+      "pelvis": [
+        24,
+        47.5
+      ],
+      "neck": [
+        24,
+        32.5
+      ]
+    },
+    {
+      "key": "seated/male-up",
+      "pose": "hand-chest",
+      "sha256": "0ab4e785ced20e414065e667d1e1785740cc8f07edf8687fb1a8cf4dd05d060f",
+      "donorCheckedPixels": 1898,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        4065
+      ],
+      "smallIslands": [],
+      "hand": [
+        34.5,
+        34.5
+      ],
+      "pelvis": [
+        24,
+        47.5
+      ],
+      "neck": [
+        24,
+        32.5
+      ]
+    },
+    {
+      "key": "seated/male-up",
+      "pose": "hand-mouth",
+      "sha256": "2d60e4ca71cd28e463292a343f9a2cf2da2f97170350d2111ec3b6cf284332f6",
+      "donorCheckedPixels": 1892,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        4087
+      ],
+      "smallIslands": [],
+      "hand": [
+        34,
+        32
+      ],
+      "pelvis": [
+        24,
+        47.5
+      ],
+      "neck": [
+        24,
+        32.5
+      ]
+    },
+    {
+      "key": "seated/male-up",
+      "pose": "reach",
+      "sha256": "bd634fbbd794a0aefb1bc9395a71a56eca6d4d65bc381addbc35fd02dd7664a8",
+      "donorCheckedPixels": 1917,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        4154
+      ],
+      "smallIslands": [],
+      "hand": [
+        42.5,
+        34
+      ],
+      "pelvis": [
+        24,
+        47.5
+      ],
+      "neck": [
+        24,
+        32.5
+      ]
+    },
+    {
+      "key": "seated/female-right",
+      "pose": "neutral",
+      "sha256": "f4be48da5636505834399f642a8c9e73f405a8115707ce6f972760ad0744e72c",
+      "donorCheckedPixels": 1811,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3729
+      ],
+      "smallIslands": [],
+      "hand": [
+        32,
+        45
+      ],
+      "pelvis": [
+        20,
+        47.5
+      ],
+      "neck": [
+        24.5,
+        31.5
+      ]
+    },
+    {
+      "key": "seated/female-right",
+      "pose": "hand-chest",
+      "sha256": "007167b5a8041e75795d5ded67d7670af84410ecfbafe55bf67de1a4724bbf75",
+      "donorCheckedPixels": 1811,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3815
+      ],
+      "smallIslands": [],
+      "hand": [
+        35,
+        36.5
+      ],
+      "pelvis": [
+        20,
+        47.5
+      ],
+      "neck": [
+        24.5,
+        31.5
+      ]
+    },
+    {
+      "key": "seated/female-right",
+      "pose": "hand-mouth",
+      "sha256": "2da2851d83833ed8323dd58bd1247b486de0688df8104abbddfd066cfddacfd9",
+      "donorCheckedPixels": 1803,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3826
+      ],
+      "smallIslands": [],
+      "hand": [
+        34,
+        32
+      ],
+      "pelvis": [
+        20,
+        47.5
+      ],
+      "neck": [
+        24.5,
+        31.5
+      ]
+    },
+    {
+      "key": "seated/female-right",
+      "pose": "reach",
+      "sha256": "4f21d1f4bb59bc6048b8bba44386ca48d5f9aed532975adeccd59d54c4657e90",
+      "donorCheckedPixels": 1811,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3963
+      ],
+      "smallIslands": [],
+      "hand": [
+        44.5,
+        33.5
+      ],
+      "pelvis": [
+        20,
+        47.5
+      ],
+      "neck": [
+        24.5,
+        31.5
+      ]
+    },
+    {
+      "key": "seated/female-left",
+      "pose": "neutral",
+      "sha256": "26250789beebf157902ec9c063e36f8166be96b08bc4fc2809bbc9ee251dc3f7",
+      "donorCheckedPixels": 1741,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3582
+      ],
+      "smallIslands": [],
+      "hand": [
+        19,
+        45
+      ],
+      "pelvis": [
+        30,
+        47.5
+      ],
+      "neck": [
+        25.5,
+        33
+      ]
+    },
+    {
+      "key": "seated/female-left",
+      "pose": "hand-chest",
+      "sha256": "9eb24b9ba44cf4a833a03a58cea8f988a18dd176cc5084353061ac23e9efe92e",
+      "donorCheckedPixels": 1741,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3684
+      ],
+      "smallIslands": [],
+      "hand": [
+        15.5,
+        37.5
+      ],
+      "pelvis": [
+        30,
+        47.5
+      ],
+      "neck": [
+        25.5,
+        33
+      ]
+    },
+    {
+      "key": "seated/female-left",
+      "pose": "hand-mouth",
+      "sha256": "a356c86b06ac041159ffcb267d05be81897e3c1b0022d3d28d1dd372d25c7fb6",
+      "donorCheckedPixels": 1715,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3669
+      ],
+      "smallIslands": [],
+      "hand": [
+        15,
+        33
+      ],
+      "pelvis": [
+        30,
+        47.5
+      ],
+      "neck": [
+        25.5,
+        33
+      ]
+    },
+    {
+      "key": "seated/female-left",
+      "pose": "reach",
+      "sha256": "50b61b25d2e6eacaf8dd3c97eacb1253de314ce860d0e6fd51e8f1ed4e4b5858",
+      "donorCheckedPixels": 1741,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3812
+      ],
+      "smallIslands": [],
+      "hand": [
+        9.5,
+        33.5
+      ],
+      "pelvis": [
+        30,
+        47.5
+      ],
+      "neck": [
+        25.5,
+        33
+      ]
+    },
+    {
+      "key": "seated/female-down",
+      "pose": "neutral",
+      "sha256": "79b090af849de03d6d2ceeadaadb86c46efd224699757f550c48fd8f2a0b87a9",
+      "donorCheckedPixels": 1816,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3637
+      ],
+      "smallIslands": [],
+      "hand": [
+        17,
+        45.5
+      ],
+      "pelvis": [
+        24,
+        47.5
+      ],
+      "neck": [
+        24,
+        33
+      ]
+    },
+    {
+      "key": "seated/female-down",
+      "pose": "hand-chest",
+      "sha256": "a95438575f581d171bc59eeb74e44d929cda6f68ce63de14a5882158b4abd523",
+      "donorCheckedPixels": 1796,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3642
+      ],
+      "smallIslands": [],
+      "hand": [
+        24,
+        37
+      ],
+      "pelvis": [
+        24,
+        47.5
+      ],
+      "neck": [
+        24,
+        33
+      ]
+    },
+    {
+      "key": "seated/female-down",
+      "pose": "hand-mouth",
+      "sha256": "f59d3e670993cfdacdc1c7175156e163c53fb71552cc81e3e95961978e8b237a",
+      "donorCheckedPixels": 1785,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3608
+      ],
+      "smallIslands": [],
+      "hand": [
+        22,
+        34.5
+      ],
+      "pelvis": [
+        24,
+        47.5
+      ],
+      "neck": [
+        24,
+        33
+      ]
+    },
+    {
+      "key": "seated/female-down",
+      "pose": "reach",
+      "sha256": "4caceddb69f9b57676279849f3c4b4b9c53be1d464c82cfd3b4e826fb7183e39",
+      "donorCheckedPixels": 1816,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3587
+      ],
+      "smallIslands": [],
+      "hand": [
+        21,
+        39.5
+      ],
+      "pelvis": [
+        24,
+        47.5
+      ],
+      "neck": [
+        24,
+        33
+      ]
+    },
+    {
+      "key": "seated/female-up",
+      "pose": "neutral",
+      "sha256": "eb47b3b8dd09e01f60e38713d7b1bbdf4863fd782433bdffcad7335332205cce",
+      "donorCheckedPixels": 1704,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3667
+      ],
+      "smallIslands": [],
+      "hand": [
+        16.5,
+        45.5
+      ],
+      "pelvis": [
+        24,
+        47.5
+      ],
+      "neck": [
+        24,
+        31.5
+      ]
+    },
+    {
+      "key": "seated/female-up",
+      "pose": "hand-chest",
+      "sha256": "62294437eb978686dc5b938ddada85f2aca22cd5e172e5a1ca81260f51c9ef45",
+      "donorCheckedPixels": 1685,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3773
+      ],
+      "smallIslands": [],
+      "hand": [
+        35,
+        32
+      ],
+      "pelvis": [
+        24,
+        47.5
+      ],
+      "neck": [
+        24,
+        31.5
+      ]
+    },
+    {
+      "key": "seated/female-up",
+      "pose": "hand-mouth",
+      "sha256": "01cdd7ec43970f52d9cd7d5eadf2e448c99712411fbb436721780bada65a1027",
+      "donorCheckedPixels": 1690,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3671
+      ],
+      "smallIslands": [],
+      "hand": [
+        34.5,
+        31
+      ],
+      "pelvis": [
+        24,
+        47.5
+      ],
+      "neck": [
+        24,
+        32.5
+      ]
+    },
+    {
+      "key": "seated/female-up",
+      "pose": "reach",
+      "sha256": "7207530550541039b7ef52f5ed5e894a07070b88579d835cbe53e1b8f349727a",
+      "donorCheckedPixels": 1704,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3744
+      ],
+      "smallIslands": [],
+      "hand": [
+        41,
+        32
+      ],
+      "pelvis": [
+        24,
+        47.5
+      ],
+      "neck": [
+        24,
+        32.5
+      ]
+    },
+    {
+      "key": "water/male-right",
+      "pose": "cast",
+      "sha256": "81d483e07a59d1dfec5dd7f70d685f5cf63b086d8ff7674bcace525a18baf381",
+      "donorCheckedPixels": 1709,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        4235
+      ],
+      "smallIslands": [],
+      "hand": [
+        33.5,
+        16
+      ],
+      "pelvis": [
+        24,
+        49
+      ],
+      "neck": [
+        23.5,
+        27.5
+      ]
+    },
+    {
+      "key": "water/male-right",
+      "pose": "hold",
+      "sha256": "940ac11da55c334a20d472222f0aa787d1f37ec1b7f0577b3cc9511e91361e69",
+      "donorCheckedPixels": 1925,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        4052
+      ],
+      "smallIslands": [],
+      "hand": [
+        35.5,
+        34.5
+      ],
+      "pelvis": [
+        24,
+        49
+      ],
+      "neck": [
+        24,
+        27.5
+      ]
+    },
+    {
+      "key": "water/male-right",
+      "pose": "reel",
+      "sha256": "db53e583c3e87ce49f71de3fe139a658d7b25bcba3e2c93aa584005845cbbfa6",
+      "donorCheckedPixels": 1921,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        4094
+      ],
+      "smallIslands": [],
+      "hand": [
+        34.5,
+        32.5
+      ],
+      "pelvis": [
+        24,
+        49
+      ],
+      "neck": [
+        22.5,
+        29.5
+      ]
+    },
+    {
+      "key": "water/male-right",
+      "pose": "row",
+      "sha256": "809c36296fc053d5094d9e8f7a4b777f0aa99d4ca5c6d758c4613037e1876062",
+      "donorCheckedPixels": 1925,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        4008
+      ],
+      "smallIslands": [],
+      "hand": [
+        37.5,
+        38
+      ],
+      "pelvis": [
+        20,
+        48.5
+      ],
+      "neck": [
+        22.5,
+        32
+      ]
+    },
+    {
+      "key": "water/female-right",
+      "pose": "cast",
+      "sha256": "ce273822e1cd2d51e8f6b1703d3f81ed5c8bbeb208077c1ef8f53f02eecd8e43",
+      "donorCheckedPixels": 1397,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3745
+      ],
+      "smallIslands": [],
+      "hand": [
+        17.5,
+        18
+      ],
+      "pelvis": [
+        24,
+        49
+      ],
+      "neck": [
+        22,
+        29.5
+      ]
+    },
+    {
+      "key": "water/female-right",
+      "pose": "hold",
+      "sha256": "a293613d6382196de53a701e2aebd08365371349d9ab826bfd191804f3db2d96",
+      "donorCheckedPixels": 1811,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3641
+      ],
+      "smallIslands": [],
+      "hand": [
+        34.5,
+        36.5
+      ],
+      "pelvis": [
+        24,
+        49
+      ],
+      "neck": [
+        25,
+        29.5
+      ]
+    },
+    {
+      "key": "water/female-right",
+      "pose": "reel",
+      "sha256": "9f7853c484a2c8fd16474c7e840ba37e1d05b093615de271977196a4981eb802",
+      "donorCheckedPixels": 1811,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3672
+      ],
+      "smallIslands": [],
+      "hand": [
+        27.5,
+        36
+      ],
+      "pelvis": [
+        24,
+        49
+      ],
+      "neck": [
+        21.5,
+        31
+      ]
+    },
+    {
+      "key": "water/female-right",
+      "pose": "row",
+      "sha256": "cc721d66bd04aeddedc8a4b70c92f22ad785df650c9b57b431a72fdd97a35802",
+      "donorCheckedPixels": 1811,
+      "donorMismatchPixels": 0,
+      "headClippedPixels": 0,
+      "sourceClippedPixels": 0,
+      "edgeInk": 0,
+      "alphaComponentSizes": [
+        3654
+      ],
+      "smallIslands": [],
+      "hand": [
+        37.5,
+        38
+      ],
+      "pelvis": [
+        20,
+        48.5
+      ],
+      "neck": [
+        23.5,
+        33.5
+      ]
+    }
+  ],
+  "totals": {
+    "masters": 10,
+    "frames": 40,
+    "headClipping": 0,
+    "sourceClipping": 0,
+    "edgeInk": 0,
+    "donorMismatches": 0,
+    "disconnectedBodies": 0,
+    "remainingSmallIslands": 0
+  }
+}

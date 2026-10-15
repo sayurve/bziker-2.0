@@ -1,0 +1,314 @@
+{
+  "manifest": {
+    "actors": 22,
+    "actionSequences": {
+      "human-male": 17,
+      "human-female": 17,
+      "cat-british-black": 17,
+      "cat-british-blue": 17,
+      "cat-british-cream": 17,
+      "cat-british-silver-tabby": 17,
+      "cat-maine-coon-brown-tabby": 17,
+      "cat-maine-coon-red-tabby": 17,
+      "cat-maine-coon-silver-tabby": 17,
+      "cat-maine-coon-tortoiseshell": 17,
+      "dog-corgi-red-white": 17,
+      "dog-corgi-sable-white": 17,
+      "dog-corgi-tricolor": 17,
+      "dog-german-shepherd-black": 17,
+      "dog-german-shepherd-black-tan": 17,
+      "dog-german-shepherd-sable": 17,
+      "dog-labrador-black": 17,
+      "dog-labrador-chocolate": 17,
+      "dog-labrador-yellow": 17,
+      "dog-poodle-apricot": 17,
+      "dog-poodle-black": 17,
+      "dog-poodle-white": 17
+    },
+    "daily": 168,
+    "gestures": 160,
+    "composites": 8,
+    "water": 4
+  },
+  "rawMovement": 176,
+  "nonUniqueMovement": [
+    {
+      "id": "cat-british-cream",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 3,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-cream",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 3,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-tricolor",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 3,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-tricolor",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 3,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-black",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 3,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-black",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 3,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    }
+  ],
+  "ambient": [
+    {
+      "id": "park-dog",
+      "action": "pet-dog",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "park-cat",
+      "action": "pet-cat",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "station-dog",
+      "action": "pet-dog",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "station-cat",
+      "action": "pet-cat",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "park-north-dog",
+      "action": "pet-dog",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "park-lake-cat",
+      "action": "pet-cat",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "plaza-dog",
+      "action": "pet-dog",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "plaza-cat",
+      "action": "pet-cat",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "clan-dog",
+      "action": "pet-dog",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "clan-cat",
+      "action": "pet-cat",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "shop-dog",
+      "action": "pet-dog",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cafe-cat",
+      "action": "pet-cat",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "followerOnTransfer": {
+    "owner_id": "o",
+    "id": "p",
+    "kind": "cat",
+    "x": 459,
+    "y": 515,
+    "owner_x": 500,
+    "owner_y": 500,
+    "scene": "interior",
+    "scene_id": null,
+    "interior_id": "cafe",
+    "motion_scene": "[\"interior\",null,\"cafe\"]"
+  },
+  "followerMotion": {
+    "owner_id": "o",
+    "id": "p",
+    "kind": "cat",
+    "x": 459,
+    "y": 515,
+    "owner_x": 500,
+    "owner_y": 500,
+    "scene": "interior",
+    "scene_id": null,
+    "interior_id": "cafe",
+    "motion_scene": "[\"interior\",null,\"cafe\"]",
+    "walking": false,
+    "facing": "left",
+    "walk_frame": 0,
+    "motion_distance": 0
+  },
+  "sourceDiffs": {
+    "source-actors.js": false,
+    "actor-sprite.js": true,
+    "source-actors-data.js": true,
+    "world.js": false
+  }
+}

@@ -1,0 +1,26 @@
+✔ definition contract exists and returns an immutable isolated value (1.570709ms)
+✔ model requires every authored direction, pose, constant layer canvas and attachments (1.260583ms)
+✔ draft definitions and garments need explicit lab opt-in (1.195083ms)
+✔ garment validates model compatibility, all poses, layer identity and explicit texture reference (1.991958ms)
+✔ distance alone selects one frame shared by every layer and direction ordering (0.981792ms)
+✔ repeated state does not restart and timed actions hold final pose (0.412541ms)
+✔ stop and teleport discard movement phase; reduced motion cannot accumulate hidden stride (0.537167ms)
+✔ outfit changes preserve phase and invalid changes leave complete snapshot untouched (1.259833ms)
+✔ Phaser layers use common anchor and one uniform scale without resizing (1.141333ms)
+✔ Phaser missing textures, missing atlas frames and allocation errors roll back whole outfit (2.223583ms)
+✔ outfit preflight checks every pose texture, including currently invisible frames (0.88925ms)
+✔ view rejects mismatched logical frame dimensions before changing children (0.519416ms)
+✔ view releases its own objects without destroying attached foreign objects or shared textures (0.467459ms)
+✔ all poses expose the same named attachment points (0.1345ms)
+✔ timed loops honor authored durations, PNG null frames and outfit clearing retain phase (0.642458ms)
+✔ any looping distance action follows distance and repeated state retains its phase (0.39075ms)
+✔ every provided distance clock requires positive finite cycle and looping action (0.647541ms)
+✔ large page lag clamps a finite timed action to its authored end (0.279541ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 67.709208

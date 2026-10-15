@@ -1,0 +1,26 @@
+[
+  {
+    "room": "messages",
+    "version": "before",
+    "nativeRenderer": true,
+    "backgroundDetailBBoxOverlaps": []
+  },
+  {
+    "room": "casino",
+    "version": "before",
+    "nativeRenderer": true,
+    "backgroundDetailBBoxOverlaps": []
+  },
+  {
+    "room": "messages",
+    "version": "after",
+    "nativeRenderer": true,
+    "backgroundDetailBBoxOverlaps": []
+  },
+  {
+    "room": "casino",
+    "version": "after",
+    "nativeRenderer": true,
+    "backgroundDetailBBoxOverlaps": []
+  }
+]

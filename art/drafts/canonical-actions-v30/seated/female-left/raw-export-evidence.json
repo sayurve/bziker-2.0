@@ -1,0 +1,105 @@
+{
+  "status": "draft",
+  "family": "seated",
+  "gender": "female",
+  "dir": "left",
+  "master": "art/drafts/canonical-actions-v30/seated/female-left/seated-four-master.png",
+  "sourceOutput": "/Users/sapp/.codex/generated_images/01a13c9a-ae7d-7bc2-83f6-88b8b5a5e67b/exec-eb101259-5b09-4407-a796-033b64dab393.png",
+  "rawMasterUnchanged": true,
+  "masterSHA256": "ead6bc3abe74a4abff6fa8dc706eba7e35eeacfc870eb502e81e2038bb06a6d5",
+  "actualSize": [
+    1086,
+    1448
+  ],
+  "requestedSize": [
+    1536,
+    2048
+  ],
+  "cell": [
+    543,
+    724
+  ],
+  "fixedUniformScale": 0.17679558011049723,
+  "referencePaths": [
+    "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/drafts/canonical-actions-v30/references/female-left-runtime-8x.png",
+    "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/drafts/canonical-actions-v30/seated/male-right/seated-four-master.png"
+  ],
+  "poses": [
+    {
+      "pose": "neutral",
+      "file": "art/drafts/canonical-actions-v30/seated/female-left/neutral-fine-raw.png",
+      "sourceCell": [
+        0,
+        0,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        23,
+        15,
+        78,
+        128
+      ],
+      "opaquePixels": 3890,
+      "edgeInk": 31
+    },
+    {
+      "pose": "hand-chest",
+      "file": "art/drafts/canonical-actions-v30/seated/female-left/hand-chest-fine-raw.png",
+      "sourceCell": [
+        543,
+        0,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        14,
+        15,
+        70,
+        128
+      ],
+      "opaquePixels": 3996,
+      "edgeInk": 31
+    },
+    {
+      "pose": "hand-mouth",
+      "file": "art/drafts/canonical-actions-v30/seated/female-left/hand-mouth-fine-raw.png",
+      "sourceCell": [
+        0,
+        724,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        23,
+        0,
+        78,
+        124
+      ],
+      "opaquePixels": 4138,
+      "edgeInk": 29
+    },
+    {
+      "pose": "reach",
+      "file": "art/drafts/canonical-actions-v30/seated/female-left/reach-fine-raw.png",
+      "sourceCell": [
+        543,
+        724,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        1,
+        0,
+        70,
+        124
+      ],
+      "opaquePixels": 4217,
+      "edgeInk": 29
+    }
+  ]
+}

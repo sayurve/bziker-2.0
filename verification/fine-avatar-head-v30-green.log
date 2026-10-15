@@ -1,0 +1,14 @@
+✔ profile/catalog raster is the exact customized96x128 fine world bitmap, including real user H7 white skin3 (230.384541ms)
+✔ head catalogue crops the same fine face/hair pixels without torso or a second coarse hairstyle conversion (379.085666ms)
+✔ loaded head and catalogue previews retain actual native fine pixels with a logical48-wide crop and no torso (242.190917ms)
+✔ face-free headwear retains genuine hair/hat pixels and selected colors while removing the actual face (175.477ms)
+✔ head-only native canvas equals every fine SVG raster pixel; anonymous jury never reveals selected identity (27.366917ms)
+✔ complete native fine sclera and pupils survive portrait cropping and are absent in the face-free catalogue (15.468417ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 910.091417

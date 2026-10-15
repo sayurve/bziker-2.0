@@ -1,0 +1,673 @@
+{
+  "checkedAt": "2026-10-15T11:53:00.551Z",
+  "matrix": {
+    "paidOutfits": {
+      "genders": 2,
+      "outfits": 7,
+      "directions": 4,
+      "runPhases": 4,
+      "cases": 224
+    },
+    "hairHeadwear": {
+      "genders": 2,
+      "hairStyles": 12,
+      "headwear": 5,
+      "hairColors": [
+        0,
+        6
+      ],
+      "directions": 4,
+      "runPhases": 4,
+      "cases": 3840
+    },
+    "total": 4064
+  },
+  "actualCounts": {
+    "outfits": 224,
+    "hairHeadwear": 3840,
+    "total": 4064
+  },
+  "sourceHashes": {
+    "game/web/avatar.js": "2ba445c67ed7cef5a8cdea6ade353ec32bfae18e72d87b7029c23b6ea0e86d7c",
+    "game/web/source-actors.js": "e335bd0224fc2cc01f6dd8f1c646c55bf98252066854cddcab018e46b0f3bdb8",
+    "game/web/actor-sprite.js": "685e6d9a77feb1d746b689c3072b5373dbe33667d3d0108b6e0773bcc9100531",
+    "game/web/actor-hair-data.js": "a36efd9c23ae568d2cd5224ebe9feb274866e16d8a0fa8fb55becf7bb0f0bea2",
+    "game/web/actor-custom-data.js": "6c32b6b014e44b69ba06969e367ee1a02662b3b6ab5092f91fea37423fe43fcf",
+    "game/web/actor-atlas-data.js": "be7043781e5c68465d0af1747a8c7f256dd0a4efa648a07dab90f98d2b569a06",
+    "game/web/source-actors-data.js": "2753bf062e500cc18cc65751c94ad95e57cedb77fa1298327320d330809c92a1",
+    "game/web/canonical-actors-data.js": "9744e32229dd06b998aeb5811871c812188cdc6e7002c97f9ca3632435cfe415",
+    "game/web/locomotion.js": "0e21e1877c7e63e074a55f86108b72c1307efad9fcd63cebb4584a25512a5e98",
+    "game/web/locomotion-actors-data.js": "3736a50b9fc041baf97137212d3ab486bc7f134e7aaf1c6cc22437ab2f2d3007"
+  },
+  "sourceFilesStable": true,
+  "nativeFilesLoaded": 84,
+  "nativeResources": [
+    {
+      "path": "assets/canonical-idle-v2/male-down.png",
+      "sha256": "a6110949e26e8d57e1dd81776f6b871991fbcaff9feb3b82657512f1e7115a5d",
+      "sizeBytes": 3192,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-right.png",
+      "sha256": "18f727c93c8fe59e71bbedcec217f202f952467319f1044ef81b152ccf456fd8",
+      "sizeBytes": 3031,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-up.png",
+      "sha256": "0320d7c0f189e75f406973dbeee6ffb26ee36225f2f506d2be56f2b4dcf17e70",
+      "sizeBytes": 2992,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-left.png",
+      "sha256": "67b65dfc7689711577bdacf2fd3711117e9733f3cd2514595f680b0b779d3976",
+      "sizeBytes": 2937,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-right-fine.png",
+      "sha256": "9eee484ea8fd0f10833772726be630c1d1af73ce9a1c892bc6947283094759c3",
+      "sizeBytes": 8879,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-down-fine.png",
+      "sha256": "478a8d42240000771dbb1f9ab5a1d0f3dcee43f2ba91b3a13867a70021f7b5f3",
+      "sizeBytes": 9222,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-up-fine.png",
+      "sha256": "5fbddf29e28bcd7f5f56af45ee091fab4edfd813f43defc59395f0c4d6f1b1ba",
+      "sizeBytes": 8676,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-left-fine.png",
+      "sha256": "55bc69a685ddb506eca21576b633d8e881f5a5eeae770c739ff100d43266f73a",
+      "sizeBytes": 8438,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-0.png",
+      "sha256": "031739f1d5be5aa68dc18a03a51c75dfb0c417d6597f12445eeb3e733fb22535",
+      "sizeBytes": 3740,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-base-human-male-1.png",
+      "sha256": "5b458252ecd9133478ab42b1c44d0cab9c3b3a91019aa46bd75f04044c81afa3",
+      "sizeBytes": 214145,
+      "width": 384,
+      "height": 576
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-2.png",
+      "sha256": "44da03d392b92cfd898f6ae09dd867bbf1fd5629c31c3be04354b586c2262981",
+      "sizeBytes": 3685,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-1.png",
+      "sha256": "cf0313ebbff463231f42f3af9163d283241d1395a1ff8895948756eb9d5153dc",
+      "sizeBytes": 3236,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-3.png",
+      "sha256": "68955760f0a54afac1e5be59fc44ea0fa3baae789d4998af70cf9d9852be2e65",
+      "sizeBytes": 3150,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-3.png",
+      "sha256": "9ee13b82b0da520ac11336b79c7713448274e87092c4617c403c0dc3bd4a4fbc",
+      "sizeBytes": 3304,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-0.png",
+      "sha256": "3e5cc78b74b3a19701b46402900e1b382204af58d4a9d5a576ec8e6963940667",
+      "sizeBytes": 3692,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-0.png",
+      "sha256": "fe66da19e2d9731147209c3fe2f38bde4c8064fde435680669f76c4c39b80ff2",
+      "sizeBytes": 3482,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-2.png",
+      "sha256": "12680c672b2a65cfc349355771f7a3e94dfeb4760db0397e0b90f848fdedc2f5",
+      "sizeBytes": 3467,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-1.png",
+      "sha256": "da838cc6cf698eab202e428e30cb32d3e3bd25c5fbe386ac0a8ffdb2b79c4faa",
+      "sizeBytes": 3484,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-2.png",
+      "sha256": "152cbf3bb874af3e3337c4d91e93ae9cc404b3d1a1e39c7d5ca7a0e5870a4aa1",
+      "sizeBytes": 3514,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-1.png",
+      "sha256": "1e47da8a662580a995a61fe51177f668c0a885110667179198e6cc3ea4625e15",
+      "sizeBytes": 3175,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-0.png",
+      "sha256": "0e6de53ed24028358a1fd12ef8865e37ef29b4efa3e4166a5fbb0095630d4b99",
+      "sizeBytes": 3080,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-3.png",
+      "sha256": "11c1890f5974d4554ae13ca7d464c82b8f1683d2481c33e05b97771a1522d3f8",
+      "sizeBytes": 3462,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-1.png",
+      "sha256": "45cf1a81a13f967c49a2f6ed77b645f5c853e8c07a61e53ebcde5bdee7c754ed",
+      "sizeBytes": 3060,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-3.png",
+      "sha256": "4d3584cd4c885058170e9b5c6c77c1cd8554fea507e93b3c49d70285a84ce946",
+      "sizeBytes": 3108,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-2.png",
+      "sha256": "f662e0a47b9aaaf70ac757f5591210ebaddef48bcbc6d69fc2a47db5d0f63b28",
+      "sizeBytes": 3184,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-0-fine.png",
+      "sha256": "f0092be95db63f919e7648ee7c203c9e8bbdd29b962e80287ffd1423ee5b67e6",
+      "sizeBytes": 11353,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-3-fine.png",
+      "sha256": "42f0591a11fd4504f1b0e3ae3a7288703a344890c284f0e7e0c2df086a0026cf",
+      "sizeBytes": 9513,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-2-fine.png",
+      "sha256": "40370b26ba99bca63c102acbf220a6061357855159d71e4941f1af34017211fd",
+      "sizeBytes": 11161,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-1-fine.png",
+      "sha256": "1fcf63c0047a3a89a5d91d22bac18f27851cc8d6f54b79451ab32f786d8ba94d",
+      "sizeBytes": 9344,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-0-fine.png",
+      "sha256": "36bd295e69a1cc46fcabfc5157f00f3d6c70b7c0f8189f953617c675151c57d7",
+      "sizeBytes": 11128,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-1-fine.png",
+      "sha256": "8181f5d51becf23eea067648b96bbcd091af00adf6195c5acd8c548044c77227",
+      "sizeBytes": 9640,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-2-fine.png",
+      "sha256": "a2192d6f51828d58b55eda80ab4df8850ae5feb11b3d050a50f091661630d632",
+      "sizeBytes": 10537,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-3-fine.png",
+      "sha256": "97f0ae1ec2912aa95ae7c289e33b07d7ebd31d222bde83f2b3780d980a9cf91c",
+      "sizeBytes": 9805,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-0-fine.png",
+      "sha256": "0c867393fee9b6663c11ac90ea3460157e4fd578a6b1852ded936b17619177d6",
+      "sizeBytes": 9868,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-2-fine.png",
+      "sha256": "0276624b0a7877ff8529c9304554008aafa198ca9c38a21ec5ae8d7a092aef2d",
+      "sizeBytes": 9843,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-3-fine.png",
+      "sha256": "bc5e152b2121b42af09971f47d52c48ada00d295ed3a5b90442a8383519ce6e8",
+      "sizeBytes": 9746,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-1-fine.png",
+      "sha256": "12c0758954086c94416c3c3a7da3a67b514a153d7e898ed297e857bbb5b08ac2",
+      "sizeBytes": 9865,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-0-fine.png",
+      "sha256": "3fa536529800896232856452a7273049c75a67ee018323869af5d12545973fea",
+      "sizeBytes": 8443,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-3-fine.png",
+      "sha256": "04e42e3911952ea4332cd7fd61d49f6fe79bcdc126ebeeec6a9e87c90174bb0e",
+      "sizeBytes": 8528,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-1-fine.png",
+      "sha256": "6f0b78f7da840c2c3d5ced42789277ac27bd9c319423db8499d6d862d0c53c35",
+      "sizeBytes": 8440,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-2-fine.png",
+      "sha256": "ccc45141b1f05d65126b82da02f29823bf7e8b7d587008f2270b1cb214bf3959",
+      "sizeBytes": 8708,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-base-human-male-1.png",
+      "sha256": "663ad18e9a90e507beed9c85351713ee95e268b4c9c99eca0895aaca14de8b66",
+      "sizeBytes": 615307,
+      "width": 768,
+      "height": 1152
+    },
+    {
+      "path": "assets/design-actor-base-human-female-1.png",
+      "sha256": "f02b262e0df2d4ae0c4c16bf33ff6c838e97efe0a4e38d208bd4d19bba412182",
+      "sizeBytes": 218933,
+      "width": 384,
+      "height": 576
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-down.png",
+      "sha256": "26673c5a2b95148e7ebdc13c35f3a9e2a9c4748fc0c026da8104a52fdce21519",
+      "sizeBytes": 2939,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-right.png",
+      "sha256": "94f2a5b7e4e6e6eee20506a5c85aa06a2eb4617bbc0db94f3d329397e709dc80",
+      "sizeBytes": 2779,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-up.png",
+      "sha256": "22937072f5b4e108a4c649f4c665c23dd36c38b9a82e8c7ca658d5a656b3cfe5",
+      "sizeBytes": 2769,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-left.png",
+      "sha256": "876692180993fd68adff0728982e114d7f39de16f49ff873d88a8b96dacd03dd",
+      "sizeBytes": 2632,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-down-fine.png",
+      "sha256": "0944f75c6143b572390896e18297c5b2ba1c79d98303bcbf6513b5c01fc7aedd",
+      "sizeBytes": 8490,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-up-fine.png",
+      "sha256": "9fa40972d5b92b7f78b79032d2c3a458ffa5ba5b08ef9de1f1b4beeab93b0c82",
+      "sizeBytes": 8057,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-left-fine.png",
+      "sha256": "9f6391711572b9e79164d15c615aec0cae469ab3251a219bec7232c1348cf732",
+      "sizeBytes": 7773,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-0.png",
+      "sha256": "abae649deb1aaa9872b7ede119d60c0997b80c51d003483708205edc49cc02ab",
+      "sizeBytes": 3432,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-2.png",
+      "sha256": "473c6940114e6b6a6c69d3704bee942972e8c8627df97098c4ba592c7a674f46",
+      "sizeBytes": 3463,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-1.png",
+      "sha256": "64a152bc36197d5fdb5b3582ce0e09cd140cf7c40c95dba5c54a079cf932041b",
+      "sizeBytes": 2992,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-3.png",
+      "sha256": "abb722e2b38c9d8358443d11b2b438efbeb898459892ca6904571e49b750a6df",
+      "sizeBytes": 3009,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-1.png",
+      "sha256": "a50ee848aae17d23a0bf5aad2a4b066ad5e84b8ec2ec645e99e939b5e3c697b9",
+      "sizeBytes": 3015,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-0.png",
+      "sha256": "78692bcc3fbf50c957747e8e4bb2b0f7b9a1038f40ad7fc2703360ced5cd1aa9",
+      "sizeBytes": 3419,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-2.png",
+      "sha256": "d8d59702dc47d9b2076e1028dba17435d0e394fbb73b8a401b3df8bdbedfba5b",
+      "sizeBytes": 3294,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-3.png",
+      "sha256": "ec7b9cc4e6595a6843fe4241ac5970e20f01cc0a4126d1db13f6485df379adaf",
+      "sizeBytes": 3118,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-0.png",
+      "sha256": "445dd377233b2ebdf346910aae331b47109c124148e8987ea63944ccd4a29b8e",
+      "sizeBytes": 3282,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-2.png",
+      "sha256": "fd629cfbed4eaffea0c989b3cc04533d695e7feca50d0bedbf006b94cfad6652",
+      "sizeBytes": 3240,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-3.png",
+      "sha256": "152fb5664f4156e13d123ad954b7b282e7d276d0c21833316052c65aae9492dd",
+      "sizeBytes": 3347,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-0.png",
+      "sha256": "f0399ed60f88a6b87c6872981562f515ff2a2fe3ab6a093ae0e81acebbb4f62c",
+      "sizeBytes": 2924,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-1.png",
+      "sha256": "f6a3a90561e86b2858ab3d41170582255f96faac8c40d6059bf82c1499974008",
+      "sizeBytes": 3272,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-1.png",
+      "sha256": "55e566c9bfd8684fed58351625262809fbea4b91e6958d949c171ad5ae656c94",
+      "sizeBytes": 2864,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-2.png",
+      "sha256": "603ea78caf596a8b07fbd2ae8eb99b5665e9e58d0090ed050dbaa6c9787ea41d",
+      "sizeBytes": 2973,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-3.png",
+      "sha256": "456c645d38de33997f0d26fc66dd703190a890b46799f1933b801de26b42e933",
+      "sizeBytes": 2879,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-right-fine.png",
+      "sha256": "d203084ab966846b1c6355651733f8b0a067328ce475080c6887b966e213a7c3",
+      "sizeBytes": 8191,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-1-fine.png",
+      "sha256": "b5909b115327b93fda4e62bb0fac6cbe83a37d09f2feb32ad070504461a840eb",
+      "sizeBytes": 9005,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-0-fine.png",
+      "sha256": "929363acfd70cc0cbdbeba1ad2fa24e52ae67372699b2f55dfc88a3ed8247c1b",
+      "sizeBytes": 10425,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-2-fine.png",
+      "sha256": "41f21a187fbc6c8ccd26aa29c255b678908db13fab591f3753521335081a4660",
+      "sizeBytes": 10448,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-1-fine.png",
+      "sha256": "8429cd5d267a444c4ee2b36a0c89d32d7bf9b4a9af85f9bc044d379f5f4985ae",
+      "sizeBytes": 8900,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-3-fine.png",
+      "sha256": "cbc10efac9336ef2905852eefa891a3409ec96bb849ef7f5effd0f090a6786b8",
+      "sizeBytes": 8986,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-3-fine.png",
+      "sha256": "ff68dab45779c3b4a046366081f29246bb56065c303769b43b557f9a0eff37a1",
+      "sizeBytes": 9329,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-2-fine.png",
+      "sha256": "0e2a507d0712d01c0a8b40d3b18f13b8de818c7842de99962067cb2718f93fbd",
+      "sizeBytes": 10028,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-1-fine.png",
+      "sha256": "63aeb8f22a4c0413c06b0e3b43f2675bec46a23bb9b552b0374cf6112225c420",
+      "sizeBytes": 9375,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-0-fine.png",
+      "sha256": "d8d363141c47138fc26b05736f79d911ef75bb74cd1a366aea92e1f6dfb49db2",
+      "sizeBytes": 9411,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-2-fine.png",
+      "sha256": "0a5bc2ade1f0b7c4738ccba54903876453b65018f75213a2598f727c9e233e6e",
+      "sizeBytes": 9173,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-3-fine.png",
+      "sha256": "0338093a0aa3217a1a0893c2e79be718d563b4ecf107ce7d09d316a626873469",
+      "sizeBytes": 9621,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-1-fine.png",
+      "sha256": "7a7a26800508f505ced375e6fbf9830edf1835f0f79d204f247432fa95d4059e",
+      "sizeBytes": 8266,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-2-fine.png",
+      "sha256": "6c3f3f26fba8d893eb6531e80acfff20acf62286e8ef11555577dc30cfbe6aa0",
+      "sizeBytes": 8478,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-0-fine.png",
+      "sha256": "ba5d6a4ee8cf72a88aed75ca991b5e51004be917d3b937d39fd7607a84923f1c",
+      "sizeBytes": 8350,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-3-fine.png",
+      "sha256": "0df33119d676f7f035d8a457aed9444e064df697c7632378dfe38bdfab5f2254",
+      "sizeBytes": 8303,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-0-fine.png",
+      "sha256": "51c49adc3a918e2874428f23b24f1f1c5f9ae8b569780d0da69dc9a93b89b93f",
+      "sizeBytes": 10479,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-base-human-female-1.png",
+      "sha256": "b720684638e56c8795b0c33d9d9bf4170922145364ab49174d1d6df75217e351",
+      "sizeBytes": 669283,
+      "width": 768,
+      "height": 1152
+    }
+  ],
+  "resourceChanges": [],
+  "sheets": [
+    "outfits-g0.png",
+    "outfits-g1.png",
+    "hair-g0-c0-h0.png",
+    "hair-g0-c0-h1.png",
+    "hair-g0-c0-h2.png",
+    "hair-g0-c0-h3.png",
+    "hair-g0-c0-h4.png",
+    "hair-g0-c6-h0.png",
+    "hair-g0-c6-h1.png",
+    "hair-g0-c6-h2.png",
+    "hair-g0-c6-h3.png",
+    "hair-g0-c6-h4.png",
+    "hair-g1-c0-h0.png",
+    "hair-g1-c0-h1.png",
+    "hair-g1-c0-h2.png",
+    "hair-g1-c0-h3.png",
+    "hair-g1-c0-h4.png",
+    "hair-g1-c6-h0.png",
+    "hair-g1-c6-h1.png",
+    "hair-g1-c6-h2.png",
+    "hair-g1-c6-h3.png",
+    "hair-g1-c6-h4.png"
+  ],
+  "technicalFailureCases": 0,
+  "faceCandidateCases": 0,
+  "strictAuthoredPolygonFailures": 0,
+  "edgeCases": 0,
+  "newEdgeCases": 0,
+  "nonemptyCases": 4064,
+  "limits": [
+    "No DB/API/browser writes or ownership bypass; root bought paid outfits through real UI before this sweep",
+    "Strong-flesh face comparisons are diagnostics when an authored facePolygon is absent; inspect candidate cases before claiming identity PASS",
+    "Face identity means unchanged underlying native face in the same frame, not equivalence between independently authored directions/phases",
+    "Head registration/anchor are compared; intentional hairstyle/hat silhouette changes are not normalized to a shared bbox",
+    "All4064 cases rendered, contact sheets not automatically visually reviewed by this script",
+    "Runs only; idle/walking general coverage is in render-options.mjs and root UI walkthrough"
+  ]
+}

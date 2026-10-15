@@ -1,0 +1,103 @@
+{
+  "status": "independently-viewed-entire-contact",
+  "purpose": "Screenshot QA only; no sprite/runtime art changed",
+  "files": [
+    {
+      "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-sit.jpg",
+      "sha256": "836bbe7ce352f87b7730606a09bb08a14b55eb57c2e53b9e8fa8fc02c1029ce7",
+      "crop": [
+        474,
+        369,
+        730,
+        609
+      ],
+      "qaDisplayScale": 1.5
+    },
+    {
+      "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-seated-drink-00.jpg",
+      "sha256": "2d8464cfa46d1462d800ff16d8581bf9029b12ea492721c3cee6fb414ed2b27c",
+      "crop": [
+        474,
+        369,
+        730,
+        609
+      ],
+      "qaDisplayScale": 1.5
+    },
+    {
+      "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-seated-drink-08.jpg",
+      "sha256": "bfc9d048adebf2e25e1b0d4c6fa98949c38d4f8fe4b7e04c6645361a71566a0b",
+      "crop": [
+        474,
+        369,
+        730,
+        609
+      ],
+      "qaDisplayScale": 1.5
+    },
+    {
+      "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-seated-drink-16.jpg",
+      "sha256": "2f57e93e37c8e6352bb7f04819ade05a278cd61f065dde9a3b3a2e40da573bc9",
+      "crop": [
+        474,
+        369,
+        730,
+        609
+      ],
+      "qaDisplayScale": 1.5
+    },
+    {
+      "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-seated-drink-22.jpg",
+      "sha256": "2f57e93e37c8e6352bb7f04819ade05a278cd61f065dde9a3b3a2e40da573bc9",
+      "crop": [
+        474,
+        369,
+        730,
+        609
+      ],
+      "qaDisplayScale": 1.5
+    },
+    {
+      "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-seated-drink-30.jpg",
+      "sha256": "2f57e93e37c8e6352bb7f04819ade05a278cd61f065dde9a3b3a2e40da573bc9",
+      "crop": [
+        474,
+        369,
+        730,
+        609
+      ],
+      "qaDisplayScale": 1.5
+    },
+    {
+      "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-seated-drink-40.jpg",
+      "sha256": "5cbacaeb7667e5dc7d118464a94ae4adceab0df00ffd537d0ead5155ac9b7927",
+      "crop": [
+        474,
+        369,
+        730,
+        609
+      ],
+      "qaDisplayScale": 1.5
+    },
+    {
+      "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/avatar-one-v31/final-seated-drink-53.jpg",
+      "sha256": "1aba4752737e61df1749c3d5e6180f03ae70f46b9fbcbc0f04493b0aeb64d3db",
+      "crop": [
+        474,
+        369,
+        730,
+        609
+      ],
+      "qaDisplayScale": 1.5
+    }
+  ],
+  "contactSHA256": "ae1081c699ab576202e649b4fde82e3f1d5caa8519bebb888519ca6c4f7bf2ea",
+  "reviewedAt": "2026-10-15T16:03:47.824088+00:00",
+  "scope": "One H7, neutral seated reference plus7selected drink screenshots;54timeline frames not all individually reviewed",
+  "observations": [
+    "Own male face and H7 white hair retained; no visible new collar/head detachment.",
+    "Seated lower body and feet remain at the same apparent bench contact while the actual arm/cup moves to the mouth and lowers.",
+    "SEATED is a separate whole-body pose family from C standing; exact face preservation does not require identical standing torso or shoe silhouette.",
+    "No new confirmed defect in this selected front-facing seated sample."
+  ]
+}

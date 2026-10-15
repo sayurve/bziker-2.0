@@ -1,0 +1,10 @@
+✔ the real selected-skin mouth palm remains in front of a visible cup using only its authored source pixel mask (239.210417ms)
+✔ a cigarette protrudes from the authored fingertips while every real foreground palm pixel stays intact (54.162375ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 572.75775

@@ -1,0 +1,55 @@
+✔ changing hair never deletes the genuine fine skin hidden by a brown coarse sample (71.166291ms)
+✔ native eyes retain every bright eye pixel through all 12 hairstyles and motion directions (5459.745541ms)
+✔ native rear and side ear skin survives every hairstyle without turning into white hair (366.762666ms)
+✖ short rear styles preserve the genuine native lower nape until a reviewed hidden-neck layer exists (1729.154875ms)
+✔ all native hairstyle phases keep a transparent safety edge without resizing the head or actor (6954.786125ms)
+✖ all 12 hairstyles preserve every opaque native authored face pixel on current approved idle and running heads (2104.792375ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 4
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 17149.009875
+
+✖ failing tests:
+
+test at game/tests/hairstyle-native-v27.test.mjs:50:1
+✖ short rear styles preserve the genuine native lower nape until a reviewed hidden-neck layer exists (1729.154875ms)
+  AssertionError [ERR_ASSERTION]: 1/run/0/style1: detached head at 40,58
+  
+  0 !== 255
+  
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/hairstyle-native-v27.test.mjs:55:77)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 255,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at game/tests/hairstyle-native-v27.test.mjs:68:1
+✖ all 12 hairstyles preserve every opaque native authored face pixel on current approved idle and running heads (2104.792375ms)
+  AssertionError [ERR_ASSERTION]: 0/up/idle/0: observe a real authored face
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/hairstyle-native-v27.test.mjs:77:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

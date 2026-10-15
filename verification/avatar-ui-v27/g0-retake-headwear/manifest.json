@@ -1,0 +1,99 @@
+{
+  "createdAt": "2026-10-15T12:29:23.238Z",
+  "gender": 0,
+  "category": "headwear",
+  "source": "final-fixed",
+  "cases": 4,
+  "crop": {
+    "x": 535,
+    "y": 375,
+    "width": 135,
+    "height": 180
+  },
+  "qaOnly": true,
+  "productionArtChanged": false,
+  "realBrowserCaptures": true,
+  "renderedMockups": false,
+  "scale": 1.5,
+  "sheets": [
+    "page-1.png"
+  ],
+  "records": [
+    {
+      "value": 0,
+      "name": "Без убора",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-headwear-00-down.jpg",
+      "sourceSha256": "1642a9057643d301aa4a85451da81ae76ecec27093220436d0400e98fa757fb6",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-headwear-00-down-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Без убора",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-headwear-00-left.jpg",
+      "sourceSha256": "0748dc7fd2b207790f28784649c0ab7fa3c4795871b5c739ece42a1000298c00",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-headwear-00-left-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Без убора",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-headwear-00-up.jpg",
+      "sourceSha256": "4643d961c9df37ef0da8e960b7f44a99fe0cf3b348419e1edf3bc3f80da6b0d2",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-headwear-00-up-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Без убора",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-headwear-00-right.jpg",
+      "sourceSha256": "f5d0cab2892166e711c6e5f3c54ee11c21b0281153ff543186bec853848f5f69",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-headwear-00-right-crop.png"
+    }
+  ]
+}

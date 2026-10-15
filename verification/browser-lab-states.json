@@ -1,0 +1,38 @@
+{
+  "states": [
+    "Модель\nlab-legacy-male\nPose key\nidle/down/0\nКадр\n0\nФаза\n0.0000\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-male\nPose key\nwalk/down/1\nКадр\n1\nФаза\n0.1250\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-male\nPose key\nrun/down/1\nКадр\n1\nФаза\n0.1250\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-male\nPose key\nidle/left/0\nКадр\n0\nФаза\n0.0000\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-male\nPose key\nwalk/left/1\nКадр\n1\nФаза\n0.1250\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-male\nPose key\nrun/left/1\nКадр\n1\nФаза\n0.1250\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-male\nPose key\nidle/right/0\nКадр\n0\nФаза\n0.0000\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-male\nPose key\nwalk/right/1\nКадр\n1\nФаза\n0.1250\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-male\nPose key\nrun/right/1\nКадр\n1\nФаза\n0.1250\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-male\nPose key\nidle/up/0\nКадр\n0\nФаза\n0.0000\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-male\nPose key\nwalk/up/1\nКадр\n1\nФаза\n0.1250\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-male\nPose key\nrun/up/1\nКадр\n1\nФаза\n0.1250\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-female\nPose key\nidle/down/0\nКадр\n0\nФаза\n0.0000\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-female\nPose key\nwalk/down/1\nКадр\n1\nФаза\n0.1250\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-female\nPose key\nrun/down/1\nКадр\n1\nФаза\n0.1250\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-female\nPose key\nidle/left/0\nКадр\n0\nФаза\n0.0000\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-female\nPose key\nwalk/left/1\nКадр\n1\nФаза\n0.1250\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-female\nPose key\nrun/left/1\nКадр\n1\nФаза\n0.1250\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-female\nPose key\nidle/right/0\nКадр\n0\nФаза\n0.0000\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-female\nPose key\nwalk/right/1\nКадр\n1\nФаза\n0.1250\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-female\nPose key\nrun/right/1\nКадр\n1\nФаза\n0.1250\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-female\nPose key\nidle/up/0\nКадр\n0\nФаза\n0.0000\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-female\nPose key\nwalk/up/1\nКадр\n1\nФаза\n0.1250\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-female\nPose key\nrun/up/1\nКадр\n1\nФаза\n0.1250\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2"
+  ],
+  "runPhases": [
+    "Модель\nlab-legacy-male\nPose key\nrun/right/1\nКадр\n1\nФаза\n0.1250\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-male\nPose key\nrun/right/2\nКадр\n2\nФаза\n0.2500\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-male\nPose key\nrun/right/3\nКадр\n3\nФаза\n0.3750\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-male\nPose key\nrun/right/4\nКадр\n4\nФаза\n0.5000\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-male\nPose key\nrun/right/5\nКадр\n5\nФаза\n0.6250\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-male\nPose key\nrun/right/6\nКадр\n6\nФаза\n0.7500\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-male\nPose key\nrun/right/7\nКадр\n7\nФаза\n0.8750\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2",
+    "Модель\nlab-legacy-male\nPose key\nrun/right/0\nКадр\n0\nФаза\n0.0000\nКомплект\nnative\nОпора\n48, 126\nМасштаб X / Y\n2 × 2"
+  ]
+}

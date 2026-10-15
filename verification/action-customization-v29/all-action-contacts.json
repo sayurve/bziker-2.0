@@ -1,0 +1,4994 @@
+{
+  "status": "actual renderer evidence, not art approval",
+  "renders": 2016,
+  "whiteHair": true,
+  "frames": [
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "idle",
+      "actualFacing": "down",
+      "clip": "canonical-idle-male-down",
+      "frameIndex": 0,
+      "head": {
+        "top": 7,
+        "bottom": 29,
+        "left": 11,
+        "right": 36,
+        "eyeAnchor": [
+          24,
+          25
+        ],
+        "eyeLine": 25,
+        "neckAnchor": [
+          24,
+          32.5
+        ],
+        "facePolygon": [
+          [
+            14.5,
+            15.5
+          ],
+          [
+            32.5,
+            15.5
+          ],
+          [
+            33,
+            20.5
+          ],
+          [
+            36.5,
+            21.5
+          ],
+          [
+            37,
+            26.5
+          ],
+          [
+            34.5,
+            28
+          ],
+          [
+            31.5,
+            30.5
+          ],
+          [
+            28,
+            33
+          ],
+          [
+            21.5,
+            33
+          ],
+          [
+            18,
+            31
+          ],
+          [
+            15,
+            29
+          ],
+          [
+            11,
+            27.5
+          ],
+          [
+            10.5,
+            22.5
+          ],
+          [
+            14.5,
+            21.5
+          ]
+        ],
+        "portraitChin": 35
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "phone",
+      "actualFacing": "down",
+      "clip": "canonical-idle-male-down",
+      "frameIndex": 0,
+      "head": {
+        "top": 7,
+        "bottom": 29,
+        "left": 11,
+        "right": 36,
+        "eyeAnchor": [
+          24,
+          25
+        ],
+        "eyeLine": 25,
+        "neckAnchor": [
+          24,
+          32.5
+        ],
+        "facePolygon": [
+          [
+            14.5,
+            15.5
+          ],
+          [
+            32.5,
+            15.5
+          ],
+          [
+            33,
+            20.5
+          ],
+          [
+            36.5,
+            21.5
+          ],
+          [
+            37,
+            26.5
+          ],
+          [
+            34.5,
+            28
+          ],
+          [
+            31.5,
+            30.5
+          ],
+          [
+            28,
+            33
+          ],
+          [
+            21.5,
+            33
+          ],
+          [
+            18,
+            31
+          ],
+          [
+            15,
+            29
+          ],
+          [
+            11,
+            27.5
+          ],
+          [
+            10.5,
+            22.5
+          ],
+          [
+            14.5,
+            21.5
+          ]
+        ],
+        "portraitChin": 35
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "phone-seated",
+      "actualFacing": "down",
+      "clip": "male-seated-front",
+      "frameIndex": 1,
+      "head": {
+        "top": 14,
+        "bottom": 36,
+        "left": 11,
+        "right": 36,
+        "eyeAnchor": [
+          24,
+          32
+        ],
+        "eyeLine": 32,
+        "neckAnchor": [
+          24,
+          39.5
+        ],
+        "facePolygon": [
+          [
+            14.5,
+            22.5
+          ],
+          [
+            32.5,
+            22.5
+          ],
+          [
+            33,
+            27.5
+          ],
+          [
+            36.5,
+            28.5
+          ],
+          [
+            37,
+            33.5
+          ],
+          [
+            34.5,
+            35
+          ],
+          [
+            31.5,
+            37.5
+          ],
+          [
+            28,
+            40
+          ],
+          [
+            21.5,
+            40
+          ],
+          [
+            18,
+            38
+          ],
+          [
+            15,
+            36
+          ],
+          [
+            11,
+            34.5
+          ],
+          [
+            10.5,
+            29.5
+          ],
+          [
+            14.5,
+            28.5
+          ]
+        ]
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "eat",
+      "actualFacing": "down",
+      "clip": "male-eat-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "drink",
+      "actualFacing": "down",
+      "clip": "male-mug-standing-front",
+      "frameIndex": 4,
+      "head": {
+        "top": 4,
+        "bottom": 26,
+        "left": 13,
+        "right": 33
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "smoke",
+      "actualFacing": "down",
+      "clip": "male-smoke-standing-front",
+      "frameIndex": 36,
+      "head": {
+        "top": 4,
+        "bottom": 26,
+        "left": 14,
+        "right": 34
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "inventory",
+      "actualFacing": "down",
+      "clip": "male-inventory-standing-front",
+      "frameIndex": 4,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 14,
+        "right": 34
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "equip",
+      "actualFacing": "down",
+      "clip": "male-equip-standing-front",
+      "frameIndex": 10,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 14,
+        "right": 33
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "door",
+      "actualFacing": "down",
+      "clip": "male-door-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 33
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "counter",
+      "actualFacing": "down",
+      "clip": "male-counter-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 33
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "pick-litter",
+      "actualFacing": "down",
+      "clip": "male-pickup-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 25,
+        "bottom": 42,
+        "left": 14,
+        "right": 35
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "throw-litter",
+      "actualFacing": "down",
+      "clip": "male-give-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 9,
+        "right": 30
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "pet",
+      "actualFacing": "down",
+      "clip": "male-pet-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 14,
+        "bottom": 36,
+        "left": 13,
+        "right": 37
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "give",
+      "actualFacing": "down",
+      "clip": "male-give-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 9,
+        "right": 30
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "receive",
+      "actualFacing": "down",
+      "clip": "male-receive-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 6,
+        "bottom": 28,
+        "left": 12,
+        "right": 34
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "talk",
+      "actualFacing": "down",
+      "clip": "male-talk-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 34
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "handshake",
+      "actualFacing": "down",
+      "clip": "male-handshake-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 9,
+        "right": 30
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "carry",
+      "actualFacing": "down",
+      "clip": "male-carry-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 12,
+        "bottom": 34,
+        "left": 12,
+        "right": 35
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "water-plant",
+      "actualFacing": "down",
+      "clip": "male-water-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 4,
+        "bottom": 26,
+        "left": 11,
+        "right": 35
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "fish",
+      "actualFacing": "right",
+      "clip": "male-fishing",
+      "frameIndex": 4,
+      "head": {
+        "top": 6,
+        "bottom": 28,
+        "left": 10,
+        "right": 34
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "fish-catch",
+      "actualFacing": "right",
+      "clip": "male-fish-pocket",
+      "frameIndex": 4,
+      "head": {
+        "top": 12,
+        "bottom": 34,
+        "left": 12,
+        "right": 34
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "idle",
+      "actualFacing": "right",
+      "clip": "canonical-idle-male-right",
+      "frameIndex": 0,
+      "head": {
+        "top": 6,
+        "bottom": 29,
+        "left": 12,
+        "right": 35,
+        "portraitChin": 33.5,
+        "eyeAnchor": [
+          29.5,
+          25
+        ],
+        "eyeLine": 25,
+        "neckAnchor": [
+          25.5,
+          31.5
+        ],
+        "facePolygon": [
+          [
+            26.5,
+            17
+          ],
+          [
+            34.5,
+            17
+          ],
+          [
+            35,
+            26.5
+          ],
+          [
+            37,
+            28
+          ],
+          [
+            34.5,
+            31.5
+          ],
+          [
+            31.5,
+            32.5
+          ],
+          [
+            29.5,
+            31.5
+          ],
+          [
+            27.5,
+            33
+          ],
+          [
+            25.5,
+            31.5
+          ],
+          [
+            24,
+            30
+          ],
+          [
+            21.5,
+            29
+          ],
+          [
+            21,
+            23
+          ],
+          [
+            23.5,
+            22.5
+          ],
+          [
+            25,
+            24.5
+          ],
+          [
+            26,
+            21
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            10.5,
+            11.5
+          ],
+          [
+            19,
+            7
+          ],
+          [
+            28,
+            6
+          ],
+          [
+            35.5,
+            11.5
+          ],
+          [
+            36.5,
+            16
+          ],
+          [
+            27.5,
+            17
+          ],
+          [
+            26,
+            22
+          ],
+          [
+            24.5,
+            23.5
+          ],
+          [
+            21.5,
+            22.5
+          ],
+          [
+            21,
+            27
+          ],
+          [
+            18,
+            29
+          ],
+          [
+            14,
+            26.5
+          ],
+          [
+            11,
+            23
+          ],
+          [
+            9.5,
+            18.5
+          ]
+        ]
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "phone",
+      "actualFacing": "right",
+      "clip": "canonical-idle-male-right",
+      "frameIndex": 0,
+      "head": {
+        "top": 6,
+        "bottom": 29,
+        "left": 12,
+        "right": 35,
+        "portraitChin": 33.5,
+        "eyeAnchor": [
+          29.5,
+          25
+        ],
+        "eyeLine": 25,
+        "neckAnchor": [
+          25.5,
+          31.5
+        ],
+        "facePolygon": [
+          [
+            26.5,
+            17
+          ],
+          [
+            34.5,
+            17
+          ],
+          [
+            35,
+            26.5
+          ],
+          [
+            37,
+            28
+          ],
+          [
+            34.5,
+            31.5
+          ],
+          [
+            31.5,
+            32.5
+          ],
+          [
+            29.5,
+            31.5
+          ],
+          [
+            27.5,
+            33
+          ],
+          [
+            25.5,
+            31.5
+          ],
+          [
+            24,
+            30
+          ],
+          [
+            21.5,
+            29
+          ],
+          [
+            21,
+            23
+          ],
+          [
+            23.5,
+            22.5
+          ],
+          [
+            25,
+            24.5
+          ],
+          [
+            26,
+            21
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            10.5,
+            11.5
+          ],
+          [
+            19,
+            7
+          ],
+          [
+            28,
+            6
+          ],
+          [
+            35.5,
+            11.5
+          ],
+          [
+            36.5,
+            16
+          ],
+          [
+            27.5,
+            17
+          ],
+          [
+            26,
+            22
+          ],
+          [
+            24.5,
+            23.5
+          ],
+          [
+            21.5,
+            22.5
+          ],
+          [
+            21,
+            27
+          ],
+          [
+            18,
+            29
+          ],
+          [
+            14,
+            26.5
+          ],
+          [
+            11,
+            23
+          ],
+          [
+            9.5,
+            18.5
+          ]
+        ]
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "phone-seated",
+      "actualFacing": "right",
+      "clip": "male-seated-right",
+      "frameIndex": 1,
+      "head": {
+        "top": 10,
+        "bottom": 33,
+        "left": 11,
+        "right": 34,
+        "eyeAnchor": [
+          28.5,
+          29
+        ],
+        "eyeLine": 29,
+        "neckAnchor": [
+          24.5,
+          35.5
+        ]
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "eat",
+      "actualFacing": "right",
+      "clip": "male-eat-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 10,
+        "right": 34
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "drink",
+      "actualFacing": "right",
+      "clip": "male-mug-standing-right",
+      "frameIndex": 4,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 14,
+        "right": 39
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "smoke",
+      "actualFacing": "right",
+      "clip": "male-smoke-standing-right",
+      "frameIndex": 37,
+      "head": {
+        "top": 6,
+        "bottom": 28,
+        "left": 14,
+        "right": 33
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "inventory",
+      "actualFacing": "right",
+      "clip": "male-inventory-standing-right",
+      "frameIndex": 4,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 33
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "equip",
+      "actualFacing": "right",
+      "clip": "male-equip-standing-right",
+      "frameIndex": 10,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 13,
+        "right": 33
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "door",
+      "actualFacing": "right",
+      "clip": "male-door-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 33
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "counter",
+      "actualFacing": "right",
+      "clip": "male-counter-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 6,
+        "bottom": 28,
+        "left": 11,
+        "right": 34
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "pick-litter",
+      "actualFacing": "right",
+      "clip": "male-pickup-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 27,
+        "bottom": 42,
+        "left": 20,
+        "right": 39
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "throw-litter",
+      "actualFacing": "right",
+      "clip": "male-give-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 9,
+        "bottom": 30,
+        "left": 9,
+        "right": 30
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "pet",
+      "actualFacing": "right",
+      "clip": "male-pet-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 16,
+        "bottom": 38,
+        "left": 15,
+        "right": 39
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "give",
+      "actualFacing": "right",
+      "clip": "male-give-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 9,
+        "bottom": 30,
+        "left": 9,
+        "right": 30
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "receive",
+      "actualFacing": "right",
+      "clip": "male-receive-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 13,
+        "right": 33
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "talk",
+      "actualFacing": "right",
+      "clip": "male-talk-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 10,
+        "right": 33
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "handshake",
+      "actualFacing": "right",
+      "clip": "male-handshake-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 9,
+        "bottom": 30,
+        "left": 9,
+        "right": 30
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "carry",
+      "actualFacing": "right",
+      "clip": "male-carry-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 13,
+        "bottom": 35,
+        "left": 17,
+        "right": 40
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "water-plant",
+      "actualFacing": "right",
+      "clip": "male-water-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 6,
+        "bottom": 28,
+        "left": 7,
+        "right": 32
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "fish",
+      "actualFacing": "right",
+      "clip": "male-fishing",
+      "frameIndex": 4,
+      "head": {
+        "top": 6,
+        "bottom": 28,
+        "left": 10,
+        "right": 34
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "fish-catch",
+      "actualFacing": "right",
+      "clip": "male-fish-pocket",
+      "frameIndex": 4,
+      "head": {
+        "top": 12,
+        "bottom": 34,
+        "left": 12,
+        "right": 34
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "idle",
+      "actualFacing": "up",
+      "clip": "canonical-idle-male-up",
+      "frameIndex": 0,
+      "head": {
+        "top": 6,
+        "bottom": 29,
+        "left": 12,
+        "right": 36,
+        "eyeAnchor": [
+          24,
+          21
+        ],
+        "eyeLine": 21,
+        "neckAnchor": [
+          24,
+          30.5
+        ],
+        "facePolygon": [],
+        "portraitChin": 31.5
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "phone",
+      "actualFacing": "up",
+      "clip": "canonical-idle-male-up",
+      "frameIndex": 0,
+      "head": {
+        "top": 6,
+        "bottom": 29,
+        "left": 12,
+        "right": 36,
+        "eyeAnchor": [
+          24,
+          21
+        ],
+        "eyeLine": 21,
+        "neckAnchor": [
+          24,
+          30.5
+        ],
+        "facePolygon": [],
+        "portraitChin": 31.5
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "phone-seated",
+      "actualFacing": "up",
+      "clip": "male-seated-back",
+      "frameIndex": 1,
+      "head": {
+        "top": 14,
+        "bottom": 37,
+        "left": 12,
+        "right": 36,
+        "eyeAnchor": [
+          24,
+          29
+        ],
+        "eyeLine": 29,
+        "neckAnchor": [
+          24,
+          38.5
+        ],
+        "facePolygon": []
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "eat",
+      "actualFacing": "up",
+      "clip": "male-eat-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 34
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "drink",
+      "actualFacing": "up",
+      "clip": "male-mug-standing-back",
+      "frameIndex": 4,
+      "head": {
+        "top": 4,
+        "bottom": 26,
+        "left": 13,
+        "right": 35
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "smoke",
+      "actualFacing": "up",
+      "clip": "male-smoke-standing-back",
+      "frameIndex": 32,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 14,
+        "right": 36
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "inventory",
+      "actualFacing": "up",
+      "clip": "male-inventory-standing-back",
+      "frameIndex": 4,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 14,
+        "right": 33
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "equip",
+      "actualFacing": "up",
+      "clip": "male-equip-standing-back",
+      "frameIndex": 10,
+      "head": {
+        "top": 6,
+        "bottom": 27,
+        "left": 13,
+        "right": 34
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "door",
+      "actualFacing": "up",
+      "clip": "male-door-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 6,
+        "bottom": 28,
+        "left": 11,
+        "right": 33
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "counter",
+      "actualFacing": "up",
+      "clip": "male-counter-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 33
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "pick-litter",
+      "actualFacing": "up",
+      "clip": "male-pickup-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 29,
+        "bottom": 42,
+        "left": 12,
+        "right": 33
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "throw-litter",
+      "actualFacing": "up",
+      "clip": "male-give-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 4,
+        "bottom": 26,
+        "left": 14,
+        "right": 35
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "pet",
+      "actualFacing": "up",
+      "clip": "male-pet-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 14,
+        "bottom": 36,
+        "left": 9,
+        "right": 31
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "give",
+      "actualFacing": "up",
+      "clip": "male-give-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 4,
+        "bottom": 26,
+        "left": 14,
+        "right": 35
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "receive",
+      "actualFacing": "up",
+      "clip": "male-receive-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 4,
+        "bottom": 26,
+        "left": 12,
+        "right": 34
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "talk",
+      "actualFacing": "up",
+      "clip": "male-talk-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 32
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "handshake",
+      "actualFacing": "up",
+      "clip": "male-handshake-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 4,
+        "bottom": 26,
+        "left": 14,
+        "right": 35
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "carry",
+      "actualFacing": "up",
+      "clip": "male-carry-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 12,
+        "bottom": 34,
+        "left": 12,
+        "right": 34
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "water-plant",
+      "actualFacing": "up",
+      "clip": "male-water-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 37
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "fish",
+      "actualFacing": "right",
+      "clip": "male-fishing",
+      "frameIndex": 4,
+      "head": {
+        "top": 6,
+        "bottom": 28,
+        "left": 10,
+        "right": 34
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "fish-catch",
+      "actualFacing": "right",
+      "clip": "male-fish-pocket",
+      "frameIndex": 4,
+      "head": {
+        "top": 12,
+        "bottom": 34,
+        "left": 12,
+        "right": 34
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "idle",
+      "actualFacing": "left",
+      "clip": "canonical-idle-male-left",
+      "frameIndex": 0,
+      "head": {
+        "top": 7,
+        "bottom": 30,
+        "left": 10,
+        "right": 32,
+        "portraitChin": 34.5,
+        "eyeAnchor": [
+          14,
+          25.5
+        ],
+        "eyeLine": 25.5,
+        "neckAnchor": [
+          20.5,
+          32
+        ],
+        "facePolygon": [
+          [
+            12,
+            18.5
+          ],
+          [
+            19.5,
+            18.5
+          ],
+          [
+            20.5,
+            23
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            23.5,
+            25.5
+          ],
+          [
+            25,
+            24
+          ],
+          [
+            26,
+            24.5
+          ],
+          [
+            26,
+            28.5
+          ],
+          [
+            23.5,
+            30
+          ],
+          [
+            20.5,
+            31
+          ],
+          [
+            18.5,
+            33
+          ],
+          [
+            15.5,
+            32.5
+          ],
+          [
+            12.5,
+            31.5
+          ],
+          [
+            10.5,
+            29.5
+          ],
+          [
+            9,
+            28.5
+          ],
+          [
+            10,
+            26
+          ],
+          [
+            11,
+            23
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            11.5,
+            9.5
+          ],
+          [
+            19.5,
+            6.5
+          ],
+          [
+            26.5,
+            8
+          ],
+          [
+            32,
+            12.5
+          ],
+          [
+            34.5,
+            19.5
+          ],
+          [
+            32.5,
+            25
+          ],
+          [
+            29,
+            28
+          ],
+          [
+            25.5,
+            30
+          ],
+          [
+            23,
+            29.5
+          ],
+          [
+            23.5,
+            25.5
+          ],
+          [
+            20,
+            25
+          ],
+          [
+            19,
+            19
+          ],
+          [
+            12,
+            18.5
+          ],
+          [
+            9.5,
+            16.5
+          ]
+        ]
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "phone",
+      "actualFacing": "left",
+      "clip": "canonical-idle-male-left",
+      "frameIndex": 0,
+      "head": {
+        "top": 7,
+        "bottom": 30,
+        "left": 10,
+        "right": 32,
+        "portraitChin": 34.5,
+        "eyeAnchor": [
+          14,
+          25.5
+        ],
+        "eyeLine": 25.5,
+        "neckAnchor": [
+          20.5,
+          32
+        ],
+        "facePolygon": [
+          [
+            12,
+            18.5
+          ],
+          [
+            19.5,
+            18.5
+          ],
+          [
+            20.5,
+            23
+          ],
+          [
+            23,
+            24
+          ],
+          [
+            23.5,
+            25.5
+          ],
+          [
+            25,
+            24
+          ],
+          [
+            26,
+            24.5
+          ],
+          [
+            26,
+            28.5
+          ],
+          [
+            23.5,
+            30
+          ],
+          [
+            20.5,
+            31
+          ],
+          [
+            18.5,
+            33
+          ],
+          [
+            15.5,
+            32.5
+          ],
+          [
+            12.5,
+            31.5
+          ],
+          [
+            10.5,
+            29.5
+          ],
+          [
+            9,
+            28.5
+          ],
+          [
+            10,
+            26
+          ],
+          [
+            11,
+            23
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            11.5,
+            9.5
+          ],
+          [
+            19.5,
+            6.5
+          ],
+          [
+            26.5,
+            8
+          ],
+          [
+            32,
+            12.5
+          ],
+          [
+            34.5,
+            19.5
+          ],
+          [
+            32.5,
+            25
+          ],
+          [
+            29,
+            28
+          ],
+          [
+            25.5,
+            30
+          ],
+          [
+            23,
+            29.5
+          ],
+          [
+            23.5,
+            25.5
+          ],
+          [
+            20,
+            25
+          ],
+          [
+            19,
+            19
+          ],
+          [
+            12,
+            18.5
+          ],
+          [
+            9.5,
+            16.5
+          ]
+        ]
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "phone-seated",
+      "actualFacing": "left",
+      "clip": "male-seated-left",
+      "frameIndex": 1,
+      "head": {
+        "top": 12,
+        "bottom": 35,
+        "left": 13,
+        "right": 35,
+        "eyeAnchor": [
+          17,
+          30.5
+        ],
+        "eyeLine": 30.5,
+        "neckAnchor": [
+          23.5,
+          37
+        ]
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "eat",
+      "actualFacing": "left",
+      "clip": "male-eat-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 13,
+        "right": 35
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "drink",
+      "actualFacing": "left",
+      "clip": "male-mug-standing-left",
+      "frameIndex": 4,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 8,
+        "right": 33
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "smoke",
+      "actualFacing": "left",
+      "clip": "male-smoke-standing-left",
+      "frameIndex": 36,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 14,
+        "right": 34
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "inventory",
+      "actualFacing": "left",
+      "clip": "male-inventory-standing-left",
+      "frameIndex": 4,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 33
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "equip",
+      "actualFacing": "left",
+      "clip": "male-equip-standing-left",
+      "frameIndex": 10,
+      "head": {
+        "top": 7,
+        "bottom": 29,
+        "left": 13,
+        "right": 33
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "door",
+      "actualFacing": "left",
+      "clip": "male-door-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 6,
+        "bottom": 28,
+        "left": 14,
+        "right": 37
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "counter",
+      "actualFacing": "left",
+      "clip": "male-counter-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 13,
+        "right": 36
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "pick-litter",
+      "actualFacing": "left",
+      "clip": "male-pickup-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 25,
+        "bottom": 42,
+        "left": 8,
+        "right": 30
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "throw-litter",
+      "actualFacing": "left",
+      "clip": "male-give-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 6,
+        "bottom": 28,
+        "left": 12,
+        "right": 32
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "pet",
+      "actualFacing": "left",
+      "clip": "male-pet-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 14,
+        "bottom": 36,
+        "left": 10,
+        "right": 32
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "give",
+      "actualFacing": "left",
+      "clip": "male-give-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 6,
+        "bottom": 28,
+        "left": 12,
+        "right": 32
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "receive",
+      "actualFacing": "left",
+      "clip": "male-receive-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 6,
+        "bottom": 28,
+        "left": 13,
+        "right": 34
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "talk",
+      "actualFacing": "left",
+      "clip": "male-talk-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 6,
+        "bottom": 28,
+        "left": 15,
+        "right": 38
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "handshake",
+      "actualFacing": "left",
+      "clip": "male-handshake-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 6,
+        "bottom": 28,
+        "left": 12,
+        "right": 32
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "carry",
+      "actualFacing": "left",
+      "clip": "male-carry-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 13,
+        "bottom": 35,
+        "left": 6,
+        "right": 30
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "water-plant",
+      "actualFacing": "left",
+      "clip": "male-water-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 15,
+        "right": 38
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "fish",
+      "actualFacing": "right",
+      "clip": "male-fishing",
+      "frameIndex": 4,
+      "head": {
+        "top": 6,
+        "bottom": 28,
+        "left": 10,
+        "right": 34
+      }
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "fish-catch",
+      "actualFacing": "right",
+      "clip": "male-fish-pocket",
+      "frameIndex": 4,
+      "head": {
+        "top": 12,
+        "bottom": 34,
+        "left": 12,
+        "right": 34
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "idle",
+      "actualFacing": "down",
+      "clip": "canonical-idle-female-down",
+      "frameIndex": 0,
+      "head": {
+        "top": 9,
+        "bottom": 35,
+        "left": 12,
+        "right": 35,
+        "portraitChin": 36,
+        "eyeAnchor": [
+          24,
+          27.900000000000002
+        ],
+        "eyeLine": 27.900000000000002,
+        "neckAnchor": [
+          24,
+          34.5
+        ],
+        "facePolygon": [
+          [
+            16.425,
+            22.875000000000004
+          ],
+          [
+            18.375,
+            22.800000000000004
+          ],
+          [
+            22.2,
+            21.750000000000004
+          ],
+          [
+            26.025000000000002,
+            20.625000000000004
+          ],
+          [
+            29.1,
+            19.050000000000004
+          ],
+          [
+            30.150000000000002,
+            22.800000000000004
+          ],
+          [
+            30.375,
+            25.200000000000003
+          ],
+          [
+            32.55,
+            25.050000000000004
+          ],
+          [
+            33.825,
+            27.300000000000004
+          ],
+          [
+            32.85,
+            29.250000000000004
+          ],
+          [
+            31.125,
+            30.675000000000004
+          ],
+          [
+            30.150000000000002,
+            32.400000000000006
+          ],
+          [
+            27.825,
+            33.975
+          ],
+          [
+            25.05,
+            34.875
+          ],
+          [
+            22.575,
+            34.875
+          ],
+          [
+            20.025000000000002,
+            33.975
+          ],
+          [
+            18.450000000000003,
+            32.550000000000004
+          ],
+          [
+            16.950000000000003,
+            30.675000000000004
+          ],
+          [
+            15.9,
+            28.950000000000003
+          ],
+          [
+            14.175,
+            29.025000000000002
+          ],
+          [
+            13.8,
+            27.975
+          ],
+          [
+            13.950000000000001,
+            25.275000000000002
+          ],
+          [
+            15.3,
+            24.750000000000004
+          ],
+          [
+            16.5,
+            25.500000000000004
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            13.350000000000001,
+            15.300000000000004
+          ],
+          [
+            17.925,
+            10.725000000000003
+          ],
+          [
+            24.075,
+            9.900000000000004
+          ],
+          [
+            29.925,
+            12.075000000000005
+          ],
+          [
+            34.275,
+            16.800000000000004
+          ],
+          [
+            35.025,
+            22.725000000000005
+          ],
+          [
+            32.55,
+            24.825000000000003
+          ],
+          [
+            30.525000000000002,
+            25.125000000000004
+          ],
+          [
+            30.075,
+            22.725000000000005
+          ],
+          [
+            29.175,
+            20.175000000000004
+          ],
+          [
+            26.025000000000002,
+            21.525000000000002
+          ],
+          [
+            22.125,
+            23.025000000000002
+          ],
+          [
+            18.525,
+            23.775000000000002
+          ],
+          [
+            16.5,
+            23.325000000000003
+          ],
+          [
+            16.125,
+            25.800000000000004
+          ],
+          [
+            13.950000000000001,
+            24.675000000000004
+          ]
+        ]
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "phone",
+      "actualFacing": "down",
+      "clip": "canonical-idle-female-down",
+      "frameIndex": 0,
+      "head": {
+        "top": 9,
+        "bottom": 35,
+        "left": 12,
+        "right": 35,
+        "portraitChin": 36,
+        "eyeAnchor": [
+          24,
+          27.900000000000002
+        ],
+        "eyeLine": 27.900000000000002,
+        "neckAnchor": [
+          24,
+          34.5
+        ],
+        "facePolygon": [
+          [
+            16.425,
+            22.875000000000004
+          ],
+          [
+            18.375,
+            22.800000000000004
+          ],
+          [
+            22.2,
+            21.750000000000004
+          ],
+          [
+            26.025000000000002,
+            20.625000000000004
+          ],
+          [
+            29.1,
+            19.050000000000004
+          ],
+          [
+            30.150000000000002,
+            22.800000000000004
+          ],
+          [
+            30.375,
+            25.200000000000003
+          ],
+          [
+            32.55,
+            25.050000000000004
+          ],
+          [
+            33.825,
+            27.300000000000004
+          ],
+          [
+            32.85,
+            29.250000000000004
+          ],
+          [
+            31.125,
+            30.675000000000004
+          ],
+          [
+            30.150000000000002,
+            32.400000000000006
+          ],
+          [
+            27.825,
+            33.975
+          ],
+          [
+            25.05,
+            34.875
+          ],
+          [
+            22.575,
+            34.875
+          ],
+          [
+            20.025000000000002,
+            33.975
+          ],
+          [
+            18.450000000000003,
+            32.550000000000004
+          ],
+          [
+            16.950000000000003,
+            30.675000000000004
+          ],
+          [
+            15.9,
+            28.950000000000003
+          ],
+          [
+            14.175,
+            29.025000000000002
+          ],
+          [
+            13.8,
+            27.975
+          ],
+          [
+            13.950000000000001,
+            25.275000000000002
+          ],
+          [
+            15.3,
+            24.750000000000004
+          ],
+          [
+            16.5,
+            25.500000000000004
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            13.350000000000001,
+            15.300000000000004
+          ],
+          [
+            17.925,
+            10.725000000000003
+          ],
+          [
+            24.075,
+            9.900000000000004
+          ],
+          [
+            29.925,
+            12.075000000000005
+          ],
+          [
+            34.275,
+            16.800000000000004
+          ],
+          [
+            35.025,
+            22.725000000000005
+          ],
+          [
+            32.55,
+            24.825000000000003
+          ],
+          [
+            30.525000000000002,
+            25.125000000000004
+          ],
+          [
+            30.075,
+            22.725000000000005
+          ],
+          [
+            29.175,
+            20.175000000000004
+          ],
+          [
+            26.025000000000002,
+            21.525000000000002
+          ],
+          [
+            22.125,
+            23.025000000000002
+          ],
+          [
+            18.525,
+            23.775000000000002
+          ],
+          [
+            16.5,
+            23.325000000000003
+          ],
+          [
+            16.125,
+            25.800000000000004
+          ],
+          [
+            13.950000000000001,
+            24.675000000000004
+          ]
+        ]
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "phone-seated",
+      "actualFacing": "down",
+      "clip": "female-seated-front",
+      "frameIndex": 1,
+      "head": {
+        "top": 14,
+        "bottom": 40,
+        "left": 11,
+        "right": 35,
+        "portraitChin": 41,
+        "eyeAnchor": [
+          23.5,
+          32.900000000000006
+        ],
+        "eyeLine": 32.900000000000006,
+        "neckAnchor": [
+          23.5,
+          39.5
+        ],
+        "facePolygon": [
+          [
+            15.925,
+            27.875000000000004
+          ],
+          [
+            17.875,
+            27.800000000000004
+          ],
+          [
+            21.7,
+            26.750000000000004
+          ],
+          [
+            25.525000000000002,
+            25.625000000000004
+          ],
+          [
+            28.6,
+            24.050000000000004
+          ],
+          [
+            29.650000000000002,
+            27.800000000000004
+          ],
+          [
+            29.875,
+            30.200000000000003
+          ],
+          [
+            32.05,
+            30.050000000000004
+          ],
+          [
+            33.325,
+            32.300000000000004
+          ],
+          [
+            32.35,
+            34.25
+          ],
+          [
+            30.625,
+            35.675000000000004
+          ],
+          [
+            29.650000000000002,
+            37.400000000000006
+          ],
+          [
+            27.325,
+            38.975
+          ],
+          [
+            24.55,
+            39.875
+          ],
+          [
+            22.075,
+            39.875
+          ],
+          [
+            19.525000000000002,
+            38.975
+          ],
+          [
+            17.950000000000003,
+            37.550000000000004
+          ],
+          [
+            16.450000000000003,
+            35.675000000000004
+          ],
+          [
+            15.4,
+            33.95
+          ],
+          [
+            13.675,
+            34.025000000000006
+          ],
+          [
+            13.3,
+            32.975
+          ],
+          [
+            13.450000000000001,
+            30.275000000000002
+          ],
+          [
+            14.8,
+            29.750000000000004
+          ],
+          [
+            16,
+            30.500000000000004
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            12.850000000000001,
+            20.300000000000004
+          ],
+          [
+            17.425,
+            15.725000000000003
+          ],
+          [
+            23.575,
+            14.900000000000004
+          ],
+          [
+            29.425,
+            17.075000000000003
+          ],
+          [
+            33.775,
+            21.800000000000004
+          ],
+          [
+            34.525,
+            27.725000000000005
+          ],
+          [
+            32.05,
+            29.825000000000003
+          ],
+          [
+            30.025000000000002,
+            30.125000000000004
+          ],
+          [
+            29.575,
+            27.725000000000005
+          ],
+          [
+            28.675,
+            25.175000000000004
+          ],
+          [
+            25.525000000000002,
+            26.525000000000002
+          ],
+          [
+            21.625,
+            28.025000000000002
+          ],
+          [
+            18.025,
+            28.775000000000002
+          ],
+          [
+            16,
+            28.325000000000003
+          ],
+          [
+            15.625,
+            30.800000000000004
+          ],
+          [
+            13.450000000000001,
+            29.675000000000004
+          ]
+        ]
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "eat",
+      "actualFacing": "down",
+      "clip": "female-eat-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 11,
+        "right": 35
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "drink",
+      "actualFacing": "down",
+      "clip": "female-mug-standing-front",
+      "frameIndex": 4,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 12,
+        "right": 35
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "smoke",
+      "actualFacing": "down",
+      "clip": "female-smoke-standing-front",
+      "frameIndex": 37,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 12,
+        "right": 35
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "inventory",
+      "actualFacing": "down",
+      "clip": "female-inventory-standing-front",
+      "frameIndex": 4,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 12,
+        "right": 35
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "equip",
+      "actualFacing": "down",
+      "clip": "female-equip-standing-front",
+      "frameIndex": 10,
+      "head": {
+        "top": 7,
+        "bottom": 29,
+        "left": 12,
+        "right": 36
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "door",
+      "actualFacing": "down",
+      "clip": "female-door-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 9,
+        "bottom": 31,
+        "left": 11,
+        "right": 36
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "counter",
+      "actualFacing": "down",
+      "clip": "female-counter-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 7,
+        "bottom": 29,
+        "left": 11,
+        "right": 35
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "pick-litter",
+      "actualFacing": "down",
+      "clip": "female-pickup-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 27,
+        "bottom": 42,
+        "left": 10,
+        "right": 35
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "throw-litter",
+      "actualFacing": "down",
+      "clip": "female-give-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 10,
+        "right": 37
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "pet",
+      "actualFacing": "down",
+      "clip": "female-pet-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 23,
+        "bottom": 42,
+        "left": 10,
+        "right": 36
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "give",
+      "actualFacing": "down",
+      "clip": "female-give-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 10,
+        "right": 37
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "receive",
+      "actualFacing": "down",
+      "clip": "female-receive-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 21,
+        "bottom": 42,
+        "left": 10,
+        "right": 37
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "talk",
+      "actualFacing": "down",
+      "clip": "female-talk-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 11,
+        "right": 36
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "handshake",
+      "actualFacing": "down",
+      "clip": "female-handshake-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 10,
+        "right": 37
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "carry",
+      "actualFacing": "down",
+      "clip": "female-carry-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 19,
+        "bottom": 41,
+        "left": 9,
+        "right": 38
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "water-plant",
+      "actualFacing": "down",
+      "clip": "female-water-front",
+      "frameIndex": 2,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 10,
+        "right": 35
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "fish",
+      "actualFacing": "right",
+      "clip": "female-water",
+      "frameIndex": 4,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 7,
+        "right": 29
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "fish-catch",
+      "actualFacing": "right",
+      "clip": "female-water",
+      "frameIndex": 14,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 7,
+        "right": 29
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "idle",
+      "actualFacing": "right",
+      "clip": "canonical-idle-female-right",
+      "frameIndex": 0,
+      "head": {
+        "top": 9,
+        "bottom": 34,
+        "left": 12,
+        "right": 37,
+        "portraitChin": 34.5,
+        "eyeAnchor": [
+          29.4,
+          26.974999999999998
+        ],
+        "eyeLine": 26.974999999999998,
+        "neckAnchor": [
+          25.5,
+          33.5
+        ],
+        "facePolygon": [
+          [
+            27.15,
+            21.65
+          ],
+          [
+            28.724999999999998,
+            20.599999999999998
+          ],
+          [
+            30.974999999999994,
+            19.7
+          ],
+          [
+            32.4,
+            18.349999999999998
+          ],
+          [
+            32.849999999999994,
+            22.325
+          ],
+          [
+            33.375,
+            24.875
+          ],
+          [
+            33.974999999999994,
+            26.825
+          ],
+          [
+            34.65,
+            28.775
+          ],
+          [
+            33.599999999999994,
+            31.025
+          ],
+          [
+            31.724999999999994,
+            32.525
+          ],
+          [
+            30.525,
+            33.65
+          ],
+          [
+            27.9,
+            33.65
+          ],
+          [
+            26.175,
+            32.824999999999996
+          ],
+          [
+            24.9,
+            31.475
+          ],
+          [
+            23.925,
+            30.424999999999997
+          ],
+          [
+            22.349999999999998,
+            29.15
+          ],
+          [
+            21.75,
+            27.2
+          ],
+          [
+            22.5,
+            25.25
+          ],
+          [
+            23.775,
+            25.325
+          ],
+          [
+            24,
+            27.424999999999997
+          ],
+          [
+            25.349999999999998,
+            28.474999999999998
+          ],
+          [
+            25.8,
+            25.925
+          ],
+          [
+            26.55,
+            23.9
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            13.05,
+            16.55
+          ],
+          [
+            17.475,
+            11.975
+          ],
+          [
+            24.45,
+            9.575
+          ],
+          [
+            31.200000000000003,
+            10.475
+          ],
+          [
+            35.775,
+            14.524999999999999
+          ],
+          [
+            36.375,
+            19.4
+          ],
+          [
+            34.05,
+            22.925
+          ],
+          [
+            32.625,
+            24.875
+          ],
+          [
+            32.25,
+            21.275
+          ],
+          [
+            31.049999999999997,
+            19.849999999999998
+          ],
+          [
+            28.8,
+            21.65
+          ],
+          [
+            27.375,
+            23.974999999999998
+          ],
+          [
+            26.099999999999998,
+            26.675
+          ],
+          [
+            25.05,
+            28.7
+          ],
+          [
+            23.7,
+            27.05
+          ],
+          [
+            23.7,
+            25.25
+          ],
+          [
+            22.349999999999998,
+            25.25
+          ],
+          [
+            21.375,
+            27.349999999999998
+          ],
+          [
+            21.825,
+            29.674999999999997
+          ],
+          [
+            18.825,
+            30.349999999999998
+          ],
+          [
+            15.225000000000001,
+            27.275
+          ],
+          [
+            13.35,
+            22.775
+          ]
+        ]
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "phone",
+      "actualFacing": "right",
+      "clip": "canonical-idle-female-right",
+      "frameIndex": 0,
+      "head": {
+        "top": 9,
+        "bottom": 34,
+        "left": 12,
+        "right": 37,
+        "portraitChin": 34.5,
+        "eyeAnchor": [
+          29.4,
+          26.974999999999998
+        ],
+        "eyeLine": 26.974999999999998,
+        "neckAnchor": [
+          25.5,
+          33.5
+        ],
+        "facePolygon": [
+          [
+            27.15,
+            21.65
+          ],
+          [
+            28.724999999999998,
+            20.599999999999998
+          ],
+          [
+            30.974999999999994,
+            19.7
+          ],
+          [
+            32.4,
+            18.349999999999998
+          ],
+          [
+            32.849999999999994,
+            22.325
+          ],
+          [
+            33.375,
+            24.875
+          ],
+          [
+            33.974999999999994,
+            26.825
+          ],
+          [
+            34.65,
+            28.775
+          ],
+          [
+            33.599999999999994,
+            31.025
+          ],
+          [
+            31.724999999999994,
+            32.525
+          ],
+          [
+            30.525,
+            33.65
+          ],
+          [
+            27.9,
+            33.65
+          ],
+          [
+            26.175,
+            32.824999999999996
+          ],
+          [
+            24.9,
+            31.475
+          ],
+          [
+            23.925,
+            30.424999999999997
+          ],
+          [
+            22.349999999999998,
+            29.15
+          ],
+          [
+            21.75,
+            27.2
+          ],
+          [
+            22.5,
+            25.25
+          ],
+          [
+            23.775,
+            25.325
+          ],
+          [
+            24,
+            27.424999999999997
+          ],
+          [
+            25.349999999999998,
+            28.474999999999998
+          ],
+          [
+            25.8,
+            25.925
+          ],
+          [
+            26.55,
+            23.9
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            13.05,
+            16.55
+          ],
+          [
+            17.475,
+            11.975
+          ],
+          [
+            24.45,
+            9.575
+          ],
+          [
+            31.200000000000003,
+            10.475
+          ],
+          [
+            35.775,
+            14.524999999999999
+          ],
+          [
+            36.375,
+            19.4
+          ],
+          [
+            34.05,
+            22.925
+          ],
+          [
+            32.625,
+            24.875
+          ],
+          [
+            32.25,
+            21.275
+          ],
+          [
+            31.049999999999997,
+            19.849999999999998
+          ],
+          [
+            28.8,
+            21.65
+          ],
+          [
+            27.375,
+            23.974999999999998
+          ],
+          [
+            26.099999999999998,
+            26.675
+          ],
+          [
+            25.05,
+            28.7
+          ],
+          [
+            23.7,
+            27.05
+          ],
+          [
+            23.7,
+            25.25
+          ],
+          [
+            22.349999999999998,
+            25.25
+          ],
+          [
+            21.375,
+            27.349999999999998
+          ],
+          [
+            21.825,
+            29.674999999999997
+          ],
+          [
+            18.825,
+            30.349999999999998
+          ],
+          [
+            15.225000000000001,
+            27.275
+          ],
+          [
+            13.35,
+            22.775
+          ]
+        ]
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "phone-seated",
+      "actualFacing": "right",
+      "clip": "female-seated-right",
+      "frameIndex": 1,
+      "head": {
+        "top": 16,
+        "bottom": 40,
+        "left": 10,
+        "right": 35,
+        "portraitChin": 41,
+        "eyeAnchor": [
+          27.4,
+          33.474999999999994
+        ],
+        "eyeLine": 33.474999999999994,
+        "neckAnchor": [
+          23.5,
+          40
+        ],
+        "facePolygon": [
+          [
+            25.15,
+            28.15
+          ],
+          [
+            26.724999999999998,
+            27.099999999999998
+          ],
+          [
+            28.974999999999994,
+            26.2
+          ],
+          [
+            30.4,
+            24.849999999999998
+          ],
+          [
+            30.849999999999994,
+            28.825
+          ],
+          [
+            31.375,
+            31.375
+          ],
+          [
+            31.974999999999994,
+            33.325
+          ],
+          [
+            32.65,
+            35.275
+          ],
+          [
+            31.599999999999994,
+            37.525
+          ],
+          [
+            29.724999999999994,
+            39.025
+          ],
+          [
+            28.525,
+            40.15
+          ],
+          [
+            25.9,
+            40.15
+          ],
+          [
+            24.175,
+            39.324999999999996
+          ],
+          [
+            22.9,
+            37.975
+          ],
+          [
+            21.925,
+            36.925
+          ],
+          [
+            20.349999999999998,
+            35.65
+          ],
+          [
+            19.75,
+            33.7
+          ],
+          [
+            20.5,
+            31.75
+          ],
+          [
+            21.775,
+            31.825
+          ],
+          [
+            22,
+            33.925
+          ],
+          [
+            23.349999999999998,
+            34.974999999999994
+          ],
+          [
+            23.8,
+            32.425
+          ],
+          [
+            24.55,
+            30.4
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            11.05,
+            23.05
+          ],
+          [
+            15.475000000000001,
+            18.475
+          ],
+          [
+            22.45,
+            16.075
+          ],
+          [
+            29.200000000000003,
+            16.975
+          ],
+          [
+            33.775,
+            21.025
+          ],
+          [
+            34.375,
+            25.9
+          ],
+          [
+            32.05,
+            29.425
+          ],
+          [
+            30.625,
+            31.375
+          ],
+          [
+            30.25,
+            27.775
+          ],
+          [
+            29.049999999999997,
+            26.349999999999998
+          ],
+          [
+            26.8,
+            28.15
+          ],
+          [
+            25.375,
+            30.474999999999998
+          ],
+          [
+            24.099999999999998,
+            33.175
+          ],
+          [
+            23.05,
+            35.2
+          ],
+          [
+            21.7,
+            33.55
+          ],
+          [
+            21.7,
+            31.75
+          ],
+          [
+            20.349999999999998,
+            31.75
+          ],
+          [
+            19.375,
+            33.849999999999994
+          ],
+          [
+            19.825,
+            36.175
+          ],
+          [
+            16.825,
+            36.849999999999994
+          ],
+          [
+            13.225000000000001,
+            33.775
+          ],
+          [
+            11.35,
+            29.275
+          ]
+        ]
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "eat",
+      "actualFacing": "right",
+      "clip": "female-eat-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 9,
+        "bottom": 31,
+        "left": 12,
+        "right": 35
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "drink",
+      "actualFacing": "right",
+      "clip": "female-mug-standing-right",
+      "frameIndex": 4,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 11,
+        "right": 35
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "smoke",
+      "actualFacing": "right",
+      "clip": "female-smoke-standing-right",
+      "frameIndex": 37,
+      "head": {
+        "top": 9,
+        "bottom": 31,
+        "left": 11,
+        "right": 33
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "inventory",
+      "actualFacing": "right",
+      "clip": "female-inventory-standing-right",
+      "frameIndex": 4,
+      "head": {
+        "top": 9,
+        "bottom": 31,
+        "left": 12,
+        "right": 34
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "equip",
+      "actualFacing": "right",
+      "clip": "female-equip-standing-right",
+      "frameIndex": 10,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 12,
+        "right": 34
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "door",
+      "actualFacing": "right",
+      "clip": "female-door-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 11,
+        "right": 37
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "counter",
+      "actualFacing": "right",
+      "clip": "female-counter-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 9,
+        "right": 35
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "pick-litter",
+      "actualFacing": "right",
+      "clip": "female-pickup-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 26,
+        "bottom": 42,
+        "left": 12,
+        "right": 36
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "throw-litter",
+      "actualFacing": "right",
+      "clip": "female-give-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 15,
+        "bottom": 37,
+        "left": 7,
+        "right": 28
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "pet",
+      "actualFacing": "right",
+      "clip": "female-pet-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 25,
+        "bottom": 42,
+        "left": 10,
+        "right": 36
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "give",
+      "actualFacing": "right",
+      "clip": "female-give-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 15,
+        "bottom": 37,
+        "left": 7,
+        "right": 28
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "receive",
+      "actualFacing": "right",
+      "clip": "female-receive-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 24,
+        "bottom": 42,
+        "left": 8,
+        "right": 30
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "talk",
+      "actualFacing": "right",
+      "clip": "female-talk-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 9,
+        "bottom": 31,
+        "left": 10,
+        "right": 35
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "handshake",
+      "actualFacing": "right",
+      "clip": "female-handshake-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 15,
+        "bottom": 37,
+        "left": 7,
+        "right": 28
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "carry",
+      "actualFacing": "right",
+      "clip": "female-carry-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 20,
+        "bottom": 42,
+        "left": 11,
+        "right": 39
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "water-plant",
+      "actualFacing": "right",
+      "clip": "female-water-right",
+      "frameIndex": 2,
+      "head": {
+        "top": 9,
+        "bottom": 31,
+        "left": 8,
+        "right": 31
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "fish",
+      "actualFacing": "right",
+      "clip": "female-water",
+      "frameIndex": 4,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 7,
+        "right": 29
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "fish-catch",
+      "actualFacing": "right",
+      "clip": "female-water",
+      "frameIndex": 14,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 7,
+        "right": 29
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "idle",
+      "actualFacing": "up",
+      "clip": "canonical-idle-female-up",
+      "frameIndex": 0,
+      "head": {
+        "top": 9,
+        "bottom": 33,
+        "left": 12,
+        "right": 36,
+        "portraitChin": 33.5,
+        "eyeAnchor": [
+          24,
+          23.049999999999997
+        ],
+        "eyeLine": 23.049999999999997,
+        "neckAnchor": [
+          24,
+          32.5
+        ],
+        "facePolygon": [],
+        "scalpPolygon": [
+          [
+            13.125000000000002,
+            15.325
+          ],
+          [
+            16.425,
+            10.974999999999998
+          ],
+          [
+            23.625,
+            9.549999999999999
+          ],
+          [
+            30.525000000000002,
+            11.124999999999998
+          ],
+          [
+            34.575,
+            15.474999999999998
+          ],
+          [
+            35.4,
+            23.799999999999997
+          ],
+          [
+            33.525,
+            28.824999999999996
+          ],
+          [
+            28.95,
+            31.674999999999997
+          ],
+          [
+            23.775000000000002,
+            32.425
+          ],
+          [
+            18.525,
+            31
+          ],
+          [
+            14.850000000000001,
+            28.599999999999998
+          ],
+          [
+            13.125000000000002,
+            23.65
+          ]
+        ]
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "phone",
+      "actualFacing": "up",
+      "clip": "canonical-idle-female-up",
+      "frameIndex": 0,
+      "head": {
+        "top": 9,
+        "bottom": 33,
+        "left": 12,
+        "right": 36,
+        "portraitChin": 33.5,
+        "eyeAnchor": [
+          24,
+          23.049999999999997
+        ],
+        "eyeLine": 23.049999999999997,
+        "neckAnchor": [
+          24,
+          32.5
+        ],
+        "facePolygon": [],
+        "scalpPolygon": [
+          [
+            13.125000000000002,
+            15.325
+          ],
+          [
+            16.425,
+            10.974999999999998
+          ],
+          [
+            23.625,
+            9.549999999999999
+          ],
+          [
+            30.525000000000002,
+            11.124999999999998
+          ],
+          [
+            34.575,
+            15.474999999999998
+          ],
+          [
+            35.4,
+            23.799999999999997
+          ],
+          [
+            33.525,
+            28.824999999999996
+          ],
+          [
+            28.95,
+            31.674999999999997
+          ],
+          [
+            23.775000000000002,
+            32.425
+          ],
+          [
+            18.525,
+            31
+          ],
+          [
+            14.850000000000001,
+            28.599999999999998
+          ],
+          [
+            13.125000000000002,
+            23.65
+          ]
+        ]
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "phone-seated",
+      "actualFacing": "up",
+      "clip": "female-seated-back",
+      "frameIndex": 1,
+      "head": {
+        "top": 20,
+        "bottom": 43,
+        "left": 11,
+        "right": 36,
+        "portraitChin": 44,
+        "eyeAnchor": [
+          23.5,
+          33.55
+        ],
+        "eyeLine": 33.55,
+        "neckAnchor": [
+          23.5,
+          43
+        ],
+        "facePolygon": [],
+        "scalpPolygon": [
+          [
+            12.625000000000002,
+            25.825
+          ],
+          [
+            15.925,
+            21.474999999999998
+          ],
+          [
+            23.125,
+            20.049999999999997
+          ],
+          [
+            30.025000000000002,
+            21.625
+          ],
+          [
+            34.075,
+            25.974999999999998
+          ],
+          [
+            34.9,
+            34.3
+          ],
+          [
+            33.025,
+            39.324999999999996
+          ],
+          [
+            28.45,
+            42.175
+          ],
+          [
+            23.275000000000002,
+            42.925
+          ],
+          [
+            18.025,
+            41.5
+          ],
+          [
+            14.350000000000001,
+            39.099999999999994
+          ],
+          [
+            12.625000000000002,
+            34.15
+          ]
+        ]
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "eat",
+      "actualFacing": "up",
+      "clip": "female-eat-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 11,
+        "right": 35
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "drink",
+      "actualFacing": "up",
+      "clip": "female-mug-standing-back",
+      "frameIndex": 4,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 12,
+        "right": 35
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "smoke",
+      "actualFacing": "up",
+      "clip": "female-smoke-standing-back",
+      "frameIndex": 12,
+      "head": {
+        "top": 7,
+        "bottom": 29,
+        "left": 12,
+        "right": 35
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "inventory",
+      "actualFacing": "up",
+      "clip": "female-inventory-standing-back",
+      "frameIndex": 4,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 12,
+        "right": 36
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "equip",
+      "actualFacing": "up",
+      "clip": "female-equip-standing-back",
+      "frameIndex": 9,
+      "head": {
+        "top": 9,
+        "bottom": 31,
+        "left": 11,
+        "right": 35
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "door",
+      "actualFacing": "up",
+      "clip": "female-door-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 9,
+        "bottom": 31,
+        "left": 9,
+        "right": 38
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "counter",
+      "actualFacing": "up",
+      "clip": "female-counter-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 9,
+        "bottom": 31,
+        "left": 8,
+        "right": 39
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "pick-litter",
+      "actualFacing": "up",
+      "clip": "female-pickup-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 27,
+        "bottom": 42,
+        "left": 13,
+        "right": 37
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "throw-litter",
+      "actualFacing": "up",
+      "clip": "female-give-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 11,
+        "bottom": 33,
+        "left": 10,
+        "right": 37
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "pet",
+      "actualFacing": "up",
+      "clip": "female-pet-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 24,
+        "bottom": 42,
+        "left": 13,
+        "right": 39
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "give",
+      "actualFacing": "up",
+      "clip": "female-give-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 11,
+        "bottom": 33,
+        "left": 10,
+        "right": 37
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "receive",
+      "actualFacing": "up",
+      "clip": "female-receive-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 11,
+        "bottom": 33,
+        "left": 10,
+        "right": 38
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "talk",
+      "actualFacing": "up",
+      "clip": "female-talk-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 9,
+        "bottom": 31,
+        "left": 8,
+        "right": 36
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "handshake",
+      "actualFacing": "up",
+      "clip": "female-handshake-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 11,
+        "bottom": 33,
+        "left": 10,
+        "right": 37
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "carry",
+      "actualFacing": "up",
+      "clip": "female-carry-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 9,
+        "bottom": 31,
+        "left": 10,
+        "right": 38
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "water-plant",
+      "actualFacing": "up",
+      "clip": "female-water-back",
+      "frameIndex": 2,
+      "head": {
+        "top": 11,
+        "bottom": 33,
+        "left": 10,
+        "right": 35
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "fish",
+      "actualFacing": "right",
+      "clip": "female-water",
+      "frameIndex": 4,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 7,
+        "right": 29
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "fish-catch",
+      "actualFacing": "right",
+      "clip": "female-water",
+      "frameIndex": 14,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 7,
+        "right": 29
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "idle",
+      "actualFacing": "left",
+      "clip": "canonical-idle-female-left",
+      "frameIndex": 0,
+      "head": {
+        "top": 9,
+        "bottom": 34,
+        "left": 6,
+        "right": 31,
+        "portraitChin": 35.5,
+        "eyeAnchor": [
+          14.049999999999999,
+          27.549999999999997
+        ],
+        "eyeLine": 27.549999999999997,
+        "neckAnchor": [
+          20.5,
+          34
+        ],
+        "facePolygon": [
+          [
+            11.575,
+            20.575
+          ],
+          [
+            13.6,
+            19.599999999999998
+          ],
+          [
+            14.799999999999999,
+            20.874999999999996
+          ],
+          [
+            16.224999999999998,
+            22.45
+          ],
+          [
+            17.349999999999998,
+            24.174999999999997
+          ],
+          [
+            17.65,
+            26.124999999999996
+          ],
+          [
+            18.325,
+            27.025
+          ],
+          [
+            20.05,
+            25.825
+          ],
+          [
+            21.25,
+            26.575
+          ],
+          [
+            21.4,
+            28.749999999999996
+          ],
+          [
+            20.349999999999998,
+            30.099999999999998
+          ],
+          [
+            18.775,
+            30.924999999999997
+          ],
+          [
+            17.125,
+            32.199999999999996
+          ],
+          [
+            15.7,
+            33.775
+          ],
+          [
+            13.6,
+            33.775
+          ],
+          [
+            12.174999999999999,
+            32.724999999999994
+          ],
+          [
+            10.75,
+            31.299999999999997
+          ],
+          [
+            9.174999999999999,
+            30.174999999999997
+          ],
+          [
+            8.799999999999999,
+            28.674999999999997
+          ],
+          [
+            9.625,
+            27.099999999999998
+          ],
+          [
+            10.975,
+            25.9
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            7.75,
+            16.825
+          ],
+          [
+            12.25,
+            11.949999999999998
+          ],
+          [
+            19.075,
+            10.224999999999998
+          ],
+          [
+            25.9,
+            11.949999999999998
+          ],
+          [
+            29.799999999999997,
+            16.525
+          ],
+          [
+            30.625,
+            23.124999999999996
+          ],
+          [
+            28.599999999999998,
+            27.999999999999996
+          ],
+          [
+            24.325,
+            31.074999999999996
+          ],
+          [
+            21.025,
+            31.599999999999994
+          ],
+          [
+            20.724999999999998,
+            29.275
+          ],
+          [
+            21.25,
+            27.174999999999997
+          ],
+          [
+            20.05,
+            25.9
+          ],
+          [
+            18.25,
+            26.95
+          ],
+          [
+            17.275,
+            25.224999999999998
+          ],
+          [
+            16.3,
+            22.674999999999997
+          ],
+          [
+            14.649999999999999,
+            20.874999999999996
+          ],
+          [
+            13.525,
+            19.9
+          ],
+          [
+            11.5,
+            21.549999999999997
+          ],
+          [
+            10.225,
+            24.249999999999996
+          ],
+          [
+            8.799999999999999,
+            25.674999999999997
+          ]
+        ]
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "phone",
+      "actualFacing": "left",
+      "clip": "canonical-idle-female-left",
+      "frameIndex": 0,
+      "head": {
+        "top": 9,
+        "bottom": 34,
+        "left": 6,
+        "right": 31,
+        "portraitChin": 35.5,
+        "eyeAnchor": [
+          14.049999999999999,
+          27.549999999999997
+        ],
+        "eyeLine": 27.549999999999997,
+        "neckAnchor": [
+          20.5,
+          34
+        ],
+        "facePolygon": [
+          [
+            11.575,
+            20.575
+          ],
+          [
+            13.6,
+            19.599999999999998
+          ],
+          [
+            14.799999999999999,
+            20.874999999999996
+          ],
+          [
+            16.224999999999998,
+            22.45
+          ],
+          [
+            17.349999999999998,
+            24.174999999999997
+          ],
+          [
+            17.65,
+            26.124999999999996
+          ],
+          [
+            18.325,
+            27.025
+          ],
+          [
+            20.05,
+            25.825
+          ],
+          [
+            21.25,
+            26.575
+          ],
+          [
+            21.4,
+            28.749999999999996
+          ],
+          [
+            20.349999999999998,
+            30.099999999999998
+          ],
+          [
+            18.775,
+            30.924999999999997
+          ],
+          [
+            17.125,
+            32.199999999999996
+          ],
+          [
+            15.7,
+            33.775
+          ],
+          [
+            13.6,
+            33.775
+          ],
+          [
+            12.174999999999999,
+            32.724999999999994
+          ],
+          [
+            10.75,
+            31.299999999999997
+          ],
+          [
+            9.174999999999999,
+            30.174999999999997
+          ],
+          [
+            8.799999999999999,
+            28.674999999999997
+          ],
+          [
+            9.625,
+            27.099999999999998
+          ],
+          [
+            10.975,
+            25.9
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            7.75,
+            16.825
+          ],
+          [
+            12.25,
+            11.949999999999998
+          ],
+          [
+            19.075,
+            10.224999999999998
+          ],
+          [
+            25.9,
+            11.949999999999998
+          ],
+          [
+            29.799999999999997,
+            16.525
+          ],
+          [
+            30.625,
+            23.124999999999996
+          ],
+          [
+            28.599999999999998,
+            27.999999999999996
+          ],
+          [
+            24.325,
+            31.074999999999996
+          ],
+          [
+            21.025,
+            31.599999999999994
+          ],
+          [
+            20.724999999999998,
+            29.275
+          ],
+          [
+            21.25,
+            27.174999999999997
+          ],
+          [
+            20.05,
+            25.9
+          ],
+          [
+            18.25,
+            26.95
+          ],
+          [
+            17.275,
+            25.224999999999998
+          ],
+          [
+            16.3,
+            22.674999999999997
+          ],
+          [
+            14.649999999999999,
+            20.874999999999996
+          ],
+          [
+            13.525,
+            19.9
+          ],
+          [
+            11.5,
+            21.549999999999997
+          ],
+          [
+            10.225,
+            24.249999999999996
+          ],
+          [
+            8.799999999999999,
+            25.674999999999997
+          ]
+        ]
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "phone-seated",
+      "actualFacing": "left",
+      "clip": "female-seated-left",
+      "frameIndex": 1,
+      "head": {
+        "top": 17,
+        "bottom": 41,
+        "left": 11,
+        "right": 35,
+        "portraitChin": 43,
+        "eyeAnchor": [
+          18.549999999999997,
+          35.05
+        ],
+        "eyeLine": 35.05,
+        "neckAnchor": [
+          25,
+          41.5
+        ],
+        "facePolygon": [
+          [
+            16.075,
+            28.075
+          ],
+          [
+            18.1,
+            27.099999999999998
+          ],
+          [
+            19.299999999999997,
+            28.374999999999996
+          ],
+          [
+            20.724999999999998,
+            29.95
+          ],
+          [
+            21.849999999999998,
+            31.674999999999997
+          ],
+          [
+            22.15,
+            33.625
+          ],
+          [
+            22.825,
+            34.525
+          ],
+          [
+            24.55,
+            33.325
+          ],
+          [
+            25.75,
+            34.075
+          ],
+          [
+            25.9,
+            36.25
+          ],
+          [
+            24.849999999999998,
+            37.599999999999994
+          ],
+          [
+            23.275,
+            38.425
+          ],
+          [
+            21.625,
+            39.699999999999996
+          ],
+          [
+            20.2,
+            41.275
+          ],
+          [
+            18.1,
+            41.275
+          ],
+          [
+            16.674999999999997,
+            40.224999999999994
+          ],
+          [
+            15.25,
+            38.8
+          ],
+          [
+            13.674999999999999,
+            37.675
+          ],
+          [
+            13.299999999999999,
+            36.175
+          ],
+          [
+            14.125,
+            34.599999999999994
+          ],
+          [
+            15.475,
+            33.4
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            12.25,
+            24.325
+          ],
+          [
+            16.75,
+            19.449999999999996
+          ],
+          [
+            23.575,
+            17.724999999999998
+          ],
+          [
+            30.4,
+            19.449999999999996
+          ],
+          [
+            34.3,
+            24.025
+          ],
+          [
+            35.125,
+            30.624999999999996
+          ],
+          [
+            33.099999999999994,
+            35.5
+          ],
+          [
+            28.825,
+            38.574999999999996
+          ],
+          [
+            25.525,
+            39.099999999999994
+          ],
+          [
+            25.224999999999998,
+            36.775
+          ],
+          [
+            25.75,
+            34.675
+          ],
+          [
+            24.55,
+            33.4
+          ],
+          [
+            22.75,
+            34.45
+          ],
+          [
+            21.775,
+            32.724999999999994
+          ],
+          [
+            20.8,
+            30.174999999999997
+          ],
+          [
+            19.15,
+            28.374999999999996
+          ],
+          [
+            18.025,
+            27.4
+          ],
+          [
+            16,
+            29.049999999999997
+          ],
+          [
+            14.725,
+            31.749999999999996
+          ],
+          [
+            13.299999999999999,
+            33.175
+          ]
+        ]
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "eat",
+      "actualFacing": "left",
+      "clip": "female-eat-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 11,
+        "right": 36
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "drink",
+      "actualFacing": "left",
+      "clip": "female-mug-standing-left",
+      "frameIndex": 4,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 13,
+        "right": 36
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "smoke",
+      "actualFacing": "left",
+      "clip": "female-smoke-standing-left",
+      "frameIndex": 37,
+      "head": {
+        "top": 7,
+        "bottom": 29,
+        "left": 16,
+        "right": 37
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "inventory",
+      "actualFacing": "left",
+      "clip": "female-inventory-standing-left",
+      "frameIndex": 4,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 14,
+        "right": 36
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "equip",
+      "actualFacing": "left",
+      "clip": "female-equip-standing-left",
+      "frameIndex": 10,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 15,
+        "right": 38
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "door",
+      "actualFacing": "left",
+      "clip": "female-door-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 9,
+        "bottom": 31,
+        "left": 12,
+        "right": 37
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "counter",
+      "actualFacing": "left",
+      "clip": "female-counter-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 11,
+        "right": 37
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "pick-litter",
+      "actualFacing": "left",
+      "clip": "female-pickup-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 26,
+        "bottom": 42,
+        "left": 10,
+        "right": 34
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "throw-litter",
+      "actualFacing": "left",
+      "clip": "female-give-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 12,
+        "bottom": 34,
+        "left": 16,
+        "right": 39
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "pet",
+      "actualFacing": "left",
+      "clip": "female-pet-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 25,
+        "bottom": 42,
+        "left": 11,
+        "right": 38
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "give",
+      "actualFacing": "left",
+      "clip": "female-give-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 12,
+        "bottom": 34,
+        "left": 16,
+        "right": 39
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "receive",
+      "actualFacing": "left",
+      "clip": "female-receive-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 11,
+        "bottom": 33,
+        "left": 15,
+        "right": 39
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "talk",
+      "actualFacing": "left",
+      "clip": "female-talk-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 9,
+        "bottom": 31,
+        "left": 11,
+        "right": 36
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "handshake",
+      "actualFacing": "left",
+      "clip": "female-handshake-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 12,
+        "bottom": 34,
+        "left": 16,
+        "right": 39
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "carry",
+      "actualFacing": "left",
+      "clip": "female-carry-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 18,
+        "bottom": 40,
+        "left": 10,
+        "right": 37
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "water-plant",
+      "actualFacing": "left",
+      "clip": "female-water-left",
+      "frameIndex": 2,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 16,
+        "right": 39
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "fish",
+      "actualFacing": "right",
+      "clip": "female-water",
+      "frameIndex": 4,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 7,
+        "right": 29
+      }
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "fish-catch",
+      "actualFacing": "right",
+      "clip": "female-water",
+      "frameIndex": 14,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 7,
+        "right": 29
+      }
+    }
+  ],
+  "files": [
+    "all-actions-male-down.png",
+    "all-actions-male-right.png",
+    "all-actions-male-up.png",
+    "all-actions-male-left.png",
+    "all-actions-female-down.png",
+    "all-actions-female-right.png",
+    "all-actions-female-up.png",
+    "all-actions-female-left.png"
+  ],
+  "hashesBefore": {
+    "actor-sprite.js": "b8e838a0d8de5260c1c72a7e0fbca7e014249a5ee91fd6ba00363fd00b5c1fa2",
+    "source-actors.js": "b388c9f51158986083e105221f7906da40586f2b4f416bcef14921bcffdd4500",
+    "canonical-actors-data.js": "1a5b8a8dd84fd7714c36a88858dd9147c0cbd53c105356d220988883daa25233",
+    "locomotion-actors-data.js": "8b8985bba1a668c2d8fdcbbe4563d3b41726f658883bdb7557771968d24cfe48",
+    "interaction-actors-data.js": "8bc40f8b80f8a2704e527e78a15d02608cc9b19f5d21f1ba59b66a4b786d6a29"
+  },
+  "hashesAfter": {
+    "actor-sprite.js": "b8e838a0d8de5260c1c72a7e0fbca7e014249a5ee91fd6ba00363fd00b5c1fa2",
+    "source-actors.js": "b388c9f51158986083e105221f7906da40586f2b4f416bcef14921bcffdd4500",
+    "canonical-actors-data.js": "1a5b8a8dd84fd7714c36a88858dd9147c0cbd53c105356d220988883daa25233",
+    "locomotion-actors-data.js": "8b8985bba1a668c2d8fdcbbe4563d3b41726f658883bdb7557771968d24cfe48",
+    "interaction-actors-data.js": "8bc40f8b80f8a2704e527e78a15d02608cc9b19f5d21f1ba59b66a4b786d6a29"
+  },
+  "stable": true
+}

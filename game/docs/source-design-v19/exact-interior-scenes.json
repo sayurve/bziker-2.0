@@ -1,0 +1,88 @@
+{
+  "source_root": "source-reference",
+  "scenes": {
+    "station": {
+      "asset_id": "station-interior",
+      "url": "/assets/design-exact-interior-9480a82f7561631ef0c2.png",
+      "source_file": "01_Окружение/Здания/ЖД_вокзал/Интерьер/основной.png",
+      "sha256": "9480a82f7561631ef0c249659487c03e754275e3e7165c8923b92c9509c787ee",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "scale": 0.5,
+      "baked_staff": true,
+      "import": "byte-for-byte; no crop, recolour, resampling or rearrangement",
+      "source_status": "approved"
+    },
+    "casino": {
+      "asset_id": "casino-interior",
+      "url": "/assets/design-exact-interior-2287fd0d4da617483bbb.png",
+      "source_file": "01_Окружение/Здания/Казино/Интерьер/основной.png",
+      "sha256": "2287fd0d4da617483bbba27115af371a6215d912e825d7fcb2b56cae32ce6c09",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "scale": 0.5,
+      "baked_staff": true,
+      "import": "byte-for-byte; no crop, recolour, resampling or rearrangement",
+      "source_status": "draft"
+    },
+    "clothing": {
+      "asset_id": "clothing-shop-interior",
+      "url": "/assets/design-exact-interior-323285bfc425b841137b.png",
+      "source_file": "01_Окружение/Здания/Магазин_одежды/Интерьер/основной.png",
+      "sha256": "323285bfc425b841137bb5774497d4fe399b750a9ad9b36c101728bc7935b385",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "scale": 0.5,
+      "baked_staff": true,
+      "import": "byte-for-byte; no crop, recolour, resampling or rearrangement",
+      "source_status": "draft"
+    },
+    "bar": {
+      "asset_id": "bar-pivkovy-tuz-interior",
+      "url": "/assets/design-exact-interior-c396520e0f9f6862a2ec.png",
+      "source_file": "01_Окружение/Здания/Бар_Пивковый_туз/Интерьер/основной.png",
+      "sha256": "c396520e0f9f6862a2ec132152913de822332c6ad9ff46a87ad726f7ab05d3c9",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "scale": 0.5,
+      "baked_staff": false,
+      "import": "byte-for-byte; no crop, recolour, resampling or rearrangement",
+      "source_status": "draft"
+    },
+    "hub": {
+      "asset_id": "bzik-hub-interior",
+      "url": "/assets/design-exact-interior-eca02e09e5dc4b19dc66.png",
+      "source_file": "01_Окружение/Здания/ТЦ_Бзик_хаб/Интерьер/основной.png",
+      "sha256": "eca02e09e5dc4b19dc66bd0043f03611b5ea81a6ae9eb992086448694fa345c9",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "scale": 0.5,
+      "baked_staff": true,
+      "import": "byte-for-byte; no crop, recolour, resampling or rearrangement",
+      "source_status": "draft"
+    }
+  },
+  "room_mapping": {
+    "railway": "station",
+    "casino": "casino",
+    "shop-clothes": "clothing",
+    "profile": "clothing",
+    "messages": "bar",
+    "terrace": "bar",
+    "shop-food": "bar",
+    "shop-furniture": "bar",
+    "arena": "hub",
+    "results": "hub",
+    "clans": "hub"
+  }
+}

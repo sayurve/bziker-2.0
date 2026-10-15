@@ -1,0 +1,10 @@
+✔ profile/catalog raster is the exact customized96x128 fine world bitmap, including real user H7 white skin3 (219.211125ms)
+✔ head catalogue crops the same fine face/hair pixels without torso or a second coarse hairstyle conversion (364.010542ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 922.951

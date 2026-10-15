@@ -1,0 +1,1148 @@
+{
+  "source_sha256": "70dd7a15e86a16f486c7a181200607cb4b96ab5e63a3914b6af57d5864beb179",
+  "coordinate_space": "native1536x1024",
+  "method": "visually-inspected-native-ground-supports",
+  "props": [
+    {
+      "kind": "lamp",
+      "x": 218,
+      "y": 62,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-1"
+    },
+    {
+      "kind": "lamp",
+      "x": 422,
+      "y": 97,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-2"
+    },
+    {
+      "kind": "lamp",
+      "x": 474,
+      "y": 173,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-3"
+    },
+    {
+      "kind": "lamp",
+      "x": 149,
+      "y": 160,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-4"
+    },
+    {
+      "kind": "lamp",
+      "x": 218,
+      "y": 205,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-5"
+    },
+    {
+      "kind": "lamp",
+      "x": 164,
+      "y": 321,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-6"
+    },
+    {
+      "kind": "lamp",
+      "x": 208,
+      "y": 293,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-7"
+    },
+    {
+      "kind": "lamp",
+      "x": 399,
+      "y": 362,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-8"
+    },
+    {
+      "kind": "lamp",
+      "x": 425,
+      "y": 85,
+      "width": 3,
+      "height": 3,
+      "id": "native-lamp-north-9"
+    },
+    {
+      "kind": "lamp",
+      "x": 775,
+      "y": 319,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-10"
+    },
+    {
+      "kind": "lamp",
+      "x": 806,
+      "y": 504,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-11"
+    },
+    {
+      "kind": "lamp",
+      "x": 604,
+      "y": 128,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-12"
+    },
+    {
+      "kind": "lamp",
+      "x": 632,
+      "y": 173,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-13"
+    },
+    {
+      "kind": "lamp",
+      "x": 630,
+      "y": 202,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-14"
+    },
+    {
+      "kind": "lamp",
+      "x": 608,
+      "y": 356,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-15"
+    },
+    {
+      "kind": "lamp",
+      "x": 681,
+      "y": 438,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-16"
+    },
+    {
+      "kind": "lamp",
+      "x": 715,
+      "y": 467,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-17"
+    },
+    {
+      "kind": "lamp",
+      "x": 842,
+      "y": 213,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-18"
+    },
+    {
+      "kind": "lamp",
+      "x": 845,
+      "y": 238,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-19"
+    },
+    {
+      "kind": "lamp",
+      "x": 880,
+      "y": 277,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-20"
+    },
+    {
+      "kind": "lamp",
+      "x": 928,
+      "y": 280,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-21"
+    },
+    {
+      "kind": "lamp",
+      "x": 990,
+      "y": 326,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-22"
+    },
+    {
+      "kind": "lamp",
+      "x": 1019,
+      "y": 348,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-23"
+    },
+    {
+      "kind": "lamp",
+      "x": 1143,
+      "y": 358,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-24"
+    },
+    {
+      "kind": "lamp",
+      "x": 1255,
+      "y": 403,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-25"
+    },
+    {
+      "kind": "lamp",
+      "x": 1292,
+      "y": 426,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-26"
+    },
+    {
+      "kind": "lamp",
+      "x": 1309,
+      "y": 442,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-27"
+    },
+    {
+      "kind": "bin",
+      "x": 1200,
+      "y": 343,
+      "width": 9,
+      "height": 5,
+      "id": "native-lamp-north-28"
+    },
+    {
+      "kind": "lamp",
+      "x": 1099,
+      "y": 347,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-29"
+    },
+    {
+      "kind": "lamp",
+      "x": 1084,
+      "y": 332,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-30"
+    },
+    {
+      "kind": "lamp",
+      "x": 1034,
+      "y": 304,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-31"
+    },
+    {
+      "kind": "lamp",
+      "x": 1146,
+      "y": 121,
+      "width": 3,
+      "height": 4,
+      "id": "native-lamp-north-32"
+    },
+    {
+      "kind": "vehicle",
+      "x": 103,
+      "y": 33,
+      "width": 12,
+      "height": 14,
+      "id": "native-vehicle-north-33"
+    },
+    {
+      "kind": "vehicle",
+      "x": 92,
+      "y": 66,
+      "width": 12,
+      "height": 15,
+      "id": "native-vehicle-north-34"
+    },
+    {
+      "kind": "vehicle",
+      "x": 76,
+      "y": 94,
+      "width": 14,
+      "height": 15,
+      "id": "native-vehicle-north-35"
+    },
+    {
+      "kind": "vehicle",
+      "x": 438,
+      "y": 177,
+      "width": 13,
+      "height": 16,
+      "id": "native-vehicle-north-36"
+    },
+    {
+      "kind": "vehicle",
+      "x": 178,
+      "y": 319,
+      "width": 13,
+      "height": 14,
+      "id": "native-vehicle-north-37"
+    },
+    {
+      "kind": "vehicle",
+      "x": 205,
+      "y": 328,
+      "width": 13,
+      "height": 14,
+      "id": "native-vehicle-north-38"
+    },
+    {
+      "kind": "vehicle",
+      "x": 224,
+      "y": 337,
+      "width": 14,
+      "height": 15,
+      "id": "native-vehicle-north-39"
+    },
+    {
+      "kind": "vehicle",
+      "x": 383,
+      "y": 353,
+      "width": 13,
+      "height": 18,
+      "id": "native-vehicle-north-40"
+    },
+    {
+      "kind": "vehicle",
+      "x": 2,
+      "y": 450,
+      "width": 17,
+      "height": 10,
+      "id": "native-vehicle-north-41"
+    },
+    {
+      "kind": "vehicle",
+      "x": 565,
+      "y": 176,
+      "width": 13,
+      "height": 15,
+      "id": "native-vehicle-north-42"
+    },
+    {
+      "kind": "vehicle",
+      "x": 553,
+      "y": 209,
+      "width": 14,
+      "height": 16,
+      "id": "native-vehicle-north-43"
+    },
+    {
+      "kind": "vehicle",
+      "x": 1227,
+      "y": 87,
+      "width": 14,
+      "height": 18,
+      "id": "native-vehicle-north-44"
+    },
+    {
+      "kind": "vehicle",
+      "x": 1285,
+      "y": 57,
+      "width": 8,
+      "height": 11,
+      "id": "native-vehicle-north-45"
+    },
+    {
+      "kind": "planter",
+      "x": 378,
+      "y": 322,
+      "width": 9,
+      "height": 8,
+      "id": "native-planter-north-46"
+    },
+    {
+      "kind": "planter",
+      "x": 128,
+      "y": 277,
+      "width": 8,
+      "height": 7,
+      "id": "native-planter-north-47"
+    },
+    {
+      "kind": "planter",
+      "x": 978,
+      "y": 251,
+      "width": 9,
+      "height": 6,
+      "id": "native-planter-north-48"
+    },
+    {
+      "id": "native-lamp-south-1",
+      "kind": "lamp",
+      "x": 410,
+      "y": 782,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        407,
+        752,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-2",
+      "kind": "lamp",
+      "x": 491,
+      "y": 806,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        488,
+        765,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-3",
+      "kind": "lamp",
+      "x": 781,
+      "y": 550,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        778,
+        520,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-4",
+      "kind": "lamp",
+      "x": 624,
+      "y": 662,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        621,
+        632,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-5",
+      "kind": "lamp",
+      "x": 744,
+      "y": 653,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        741,
+        615,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-6",
+      "kind": "lamp",
+      "x": 891,
+      "y": 594,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        888,
+        564,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-7",
+      "kind": "lamp",
+      "x": 906,
+      "y": 587,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        904,
+        549,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-8",
+      "kind": "lamp",
+      "x": 916,
+      "y": 642,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        913,
+        600,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-9",
+      "kind": "lamp",
+      "x": 924,
+      "y": 655,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        921,
+        625,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-10",
+      "kind": "lamp",
+      "x": 962,
+      "y": 684,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        959,
+        654,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-11",
+      "kind": "lamp",
+      "x": 1015,
+      "y": 682,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        1012,
+        668,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-12",
+      "kind": "lamp",
+      "x": 979,
+      "y": 782,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        976,
+        752,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-13",
+      "kind": "lamp",
+      "x": 554,
+      "y": 835,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        551,
+        805,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-14",
+      "kind": "lamp",
+      "x": 947,
+      "y": 968,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        944,
+        938,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-15",
+      "kind": "lamp",
+      "x": 1015,
+      "y": 906,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        1012,
+        858,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-16",
+      "kind": "sign",
+      "x": 975.0,
+      "y": 929.5,
+      "width": 20,
+      "height": 3,
+      "source_pixel_bounds": [
+        980,
+        883,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-17",
+      "kind": "lamp",
+      "x": 1126,
+      "y": 708,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        1125,
+        680,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-18",
+      "kind": "lamp",
+      "x": 1177,
+      "y": 723,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        1174,
+        693,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-19",
+      "kind": "lamp",
+      "x": 1281,
+      "y": 627,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        1278,
+        597,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-20",
+      "kind": "lamp",
+      "x": 1316,
+      "y": 626,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        1313,
+        596,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-21",
+      "kind": "lamp",
+      "x": 1362,
+      "y": 543,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        1359,
+        513,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-22",
+      "kind": "lamp",
+      "x": 1355,
+      "y": 583,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        1352,
+        553,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-23",
+      "kind": "lamp",
+      "x": 1050,
+      "y": 909,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        1047,
+        879,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-24",
+      "kind": "lamp",
+      "x": 1128,
+      "y": 922,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        1126,
+        891,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-25",
+      "kind": "lamp",
+      "x": 1155,
+      "y": 952,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        1152,
+        922,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-26",
+      "kind": "lamp",
+      "x": 1193,
+      "y": 935,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        1190,
+        905,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-27",
+      "kind": "lamp",
+      "x": 1192,
+      "y": 922,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        1189,
+        892,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-lamp-south-28",
+      "kind": "lamp",
+      "x": 1086,
+      "y": 988,
+      "width": 2,
+      "height": 2,
+      "source_pixel_bounds": [
+        1083,
+        958,
+        8,
+        33
+      ]
+    },
+    {
+      "id": "native-car-south-1",
+      "kind": "vehicle",
+      "x": 287,
+      "y": 520,
+      "width": 10,
+      "height": 18
+    },
+    {
+      "id": "native-car-south-2",
+      "kind": "vehicle",
+      "x": 309,
+      "y": 533,
+      "width": 10,
+      "height": 18
+    },
+    {
+      "id": "native-car-south-3",
+      "kind": "vehicle",
+      "x": 116,
+      "y": 520,
+      "width": 12,
+      "height": 20
+    },
+    {
+      "id": "native-car-south-4",
+      "kind": "vehicle",
+      "x": 369,
+      "y": 627,
+      "width": 10,
+      "height": 18
+    },
+    {
+      "id": "native-car-south-5",
+      "kind": "vehicle",
+      "x": 354,
+      "y": 711,
+      "width": 12,
+      "height": 20
+    },
+    {
+      "id": "native-car-south-6",
+      "kind": "vehicle",
+      "x": 267,
+      "y": 794,
+      "width": 10,
+      "height": 18
+    },
+    {
+      "id": "native-car-south-7",
+      "kind": "vehicle",
+      "x": 315,
+      "y": 910,
+      "width": 10,
+      "height": 18
+    },
+    {
+      "id": "native-car-south-8",
+      "kind": "vehicle",
+      "x": 333,
+      "y": 920,
+      "width": 10,
+      "height": 18
+    },
+    {
+      "id": "native-car-south-9",
+      "kind": "vehicle",
+      "x": 354,
+      "y": 928,
+      "width": 10,
+      "height": 18
+    },
+    {
+      "id": "native-car-south-10",
+      "kind": "vehicle",
+      "x": 664,
+      "y": 580,
+      "width": 12,
+      "height": 20
+    },
+    {
+      "id": "native-car-south-11",
+      "kind": "vehicle",
+      "x": 687,
+      "y": 586,
+      "width": 12,
+      "height": 20
+    },
+    {
+      "id": "native-car-south-12",
+      "kind": "vehicle",
+      "x": 671,
+      "y": 641,
+      "width": 10,
+      "height": 18
+    },
+    {
+      "id": "native-car-south-13",
+      "kind": "vehicle",
+      "x": 795,
+      "y": 693,
+      "width": 10,
+      "height": 18
+    },
+    {
+      "id": "native-car-south-14",
+      "kind": "vehicle",
+      "x": 819,
+      "y": 698,
+      "width": 10,
+      "height": 18
+    },
+    {
+      "id": "native-car-south-15",
+      "kind": "vehicle",
+      "x": 884,
+      "y": 713,
+      "width": 12,
+      "height": 20
+    },
+    {
+      "id": "native-car-south-16",
+      "kind": "vehicle",
+      "x": 668,
+      "y": 849,
+      "width": 12,
+      "height": 20
+    },
+    {
+      "id": "native-car-south-17",
+      "kind": "vehicle",
+      "x": 783,
+      "y": 874,
+      "width": 10,
+      "height": 18
+    },
+    {
+      "id": "native-car-south-18",
+      "kind": "vehicle",
+      "x": 811,
+      "y": 889,
+      "width": 10,
+      "height": 18
+    },
+    {
+      "id": "native-car-south-19",
+      "kind": "vehicle",
+      "x": 833,
+      "y": 899,
+      "width": 10,
+      "height": 18
+    },
+    {
+      "id": "native-car-south-20",
+      "kind": "vehicle",
+      "x": 860,
+      "y": 911,
+      "width": 10,
+      "height": 18
+    },
+    {
+      "id": "native-car-south-21",
+      "kind": "vehicle",
+      "x": 593,
+      "y": 1009,
+      "width": 10,
+      "height": 18
+    },
+    {
+      "id": "native-planter-south-1",
+      "kind": "planter",
+      "x": 496.5,
+      "y": 618.0,
+      "width": 19,
+      "height": 6
+    },
+    {
+      "id": "native-planter-south-2",
+      "kind": "planter",
+      "x": 573.0,
+      "y": 644.0,
+      "width": 18,
+      "height": 6
+    },
+    {
+      "id": "native-planter-south-3",
+      "kind": "planter",
+      "x": 797.0,
+      "y": 682.5,
+      "width": 16,
+      "height": 5
+    },
+    {
+      "id": "native-planter-south-4",
+      "kind": "planter",
+      "x": 823.0,
+      "y": 687.5,
+      "width": 16,
+      "height": 5
+    },
+    {
+      "id": "native-planter-south-5",
+      "kind": "planter",
+      "x": 585.0,
+      "y": 843.5,
+      "width": 20,
+      "height": 5
+    },
+    {
+      "id": "native-planter-south-6",
+      "kind": "sign",
+      "x": 1110.0,
+      "y": 974.5,
+      "width": 20,
+      "height": 3
+    },
+    {
+      "id": "native-train-coach-1",
+      "kind": "train",
+      "x": 1100,
+      "y": 191.0,
+      "width": 65,
+      "height": 23.0,
+      "support_line": [
+        [
+          1100,
+          194
+        ],
+        [
+          1165,
+          211
+        ]
+      ],
+      "support_depth": 6
+    },
+    {
+      "id": "native-train-coach-2",
+      "kind": "train",
+      "x": 1170,
+      "y": 208.0,
+      "width": 65,
+      "height": 23.0,
+      "support_line": [
+        [
+          1170,
+          211
+        ],
+        [
+          1235,
+          228
+        ]
+      ],
+      "support_depth": 6
+    },
+    {
+      "id": "native-train-coach-3",
+      "kind": "train",
+      "x": 1240,
+      "y": 226.0,
+      "width": 114,
+      "height": 35.0,
+      "support_line": [
+        [
+          1240,
+          229
+        ],
+        [
+          1354,
+          258
+        ]
+      ],
+      "support_depth": 6
+    },
+    {
+      "id": "native-train-coach-4",
+      "kind": "train",
+      "x": 1359,
+      "y": 254.0,
+      "width": 66,
+      "height": 24.0,
+      "support_line": [
+        [
+          1359,
+          257
+        ],
+        [
+          1425,
+          275
+        ]
+      ],
+      "support_depth": 6
+    },
+    {
+      "id": "native-platform-1",
+      "kind": "platform",
+      "x": 789,
+      "y": 86.5,
+      "width": 79,
+      "height": 20.0,
+      "support_line": [
+        [
+          789,
+          88
+        ],
+        [
+          868,
+          105
+        ]
+      ],
+      "support_depth": 3
+    },
+    {
+      "id": "native-platform-2",
+      "kind": "platform",
+      "x": 844,
+      "y": 167.5,
+      "width": 51,
+      "height": 15.0,
+      "support_line": [
+        [
+          844,
+          169
+        ],
+        [
+          895,
+          181
+        ]
+      ],
+      "support_depth": 3
+    },
+    {
+      "id": "native-platform-3",
+      "kind": "platform",
+      "x": 1114,
+      "y": 240.5,
+      "width": 62,
+      "height": 17.0,
+      "support_line": [
+        [
+          1114,
+          242
+        ],
+        [
+          1176,
+          256
+        ]
+      ],
+      "support_depth": 3
+    },
+    {
+      "id": "native-rail-bridge-support-left",
+      "kind": "rail-bridge-column",
+      "x": 1189,
+      "y": 235,
+      "width": 5,
+      "height": 5
+    },
+    {
+      "id": "native-rail-bridge-support-right",
+      "kind": "rail-bridge-column",
+      "x": 1213,
+      "y": 242,
+      "width": 5,
+      "height": 5
+    }
+  ]
+}

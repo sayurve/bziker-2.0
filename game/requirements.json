@@ -1,0 +1,972 @@
+{
+  "schema_version": 17,
+  "recorded_date": "2026-10-10",
+  "timezone": "Europe/Moscow",
+  "profile": "В",
+  "name": "Бзикер",
+  "stage": "local_mobile_city_v14_source_character_atlases",
+  "implementation_status": "City v14: supplied idle and movement artwork is the canonical character basis; female shorter/narrower variant, source-textured poses and hair-only customization; live Telegram deployment pending.",
+  "confirmed": {
+    "language": "ru",
+    "platform": "Telegram Mini App through bot; loopback demo available",
+    "modes": [
+      "team",
+      "individual"
+    ],
+    "teams": {
+      "default_max": 4,
+      "configurable_max": [
+        1,
+        8
+      ],
+      "self_organized": true,
+      "group_size": "not_fixed",
+      "creator_is_captain": true,
+      "captain_only_submits": true,
+      "individual_player_capacity": "not_limited_by_max_teams"
+    },
+    "profile": {
+      "name": "1–32 visible characters; fixed after first registration; new nicknames unique after NFKC/casefold",
+      "avatar": "shared normalized raster atlas; nearest-neighbor SVG/Canvas rendering; saved customization IDs retained",
+      "avatar_fields": {
+        "gender": [
+          0,
+          1
+        ],
+        "skin": [
+          0,
+          7
+        ],
+        "hairStyle": [
+          0,
+          11
+        ],
+        "hairColor": [
+          0,
+          9
+        ],
+        "shirtStyle": [
+          0,
+          3
+        ],
+        "shirtColor": [
+          0,
+          11
+        ],
+        "pantsStyle": [
+          0,
+          3
+        ],
+        "pantsColor": [
+          0,
+          7
+        ],
+        "accessory": [
+          0,
+          5
+        ],
+        "shoesColor": [
+          0,
+          5
+        ],
+        "headwear": [
+          0,
+          4
+        ],
+        "outfit": [
+          0,
+          6
+        ]
+      },
+      "presets": 6,
+      "nickname_immutable": true,
+      "catalog_thumbnails": true,
+      "headgear_preview": "head-only square thumbnail without face",
+      "shop_outfits": "nonzero outfit requires owned purchase",
+      "mobile_builder": "pinned avatar and nickname, collapsed gender after selection, internally scrolling category catalog and palettes"
+    },
+    "context": [
+      "theme",
+      "audience",
+      "goal",
+      "constraints"
+    ],
+    "meeting": "optional HTTPS link; no Zoom API",
+    "start": {
+      "minimum_units": 1,
+      "minimum_curators": 1,
+      "all_team_players_have_team": true,
+      "roster_and_jury_frozen": true
+    },
+    "roles": [
+      "host_participant",
+      "participant",
+      "captain",
+      "curator"
+    ],
+    "no_player_curator_overlap": true,
+    "invites": "separate player/jury/team codes plus addressed phone invitations; server chooses role/team permission",
+    "visual": {
+      "environment": "2D top-down three-quarter pixel RPG: roof/top/side planes, material shading, depth-sorted actors and props; modern BZIK buildings with local colour accents",
+      "people_style": "shared24x36 compact RPG, four directions and eight phase walk cycle; stable face/head; phone overlay preserves sitting",
+      "captain_elevated": true,
+      "host_podium": "left",
+      "jury": "generic silhouettes",
+      "lobby_people": "real accounts only",
+      "splash_scene": "retained illustrative asset",
+      "portrait_primary": true,
+      "color_accents": "pale modern city, muted vegetation and local avatar/clan/menu colours",
+      "start_transfer": "all participants atomically assigned to arena by server; any participant screen follows authorized arena",
+      "finish_return": "all participant arena records persist city",
+      "lighting": "1200-second day/night cycle with local lamps; optional local day/night view"
+    },
+    "question_selection": {
+      "first_chooser": "first created team / first joined player",
+      "next_chooser": "cyclic after each round",
+      "host_can_facilitate": true,
+      "answer_policy": {
+        "options": [
+          "all",
+          "first"
+        ],
+        "default": "all",
+        "first": "atomic captain/individual buzz; winning unit alone submits"
+      }
+    },
+    "grading": {
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "manual": true,
+      "one_overall_grade": true,
+      "all_curators_grade_each_received_answer": true,
+      "replace_before_curator_finishes": true,
+      "formula": "question_value * (sum(grades) / curator_count) / 10",
+      "missing_answer_points": 0,
+      "award_once_after_all_curators_finish": true,
+      "display_decimals": 1,
+      "ties": "shared_place (1, 1, 3)"
+    },
+    "blind_review": {
+      "curator_accounts": "separate",
+      "circular_small_count": true,
+      "four_positions": [
+        "north",
+        "east",
+        "south",
+        "west"
+      ],
+      "dialog": "full contextual question, full text, 0–10 buttons",
+      "generic_avatars_only": true,
+      "stable_shuffled_order_per_curator_round": true,
+      "opaque_tokens": true,
+      "excluded": [
+        "team_number",
+        "team_name",
+        "player_identity",
+        "player_avatar",
+        "original_answer_id",
+        "submission_timestamp",
+        "score_table",
+        "team_mapping"
+      ],
+      "user_text_auto_anonymization": false,
+      "social_blackout": true
+    },
+    "states": [
+      "waiting",
+      "choosing",
+      "answering",
+      "reviewing",
+      "finished"
+    ],
+    "short_game_finish": "host, between rounds",
+    "persistence": "SQLite; draft localStorage; cookie session",
+    "polling": {
+      "interval_ms": 3000,
+      "pause_when_hidden": true,
+      "preserve_answer_focus_and_text": true
+    },
+    "responsive_widths": [
+      320,
+      390,
+      768,
+      1280
+    ],
+    "keyboard": true,
+    "visible_focus": true,
+    "reduced_motion": true,
+    "no_external_fonts_or_frameworks": true,
+    "world": {
+      "dimensions": [
+        8400,
+        5200
+      ],
+      "walkable_y": [
+        28,
+        5172
+      ],
+      "active_account_limit": 100,
+      "presence_ttl_seconds": 45,
+      "includes_curators": true,
+      "measured_100_browser_load": false,
+      "controls_mobile": [
+        "pointer-captured joystick",
+        "action button",
+        "phone",
+        "separate inventory button"
+      ],
+      "controls_desktop": [
+        "WASD",
+        "arrows",
+        "E",
+        "P",
+        "physical E/P on Cyrillic layout",
+        "I / physical I on Cyrillic layout: inventory"
+      ],
+      "pause_behind_modal": true,
+      "simultaneous_active_matches_per_player": 1,
+      "walkable_x": [
+        28,
+        8372
+      ],
+      "layout": "connected bent/ring roads, central plaza, southern park/lake and unified eastern clan quarter",
+      "scenes": [
+        "city",
+        "interior",
+        "base",
+        "arena",
+        "cards"
+      ],
+      "zoom": {
+        "default": 1.25,
+        "range": [
+          0.8,
+          1.6
+        ]
+      },
+      "minimap": "compact top left; expandable overview",
+      "online_badge": "actual count plus small онлайн; no denominator",
+      "clan_district": {
+        "houses": 8,
+        "layout": [
+          4,
+          2
+        ],
+        "separate_scene": false,
+        "layout_description": "part of same city",
+        "construction_plots": 8
+      },
+      "district_legacy_alias": "city quarter",
+      "spawn": {
+        "first_entry": [
+          3360,
+          2610
+        ],
+        "location": "west railway separated from city; approximately 8 seconds of continuous walking to welcome sign",
+        "welcome_sign": "Добро пожаловать в Бзикер",
+        "returning_accounts": "retain authorized last position separately from expiring online presence",
+        "migration": "Existing map-v5 migration remains; v11 does not change the schema or reset valid saved city positions."
+      },
+      "fast_travel": "actual server coordinates via full map and phone; active matches and private base rights enforced",
+      "object_taps": "nearby doors and benches dispatch the same action as E/button",
+      "poses": [
+        "idle",
+        "phone",
+        "sit",
+        "smoke"
+      ],
+      "benches": 11,
+      "public_interiors": {
+        "count": 11,
+        "geometry": "web/interiors-map.json",
+        "dimensions": [
+          900,
+          680
+        ],
+        "shared_seats": 52,
+        "door_entry": "nearby physical entry",
+        "counter": "nearby feature opens existing phone application",
+        "exit": "nearby exit returns to corresponding city door",
+        "presence": "same-room real accounts with per-player interior_id/scene_id",
+        "restore": "stable seat and phone pose retained after room refit; obstructed positions repaired locally within same room",
+        "decorative_collisions": "all physical solid props project exactly to shared JSON solids; suspended panels have no floor supports",
+        "physical_props": 142,
+        "layout_version": 8,
+        "prop_renderer": "web/interior-props.js",
+        "floor_zones": "functional zones with room-specific materials",
+        "circulation": "radius14 reachable entrance/service/exit/all seat approaches",
+        "room_minimap": true
+      },
+      "rendering": "cached ground, separate objects sorted with actors by foot depth; pixel materials and consistent light",
+      "arrival_route": {
+        "points": [
+          [
+            3360,
+            2610
+          ],
+          [
+            3650,
+            2610
+          ],
+          [
+            4050,
+            2650
+          ],
+          [
+            4700,
+            2610
+          ]
+        ],
+        "walking_seconds": 7.81
+      },
+      "city_seats": 22,
+      "phone_open": "independent overlay flag, no coordinate/scene/bench reset",
+      "activities": [
+        "fishing from shore or boat",
+        "pat dog",
+        "pat cat",
+        "pat selected owned pet",
+        "collect litter",
+        "trash bin"
+      ],
+      "transport": "walking initially; cars, skateboard, horse, bus and metro future",
+      "ground_cache": "half-resolution world chunks, native labels and sprites, bounded cache",
+      "water": {
+        "geometry": "rotated ellipse from world-map.json lake",
+        "pedestrians": "position and full segment cannot enter/cross water",
+        "boats": "one occupant each, water only, authoritative occupancy",
+        "boat_count": 3,
+        "boarding": "near own dock boarding point",
+        "disembark": "near own water dock, returns to dry boarding point",
+        "controls": [
+          "joystick",
+          "WASD",
+          "arrows"
+        ],
+        "phone": "preserves boat and position",
+        "fast_travel": "must disembark; only authorised destination points bypass pedestrian path check"
+      },
+      "pets": {
+        "effect_duration_seconds": 2,
+        "public_pet_effect": true,
+        "preserves_pose_and_phone": true,
+        "sounds": [
+          "dog-bark",
+          "cat-meow"
+        ],
+        "repeated_snapshots_quiet": true
+      },
+      "city_v12": {
+        "frontages": 27,
+        "parking_pockets": 27,
+        "public_facade_silhouettes": 11,
+        "lamps": 61,
+        "trees": 420,
+        "architecture_props": 16,
+        "compiled_physical_obstacles": 671,
+        "collision_geometry": "foot supports, shared by browser/server; crowns and light are not walls",
+        "inventory_position": "flush before use; retain sitting and coordinates; no phone pose",
+        "road_pier_label": "boat pictogram, no permanent pier/fishing wording",
+        "character_actions": "articulated draw poses for pickup/throw/pet/eat/drink/eight-stage smoke"
+      }
+    },
+    "clans": {
+      "permanent": true,
+      "one_per_account": true,
+      "fields": [
+        "name",
+        "color",
+        "flag",
+        "leader",
+        "members",
+        "requests"
+      ],
+      "join": "application accepted by leader",
+      "leadership_transfer": true,
+      "last_member_leave": "archive preserving results",
+      "base": {
+        "grid": [
+          12,
+          8
+        ],
+        "max_items": 30,
+        "types": [
+          "sofa",
+          "desk",
+          "plant",
+          "board",
+          "chair",
+          "armchair",
+          "bookcase",
+          "bed",
+          "lamp",
+          "counter",
+          "rug",
+          "dining-table",
+          "shelf",
+          "tv",
+          "cabinet"
+        ],
+        "leader_edits": true,
+        "saved": true,
+        "wall_building": false,
+        "building_selection": "leader constructs a vacant plot while nearby; >=4 real members; immutable plot/style/exterior color",
+        "building_count": 8,
+        "preserve_items_on_reassignment": false,
+        "occupancy": "one active clan per plot; new clans unassigned; archive releases plot",
+        "return_scene": "city at own house",
+        "room_palettes": true,
+        "item_palettes": true,
+        "exterior_styles": 6,
+        "premium_furniture": "owned shop item required; standard furniture remains available",
+        "placement": "12×8 grid,0/90 rotation, shared footprints, solid items cannot overlap; rug can be beneath furniture; legacy5 items keep1×1 footprint",
+        "guest_access": "addressed invitation accepted by guest; no clan membership/editor rights; active_base distinct from my_clan",
+        "interactive_seats": "sofa, chair, armchair, bed and dining table according to shared seat anchors",
+        "exterior_color": "independent of clan flag; 32 swatches plus strict #RRGGBB custom/native colour picker",
+        "exterior_mutable_after_build": false,
+        "construction_member_minimum": 4,
+        "construction_distance": 58,
+        "legacy_houses": "assigned houses retain exterior and progress without requiring four members",
+        "construction_cost": 0,
+        "build_button": "Построить",
+        "eyedropper": "EyeDropper where supported; local solid-fill sampling from house preview otherwise"
+      },
+      "rating": "raw summed quiz points at official game finish; one ledger row per clan/match",
+      "team_affiliation": "frozen at team creation",
+      "individual_affiliation": "frozen at start",
+      "normalization": false
+    },
+    "phone": {
+      "implemented": [
+        "app grid",
+        "lobbies",
+        "join codes",
+        "clans/building choice",
+        "results",
+        "avatar catalog",
+        "nickname search",
+        "private conversations",
+        "addressed invitations",
+        "full map/teleport destinations",
+        "wallet/side quests",
+        "mutual friends",
+        "inventory",
+        "three shops",
+        "smoking requests",
+        "card invitations",
+        "card rooms",
+        "virtual casino",
+        "guest base invitations",
+        "fishing catch"
+      ],
+      "chats": true,
+      "physical_frame": true,
+      "opening": "slides up from bottom right",
+      "timestamps": "server Unix seconds converted to milliseconds",
+      "polling": "one visible-open phone loop; paused on close/hidden/navigation; preserves typed text/focus/caret",
+      "compact_desktop": [
+        280,
+        420
+      ],
+      "compact_portrait": [
+        220,
+        360
+      ],
+      "expandable": true,
+      "non_modal": true,
+      "city_visible": true,
+      "bottom_home_label": "Бзикер",
+      "trigger": "small square phone icon bottom beside action button",
+      "pose": "phone_open overlay above existing sit/idle/smoke, looking at upper-chest phone without changing location"
+    },
+    "sound": {
+      "enabled_by_default": true,
+      "gesture_required": true,
+      "saved_mute_respected": true,
+      "volume_default": 0.65,
+      "volume_setting": [
+        0,
+        1
+      ],
+      "style": "original Web Audio square/triangle/digital-noise chip effects",
+      "events": [
+        "click",
+        "select",
+        "notify",
+        "pay",
+        "door-open",
+        "door-close",
+        "phone-open",
+        "phone-close",
+        "step",
+        "sit",
+        "stand",
+        "action",
+        "success",
+        "error",
+        "takeoff",
+        "dog-bark",
+        "cat-meow",
+        "boat-board",
+        "boat-exit",
+        "boat-row"
+      ],
+      "payment": "original confirmation after successful virtual purchase, inspired by a modern payment cue, not an Apple Pay recording or verified identical sound",
+      "notification": "first baseline quiet; new unread/social invitation only; closed phone polling; hidden tab/mute suppress sound",
+      "maximum_simultaneous_effects": 4,
+      "step_min_interval_ms": 220,
+      "boat_row_min_interval_ms": 650,
+      "animal_preview_buttons": true
+    },
+    "settings": {
+      "available_from": [
+        "splash",
+        "city"
+      ],
+      "stored_locally": [
+        "zoom",
+        "nickname visibility",
+        "sound",
+        "lighting mode"
+      ],
+      "updates_live": true,
+      "surface": "separate modal, outside phone apps"
+    },
+    "economy": {
+      "currency": "Бзинге",
+      "coin": "pixel mascot head",
+      "initial_balance": 0,
+      "real_money": false,
+      "cash_out": false,
+      "hud": "balance by minimap and in phone",
+      "shops": [
+        "food",
+        "clothes",
+        "furniture"
+      ],
+      "quests": {
+        "firstprofile": 30,
+        "joinclan": 40,
+        "firstfriend": 20,
+        "fivefriends": 100,
+        "firstpurchase": 20,
+        "firstfinishedquiz": 50,
+        "parkvisit": 10,
+        "sit10s": 10,
+        "casinovisit": 10,
+        "terracevisit": 10,
+        "firstfish": 20,
+        "petdog": 10,
+        "bintrash": 10,
+        "firstdurak": 20,
+        "cardwin": 30
+      },
+      "quest_claims": "one-time fact eligibility plus daily30 cap; claim is explicit and persisted",
+      "inventory": "persistent quantities, owned outfits/deck/premium furniture",
+      "friends": "addressed request and mutual acceptance",
+      "cigarette": "virtual item, only usable in smoking zone, 8-second pose",
+      "transfer": "recipient accepts actual nearby smoking request, atomically transfers one item",
+      "daily": {
+        "day": "Europe/Moscow",
+        "quests": {
+          "dailypark": 10,
+          "dailysit": 10,
+          "dailytrash": 10
+        },
+        "max_reward": 30,
+        "ledger": "once per account/quest/day"
+      },
+      "fishing": {
+        "rod_price": 40,
+        "delay_seconds": 2,
+        "catch": "one fish in persistent inventory per successful cast, idempotent catch",
+        "requires": "near lake spot and owned rod"
+      },
+      "pets": {
+        "ids": [
+          "pet-dog",
+          "pet-cat"
+        ],
+        "price": 180,
+        "equip": "one selected owned pet, follows owner and shared with nearby players"
+      },
+      "outfits": {
+        "sports": 120,
+        "animal": 200,
+        "raincoat": 160
+      },
+      "inventory_ui": {
+        "placement": "separate bottom drawer, never opens phone",
+        "slots": 10,
+        "stacking": "identical item types share one slot",
+        "portrait_layout": [
+          5,
+          2
+        ],
+        "desktop_layout": [
+          10,
+          1
+        ],
+        "activation": "tap selects; explicit button uses",
+        "categories": [
+          "food",
+          "consumable",
+          "deck",
+          "tool",
+          "catch",
+          "litter",
+          "pet"
+        ],
+        "wardrobe_and_base_furniture": "owned collections remain in their catalogues",
+        "full_bag": "new carried item type rejected atomically; existing stack allowed"
+      }
+    },
+    "cards": {
+      "poker": "2–4 players, five-card draw, one exchange or keep, fixed ante, hand rank and tie settlement",
+      "blackjack": "1–4 players with dealer standing on all 17; ace 1/11; win 2x including natural, push refund",
+      "source": [
+        "casino public waiting room",
+        "bought deck private invitations"
+      ],
+      "stakes": "integer 1–100 virtual Бзинге",
+      "private_cards": "own hand only until final reveal; dealer one visible card before finish",
+      "start": "server atomically checks funds and assigns every participant to card scene",
+      "slots": {
+        "symbols": [
+          "cherry",
+          "lemon",
+          "bell",
+          "diamond",
+          "seven"
+        ],
+        "triple_seven": "5x ante",
+        "other_triple": "3x ante",
+        "pair": "refund ante",
+        "no_match": "0",
+        "idempotency": "same saved account nonce and ante replay once; unknown response recovered before casino UI even at zero balance"
+      },
+      "jury_blackout": "waiting roster unavailable if any participant gets unfinished jury duty; frontend clears cached roster on denial",
+      "history": "tables and settlement persist in SQLite",
+      "durak": "2–4 players;36 cards; six initial; bottom trump; legal attack/defend/pickup/pass; matched-rank throw-ins limited by initial defender hand/max6; attacker-first/defender-last draw; final loser and idempotent shared pot"
+    },
+    "account": {
+      "login": "3–32 ASCII characters; first letter or digit, then a-z0-9_.-; case-insensitive",
+      "password": "8–128 characters; salted scrypt; not returned or stored by frontend",
+      "registration": "new players create credentials before avatar; existing demo can claim same account without losing progress",
+      "session": "HttpOnly same-origin cookie; rotated session/CSRF on register/login/logout",
+      "cross_device": "same credentials restore same persistent account",
+      "nickname": "separate immutable in-game name"
+    },
+    "living_city_v7": {
+      "visual_direction": "Original detailed pixel art following user-supplied proportions, materials and depth; modern neutral buildings with muted vegetation/accents",
+      "avatar_pixels": [
+        32,
+        48
+      ],
+      "walk_frames": 8,
+      "action_frames": 4,
+      "item_actions": [
+        "eat",
+        "drink",
+        "pick-litter",
+        "throw-litter"
+      ],
+      "preserve_seat_phone_position": true,
+      "holding_litter_matches_inventory": true,
+      "common_roaming_animals": 12,
+      "all_outdoor_ground": "grass and asphalt with paved sidewalks/forecourts",
+      "casino_poker": "pixel interior around seated participants; private hands stay private",
+      "step_sound": "soft contact tone without raw noise layer",
+      "primary_devices": "portrait mobile; desktop supported",
+      "browser_tabs": "reuse one existing tab"
+    }
+  },
+  "demo_bank": {
+    "file": "question-bank.demo.json",
+    "topics": 4,
+    "questions_per_topic": 5,
+    "values": [
+      100,
+      200,
+      300,
+      400,
+      500
+    ],
+    "final_project": {
+      "value": 1000,
+      "extra_board_category": true,
+      "mandatory_final_stage": false
+    },
+    "status": "authored demonstration content; user sets work context"
+  },
+  "architecture": {
+    "backend": "Python 3.10+ standard library / SQLite",
+    "frontend": "native HTML/CSS/JS modules",
+    "application_dependencies": [],
+    "mutations": "HttpOnly session + same-origin + CSRF",
+    "telegram_identity": "server HMAC validation of official initData; rotated session/CSRF",
+    "dotenv_auto_loading": false,
+    "public": "Telegram auth, canonical HTTPS PUBLIC_URL, Secure cookies, reverse proxy preserves canonical Host",
+    "demo": "loopback development mode; frontend first entry uses password account, old demo profiles can claim credentials"
+  },
+  "out_of_scope": [
+    "neural network APIs",
+    "AI grading",
+    "paid dependencies",
+    "per-character image generation",
+    "Zoom API",
+    "live Telegram requests without credentials",
+    "duels",
+    "special rounds",
+    "attachments",
+    "automatic round timer",
+    "bank editor",
+    "wall building",
+    "private city admission gate",
+    "100 concurrent browser load benchmark",
+    "leader-specific participation/victory cosmetic rewards",
+    "other mini-games beyond implemented quiz/cards/slots",
+    "land transport vehicles",
+    "100-browser performance benchmark"
+  ],
+  "delivery": {
+    "readme": "README.md",
+    "design": "game-design.txt",
+    "sources": "sources.txt",
+    "frontend": "web/",
+    "verification": "verification.json",
+    "screenshots": "screenshots/",
+    "archive_exclusions": [
+      ".env",
+      "data/",
+      "cache",
+      "browser sessions",
+      "temporary reports",
+      "private tokens"
+    ],
+    "pdf": "docs/bziker-project-v6.pdf",
+    "current_change_report": "docs/character-inventory-v13.md"
+  },
+  "live_launch": {
+    "telegram": false,
+    "https_deployment": false,
+    "credentials_in_delivery": false
+  },
+  "open_decisions": [
+    "actual work theme selected by game host",
+    "public domain/token/managed deployment",
+    "future game duration/timer and special rounds",
+    "actual supplied course/question content",
+    "private city invitation/admission policy",
+    "leader rewards and cross-game rating normalization"
+  ],
+  "sources": [
+    {
+      "title": "Telegram Mini Apps official documentation",
+      "url": "https://core.telegram.org/bots/webapps"
+    },
+    {
+      "title": "Telegram Bot API official documentation",
+      "url": "https://core.telegram.org/bots/api"
+    },
+    {
+      "title": "User-confirmed game brief",
+      "type": "conversation requirements"
+    },
+    {
+      "title": "Implemented rules and reproducible checks",
+      "type": "local code",
+      "files": [
+        "game.py",
+        "world.py",
+        "social.py",
+        "auth.py",
+        "server.py",
+        "web/",
+        "tests/",
+        "README.md",
+        "verification.json",
+        "economy.py",
+        "cards.py"
+      ]
+    },
+    {
+      "title": "Latest user-confirmed unified city, railway spawn, side quests, economy, shops, palettes and cards brief",
+      "type": "conversation requirements"
+    },
+    {
+      "title": "User volumetric pixel RPG references and clarification that all surroundings including benches must be remade",
+      "type": "conversation requirements",
+      "references": [
+        "codex-clipboard-0f83e0df-c7ad-4812-805d-9b9354798e79.png",
+        "codex-clipboard-92bfa0dc-7cb8-4fce-b6a0-6cf567fc31e5.png"
+      ]
+    },
+    {
+      "title": "Approved visual review and latest separate Minecraft-like ten-slot touch inventory requirement",
+      "type": "conversation requirements",
+      "date": "2026-10-10"
+    },
+    {
+      "title": "User supplied exact character visual references and requested colored inventory icons",
+      "type": "conversation requirements",
+      "date": "2026-10-10"
+    }
+  ],
+  "city_road_audit_v9": {
+    "continuous_intersections": true,
+    "full_network_material_passes": true,
+    "zebra_junction_clearance": true,
+    "planters_off_asphalt": true,
+    "road_bands_clear_all_buildings": true,
+    "waterfront_paths_dry": true,
+    "authored_routes": 27,
+    "report": "docs/roads-v9.md"
+  },
+  "city_motion_environment_v10": {
+    "request": "Independently review the whole map, correct strong walking shake and add more lamps and meaningful street details.",
+    "shared_actor_physical_pixel_anchor": true,
+    "walk_cycle_distance_world_units": 128,
+    "walk_frames": 8,
+    "peer_interpolation": "distance / movement_speed, minimum 120 ms; no smoothing for phone, seating or scene changes",
+    "street_lamps_total": 116,
+    "interactive_bins_total": 20,
+    "new_planters": 41,
+    "new_bollards": 23,
+    "new_guides": 5,
+    "new_objects": 188,
+    "existing_routes_preserved": 27,
+    "existing_door_approaches_preserved": 19,
+    "decorative_street_props": "Full visible bounds and depth are defined; these props do not add new movement collisions.",
+    "browser_tab_policy": "Reuse one existing tab; no new tabs; reset test viewport and restore original game.",
+    "report": "docs/city-v10.md"
+  },
+  "city_curb_fields_arrival_v11": {
+    "request": "Review similar pavement overlaps across the whole city; fill empty fields with trees; move railway closer; add city details.",
+    "pavement_material_union": true,
+    "reviewed_previous_defect_surfaces": 12,
+    "street_lamps_total": 105,
+    "interactive_bins_total": 20,
+    "trees_total": 420,
+    "new_trees": 330,
+    "existing_trees_retained": 90,
+    "existing_trees_relocated": 8,
+    "new_flower_planters": 10,
+    "street_details_total": 68,
+    "arrival_seconds": 7.81,
+    "station_spawn": [
+      3360,
+      2610
+    ],
+    "preserved_saved_positions": true,
+    "animal_routes_total": 12,
+    "station_animal_routes_moved": 2,
+    "decorative_collisions": "No new movement solids; full rendered bounds are checked for placement.",
+    "report": "docs/city-v11.md"
+  },
+  "character_inventory_v13": {
+    "request": "Redraw all characters according to supplied reference screenshots and make inventory icons colorful.",
+    "shared_character_frame": [
+      32,
+      48
+    ],
+    "ground_anchor": [
+      16,
+      47
+    ],
+    "walk_frames": 8,
+    "directions": 4,
+    "hairstyles": 12,
+    "skin_palettes": 8,
+    "gender_choices": 2,
+    "saved_customization_ids_preserved": true,
+    "character_changes": [
+      "compact stepped crown",
+      "short rounded jaw",
+      "eyes with sclera and pupil",
+      "directional shaded hair clusters",
+      "three-quarter side head and chest",
+      "shaded garments and boots",
+      "relaxed attached forearms"
+    ],
+    "composable_poses": [
+      "sit",
+      "phone",
+      "eat",
+      "drink",
+      "pick-litter",
+      "throw-litter",
+      "pet",
+      "smoke"
+    ],
+    "item_icon_frame": [
+      32,
+      32
+    ],
+    "item_icons": [
+      "coffee",
+      "snack",
+      "cigarette",
+      "rod",
+      "fish",
+      "pet-dog",
+      "pet-cat",
+      "trash",
+      "cards"
+    ],
+    "fallback_icon": true,
+    "inventory_slots": 10,
+    "selected_slot_color": "#2969b4",
+    "phone_hud_glyphs": "existing monochrome16px renderer",
+    "reference_basis": "User supplied screenshots, with source copies and visual comparison in docs. Not a complete source sprite atlas.",
+    "report": "docs/character-inventory-v13.md"
+  },
+  "character_source_v14": {
+    "canonical_geometry": {
+      "width": 40,
+      "height": 64,
+      "anchor_x": 20,
+      "anchor_y": 63
+    },
+    "supplied_idle": {
+      "file": "assets/actor-reference-idle-v14.png",
+      "directions": [
+        "down",
+        "left",
+        "up",
+        "right"
+      ],
+      "sha256": "ac03cc8f6ed7bceeedafabb1eb365c1e69b389df1855537fad1da7c2265addbe"
+    },
+    "supplied_walk": {
+      "file": "assets/actor-reference-walk-v14.png",
+      "authored_frames_per_direction": 4,
+      "held_animation_samples": 8,
+      "sha256": "a4f3bd65e1aebbe2529fa198c0e30fcd8d92c0cc9276ca54c4c7037b5d18543d"
+    },
+    "female": {
+      "slightly_shorter": true,
+      "narrower_waist": true,
+      "opaque_idle_height_pixels": 59,
+      "male_opaque_idle_height_pixels": 62,
+      "same_ground_contact": true,
+      "waist_scale": 0.88,
+      "moving_body_scale": 0.86
+    },
+    "customization": {
+      "hair_ids_retained": 12,
+      "hair_only_direction_variants": 44,
+      "skin_and_clothing_shading_preserved": true,
+      "nickname_fixed": true,
+      "saved_profiles_retained": true
+    },
+    "art_provenance": "docs/v14-art-prompts.md",
+    "normalization_audit": "docs/v14-source-atlas-audit.md",
+    "renderer": "web/actor-sprite.js",
+    "target_users": "mobile portrait, with desktop support"
+  },
+  "documentation": {
+    "current_change_report": "docs/character-source-v14.md"
+  }
+}

@@ -1,0 +1,1011 @@
+{
+  "generated_at_utc": "2026-10-15T02:57:10.775894+00:00",
+  "profile": "В — Владислав",
+  "source_files": [
+    {
+      "path": "game/web/world-map.json",
+      "sha256": "d45572a07183a8b515db32a55729537f8b99e72737ce9ef73b960a14554d59bd"
+    },
+    {
+      "path": "game/web/interiors-map.json",
+      "sha256": "0e4da5e3d9ea54fa8039eddfa0ff99983a55da99da94baa216849f7231314547"
+    },
+    {
+      "path": "game/web/design-data.js",
+      "sha256": "43c14cf28df7415ff1b34885a10116c4bfb3007819ba93698c68a3178857fd03"
+    },
+    {
+      "path": "game/web/house-catalog.json",
+      "sha256": "60bd9ab487d6195fad31e7e96d3fce67eec6e27da9bd67ea11bcc88faaf79b5a"
+    }
+  ],
+  "counts": {
+    "public_rooms": 11,
+    "source_building_folders": 10,
+    "base_plots": 8,
+    "background_residential_buildings": 30,
+    "outdoor_landmarks": 10,
+    "boats": 3,
+    "shore_fishing_spots": 2,
+    "outdoor_bench_groups": 17,
+    "outdoor_seats": 34
+  },
+  "public_rooms": [
+    {
+      "runtime_id": "railway",
+      "current_label": "Железнодорожный вокзал",
+      "city_label": "ВОКЗАЛ БЗИКЕР",
+      "room_kind": "station",
+      "source_family": "station",
+      "source_reference": "station-interior",
+      "exterior_asset_id": "railway-station",
+      "exterior_source": "materials/Bziker/01_Окружение/Здания/ЖД_вокзал/основной.png",
+      "exterior_source_folder": "ЖД_вокзал",
+      "door": {
+        "x": 8911,
+        "y": 2264
+      },
+      "feature_action": "travel",
+      "feature_label": "Карта города",
+      "props": 9,
+      "seats": 6,
+      "plan_version": null,
+      "bounds": {
+        "left": 266.923762,
+        "right": 1061.076238,
+        "top": 247,
+        "bottom": 457
+      },
+      "status": "runtime room and action binding present; not blanket art approval"
+    },
+    {
+      "runtime_id": "clans",
+      "current_label": "Дом кланов",
+      "city_label": "ДОМ КЛАНОВ",
+      "room_kind": "clanhall",
+      "source_family": "clan",
+      "source_reference": "bzik-hub-interior",
+      "exterior_asset_id": "clan-base-modern-clubhouse",
+      "exterior_source": "materials/Bziker/01_Окружение/Здания/Клановые_базы/01_Современный_клубный_дом/основной.png",
+      "exterior_source_folder": "Клановые_базы",
+      "door": {
+        "x": 1416,
+        "y": 1144
+      },
+      "feature_action": "clans",
+      "feature_label": "Управление кланом",
+      "props": 13,
+      "seats": 7,
+      "plan_version": null,
+      "bounds": {
+        "left": 298.636424,
+        "right": 1226.363576,
+        "top": 261,
+        "bottom": 701
+      },
+      "status": "runtime room and action binding present; not blanket art approval"
+    },
+    {
+      "runtime_id": "arena",
+      "current_label": "Зал «Своей игры»",
+      "city_label": "СВОЯ ИГРА",
+      "room_kind": "quizfoyer",
+      "source_family": "bzik-hub",
+      "source_reference": "bzik-hub-interior",
+      "exterior_asset_id": "shopping-mall-bzik-hub",
+      "exterior_source": "materials/Bziker/01_Окружение/Здания/ТЦ_Бзик_хаб/основной.png",
+      "exterior_source_folder": "ТЦ_Бзик_хаб",
+      "door": {
+        "x": 7168,
+        "y": 7360
+      },
+      "feature_action": "games",
+      "feature_label": "Выбрать или создать матч",
+      "props": 7,
+      "seats": 4,
+      "plan_version": null,
+      "bounds": {
+        "left": 329.92562,
+        "right": 1392.07438,
+        "top": 748,
+        "bottom": 1088
+      },
+      "status": "runtime room and action binding present; not blanket art approval"
+    },
+    {
+      "runtime_id": "profile",
+      "current_label": "Студия образов",
+      "city_label": "СТУДИЯ ОБРАЗОВ",
+      "room_kind": "wardrobe",
+      "source_family": "clothing",
+      "source_reference": "clothing-shop-interior",
+      "exterior_asset_id": "clothing-shop",
+      "exterior_source": "materials/Bziker/01_Окружение/Здания/Магазин_одежды/основной.png",
+      "exterior_source_folder": "Магазин_одежды",
+      "door": {
+        "x": 5838,
+        "y": 5384
+      },
+      "feature_action": "profile",
+      "feature_label": "Каталог персонажа",
+      "props": 6,
+      "seats": 3,
+      "plan_version": null,
+      "bounds": {
+        "left": 242.595911,
+        "right": 932.404089,
+        "top": 278,
+        "bottom": 538
+      },
+      "status": "runtime room and action binding present; not blanket art approval"
+    },
+    {
+      "runtime_id": "results",
+      "current_label": "Галерея результатов",
+      "city_label": "ГАЛЕРЕЯ РЕЗУЛЬТАТОВ",
+      "room_kind": "gallery",
+      "source_family": "bzik-hub",
+      "source_reference": "bzik-hub-interior",
+      "exterior_asset_id": "clan-base-stone-mansion",
+      "exterior_source": "materials/Bziker/01_Окружение/Здания/Клановые_базы/05_Каменный_особняк/основной.png",
+      "exterior_source_folder": "Клановые_базы",
+      "door": {
+        "x": 1517,
+        "y": 2440
+      },
+      "feature_action": "results",
+      "feature_label": "Рейтинг и результаты",
+      "props": 8,
+      "seats": 4,
+      "plan_version": null,
+      "bounds": {
+        "left": 300.154545,
+        "right": 1234.845455,
+        "top": 678,
+        "bottom": 958
+      },
+      "status": "runtime room and action binding present; not blanket art approval"
+    },
+    {
+      "runtime_id": "messages",
+      "current_label": "Кафе БЗИКЕР",
+      "city_label": "КАФЕ БЗИКЕР",
+      "room_kind": "cafe",
+      "source_family": "bar-pivkovy-tuz",
+      "source_reference": "bar-pivkovy-tuz-interior",
+      "exterior_asset_id": "bar-pivkovy-tuz",
+      "exterior_source": "materials/Bziker/01_Окружение/Здания/Бар_Пивковый_туз/основной.png",
+      "exterior_source_folder": "Бар_Пивковый_туз",
+      "door": {
+        "x": 6116,
+        "y": 7392
+      },
+      "feature_action": "messages",
+      "feature_label": "Сообщения и знакомства",
+      "props": 13,
+      "seats": 9,
+      "plan_version": 26,
+      "bounds": {
+        "left": 283.845118,
+        "right": 1148.154882,
+        "top": 254,
+        "bottom": 654
+      },
+      "status": "runtime room and action binding present; not blanket art approval"
+    },
+    {
+      "runtime_id": "terrace",
+      "current_label": "Творческая гостиная",
+      "city_label": "ТВОРЧЕСКАЯ ГОСТИНАЯ",
+      "room_kind": "terrace",
+      "source_family": "terrace",
+      "source_reference": "bar-pivkovy-tuz-interior",
+      "exterior_asset_id": "clan-base-wood-clubhouse",
+      "exterior_source": "materials/Bziker/01_Окружение/Здания/Клановые_базы/04_Дом_с_деревянной_отделкой/основной.png",
+      "exterior_source_folder": "Клановые_базы",
+      "door": {
+        "x": 11600,
+        "y": 3424
+      },
+      "feature_action": "messages",
+      "feature_label": "Открыть сообщения",
+      "props": 15,
+      "seats": 10,
+      "plan_version": null,
+      "bounds": {
+        "left": 294.2,
+        "right": 1203.8,
+        "top": 337,
+        "bottom": 777
+      },
+      "status": "runtime room and action binding present; not blanket art approval"
+    },
+    {
+      "runtime_id": "shop-food",
+      "current_label": "Лавка маскота",
+      "city_label": "ЛАВКА МАСКОТА",
+      "room_kind": "food-store",
+      "source_family": "food",
+      "source_reference": "bar-pivkovy-tuz-interior",
+      "exterior_asset_id": "food-kiosk",
+      "exterior_source": "materials/Bziker/01_Окружение/Здания/Ларёк_с_едой/основной.png",
+      "exterior_source_folder": "Ларёк_с_едой",
+      "door": {
+        "x": 6616,
+        "y": 5408
+      },
+      "feature_action": "shop-food",
+      "feature_label": "Продуктовый магазин",
+      "props": 6,
+      "seats": 0,
+      "plan_version": null,
+      "bounds": {
+        "left": 258.037086,
+        "right": 1013.962914,
+        "top": 235,
+        "bottom": 575
+      },
+      "status": "runtime room and action binding present; not blanket art approval"
+    },
+    {
+      "runtime_id": "shop-clothes",
+      "current_label": "Гардероб БЗИКЕР",
+      "city_label": "ГАРДЕРОБ БЗИКЕР",
+      "room_kind": "clothing-store",
+      "source_family": "clothing",
+      "source_reference": "clothing-shop-interior",
+      "exterior_asset_id": "clothing-shop",
+      "exterior_source": "materials/Bziker/01_Окружение/Здания/Магазин_одежды/основной.png",
+      "exterior_source_folder": "Магазин_одежды",
+      "door": {
+        "x": 3936,
+        "y": 6784
+      },
+      "feature_action": "shop-clothes",
+      "feature_label": "Магазин одежды",
+      "props": 9,
+      "seats": 0,
+      "plan_version": null,
+      "bounds": {
+        "left": 278.450558,
+        "right": 1121.549442,
+        "top": 313,
+        "bottom": 653
+      },
+      "status": "runtime room and action binding present; not blanket art approval"
+    },
+    {
+      "runtime_id": "shop-furniture",
+      "current_label": "Мебельная мастерская",
+      "city_label": "МЕБЕЛЬНАЯ МАСТЕРСКАЯ",
+      "room_kind": "furniture-store",
+      "source_family": "furniture",
+      "source_reference": "bar-pivkovy-tuz-interior",
+      "exterior_asset_id": "furniture-store",
+      "exterior_source": "materials/Bziker/01_Окружение/Здания/Мебельный_магазин/основной.png",
+      "exterior_source_folder": "Мебельный_магазин",
+      "door": {
+        "x": 5326,
+        "y": 6744
+      },
+      "feature_action": "shop-furniture",
+      "feature_label": "Магазин мебели",
+      "props": 9,
+      "seats": 5,
+      "plan_version": null,
+      "bounds": {
+        "left": 275.180808,
+        "right": 1103.819192,
+        "top": 246,
+        "bottom": 626
+      },
+      "status": "runtime room and action binding present; not blanket art approval"
+    },
+    {
+      "runtime_id": "casino",
+      "current_label": "Казино БЗИКЕР",
+      "city_label": "КАЗИНО БЗИКЕР",
+      "room_kind": "casino",
+      "source_family": "casino",
+      "source_reference": "casino-interior",
+      "exterior_asset_id": "casino-modern",
+      "exterior_source": "materials/Bziker/01_Окружение/Здания/Казино/основной.png",
+      "exterior_source_folder": "Казино",
+      "door": {
+        "x": 4734,
+        "y": 5048
+      },
+      "feature_action": "casino",
+      "feature_label": "Карточные комнаты и слоты",
+      "props": 23,
+      "seats": 16,
+      "plan_version": 26,
+      "bounds": {
+        "left": 343.827027,
+        "right": 1464.172973,
+        "top": 274,
+        "bottom": 734
+      },
+      "status": "runtime room and action binding present; not blanket art approval"
+    }
+  ],
+  "source_building_folder_mapping": [
+    {
+      "source_folder": "Бар_Пивковый_туз",
+      "public_runtime_ids_using_exterior": [
+        "messages"
+      ]
+    },
+    {
+      "source_folder": "ЖД_вокзал",
+      "public_runtime_ids_using_exterior": [
+        "railway"
+      ]
+    },
+    {
+      "source_folder": "Жилые_дома",
+      "public_runtime_ids_using_exterior": [],
+      "other_runtime_use": "30 background city buildings; not 30 enterable public interiors"
+    },
+    {
+      "source_folder": "Казино",
+      "public_runtime_ids_using_exterior": [
+        "casino"
+      ]
+    },
+    {
+      "source_folder": "Клановые_базы",
+      "public_runtime_ids_using_exterior": [
+        "clans",
+        "results",
+        "terrace"
+      ],
+      "other_runtime_use": "clan building style references; private base scene is access-controlled"
+    },
+    {
+      "source_folder": "Ларёк_с_едой",
+      "public_runtime_ids_using_exterior": [
+        "shop-food"
+      ]
+    },
+    {
+      "source_folder": "Магазин_одежды",
+      "public_runtime_ids_using_exterior": [
+        "profile",
+        "shop-clothes"
+      ]
+    },
+    {
+      "source_folder": "Мебельный_магазин",
+      "public_runtime_ids_using_exterior": [
+        "shop-furniture"
+      ]
+    },
+    {
+      "source_folder": "Строительная_площадка",
+      "public_runtime_ids_using_exterior": [],
+      "other_runtime_use": "unbuilt base-1..base-8 exteriors"
+    },
+    {
+      "source_folder": "ТЦ_Бзик_хаб",
+      "public_runtime_ids_using_exterior": [
+        "arena"
+      ]
+    }
+  ],
+  "outdoor_landmarks": {
+    "station": {
+      "x": 8911,
+      "y": 2288
+    },
+    "welcome": {
+      "x": 7248.0,
+      "y": 2720
+    },
+    "plaza": {
+      "x": 5744,
+      "y": 3472
+    },
+    "district": {
+      "x": 2008,
+      "y": 2488
+    },
+    "park": {
+      "x": 5530,
+      "y": 3256
+    },
+    "dock": {
+      "x": 8720,
+      "y": 2752
+    },
+    "archive": {
+      "x": 6248,
+      "y": 4336
+    },
+    "smoking": {
+      "x": 6152,
+      "y": 4732
+    },
+    "fountain": {
+      "x": 5704,
+      "y": 3092
+    },
+    "gazebo": {
+      "x": 5400.0,
+      "y": 2182
+    }
+  },
+  "landmark_semantics": {
+    "station": "arrival point outside railway public room",
+    "welcome": "visible sign, no dedicated interaction",
+    "plaza": "outdoor travel point",
+    "district": "outdoor clan neighbourhood, not separate map",
+    "park": "outdoor travel point and seats/pet actions",
+    "dock": "waterfront travel point; boarding requires boat-specific point",
+    "archive": "results action alias outside; not a twelfth room",
+    "smoking": "designated smoking area, item-based action",
+    "fountain": "visible object, no standalone feature action",
+    "gazebo": "visible object and approach, no standalone feature action"
+  },
+  "base_plots": [
+    {
+      "id": "base-1",
+      "label": "УЧАСТОК 01",
+      "door": {
+        "x": 2422,
+        "y": 4184
+      }
+    },
+    {
+      "id": "base-2",
+      "label": "УЧАСТОК 02",
+      "door": {
+        "x": 1118,
+        "y": 3768
+      }
+    },
+    {
+      "id": "base-3",
+      "label": "УЧАСТОК 03",
+      "door": {
+        "x": 2214,
+        "y": 5504
+      }
+    },
+    {
+      "id": "base-4",
+      "label": "УЧАСТОК 04",
+      "door": {
+        "x": 1590,
+        "y": 736
+      }
+    },
+    {
+      "id": "base-5",
+      "label": "УЧАСТОК 05",
+      "door": {
+        "x": 2342,
+        "y": 6552
+      }
+    },
+    {
+      "id": "base-6",
+      "label": "УЧАСТОК 06",
+      "door": {
+        "x": 518,
+        "y": 5344
+      }
+    },
+    {
+      "id": "base-7",
+      "label": "УЧАСТОК 07",
+      "door": {
+        "x": 1638,
+        "y": 7720
+      }
+    },
+    {
+      "id": "base-8",
+      "label": "УЧАСТОК 08",
+      "door": {
+        "x": 2902,
+        "y": 2392
+      }
+    }
+  ],
+  "private_base": {
+    "scene": "base",
+    "bounds": {
+      "left": 180,
+      "right": 1020,
+      "top": 174,
+      "bottom": 760
+    },
+    "entry": "clan member or invited guest; constructed building required",
+    "construction_minimum_members": 4,
+    "style_catalog": [
+      {
+        "id": 0,
+        "label": "Модерн",
+        "description": "Плоская крыша, светлый фасад, широкие окна"
+      },
+      {
+        "id": 1,
+        "label": "Лофт",
+        "description": "Кирпичная кладка, мансарда, большие окна"
+      },
+      {
+        "id": 2,
+        "label": "Атриум",
+        "description": "Стеклянная галерея и зелёная крыша"
+      },
+      {
+        "id": 3,
+        "label": "Сканди",
+        "description": "Двускатная крыша и деревянные рейки"
+      },
+      {
+        "id": 4,
+        "label": "Террасы",
+        "description": "Ступенчатые объёмы, балкон и озеленение"
+      },
+      {
+        "id": 5,
+        "label": "Дуплекс",
+        "description": "Две башни с общей галереей и входом"
+      }
+    ]
+  },
+  "water": {
+    "lake_outline_points": 39,
+    "islands": [
+      {
+        "x": 8960.0,
+        "y": 4480.0,
+        "radius_x": 440.0,
+        "radius_y": 280.0,
+        "rotation": -0.15
+      }
+    ],
+    "walkways": [
+      {
+        "id": "island-bridge",
+        "points": [
+          [
+            9896,
+            4888
+          ],
+          [
+            9184,
+            4392
+          ]
+        ],
+        "width": 70,
+        "geometry_only": true
+      },
+      {
+        "id": "dock-1",
+        "points": [
+          [
+            7760,
+            2648
+          ],
+          [
+            7760,
+            3120
+          ]
+        ],
+        "width": 60,
+        "geometry_only": true
+      },
+      {
+        "id": "dock-2",
+        "points": [
+          [
+            8720,
+            2752
+          ],
+          [
+            8720,
+            3208
+          ]
+        ],
+        "width": 60,
+        "geometry_only": true
+      },
+      {
+        "id": "dock-3",
+        "points": [
+          [
+            9504,
+            2800
+          ],
+          [
+            9504,
+            3144
+          ]
+        ],
+        "width": 60,
+        "geometry_only": true
+      }
+    ],
+    "boats": [
+      {
+        "id": "boat-1",
+        "label": "Лодка 1",
+        "x": 7760,
+        "y": 3120,
+        "dock": {
+          "x": 7760,
+          "y": 3120
+        },
+        "boarding": {
+          "x": 7760,
+          "y": 2648,
+          "radius": 65
+        }
+      },
+      {
+        "id": "boat-2",
+        "label": "Лодка 2",
+        "x": 8720,
+        "y": 3208,
+        "dock": {
+          "x": 8720,
+          "y": 3208
+        },
+        "boarding": {
+          "x": 8720,
+          "y": 2752,
+          "radius": 65
+        }
+      },
+      {
+        "id": "boat-3",
+        "label": "Лодка 3",
+        "x": 9504,
+        "y": 3144,
+        "dock": {
+          "x": 9504,
+          "y": 3144
+        },
+        "boarding": {
+          "x": 9504,
+          "y": 2800,
+          "radius": 65
+        }
+      }
+    ],
+    "shore_fishing_spots": [
+      {
+        "id": "fishing-west",
+        "action": "fishing",
+        "label": "Рыбачить",
+        "x": 7400,
+        "y": 3263,
+        "radius": 65
+      },
+      {
+        "id": "fishing-east",
+        "action": "fishing",
+        "label": "Рыбачить",
+        "x": 9925,
+        "y": 5394,
+        "radius": 65
+      }
+    ],
+    "boat_fishing": "existing economy API accepts occupied boat spot; rod required"
+  },
+  "smoking": {
+    "id": "smoking",
+    "x": 5950,
+    "y": 4544,
+    "width": 404,
+    "height": 200,
+    "door": {
+      "x": 6152,
+      "y": 4732
+    },
+    "access_path_id": "access-smoking"
+  },
+  "outdoor_activities": [
+    {
+      "id": "bin-plaza",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "x": 6064,
+      "y": 4096,
+      "radius": 65,
+      "kind": "bin",
+      "design": {
+        "assetId": "street-bin",
+        "x": 6064,
+        "y": 4056,
+        "width": 35,
+        "height": 69.3083,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false
+      },
+      "footprint": {
+        "x": 6054,
+        "y": 4036,
+        "width": 20,
+        "height": 20
+      },
+      "depth": 4056
+    },
+    {
+      "id": "bin-park",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "x": 5616,
+      "y": 3464,
+      "radius": 65,
+      "kind": "bin",
+      "design": {
+        "assetId": "street-bin",
+        "x": 5616,
+        "y": 3424,
+        "width": 35,
+        "height": 69.3083,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false
+      },
+      "footprint": {
+        "x": 5606,
+        "y": 3404,
+        "width": 20,
+        "height": 20
+      },
+      "depth": 3424
+    },
+    {
+      "id": "litter-park-1",
+      "action": "pick-litter",
+      "label": "Поднять мусор",
+      "x": 5448,
+      "y": 3416,
+      "radius": 65,
+      "kind": "litter",
+      "design": {
+        "assetId": "actor-prop-trash",
+        "x": 5448,
+        "y": 3416,
+        "width": 20,
+        "height": 20.0,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false
+      },
+      "depth": -1
+    },
+    {
+      "id": "litter-city-1",
+      "action": "pick-litter",
+      "label": "Поднять мусор",
+      "x": 6016,
+      "y": 5640,
+      "radius": 65,
+      "kind": "litter",
+      "design": {
+        "assetId": "actor-prop-trash",
+        "x": 6016,
+        "y": 5640,
+        "width": 20,
+        "height": 20.0,
+        "anchorX": 0.5,
+        "anchorY": 1,
+        "crop": "solid",
+        "direction": "front",
+        "baked_scene": false
+      },
+      "depth": -1
+    },
+    {
+      "id": "fishing-west",
+      "action": "fishing",
+      "label": "Рыбачить",
+      "x": 7400,
+      "y": 3263,
+      "radius": 65
+    },
+    {
+      "id": "fishing-east",
+      "action": "fishing",
+      "label": "Рыбачить",
+      "x": 9925,
+      "y": 5394,
+      "radius": 65
+    },
+    {
+      "id": "park-dog",
+      "action": "pet-dog",
+      "label": "Погладить собаку",
+      "radius": 65,
+      "x": 5584,
+      "y": 3256
+    },
+    {
+      "id": "park-cat",
+      "action": "pet-cat",
+      "label": "Погладить кошку",
+      "radius": 65,
+      "x": 6096,
+      "y": 3168
+    }
+  ],
+  "label_mismatches": [
+    {
+      "runtime_id": "messages",
+      "current_label": "Кафе БЗИКЕР",
+      "source_name": "Бар «Пивковый туз»",
+      "renamed_in_code": false
+    },
+    {
+      "runtime_id": "arena",
+      "current_label": "Зал «Своей игры»",
+      "source_name": "ТЦ «Бзик хаб» exterior and hub interior"
+    },
+    {
+      "runtime_id": "results",
+      "current_label": "Галерея результатов",
+      "source_name": "Клановая база: Каменный особняк exterior; hub interior"
+    }
+  ],
+  "animation_canon": {
+    "selection": "user-confirmed first two running screenshots; third idle screenshot excluded",
+    "purpose": "visual identity and proportions reference; screenshot is not a production transparent sprite",
+    "references": [
+      {
+        "path": "art/references/canonical-run/reference-01.png",
+        "source": "/var/folders/d0/nqbmbjt57w94zcxwddrkysmc0000gn/T/TemporaryItems/NSIRD_screencaptureui_p1FImT/Снимок экрана — 2026-10-15 в 02.39.38.png",
+        "sha256": "c2263aab814e11a7b2eb6476ac8747c1262ab81f7e82be50e688d13801224d37",
+        "sha256_verified": true
+      },
+      {
+        "path": "art/references/canonical-run/reference-02.png",
+        "source": "/var/folders/d0/nqbmbjt57w94zcxwddrkysmc0000gn/T/TemporaryItems/NSIRD_screencaptureui_meUhee/Снимок экрана — 2026-10-15 в 02.40.04.png",
+        "sha256": "1dc28f903df6a87315de69e8a53fd8a6b61333918b593fe476bd48a2661182f8",
+        "sha256_verified": true
+      }
+    ]
+  },
+  "video_qa": {
+    "selected_clips": [
+      {
+        "id": "male-basic",
+        "source": "materials/Bziker/02_Персонажи/Мужчина/Видео_основных_движений.mp4",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "index": 0,
+              "codec_type": "video",
+              "width": 640,
+              "height": 480,
+              "r_frame_rate": "24/1"
+            }
+          ],
+          "format": {
+            "duration": "34.000000"
+          }
+        },
+        "decode_exit_code": 0,
+        "decode_error": "",
+        "decoded_video_frames": 816,
+        "storyboard_interval_seconds": 0.5,
+        "storyboard_pages": [
+          "verification/location-video-qa/male-basic-01.png",
+          "verification/location-video-qa/male-basic-02.png",
+          "verification/location-video-qa/male-basic-03.png"
+        ],
+        "visual_inspection": "all complete storyboard pages viewed with view_image",
+        "visual_notes": "All 3 full sheets inspected: idle; walk/run in four directions; sit/crouch/sleep/eat/drink/jump/wave/pick-up. Archive idle is not the approved animation identity canon.",
+        "storyboard_sample_count": 68,
+        "storyboard_timeline_coverage_seconds": [
+          0,
+          33.5
+        ],
+        "audio_reviewed": false
+      },
+      {
+        "id": "female-basic",
+        "source": "materials/Bziker/02_Персонажи/Женщина/Видео_основных_движений.mp4",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "index": 0,
+              "codec_type": "video",
+              "width": 640,
+              "height": 480,
+              "r_frame_rate": "24/1"
+            }
+          ],
+          "format": {
+            "duration": "34.000000"
+          }
+        },
+        "decode_exit_code": 0,
+        "decode_error": "",
+        "decoded_video_frames": 816,
+        "storyboard_interval_seconds": 0.5,
+        "storyboard_pages": [
+          "verification/location-video-qa/female-basic-01.png",
+          "verification/location-video-qa/female-basic-02.png",
+          "verification/location-video-qa/female-basic-03.png"
+        ],
+        "visual_inspection": "all complete storyboard pages viewed with view_image",
+        "visual_notes": "All 3 full sheets inspected: same 17 two-second categories as male; shoulder-length wavy brown hair visible in side/back movement.",
+        "storyboard_sample_count": 68,
+        "storyboard_timeline_coverage_seconds": [
+          0,
+          33.5
+        ],
+        "audio_reviewed": false
+      },
+      {
+        "id": "water-overview",
+        "source": "materials/Bziker/01_Окружение/Водоём/08_Анимации/03_Общий_ролик/Водоём_рыбалка_и_лодка.mp4",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "index": 0,
+              "codec_type": "video",
+              "width": 960,
+              "height": 640,
+              "r_frame_rate": "24/1"
+            }
+          ],
+          "format": {
+            "duration": "38.000000"
+          }
+        },
+        "decode_exit_code": 0,
+        "decode_error": "",
+        "decoded_video_frames": 912,
+        "storyboard_interval_seconds": 0.5,
+        "storyboard_pages": [
+          "verification/location-video-qa/water-overview-01.png",
+          "verification/location-video-qa/water-overview-02.png",
+          "verification/location-video-qa/water-overview-03.png",
+          "verification/location-video-qa/water-overview-04.png"
+        ],
+        "visual_inspection": "all complete storyboard pages viewed with view_image",
+        "visual_notes": "All 4 full sheets inspected: approx 0–7s fishing in boat, 7–16s dock approach/boarding/control, 16–32s boat movement/return, 32–38s exit/departure. No city/interior tour.",
+        "storyboard_sample_count": 76,
+        "storyboard_timeline_coverage_seconds": [
+          0,
+          37.5
+        ],
+        "audio_reviewed": false
+      }
+    ],
+    "full_decode_frames": 2544,
+    "storyboard_samples": 212,
+    "storyboard_pages": 10,
+    "candidate_list": "verification/location-video-paths.json",
+    "location_candidates_in_list": 44,
+    "main_user_video_unidentified": true,
+    "all_library_videos_visually_reviewed": false,
+    "scope": "Three clips only, full video decode; complete storyboard sheets at 0.5 seconds; not real-time playback or every-frame visual review"
+  },
+  "limits": [
+    "Reference copies do not create interactive features",
+    "No new artwork, game changes, browser session or physical-device review in this catalogue task",
+    "Existing draft art is not promoted to approved",
+    "No dedicated city tour identified among the inspected overview/candidate lists; not an exhaustive claim about all video contents"
+  ]
+}

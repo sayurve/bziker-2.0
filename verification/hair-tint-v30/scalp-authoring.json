@@ -1,0 +1,185 @@
+{
+  "status": "semantic metadata candidate; not new art",
+  "heads": {
+    "human-male-down": {
+      "referenceDetail": {
+        "path": "assets/canonical-idle-v2/male-down-fine.png",
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "referenceNeckAnchor": [
+        24,
+        32.5
+      ],
+      "scalpPolygon": [
+        [
+          12,
+          14
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          20,
+          7
+        ],
+        [
+          28,
+          7
+        ],
+        [
+          34,
+          11
+        ],
+        [
+          36.5,
+          17
+        ],
+        [
+          36,
+          22.5
+        ],
+        [
+          34,
+          25
+        ],
+        [
+          33,
+          24
+        ],
+        [
+          32.5,
+          21
+        ],
+        [
+          30,
+          19
+        ],
+        [
+          27,
+          19.5
+        ],
+        [
+          24,
+          20.5
+        ],
+        [
+          21,
+          20
+        ],
+        [
+          18,
+          21
+        ],
+        [
+          15.5,
+          22
+        ],
+        [
+          15,
+          25
+        ],
+        [
+          13.5,
+          25
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          11.5,
+          17
+        ]
+      ],
+      "coordinateSpace": "coarse48; exact current C idle registration",
+      "method": "manually traced actual head/hair silhouette and hairline; source RGB flesh is independently preserved"
+    },
+    "human-male-up": {
+      "referenceDetail": {
+        "path": "assets/canonical-idle-v2/male-up-fine.png",
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "referenceNeckAnchor": [
+        24,
+        30.5
+      ],
+      "scalpPolygon": [
+        [
+          12,
+          14
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          20,
+          7
+        ],
+        [
+          28,
+          7
+        ],
+        [
+          34,
+          11
+        ],
+        [
+          36.5,
+          17
+        ],
+        [
+          36,
+          22
+        ],
+        [
+          34,
+          23
+        ],
+        [
+          34,
+          26
+        ],
+        [
+          32,
+          28
+        ],
+        [
+          28,
+          30.5
+        ],
+        [
+          20,
+          30.5
+        ],
+        [
+          16,
+          28
+        ],
+        [
+          14,
+          26
+        ],
+        [
+          14,
+          23
+        ],
+        [
+          12,
+          22
+        ]
+      ],
+      "coordinateSpace": "coarse48; exact current C idle registration",
+      "method": "manually traced actual head/hair silhouette and hairline; source RGB flesh is independently preserved"
+    }
+  }
+}

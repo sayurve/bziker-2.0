@@ -1,0 +1,20 @@
+✔ native station framing uses the visible room at left and right instead of blank canvas padding (0.565542ms)
+✔ native station framing keeps the upper wall and lower cutaway with touch-control clearance (0.121916ms)
+✔ a viewport larger than the visible room centers that room in the usable frame without changing zoom (0.097ms)
+✔ city and private-base camera values are identical when no interior framing is supplied (0.38675ms)
+✔ only modular public room surfaces supply framing bounds (0.189791ms)
+✔ all eleven actual public rooms show the rear, fixtures and floor above controls at spawn (2.258125ms)
+✔ public framing includes actual physical cutaways and authored fixture extents (0.436417ms)
+✔ a tiny public viewport keeps a bounded minimum scale and can pan without moving world positions (0.213625ms)
+✔ city and private base camera outputs retain their exact pre-change values (0.1115ms)
+✔ short landscape uses the available viewport height without extending below screen (0.41525ms)
+✔ a room entrance stays above action buttons even when the floor is shorter than the viewport (0.154541ms)
+✔ hero remains above touch controls and device pixel snapping stabilizes every frame (0.123875ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 90.167541

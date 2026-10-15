@@ -1,0 +1,36 @@
+{
+  "map": "/Users/sapp/Desktop/Игра/Bzikert 2.0/game/web/interiors-map.json",
+  "radius": 14,
+  "gridStep": 6,
+  "rooms": {
+    "clans": {
+      "reachable": 9,
+      "targets": 9,
+      "allClear": true,
+      "props": 13,
+      "seats": 7
+    },
+    "arena": {
+      "reachable": 6,
+      "targets": 6,
+      "allClear": true,
+      "props": 7,
+      "seats": 4
+    },
+    "results": {
+      "reachable": 6,
+      "targets": 6,
+      "allClear": true,
+      "props": 8,
+      "seats": 4
+    },
+    "terrace": {
+      "reachable": 12,
+      "targets": 12,
+      "allClear": true,
+      "props": 15,
+      "seats": 10
+    }
+  },
+  "sideSurfaces": 0
+}

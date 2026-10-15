@@ -1,0 +1,68 @@
+{
+  "status": "draft",
+  "approved": false,
+  "action": "idle",
+  "direction": "up",
+  "gender": "female",
+  "generator": "built-in image_gen",
+  "call_count_for_this_output": 1,
+  "source_path": "/Users/sapp/.codex/generated_images/01a13c9a-6df1-7e23-9234-eccad2b4ad49/exec-d66a7a38-1904-4645-89ca-17edd9282f7c.png",
+  "identity_reference": "art/references/canonical-run/female-run-up-native.png",
+  "style_reference": "art/drafts/canonical-idle-v2/male-idle-up.png",
+  "excluded_reference": "third user idle screenshot — not included",
+  "prompt_path": "female-idle-up.prompt.txt",
+  "actual_size": [
+    1085,
+    1449
+  ],
+  "requested_size": [
+    1150,
+    1367
+  ],
+  "requested_figure_extent": {
+    "center_x": 575,
+    "crown_y": 250,
+    "soles_y": 1250,
+    "intent": "approximately 7 percent shorter than male at a common world scale"
+  },
+  "size_matches_request": false,
+  "pixel_mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "alpha_bbox": [
+    27,
+    85,
+    1065,
+    1409
+  ],
+  "alpha_bbox_ge_128": [
+    308,
+    317,
+    762,
+    1300
+  ],
+  "unmodified_generated_bytes": true,
+  "sha256": "1e29e5e7bd90b4664cbf9843644640ef07f4373444fee23f0a5369885083b45d",
+  "postprocess": "none — original generated PNG copied byte-for-byte, no crop/resize/repaint",
+  "registration_status": "unregistered; authored root-point/common-scale registration belongs to the integration stage",
+  "visual_inspection": {
+    "view_image_performed": true,
+    "observations": [
+      "One full female idle figure, shoulder-length wavy chestnut hair",
+      "Grey jacket, light T-shirt (front only), black trousers and dark boots",
+      "Arms lowered and hands relaxed beside the compact body",
+      "Both feet visibly planted; no running pose",
+      "True RGBA alpha; no painted grid, crosshair, floor or text observed",
+      "True rear view; no face or eyes visible"
+    ],
+    "limitations": [
+      "Not pixel-identical identity proof",
+      "Exact relative height and shared root registration not yet validated",
+      "Generated canvas differs from requested size"
+    ],
+    "status": "draft — not approved"
+  },
+  "art_review": "draft; not approved; no pixel-identical identity claim"
+}

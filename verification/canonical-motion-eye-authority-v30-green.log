@@ -1,0 +1,14 @@
+✔ a real collision slide renders the direction actually travelled instead of running sideways into the wall (316.351584ms)
+✔ white hair recolours bright brown scalp pixels in every native direction and phase while preserving flesh and eyes (587.103208ms)
+✔ light hair retains every measured native mouth, chin and neck-outline pixel including dark flesh shadows (62.861583ms)
+✔ changing skin preserves the native dark eyes and neutral face details in both genders (132.777333ms)
+✔ skin edits preserve neutral native eye, sclera and outline colours across all running directions and phases (459.688042ms)
+✔ hair recolouring retains every measured native hand region, including raised dark-only fingertip rows, in all 32 running frames (720.101375ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2655.887916

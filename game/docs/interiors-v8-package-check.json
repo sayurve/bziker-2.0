@@ -1,0 +1,10 @@
+{
+  "archive": "bziker-city-v8.zip",
+  "files": 235,
+  "crc": "PASS",
+  "source_bytes": "PASS",
+  "private_state_excluded": "PASS",
+  "fresh_extracted_server_and_routes": "PASS",
+  "account_construction_checks": 56,
+  "water_boat_pet_http_checks": 143
+}

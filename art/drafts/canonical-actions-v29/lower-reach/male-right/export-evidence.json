@@ -1,0 +1,158 @@
+{
+  "status": "draft",
+  "method": "uniform canvas reference factor192/1086 = requested width1536/actual1086 /native8x; full cell export, authored support roots, no bbox normalization",
+  "sourceDimensions": [
+    1086,
+    1448
+  ],
+  "poses": [
+    {
+      "phase": 0,
+      "sourceRoot": [
+        267,
+        702
+      ],
+      "sourceNeck": [
+        303,
+        332
+      ],
+      "sourcePalm": [
+        453,
+        481
+      ],
+      "uniformFineScale": 0.17679558011049723,
+      "translation": [
+        0.7955801104972409,
+        1.8895027624309506
+      ],
+      "rootBasis": "manually authored midpoint of support boot soles on actual source; no silhouette fitting",
+      "nativeNeck": [
+        54.3646408839779,
+        60.58563535911603
+      ],
+      "nativePalm": [
+        80.88397790055248,
+        86.92817679558011
+      ],
+      "bounds": [
+        24,
+        13,
+        87,
+        125
+      ],
+      "opaquePixels": 4137,
+      "sha256": "eca0246ec8a8fbabe7acfbbd9cb32ebfeef20748c4f3927ae232ed3d3becb8e5"
+    },
+    {
+      "phase": 1,
+      "sourceRoot": [
+        232,
+        701
+      ],
+      "sourceNeck": [
+        269,
+        406
+      ],
+      "sourcePalm": [
+        400,
+        574
+      ],
+      "uniformFineScale": 0.17679558011049723,
+      "translation": [
+        6.983425414364646,
+        2.066298342541444
+      ],
+      "rootBasis": "manually authored midpoint of support boot soles on actual source; no silhouette fitting",
+      "nativeNeck": [
+        54.5414364640884,
+        73.84530386740332
+      ],
+      "nativePalm": [
+        77.70165745856353,
+        103.54696132596685
+      ],
+      "bounds": [
+        24,
+        27,
+        82,
+        125
+      ],
+      "opaquePixels": 3806,
+      "sha256": "5061e4cb4bf48eb159da7693206cb7bf8adc020858f135f20e85b5b8ad390515"
+    },
+    {
+      "phase": 2,
+      "sourceRoot": [
+        272,
+        663
+      ],
+      "sourceNeck": [
+        299,
+        443
+      ],
+      "sourcePalm": [
+        456,
+        640
+      ],
+      "uniformFineScale": 0.17679558011049723,
+      "translation": [
+        -0.08839779005524662,
+        8.784530386740343
+      ],
+      "rootBasis": "manually authored midpoint of support boot soles on actual source; no silhouette fitting",
+      "nativeNeck": [
+        52.773480662983424,
+        87.10497237569062
+      ],
+      "nativePalm": [
+        80.5303867403315,
+        121.93370165745857
+      ],
+      "bounds": [
+        24,
+        40,
+        86,
+        125
+      ],
+      "opaquePixels": 3664,
+      "sha256": "bf9d4089e930ffaf3e37de77a4ff0f235f25ce30b853ed240e922aff38620ac2"
+    },
+    {
+      "phase": 3,
+      "sourceRoot": [
+        268,
+        663
+      ],
+      "sourceNeck": [
+        296,
+        282
+      ],
+      "sourcePalm": [
+        428,
+        385
+      ],
+      "uniformFineScale": 0.17679558011049723,
+      "translation": [
+        0.6187845303867405,
+        8.784530386740343
+      ],
+      "rootBasis": "manually authored midpoint of support boot soles on actual source; no silhouette fitting",
+      "nativeNeck": [
+        52.95027624309392,
+        58.640883977900565
+      ],
+      "nativePalm": [
+        76.28729281767954,
+        76.85082872928177
+      ],
+      "bounds": [
+        23,
+        12,
+        81,
+        125
+      ],
+      "opaquePixels": 4029,
+      "sha256": "a679168b1c77ae37333531fe434f2474f67f4644ac38769b1bfde5d976d34d3d"
+    }
+  ]
+}

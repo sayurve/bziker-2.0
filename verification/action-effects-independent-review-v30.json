@@ -1,0 +1,1529 @@
+{
+  "release": [
+    {
+      "gender": 0,
+      "facing": "down",
+      "phone_open": false,
+      "shown": "canonical-hand-male-down",
+      "shownFamily": "hand",
+      "shownHand": [
+        16,
+        39
+      ],
+      "point": {
+        "x": 110.00000000000018,
+        "y": 189.99999999999986,
+        "progress": 2.696255916946809e-15
+      },
+      "palm": {
+        "x": 110,
+        "y": 190
+      },
+      "error": 2.3307534699564376e-13
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "phone_open": true,
+      "shown": "canonical-idle-male-down",
+      "shownFamily": null,
+      "shownHand": [
+        32,
+        47
+      ],
+      "point": {
+        "x": 138.0000000000001,
+        "y": 180.99999999999986,
+        "progress": 2.696255916946809e-15
+      },
+      "palm": {
+        "x": 130,
+        "y": 200
+      },
+      "error": 20.615528128088478
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "phone_open": false,
+      "shown": "canonical-hand-male-right",
+      "shownFamily": "hand",
+      "shownHand": [
+        36,
+        37.5
+      ],
+      "point": {
+        "x": 135.0000000000001,
+        "y": 188.12499999999986,
+        "progress": 2.696255916946809e-15
+      },
+      "palm": {
+        "x": 135,
+        "y": 188.125
+      },
+      "error": 1.8198773652309366e-13
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "phone_open": true,
+      "shown": "canonical-idle-male-right",
+      "shownFamily": null,
+      "shownHand": [
+        18,
+        46
+      ],
+      "point": {
+        "x": 138.0000000000001,
+        "y": 180.99999999999986,
+        "progress": 2.696255916946809e-15
+      },
+      "palm": {
+        "x": 112.5,
+        "y": 198.75
+      },
+      "error": 31.06947859234221
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "phone_open": false,
+      "shown": "canonical-hand-male-up",
+      "shownFamily": "hand",
+      "shownHand": [
+        11.5,
+        34
+      ],
+      "point": {
+        "x": 104.3750000000002,
+        "y": 183.74999999999986,
+        "progress": 2.696255916946809e-15
+      },
+      "palm": {
+        "x": 104.375,
+        "y": 183.75
+      },
+      "error": 2.444927891657081e-13
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "phone_open": true,
+      "shown": "canonical-idle-male-up",
+      "shownFamily": null,
+      "shownHand": [
+        17,
+        46
+      ],
+      "point": {
+        "x": 138.0000000000001,
+        "y": 180.99999999999986,
+        "progress": 2.696255916946809e-15
+      },
+      "palm": {
+        "x": 111.25,
+        "y": 198.75
+      },
+      "error": 32.103348734984195
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "phone_open": false,
+      "shown": "canonical-hand-male-left",
+      "shownFamily": "hand",
+      "shownHand": [
+        5,
+        37
+      ],
+      "point": {
+        "x": 96.25000000000023,
+        "y": 187.49999999999983,
+        "progress": 2.696255916946809e-15
+      },
+      "palm": {
+        "x": 96.25,
+        "y": 187.5
+      },
+      "error": 2.8421709430404007e-13
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "phone_open": true,
+      "shown": "canonical-idle-male-left",
+      "shownFamily": null,
+      "shownHand": [
+        29,
+        46
+      ],
+      "point": {
+        "x": 102.00000000000021,
+        "y": 180.99999999999983,
+        "progress": 2.696255916946809e-15
+      },
+      "palm": {
+        "x": 126.25,
+        "y": 198.75
+      },
+      "error": 30.052038200428203
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "phone_open": false,
+      "shown": "canonical-hand-female-down",
+      "shownFamily": "hand",
+      "shownHand": [
+        17,
+        42
+      ],
+      "point": {
+        "x": 111.25000000000018,
+        "y": 193.74999999999983,
+        "progress": 2.696255916946809e-15
+      },
+      "palm": {
+        "x": 111.25,
+        "y": 193.75
+      },
+      "error": 2.514156848996284e-13
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "phone_open": true,
+      "shown": "canonical-idle-female-down",
+      "shownFamily": null,
+      "shownHand": [
+        30,
+        48
+      ],
+      "point": {
+        "x": 138.0000000000001,
+        "y": 180.99999999999986,
+        "progress": 2.696255916946809e-15
+      },
+      "palm": {
+        "x": 127.5,
+        "y": 201.25
+      },
+      "error": 22.810359488618506
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "phone_open": false,
+      "shown": "canonical-hand-female-right",
+      "shownFamily": "hand",
+      "shownHand": [
+        34.5,
+        39
+      ],
+      "point": {
+        "x": 133.1250000000001,
+        "y": 189.99999999999986,
+        "progress": 2.696255916946809e-15
+      },
+      "palm": {
+        "x": 133.125,
+        "y": 190
+      },
+      "error": 1.8198773652309366e-13
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "phone_open": true,
+      "shown": "canonical-idle-female-right",
+      "shownFamily": null,
+      "shownHand": [
+        20,
+        47
+      ],
+      "point": {
+        "x": 138.0000000000001,
+        "y": 180.99999999999986,
+        "progress": 2.696255916946809e-15
+      },
+      "palm": {
+        "x": 115,
+        "y": 200
+      },
+      "error": 29.832867780352778
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "phone_open": false,
+      "shown": "canonical-hand-female-up",
+      "shownFamily": "hand",
+      "shownHand": [
+        13,
+        39
+      ],
+      "point": {
+        "x": 106.2500000000002,
+        "y": 189.99999999999986,
+        "progress": 2.696255916946809e-15
+      },
+      "palm": {
+        "x": 106.25,
+        "y": 190
+      },
+      "error": 2.444927891657081e-13
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "phone_open": true,
+      "shown": "canonical-idle-female-up",
+      "shownFamily": null,
+      "shownHand": [
+        18,
+        47
+      ],
+      "point": {
+        "x": 138.0000000000001,
+        "y": 180.99999999999986,
+        "progress": 2.696255916946809e-15
+      },
+      "palm": {
+        "x": 112.5,
+        "y": 200
+      },
+      "error": 31.800157232315865
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "phone_open": false,
+      "shown": "canonical-hand-female-left",
+      "shownFamily": "hand",
+      "shownHand": [
+        8,
+        38.5
+      ],
+      "point": {
+        "x": 100.00000000000021,
+        "y": 189.37499999999983,
+        "progress": 2.696255916946809e-15
+      },
+      "palm": {
+        "x": 100,
+        "y": 189.375
+      },
+      "error": 2.729816047846405e-13
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "phone_open": true,
+      "shown": "canonical-idle-female-left",
+      "shownFamily": null,
+      "shownHand": [
+        27,
+        47
+      ],
+      "point": {
+        "x": 102.00000000000021,
+        "y": 180.99999999999983,
+        "progress": 2.696255916946809e-15
+      },
+      "palm": {
+        "x": 123.75,
+        "y": 200
+      },
+      "error": 28.88014023511654
+    }
+  ],
+  "water": [
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.001,
+      "frameMatch": true,
+      "frame": 0
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.1,
+      "frameMatch": true,
+      "frame": 0
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.4,
+      "frameMatch": true,
+      "frame": 0
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.5,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.699,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.8,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.999,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.001,
+      "frameMatch": true,
+      "frame": 2
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.1,
+      "frameMatch": true,
+      "frame": 2
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.4,
+      "frameMatch": true,
+      "frame": 2
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.5,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.699,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.8,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.999,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.001,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.1,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.4,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.5,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.699,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.8,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.999,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.001,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.1,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.4,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.5,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.699,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.8,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": false,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.999,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.001,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.1,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.4,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.5,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.699,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.8,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.999,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.001,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.1,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.4,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.5,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.699,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.8,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.999,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.001,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.1,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.4,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.5,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.699,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.8,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.999,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.001,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.1,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.4,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.5,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.699,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.8,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 0,
+      "boat": true,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.999,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.001,
+      "frameMatch": true,
+      "frame": 0
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.1,
+      "frameMatch": true,
+      "frame": 0
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.4,
+      "frameMatch": true,
+      "frame": 0
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.5,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.699,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.8,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.999,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.001,
+      "frameMatch": true,
+      "frame": 2
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.1,
+      "frameMatch": true,
+      "frame": 2
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.4,
+      "frameMatch": true,
+      "frame": 2
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.5,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.699,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.8,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.999,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.001,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.1,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.4,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.5,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.699,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.8,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.999,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.001,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.1,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.4,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.5,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.699,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.8,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": false,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.999,
+      "frameMatch": true,
+      "frame": 1
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.001,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.1,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.4,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.5,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.699,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.8,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": false,
+      "type": "fishing",
+      "progress": 0.999,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.001,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.1,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.4,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.5,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.699,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.8,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": false,
+      "type": "fish-catch",
+      "progress": 0.999,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.001,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.1,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.4,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.5,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.699,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.8,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": true,
+      "type": "fishing",
+      "progress": 0.999,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.001,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.1,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.4,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.5,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.699,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.8,
+      "frameMatch": true,
+      "frame": 3
+    },
+    {
+      "gender": 1,
+      "boat": true,
+      "phone_open": true,
+      "type": "fish-catch",
+      "progress": 0.999,
+      "frameMatch": true,
+      "frame": 3
+    }
+  ],
+  "summary": {
+    "releaseMismatches": 8,
+    "waterFrameMismatches": 0
+  },
+  "resolutions": [
+    {
+      "status": "resolved",
+      "recordedAt": "2026-10-15T16:03:47.822187+00:00",
+      "historicalFindingPreserved": true,
+      "historicalJSONSHA256": "a7e6f38ed1108f155aa5f1897d61c432ac13b56e6b2e2a5805de77dc099d1654",
+      "historicalMarkdownSHA256": "60dddc3f0b7bb8f4fee76fd744d2bceb4b03d7bb9370707dfd96cb6917a6a0ab",
+      "policy": "An actor with phone_open has a static phone body; actionFlight returns null and drawActionFlight paints no paper. The timed server action itself is unchanged.",
+      "currentSHA256": {
+        "game/web/action-effects.js": "5e3d8e355f4e279b9c25d72d279a4a6c7f65661581d211fddf976f6a4e5149db",
+        "game/web/world.js": "f7cc510733f2f24c96e69545a8504a84dda6d6899bba9f1782f5a4033ad8d6e8",
+        "game/web/source-actors.js": "c73e4d0fa823d8d4f72bcb1625cfff902e2bdb8ee3c86b14abe7ed1ac1b2c5ba",
+        "game/web/interaction-actors-data.js": "34a771f62dc4ad38f5efd79788dd681b2ffe1a79751f4d4ce27faa23657cffa6",
+        "game/web/canonical-actors-data.js": "d24ca352e05bf07c32b21ffe6775a53be6feebe3c047b61069245fccfef3a7eb",
+        "game/web/avatar.js": "d95537f37d3e2e4404a233f5a4c3f5c555a90b6e7c8153323d53559f09220422",
+        "game/web/actor-sprite.js": "be8e935642374699951146083fbef4ec1ad690a7de8a06ae2153f34dc9b4271b"
+      },
+      "focusedTests": {
+        "command": "node --test tests/canonical-release-hand-v30.test.mjs tests/canonical-water-grip-v30.test.mjs",
+        "cwd": "game/",
+        "log": "verification/action-effects-independent-review-resolution-tests-v31.log",
+        "logSHA256": "e5300b843a45b68c4af62944bedee8dac9ab6dc62c4e4795cda0cf2772a4909f",
+        "exitCode": 0,
+        "tests": 2,
+        "pass": 2,
+        "fail": 0,
+        "skip": 0
+      },
+      "actualProductionDataProbe": {
+        "file": "verification/action-effects-independent-resolution-v31.json",
+        "sha256": "854adf23e50e6eea660f583db192fdbd01fe55ea33d82138a6f0f1e656076491",
+        "command": "node verification/action-effects-independent-resolution-v31.mjs",
+        "exitCode": 0,
+        "summary": {
+          "releaseCases": 64,
+          "phoneCases": 32,
+          "phoneSuppressionFailures": 0,
+          "closedPhonePalmFailures": 0,
+          "waterCases": 112,
+          "waterFrameMismatches": 0,
+          "waterGripFailures": 0,
+          "waterAngleFailures": 0,
+          "fishPalmFailures": 0,
+          "sourceStable": true
+        }
+      },
+      "worldSourceReview": [
+        "world.drawAvatar applies the same scale and geometry anchor to avatar, drawWaterAction and drawActionFlight.",
+        "Actual snapshot phone_open, boat and pose pass unchanged to waterActionLayout; helper forwards phoneOpen to the source selector.",
+        "Canonical WATER metadata frame.water.rodHand/rodAngle/sourceScale takes priority; fish goes to frame.hand.",
+        "No additional concrete world/equipment defect confirmed by this focused review."
+      ],
+      "limits": [
+        "Read-only code/production-data probe and two focused tests, not browser overlap timing or all action/wardrobe approval.",
+        "Original JSON release/water/summary retain historical values; current resolution lives in this appended record."
+      ]
+    },
+    {
+      "status": "resolved-current-slot-and-texture-envelope",
+      "recordedAt": "2026-10-15T16:28:27.917203+00:00",
+      "scope": "Read-only one H7 preset, two actual bins; no production edits",
+      "currentSHA256": {
+        "game/web/source-city.js": "c62fab72533f4cde0492e4b23ac2d4b70e357ec4470d1c3dfde47f8b25199520",
+        "game/web/action-effects.js": "a0b50650eb50dc71e63ffd55ecd9f764045fed2689de546736d65bf95de3861b",
+        "game/web/world.js": "66c1cb90f59470e85d2e756f5232cac0bd8bcbad3baa692f91fdaff43e4b8c18",
+        "game/web/phaser-world-renderer.js": "25d85b9c006cfcfbb2d4f46cba5033c78ea6354cd1dbdd3479121fd32655d5d8",
+        "game/web/source-actors.js": "e8b28698806865f0e1a298c00148fffe2115fc818efc799936ff8bd40afc1a8e",
+        "game/web/actor-sprite.js": "be8e935642374699951146083fbef4ec1ad690a7de8a06ae2153f34dc9b4271b",
+        "game/web/interaction-actors-data.js": "34a771f62dc4ad38f5efd79788dd681b2ffe1a79751f4d4ce27faa23657cffa6"
+      },
+      "nativeSlot": {
+        "point": [
+          291,
+          272
+        ],
+        "actualRGBA": [
+          13,
+          13,
+          13,
+          253
+        ],
+        "runtimePNG": "/assets/design-7a298f54893b22d65b7d-768.png",
+        "runtimeSHA256": "b5f239b6e246f1257cf63709a9feb3a2942d47e77163cdcbfc776c753da8f409",
+        "actualSolidCrop": {
+          "x": 172,
+          "y": 138,
+          "width": 253,
+          "height": 501
+        },
+        "visualEvidence": "verification/bin-slot-independent-v31-before-bounds-fix/native-slot-qa.png",
+        "viewed": true
+      },
+      "slotMapping": "destination.x+(291-crop.x)*destination.width/crop.width, destination.y+(272-crop.y)*destination.height/crop.height; world resolves actual target_id entity, not its interaction approach",
+      "historicalAdditionalFinding": {
+        "status": "found-and-fixed",
+        "description": "The native receiving slot lay20.7707507worldpx above the old actor texture for a legal44.72px approach; direct draw tests passed while the actual finite Phaser texture clipped all paper.",
+        "beforeProof": "verification/bin-slot-independent-v31-before-bounds-fix/review.json",
+        "beforeSHA256": "c70cbba6b7662d55f02a744aebdaea162f9d2488fcd1f5b03c799b7a38394fac",
+        "beforeWorldSHA256": "f285df4235fae25989177e4ff5f9bf9ada6027afea880f1986d15241710a7a09",
+        "beforePaperPixels": {
+          "full": 25,
+          "bounded": 0
+        },
+        "beforeSampledCentersOutside": 34
+      },
+      "currentIndependentProof": {
+        "path": "verification/bin-slot-independent-v31-after-bounds-fix/review.json",
+        "sha256": "455a9e3809aa5588eb2e92dc5b800cd707ad7601eca78261287ce47301220154",
+        "sourceStable": true,
+        "afterPaperPixels": {
+          "full": 25,
+          "bounded": 25
+        },
+        "sampledCentersOutside": 0,
+        "bins": [
+          "bin-plaza",
+          "bin-park"
+        ],
+        "nativeContactsViewedEntirely": [
+          "verification/bin-slot-independent-v31-after-bounds-fix/bin-plaza-full-vs-bounds.png",
+          "verification/bin-slot-independent-v31-after-bounds-fix/bin-park-full-vs-bounds.png"
+        ]
+      },
+      "currentFocusedTests": {
+        "command": "node --test tests/bin-slot-attachment-v31.test.mjs tests/throw-bounds-v31.test.mjs tests/canonical-release-hand-v30.test.mjs tests/canonical-water-grip-v30.test.mjs",
+        "cwd": "game/",
+        "log": "verification/action-effects-independent-slot-bounds-current-tests-v31.log",
+        "sha256": "2fd925e19bb7f2775880cca601e3421b816187ab48a2fbabcfa5b81e38a8e85c",
+        "exitCode": 0,
+        "tests": 7,
+        "pass": 7,
+        "fail": 0,
+        "skip": 0
+      },
+      "limits": [
+        "Retake throw screenshots predate the bounds repair and are not final bounded-browser proof.",
+        "Independent actual callback test uses finite native canvas matching actorRenderBounds; root owns final UI recapture.",
+        "No whole-game/other-hairstyle approval."
+      ]
+    },
+    {
+      "status": "current-bounded-UI-observed",
+      "recordedAt": "2026-10-15T16:31:41.269236+00:00",
+      "worldSHA256": "66c1cb90f59470e85d2e756f5232cac0bd8bcbad3baa692f91fdaff43e4b8c18",
+      "receipt": "verification/avatar-one-v31/independent-frozen-throw-review.json",
+      "receiptSHA256": "5bcd3f565529ee7a769c03cf5f021707b5bb646448a19455961acd66dc976d8f",
+      "observedUIFrames": 18,
+      "contactViewedEntirely": true,
+      "full06Viewed": true,
+      "inventoryZeroReviewed": false,
+      "limits": [
+        "18 actual UI screenshots of one throw, not72 UI trajectory scenarios.",
+        "The native72 sampled trajectorycentres belong to a separate finite-canvas geometry proof.",
+        "Only one avatar, bin approach and captured throw shown; inventory0 has not been reviewed here.",
+        "A still contact does not establish every intermediate trajectory frame or whole-game correctness."
+      ]
+    },
+    {
+      "status": "postthrow-inventory-ui-observed",
+      "recordedAt": "2026-10-15T16:34:48.495770+00:00",
+      "worldSHA256": "66c1cb90f59470e85d2e756f5232cac0bd8bcbad3baa692f91fdaff43e4b8c18",
+      "receipt": "verification/avatar-one-v31/independent-frozen-gait-inventory-review.json",
+      "receiptSHA256": "2a41e4354388d0f615e9e12290d309357a15ba74d09eb6460d4348274916fd1b",
+      "inventory": {
+        "path": "verification/avatar-one-v31/frozen-throw-inventory.jpg",
+        "sha256": "bb62052e4120ae323952e24f40eb88bb02371286510c81e8cb43e6e09c935db1",
+        "viewedEntirely": true,
+        "visibleOccupiedSlots": "1/10",
+        "visibleItem": "fishing rod quantity1",
+        "visibleTrashStack": false,
+        "meaning": "Trash is absent in this postthrow UI; the total inventory is not empty."
+      },
+      "scope": "One H7 actual postthrow inventory, not an empty total inventory or whole-game economy approval"
+    }
+  ]
+}

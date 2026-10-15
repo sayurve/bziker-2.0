@@ -1,0 +1,12 @@
+✔ compact shared sprite exports its grounding geometry and preserves saved outfit IDs (36.827667ms)
+✔ eight movement samples hold four complete approved run poses in their source order (329.360791ms)
+✔ phone preserves the selected directional face and the occupied seated body (395.991584ms)
+✔ poses, all directions and phone overlays remain inside64px and jury ignores every personal layer (380.440208ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1456.751125

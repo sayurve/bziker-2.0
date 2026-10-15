@@ -1,0 +1,18 @@
+{
+  "source_file": "source-reference/01_Окружение/Карта_города/Квадраты_карты/Карта_исходная.png",
+  "import_file": "assets/design-70dd7a15e86a16f486c7-1536.png",
+  "render_file": "docs/source-design-v19/city-overview.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "decoded_pixels_equal": true,
+  "source_png_sha256": "70dd7a15e86a16f486c7a181200607cb4b96ab5e63a3914b6af57d5864beb179",
+  "source_rgba_sha256": "6ce93aec115c07e555d9d9e56786b8dab7a85b7f940e544835049aa360d11436",
+  "render_rgba_sha256": "6ce93aec115c07e555d9d9e56786b8dab7a85b7f940e544835049aa360d11436",
+  "viewport_and_minimap_regressions": "tests/exact-city-scene-v19.test.mjs",
+  "import_png_sha256": "204425b2679c2a9ba10b3553d34ef574849af43a7bc01c40247f576e099047bb",
+  "import_decoded_pixels_equal": true,
+  "map_sha256": "a548c872ebfa973e3830418daf4f3b72a926647963350cb1993838ba2c8ed02b",
+  "foreground_nodes": 727
+}

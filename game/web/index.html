@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/web/styles.css">
+  <link rel="stylesheet" href="/web/construction.css">
+  <link rel="stylesheet" href="/web/source-ui.css">
+  <title>Бзикер — город идей</title>
+  <script defer src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="/web/vendor/phaser.min.js"></script>
+  <script type="module" src="/web/app.js"></script>
+</head>
+<body data-screen="loading" data-phone-open="false" data-control-layout="left">
+  <header class="topbar"><button id="game-menu-toggle" class="wordmark game-menu-toggle" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="game-menu-dialog" aria-label="Открыть меню Бзикера">Бзикер<span class="brand-dot">≡</span></button><div class="top-right"><span id="mode-badge" class="badge">Загрузка…</span><button id="home-button" class="quiet" type="button" hidden>В город</button></div></header>
+  <main id="app" tabindex="-1"><div class="loading panel">Открываем Бзикер…</div></main>
+  <dialog id="phone-dialog" aria-labelledby="phone-title"><img class="source-phone-hands" src="/assets/design-ui-hands-male.png" alt="" aria-hidden="true"><div class="phone-status"><span id="phone-wallet" aria-label="Баланс Бзинге"></span></div><div class="phone-speaker" aria-hidden="true"></div><div class="phone-screen"><div class="dialog-heading"><div><strong class="phone-brand">ТЕЛЕБЗИ</strong><h2 id="phone-title">Меню</h2></div><button id="expand-phone" class="quiet" type="button" aria-label="Развернуть телефон" aria-pressed="false">⛶</button><button id="close-phone" class="quiet" type="button" aria-label="Закрыть телефон">×</button></div><div id="phone-content"></div><button id="phone-back" data-action="phone-back" class="phone-back" type="button" aria-label="Назад к приложениям"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="5" y="5" width="14" height="14" rx="1" fill="none" stroke="currentColor" stroke-width="2"/></svg></button></div></dialog>
+  <dialog id="game-menu-dialog" aria-labelledby="game-menu-title"><div class="dialog-heading"><h2 id="game-menu-title">Бзикер</h2><button class="quiet" data-action="close-game-menu" type="button" aria-label="Закрыть меню">×</button></div><div class="game-menu-options"><button type="button" data-action="settings">Настройки</button><button type="button" data-action="close-game-menu">Продолжить игру</button></div></dialog>
+  <dialog id="settings-dialog" aria-labelledby="settings-title"><div class="dialog-heading"><h2 id="settings-title">Настройки</h2><button class="quiet" data-action="close-settings" type="button" aria-label="Закрыть настройки">×</button></div><div id="settings-content"></div></dialog>
+  <dialog id="construction-dialog" aria-labelledby="construction-title"><div class="dialog-heading"><h2 id="construction-title">Стройка кланового дома</h2><button class="quiet" data-action="close-construction" type="button" aria-label="Закрыть стройку">×</button></div><div id="construction-content"></div></dialog>
+  <div id="notice" role="status" aria-live="polite" hidden></div>
+  <dialog id="grade-dialog" aria-labelledby="grade-title"><div class="dialog-heading"><h2 id="grade-title">Ответ</h2><button id="close-grade" class="quiet" aria-label="Закрыть ответ" type="button">×</button></div><p id="grade-question" class="question-detail"></p><p id="grade-answer" class="full-answer"></p><p id="grade-hint">Одна общая оценка: соответствие заданию, оригинальность, полезность и понятность.</p><div id="grade-buttons" class="grade-buttons" role="group" aria-label="Оценка от 0 до 10"></div><button id="save-grade" class="primary wide" type="button" disabled>Сохранить оценку</button><p id="grade-status" role="status"></p></dialog>
+</body>
+</html>

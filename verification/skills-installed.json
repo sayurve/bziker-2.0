@@ -1,0 +1,17 @@
+[
+  {
+    "name": "bziker-build-game",
+    "path": "/Users/sapp/.codex/skills/bziker-build-game",
+    "source": "/Users/sapp/Desktop/Игра/Bzikert 2.0/.agents/skills/bziker-build-game"
+  },
+  {
+    "name": "bziker-character-pipeline",
+    "path": "/Users/sapp/.codex/skills/bziker-character-pipeline",
+    "source": "/Users/sapp/Desktop/Игра/Bzikert 2.0/.agents/skills/bziker-character-pipeline"
+  },
+  {
+    "name": "bziker-game-qa",
+    "path": "/Users/sapp/.codex/skills/bziker-game-qa",
+    "source": "/Users/sapp/Desktop/Игра/Bzikert 2.0/.agents/skills/bziker-game-qa"
+  }
+]

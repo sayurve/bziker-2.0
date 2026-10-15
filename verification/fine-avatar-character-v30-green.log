@@ -1,0 +1,19 @@
+✔ the full fine renderer keeps logical48x64, common ground and existing eight-sample four-pose gait (36.813084ms)
+✔ female canonical models retain their own narrower body and slightly lower crown on the same ground (118.642458ms)
+✔ canonical full previews retain the exact fine native PNG palette rather than retired reference or coarse atlas pixels (25.755292ms)
+✔ original reference PNGs and their archived normalized whole poses remain retained byte for byte (4.937875ms)
+✔ all sixteen actual walk poses remain discrete complete frames and each held gait sample uses exactly the same fine raster (286.065917ms)
+✔ appearance IDs remain valid and personal nickname text cannot enter the bitmap (4.839542ms)
+✔ approved running has four native poses per gender with shared ground and no resampling between held phases (489.150833ms)
+✔ all hairstyles preserve actual native white eye pixels in the selected canonical face (205.35825ms)
+✔ continuous progress reuses a finite visible phase raster instead of allocating one bitmap per timestamp (46.833042ms)
+✔ phone preview uses the same real separate item and static body as the fine world renderer across concurrent actions (204.550208ms)
+✔ selected long strands keep their exact fine material across clothing choices (95.182583ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1876.348666

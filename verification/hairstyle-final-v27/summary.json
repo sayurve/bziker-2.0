@@ -1,0 +1,684 @@
+{
+  "status": "fine hair fix verification; no artistic approval",
+  "cases": 2304,
+  "renderRequests": 2304,
+  "idleNote": "four requested idle phases resolve to one standing pose; not four authored idle frames",
+  "matrix": {
+    "styles": 12,
+    "genders": 2,
+    "directions": 4,
+    "states": 3,
+    "phases": 4,
+    "hairColors": [
+      0,
+      6
+    ]
+  },
+  "hashes": {
+    "web/source-actors.js": "e335bd0224fc2cc01f6dd8f1c646c55bf98252066854cddcab018e46b0f3bdb8",
+    "web/actor-sprite.js": "fa6e52aaf04bf8930e7e24a008ab3225da57dc1017c474eae032530eb2f79fa1",
+    "web/actor-hair-data.js": "a36efd9c23ae568d2cd5224ebe9feb274866e16d8a0fa8fb55becf7bb0f0bea2",
+    "web/actor-custom-data.js": "6c32b6b014e44b69ba06969e367ee1a02662b3b6ab5092f91fea37423fe43fcf",
+    "web/source-actors-data.js": "2753bf062e500cc18cc65751c94ad95e57cedb77fa1298327320d330809c92a1",
+    "web/canonical-actors-data.js": "3ee3ff34ab20d756fb5659c4b5fe3bf5c83a8849998e7afc814c384afae7f915"
+  },
+  "sheets": [
+    "male-idle-brown-full.png",
+    "male-idle-white-full.png",
+    "male-walk-brown-full.png",
+    "male-walk-white-full.png",
+    "male-run-brown-full.png",
+    "male-run-white-full.png",
+    "female-idle-brown-full.png",
+    "female-idle-white-full.png",
+    "female-walk-brown-full.png",
+    "female-walk-white-full.png",
+    "female-run-brown-full.png",
+    "female-run-white-full.png",
+    "male-down-white-heads.png",
+    "male-right-white-heads.png",
+    "male-up-white-heads.png",
+    "male-left-white-heads.png",
+    "female-down-white-heads.png",
+    "female-right-white-heads.png",
+    "female-up-white-heads.png",
+    "female-left-white-heads.png"
+  ],
+  "selectedCases": 2112,
+  "selectedCasesDeletingStrongFlesh": 168,
+  "selectedCasesAddingInteriorTransparency": 1342,
+  "worstDeletedStrong": [
+    {
+      "gender": 0,
+      "state": "walk",
+      "hairColor": 0,
+      "style": "tail",
+      "facing": "left",
+      "phase": 0,
+      "strongFleshDeleted": 5,
+      "headOpaqueDeleted": 620,
+      "firstDeletedStrongPixels": [
+        [
+          54,
+          50,
+          245,
+          150,
+          99
+        ],
+        [
+          54,
+          51,
+          245,
+          151,
+          98
+        ],
+        [
+          54,
+          52,
+          246,
+          154,
+          101
+        ],
+        [
+          54,
+          53,
+          247,
+          166,
+          109
+        ],
+        [
+          54,
+          54,
+          244,
+          164,
+          112
+        ]
+      ]
+    },
+    {
+      "gender": 0,
+      "state": "walk",
+      "hairColor": 0,
+      "style": "twobuns",
+      "facing": "left",
+      "phase": 0,
+      "strongFleshDeleted": 5,
+      "headOpaqueDeleted": 704,
+      "firstDeletedStrongPixels": [
+        [
+          54,
+          50,
+          245,
+          150,
+          99
+        ],
+        [
+          54,
+          51,
+          245,
+          151,
+          98
+        ],
+        [
+          54,
+          52,
+          246,
+          154,
+          101
+        ],
+        [
+          54,
+          53,
+          247,
+          166,
+          109
+        ],
+        [
+          54,
+          54,
+          244,
+          164,
+          112
+        ]
+      ]
+    },
+    {
+      "gender": 0,
+      "state": "walk",
+      "hairColor": 6,
+      "style": "tail",
+      "facing": "left",
+      "phase": 0,
+      "strongFleshDeleted": 5,
+      "headOpaqueDeleted": 620,
+      "firstDeletedStrongPixels": [
+        [
+          54,
+          50,
+          245,
+          150,
+          99
+        ],
+        [
+          54,
+          51,
+          245,
+          151,
+          98
+        ],
+        [
+          54,
+          52,
+          246,
+          154,
+          101
+        ],
+        [
+          54,
+          53,
+          247,
+          166,
+          109
+        ],
+        [
+          54,
+          54,
+          244,
+          164,
+          112
+        ]
+      ]
+    },
+    {
+      "gender": 0,
+      "state": "walk",
+      "hairColor": 6,
+      "style": "twobuns",
+      "facing": "left",
+      "phase": 0,
+      "strongFleshDeleted": 5,
+      "headOpaqueDeleted": 704,
+      "firstDeletedStrongPixels": [
+        [
+          54,
+          50,
+          245,
+          150,
+          99
+        ],
+        [
+          54,
+          51,
+          245,
+          151,
+          98
+        ],
+        [
+          54,
+          52,
+          246,
+          154,
+          101
+        ],
+        [
+          54,
+          53,
+          247,
+          166,
+          109
+        ],
+        [
+          54,
+          54,
+          244,
+          164,
+          112
+        ]
+      ]
+    },
+    {
+      "gender": 1,
+      "state": "idle",
+      "hairColor": 0,
+      "style": "bob",
+      "facing": "left",
+      "phase": 0,
+      "strongFleshDeleted": 4,
+      "headOpaqueDeleted": 729,
+      "firstDeletedStrongPixels": [
+        [
+          29,
+          36,
+          244,
+          128,
+          84
+        ],
+        [
+          29,
+          37,
+          247,
+          140,
+          92
+        ],
+        [
+          30,
+          37,
+          243,
+          132,
+          84
+        ],
+        [
+          31,
+          37,
+          241,
+          126,
+          78
+        ]
+      ]
+    },
+    {
+      "gender": 1,
+      "state": "idle",
+      "hairColor": 0,
+      "style": "bob",
+      "facing": "left",
+      "phase": 1,
+      "strongFleshDeleted": 4,
+      "headOpaqueDeleted": 729,
+      "firstDeletedStrongPixels": [
+        [
+          29,
+          36,
+          244,
+          128,
+          84
+        ],
+        [
+          29,
+          37,
+          247,
+          140,
+          92
+        ],
+        [
+          30,
+          37,
+          243,
+          132,
+          84
+        ],
+        [
+          31,
+          37,
+          241,
+          126,
+          78
+        ]
+      ]
+    },
+    {
+      "gender": 1,
+      "state": "idle",
+      "hairColor": 0,
+      "style": "bob",
+      "facing": "left",
+      "phase": 2,
+      "strongFleshDeleted": 4,
+      "headOpaqueDeleted": 729,
+      "firstDeletedStrongPixels": [
+        [
+          29,
+          36,
+          244,
+          128,
+          84
+        ],
+        [
+          29,
+          37,
+          247,
+          140,
+          92
+        ],
+        [
+          30,
+          37,
+          243,
+          132,
+          84
+        ],
+        [
+          31,
+          37,
+          241,
+          126,
+          78
+        ]
+      ]
+    },
+    {
+      "gender": 1,
+      "state": "idle",
+      "hairColor": 0,
+      "style": "bob",
+      "facing": "left",
+      "phase": 3,
+      "strongFleshDeleted": 4,
+      "headOpaqueDeleted": 729,
+      "firstDeletedStrongPixels": [
+        [
+          29,
+          36,
+          244,
+          128,
+          84
+        ],
+        [
+          29,
+          37,
+          247,
+          140,
+          92
+        ],
+        [
+          30,
+          37,
+          243,
+          132,
+          84
+        ],
+        [
+          31,
+          37,
+          241,
+          126,
+          78
+        ]
+      ]
+    },
+    {
+      "gender": 1,
+      "state": "idle",
+      "hairColor": 0,
+      "style": "part",
+      "facing": "left",
+      "phase": 0,
+      "strongFleshDeleted": 4,
+      "headOpaqueDeleted": 818,
+      "firstDeletedStrongPixels": [
+        [
+          29,
+          36,
+          244,
+          128,
+          84
+        ],
+        [
+          29,
+          37,
+          247,
+          140,
+          92
+        ],
+        [
+          30,
+          37,
+          243,
+          132,
+          84
+        ],
+        [
+          31,
+          37,
+          241,
+          126,
+          78
+        ]
+      ]
+    },
+    {
+      "gender": 1,
+      "state": "idle",
+      "hairColor": 0,
+      "style": "part",
+      "facing": "left",
+      "phase": 1,
+      "strongFleshDeleted": 4,
+      "headOpaqueDeleted": 818,
+      "firstDeletedStrongPixels": [
+        [
+          29,
+          36,
+          244,
+          128,
+          84
+        ],
+        [
+          29,
+          37,
+          247,
+          140,
+          92
+        ],
+        [
+          30,
+          37,
+          243,
+          132,
+          84
+        ],
+        [
+          31,
+          37,
+          241,
+          126,
+          78
+        ]
+      ]
+    },
+    {
+      "gender": 1,
+      "state": "idle",
+      "hairColor": 0,
+      "style": "part",
+      "facing": "left",
+      "phase": 2,
+      "strongFleshDeleted": 4,
+      "headOpaqueDeleted": 818,
+      "firstDeletedStrongPixels": [
+        [
+          29,
+          36,
+          244,
+          128,
+          84
+        ],
+        [
+          29,
+          37,
+          247,
+          140,
+          92
+        ],
+        [
+          30,
+          37,
+          243,
+          132,
+          84
+        ],
+        [
+          31,
+          37,
+          241,
+          126,
+          78
+        ]
+      ]
+    },
+    {
+      "gender": 1,
+      "state": "idle",
+      "hairColor": 0,
+      "style": "part",
+      "facing": "left",
+      "phase": 3,
+      "strongFleshDeleted": 4,
+      "headOpaqueDeleted": 818,
+      "firstDeletedStrongPixels": [
+        [
+          29,
+          36,
+          244,
+          128,
+          84
+        ],
+        [
+          29,
+          37,
+          247,
+          140,
+          92
+        ],
+        [
+          30,
+          37,
+          243,
+          132,
+          84
+        ],
+        [
+          31,
+          37,
+          241,
+          126,
+          78
+        ]
+      ]
+    },
+    {
+      "gender": 1,
+      "state": "idle",
+      "hairColor": 0,
+      "style": "long",
+      "facing": "left",
+      "phase": 0,
+      "strongFleshDeleted": 4,
+      "headOpaqueDeleted": 558,
+      "firstDeletedStrongPixels": [
+        [
+          29,
+          36,
+          244,
+          128,
+          84
+        ],
+        [
+          29,
+          37,
+          247,
+          140,
+          92
+        ],
+        [
+          30,
+          37,
+          243,
+          132,
+          84
+        ],
+        [
+          31,
+          37,
+          241,
+          126,
+          78
+        ]
+      ]
+    },
+    {
+      "gender": 1,
+      "state": "idle",
+      "hairColor": 0,
+      "style": "long",
+      "facing": "left",
+      "phase": 1,
+      "strongFleshDeleted": 4,
+      "headOpaqueDeleted": 558,
+      "firstDeletedStrongPixels": [
+        [
+          29,
+          36,
+          244,
+          128,
+          84
+        ],
+        [
+          29,
+          37,
+          247,
+          140,
+          92
+        ],
+        [
+          30,
+          37,
+          243,
+          132,
+          84
+        ],
+        [
+          31,
+          37,
+          241,
+          126,
+          78
+        ]
+      ]
+    },
+    {
+      "gender": 1,
+      "state": "idle",
+      "hairColor": 0,
+      "style": "long",
+      "facing": "left",
+      "phase": 2,
+      "strongFleshDeleted": 4,
+      "headOpaqueDeleted": 558,
+      "firstDeletedStrongPixels": [
+        [
+          29,
+          36,
+          244,
+          128,
+          84
+        ],
+        [
+          29,
+          37,
+          247,
+          140,
+          92
+        ],
+        [
+          30,
+          37,
+          243,
+          132,
+          84
+        ],
+        [
+          31,
+          37,
+          241,
+          126,
+          78
+        ]
+      ]
+    }
+  ],
+  "notes": [
+    "Strong-flesh thresholds are diagnostic candidates, not an authoritative anatomical mask. Contact sheets must be inspected.",
+    "Native style0 baseline is included. Brown and white renders use the actual runtime painter."
+  ]
+}

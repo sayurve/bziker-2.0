@@ -1,0 +1,219 @@
+{
+  "source_sha256": {
+    "avatar": "f81d340060c2e2393c61c96147e0b5389af4af98e5fdcb0c34561c945a9e2127",
+    "world": "b0a82ee3c835304c51b0e0a27c9d1f34c6f5d36c08b1e541426b9e7c9cfcd972"
+  },
+  "fractional_translation": {
+    "originA": [
+      0,
+      0
+    ],
+    "originB": [
+      0.6,
+      0.6
+    ],
+    "scale": 1.5,
+    "head_rectangles": 110,
+    "changed_normalized_head_rectangles": 110,
+    "first_changed": [
+      [
+        [
+          18,
+          5,
+          2,
+          1,
+          "#603b28"
+        ],
+        [
+          18,
+          4,
+          1,
+          2,
+          "#603b28"
+        ]
+      ],
+      [
+        [
+          20,
+          5,
+          4,
+          1,
+          "#856551"
+        ],
+        [
+          19,
+          4,
+          5,
+          2,
+          "#856551"
+        ]
+      ],
+      [
+        [
+          24,
+          5,
+          5,
+          1,
+          "#603b28"
+        ],
+        [
+          24,
+          4,
+          4,
+          2,
+          "#603b28"
+        ]
+      ],
+      [
+        [
+          18,
+          6,
+          11,
+          2,
+          "#603b28"
+        ],
+        [
+          18,
+          6,
+          10,
+          1,
+          "#603b28"
+        ]
+      ],
+      [
+        [
+          17,
+          8,
+          3,
+          1,
+          "#3d2926"
+        ],
+        [
+          16,
+          7,
+          3,
+          2,
+          "#3d2926"
+        ]
+      ]
+    ]
+  },
+  "camera_example": {
+    "fps_is_synthetic_input": 60,
+    "viewport_css_width": 390,
+    "world_scale": 1.5,
+    "dpr": 2,
+    "speed_world_units_per_second": 172,
+    "frames": 60,
+    "range_anchor_device_x": [
+      317,
+      319
+    ],
+    "samples": [
+      {
+        "i": 0,
+        "position": 1000,
+        "view": 870,
+        "anchorDeviceX": 318
+      },
+      {
+        "i": 1,
+        "position": 1002.8666666666667,
+        "view": 873,
+        "anchorDeviceX": 318
+      },
+      {
+        "i": 2,
+        "position": 1005.7333333333333,
+        "view": 875.6666666666666,
+        "anchorDeviceX": 319
+      },
+      {
+        "i": 3,
+        "position": 1008.6,
+        "view": 878.6666666666666,
+        "anchorDeviceX": 319
+      },
+      {
+        "i": 4,
+        "position": 1011.4666666666667,
+        "view": 881.3333333333334,
+        "anchorDeviceX": 317
+      },
+      {
+        "i": 5,
+        "position": 1014.3333333333334,
+        "view": 884.3333333333334,
+        "anchorDeviceX": 317
+      },
+      {
+        "i": 6,
+        "position": 1017.2,
+        "view": 887.3333333333334,
+        "anchorDeviceX": 317
+      },
+      {
+        "i": 7,
+        "position": 1020.0666666666667,
+        "view": 890,
+        "anchorDeviceX": 318
+      },
+      {
+        "i": 8,
+        "position": 1022.9333333333333,
+        "view": 893,
+        "anchorDeviceX": 318
+      },
+      {
+        "i": 9,
+        "position": 1025.8,
+        "view": 895.6666666666666,
+        "anchorDeviceX": 319
+      },
+      {
+        "i": 10,
+        "position": 1028.6666666666667,
+        "view": 898.6666666666666,
+        "anchorDeviceX": 319
+      },
+      {
+        "i": 11,
+        "position": 1031.5333333333333,
+        "view": 901.6666666666666,
+        "anchorDeviceX": 319
+      }
+    ]
+  },
+  "walking_frame_policy": {
+    "milliseconds_per_frame": 90,
+    "frames_per_cycle": 8,
+    "milliseconds_per_cycle": 720,
+    "nominal_full_speed_cycle_distance": 123.83999999999999,
+    "restart_samples": [
+      {
+        "global_time": 89,
+        "first_frame": 0
+      },
+      {
+        "global_time": 90,
+        "first_frame": 1
+      },
+      {
+        "global_time": 179,
+        "first_frame": 1
+      },
+      {
+        "global_time": 180,
+        "first_frame": 2
+      },
+      {
+        "global_time": 719,
+        "first_frame": 7
+      },
+      {
+        "global_time": 720,
+        "first_frame": 0
+      }
+    ]
+  }
+}

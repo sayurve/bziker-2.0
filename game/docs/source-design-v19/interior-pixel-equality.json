@@ -1,0 +1,56 @@
+{
+  "comparison": "Native Canvas 1536x1024 rasterization, standard alpha premultiplication; hidden RGB in transparent PNG pixels is not a visual pixel.",
+  "all_five_equal": true,
+  "scenes": [
+    {
+      "scene": "station",
+      "source_file": "01_Окружение/Здания/ЖД_вокзал/Интерьер/основной.png",
+      "runtime_file": "/assets/design-exact-interior-9480a82f7561631ef0c2.png",
+      "render_file": "docs/source-design-v19/railway.png",
+      "native_canvas_pixels_equal": true,
+      "runtime_byte_identical": true,
+      "source_canvas_rgba_sha256": "df462a256c6bb68dd84b27806b51d40ded6bdfeaae9f5785daf3c47a31a66b1b",
+      "render_canvas_rgba_sha256": "df462a256c6bb68dd84b27806b51d40ded6bdfeaae9f5785daf3c47a31a66b1b"
+    },
+    {
+      "scene": "casino",
+      "source_file": "01_Окружение/Здания/Казино/Интерьер/основной.png",
+      "runtime_file": "/assets/design-exact-interior-2287fd0d4da617483bbb.png",
+      "render_file": "docs/source-design-v19/casino.png",
+      "native_canvas_pixels_equal": true,
+      "runtime_byte_identical": true,
+      "source_canvas_rgba_sha256": "b6a09feaf48f6630453dce1ba98142c0b289d6ec4015c811bdb64eac21acead6",
+      "render_canvas_rgba_sha256": "b6a09feaf48f6630453dce1ba98142c0b289d6ec4015c811bdb64eac21acead6"
+    },
+    {
+      "scene": "clothing",
+      "source_file": "01_Окружение/Здания/Магазин_одежды/Интерьер/основной.png",
+      "runtime_file": "/assets/design-exact-interior-323285bfc425b841137b.png",
+      "render_file": "docs/source-design-v19/profile.png",
+      "native_canvas_pixels_equal": true,
+      "runtime_byte_identical": true,
+      "source_canvas_rgba_sha256": "ca35e28e6749bf040aeac369455dd08df4b341addd242f2c37817597c919d75d",
+      "render_canvas_rgba_sha256": "ca35e28e6749bf040aeac369455dd08df4b341addd242f2c37817597c919d75d"
+    },
+    {
+      "scene": "bar",
+      "source_file": "01_Окружение/Здания/Бар_Пивковый_туз/Интерьер/основной.png",
+      "runtime_file": "/assets/design-exact-interior-c396520e0f9f6862a2ec.png",
+      "render_file": "docs/source-design-v19/messages.png",
+      "native_canvas_pixels_equal": true,
+      "runtime_byte_identical": true,
+      "source_canvas_rgba_sha256": "23252656d1e5d178ef078ff9cc707d0a39a0c079e0408cbb13c4334ac37554ff",
+      "render_canvas_rgba_sha256": "23252656d1e5d178ef078ff9cc707d0a39a0c079e0408cbb13c4334ac37554ff"
+    },
+    {
+      "scene": "hub",
+      "source_file": "01_Окружение/Здания/ТЦ_Бзик_хаб/Интерьер/основной.png",
+      "runtime_file": "/assets/design-exact-interior-eca02e09e5dc4b19dc66.png",
+      "render_file": "docs/source-design-v19/arena.png",
+      "native_canvas_pixels_equal": true,
+      "runtime_byte_identical": true,
+      "source_canvas_rgba_sha256": "19b5916e7822b490d0cb8d8227ae442f7c96fa86e6d3130d17fe75e2687070a8",
+      "render_canvas_rgba_sha256": "19b5916e7822b490d0cb8d8227ae442f7c96fa86e6d3130d17fe75e2687070a8"
+    }
+  ]
+}

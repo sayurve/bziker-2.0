@@ -1,0 +1,632 @@
+{
+  "createdAt": "2026-10-15T11:49:35.778Z",
+  "gender": 0,
+  "category": "pantsColor",
+  "source": "final",
+  "cases": 32,
+  "crop": {
+    "x": 535,
+    "y": 375,
+    "width": 135,
+    "height": 180
+  },
+  "qaOnly": true,
+  "productionArtChanged": false,
+  "realBrowserCaptures": true,
+  "renderedMockups": false,
+  "scale": 1.5,
+  "sheets": [
+    "page-1.png",
+    "page-2.png"
+  ],
+  "records": [
+    {
+      "value": 0,
+      "name": "Синий",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-00-down.jpg",
+      "sourceSha256": "808491a8201b6a7df7426ec64a9e040aec72861b0616bca5086da1ff7f4136b5",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-00-down-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Синий",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-00-left.jpg",
+      "sourceSha256": "5c51018d7b6df0e159714f3d6cd5b8920aee621ec0e4171a5b68292a6179f9ed",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-00-left-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Синий",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-00-up.jpg",
+      "sourceSha256": "828722268cff6a8eb7f1cf5da28d757bdc6eac483efeeba47fd3aa8943e43b7f",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-00-up-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Синий",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-00-right.jpg",
+      "sourceSha256": "27bbfc55c3c2e4fd87d9405357ad80b99d7fd2a87e1190423ba8e9900f583ff7",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-00-right-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Чёрный",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-01-down.jpg",
+      "sourceSha256": "0ee2ed5d3b2bf4fcbc47fe5d195a291a97cfbdfe0d3e9fa14dfd5cb836c5a794",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-01-down-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Чёрный",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-01-left.jpg",
+      "sourceSha256": "95ef639ee5da69bcd062c762e345b2597a517ead1ae050afd029223514a08f28",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-01-left-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Чёрный",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-01-up.jpg",
+      "sourceSha256": "15f2f6110db3893e88fef3ad4f6d1657da247f948677963feb1248ac1021ca04",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-01-up-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Чёрный",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-01-right.jpg",
+      "sourceSha256": "c5771b15ecf19923952b483271b463c2ad3394ae590fad822985a2a6c7fe4b4b",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-01-right-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Серый",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-02-down.jpg",
+      "sourceSha256": "16b7009c5e4f26ae9b14fa3a1921f8dc15b4e6880d0edfed86288d655553c85d",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-02-down-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Серый",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-02-left.jpg",
+      "sourceSha256": "72f3268dd5d852948dbba2634672a5825d576ae7e25c0ff4f9593e2d30455113",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-02-left-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Серый",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-02-up.jpg",
+      "sourceSha256": "d6679301cecb961f93e4a73e986cb6938f3ebe94114bb1494d7fb5c18d3c0359",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-02-up-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Серый",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-02-right.jpg",
+      "sourceSha256": "c8fda54d3bcb08dfe2f3faafdd53b6c8025b4b9a660c9d3844f113b7ca3fc66f",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-02-right-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Белый",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-03-down.jpg",
+      "sourceSha256": "3f9444f95b4fe69d1070263a973eaa9e79521a46a0bce6e4182d86ae76bc2cd3",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-03-down-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Белый",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-03-left.jpg",
+      "sourceSha256": "117827fc74c2637662f82b4f0e0e59c2622335b0be4ee3cc81f3db047bebc46c",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-03-left-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Белый",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-03-up.jpg",
+      "sourceSha256": "b10d612c559a6b937805a8e2d9511ff736b21b61594b4f23f63e8732d5c66db4",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-03-up-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Белый",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-03-right.jpg",
+      "sourceSha256": "10154672a9a507ca07c220b3f7a48db4eb405d0edd92685493906b3b55aa3e8e",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-03-right-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Песочный",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-04-down.jpg",
+      "sourceSha256": "38a22eaf572cbffa2e16ff19ee4d312f2b1bb0928baedb680fef45f378d13ab5",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-04-down-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Песочный",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-04-left.jpg",
+      "sourceSha256": "b51a0bead1a0dd2f5a9a195d4f2518f279856c2604635060fc69b33c5351e490",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-04-left-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Песочный",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-04-up.jpg",
+      "sourceSha256": "cbd6888aeca0392e795177b79a00f4cf86a8a826ab09469aec8c6961b9216c49",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-04-up-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Песочный",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-04-right.jpg",
+      "sourceSha256": "3637e78831d00d8285c7ccb0bf3d60c720cc81613ff6a3f27edb1cb4e87d7212",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-04-right-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Хаки",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-05-down.jpg",
+      "sourceSha256": "70a6afb580b039558b72b25d11f17ac20da64ed19563886a2cb3912a3dac55e6",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-05-down-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Хаки",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-05-left.jpg",
+      "sourceSha256": "7bce40a3feda8e2976fe888cacff1ee64e86533332c41ea4a4d8a0e297c9c44e",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-05-left-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Хаки",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-05-up.jpg",
+      "sourceSha256": "d175d318896a69429b36c7e52540b9110bbaa95282b0e02460dde98d78c3e210",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-05-up-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Хаки",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-05-right.jpg",
+      "sourceSha256": "d6bd7397da407ce1b815ee643a189ccf78fa0f1241091e623dbd6f851d9d1736",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-05-right-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Сиреневый",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-06-down.jpg",
+      "sourceSha256": "31b5c2415181f652113f24ec5a45ab079872baffd0d15e988c3a4d8f3648e77a",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-06-down-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Сиреневый",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-06-left.jpg",
+      "sourceSha256": "e19e639fa2fa5027b0349fd44921f170d72bf9fa26bc6603a8cc37162c15011c",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-06-left-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Сиреневый",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-06-up.jpg",
+      "sourceSha256": "3e2a76ef77a3833579703897e3b34561a15bbcd57bee69403d482867d6ad66e9",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-06-up-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Сиреневый",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-06-right.jpg",
+      "sourceSha256": "0a65771c270a8d11eef3980a27ece8059890d23a068b4bd16d183759b7e32c44",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-06-right-crop.png"
+    },
+    {
+      "value": 7,
+      "name": "Коралловый",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-07-down.jpg",
+      "sourceSha256": "77b716fe0ca81eb399e03d057503dc1a2a4e14743c5e865c73442cc750c41a28",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-07-down-crop.png"
+    },
+    {
+      "value": 7,
+      "name": "Коралловый",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-07-left.jpg",
+      "sourceSha256": "9d8ba7b13910d0dfa7750415f8aef0d6c1bbd9d346d41c245d3d01b21a0230ed",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-07-left-crop.png"
+    },
+    {
+      "value": 7,
+      "name": "Коралловый",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-07-up.jpg",
+      "sourceSha256": "d96f6fa8bd546b7675257256ac09133a0ada8e8f1c44ffa6d509e34feb641eec",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-07-up-crop.png"
+    },
+    {
+      "value": 7,
+      "name": "Коралловый",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-pantsColor-07-right.jpg",
+      "sourceSha256": "68dc43033de05d647678476ae67a40b3f3c67ec5b69d613cff251d24aef73c61",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-07-right-crop.png"
+    }
+  ]
+}

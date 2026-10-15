@@ -1,0 +1,514 @@
+[
+  {
+    "actor": "human-male",
+    "dir": "right",
+    "pose": 0,
+    "components": [
+      [
+        3648,
+        [
+          23,
+          14,
+          72,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-male",
+    "dir": "right",
+    "pose": 1,
+    "components": [
+      [
+        3611,
+        [
+          23,
+          14,
+          72,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-male",
+    "dir": "right",
+    "pose": 2,
+    "components": [
+      [
+        3642,
+        [
+          23,
+          14,
+          72,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-male",
+    "dir": "right",
+    "pose": 3,
+    "components": [
+      [
+        3663,
+        [
+          23,
+          14,
+          80,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-male",
+    "dir": "down",
+    "pose": 0,
+    "components": [
+      [
+        4197,
+        [
+          22,
+          15,
+          73,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-male",
+    "dir": "down",
+    "pose": 1,
+    "components": [
+      [
+        4114,
+        [
+          22,
+          15,
+          73,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-male",
+    "dir": "down",
+    "pose": 2,
+    "components": [
+      [
+        4028,
+        [
+          22,
+          15,
+          73,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-male",
+    "dir": "down",
+    "pose": 3,
+    "components": [
+      [
+        4173,
+        [
+          22,
+          15,
+          73,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-male",
+    "dir": "left",
+    "pose": 0,
+    "components": [
+      [
+        3525,
+        [
+          18,
+          15,
+          67,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-male",
+    "dir": "left",
+    "pose": 1,
+    "components": [
+      [
+        3503,
+        [
+          18,
+          15,
+          67,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-male",
+    "dir": "left",
+    "pose": 2,
+    "components": [
+      [
+        3617,
+        [
+          17,
+          15,
+          67,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-male",
+    "dir": "left",
+    "pose": 3,
+    "components": [
+      [
+        3685,
+        [
+          2,
+          15,
+          67,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-male",
+    "dir": "up",
+    "pose": 0,
+    "components": [
+      [
+        3865,
+        [
+          24,
+          14,
+          74,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-male",
+    "dir": "up",
+    "pose": 1,
+    "components": [
+      [
+        3788,
+        [
+          24,
+          14,
+          74,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-male",
+    "dir": "up",
+    "pose": 2,
+    "components": [
+      [
+        3805,
+        [
+          24,
+          14,
+          74,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-male",
+    "dir": "up",
+    "pose": 3,
+    "components": [
+      [
+        3848,
+        [
+          18,
+          14,
+          74,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-female",
+    "dir": "right",
+    "pose": 0,
+    "components": [
+      [
+        3185,
+        [
+          24,
+          19,
+          73,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-female",
+    "dir": "right",
+    "pose": 1,
+    "components": [
+      [
+        3123,
+        [
+          24,
+          19,
+          73,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-female",
+    "dir": "right",
+    "pose": 2,
+    "components": [
+      [
+        3149,
+        [
+          24,
+          19,
+          73,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-female",
+    "dir": "right",
+    "pose": 3,
+    "components": [
+      [
+        3183,
+        [
+          24,
+          19,
+          77,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-female",
+    "dir": "down",
+    "pose": 0,
+    "components": [
+      [
+        3141,
+        [
+          25,
+          19,
+          70,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-female",
+    "dir": "down",
+    "pose": 1,
+    "components": [
+      [
+        3106,
+        [
+          25,
+          19,
+          70,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-female",
+    "dir": "down",
+    "pose": 2,
+    "components": [
+      [
+        3083,
+        [
+          25,
+          19,
+          70,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-female",
+    "dir": "down",
+    "pose": 3,
+    "components": [
+      [
+        3145,
+        [
+          25,
+          19,
+          70,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-female",
+    "dir": "left",
+    "pose": 0,
+    "components": [
+      [
+        3055,
+        [
+          14,
+          20,
+          61,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-female",
+    "dir": "left",
+    "pose": 1,
+    "components": [
+      [
+        3057,
+        [
+          14,
+          20,
+          61,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-female",
+    "dir": "left",
+    "pose": 2,
+    "components": [
+      [
+        3146,
+        [
+          14,
+          20,
+          61,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-female",
+    "dir": "left",
+    "pose": 3,
+    "components": [
+      [
+        3205,
+        [
+          9,
+          20,
+          61,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-female",
+    "dir": "up",
+    "pose": 0,
+    "components": [
+      [
+        3215,
+        [
+          25,
+          19,
+          71,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-female",
+    "dir": "up",
+    "pose": 1,
+    "components": [
+      [
+        3133,
+        [
+          25,
+          19,
+          71,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-female",
+    "dir": "up",
+    "pose": 2,
+    "components": [
+      [
+        3172,
+        [
+          25,
+          19,
+          71,
+          125
+        ]
+      ]
+    ]
+  },
+  {
+    "actor": "human-female",
+    "dir": "up",
+    "pose": 3,
+    "components": [
+      [
+        3207,
+        [
+          21,
+          19,
+          71,
+          125
+        ]
+      ]
+    ]
+  }
+]

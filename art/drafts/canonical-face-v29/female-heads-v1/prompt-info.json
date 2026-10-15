@@ -1,0 +1,13 @@
+{
+  "source": "/Users/sapp/.codex/generated_images/01a11cc3-6744-72b3-ad8a-81b59ea9f091/exec-5adca10c-7464-48e1-b205-5077a673b431.png",
+  "prompt": "Use case: identity-preserve. Asset: FOUR-VIEW CANONICAL FEMALE HEAD for this existing pixel-art game. The four attached images are the current MALE head in front, right, back, left order. They define the EXACT pixel-art technique, face resolution, warm skin shading, dark contour, brown hair shading, large black/white eye style and scale. Make a female counterpart in exactly this art style, with a recognizably softer face: subtly narrower rounded jaw/cheeks, slimmer less heavy eyebrows, delicate upper eye contour without giant lashes, same eye dimensions and same overall head/hair volume. Adult female game avatar, not a different drawing technique, no makeup or accessories. Short brown base hairstyle with soft pixie fringe so all other hairstyles can be layered separately. The four views must be ONE coherent woman with the same skin/hair colors, proportions and identity. Keep exactly the male head size and camera for each matching view; do not enlarge the eyes or shrink the entire face. OUTPUT a transparent 2x2 sheet: top-left FRONT, top-right RIGHT, bottom-left BACK, bottom-right LEFT. Equal 3:4 cells, full sheet 1536x2048 if possible. Each cell has the head only in the same normalized upper part as its reference, and transparent blank lower part: preserve the original 96x128 logical frame registration, no torso, no shoulders, no hands, no neck stretching, no text/grid/background/shadows. Preserve clean pixel stepping and coherent finely shaded game-sprite pixels, not smooth illustration, not 3D, not a new anime/chibi style.",
+  "references": [
+    "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/drafts/locomotion-v27/shared-head-style-proposal/male-down-native-run0-head-fine.png",
+    "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/drafts/locomotion-v27/shared-head-style-proposal/male-right-native-run0-head-fine.png",
+    "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/drafts/locomotion-v27/shared-head-style-proposal/male-up-native-run0-head-fine.png",
+    "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/drafts/locomotion-v27/shared-head-style-proposal/male-left-native-run0-head-fine.png"
+  ],
+  "status": "draft",
+  "sourceTool": "image_gen",
+  "sha256": "ab27a43b2f7d69122ad80d2726458e5c738196feee6c7b2c3f19d4aa0345f388"
+}

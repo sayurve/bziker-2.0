@@ -1,0 +1,11 @@
+✔ both actual palm strokes contact a real native animal head in all20 breeds without stretching or lifting the whole pet (29.216584ms)
+✔ contact is scoped to its actual target, approaches/withdraws continuously and reduced motion holds one native reaction (0.357875ms)
+✔ finite pet frame override never changes normal animal gait or accepts invalid contact phases (0.160959ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 353.098

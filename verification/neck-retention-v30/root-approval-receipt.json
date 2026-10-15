@@ -1,0 +1,42 @@
+{
+  "status": "approved",
+  "scope": "Limited literal-source7A collar repair101fine/18coarse; existing visible RGBA/donor unchanged; runtime assembly separate",
+  "reviewer": "Root",
+  "rootAcknowledgment": "Root viewed entire candidates-v4/before-after-contact.png and explicitly approved limited7neck/collar repair from source; donor faces/hair retained and underarm negative spaces unchanged.",
+  "recordedAt": "2026-10-15T15:17:37.205168+00:00",
+  "contact": {
+    "path": "verification/neck-retention-v30/candidates-v4/before-after-contact.png",
+    "sha256": "8c70792d53290714c5707abf346d82303dac2d918381509d12a52d003ba81bb5"
+  },
+  "candidateAssets": {
+    "verification/neck-retention-v30/candidates-v4/female-hand-left-2-fine.png": "926f03c6c4243fecaa2b834c0cd9f93b47e592b003658d3228b39c1730d4e8d6",
+    "verification/neck-retention-v30/candidates-v4/female-hand-left-2.png": "346b79b53c40a3a98ebbb5468139e575336be093017c145fb632f5b1a48df4e2",
+    "verification/neck-retention-v30/candidates-v4/female-hand-left-3-fine.png": "43886b3d719df5fadef5caae1641d62c9dff532a16e33dfc06f6254729b65f22",
+    "verification/neck-retention-v30/candidates-v4/female-hand-left-3.png": "8627d3ca3cbfe71b0dd5f7ab7c5f750ada0ac9e2451bcc64c3b08b82719ecd41",
+    "verification/neck-retention-v30/candidates-v4/female-lowerReach-down-1-fine.png": "b4aea05f62ad47006b00a882d9f6658b21acad09c848e5d8256f4b842ae8e6fd",
+    "verification/neck-retention-v30/candidates-v4/female-lowerReach-down-1.png": "7f33b9787bed43415287097d1b3865c8e9d26aa1a5899c23a56cabdc5a3bea44",
+    "verification/neck-retention-v30/candidates-v4/female-lowerReach-right-1-fine.png": "c837e1daa465deefdd158729730970f7e9e7bfea3c9c7d1a5f5cb7f0235118b4",
+    "verification/neck-retention-v30/candidates-v4/female-lowerReach-right-1.png": "0d73cce89eec72e1f9c25dd25b274a2872793df3b1fb31956ec36b93a1680fe7",
+    "verification/neck-retention-v30/candidates-v4/female-lowerReach-right-2-fine.png": "90a3ced74bdf4954dd98fb3356a918b9e0b14271642a716de513d95b70b26c20",
+    "verification/neck-retention-v30/candidates-v4/female-lowerReach-right-2.png": "05dc2099353b0d1b7707f6a33c12b3b2c0b5c4e2ffe32aa50466965f366ef99f",
+    "verification/neck-retention-v30/candidates-v4/female-lowerReach-left-1-fine.png": "05f8a7b976dacac05999e9f766a602e9d16c23351b055f4e0d03b1232c9e3a3e",
+    "verification/neck-retention-v30/candidates-v4/female-lowerReach-left-1.png": "f9d14d8aa26be80d34603164cad47e70aeaebde78d71b551010e8544cd0e0d2d",
+    "verification/neck-retention-v30/candidates-v4/female-lowerReach-left-2-fine.png": "1b3c623ed9c6c1c6ee9b06dc26c3f06b27606ae3c360fdfd10b37b147c8b9516",
+    "verification/neck-retention-v30/candidates-v4/female-lowerReach-left-2.png": "3d8723aafc2b3c37df279072400b31bc694cf6755c2872f234def7a0f26fbf55"
+  },
+  "draftManifest": {
+    "path": "verification/neck-retention-v30/candidates-v4/repair-manifest.json",
+    "sha256": "cfe7bba198799e354afe7297cf15ecae5badfcd3b9d43c154ad3dd856878406a"
+  },
+  "totals": {
+    "frames": 7,
+    "restoredFinePixels": 101,
+    "restoredLowAlphaFinePixels": 13,
+    "restoredLowAlphaCoarsePixels": 1,
+    "preservedNonzeroFineCandidates": 0,
+    "restoredCoarsePixels": 18,
+    "donorOpaqueRGBAChanges": 0,
+    "originalVisibleRGBAChanges": 0,
+    "productionWrites": 0
+  }
+}

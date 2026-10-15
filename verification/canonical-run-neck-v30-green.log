@@ -1,0 +1,17 @@
+✔ approved female identity has four independently authored donor faces and retains each exact opaque face through idle and all run phases (54.470708ms)
+✔ female body materials, hands, boots and grounding survive new identity without geometry or alpha damage (75.257042ms)
+✔ female extraction discards faint background residues without discarding any actual opaque head pixel (2.101208ms)
+✔ all thirty-two native run poses retain a physically connected head/body; former female six-gap source is a real reproduced failure (70.822625ms)
+✔ neck repair uses recorded literal source pixels and integer same-head attachment, preserving all lower body RGBA and old-eye alpha cleanup (21.624834ms)
+✔ reviewed real side clips replace run with four separately preserved whole PNG poses (40.481125ms)
+✔ each gender keeps its own exact opaque donor face through every phase (female identity is independent of male) (43.510042ms)
+✔ head identity composition preserves actual authored lower body RGBA and limb geometry (223.203084ms)
+✔ female rear run keeps the same slight model-height difference and never drops below its standing head (4.54425ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 569.485417

@@ -1,0 +1,318 @@
+{
+  "inputCases": [
+    {
+      "fps": 60,
+      "input": 0.13,
+      "distance": 44.72000000000094,
+      "walkingFrames": 120,
+      "totalSamples": 121,
+      "gaitFrames": [
+        0,
+        1,
+        2
+      ],
+      "movementPosts": 2
+    },
+    {
+      "fps": 120,
+      "input": 0.13,
+      "distance": 44.719999999997526,
+      "walkingFrames": 240,
+      "totalSamples": 241,
+      "gaitFrames": [
+        0,
+        1,
+        2
+      ],
+      "movementPosts": 2
+    },
+    {
+      "fps": 240,
+      "input": 0.13,
+      "distance": 44.719999999997526,
+      "walkingFrames": 0,
+      "totalSamples": 481,
+      "gaitFrames": [
+        0
+      ],
+      "movementPosts": 0
+    }
+  ],
+  "cache": {
+    "allocations": 5,
+    "releases": 4,
+    "refreshes": 9,
+    "samples": [
+      {
+        "offset": 0,
+        "textureSize": [
+          240,
+          125
+        ],
+        "localPixelsHash": "452eff3b4f72d428ed3d68fab0b9767837b97db6be08e3bd5072cd07510bc423",
+        "spritePosition": [
+          80,
+          90
+        ],
+        "allocations": 1,
+        "refreshes": 1
+      },
+      {
+        "offset": 0.25,
+        "textureSize": [
+          241,
+          126
+        ],
+        "localPixelsHash": "452eff3b4f72d428ed3d68fab0b9767837b97db6be08e3bd5072cd07510bc423",
+        "spritePosition": [
+          80.25,
+          90.25
+        ],
+        "allocations": 2,
+        "refreshes": 2
+      },
+      {
+        "offset": 0.5,
+        "textureSize": [
+          241,
+          126
+        ],
+        "localPixelsHash": "452eff3b4f72d428ed3d68fab0b9767837b97db6be08e3bd5072cd07510bc423",
+        "spritePosition": [
+          80.5,
+          90.5
+        ],
+        "allocations": 2,
+        "refreshes": 3
+      },
+      {
+        "offset": 0.75,
+        "textureSize": [
+          241,
+          126
+        ],
+        "localPixelsHash": "452eff3b4f72d428ed3d68fab0b9767837b97db6be08e3bd5072cd07510bc423",
+        "spritePosition": [
+          80.75,
+          90.75
+        ],
+        "allocations": 2,
+        "refreshes": 4
+      },
+      {
+        "offset": 1,
+        "textureSize": [
+          240,
+          125
+        ],
+        "localPixelsHash": "452eff3b4f72d428ed3d68fab0b9767837b97db6be08e3bd5072cd07510bc423",
+        "spritePosition": [
+          81,
+          91
+        ],
+        "allocations": 3,
+        "refreshes": 5
+      },
+      {
+        "offset": 1.25,
+        "textureSize": [
+          241,
+          126
+        ],
+        "localPixelsHash": "452eff3b4f72d428ed3d68fab0b9767837b97db6be08e3bd5072cd07510bc423",
+        "spritePosition": [
+          81.25,
+          91.25
+        ],
+        "allocations": 4,
+        "refreshes": 6
+      },
+      {
+        "offset": 1.5,
+        "textureSize": [
+          241,
+          126
+        ],
+        "localPixelsHash": "452eff3b4f72d428ed3d68fab0b9767837b97db6be08e3bd5072cd07510bc423",
+        "spritePosition": [
+          81.5,
+          91.5
+        ],
+        "allocations": 4,
+        "refreshes": 7
+      },
+      {
+        "offset": 1.75,
+        "textureSize": [
+          241,
+          126
+        ],
+        "localPixelsHash": "452eff3b4f72d428ed3d68fab0b9767837b97db6be08e3bd5072cd07510bc423",
+        "spritePosition": [
+          81.75,
+          91.75
+        ],
+        "allocations": 4,
+        "refreshes": 8
+      },
+      {
+        "offset": 2,
+        "textureSize": [
+          240,
+          125
+        ],
+        "localPixelsHash": "452eff3b4f72d428ed3d68fab0b9767837b97db6be08e3bd5072cd07510bc423",
+        "spritePosition": [
+          82,
+          92
+        ],
+        "allocations": 5,
+        "refreshes": 9
+      }
+    ],
+    "stableLocalPixels": true
+  },
+  "gaitMath": {
+    "speed": 172,
+    "cycleWorldDistance": 128,
+    "uniquePngStepWorldDistance": 32,
+    "uniquePngFrequencyAtFullSpeed": 5.375,
+    "cycleSeconds": 0.7441860465116279,
+    "displayCanvasWorldSize": [
+      60,
+      80
+    ]
+  },
+  "cameraSamples": [
+    {
+      "dpr": 1,
+      "values": [
+        {
+          "offset": 0,
+          "zoomPhysical": 1,
+          "cameraPhysical": [
+            305,
+            164
+          ],
+          "rawFootPhysical": [
+            195,
+            336
+          ]
+        },
+        {
+          "offset": 0.25,
+          "zoomPhysical": 1,
+          "cameraPhysical": [
+            305,
+            164
+          ],
+          "rawFootPhysical": [
+            195.25,
+            336.25
+          ]
+        },
+        {
+          "offset": 0.5,
+          "zoomPhysical": 1,
+          "cameraPhysical": [
+            306,
+            164
+          ],
+          "rawFootPhysical": [
+            194.5,
+            336.5
+          ]
+        },
+        {
+          "offset": 0.75,
+          "zoomPhysical": 1,
+          "cameraPhysical": [
+            306,
+            165
+          ],
+          "rawFootPhysical": [
+            194.75,
+            335.75
+          ]
+        },
+        {
+          "offset": 1,
+          "zoomPhysical": 1,
+          "cameraPhysical": [
+            306,
+            165
+          ],
+          "rawFootPhysical": [
+            195,
+            336
+          ]
+        }
+      ]
+    },
+    {
+      "dpr": 2,
+      "values": [
+        {
+          "offset": 0,
+          "zoomPhysical": 2,
+          "cameraPhysical": [
+            610,
+            328
+          ],
+          "rawFootPhysical": [
+            390,
+            672
+          ]
+        },
+        {
+          "offset": 0.25,
+          "zoomPhysical": 2,
+          "cameraPhysical": [
+            611,
+            328
+          ],
+          "rawFootPhysical": [
+            389.5,
+            672.5
+          ]
+        },
+        {
+          "offset": 0.5,
+          "zoomPhysical": 2,
+          "cameraPhysical": [
+            611,
+            329
+          ],
+          "rawFootPhysical": [
+            390,
+            672
+          ]
+        },
+        {
+          "offset": 0.75,
+          "zoomPhysical": 2,
+          "cameraPhysical": [
+            612,
+            329
+          ],
+          "rawFootPhysical": [
+            389.5,
+            672.5
+          ]
+        },
+        {
+          "offset": 1,
+          "zoomPhysical": 2,
+          "cameraPhysical": [
+            612,
+            330
+          ],
+          "rawFootPhysical": [
+            390,
+            672
+          ]
+        }
+      ]
+    }
+  ]
+}

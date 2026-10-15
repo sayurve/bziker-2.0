@@ -1,0 +1,13 @@
+✔ both live bins map the measured native opening through their real crop and anchor (4.96775ms)
+✔ paper reaches the supplied visible slot and preserves the existing release palm (0.945875ms)
+✔ real world avatar painter sends the paper into the native bin opening (65.434416ms)
+✔ paper release uses the selected model and direction palm, including nondefault world scale (2.253417ms)
+✔ new water equipment uses the reviewed pose palm, separate supporting grip and authored angle (2.390084ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 371.866458

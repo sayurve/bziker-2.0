@@ -1,0 +1,768 @@
+{
+  "stable": true,
+  "sourceFiles": {
+    "game/web/source-city.js": "c62fab72533f4cde0492e4b23ac2d4b70e357ec4470d1c3dfde47f8b25199520",
+    "game/web/action-effects.js": "a0b50650eb50dc71e63ffd55ecd9f764045fed2689de546736d65bf95de3861b",
+    "game/web/world.js": "66c1cb90f59470e85d2e756f5232cac0bd8bcbad3baa692f91fdaff43e4b8c18",
+    "game/web/phaser-world-renderer.js": "25d85b9c006cfcfbb2d4f46cba5033c78ea6354cd1dbdd3479121fd32655d5d8",
+    "game/web/source-actors.js": "e8b28698806865f0e1a298c00148fffe2115fc818efc799936ff8bd40afc1a8e",
+    "game/web/actor-sprite.js": "be8e935642374699951146083fbef4ec1ad690a7de8a06ae2153f34dc9b4271b",
+    "game/web/interaction-actors-data.js": "34a771f62dc4ad38f5efd79788dd681b2ffe1a79751f4d4ce27faa23657cffa6"
+  },
+  "asset": {
+    "url": "/assets/design-7a298f54893b22d65b7d-768.png",
+    "width": 593,
+    "height": 768,
+    "solid_bbox": [
+      172,
+      138,
+      425,
+      639
+    ],
+    "source": "01_Окружение/Уличные_объекты/Урна/основной.png",
+    "source_sha256": "7a298f54893b22d65b7dc872ac42f867d66edafb523b75f91a45b33cfe3fad36",
+    "source_bbox": [
+      178,
+      71,
+      1073,
+      1230
+    ],
+    "status": "approved",
+    "resampling": "nearest-neighbour",
+    "runtimeSHA256": "b5f239b6e246f1257cf63709a9feb3a2942d47e77163cdcbfc776c753da8f409",
+    "crop": {
+      "x": 172,
+      "y": 138,
+      "width": 253,
+      "height": 501
+    },
+    "nativeSlot": [
+      291,
+      272
+    ],
+    "nativeSlotRGBA": [
+      13,
+      13,
+      13,
+      253
+    ]
+  },
+  "avatar": {
+    "gender": 0,
+    "skin": 3,
+    "hairStyle": 7,
+    "hairColor": 6,
+    "shirtStyle": 2,
+    "shirtColor": 8,
+    "pantsStyle": 0,
+    "pantsColor": 1,
+    "accessory": 0,
+    "shoesColor": 0,
+    "headwear": 0,
+    "outfit": 0
+  },
+  "records": [
+    {
+      "bin": "bin-plaza",
+      "actorPosition": {
+        "x": 6044,
+        "y": 4136
+      },
+      "legalPoint": {
+        "x": 6044,
+        "y": 4136
+      },
+      "distance": 44.721359549995796,
+      "allowedRadius": 65,
+      "slot": {
+        "x": 6062.962450598803,
+        "y": 4005.229249301397
+      },
+      "bounds": {
+        "x": 5924,
+        "y": 3974,
+        "width": 240,
+        "height": 177
+      },
+      "fullPaperPixels": 25,
+      "boundedPaperPixels": 25,
+      "samples": [
+        {
+          "progress": 0.4,
+          "point": {
+            "x": 6028.375,
+            "y": 4099.75,
+            "progress": 2.696255916946809e-15
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.41000000000000003,
+          "point": {
+            "x": 6029.363212874252,
+            "y": 4094.8840755363117,
+            "progress": 0.028571428571432248
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.42000000000000004,
+          "point": {
+            "x": 6030.351425748503,
+            "y": 4090.0355850493643,
+            "progress": 0.05714285714286196
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.43000000000000005,
+          "point": {
+            "x": 6031.339638622755,
+            "y": 4085.2218221477688,
+            "progress": 0.08571428571429167
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.44,
+          "point": {
+            "x": 6032.327851497006,
+            "y": 4080.4598008340413,
+            "progress": 0.11428571428570773
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.45,
+          "point": {
+            "x": 6033.316064371257,
+            "y": 4075.7661185178476,
+            "progress": 0.14285714285713744
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.46,
+          "point": {
+            "x": 6034.304277245509,
+            "y": 4071.156822383437,
+            "progress": 0.171428571428567
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.47000000000000003,
+          "point": {
+            "x": 6035.29249011976,
+            "y": 4066.6472801871373,
+            "progress": 0.1999999999999967
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.48000000000000004,
+          "point": {
+            "x": 6036.280702994012,
+            "y": 4062.2520565252225,
+            "progress": 0.2285714285714264
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.49,
+          "point": {
+            "x": 6037.268915868263,
+            "y": 4057.984795568344,
+            "progress": 0.25714285714285595
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.5,
+          "point": {
+            "x": 6038.257128742515,
+            "y": 4053.8581112066954,
+            "progress": 0.28571428571428564
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.51,
+          "point": {
+            "x": 6039.245341616766,
+            "y": 4049.8834854903816,
+            "progress": 0.3142857142857152
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.52,
+          "point": {
+            "x": 6040.233554491018,
+            "y": 4046.071176182704,
+            "progress": 0.3428571428571451
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.53,
+          "point": {
+            "x": 6041.221767365269,
+            "y": 4042.4301341706837,
+            "progress": 0.37142857142857466
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.54,
+          "point": {
+            "x": 6042.209980239521,
+            "y": 4038.9679313977804,
+            "progress": 0.4000000000000042
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.55,
+          "point": {
+            "x": 6043.1981931137725,
+            "y": 4035.690699899055,
+            "progress": 0.42857142857143404
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.56,
+          "point": {
+            "x": 6044.1864059880245,
+            "y": 4032.6030824296304,
+            "progress": 0.4571428571428636
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.5700000000000001,
+          "point": {
+            "x": 6045.174618862276,
+            "y": 4029.708195083959,
+            "progress": 0.4857142857142798
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.5800000000000001,
+          "point": {
+            "x": 6046.162831736528,
+            "y": 4027.007602206856,
+            "progress": 0.5142857142857093
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.5900000000000001,
+          "point": {
+            "x": 6047.151044610779,
+            "y": 4024.5013037983226,
+            "progress": 0.5428571428571389
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.6000000000000001,
+          "point": {
+            "x": 6048.139257485031,
+            "y": 4022.1877355135407,
+            "progress": 0.5714285714285688
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.61,
+          "point": {
+            "x": 6049.127470359282,
+            "y": 4020.0637812580603,
+            "progress": 0.5999999999999983
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.62,
+          "point": {
+            "x": 6050.115683233534,
+            "y": 4018.124798276758,
+            "progress": 0.6285714285714279
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.63,
+          "point": {
+            "x": 6051.103896107785,
+            "y": 4016.364654534572,
+            "progress": 0.6571428571428578
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.64,
+          "point": {
+            "x": 6052.092108982037,
+            "y": 4014.7757780880434,
+            "progress": 0.6857142857142873
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.65,
+          "point": {
+            "x": 6053.080321856288,
+            "y": 4013.349218050151,
+            "progress": 0.7142857142857169
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.66,
+          "point": {
+            "x": 6054.06853473054,
+            "y": 4012.074716657594,
+            "progress": 0.7428571428571468
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.67,
+          "point": {
+            "x": 6055.056747604791,
+            "y": 4010.940791860266,
+            "progress": 0.7714285714285762
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.68,
+          "point": {
+            "x": 6056.044960479043,
+            "y": 4009.934829767975,
+            "progress": 0.8000000000000058
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.69,
+          "point": {
+            "x": 6057.033173353294,
+            "y": 4009.0431862100686,
+            "progress": 0.8285714285714221
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.7,
+          "point": {
+            "x": 6058.021386227545,
+            "y": 4008.251296590273,
+            "progress": 0.8571428571428517
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.71,
+          "point": {
+            "x": 6059.009599101797,
+            "y": 4007.5437931522606,
+            "progress": 0.8857142857142815
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.72,
+          "point": {
+            "x": 6059.997811976048,
+            "y": 4006.9046287117844,
+            "progress": 0.914285714285711
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.73,
+          "point": {
+            "x": 6060.9860248503,
+            "y": 4006.3172058591736,
+            "progress": 0.9428571428571406
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.74,
+          "point": {
+            "x": 6061.974237724551,
+            "y": 4005.764510591915,
+            "progress": 0.9714285714285704
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.75,
+          "point": {
+            "x": 6062.962450598803,
+            "y": 4005.229249301397,
+            "progress": 1
+          },
+          "insideBounds": true
+        }
+      ]
+    },
+    {
+      "bin": "bin-park",
+      "actorPosition": {
+        "x": 5596,
+        "y": 3504
+      },
+      "legalPoint": {
+        "x": 5596,
+        "y": 3504
+      },
+      "distance": 44.721359549995796,
+      "allowedRadius": 65,
+      "slot": {
+        "x": 5614.962450598803,
+        "y": 3373.229249301397
+      },
+      "bounds": {
+        "x": 5476,
+        "y": 3342,
+        "width": 240,
+        "height": 177
+      },
+      "fullPaperPixels": 25,
+      "boundedPaperPixels": 25,
+      "samples": [
+        {
+          "progress": 0.4,
+          "point": {
+            "x": 5580.375,
+            "y": 3467.7499999999995,
+            "progress": 2.696255916946809e-15
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.41000000000000003,
+          "point": {
+            "x": 5581.363212874252,
+            "y": 3462.8840755363117,
+            "progress": 0.028571428571432248
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.42000000000000004,
+          "point": {
+            "x": 5582.351425748503,
+            "y": 3458.0355850493643,
+            "progress": 0.05714285714286196
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.43000000000000005,
+          "point": {
+            "x": 5583.339638622755,
+            "y": 3453.2218221477688,
+            "progress": 0.08571428571429167
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.44,
+          "point": {
+            "x": 5584.327851497006,
+            "y": 3448.4598008340413,
+            "progress": 0.11428571428570773
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.45,
+          "point": {
+            "x": 5585.316064371257,
+            "y": 3443.7661185178476,
+            "progress": 0.14285714285713744
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.46,
+          "point": {
+            "x": 5586.304277245509,
+            "y": 3439.156822383437,
+            "progress": 0.171428571428567
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.47000000000000003,
+          "point": {
+            "x": 5587.29249011976,
+            "y": 3434.6472801871373,
+            "progress": 0.1999999999999967
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.48000000000000004,
+          "point": {
+            "x": 5588.280702994012,
+            "y": 3430.2520565252225,
+            "progress": 0.2285714285714264
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.49,
+          "point": {
+            "x": 5589.268915868263,
+            "y": 3425.984795568344,
+            "progress": 0.25714285714285595
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.5,
+          "point": {
+            "x": 5590.257128742515,
+            "y": 3421.8581112066954,
+            "progress": 0.28571428571428564
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.51,
+          "point": {
+            "x": 5591.245341616766,
+            "y": 3417.8834854903816,
+            "progress": 0.3142857142857152
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.52,
+          "point": {
+            "x": 5592.233554491018,
+            "y": 3414.071176182704,
+            "progress": 0.3428571428571451
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.53,
+          "point": {
+            "x": 5593.221767365269,
+            "y": 3410.4301341706837,
+            "progress": 0.37142857142857466
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.54,
+          "point": {
+            "x": 5594.209980239521,
+            "y": 3406.9679313977804,
+            "progress": 0.4000000000000042
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.55,
+          "point": {
+            "x": 5595.1981931137725,
+            "y": 3403.690699899055,
+            "progress": 0.42857142857143404
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.56,
+          "point": {
+            "x": 5596.1864059880245,
+            "y": 3400.6030824296304,
+            "progress": 0.4571428571428636
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.5700000000000001,
+          "point": {
+            "x": 5597.174618862276,
+            "y": 3397.708195083959,
+            "progress": 0.4857142857142798
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.5800000000000001,
+          "point": {
+            "x": 5598.162831736528,
+            "y": 3395.007602206856,
+            "progress": 0.5142857142857093
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.5900000000000001,
+          "point": {
+            "x": 5599.151044610779,
+            "y": 3392.5013037983226,
+            "progress": 0.5428571428571389
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.6000000000000001,
+          "point": {
+            "x": 5600.139257485031,
+            "y": 3390.1877355135407,
+            "progress": 0.5714285714285688
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.61,
+          "point": {
+            "x": 5601.127470359282,
+            "y": 3388.0637812580603,
+            "progress": 0.5999999999999983
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.62,
+          "point": {
+            "x": 5602.115683233534,
+            "y": 3386.124798276758,
+            "progress": 0.6285714285714279
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.63,
+          "point": {
+            "x": 5603.103896107785,
+            "y": 3384.364654534572,
+            "progress": 0.6571428571428578
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.64,
+          "point": {
+            "x": 5604.092108982037,
+            "y": 3382.7757780880434,
+            "progress": 0.6857142857142873
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.65,
+          "point": {
+            "x": 5605.080321856288,
+            "y": 3381.349218050151,
+            "progress": 0.7142857142857169
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.66,
+          "point": {
+            "x": 5606.06853473054,
+            "y": 3380.074716657594,
+            "progress": 0.7428571428571468
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.67,
+          "point": {
+            "x": 5607.056747604791,
+            "y": 3378.940791860266,
+            "progress": 0.7714285714285762
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.68,
+          "point": {
+            "x": 5608.044960479043,
+            "y": 3377.934829767975,
+            "progress": 0.8000000000000058
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.69,
+          "point": {
+            "x": 5609.033173353294,
+            "y": 3377.0431862100686,
+            "progress": 0.8285714285714221
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.7,
+          "point": {
+            "x": 5610.021386227545,
+            "y": 3376.251296590273,
+            "progress": 0.8571428571428517
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.71,
+          "point": {
+            "x": 5611.009599101797,
+            "y": 3375.5437931522606,
+            "progress": 0.8857142857142815
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.72,
+          "point": {
+            "x": 5611.997811976048,
+            "y": 3374.9046287117844,
+            "progress": 0.914285714285711
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.73,
+          "point": {
+            "x": 5612.9860248503,
+            "y": 3374.3172058591736,
+            "progress": 0.9428571428571406
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.74,
+          "point": {
+            "x": 5613.974237724551,
+            "y": 3373.764510591915,
+            "progress": 0.9714285714285704
+          },
+          "insideBounds": true
+        },
+        {
+          "progress": 0.75,
+          "point": {
+            "x": 5614.962450598803,
+            "y": 3373.229249301397,
+            "progress": 1
+          },
+          "insideBounds": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,651 @@
+{
+  "scope": "Read-only canonical relocation probes; no buildings moved",
+  "results": [
+    {
+      "id": "railway",
+      "canonicalSourceBounds": [
+        880,
+        150,
+        230,
+        132
+      ],
+      "currentAnchor": {
+        "x": 8936,
+        "y": 2240
+      },
+      "proposedCanonicalAnchor": {
+        "x": 7960,
+        "y": 2256
+      },
+      "delta": {
+        "x": -976,
+        "y": 16
+      },
+      "proposedFootprint": {
+        "x": 7405,
+        "y": 2086,
+        "width": 1109,
+        "height": 170
+      },
+      "proposedDoor": {
+        "x": 7935,
+        "y": 2280
+      },
+      "physicalConflicts": [
+        {
+          "id": "tree-v23-90",
+          "kind": "tree"
+        },
+        {
+          "id": "tree-v23-460",
+          "kind": "tree"
+        },
+        {
+          "id": "tree-v23-461",
+          "kind": "tree"
+        },
+        {
+          "id": "tree-v23-462",
+          "kind": "tree"
+        },
+        {
+          "id": "tree-v23-463",
+          "kind": "tree"
+        },
+        {
+          "id": "tree-v23-464",
+          "kind": "tree"
+        }
+      ],
+      "roadEnvelopeConflicts": [],
+      "doorObstructions": [],
+      "visualEnvelopeConflicts": [
+        "tree-v23-66",
+        "tree-v23-67",
+        "tree-v23-80",
+        "tree-v23-81",
+        "tree-v23-90",
+        "tree-v23-99",
+        "tree-v23-100",
+        "tree-v23-101",
+        "tree-v23-434",
+        "tree-v23-435",
+        "tree-v23-436",
+        "tree-v23-437",
+        "tree-v23-446",
+        "tree-v23-447",
+        "tree-v23-448",
+        "tree-v23-449",
+        "tree-v23-459",
+        "tree-v23-460",
+        "tree-v23-461",
+        "tree-v23-462",
+        "tree-v23-463",
+        "tree-v23-464",
+        "tree-v23-473",
+        "tree-v23-474",
+        "tree-v23-475",
+        "tree-v23-476",
+        "tree-v23-477"
+      ],
+      "assignedCourtyards": [
+        "parking-local-railway"
+      ],
+      "frontage": {
+        "id": "frontage-railway",
+        "building_id": "railway",
+        "path": [
+          [
+            8911,
+            2264
+          ],
+          [
+            9125,
+            2500
+          ],
+          [
+            9800.787436402288,
+            2492.8352503216142
+          ]
+        ],
+        "width": 60,
+        "connection": {
+          "road_id": "east-boulevard"
+        },
+        "forecourt": {
+          "x": 8811,
+          "y": 2240,
+          "width": 200,
+          "height": 104,
+          "building_id": "railway",
+          "function": "entrance-apron"
+        },
+        "parking": {
+          "scene_id": "parking-local-railway",
+          "shared": false,
+          "x": 9117,
+          "y": 2304,
+          "width": 468,
+          "height": 168,
+          "spaces": 1,
+          "entry_id": "parking-local-railway-pedestrian-entry-1",
+          "entry_type": "pedestrian",
+          "access_path": [
+            [
+              8911,
+              2288
+            ],
+            [
+              9075,
+              2400
+            ],
+            [
+              9117,
+              2388
+            ]
+          ],
+          "walking_distance": 242.276
+        }
+      },
+      "route": {
+        "id": "entrance-railway",
+        "from": "park",
+        "target": {
+          "x": 8911,
+          "y": 2288,
+          "radius": 110
+        },
+        "points": [
+          [
+            5530,
+            3256
+          ],
+          [
+            8225,
+            2500
+          ],
+          [
+            8425,
+            2375
+          ],
+          [
+            8875,
+            2325
+          ],
+          [
+            8911,
+            2288
+          ]
+        ]
+      }
+    },
+    {
+      "id": "arena",
+      "canonicalSourceBounds": [
+        997,
+        739,
+        199,
+        167
+      ],
+      "currentAnchor": {
+        "x": 7168,
+        "y": 7336
+      },
+      "proposedCanonicalAnchor": {
+        "x": 8772,
+        "y": 7248
+      },
+      "delta": {
+        "x": 1604,
+        "y": -88
+      },
+      "proposedFootprint": {
+        "x": 8326,
+        "y": 7093,
+        "width": 892,
+        "height": 155
+      },
+      "proposedDoor": {
+        "x": 8772,
+        "y": 7272
+      },
+      "physicalConflicts": [
+        {
+          "id": "tree-v23-728",
+          "kind": "tree"
+        },
+        {
+          "id": "lamp-7-4450-1",
+          "kind": "lamp"
+        },
+        {
+          "id": "parking-planter-4-1",
+          "kind": "planter"
+        },
+        {
+          "id": "parking-planter-4-2",
+          "kind": "planter"
+        }
+      ],
+      "roadEnvelopeConflicts": [
+        "shopping-avenue"
+      ],
+      "doorObstructions": [
+        "parking-block-4-top-curb-part-1"
+      ],
+      "visualEnvelopeConflicts": [
+        "apartment-38",
+        "tree-v23-689",
+        "tree-v23-691",
+        "tree-v23-716",
+        "tree-v23-717",
+        "tree-v23-728",
+        "tree-v23-739",
+        "tree-v23-740",
+        "lamp-7-3750-1",
+        "lamp-7-4450--1",
+        "lamp-7-4450-1",
+        "parking-planter-4-1",
+        "parking-planter-4-2"
+      ],
+      "assignedCourtyards": [
+        "parking-local-messages"
+      ],
+      "frontage": {
+        "id": "frontage-arena",
+        "building_id": "arena",
+        "path": [
+          [
+            7168,
+            7360
+          ],
+          [
+            7168,
+            7430
+          ],
+          [
+            7168,
+            7670
+          ]
+        ],
+        "width": 60,
+        "connection": {
+          "road_id": "south-residential-link"
+        },
+        "forecourt": {
+          "x": 7068,
+          "y": 7336,
+          "width": 200,
+          "height": 104,
+          "building_id": "arena",
+          "function": "entrance-apron"
+        },
+        "parking": {
+          "scene_id": "parking-local-messages",
+          "shared": true,
+          "x": 6226,
+          "y": 7452,
+          "width": 468,
+          "height": 168,
+          "spaces": 1,
+          "entry_id": "parking-local-messages-pedestrian-entry-2",
+          "entry_type": "pedestrian",
+          "access_path": [
+            [
+              7168,
+              7384
+            ],
+            [
+              7150,
+              7650
+            ],
+            [
+              6750,
+              7675
+            ],
+            [
+              6725,
+              7550
+            ],
+            [
+              6694,
+              7536
+            ]
+          ],
+          "walking_distance": 828.879
+        }
+      },
+      "route": {
+        "id": "entrance-arena",
+        "from": "park",
+        "target": {
+          "x": 7168,
+          "y": 7384,
+          "radius": 110
+        },
+        "points": [
+          [
+            5530,
+            3256
+          ],
+          [
+            5600,
+            4775
+          ],
+          [
+            5550,
+            5325
+          ],
+          [
+            5575,
+            5425
+          ],
+          [
+            6700,
+            7125
+          ],
+          [
+            6700,
+            7375
+          ],
+          [
+            7168,
+            7384
+          ]
+        ]
+      }
+    },
+    {
+      "id": "messages",
+      "canonicalSourceBounds": [
+        776,
+        783,
+        174,
+        124
+      ],
+      "currentAnchor": {
+        "x": 6160,
+        "y": 7368
+      },
+      "proposedCanonicalAnchor": {
+        "x": 6904,
+        "y": 7256
+      },
+      "delta": {
+        "x": 744,
+        "y": -112
+      },
+      "proposedFootprint": {
+        "x": 6523,
+        "y": 7122,
+        "width": 761,
+        "height": 134
+      },
+      "proposedDoor": {
+        "x": 6860,
+        "y": 7280
+      },
+      "physicalConflicts": [
+        {
+          "id": "arena",
+          "kind": "building"
+        }
+      ],
+      "roadEnvelopeConflicts": [],
+      "doorObstructions": [
+        "arena"
+      ],
+      "visualEnvelopeConflicts": [
+        "arena",
+        "tree-v23-700",
+        "tree-v23-737"
+      ],
+      "assignedCourtyards": [
+        "parking-local-messages"
+      ],
+      "frontage": {
+        "id": "frontage-messages",
+        "building_id": "messages",
+        "path": [
+          [
+            6116,
+            7392
+          ],
+          [
+            6116,
+            7462
+          ],
+          [
+            6146.3372203348035,
+            7753.704041680805
+          ]
+        ],
+        "width": 60,
+        "connection": {
+          "road_id": "south-residential-link"
+        },
+        "forecourt": {
+          "x": 6016,
+          "y": 7368,
+          "width": 200,
+          "height": 104,
+          "building_id": "messages",
+          "function": "entrance-apron"
+        },
+        "parking": {
+          "scene_id": "parking-local-messages",
+          "shared": true,
+          "x": 6226,
+          "y": 7452,
+          "width": 468,
+          "height": 168,
+          "spaces": 1,
+          "entry_id": "parking-local-messages-pedestrian-entry-1",
+          "entry_type": "pedestrian",
+          "access_path": [
+            [
+              6116,
+              7416
+            ],
+            [
+              6150,
+              7525
+            ],
+            [
+              6226,
+              7536
+            ]
+          ],
+          "walking_distance": 190.972
+        }
+      },
+      "route": {
+        "id": "entrance-messages",
+        "from": "park",
+        "target": {
+          "x": 6116,
+          "y": 7416,
+          "radius": 110
+        },
+        "points": [
+          [
+            5530,
+            3256
+          ],
+          [
+            5600,
+            4775
+          ],
+          [
+            5550,
+            5325
+          ],
+          [
+            5650,
+            6200
+          ],
+          [
+            5775,
+            6600
+          ],
+          [
+            5750,
+            7400
+          ],
+          [
+            5975,
+            7450
+          ],
+          [
+            6116,
+            7416
+          ]
+        ]
+      }
+    }
+  ],
+  "localizedProbes": [
+    {
+      "id": "arena",
+      "search": "25px grid, <=1000px/axis from canonical; preserve other buildings, parking floors, road support corridors and nearby parking; allow minor tree/lamp/planter relocation; arena+messages assumed jointly moved",
+      "candidateCount": 0,
+      "nearestCandidates": []
+    },
+    {
+      "id": "messages",
+      "search": "25px grid, <=1000px/axis from canonical; preserve other buildings, parking floors, road support corridors and nearby parking; allow minor tree/lamp/planter relocation; arena+messages assumed jointly moved",
+      "candidateCount": 853,
+      "nearestCandidates": [
+        {
+          "anchor": {
+            "x": 6904,
+            "y": 7256
+          },
+          "door": {
+            "x": 6860,
+            "y": 7280
+          },
+          "canonicalDistance": 0,
+          "footprint": {
+            "x": 6523,
+            "y": 7122,
+            "width": 761,
+            "height": 134
+          },
+          "minorPhysicalRelocations": [],
+          "visualEnvelopeConflicts": [
+            "tree-v23-700",
+            "tree-v23-737"
+          ],
+          "parking": {
+            "id": "parking-local-messages",
+            "distance": 239.0397456491284
+          }
+        },
+        {
+          "anchor": {
+            "x": 6879,
+            "y": 7256
+          },
+          "door": {
+            "x": 6835,
+            "y": 7280
+          },
+          "canonicalDistance": 25,
+          "footprint": {
+            "x": 6498,
+            "y": 7122,
+            "width": 761,
+            "height": 134
+          },
+          "minorPhysicalRelocations": [],
+          "visualEnvelopeConflicts": [
+            "tree-v23-700",
+            "tree-v23-737"
+          ],
+          "parking": {
+            "id": "parking-local-messages",
+            "distance": 222.40728405337805
+          }
+        },
+        {
+          "anchor": {
+            "x": 6904,
+            "y": 7231
+          },
+          "door": {
+            "x": 6860,
+            "y": 7255
+          },
+          "canonicalDistance": 25,
+          "footprint": {
+            "x": 6523,
+            "y": 7097,
+            "width": 761,
+            "height": 134
+          },
+          "minorPhysicalRelocations": [],
+          "visualEnvelopeConflicts": [
+            "tree-v23-700"
+          ],
+          "parking": {
+            "id": "parking-local-messages",
+            "distance": 257.6140524117425
+          }
+        },
+        {
+          "anchor": {
+            "x": 6904,
+            "y": 7281
+          },
+          "door": {
+            "x": 6860,
+            "y": 7305
+          },
+          "canonicalDistance": 25,
+          "footprint": {
+            "x": 6523,
+            "y": 7147,
+            "width": 761,
+            "height": 134
+          },
+          "minorPhysicalRelocations": [],
+          "visualEnvelopeConflicts": [
+            "tree-v23-700",
+            "tree-v23-737"
+          ],
+          "parking": {
+            "id": "parking-local-messages",
+            "distance": 221.73181999884454
+          }
+        },
+        {
+          "anchor": {
+            "x": 6929,
+            "y": 7256
+          },
+          "door": {
+            "x": 6885,
+            "y": 7280
+          },
+          "canonicalDistance": 25,
+          "footprint": {
+            "x": 6548,
+            "y": 7122,
+            "width": 761,
+            "height": 134
+          },
+          "minorPhysicalRelocations": [],
+          "visualEnvelopeConflicts": [
+            "tree-v23-700",
+            "tree-v23-737"
+          ],
+          "parking": {
+            "id": "parking-local-messages",
+            "distance": 257.0311265197272
+          }
+        }
+      ]
+    }
+  ]
+}

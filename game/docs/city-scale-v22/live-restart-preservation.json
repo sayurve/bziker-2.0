@@ -1,0 +1,10 @@
+{
+  "map_version": "22",
+  "progress_tables_checked": 32,
+  "all_progress_tables_unchanged": true,
+  "active_accounts_same_membership": true,
+  "active_accounts_only_presence_timestamp_updated": true,
+  "served_map_sha256": "b69e05641996f6d295097aca733e86ab9f6a31dbd850e65f5ed5a54ec96a5d45",
+  "integrity_check": "ok",
+  "scope": "Immediately after restart, before UI walk; active account presence timestamp advances during normal open-tab polling."
+}

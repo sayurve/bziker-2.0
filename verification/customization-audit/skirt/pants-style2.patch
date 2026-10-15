@@ -1,0 +1,30 @@
+--- a/game/web/actor-sprite.js
++++ b/game/web/actor-sprite.js
+@@ -103,7 +103,26 @@
+   if(a.shirtStyle===3)for(let y=Math.max(30,bodyTop);y<42;y+=3)if(at(g,20,y))set(g,20,y,'#e9e6da');
+  }
+  if(a.pantsStyle===1||a.pantsStyle===2){for(let y=a.pantsStyle===1?52:54;y<59;y++)for(let x=X0;x<X1;x++){const c=at(g,x,y);if(c)set(g,x,y,shade(c,catalog.skin.colors[a.skin],'skin'));}}
+- if(a.pantsStyle===2){for(let y=44;y<54;y++)for(let x=12-(y-44>>2);x<=27+(y-44>>2);x++){const c=at(originals,Math.max(14,Math.min(25,x)),44+(y-44)%6);if(c)set(g,x,y,shade(c,catalog.pantsColor.colors[a.pantsColor],'pants'));}}
++ if(a.pantsStyle===2){
++  // Build one continuous cloth support from actual dark trouser pixels.
++  // Wrapping source rows also wrapped their alpha gaps and bright shirt hems.
++  const cloth=[],waist=[];
++  for(let y=44;y<54;y++)for(let x=12;x<=27;x++){
++   const c=at(originals,x,y);if(!c||skin(c)||Math.max(...rgb(c))>=115)continue;
++   cloth.push({x,y,c});if(y<47)waist.push(x);
++  }
++  if(cloth.length){
++   const left=waist.length?Math.min(...waist):14,right=waist.length?Math.max(...waist):25;
++   for(let y=44;y<54;y++)for(let x=left-((y-44)>>2);x<=right+((y-44)>>2);x++){
++    const c=at(originals,x,y);
++    // Retain authored hands, skin contours and long hair above the garment.
++    if(c&&(skin(c)||faceMaterial[index(x,y)]||hairMask[index(x,y)]))continue;
++    let nearest=cloth[0],distance=Infinity;
++    for(const sample of cloth){const d=Math.abs(sample.x-x)+Math.abs(sample.y-y);if(d<distance){nearest=sample;distance=d;}}
++    set(g,x,y,shade(nearest.c,catalog.pantsColor.colors[a.pantsColor],'pants'));
++   }
++  }
++ }
+  if(a.pantsStyle===3)transformRows(g,46,59,1.15);
+  if(a.outfit){
+   const targets={1:'#9bafba',2:catalog.shirtColor.colors[a.shirtColor],3:catalog.shirtColor.colors[a.shirtColor],4:catalog.shirtColor.colors[a.shirtColor],5:'#aa7a4d',6:'#d6b841'};

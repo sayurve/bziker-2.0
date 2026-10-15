@@ -1,0 +1,32 @@
+✔ open fields have 250–400 additional varied trees across every large map sector (1.000375ms)
+✔ the complete new crowns and shadows remain outside all roads and their shoulders and every house entrance (20.668459ms)
+✔ field trees leave buildings, existing trees, lamps, bins and usable activity areas unobscured (16.203583ms)
+✔ tree groups stay inside dry map land with open grass between the complete silhouettes (5.649167ms)
+✔ new flower planters use supported cached sprites beside clear pedestrian routes (1.793667ms)
+✔ railway arrival is a short distinct walk from the town rather than a wide empty gap (0.917667ms)
+✔ newcomers, map travel and the railway interior share the relocated doorway (0.232208ms)
+✔ the authored city has substantially denser lighting in all pedestrian districts (0.620917ms)
+✔ full visible contours leave all 27 routes and all 19 generated entrances open (133.974333ms)
+✔ new props keep clear of every house, tree, bench, planting, existing light and each other (9.593125ms)
+✔ street details are grounded beside their declared routes and outside the water (1.19975ms)
+✔ new waste bins participate in the existing disposal action (0.111ms)
+✔ crossing landings, their tactile pads and the plaza title stay unobscured (0.310708ms)
+✔ each street sprite fits its declared complete bounds with stable pixels and ground depth (8.235458ms)
+✔ world uses the shared large map and the shorter user-requested pedestrian arrival (3.335ms)
+✔ every outdoor bench has two real distinct seats and no tree covers a road or door (8.047ms)
+✔ all compact public rooms use shared doors, real seat slots and labelled feature counters (1.8055ms)
+✔ shared furniture declares footprints, rotations and genuine sitting offsets (0.510333ms)
+✔ day and night preview share a twenty-minute periodic cycle (0.147375ms)
+✔ large-city ground caches small chunks rather than allocating a full map bitmap (89.431083ms)
+✔ new base furniture placement respects its full footprint while old compact saves remain valid (0.249666ms)
+✔ solid placement accepts rugs underneath furniture and requires rotation on expanded types (0.088833ms)
+✔ base movement obeys furniture footprints and can leave a real seated position (0.344833ms)
+✔ pet following uses only a purchased companion snapshot and tracks its real owner (0.195167ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 354.515542

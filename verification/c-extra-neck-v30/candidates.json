@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "repairs": [
+    {
+      "actorId": "human-male",
+      "direction": "up",
+      "fineTarget": "game/assets/canonical-idle-v2/male-up-fine.png",
+      "coarseTarget": "game/assets/canonical-idle-v2/male-up.png",
+      "beforeFineSHA": "5fbddf29e28bcd7f5f56af45ee091fab4edfd813f43defc59395f0c4d6f1b1ba",
+      "beforeCoarseSHA": "0320d7c0f189e75f406973dbeee6ffb26ee36225f2f506d2be56f2b4dcf17e70",
+      "fine": "verification/c-extra-neck-v30/male-up-fine.png",
+      "fineSHA": "5f2c2c2d0fa0e3858ec27dae7e9ef2d9b30c11f19a51bd7ab4e4637aa3acd640",
+      "coarse": "verification/c-extra-neck-v30/male-up.png",
+      "coarseSHA": "0320d7c0f189e75f406973dbeee6ffb26ee36225f2f506d2be56f2b4dcf17e70",
+      "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-C-male-up.png",
+      "sourceSHA": "fac82e645a2e0bb8e92cdce0aed8240d3e9508f4e3f9bc42b98d9f5aa1ee5d0d",
+      "restoredPixels": [
+        {
+          "x": 57,
+          "y": 61,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            23,
+            17,
+            20,
+            252
+          ]
+        },
+        {
+          "x": 58,
+          "y": 61,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            8,
+            4,
+            4,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "actorId": "human-male",
+      "direction": "left",
+      "fineTarget": "game/assets/canonical-idle-v2/male-left-fine.png",
+      "coarseTarget": "game/assets/canonical-idle-v2/male-left.png",
+      "beforeFineSHA": "70faf7dfc7b6a89361e89a92e4b618cf859d45ae41037a661d35e17d42677978",
+      "beforeCoarseSHA": "43fbfd221f0a066e34a9294cba22a53cd5420a667725e0a30cbaf697203367f9",
+      "fine": "verification/c-extra-neck-v30/male-left-fine.png",
+      "fineSHA": "ca0b4b93601c86a18ee0fcee56639bf58cb1550975f96b207be25d875a73c8a0",
+      "coarse": "verification/c-extra-neck-v30/male-left.png",
+      "coarseSHA": "43fbfd221f0a066e34a9294cba22a53cd5420a667725e0a30cbaf697203367f9",
+      "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-C-male-left.png",
+      "sourceSHA": "86c48ef7c90eb38d9693b48b6135566c9c4147a8bc5dd794010815984c371a35",
+      "restoredPixels": [
+        {
+          "x": 47,
+          "y": 60,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            6,
+            0,
+            0,
+            254
+          ]
+        }
+      ]
+    },
+    {
+      "actorId": "human-female",
+      "direction": "down",
+      "fineTarget": "game/assets/canonical-idle-v2/female-down-fine.png",
+      "coarseTarget": "game/assets/canonical-idle-v2/female-down.png",
+      "beforeFineSHA": "ce97ac5426d74daf57de01b7318a58b8c703a571307a321600e62f5cffda84c9",
+      "beforeCoarseSHA": "c2697cd6e762c1a3dbb1b56a9ef2d20d5d07623432828419333ebdf140132639",
+      "fine": "verification/c-extra-neck-v30/female-down-fine.png",
+      "fineSHA": "808f1250b8afd557e70952ce2251e6f06ae2659c8f989e21f85fee8c9c9fb148",
+      "coarse": "verification/c-extra-neck-v30/female-down.png",
+      "coarseSHA": "c2697cd6e762c1a3dbb1b56a9ef2d20d5d07623432828419333ebdf140132639",
+      "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-C-female-down.png",
+      "sourceSHA": "056ffc9eec71a013f034d45be2db3f046d91dc0e011f6a415d867c0f5c7de19e",
+      "restoredPixels": [
+        {
+          "x": 52,
+          "y": 69,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            22,
+            17,
+            18,
+            253
+          ]
+        }
+      ]
+    },
+    {
+      "actorId": "human-female",
+      "direction": "right",
+      "fineTarget": "game/assets/canonical-idle-v2/female-right-fine.png",
+      "coarseTarget": "game/assets/canonical-idle-v2/female-right.png",
+      "beforeFineSHA": "65072cb617b67a35ad12bfebf51ada29d3aa0ff315ba3395ddd60177df2a678e",
+      "beforeCoarseSHA": "a686ebbe0620b095c0e9d8e78255317c37818530fc0e98a945130fa9fc5b1c98",
+      "fine": "verification/c-extra-neck-v30/female-right-fine.png",
+      "fineSHA": "a4910d4e3ac96f6ddf7e6aef15db762feb8b4abc4b356fe30d9163f1257b4cb5",
+      "coarse": "verification/c-extra-neck-v30/female-right.png",
+      "coarseSHA": "a686ebbe0620b095c0e9d8e78255317c37818530fc0e98a945130fa9fc5b1c98",
+      "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-C-female-right.png",
+      "sourceSHA": "a3177c729a438018c86f2470a421b852f2b63918f8466885d922e83f9869864e",
+      "restoredPixels": [
+        {
+          "x": 47,
+          "y": 63,
+          "previousRGBA": [
+            109,
+            36,
+            36,
+            7
+          ],
+          "sourceRGBA": [
+            14,
+            10,
+            12,
+            253
+          ]
+        },
+        {
+          "x": 51,
+          "y": 65,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            15,
+            3,
+            4,
+            253
+          ]
+        },
+        {
+          "x": 51,
+          "y": 66,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            0,
+            0,
+            0,
+            253
+          ]
+        },
+        {
+          "x": 51,
+          "y": 67,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            9,
+            1,
+            2,
+            253
+          ]
+        }
+      ]
+    }
+  ]
+}

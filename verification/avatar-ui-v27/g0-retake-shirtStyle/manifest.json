@@ -1,0 +1,99 @@
+{
+  "createdAt": "2026-10-15T12:29:23.244Z",
+  "gender": 0,
+  "category": "shirtStyle",
+  "source": "final-fixed",
+  "cases": 4,
+  "crop": {
+    "x": 535,
+    "y": 375,
+    "width": 135,
+    "height": 180
+  },
+  "qaOnly": true,
+  "productionArtChanged": false,
+  "realBrowserCaptures": true,
+  "renderedMockups": false,
+  "scale": 1.5,
+  "sheets": [
+    "page-1.png"
+  ],
+  "records": [
+    {
+      "value": 3,
+      "name": "Рубашка",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-shirtStyle-03-down.jpg",
+      "sourceSha256": "17fd403b1031ae325427bbc9a93c5ab81aedf28bffcd7b1e4d324527f5711fa7",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-03-down-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Рубашка",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-shirtStyle-03-left.jpg",
+      "sourceSha256": "1dbc2870a3d12846050acef0dd9758cf0f6582c6434909ee07e74f07aa85344d",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-03-left-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Рубашка",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-shirtStyle-03-up.jpg",
+      "sourceSha256": "28094195963665a404c483d528a86704646f4d18b99413b03edd97aeba111642",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-03-up-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Рубашка",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-shirtStyle-03-right.jpg",
+      "sourceSha256": "7de9259439eafb8a611d5612cac612cfe0c32ed03ad78dc9d43243d23e52faf3",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-03-right-crop.png"
+    }
+  ]
+}

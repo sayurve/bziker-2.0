@@ -1,0 +1,28 @@
+✔ approved female identity has four independently authored donor faces and retains each exact opaque face through idle and all run phases (47.025458ms)
+✔ female body materials, hands, boots and grounding survive new identity without geometry or alpha damage (81.952542ms)
+✔ female extraction discards faint background residues without discarding any actual opaque head pixel (6.663584ms)
+✔ canonical whole idle takes every male facing while absent female keeps source fallback (38.802833ms)
+✔ canonical loading decodes coarse and detail pages without removing original source resources (2.632875ms)
+✔ canonical idle never shadows walk, run, held litter, seated, phone or gesture clips (2.431542ms)
+✔ head-only and anonymous generic previews select the same canonical idle automatically (4.258833ms)
+✔ draft or unreviewed canonical artwork stays out of both idle selection and preload (14.084916ms)
+✔ real exported canonical PNGs preserve their declared canvases, alpha and frame metadata (135.036584ms)
+✔ real module approval status controls actual canonical preloads and selected idle (46.706417ms)
+✔ empty, draft and unreviewed locomotion leave normal source run selection unchanged (1.67075ms)
+✔ approved whole poses keep all four native phases, logical canvas and feet anchor (0.981959ms)
+✔ missing directions, ordinary walk, explicit source clips, idle, seated and phone keep their existing adapters (0.356792ms)
+✔ approved locomotion uses the same accepted-distance clock and resets only at stop or scene transfer (3.448584ms)
+✔ actor preload ignores draft motion PNGs and decodes all approved coarse and detail pages (131.293583ms)
+✔ customization and fine native rendering retain their pixels and geometry under a reviewed motion override (108.337917ms)
+✔ standing phone selects the exact approved idle model and facing, never the old narrow phone body (1.221916ms)
+✔ standing phone is static across action/page clocks and keeps customization pixels outside its separate item (201.123791ms)
+✔ standing phone attaches to the selected pose actual native palm and is preloaded without a lazy action sequence (0.644917ms)
+✔ seated phone and occupied boats retain the seated context and pelvis instead of selecting standing idle (0.319291ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 476.202

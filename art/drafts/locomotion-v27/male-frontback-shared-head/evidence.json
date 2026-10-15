@@ -1,0 +1,175 @@
+{
+  "status": "draft",
+  "headRGBAResize": false,
+  "bodyScale": 1,
+  "poses": [
+    {
+      "dir": "down",
+      "n": 0,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#06_Бег_Спереди",
+      "sourceAtlas": "assets/design-actor-detail-base-human-male-1.png",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-male-1.png",
+        "x": 384,
+        "y": 256,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "delta": [
+        0,
+        0
+      ],
+      "removed": 2167,
+      "bodyChangesBelow80": 0,
+      "preservedHandPixels": 213
+    },
+    {
+      "dir": "down",
+      "n": 1,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#06_Бег_Спереди",
+      "sourceAtlas": "assets/design-actor-detail-base-human-male-1.png",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-male-1.png",
+        "x": 480,
+        "y": 256,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "delta": [
+        0,
+        0
+      ],
+      "removed": 2160,
+      "bodyChangesBelow80": 0,
+      "preservedHandPixels": 180
+    },
+    {
+      "dir": "down",
+      "n": 2,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#06_Бег_Спереди",
+      "sourceAtlas": "assets/design-actor-detail-base-human-male-1.png",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-male-1.png",
+        "x": 576,
+        "y": 256,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "delta": [
+        0,
+        0
+      ],
+      "removed": 2156,
+      "bodyChangesBelow80": 0,
+      "preservedHandPixels": 196
+    },
+    {
+      "dir": "down",
+      "n": 3,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#06_Бег_Спереди",
+      "sourceAtlas": "assets/design-actor-detail-base-human-male-1.png",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-male-1.png",
+        "x": 672,
+        "y": 256,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "delta": [
+        0,
+        0
+      ],
+      "removed": 2096,
+      "bodyChangesBelow80": 0,
+      "preservedHandPixels": 200
+    },
+    {
+      "dir": "up",
+      "n": 0,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#08_Бег_Сзади",
+      "sourceAtlas": "assets/design-actor-detail-base-human-male-1.png",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-male-1.png",
+        "x": 384,
+        "y": 384,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "delta": [
+        0,
+        0
+      ],
+      "removed": 1918,
+      "bodyChangesBelow80": 0,
+      "preservedHandPixels": 88
+    },
+    {
+      "dir": "up",
+      "n": 1,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#08_Бег_Сзади",
+      "sourceAtlas": "assets/design-actor-detail-base-human-male-1.png",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-male-1.png",
+        "x": 480,
+        "y": 384,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "delta": [
+        0,
+        0
+      ],
+      "removed": 1855,
+      "bodyChangesBelow80": 0,
+      "preservedHandPixels": 107
+    },
+    {
+      "dir": "up",
+      "n": 2,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#08_Бег_Сзади",
+      "sourceAtlas": "assets/design-actor-detail-base-human-male-1.png",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-male-1.png",
+        "x": 576,
+        "y": 384,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "delta": [
+        0,
+        0
+      ],
+      "removed": 1921,
+      "bodyChangesBelow80": 0,
+      "preservedHandPixels": 104
+    },
+    {
+      "dir": "up",
+      "n": 3,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#08_Бег_Сзади",
+      "sourceAtlas": "assets/design-actor-detail-base-human-male-1.png",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-male-1.png",
+        "x": 672,
+        "y": 384,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "delta": [
+        0,
+        0
+      ],
+      "removed": 1914,
+      "bodyChangesBelow80": 0,
+      "preservedHandPixels": 92
+    }
+  ]
+}

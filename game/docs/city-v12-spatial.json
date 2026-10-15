@@ -1,0 +1,1281 @@
+{
+  "version": 12,
+  "checked_at": "2026-10-09T21:47:49.983Z",
+  "map_sha256": "fad366ab9a314ce510d0af6d03d5f81d9f71efcbcdfaf156834aebbb6b9efd8f",
+  "compiled_map_sha256": "fad366ab9a314ce510d0af6d03d5f81d9f71efcbcdfaf156834aebbb6b9efd8f",
+  "matching_sha": true,
+  "frontage_count": 27,
+  "compiled_obstacle_count": 671,
+  "method": "Exact Euclidean distance between every polyline segment and each rectangular foot-level obstacle; a collision is clearance < radius minus 1e-8.",
+  "exclusions": [
+    "The target building ID for each frontage, including same-geometry solid-i duplicates, is excluded because door approaches start at its entry step.",
+    "A parked-car obstacle whose parking_id equals the current frontage ID is excluded as the bay occupant.",
+    "No neighboring buildings, other parked cars, trees, lamps, benches, planting beds, bins, racks or other physical props are excluded."
+  ],
+  "thresholds": {
+    "pedestrian_radius": 4,
+    "terrace_radius": 4,
+    "parking_drive_radius": 10
+  },
+  "checks": {
+    "pedestrian": {
+      "radius": 4,
+      "route_count": 27,
+      "segment_count": 59,
+      "obstacle_checks": 39492,
+      "minimum_clearance": 7.876742786398315,
+      "collisions": []
+    },
+    "terrace": {
+      "radius": 4,
+      "route_count": 2,
+      "segment_count": 2,
+      "obstacle_checks": 1340,
+      "minimum_clearance": 51,
+      "collisions": []
+    },
+    "parking": {
+      "radius": 10,
+      "route_count": 27,
+      "segment_count": 60,
+      "obstacle_checks": 40182,
+      "minimum_clearance": 19,
+      "collisions": []
+    }
+  },
+  "per_route": [
+    {
+      "building_id": "railway",
+      "route": "pedestrian",
+      "segment_count": 1,
+      "closest_obstacle": {
+        "building_id": "railway",
+        "route": "pedestrian",
+        "obstacle_id": "lamp-v10-row-1",
+        "obstacle_kind": "lamp",
+        "clearance": 186.75384868858796,
+        "required_radius": 4,
+        "segment": 1,
+        "from": [
+          3360,
+          2575
+        ],
+        "to": [
+          3360,
+          2610
+        ]
+      }
+    },
+    {
+      "building_id": "railway",
+      "route": "parking",
+      "segment_count": 2,
+      "closest_obstacle": {
+        "building_id": "railway",
+        "route": "parking",
+        "obstacle_id": "forest-wayfinder",
+        "obstacle_kind": "wayfinder",
+        "clearance": 151.4892735476674,
+        "required_radius": 10,
+        "segment": 1,
+        "from": [
+          2974,
+          2558
+        ],
+        "to": [
+          3080,
+          2590
+        ]
+      }
+    },
+    {
+      "building_id": "clans",
+      "route": "pedestrian",
+      "segment_count": 2,
+      "closest_obstacle": {
+        "building_id": "clans",
+        "route": "pedestrian",
+        "obstacle_id": "detail-v10-19",
+        "obstacle_kind": "planter",
+        "clearance": 50.30053548554614,
+        "required_radius": 4,
+        "segment": 2,
+        "from": [
+          5000,
+          2092
+        ],
+        "to": [
+          5001.699468998894,
+          2522.021240044248
+        ]
+      }
+    },
+    {
+      "building_id": "clans",
+      "route": "parking",
+      "segment_count": 1,
+      "closest_obstacle": {
+        "building_id": "clans",
+        "route": "parking",
+        "obstacle_id": "detail-v10-19",
+        "obstacle_kind": "planter",
+        "clearance": 37.427767968068,
+        "required_radius": 10,
+        "segment": 1,
+        "from": [
+          5266,
+          2038
+        ],
+        "to": [
+          5001.699468998894,
+          2522.021240044248
+        ]
+      }
+    },
+    {
+      "building_id": "arena",
+      "route": "pedestrian",
+      "segment_count": 2,
+      "closest_obstacle": {
+        "building_id": "arena",
+        "route": "pedestrian",
+        "obstacle_id": "garden-arena-left",
+        "obstacle_kind": "planter",
+        "clearance": 59,
+        "required_radius": 4,
+        "segment": 1,
+        "from": [
+          5635,
+          1725
+        ],
+        "to": [
+          5635,
+          1762
+        ]
+      }
+    },
+    {
+      "building_id": "arena",
+      "route": "parking",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "arena",
+        "route": "parking",
+        "obstacle_id": "garden-arena-left",
+        "obstacle_kind": "planter",
+        "clearance": 20,
+        "required_radius": 10,
+        "segment": 2,
+        "from": [
+          5486,
+          1809
+        ],
+        "to": [
+          5596,
+          1809
+        ]
+      }
+    },
+    {
+      "building_id": "profile",
+      "route": "pedestrian",
+      "segment_count": 2,
+      "closest_obstacle": {
+        "building_id": "profile",
+        "route": "pedestrian",
+        "obstacle_id": "bike-rack-profile",
+        "obstacle_kind": "bike-rack",
+        "clearance": 16,
+        "required_radius": 4,
+        "segment": 2,
+        "from": [
+          6290,
+          1762
+        ],
+        "to": [
+          5968,
+          1762
+        ]
+      }
+    },
+    {
+      "building_id": "profile",
+      "route": "parking",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "profile",
+        "route": "parking",
+        "obstacle_id": "garden-profile-right",
+        "obstacle_kind": "planter",
+        "clearance": 20,
+        "required_radius": 10,
+        "segment": 2,
+        "from": [
+          6434,
+          1773
+        ],
+        "to": [
+          6324,
+          1773
+        ]
+      }
+    },
+    {
+      "building_id": "results",
+      "route": "pedestrian",
+      "segment_count": 2,
+      "closest_obstacle": {
+        "building_id": "results",
+        "route": "pedestrian",
+        "obstacle_id": "garden-results-left",
+        "obstacle_kind": "planter",
+        "clearance": 64,
+        "required_radius": 4,
+        "segment": 1,
+        "from": [
+          6310,
+          3115
+        ],
+        "to": [
+          6310,
+          3152
+        ]
+      }
+    },
+    {
+      "building_id": "results",
+      "route": "parking",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "results",
+        "route": "parking",
+        "obstacle_id": "garden-results-left",
+        "obstacle_kind": "planter",
+        "clearance": 20,
+        "required_radius": 10,
+        "segment": 2,
+        "from": [
+          6156,
+          3199
+        ],
+        "to": [
+          6266,
+          3199
+        ]
+      }
+    },
+    {
+      "building_id": "messages",
+      "route": "pedestrian",
+      "segment_count": 2,
+      "closest_obstacle": {
+        "building_id": "messages",
+        "route": "pedestrian",
+        "obstacle_id": "bike-rack-messages",
+        "obstacle_kind": "bike-rack",
+        "clearance": 68,
+        "required_radius": 4,
+        "segment": 1,
+        "from": [
+          5580,
+          3465
+        ],
+        "to": [
+          5580,
+          3502
+        ]
+      }
+    },
+    {
+      "building_id": "messages",
+      "route": "terrace",
+      "segment_count": 1,
+      "closest_obstacle": {
+        "building_id": "messages",
+        "route": "terrace",
+        "obstacle_id": "terrace-table-messages-1",
+        "obstacle_kind": "terrace-table",
+        "clearance": 51.088159097779204,
+        "required_radius": 4,
+        "segment": 1,
+        "from": [
+          5580,
+          3502
+        ],
+        "to": [
+          5580,
+          3565
+        ]
+      }
+    },
+    {
+      "building_id": "messages",
+      "route": "parking",
+      "segment_count": 2,
+      "closest_obstacle": {
+        "building_id": "messages",
+        "route": "parking",
+        "obstacle_id": "bike-rack-messages",
+        "obstacle_kind": "bike-rack",
+        "clearance": 21.15852743301961,
+        "required_radius": 10,
+        "segment": 2,
+        "from": [
+          5424,
+          3492
+        ],
+        "to": [
+          5736.855465212801,
+          3510.714192511822
+        ]
+      }
+    },
+    {
+      "building_id": "terrace",
+      "route": "pedestrian",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "terrace",
+        "route": "pedestrian",
+        "obstacle_id": "bike-rack-terrace",
+        "obstacle_kind": "bike-rack",
+        "clearance": 58,
+        "required_radius": 4,
+        "segment": 1,
+        "from": [
+          5020,
+          3205
+        ],
+        "to": [
+          5020,
+          3242
+        ]
+      }
+    },
+    {
+      "building_id": "terrace",
+      "route": "terrace",
+      "segment_count": 1,
+      "closest_obstacle": {
+        "building_id": "terrace",
+        "route": "terrace",
+        "obstacle_id": "terrace-table-terrace-1",
+        "obstacle_kind": "terrace-table",
+        "clearance": 51,
+        "required_radius": 4,
+        "segment": 1,
+        "from": [
+          5020,
+          3242
+        ],
+        "to": [
+          5020,
+          3305
+        ]
+      }
+    },
+    {
+      "building_id": "terrace",
+      "route": "parking",
+      "segment_count": 4,
+      "closest_obstacle": {
+        "building_id": "terrace",
+        "route": "parking",
+        "obstacle_id": "bike-rack-terrace",
+        "obstacle_kind": "bike-rack",
+        "clearance": 20,
+        "required_radius": 10,
+        "segment": 2,
+        "from": [
+          4874,
+          3232
+        ],
+        "to": [
+          4982,
+          3232
+        ]
+      }
+    },
+    {
+      "building_id": "shop-food",
+      "route": "pedestrian",
+      "segment_count": 4,
+      "closest_obstacle": {
+        "building_id": "shop-food",
+        "route": "pedestrian",
+        "obstacle_id": "bin-v10-6",
+        "obstacle_kind": "bin",
+        "clearance": 50,
+        "required_radius": 4,
+        "segment": 4,
+        "from": [
+          5192,
+          1350
+        ],
+        "to": [
+          5432,
+          1350
+        ]
+      }
+    },
+    {
+      "building_id": "shop-food",
+      "route": "parking",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "shop-food",
+        "route": "parking",
+        "obstacle_id": "garden-shop-food-left",
+        "obstacle_kind": "planter",
+        "clearance": 19,
+        "required_radius": 10,
+        "segment": 2,
+        "from": [
+          4880,
+          1470
+        ],
+        "to": [
+          5198,
+          1470
+        ]
+      }
+    },
+    {
+      "building_id": "shop-clothes",
+      "route": "pedestrian",
+      "segment_count": 2,
+      "closest_obstacle": {
+        "building_id": "shop-clothes",
+        "route": "pedestrian",
+        "obstacle_id": "bike-rack-shop-clothes",
+        "obstacle_kind": "bike-rack",
+        "clearance": 16,
+        "required_radius": 4,
+        "segment": 2,
+        "from": [
+          6190,
+          1362
+        ],
+        "to": [
+          5968,
+          1362
+        ]
+      }
+    },
+    {
+      "building_id": "shop-clothes",
+      "route": "parking",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "shop-clothes",
+        "route": "parking",
+        "obstacle_id": "garden-shop-clothes-right",
+        "obstacle_kind": "planter",
+        "clearance": 20,
+        "required_radius": 10,
+        "segment": 2,
+        "from": [
+          6344,
+          1377
+        ],
+        "to": [
+          6234,
+          1377
+        ]
+      }
+    },
+    {
+      "building_id": "shop-furniture",
+      "route": "pedestrian",
+      "segment_count": 2,
+      "closest_obstacle": {
+        "building_id": "shop-furniture",
+        "route": "pedestrian",
+        "obstacle_id": "garden-shop-furniture-left",
+        "obstacle_kind": "planter",
+        "clearance": 69,
+        "required_radius": 4,
+        "segment": 1,
+        "from": [
+          5005,
+          3815
+        ],
+        "to": [
+          5005,
+          3852
+        ]
+      }
+    },
+    {
+      "building_id": "shop-furniture",
+      "route": "parking",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "shop-furniture",
+        "route": "parking",
+        "obstacle_id": "garden-shop-furniture-right",
+        "obstacle_kind": "planter",
+        "clearance": 19.327820016960217,
+        "required_radius": 10,
+        "segment": 2,
+        "from": [
+          5188,
+          3830
+        ],
+        "to": [
+          5054,
+          3829
+        ]
+      }
+    },
+    {
+      "building_id": "casino",
+      "route": "pedestrian",
+      "segment_count": 2,
+      "closest_obstacle": {
+        "building_id": "casino",
+        "route": "pedestrian",
+        "obstacle_id": "bike-rack-casino",
+        "obstacle_kind": "bike-rack",
+        "clearance": 7.876742786398315,
+        "required_radius": 4,
+        "segment": 2,
+        "from": [
+          6230,
+          3672
+        ],
+        "to": [
+          5865.230688633353,
+          3651.7350382574086
+        ]
+      }
+    },
+    {
+      "building_id": "casino",
+      "route": "parking",
+      "segment_count": 1,
+      "closest_obstacle": {
+        "building_id": "casino",
+        "route": "parking",
+        "obstacle_id": "bike-rack-casino",
+        "obstacle_kind": "bike-rack",
+        "clearance": 139.2838827718412,
+        "required_radius": 10,
+        "segment": 1,
+        "from": [
+          5954,
+          3598
+        ],
+        "to": [
+          5865.230688633353,
+          3651.7350382574086
+        ]
+      }
+    },
+    {
+      "building_id": "base-1",
+      "route": "pedestrian",
+      "segment_count": 2,
+      "closest_obstacle": {
+        "building_id": "base-1",
+        "route": "pedestrian",
+        "obstacle_id": "garden-base-1-right",
+        "obstacle_kind": "planter",
+        "clearance": 48,
+        "required_radius": 4,
+        "segment": 1,
+        "from": [
+          7050,
+          1495
+        ],
+        "to": [
+          7050,
+          1532
+        ]
+      }
+    },
+    {
+      "building_id": "base-1",
+      "route": "parking",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "base-1",
+        "route": "parking",
+        "obstacle_id": "garden-base-1-left",
+        "obstacle_kind": "planter",
+        "clearance": 21.745227759317554,
+        "required_radius": 10,
+        "segment": 2,
+        "from": [
+          6920,
+          1500
+        ],
+        "to": [
+          7018,
+          1509
+        ]
+      }
+    },
+    {
+      "building_id": "base-2",
+      "route": "pedestrian",
+      "segment_count": 2,
+      "closest_obstacle": {
+        "building_id": "base-2",
+        "route": "pedestrian",
+        "obstacle_id": "garden-base-2-right",
+        "obstacle_kind": "planter",
+        "clearance": 48,
+        "required_radius": 4,
+        "segment": 1,
+        "from": [
+          7390,
+          1495
+        ],
+        "to": [
+          7390,
+          1532
+        ]
+      }
+    },
+    {
+      "building_id": "base-2",
+      "route": "parking",
+      "segment_count": 2,
+      "closest_obstacle": {
+        "building_id": "base-2",
+        "route": "parking",
+        "obstacle_id": "garden-base-2-right",
+        "obstacle_kind": "planter",
+        "clearance": 21.81306973421762,
+        "required_radius": 10,
+        "segment": 2,
+        "from": [
+          7514,
+          1579
+        ],
+        "to": [
+          7386.712645753491,
+          1591.1723764371632
+        ]
+      }
+    },
+    {
+      "building_id": "base-3",
+      "route": "pedestrian",
+      "segment_count": 2,
+      "closest_obstacle": {
+        "building_id": "base-3",
+        "route": "pedestrian",
+        "obstacle_id": "garden-base-3-right",
+        "obstacle_kind": "planter",
+        "clearance": 46.38147970781067,
+        "required_radius": 4,
+        "segment": 2,
+        "from": [
+          7730,
+          1532
+        ],
+        "to": [
+          7732.337979520614,
+          1572.9146416107324
+        ]
+      }
+    },
+    {
+      "building_id": "base-3",
+      "route": "parking",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "base-3",
+        "route": "parking",
+        "obstacle_id": "garden-base-3-right",
+        "obstacle_kind": "planter",
+        "clearance": 21.68047320643476,
+        "required_radius": 10,
+        "segment": 2,
+        "from": [
+          7860,
+          1500
+        ],
+        "to": [
+          7758,
+          1509
+        ]
+      }
+    },
+    {
+      "building_id": "base-4",
+      "route": "pedestrian",
+      "segment_count": 2,
+      "closest_obstacle": {
+        "building_id": "base-4",
+        "route": "pedestrian",
+        "obstacle_id": "garden-base-4-right",
+        "obstacle_kind": "planter",
+        "clearance": 48,
+        "required_radius": 4,
+        "segment": 1,
+        "from": [
+          8070,
+          1495
+        ],
+        "to": [
+          8070,
+          1532
+        ]
+      }
+    },
+    {
+      "building_id": "base-4",
+      "route": "parking",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "base-4",
+        "route": "parking",
+        "obstacle_id": "garden-base-4-left",
+        "obstacle_kind": "planter",
+        "clearance": 21.745227759317554,
+        "required_radius": 10,
+        "segment": 2,
+        "from": [
+          7940,
+          1500
+        ],
+        "to": [
+          8038,
+          1509
+        ]
+      }
+    },
+    {
+      "building_id": "base-5",
+      "route": "pedestrian",
+      "segment_count": 1,
+      "closest_obstacle": {
+        "building_id": "base-5",
+        "route": "pedestrian",
+        "obstacle_id": "garden-base-5-right",
+        "obstacle_kind": "planter",
+        "clearance": 48.00390704083358,
+        "required_radius": 4,
+        "segment": 1,
+        "from": [
+          7050,
+          2295
+        ],
+        "to": [
+          7049.964277323432,
+          2331.3569918217786
+        ]
+      }
+    },
+    {
+      "building_id": "base-5",
+      "route": "parking",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "base-5",
+        "route": "parking",
+        "obstacle_id": "garden-base-5-left",
+        "obstacle_kind": "planter",
+        "clearance": 20,
+        "required_radius": 10,
+        "segment": 2,
+        "from": [
+          6926,
+          2349
+        ],
+        "to": [
+          7018,
+          2349
+        ]
+      }
+    },
+    {
+      "building_id": "base-6",
+      "route": "pedestrian",
+      "segment_count": 1,
+      "closest_obstacle": {
+        "building_id": "base-6",
+        "route": "pedestrian",
+        "obstacle_id": "garden-base-6-right",
+        "obstacle_kind": "planter",
+        "clearance": 48,
+        "required_radius": 4,
+        "segment": 1,
+        "from": [
+          7390,
+          2295
+        ],
+        "to": [
+          7388.918123477278,
+          2312.526222591009
+        ]
+      }
+    },
+    {
+      "building_id": "base-6",
+      "route": "parking",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "base-6",
+        "route": "parking",
+        "obstacle_id": "garden-base-6-left",
+        "obstacle_kind": "planter",
+        "clearance": 20,
+        "required_radius": 10,
+        "segment": 2,
+        "from": [
+          7266,
+          2339
+        ],
+        "to": [
+          7358,
+          2339
+        ]
+      }
+    },
+    {
+      "building_id": "base-7",
+      "route": "pedestrian",
+      "segment_count": 1,
+      "closest_obstacle": {
+        "building_id": "base-7",
+        "route": "pedestrian",
+        "obstacle_id": "garden-base-7-right",
+        "obstacle_kind": "planter",
+        "clearance": 47.92951735625229,
+        "required_radius": 4,
+        "segment": 1,
+        "from": [
+          7730,
+          2295
+        ],
+        "to": [
+          7730.070482643748,
+          2330.76655373441
+        ]
+      }
+    },
+    {
+      "building_id": "base-7",
+      "route": "parking",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "base-7",
+        "route": "parking",
+        "obstacle_id": "garden-base-7-left",
+        "obstacle_kind": "planter",
+        "clearance": 20,
+        "required_radius": 10,
+        "segment": 2,
+        "from": [
+          7606,
+          2347
+        ],
+        "to": [
+          7698,
+          2347
+        ]
+      }
+    },
+    {
+      "building_id": "base-8",
+      "route": "pedestrian",
+      "segment_count": 1,
+      "closest_obstacle": {
+        "building_id": "base-8",
+        "route": "pedestrian",
+        "obstacle_id": "garden-base-8-right",
+        "obstacle_kind": "planter",
+        "clearance": 48,
+        "required_radius": 4,
+        "segment": 1,
+        "from": [
+          8070,
+          2295
+        ],
+        "to": [
+          8069.591037727096,
+          2320.54905635867
+        ]
+      }
+    },
+    {
+      "building_id": "base-8",
+      "route": "parking",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "base-8",
+        "route": "parking",
+        "obstacle_id": "garden-base-8-left",
+        "obstacle_kind": "planter",
+        "clearance": 20,
+        "required_radius": 10,
+        "segment": 2,
+        "from": [
+          7946,
+          2345
+        ],
+        "to": [
+          8038,
+          2345
+        ]
+      }
+    },
+    {
+      "building_id": "apartment-1",
+      "route": "pedestrian",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "apartment-1",
+        "route": "pedestrian",
+        "obstacle_id": "lamp-v10-row-17",
+        "obstacle_kind": "lamp",
+        "clearance": 73.32713086106703,
+        "required_radius": 4,
+        "segment": 3,
+        "from": [
+          4495,
+          970
+        ],
+        "to": [
+          4640,
+          1062
+        ]
+      }
+    },
+    {
+      "building_id": "apartment-1",
+      "route": "parking",
+      "segment_count": 1,
+      "closest_obstacle": {
+        "building_id": "apartment-1",
+        "route": "parking",
+        "obstacle_id": "lamp-v10-row-17",
+        "obstacle_kind": "lamp",
+        "clearance": 71.62091694092217,
+        "required_radius": 10,
+        "segment": 1,
+        "from": [
+          4204,
+          668
+        ],
+        "to": [
+          4640,
+          1062
+        ]
+      }
+    },
+    {
+      "building_id": "apartment-2",
+      "route": "pedestrian",
+      "segment_count": 2,
+      "closest_obstacle": {
+        "building_id": "apartment-2",
+        "route": "pedestrian",
+        "obstacle_id": "lamp-v10-row-18",
+        "obstacle_kind": "lamp",
+        "clearance": 76,
+        "required_radius": 4,
+        "segment": 2,
+        "from": [
+          5030,
+          855
+        ],
+        "to": [
+          5030,
+          1062
+        ]
+      }
+    },
+    {
+      "building_id": "apartment-2",
+      "route": "parking",
+      "segment_count": 1,
+      "closest_obstacle": {
+        "building_id": "apartment-2",
+        "route": "parking",
+        "obstacle_id": "lamp-v10-row-19",
+        "obstacle_kind": "lamp",
+        "clearance": 53.55428495581375,
+        "required_radius": 10,
+        "segment": 1,
+        "from": [
+          5336,
+          778
+        ],
+        "to": [
+          5030,
+          1062
+        ]
+      }
+    },
+    {
+      "building_id": "apartment-3",
+      "route": "pedestrian",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "apartment-3",
+        "route": "pedestrian",
+        "obstacle_id": "detail-v10-33",
+        "obstacle_kind": "planter",
+        "clearance": 156.07915057692134,
+        "required_radius": 4,
+        "segment": 2,
+        "from": [
+          5625,
+          930
+        ],
+        "to": [
+          5400,
+          990
+        ]
+      }
+    },
+    {
+      "building_id": "apartment-3",
+      "route": "parking",
+      "segment_count": 1,
+      "closest_obstacle": {
+        "building_id": "apartment-3",
+        "route": "parking",
+        "obstacle_id": "apartment-4",
+        "obstacle_kind": "building",
+        "clearance": 98.99494936611666,
+        "required_radius": 10,
+        "segment": 1,
+        "from": [
+          5916,
+          848
+        ],
+        "to": [
+          5400,
+          1062
+        ]
+      }
+    },
+    {
+      "building_id": "apartment-4",
+      "route": "pedestrian",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "apartment-4",
+        "route": "pedestrian",
+        "obstacle_id": "tree-v11-1-3-19",
+        "obstacle_kind": "tree",
+        "clearance": 103.22608792873288,
+        "required_radius": 4,
+        "segment": 3,
+        "from": [
+          6520,
+          930
+        ],
+        "to": [
+          6632,
+          1100
+        ]
+      }
+    },
+    {
+      "building_id": "apartment-4",
+      "route": "parking",
+      "segment_count": 1,
+      "closest_obstacle": {
+        "building_id": "apartment-4",
+        "route": "parking",
+        "obstacle_id": "tree-v11-1-3-19",
+        "obstacle_kind": "tree",
+        "clearance": 90.6981487100598,
+        "required_radius": 10,
+        "segment": 1,
+        "from": [
+          6446,
+          748
+        ],
+        "to": [
+          6632,
+          1100
+        ]
+      }
+    },
+    {
+      "building_id": "apartment-5",
+      "route": "pedestrian",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "apartment-5",
+        "route": "pedestrian",
+        "obstacle_id": "base-1",
+        "obstacle_kind": "building",
+        "clearance": 60,
+        "required_radius": 4,
+        "segment": 3,
+        "from": [
+          7220,
+          1080
+        ],
+        "to": [
+          7220,
+          1583
+        ]
+      }
+    },
+    {
+      "building_id": "apartment-5",
+      "route": "parking",
+      "segment_count": 1,
+      "closest_obstacle": {
+        "building_id": "apartment-5",
+        "route": "parking",
+        "obstacle_id": "base-1",
+        "obstacle_kind": "building",
+        "clearance": 43.95703329217068,
+        "required_radius": 10,
+        "segment": 1,
+        "from": [
+          7174,
+          768
+        ],
+        "to": [
+          7220,
+          1583
+        ]
+      }
+    },
+    {
+      "building_id": "apartment-6",
+      "route": "pedestrian",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "apartment-6",
+        "route": "pedestrian",
+        "obstacle_id": "base-4",
+        "obstacle_kind": "building",
+        "clearance": 70,
+        "required_radius": 4,
+        "segment": 3,
+        "from": [
+          8250,
+          1100
+        ],
+        "to": [
+          8250,
+          1562
+        ]
+      }
+    },
+    {
+      "building_id": "apartment-6",
+      "route": "parking",
+      "segment_count": 1,
+      "closest_obstacle": {
+        "building_id": "apartment-6",
+        "route": "parking",
+        "obstacle_id": "base-4",
+        "obstacle_kind": "building",
+        "clearance": 73.78200941488352,
+        "required_radius": 10,
+        "segment": 1,
+        "from": [
+          8286,
+          798
+        ],
+        "to": [
+          8250,
+          1562
+        ]
+      }
+    },
+    {
+      "building_id": "apartment-7",
+      "route": "pedestrian",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "apartment-7",
+        "route": "pedestrian",
+        "obstacle_id": "garden-shop-furniture-left",
+        "obstacle_kind": "planter",
+        "clearance": 146.57762448614045,
+        "required_radius": 4,
+        "segment": 3,
+        "from": [
+          4650,
+          3710
+        ],
+        "to": [
+          4720,
+          3892
+        ]
+      }
+    },
+    {
+      "building_id": "apartment-7",
+      "route": "parking",
+      "segment_count": 1,
+      "closest_obstacle": {
+        "building_id": "apartment-7",
+        "route": "parking",
+        "obstacle_id": "shop-furniture",
+        "obstacle_kind": "building",
+        "clearance": 113.1024897638197,
+        "required_radius": 10,
+        "segment": 1,
+        "from": [
+          4756,
+          3468
+        ],
+        "to": [
+          4720,
+          3892
+        ]
+      }
+    },
+    {
+      "building_id": "apartment-8",
+      "route": "pedestrian",
+      "segment_count": 3,
+      "closest_obstacle": {
+        "building_id": "apartment-8",
+        "route": "pedestrian",
+        "obstacle_id": "detail-v11-field-5",
+        "obstacle_kind": "planter",
+        "clearance": 41.17523527558768,
+        "required_radius": 4,
+        "segment": 3,
+        "from": [
+          7900,
+          3540
+        ],
+        "to": [
+          7990,
+          3820
+        ]
+      }
+    },
+    {
+      "building_id": "apartment-8",
+      "route": "parking",
+      "segment_count": 2,
+      "closest_obstacle": {
+        "building_id": "apartment-8",
+        "route": "parking",
+        "obstacle_id": "detail-v11-field-5",
+        "obstacle_kind": "planter",
+        "clearance": 20.402110582801804,
+        "required_radius": 10,
+        "segment": 1,
+        "from": [
+          7966,
+          3278
+        ],
+        "to": [
+          7975,
+          3721
+        ]
+      }
+    }
+  ],
+  "passed": true
+}

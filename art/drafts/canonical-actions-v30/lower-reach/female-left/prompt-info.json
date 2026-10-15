@@ -1,0 +1,28 @@
+{
+  "status": "draft",
+  "tool": "built-in image_gen",
+  "sourceToolPath": "/Users/sapp/.codex/generated_images/01a13c9a-2181-7ab2-8e08-dacd16b99b77/exec-66d1ebe4-294a-4ffd-b9a3-e2c61491164d.png",
+  "exactPrompt": "prompt.txt",
+  "reference": "reference-native-8x.png",
+  "original": "game/assets/canonical-idle-v2/female-left-fine.png",
+  "requestedDimensions": [
+    1536,
+    1024
+  ],
+  "requestedCells": [
+    768,
+    1024
+  ],
+  "poses": [
+    "bend-reach",
+    "deep-squat-reach"
+  ],
+  "review": "pending native body/head/alpha review",
+  "runtimeActivated": false,
+  "actualDimensions": [
+    1536,
+    1024
+  ],
+  "sourceSHA256": "44a06001bf33515332c728a1e1e5fb24df38ab6e1cef09468ad8bd308c6a496d",
+  "referenceSHA256": "b8896c0ff644de251b78ca3cf50527c01ac4cf43a182ff3b883440bd1295b0b0"
+}

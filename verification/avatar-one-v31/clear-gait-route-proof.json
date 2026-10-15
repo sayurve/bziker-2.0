@@ -1,0 +1,122 @@
+{
+  "status": "read-only-route-geometry-check",
+  "area": {
+    "left": 5744,
+    "top": 3472,
+    "right": 5964,
+    "bottom": 3692
+  },
+  "bodyRadius": 14,
+  "speed": 172,
+  "nearestObstacles": [
+    {
+      "id": "bin-park",
+      "distance": 127.38916751435343
+    },
+    {
+      "id": "tree-v23-535",
+      "distance": 160
+    },
+    {
+      "id": "tree-v23-149",
+      "distance": 219
+    },
+    {
+      "id": "tree-v23-534",
+      "distance": 219.40145851839725
+    },
+    {
+      "id": "tree-v23-536",
+      "distance": 225.70112981551512
+    }
+  ],
+  "gridPoints": 529,
+  "gridCorrections": [],
+  "route": [
+    {
+      "direction": "down",
+      "holdMs": 1000,
+      "start": {
+        "x": 5744,
+        "y": 3472
+      },
+      "expectedEnd": {
+        "x": 5744,
+        "y": 3644
+      },
+      "actualEnd": {
+        "x": 5744,
+        "y": 3643.99999999998
+      },
+      "exact": true
+    },
+    {
+      "direction": "right",
+      "holdMs": 1000,
+      "start": {
+        "x": 5744,
+        "y": 3643.99999999998
+      },
+      "expectedEnd": {
+        "x": 5916,
+        "y": 3643.99999999998
+      },
+      "actualEnd": {
+        "x": 5916.0000000000255,
+        "y": 3643.99999999998
+      },
+      "exact": true
+    },
+    {
+      "direction": "up",
+      "holdMs": 1000,
+      "start": {
+        "x": 5916.0000000000255,
+        "y": 3643.99999999998
+      },
+      "expectedEnd": {
+        "x": 5916.0000000000255,
+        "y": 3471.99999999998
+      },
+      "actualEnd": {
+        "x": 5916.0000000000255,
+        "y": 3472
+      },
+      "exact": true
+    },
+    {
+      "direction": "left",
+      "holdMs": 1000,
+      "start": {
+        "x": 5916.0000000000255,
+        "y": 3472
+      },
+      "expectedEnd": {
+        "x": 5744.0000000000255,
+        "y": 3472
+      },
+      "actualEnd": {
+        "x": 5744,
+        "y": 3472
+      },
+      "exact": true
+    }
+  ],
+  "lakeBounds": {
+    "x": 7256,
+    "y": 2760,
+    "width": 3400,
+    "height": 2992
+  },
+  "sourceSHA256": {
+    "game/web/world-map.json": "d45572a07183a8b515db32a55729537f8b99e72737ce9ef73b960a14554d59bd",
+    "game/web/city-collisions.json": "c41e96660d170ac06f0e5cf60e0b5b1b4f9d3c2ffba78ef8789986b892de3b32",
+    "game/web/city-collision.js": "b5c0407fff66dac27070e4bb527033c8512ddd3a208a5b42957808a5603e0a2e",
+    "game/web/world.js": "66c1cb90f59470e85d2e756f5232cac0bd8bcbad3baa692f91fdaff43e4b8c18",
+    "game/web/water.js": "b7e9a0ce3bfa556d05f0ae06024fdd38c264263e04e6e6fd48c8fad8f2b75424"
+  },
+  "limits": [
+    "Geometry proof only; root owns actual UI movement/captures.",
+    "1000ms includes screenshot time while keys held; this220square does not authorize3.6second holds."
+  ]
+}

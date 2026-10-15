@@ -1,0 +1,14 @@
+✔ changing hair never deletes the genuine fine skin hidden by a brown coarse sample (75.18125ms)
+✔ native eyes retain every bright eye pixel through all 12 hairstyles and motion directions (7293.77375ms)
+✔ native rear and side ear skin survives every hairstyle without turning into white hair (419.089375ms)
+✔ short rear styles preserve the genuine native lower nape until a reviewed hidden-neck layer exists (2316.848792ms)
+✔ all native hairstyle phases keep a transparent safety edge without resizing the head or actor (7123.1855ms)
+✔ all 12 hairstyles preserve every opaque native authored face pixel on current approved idle and running heads (6027.432792ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 23779.313834

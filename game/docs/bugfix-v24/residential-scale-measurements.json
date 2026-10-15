@@ -1,0 +1,811 @@
+{
+  "mapSha256": "4159e4039c2d506c2baaeb304831797fbce2a32c5d1fa9879ceb151fe57ec17b",
+  "renderAspectConclusion": "All 30 supplied residential sprites use identical X/Y scaling, source aspect is preserved. Small openings belong to the source buildings, not anisotropic rendering. Some selected back/side views have no visible opening.",
+  "measuredBuildings": 30,
+  "maxScaleDelta": 2.220446049250313e-16,
+  "buildings": [
+    {
+      "id": "apartment-2",
+      "asset": "ordinary-house-red-brick-view-right",
+      "direction": "right",
+      "sourceUrl": "/assets/design-5783667f7340c723aa63-768.png",
+      "crop": {
+        "x": 176,
+        "y": 2,
+        "width": 450,
+        "height": 584
+      },
+      "bounds": {
+        "x": 2514.5,
+        "y": 145.08444444444444,
+        "width": 443,
+        "height": 574.9155555555556
+      },
+      "scaleX": 0.9844444444444445,
+      "scaleY": 0.9844444444444445,
+      "door": {
+        "x": 2736,
+        "y": 744
+      }
+    },
+    {
+      "id": "apartment-3",
+      "asset": "ordinary-house-beige-panel-view-back",
+      "direction": "back",
+      "sourceUrl": "/assets/design-c0c81bae60b59f58126c-768.png",
+      "crop": {
+        "x": 120,
+        "y": 13,
+        "width": 545,
+        "height": 485
+      },
+      "bounds": {
+        "x": 11245,
+        "y": 583.5045871559632,
+        "width": 486,
+        "height": 432.4954128440367
+      },
+      "scaleX": 0.8917431192660551,
+      "scaleY": 0.8917431192660551,
+      "door": {
+        "x": 11488,
+        "y": 1040
+      }
+    },
+    {
+      "id": "apartment-4",
+      "asset": "ordinary-house-grey-panel-view-left",
+      "direction": "left",
+      "sourceUrl": "/assets/design-96a86b06e5c030cc3abe-768.png",
+      "crop": {
+        "x": 236,
+        "y": 14,
+        "width": 311,
+        "height": 465
+      },
+      "bounds": {
+        "x": 3924,
+        "y": 38.122186495176834,
+        "width": 440,
+        "height": 657.8778135048232
+      },
+      "scaleX": 1.414790996784566,
+      "scaleY": 1.414790996784566,
+      "door": {
+        "x": 4144,
+        "y": 720
+      }
+    },
+    {
+      "id": "apartment-5",
+      "asset": "ordinary-house-red-brick-view-front",
+      "direction": "front",
+      "sourceUrl": "/assets/design-5ae7a72d7131ff109a16-768.png",
+      "crop": {
+        "x": 94,
+        "y": 43,
+        "width": 599,
+        "height": 447
+      },
+      "bounds": {
+        "x": 6954.000000244966,
+        "y": 5.028381000000024,
+        "width": 539.9999995100671,
+        "height": 402.971619
+      },
+      "scaleX": 0.9015025033557047,
+      "scaleY": 0.9015025033557047,
+      "door": {
+        "x": 7278,
+        "y": 432
+      }
+    },
+    {
+      "id": "apartment-6",
+      "asset": "ordinary-house-beige-panel-view-right",
+      "direction": "right",
+      "sourceUrl": "/assets/design-784793953a160547e84f-768.png",
+      "crop": {
+        "x": 222,
+        "y": 2,
+        "width": 365,
+        "height": 495
+      },
+      "bounds": {
+        "x": 10540,
+        "y": 1131.2876712328766,
+        "width": 440,
+        "height": 596.7123287671233
+      },
+      "scaleX": 1.2054794520547945,
+      "scaleY": 1.2054794520547945,
+      "door": {
+        "x": 10760,
+        "y": 1752
+      }
+    },
+    {
+      "id": "apartment-8",
+      "asset": "ordinary-house-red-brick-view-left",
+      "direction": "left",
+      "sourceUrl": "/assets/design-58e80e05d7bf20a27aae-768.png",
+      "crop": {
+        "x": 237,
+        "y": 32,
+        "width": 328,
+        "height": 463
+      },
+      "bounds": {
+        "x": 11764,
+        "y": 3514.9024390243903,
+        "width": 440,
+        "height": 621.0975609756098
+      },
+      "scaleX": 1.3414634146341464,
+      "scaleY": 1.3414634146341464,
+      "door": {
+        "x": 11984,
+        "y": 4160
+      }
+    },
+    {
+      "id": "apartment-11",
+      "asset": "ordinary-house-red-brick-view-back",
+      "direction": "back",
+      "sourceUrl": "/assets/design-89e9b113834f11f2b935-768.png",
+      "crop": {
+        "x": 33,
+        "y": 1,
+        "width": 733,
+        "height": 545
+      },
+      "bounds": {
+        "x": 11550.500000062386,
+        "y": 4357.190996,
+        "width": 530.9999998752294,
+        "height": 394.809004
+      },
+      "scaleX": 0.7244201908256881,
+      "scaleY": 0.7244201908256881,
+      "door": {
+        "x": 11816,
+        "y": 4776
+      }
+    },
+    {
+      "id": "apartment-12",
+      "asset": "ordinary-house-beige-panel-view-left",
+      "direction": "left",
+      "sourceUrl": "/assets/design-8260d34f7dbc6fb7f7b7-768.png",
+      "crop": {
+        "x": 218,
+        "y": 21,
+        "width": 395,
+        "height": 473
+      },
+      "bounds": {
+        "x": 2508,
+        "y": 857.1139240506329,
+        "width": 440,
+        "height": 526.8860759493671
+      },
+      "scaleX": 1.1139240506329113,
+      "scaleY": 1.1139240506329113,
+      "door": {
+        "x": 2728,
+        "y": 1408
+      }
+    },
+    {
+      "id": "apartment-14",
+      "asset": "ordinary-house-red-brick-view-right",
+      "direction": "right",
+      "sourceUrl": "/assets/design-5783667f7340c723aa63-768.png",
+      "crop": {
+        "x": 176,
+        "y": 2,
+        "width": 450,
+        "height": 584
+      },
+      "bounds": {
+        "x": 10924.000000085616,
+        "y": 1908.977778,
+        "width": 439.99999982876716,
+        "height": 571.022222
+      },
+      "scaleX": 0.9777777773972604,
+      "scaleY": 0.9777777773972604,
+      "door": {
+        "x": 11144,
+        "y": 2504
+      }
+    },
+    {
+      "id": "apartment-15",
+      "asset": "ordinary-house-beige-panel-view-back",
+      "direction": "back",
+      "sourceUrl": "/assets/design-c0c81bae60b59f58126c-768.png",
+      "crop": {
+        "x": 120,
+        "y": 13,
+        "width": 545,
+        "height": 485
+      },
+      "bounds": {
+        "x": 3588.0000000154637,
+        "y": 5592.440367,
+        "width": 439.99999996907223,
+        "height": 391.559633
+      },
+      "scaleX": 0.8073394494845362,
+      "scaleY": 0.8073394494845362,
+      "door": {
+        "x": 3808,
+        "y": 6008
+      }
+    },
+    {
+      "id": "apartment-17",
+      "asset": "ordinary-house-red-brick-view-front",
+      "direction": "front",
+      "sourceUrl": "/assets/design-5ae7a72d7131ff109a16-768.png",
+      "crop": {
+        "x": 94,
+        "y": 43,
+        "width": 599,
+        "height": 447
+      },
+      "bounds": {
+        "x": 67.00000003579419,
+        "y": 4298.460768,
+        "width": 521.9999999284116,
+        "height": 389.539232
+      },
+      "scaleX": 0.8714524205816555,
+      "scaleY": 0.8714524205816555,
+      "door": {
+        "x": 380,
+        "y": 4712
+      }
+    },
+    {
+      "id": "apartment-18",
+      "asset": "ordinary-house-beige-panel-view-right",
+      "direction": "right",
+      "sourceUrl": "/assets/design-784793953a160547e84f-768.png",
+      "crop": {
+        "x": 222,
+        "y": 2,
+        "width": 365,
+        "height": 495
+      },
+      "bounds": {
+        "x": 5029.500000111111,
+        "y": 6786.8630140000005,
+        "width": 516.9999997777778,
+        "height": 701.136986
+      },
+      "scaleX": 1.4164383555555558,
+      "scaleY": 1.4164383555555555,
+      "door": {
+        "x": 5288,
+        "y": 7512
+      }
+    },
+    {
+      "id": "apartment-23",
+      "asset": "ordinary-house-red-brick-view-back",
+      "direction": "back",
+      "sourceUrl": "/assets/design-89e9b113834f11f2b935-768.png",
+      "crop": {
+        "x": 33,
+        "y": 1,
+        "width": 733,
+        "height": 545
+      },
+      "bounds": {
+        "x": 11042.000000086238,
+        "y": 1430.4993180000001,
+        "width": 539.999999827523,
+        "height": 401.500682
+      },
+      "scaleX": 0.7366984990825689,
+      "scaleY": 0.7366984990825688,
+      "door": {
+        "x": 11312,
+        "y": 1856
+      }
+    },
+    {
+      "id": "apartment-24",
+      "asset": "ordinary-house-beige-panel-view-left",
+      "direction": "left",
+      "sourceUrl": "/assets/design-8260d34f7dbc6fb7f7b7-768.png",
+      "crop": {
+        "x": 218,
+        "y": 21,
+        "width": 395,
+        "height": 473
+      },
+      "bounds": {
+        "x": 9684,
+        "y": 5137.113924050633,
+        "width": 440,
+        "height": 526.8860759493671
+      },
+      "scaleX": 1.1139240506329113,
+      "scaleY": 1.1139240506329113,
+      "door": {
+        "x": 9904,
+        "y": 5688
+      }
+    },
+    {
+      "id": "apartment-28",
+      "asset": "ordinary-house-grey-panel-view-left",
+      "direction": "left",
+      "sourceUrl": "/assets/design-96a86b06e5c030cc3abe-768.png",
+      "crop": {
+        "x": 236,
+        "y": 14,
+        "width": 311,
+        "height": 465
+      },
+      "bounds": {
+        "x": 11484,
+        "y": 2158.2765273311898,
+        "width": 472,
+        "height": 705.7234726688102
+      },
+      "scaleX": 1.517684887459807,
+      "scaleY": 1.517684887459807,
+      "door": {
+        "x": 11720,
+        "y": 2888
+      }
+    },
+    {
+      "id": "apartment-29",
+      "asset": "ordinary-house-red-brick-view-front",
+      "direction": "front",
+      "sourceUrl": "/assets/design-5ae7a72d7131ff109a16-768.png",
+      "crop": {
+        "x": 94,
+        "y": 43,
+        "width": 599,
+        "height": 447
+      },
+      "bounds": {
+        "x": 11306.000000244967,
+        "y": 6949.028381,
+        "width": 539.9999995100671,
+        "height": 402.971619
+      },
+      "scaleX": 0.9015025033557047,
+      "scaleY": 0.9015025033557047,
+      "door": {
+        "x": 11630,
+        "y": 7376
+      }
+    },
+    {
+      "id": "apartment-30",
+      "asset": "ordinary-house-beige-panel-view-right",
+      "direction": "right",
+      "sourceUrl": "/assets/design-784793953a160547e84f-768.png",
+      "crop": {
+        "x": 222,
+        "y": 2,
+        "width": 365,
+        "height": 495
+      },
+      "bounds": {
+        "x": 11756,
+        "y": 4875.287671232877,
+        "width": 440,
+        "height": 596.7123287671233
+      },
+      "scaleX": 1.2054794520547945,
+      "scaleY": 1.2054794520547945,
+      "door": {
+        "x": 11976,
+        "y": 5496
+      }
+    },
+    {
+      "id": "apartment-34",
+      "asset": "ordinary-house-grey-panel-view-right",
+      "direction": "right",
+      "sourceUrl": "/assets/design-5e1d00b178c4601a9cf1-768.png",
+      "crop": {
+        "x": 207,
+        "y": 4,
+        "width": 356,
+        "height": 487
+      },
+      "bounds": {
+        "x": 11252.000000131417,
+        "y": 5566.089888,
+        "width": 439.9999997371663,
+        "height": 601.910112
+      },
+      "scaleX": 1.2359550554414784,
+      "scaleY": 1.2359550554414784,
+      "door": {
+        "x": 11472,
+        "y": 6192
+      }
+    },
+    {
+      "id": "apartment-35",
+      "asset": "ordinary-house-red-brick-view-back",
+      "direction": "back",
+      "sourceUrl": "/assets/design-89e9b113834f11f2b935-768.png",
+      "crop": {
+        "x": 33,
+        "y": 1,
+        "width": 733,
+        "height": 545
+      },
+      "bounds": {
+        "x": 4399,
+        "y": 5993.416098226467,
+        "width": 449.99999999999994,
+        "height": 334.5839017735334
+      },
+      "scaleX": 0.6139154160982264,
+      "scaleY": 0.6139154160982264,
+      "door": {
+        "x": 4624,
+        "y": 6352
+      }
+    },
+    {
+      "id": "apartment-38",
+      "asset": "ordinary-house-red-brick-view-right",
+      "direction": "right",
+      "sourceUrl": "/assets/design-5783667f7340c723aa63-768.png",
+      "crop": {
+        "x": 176,
+        "y": 2,
+        "width": 450,
+        "height": 584
+      },
+      "bounds": {
+        "x": 7884.000000085616,
+        "y": 7060.977778,
+        "width": 439.99999982876716,
+        "height": 571.022222
+      },
+      "scaleX": 0.9777777773972604,
+      "scaleY": 0.9777777773972604,
+      "door": {
+        "x": 8104,
+        "y": 7656
+      }
+    },
+    {
+      "id": "apartment-39",
+      "asset": "ordinary-house-beige-panel-view-back",
+      "direction": "back",
+      "sourceUrl": "/assets/design-c0c81bae60b59f58126c-768.png",
+      "crop": {
+        "x": 120,
+        "y": 13,
+        "width": 545,
+        "height": 485
+      },
+      "bounds": {
+        "x": 5378,
+        "y": 23.449541284403665,
+        "width": 540,
+        "height": 480.55045871559633
+      },
+      "scaleX": 0.9908256880733946,
+      "scaleY": 0.9908256880733946,
+      "door": {
+        "x": 5648,
+        "y": 528
+      }
+    },
+    {
+      "id": "apartment-40",
+      "asset": "ordinary-house-grey-panel-view-left",
+      "direction": "left",
+      "sourceUrl": "/assets/design-96a86b06e5c030cc3abe-768.png",
+      "crop": {
+        "x": 236,
+        "y": 14,
+        "width": 311,
+        "height": 465
+      },
+      "bounds": {
+        "x": 3412,
+        "y": 6.122186495176834,
+        "width": 440,
+        "height": 657.8778135048232
+      },
+      "scaleX": 1.414790996784566,
+      "scaleY": 1.414790996784566,
+      "door": {
+        "x": 3632,
+        "y": 688
+      }
+    },
+    {
+      "id": "apartment-48",
+      "asset": "ordinary-house-beige-panel-view-left",
+      "direction": "left",
+      "sourceUrl": "/assets/design-8260d34f7dbc6fb7f7b7-768.png",
+      "crop": {
+        "x": 218,
+        "y": 21,
+        "width": 395,
+        "height": 473
+      },
+      "bounds": {
+        "x": 4476,
+        "y": 6489.113924050633,
+        "width": 440,
+        "height": 526.8860759493671
+      },
+      "scaleX": 1.1139240506329113,
+      "scaleY": 1.1139240506329113,
+      "door": {
+        "x": 4696,
+        "y": 7040
+      }
+    },
+    {
+      "id": "apartment-52",
+      "asset": "ordinary-house-grey-panel-view-left",
+      "direction": "left",
+      "sourceUrl": "/assets/design-96a86b06e5c030cc3abe-768.png",
+      "crop": {
+        "x": 236,
+        "y": 14,
+        "width": 311,
+        "height": 465
+      },
+      "bounds": {
+        "x": 3332,
+        "y": 2118.1221864951767,
+        "width": 440,
+        "height": 657.8778135048232
+      },
+      "scaleX": 1.414790996784566,
+      "scaleY": 1.414790996784566,
+      "door": {
+        "x": 3552,
+        "y": 2800
+      }
+    },
+    {
+      "id": "apartment-59",
+      "asset": "ordinary-house-red-brick-view-back",
+      "direction": "back",
+      "sourceUrl": "/assets/design-89e9b113834f11f2b935-768.png",
+      "crop": {
+        "x": 33,
+        "y": 1,
+        "width": 733,
+        "height": 545
+      },
+      "bounds": {
+        "x": 748,
+        "y": 7280.8512960436565,
+        "width": 440,
+        "height": 327.1487039563438
+      },
+      "scaleX": 0.6002728512960437,
+      "scaleY": 0.6002728512960437,
+      "door": {
+        "x": 968,
+        "y": 7632
+      }
+    },
+    {
+      "id": "apartment-60",
+      "asset": "ordinary-house-beige-panel-view-left",
+      "direction": "left",
+      "sourceUrl": "/assets/design-8260d34f7dbc6fb7f7b7-768.png",
+      "crop": {
+        "x": 218,
+        "y": 21,
+        "width": 395,
+        "height": 473
+      },
+      "bounds": {
+        "x": 10996,
+        "y": 17.11392405063293,
+        "width": 440,
+        "height": 526.8860759493671
+      },
+      "scaleX": 1.1139240506329113,
+      "scaleY": 1.1139240506329113,
+      "door": {
+        "x": 11216,
+        "y": 568
+      }
+    },
+    {
+      "id": "apartment-62",
+      "asset": "ordinary-house-red-brick-view-right",
+      "direction": "right",
+      "sourceUrl": "/assets/design-5783667f7340c723aa63-768.png",
+      "crop": {
+        "x": 176,
+        "y": 2,
+        "width": 450,
+        "height": 584
+      },
+      "bounds": {
+        "x": 3068.000000085616,
+        "y": 3876.977778,
+        "width": 439.99999982876716,
+        "height": 571.022222
+      },
+      "scaleX": 0.9777777773972604,
+      "scaleY": 0.9777777773972604,
+      "door": {
+        "x": 3288,
+        "y": 4472
+      }
+    },
+    {
+      "id": "apartment-65",
+      "asset": "ordinary-house-red-brick-view-front",
+      "direction": "front",
+      "sourceUrl": "/assets/design-5ae7a72d7131ff109a16-768.png",
+      "crop": {
+        "x": 94,
+        "y": 43,
+        "width": 599,
+        "height": 447
+      },
+      "bounds": {
+        "x": 4852.000000274049,
+        "y": 951.6527550000001,
+        "width": 439.99999945190154,
+        "height": 328.347245
+      },
+      "scaleX": 0.7345575950782998,
+      "scaleY": 0.7345575950782998,
+      "door": {
+        "x": 5116,
+        "y": 1304
+      }
+    },
+    {
+      "id": "apartment-66",
+      "asset": "ordinary-house-beige-panel-view-right",
+      "direction": "right",
+      "sourceUrl": "/assets/design-784793953a160547e84f-768.png",
+      "crop": {
+        "x": 222,
+        "y": 2,
+        "width": 365,
+        "height": 495
+      },
+      "bounds": {
+        "x": 1436,
+        "y": 5643.287671232877,
+        "width": 440,
+        "height": 596.7123287671233
+      },
+      "scaleX": 1.2054794520547945,
+      "scaleY": 1.2054794520547945,
+      "door": {
+        "x": 1656,
+        "y": 6264
+      }
+    },
+    {
+      "id": "apartment-67",
+      "asset": "ordinary-house-grey-panel-view-back",
+      "direction": "back",
+      "sourceUrl": "/assets/design-b121e89cb970bdaf058b-768.png",
+      "crop": {
+        "x": 129,
+        "y": 2,
+        "width": 523,
+        "height": 488
+      },
+      "bounds": {
+        "x": 2980.000000164959,
+        "y": 693.445507,
+        "width": 439.99999967008193,
+        "height": 410.554493
+      },
+      "scaleX": 0.8413001905737705,
+      "scaleY": 0.8413001905737705,
+      "door": {
+        "x": 3200,
+        "y": 1128
+      }
+    }
+  ],
+  "clearOpenings": [
+    {
+      "asset": "ordinary-house-red-brick-view-front",
+      "opening": {
+        "x": 453,
+        "y": 388,
+        "width": 22,
+        "height": 38
+      },
+      "measurement": "Manual visible inner doorway, approximately ±2 native pixels; excludes canopy and steps.",
+      "sourceUrl": "/assets/design-5ae7a72d7131ff109a16-768.png",
+      "nativeCrop": {
+        "x": 94,
+        "y": 43,
+        "width": 599,
+        "height": 447
+      },
+      "currentWorldHeights": [
+        {
+          "id": "apartment-5",
+          "height": 34.25709512751678
+        },
+        {
+          "id": "apartment-17",
+          "height": 33.11519198210291
+        },
+        {
+          "id": "apartment-29",
+          "height": 34.25709512751678
+        },
+        {
+          "id": "apartment-65",
+          "height": 27.91318861297539
+        }
+      ],
+      "at440FacadeWidth": 27.913188647746242,
+      "facadeWidthFor90Door": 1418.6842105263158,
+      "facadeWidthFor125Door": 1970.3947368421052
+    },
+    {
+      "asset": "ordinary-house-grey-panel-view-front",
+      "opening": {
+        "x": 325,
+        "y": 341,
+        "width": 23,
+        "height": 36
+      },
+      "measurement": "Manual visible inner doorway, approximately ±2 native pixels; excludes canopy and steps.",
+      "sourceUrl": "/assets/design-6798d161bb91ea4cc28e-768.png",
+      "nativeCrop": {
+        "x": 170,
+        "y": 42,
+        "width": 453,
+        "height": 427
+      },
+      "currentWorldHeights": [],
+      "at440FacadeWidth": 34.966887417218544,
+      "facadeWidthFor90Door": 1132.5,
+      "facadeWidthFor125Door": 1572.9166666666667
+    },
+    {
+      "asset": "ordinary-house-beige-panel-view-front",
+      "opening": {
+        "x": 412,
+        "y": 344,
+        "width": 20,
+        "height": 37
+      },
+      "measurement": "Manual visible inner doorway, approximately ±2 native pixels; excludes canopy and steps.",
+      "sourceUrl": "/assets/design-cd16301154b7fa9f7b80-768.png",
+      "nativeCrop": {
+        "x": 151,
+        "y": 15,
+        "width": 484,
+        "height": 447
+      },
+      "currentWorldHeights": [],
+      "at440FacadeWidth": 33.63636363636363,
+      "facadeWidthFor90Door": 1177.2972972972973,
+      "facadeWidthFor125Door": 1635.1351351351352
+    }
+  ],
+  "recommendation": "To make the visible opening 90 or125 world units while preserving the source facade, the whole source sprite must use the measured facadeWidthFor90Door/facadeWidthFor125Door. That requires a new neighbourhood layout; it cannot be repaired by stretching or overlaying the small door while preserving this frozen city map."
+}

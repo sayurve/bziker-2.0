@@ -1,0 +1,377 @@
+{
+  "version": 1,
+  "animals": [
+    {
+      "id": "park-dog",
+      "kind": "dog",
+      "action": "pet-dog",
+      "label": "Погладить собаку",
+      "radius": 65,
+      "speed": 18,
+      "phase": 0.0,
+      "route": [
+        {
+          "x": 6900,
+          "y": 3890,
+          "dwell": 4
+        },
+        {
+          "x": 6922,
+          "y": 3890,
+          "dwell": 3
+        },
+        {
+          "x": 6922,
+          "y": 3904,
+          "dwell": 5
+        },
+        {
+          "x": 6900,
+          "y": 3904,
+          "dwell": 3
+        }
+      ]
+    },
+    {
+      "id": "park-cat",
+      "kind": "cat",
+      "action": "pet-cat",
+      "label": "Погладить кошку",
+      "radius": 65,
+      "speed": 18,
+      "phase": 7.3,
+      "route": [
+        {
+          "x": 6910,
+          "y": 4170,
+          "dwell": 4
+        },
+        {
+          "x": 6930,
+          "y": 4170,
+          "dwell": 3
+        },
+        {
+          "x": 6930,
+          "y": 4182,
+          "dwell": 5
+        },
+        {
+          "x": 6910,
+          "y": 4182,
+          "dwell": 3
+        }
+      ]
+    },
+    {
+      "id": "station-dog",
+      "kind": "dog",
+      "action": "pet-dog",
+      "label": "Погладить собаку",
+      "radius": 65,
+      "speed": 28,
+      "phase": 14.6,
+      "route": [
+        {
+          "x": 3700,
+          "y": 2760,
+          "dwell": 4
+        },
+        {
+          "x": 3760,
+          "y": 2760,
+          "dwell": 3
+        },
+        {
+          "x": 3760,
+          "y": 2794,
+          "dwell": 5
+        },
+        {
+          "x": 3700,
+          "y": 2794,
+          "dwell": 3
+        }
+      ]
+    },
+    {
+      "id": "station-cat",
+      "kind": "cat",
+      "action": "pet-cat",
+      "label": "Погладить кошку",
+      "radius": 65,
+      "speed": 28,
+      "phase": 21.9,
+      "route": [
+        {
+          "x": 3250,
+          "y": 2800,
+          "dwell": 4
+        },
+        {
+          "x": 3300,
+          "y": 2800,
+          "dwell": 3
+        },
+        {
+          "x": 3300,
+          "y": 2828,
+          "dwell": 5
+        },
+        {
+          "x": 3250,
+          "y": 2828,
+          "dwell": 3
+        }
+      ]
+    },
+    {
+      "id": "park-north-dog",
+      "kind": "dog",
+      "action": "pet-dog",
+      "label": "Погладить собаку",
+      "radius": 65,
+      "speed": 28,
+      "phase": 29.2,
+      "route": [
+        {
+          "x": 6870,
+          "y": 3780,
+          "dwell": 4
+        },
+        {
+          "x": 6935,
+          "y": 3780,
+          "dwell": 3
+        },
+        {
+          "x": 6935,
+          "y": 3820,
+          "dwell": 5
+        },
+        {
+          "x": 6870,
+          "y": 3820,
+          "dwell": 3
+        }
+      ]
+    },
+    {
+      "id": "park-lake-cat",
+      "kind": "cat",
+      "action": "pet-cat",
+      "label": "Погладить кошку",
+      "radius": 65,
+      "speed": 28,
+      "phase": 36.5,
+      "route": [
+        {
+          "x": 7090,
+          "y": 3880,
+          "dwell": 4
+        },
+        {
+          "x": 7138,
+          "y": 3880,
+          "dwell": 3
+        },
+        {
+          "x": 7138,
+          "y": 3914,
+          "dwell": 5
+        },
+        {
+          "x": 7090,
+          "y": 3914,
+          "dwell": 3
+        }
+      ]
+    },
+    {
+      "id": "plaza-dog",
+      "kind": "dog",
+      "action": "pet-dog",
+      "label": "Погладить собаку",
+      "radius": 65,
+      "speed": 28,
+      "phase": 43.8,
+      "route": [
+        {
+          "x": 5900,
+          "y": 2770,
+          "dwell": 4
+        },
+        {
+          "x": 5965,
+          "y": 2770,
+          "dwell": 3
+        },
+        {
+          "x": 5965,
+          "y": 2810,
+          "dwell": 5
+        },
+        {
+          "x": 5900,
+          "y": 2810,
+          "dwell": 3
+        }
+      ]
+    },
+    {
+      "id": "plaza-cat",
+      "kind": "cat",
+      "action": "pet-cat",
+      "label": "Погладить кошку",
+      "radius": 65,
+      "speed": 28,
+      "phase": 51.1,
+      "route": [
+        {
+          "x": 6100,
+          "y": 2820,
+          "dwell": 4
+        },
+        {
+          "x": 6150,
+          "y": 2820,
+          "dwell": 3
+        },
+        {
+          "x": 6150,
+          "y": 2856,
+          "dwell": 5
+        },
+        {
+          "x": 6100,
+          "y": 2856,
+          "dwell": 3
+        }
+      ]
+    },
+    {
+      "id": "clan-dog",
+      "kind": "dog",
+      "action": "pet-dog",
+      "label": "Погладить собаку",
+      "radius": 65,
+      "speed": 28,
+      "phase": 58.4,
+      "route": [
+        {
+          "x": 7240,
+          "y": 2550,
+          "dwell": 4
+        },
+        {
+          "x": 7300,
+          "y": 2550,
+          "dwell": 3
+        },
+        {
+          "x": 7300,
+          "y": 2580,
+          "dwell": 5
+        },
+        {
+          "x": 7240,
+          "y": 2580,
+          "dwell": 3
+        }
+      ]
+    },
+    {
+      "id": "clan-cat",
+      "kind": "cat",
+      "action": "pet-cat",
+      "label": "Погладить кошку",
+      "radius": 65,
+      "speed": 28,
+      "phase": 65.7,
+      "route": [
+        {
+          "x": 7870,
+          "y": 2530,
+          "dwell": 4
+        },
+        {
+          "x": 7920,
+          "y": 2530,
+          "dwell": 3
+        },
+        {
+          "x": 7920,
+          "y": 2562,
+          "dwell": 5
+        },
+        {
+          "x": 7870,
+          "y": 2562,
+          "dwell": 3
+        }
+      ]
+    },
+    {
+      "id": "shop-dog",
+      "kind": "dog",
+      "action": "pet-dog",
+      "label": "Погладить собаку",
+      "radius": 65,
+      "speed": 28,
+      "phase": 73.0,
+      "route": [
+        {
+          "x": 5330,
+          "y": 1780,
+          "dwell": 4
+        },
+        {
+          "x": 5385,
+          "y": 1780,
+          "dwell": 3
+        },
+        {
+          "x": 5385,
+          "y": 1812,
+          "dwell": 5
+        },
+        {
+          "x": 5330,
+          "y": 1812,
+          "dwell": 3
+        }
+      ]
+    },
+    {
+      "id": "cafe-cat",
+      "kind": "cat",
+      "action": "pet-cat",
+      "label": "Погладить кошку",
+      "radius": 65,
+      "speed": 28,
+      "phase": 80.3,
+      "route": [
+        {
+          "x": 4820,
+          "y": 3390,
+          "dwell": 4
+        },
+        {
+          "x": 4870,
+          "y": 3390,
+          "dwell": 3
+        },
+        {
+          "x": 4870,
+          "y": 3420,
+          "dwell": 5
+        },
+        {
+          "x": 4820,
+          "y": 3420,
+          "dwell": 3
+        }
+      ]
+    }
+  ]
+}

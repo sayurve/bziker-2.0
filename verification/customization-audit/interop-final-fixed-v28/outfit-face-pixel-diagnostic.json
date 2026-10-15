@@ -1,0 +1,930 @@
+[
+  {
+    "gender": 0,
+    "outfit": 1,
+    "facing": "right",
+    "phase": 0,
+    "headBottom": 28,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 1,
+    "facing": "right",
+    "phase": 1,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 1,
+    "facing": "right",
+    "phase": 2,
+    "headBottom": 28,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 1,
+    "facing": "right",
+    "phase": 3,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 1,
+    "facing": "left",
+    "phase": 0,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 1,
+    "facing": "left",
+    "phase": 1,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 1,
+    "facing": "left",
+    "phase": 2,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 1,
+    "facing": "left",
+    "phase": 3,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 2,
+    "facing": "down",
+    "phase": 0,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 2,
+    "facing": "down",
+    "phase": 1,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 2,
+    "facing": "down",
+    "phase": 2,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 2,
+    "facing": "down",
+    "phase": 3,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 2,
+    "facing": "right",
+    "phase": 0,
+    "headBottom": 28,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 2,
+    "facing": "right",
+    "phase": 1,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 2,
+    "facing": "right",
+    "phase": 2,
+    "headBottom": 28,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 2,
+    "facing": "right",
+    "phase": 3,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 2,
+    "facing": "left",
+    "phase": 0,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 2,
+    "facing": "left",
+    "phase": 1,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 2,
+    "facing": "left",
+    "phase": 2,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 2,
+    "facing": "left",
+    "phase": 3,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 3,
+    "facing": "right",
+    "phase": 0,
+    "headBottom": 28,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 3,
+    "facing": "right",
+    "phase": 1,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 3,
+    "facing": "right",
+    "phase": 2,
+    "headBottom": 28,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 3,
+    "facing": "right",
+    "phase": 3,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 3,
+    "facing": "left",
+    "phase": 0,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 3,
+    "facing": "left",
+    "phase": 1,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 3,
+    "facing": "left",
+    "phase": 2,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 3,
+    "facing": "left",
+    "phase": 3,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 4,
+    "facing": "right",
+    "phase": 0,
+    "headBottom": 28,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 4,
+    "facing": "right",
+    "phase": 1,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 4,
+    "facing": "right",
+    "phase": 2,
+    "headBottom": 28,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 4,
+    "facing": "right",
+    "phase": 3,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 4,
+    "facing": "left",
+    "phase": 0,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 4,
+    "facing": "left",
+    "phase": 1,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 4,
+    "facing": "left",
+    "phase": 2,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 4,
+    "facing": "left",
+    "phase": 3,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 5,
+    "facing": "right",
+    "phase": 0,
+    "headBottom": 28,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 5,
+    "facing": "right",
+    "phase": 1,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 5,
+    "facing": "right",
+    "phase": 2,
+    "headBottom": 28,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 5,
+    "facing": "right",
+    "phase": 3,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 5,
+    "facing": "left",
+    "phase": 0,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 5,
+    "facing": "left",
+    "phase": 1,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 5,
+    "facing": "left",
+    "phase": 2,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 5,
+    "facing": "left",
+    "phase": 3,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 6,
+    "facing": "down",
+    "phase": 0,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 6,
+    "facing": "down",
+    "phase": 1,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 6,
+    "facing": "down",
+    "phase": 2,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 6,
+    "facing": "down",
+    "phase": 3,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 6,
+    "facing": "right",
+    "phase": 0,
+    "headBottom": 28,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 6,
+    "facing": "right",
+    "phase": 1,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 6,
+    "facing": "right",
+    "phase": 2,
+    "headBottom": 28,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 6,
+    "facing": "right",
+    "phase": 3,
+    "headBottom": 27,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 6,
+    "facing": "left",
+    "phase": 0,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 6,
+    "facing": "left",
+    "phase": 1,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 6,
+    "facing": "left",
+    "phase": 2,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 0,
+    "outfit": 6,
+    "facing": "left",
+    "phase": 3,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 1,
+    "facing": "down",
+    "phase": 0,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 1,
+    "facing": "right",
+    "phase": 0,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 1,
+    "facing": "right",
+    "phase": 1,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 1,
+    "facing": "right",
+    "phase": 2,
+    "headBottom": 30,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 1,
+    "facing": "right",
+    "phase": 3,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 1,
+    "facing": "left",
+    "phase": 0,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 1,
+    "facing": "left",
+    "phase": 1,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 1,
+    "facing": "left",
+    "phase": 2,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 1,
+    "facing": "left",
+    "phase": 3,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 2,
+    "facing": "down",
+    "phase": 0,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 2,
+    "facing": "down",
+    "phase": 1,
+    "headBottom": 30,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 2,
+    "facing": "down",
+    "phase": 2,
+    "headBottom": 30,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 2,
+    "facing": "down",
+    "phase": 3,
+    "headBottom": 30,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 2,
+    "facing": "right",
+    "phase": 0,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 2,
+    "facing": "right",
+    "phase": 1,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 2,
+    "facing": "right",
+    "phase": 2,
+    "headBottom": 30,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 2,
+    "facing": "right",
+    "phase": 3,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 2,
+    "facing": "left",
+    "phase": 0,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 2,
+    "facing": "left",
+    "phase": 1,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 2,
+    "facing": "left",
+    "phase": 2,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 2,
+    "facing": "left",
+    "phase": 3,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 3,
+    "facing": "down",
+    "phase": 0,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 3,
+    "facing": "right",
+    "phase": 0,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 3,
+    "facing": "right",
+    "phase": 1,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 3,
+    "facing": "right",
+    "phase": 2,
+    "headBottom": 30,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 3,
+    "facing": "right",
+    "phase": 3,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 3,
+    "facing": "left",
+    "phase": 0,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 3,
+    "facing": "left",
+    "phase": 1,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 3,
+    "facing": "left",
+    "phase": 2,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 3,
+    "facing": "left",
+    "phase": 3,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 4,
+    "facing": "down",
+    "phase": 0,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 4,
+    "facing": "right",
+    "phase": 0,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 4,
+    "facing": "right",
+    "phase": 1,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 4,
+    "facing": "right",
+    "phase": 2,
+    "headBottom": 30,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 4,
+    "facing": "right",
+    "phase": 3,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 4,
+    "facing": "left",
+    "phase": 0,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 4,
+    "facing": "left",
+    "phase": 1,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 4,
+    "facing": "left",
+    "phase": 2,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 4,
+    "facing": "left",
+    "phase": 3,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 5,
+    "facing": "down",
+    "phase": 0,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 5,
+    "facing": "right",
+    "phase": 0,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 5,
+    "facing": "right",
+    "phase": 1,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 5,
+    "facing": "right",
+    "phase": 2,
+    "headBottom": 30,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 5,
+    "facing": "right",
+    "phase": 3,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 5,
+    "facing": "left",
+    "phase": 0,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 5,
+    "facing": "left",
+    "phase": 1,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 5,
+    "facing": "left",
+    "phase": 2,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 5,
+    "facing": "left",
+    "phase": 3,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 6,
+    "facing": "down",
+    "phase": 0,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 6,
+    "facing": "down",
+    "phase": 1,
+    "headBottom": 30,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 6,
+    "facing": "down",
+    "phase": 2,
+    "headBottom": 30,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 6,
+    "facing": "down",
+    "phase": 3,
+    "headBottom": 30,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 6,
+    "facing": "right",
+    "phase": 0,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 6,
+    "facing": "right",
+    "phase": 1,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 6,
+    "facing": "right",
+    "phase": 2,
+    "headBottom": 30,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 6,
+    "facing": "right",
+    "phase": 3,
+    "headBottom": 29,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 6,
+    "facing": "left",
+    "phase": 0,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 6,
+    "facing": "left",
+    "phase": 1,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 6,
+    "facing": "left",
+    "phase": 2,
+    "headBottom": 31,
+    "points": []
+  },
+  {
+    "gender": 1,
+    "outfit": 6,
+    "facing": "left",
+    "phase": 3,
+    "headBottom": 31,
+    "points": []
+  }
+]

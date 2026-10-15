@@ -1,0 +1,685 @@
+{
+  "status": "diagnostic",
+  "note": "Remaining enclosed transparency consists of existing raw-source negative space (knees, fingers and small silhouette pixels). This is a source-pixel comparison, not automatic artistic approval.",
+  "erasedOpaqueSourcePixelsInHoles": 0,
+  "frames": [
+    {
+      "key": "seated/male-right",
+      "pose": "neutral",
+      "holes": [
+        {
+          "area": 1,
+          "bounds": [
+            54,
+            63,
+            54,
+            63
+          ],
+          "pixels": [
+            [
+              54,
+              63
+            ]
+          ],
+          "originalOpaqueSourcePixels": 0
+        },
+        {
+          "area": 8,
+          "bounds": [
+            61,
+            110,
+            62,
+            113
+          ],
+          "pixels": [
+            [
+              61,
+              110
+            ],
+            [
+              61,
+              111
+            ],
+            [
+              61,
+              112
+            ],
+            [
+              61,
+              113
+            ],
+            [
+              62,
+              113
+            ],
+            [
+              62,
+              112
+            ],
+            [
+              62,
+              111
+            ],
+            [
+              62,
+              110
+            ]
+          ],
+          "originalOpaqueSourcePixels": 0
+        }
+      ]
+    },
+    {
+      "key": "seated/male-right",
+      "pose": "hand-chest",
+      "holes": [
+        {
+          "area": 1,
+          "bounds": [
+            54,
+            63,
+            54,
+            63
+          ],
+          "pixels": [
+            [
+              54,
+              63
+            ]
+          ],
+          "originalOpaqueSourcePixels": 0
+        },
+        {
+          "area": 8,
+          "bounds": [
+            60,
+            110,
+            61,
+            113
+          ],
+          "pixels": [
+            [
+              60,
+              110
+            ],
+            [
+              60,
+              111
+            ],
+            [
+              60,
+              112
+            ],
+            [
+              60,
+              113
+            ],
+            [
+              61,
+              113
+            ],
+            [
+              61,
+              112
+            ],
+            [
+              61,
+              111
+            ],
+            [
+              61,
+              110
+            ]
+          ],
+          "originalOpaqueSourcePixels": 0
+        }
+      ]
+    },
+    {
+      "key": "seated/male-right",
+      "pose": "hand-mouth",
+      "holes": [
+        {
+          "area": 1,
+          "bounds": [
+            54,
+            63,
+            54,
+            63
+          ],
+          "pixels": [
+            [
+              54,
+              63
+            ]
+          ],
+          "originalOpaqueSourcePixels": 0
+        },
+        {
+          "area": 6,
+          "bounds": [
+            61,
+            110,
+            62,
+            112
+          ],
+          "pixels": [
+            [
+              61,
+              110
+            ],
+            [
+              61,
+              111
+            ],
+            [
+              61,
+              112
+            ],
+            [
+              62,
+              112
+            ],
+            [
+              62,
+              111
+            ],
+            [
+              62,
+              110
+            ]
+          ],
+          "originalOpaqueSourcePixels": 0
+        }
+      ]
+    },
+    {
+      "key": "seated/male-right",
+      "pose": "reach",
+      "holes": [
+        {
+          "area": 3,
+          "bounds": [
+            61,
+            110,
+            61,
+            112
+          ],
+          "pixels": [
+            [
+              61,
+              110
+            ],
+            [
+              61,
+              111
+            ],
+            [
+              61,
+              112
+            ]
+          ],
+          "originalOpaqueSourcePixels": 0
+        }
+      ]
+    },
+    {
+      "key": "seated/female-right",
+      "pose": "neutral",
+      "holes": [
+        {
+          "area": 6,
+          "bounds": [
+            63,
+            112,
+            64,
+            114
+          ],
+          "pixels": [
+            [
+              63,
+              112
+            ],
+            [
+              63,
+              113
+            ],
+            [
+              63,
+              114
+            ],
+            [
+              64,
+              114
+            ],
+            [
+              64,
+              113
+            ],
+            [
+              64,
+              112
+            ]
+          ],
+          "originalOpaqueSourcePixels": 0
+        }
+      ]
+    },
+    {
+      "key": "seated/female-right",
+      "pose": "hand-chest",
+      "holes": [
+        {
+          "area": 3,
+          "bounds": [
+            63,
+            112,
+            63,
+            114
+          ],
+          "pixels": [
+            [
+              63,
+              112
+            ],
+            [
+              63,
+              113
+            ],
+            [
+              63,
+              114
+            ]
+          ],
+          "originalOpaqueSourcePixels": 0
+        }
+      ]
+    },
+    {
+      "key": "seated/female-right",
+      "pose": "hand-mouth",
+      "holes": [
+        {
+          "area": 8,
+          "bounds": [
+            63,
+            111,
+            64,
+            114
+          ],
+          "pixels": [
+            [
+              63,
+              111
+            ],
+            [
+              63,
+              112
+            ],
+            [
+              63,
+              113
+            ],
+            [
+              63,
+              114
+            ],
+            [
+              64,
+              114
+            ],
+            [
+              64,
+              113
+            ],
+            [
+              64,
+              112
+            ],
+            [
+              64,
+              111
+            ]
+          ],
+          "originalOpaqueSourcePixels": 0
+        }
+      ]
+    },
+    {
+      "key": "seated/female-right",
+      "pose": "reach",
+      "holes": [
+        {
+          "area": 4,
+          "bounds": [
+            64,
+            111,
+            64,
+            114
+          ],
+          "pixels": [
+            [
+              64,
+              111
+            ],
+            [
+              64,
+              112
+            ],
+            [
+              64,
+              113
+            ],
+            [
+              64,
+              114
+            ]
+          ],
+          "originalOpaqueSourcePixels": 0
+        }
+      ]
+    },
+    {
+      "key": "seated/female-left",
+      "pose": "hand-mouth",
+      "holes": [
+        {
+          "area": 3,
+          "bounds": [
+            45,
+            63,
+            46,
+            64
+          ],
+          "pixels": [
+            [
+              45,
+              63
+            ],
+            [
+              45,
+              64
+            ],
+            [
+              46,
+              63
+            ]
+          ],
+          "originalOpaqueSourcePixels": 0
+        },
+        {
+          "area": 5,
+          "bounds": [
+            42,
+            65,
+            44,
+            67
+          ],
+          "pixels": [
+            [
+              42,
+              65
+            ],
+            [
+              42,
+              66
+            ],
+            [
+              42,
+              67
+            ],
+            [
+              43,
+              65
+            ],
+            [
+              44,
+              65
+            ]
+          ],
+          "originalOpaqueSourcePixels": 0
+        }
+      ]
+    },
+    {
+      "key": "seated/female-left",
+      "pose": "reach",
+      "holes": [
+        {
+          "area": 1,
+          "bounds": [
+            45,
+            63,
+            45,
+            63
+          ],
+          "pixels": [
+            [
+              45,
+              63
+            ]
+          ],
+          "originalOpaqueSourcePixels": 0
+        },
+        {
+          "area": 1,
+          "bounds": [
+            42,
+            65,
+            42,
+            65
+          ],
+          "pixels": [
+            [
+              42,
+              65
+            ]
+          ],
+          "originalOpaqueSourcePixels": 0
+        }
+      ]
+    },
+    {
+      "key": "seated/female-up",
+      "pose": "hand-mouth",
+      "holes": [
+        {
+          "area": 2,
+          "bounds": [
+            59,
+            62,
+            60,
+            62
+          ],
+          "pixels": [
+            [
+              59,
+              62
+            ],
+            [
+              60,
+              62
+            ]
+          ],
+          "originalOpaqueSourcePixels": 0
+        }
+      ]
+    },
+    {
+      "key": "water/male-right",
+      "pose": "reel",
+      "holes": [
+        {
+          "area": 1,
+          "bounds": [
+            53,
+            60,
+            53,
+            60
+          ],
+          "pixels": [
+            [
+              53,
+              60
+            ]
+          ],
+          "originalOpaqueSourcePixels": 0
+        }
+      ]
+    },
+    {
+      "key": "water/female-right",
+      "pose": "hold",
+      "holes": [
+        {
+          "area": 34,
+          "bounds": [
+            44,
+            106,
+            48,
+            118
+          ],
+          "pixels": [
+            [
+              47,
+              106
+            ],
+            [
+              47,
+              107
+            ],
+            [
+              47,
+              108
+            ],
+            [
+              47,
+              109
+            ],
+            [
+              47,
+              110
+            ],
+            [
+              47,
+              111
+            ],
+            [
+              47,
+              112
+            ],
+            [
+              47,
+              113
+            ],
+            [
+              47,
+              114
+            ],
+            [
+              47,
+              115
+            ],
+            [
+              47,
+              116
+            ],
+            [
+              47,
+              117
+            ],
+            [
+              47,
+              118
+            ],
+            [
+              46,
+              118
+            ],
+            [
+              48,
+              117
+            ],
+            [
+              46,
+              117
+            ],
+            [
+              48,
+              116
+            ],
+            [
+              46,
+              116
+            ],
+            [
+              48,
+              115
+            ],
+            [
+              46,
+              115
+            ],
+            [
+              45,
+              115
+            ],
+            [
+              44,
+              115
+            ],
+            [
+              44,
+              114
+            ],
+            [
+              44,
+              113
+            ],
+            [
+              45,
+              113
+            ],
+            [
+              45,
+              114
+            ],
+            [
+              48,
+              114
+            ],
+            [
+              46,
+              114
+            ],
+            [
+              46,
+              113
+            ],
+            [
+              46,
+              112
+            ],
+            [
+              46,
+              111
+            ],
+            [
+              46,
+              110
+            ],
+            [
+              46,
+              109
+            ],
+            [
+              46,
+              108
+            ]
+          ],
+          "originalOpaqueSourcePixels": 0
+        }
+      ]
+    }
+  ]
+}

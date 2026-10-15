@@ -1,0 +1,445 @@
+{
+  "status": "awaiting visual review",
+  "files": [
+    {
+      "file": "final-pick-city-00.jpg",
+      "sha256": "1f7f0eca22cba5db733e83a4c2eb0b30a26ece832a2f8c1590e4bd3c38ed226b",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-01.jpg",
+      "sha256": "1f7f0eca22cba5db733e83a4c2eb0b30a26ece832a2f8c1590e4bd3c38ed226b",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-02.jpg",
+      "sha256": "1f7f0eca22cba5db733e83a4c2eb0b30a26ece832a2f8c1590e4bd3c38ed226b",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-03.jpg",
+      "sha256": "1f7f0eca22cba5db733e83a4c2eb0b30a26ece832a2f8c1590e4bd3c38ed226b",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-04.jpg",
+      "sha256": "1f7f0eca22cba5db733e83a4c2eb0b30a26ece832a2f8c1590e4bd3c38ed226b",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-05.jpg",
+      "sha256": "1f7f0eca22cba5db733e83a4c2eb0b30a26ece832a2f8c1590e4bd3c38ed226b",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-06.jpg",
+      "sha256": "18b28eba82dcea5f2c4850b07f9d75bea6886ab2c5a64aeea2d361aae0c2e3f9",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-07.jpg",
+      "sha256": "18b28eba82dcea5f2c4850b07f9d75bea6886ab2c5a64aeea2d361aae0c2e3f9",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-08.jpg",
+      "sha256": "18b28eba82dcea5f2c4850b07f9d75bea6886ab2c5a64aeea2d361aae0c2e3f9",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-09.jpg",
+      "sha256": "18b28eba82dcea5f2c4850b07f9d75bea6886ab2c5a64aeea2d361aae0c2e3f9",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-10.jpg",
+      "sha256": "18b28eba82dcea5f2c4850b07f9d75bea6886ab2c5a64aeea2d361aae0c2e3f9",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-11.jpg",
+      "sha256": "ac9766987b843fcd790c7b882e67c7430a23b433ea7f5afc428870334f74b823",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-12.jpg",
+      "sha256": "ac9766987b843fcd790c7b882e67c7430a23b433ea7f5afc428870334f74b823",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-13.jpg",
+      "sha256": "ac9766987b843fcd790c7b882e67c7430a23b433ea7f5afc428870334f74b823",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-14.jpg",
+      "sha256": "ac9766987b843fcd790c7b882e67c7430a23b433ea7f5afc428870334f74b823",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-15.jpg",
+      "sha256": "ac9766987b843fcd790c7b882e67c7430a23b433ea7f5afc428870334f74b823",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-16.jpg",
+      "sha256": "ac9766987b843fcd790c7b882e67c7430a23b433ea7f5afc428870334f74b823",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-17.jpg",
+      "sha256": "ac9766987b843fcd790c7b882e67c7430a23b433ea7f5afc428870334f74b823",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-18.jpg",
+      "sha256": "ac9766987b843fcd790c7b882e67c7430a23b433ea7f5afc428870334f74b823",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-19.jpg",
+      "sha256": "ac9766987b843fcd790c7b882e67c7430a23b433ea7f5afc428870334f74b823",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-20.jpg",
+      "sha256": "ac9766987b843fcd790c7b882e67c7430a23b433ea7f5afc428870334f74b823",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-21.jpg",
+      "sha256": "ac9766987b843fcd790c7b882e67c7430a23b433ea7f5afc428870334f74b823",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-22.jpg",
+      "sha256": "c6c53707ee9dafe9a4863e45eefd5e705890cd2a4ff156607d969f4449062a5a",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-23.jpg",
+      "sha256": "c6c53707ee9dafe9a4863e45eefd5e705890cd2a4ff156607d969f4449062a5a",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-24.jpg",
+      "sha256": "c6c53707ee9dafe9a4863e45eefd5e705890cd2a4ff156607d969f4449062a5a",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-25.jpg",
+      "sha256": "c6c53707ee9dafe9a4863e45eefd5e705890cd2a4ff156607d969f4449062a5a",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-26.jpg",
+      "sha256": "c6c53707ee9dafe9a4863e45eefd5e705890cd2a4ff156607d969f4449062a5a",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-27.jpg",
+      "sha256": "c6c53707ee9dafe9a4863e45eefd5e705890cd2a4ff156607d969f4449062a5a",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-28.jpg",
+      "sha256": "0bca8cfc0ed311d0a14f53ff45671352ff08bab32337c43df1cbe9930f8950b8",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-29.jpg",
+      "sha256": "0bca8cfc0ed311d0a14f53ff45671352ff08bab32337c43df1cbe9930f8950b8",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-30.jpg",
+      "sha256": "0bca8cfc0ed311d0a14f53ff45671352ff08bab32337c43df1cbe9930f8950b8",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-31.jpg",
+      "sha256": "5ed4bae1853b2eca93d207f757c7d82d54846871df72af974aeb1e1edcbfff6a",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-32.jpg",
+      "sha256": "5ed4bae1853b2eca93d207f757c7d82d54846871df72af974aeb1e1edcbfff6a",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-33.jpg",
+      "sha256": "5ed4bae1853b2eca93d207f757c7d82d54846871df72af974aeb1e1edcbfff6a",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-34.jpg",
+      "sha256": "5ed4bae1853b2eca93d207f757c7d82d54846871df72af974aeb1e1edcbfff6a",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-35.jpg",
+      "sha256": "5ed4bae1853b2eca93d207f757c7d82d54846871df72af974aeb1e1edcbfff6a",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-36.jpg",
+      "sha256": "5ed4bae1853b2eca93d207f757c7d82d54846871df72af974aeb1e1edcbfff6a",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-37.jpg",
+      "sha256": "5ed4bae1853b2eca93d207f757c7d82d54846871df72af974aeb1e1edcbfff6a",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-38.jpg",
+      "sha256": "5ed4bae1853b2eca93d207f757c7d82d54846871df72af974aeb1e1edcbfff6a",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-39.jpg",
+      "sha256": "5ed4bae1853b2eca93d207f757c7d82d54846871df72af974aeb1e1edcbfff6a",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-40.jpg",
+      "sha256": "5ed4bae1853b2eca93d207f757c7d82d54846871df72af974aeb1e1edcbfff6a",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-41.jpg",
+      "sha256": "5ed4bae1853b2eca93d207f757c7d82d54846871df72af974aeb1e1edcbfff6a",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-42.jpg",
+      "sha256": "5ed4bae1853b2eca93d207f757c7d82d54846871df72af974aeb1e1edcbfff6a",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    },
+    {
+      "file": "final-pick-city-43.jpg",
+      "sha256": "065db31ac710a65381875074d521c288f86ccd49b78c789f28acb70038204db1",
+      "crop": [
+        271,
+        369,
+        431,
+        564
+      ]
+    }
+  ]
+}

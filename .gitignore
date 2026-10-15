@@ -1,0 +1,17 @@
+/data/
+/materials/
+**/node_modules/
+**/__pycache__/
+**/*.py[cod]
+.env
+.env.*
+!.env.example
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+.DS_Store
+/verification/materials-manifest.json

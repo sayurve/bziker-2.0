@@ -1,0 +1,18 @@
+E
+======================================================================
+ERROR: test_inventory_capacity_v12 (unittest.loader._FailedTest.test_inventory_capacity_v12)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_inventory_capacity_v12
+Traceback (most recent call last):
+  File "$LOCAL_WORKSPACE/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "./tests/test_inventory_capacity_v12.py", line 7, in <module>
+    from economy import EconomyService,ITEMS,change_inventory,inventory_quantity,BAG_CAPACITY
+ImportError: cannot import name 'BAG_CAPACITY' from 'economy' (./economy.py)
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

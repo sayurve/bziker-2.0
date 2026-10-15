@@ -1,0 +1,46 @@
+{
+  "status": "draft",
+  "artReview": {
+    "approved": false,
+    "note": "Viewed with view_image; final artistic approval and runtime registration remain separate."
+  },
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "sourcePath": "/Users/sapp/.codex/generated_images/01a13c9a-2181-7ab2-8e08-dacd16b99b77/exec-150ee6b4-7237-41cd-a3a7-928492b5184f.png",
+  "initialGeneratedPath": "/Users/sapp/.codex/generated_images/01a13c9a-2181-7ab2-8e08-dacd16b99b77/exec-69b43d26-0750-4db9-b6a6-0307775ee6d0.png",
+  "references": [
+    "art/drafts/canonical-idle-v2/male-idle-right.png",
+    "art/references/canonical-run/reference-02.png"
+  ],
+  "direction": "down",
+  "pose": "idle",
+  "actualDimensions": {
+    "width": 1150,
+    "height": 1367
+  },
+  "requestedDimensions": {
+    "width": 1150,
+    "height": 1367
+  },
+  "opaqueBoundsThreshold127": {
+    "left": 344,
+    "top": 189,
+    "right": 799,
+    "bottom": 1243
+  },
+  "requestedRegistration": {
+    "crownY": 169,
+    "shoeBaselineY": 1253,
+    "centerX": 575
+  },
+  "registrationDifference": {
+    "crownY": 20,
+    "shoeBaselineY": -10
+  },
+  "transparentPixels": 1221709,
+  "partialAlphaPixels": 348477,
+  "sha256": "83bc50819e8529a041b0e63718c0b2c45fa434301a7bff611f1b37f6d56ed3f3",
+  "bytesPreserved": true,
+  "postprocessing": "None. PNG copied byte for byte; no crop, resize, alpha editing or pixel changes.",
+  "notes": "Front view keeps large-head compact run-canonical styling. Two built-in edits: initial front view, then requested registration correction. Generated registration is measured rather than assumed exact."
+}

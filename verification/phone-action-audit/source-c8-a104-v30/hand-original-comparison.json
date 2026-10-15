@@ -1,0 +1,1210 @@
+[
+  {
+    "actorId": "human-male",
+    "family": "hand",
+    "dir": "right",
+    "index": 2,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-hand-male-right-2.png",
+    "target": "game/assets/interaction-v29/male-hand-right-2-fine.png",
+    "neck": [
+      51,
+      63
+    ],
+    "holes": [
+      {
+        "area": 1,
+        "bounds": [
+          58,
+          63,
+          58,
+          63
+        ],
+        "erasedOpaqueSourcePixels": 0,
+        "actualErasedPixels": []
+      },
+      {
+        "area": 1,
+        "bounds": [
+          57,
+          64,
+          57,
+          64
+        ],
+        "erasedOpaqueSourcePixels": 0,
+        "actualErasedPixels": []
+      }
+    ]
+  },
+  {
+    "actorId": "human-male",
+    "family": "hand",
+    "dir": "down",
+    "index": 0,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-hand-male-down-0.png",
+    "target": "game/assets/interaction-v29/male-hand-down-0-fine.png",
+    "neck": [
+      48,
+      65
+    ],
+    "holes": [
+      {
+        "area": 12,
+        "bounds": [
+          33,
+          74,
+          36,
+          77
+        ],
+        "erasedOpaqueSourcePixels": 0,
+        "actualErasedPixels": []
+      }
+    ]
+  },
+  {
+    "actorId": "human-male",
+    "family": "hand",
+    "dir": "down",
+    "index": 2,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-hand-male-down-2.png",
+    "target": "game/assets/interaction-v29/male-hand-down-2-fine.png",
+    "neck": [
+      48,
+      65
+    ],
+    "holes": [
+      {
+        "area": 2,
+        "bounds": [
+          42,
+          67,
+          42,
+          68
+        ],
+        "erasedOpaqueSourcePixels": 2,
+        "actualErasedPixels": [
+          {
+            "point": [
+              42,
+              67
+            ],
+            "sourceRGBA": [
+              0,
+              0,
+              0,
+              253
+            ]
+          },
+          {
+            "point": [
+              42,
+              68
+            ],
+            "sourceRGBA": [
+              0,
+              0,
+              0,
+              253
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "actorId": "human-male",
+    "family": "hand",
+    "dir": "left",
+    "index": 2,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-hand-male-left-2.png",
+    "target": "game/assets/interaction-v29/male-hand-left-2-fine.png",
+    "neck": [
+      41,
+      64
+    ],
+    "holes": [
+      {
+        "area": 13,
+        "bounds": [
+          26,
+          65,
+          29,
+          68
+        ],
+        "erasedOpaqueSourcePixels": 0,
+        "actualErasedPixels": []
+      },
+      {
+        "area": 2,
+        "bounds": [
+          34,
+          67,
+          35,
+          67
+        ],
+        "erasedOpaqueSourcePixels": 2,
+        "actualErasedPixels": [
+          {
+            "point": [
+              34,
+              67
+            ],
+            "sourceRGBA": [
+              47,
+              42,
+              44,
+              253
+            ]
+          },
+          {
+            "point": [
+              35,
+              67
+            ],
+            "sourceRGBA": [
+              46,
+              41,
+              43,
+              253
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "actorId": "human-male",
+    "family": "hand",
+    "dir": "left",
+    "index": 3,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-hand-male-left-3.png",
+    "target": "game/assets/interaction-v29/male-hand-left-3-fine.png",
+    "neck": [
+      41,
+      64
+    ],
+    "holes": [
+      {
+        "area": 1,
+        "bounds": [
+          35,
+          67,
+          35,
+          67
+        ],
+        "erasedOpaqueSourcePixels": 1,
+        "actualErasedPixels": [
+          {
+            "point": [
+              35,
+              67
+            ],
+            "sourceRGBA": [
+              50,
+              44,
+              47,
+              253
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "actorId": "human-male",
+    "family": "hand",
+    "dir": "up",
+    "index": 0,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-hand-male-up-0.png",
+    "target": "game/assets/interaction-v29/male-hand-up-0-fine.png",
+    "neck": [
+      48,
+      61
+    ],
+    "holes": [
+      {
+        "area": 14,
+        "bounds": [
+          35,
+          71,
+          38,
+          75
+        ],
+        "erasedOpaqueSourcePixels": 0,
+        "actualErasedPixels": []
+      }
+    ]
+  },
+  {
+    "actorId": "human-female",
+    "family": "hand",
+    "dir": "right",
+    "index": 0,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-hand-female-right-0.png",
+    "target": "game/assets/interaction-v29/female-hand-right-0-fine.png",
+    "neck": [
+      51,
+      67
+    ],
+    "holes": [
+      {
+        "area": 3,
+        "bounds": [
+          46,
+          63,
+          47,
+          64
+        ],
+        "erasedOpaqueSourcePixels": 3,
+        "actualErasedPixels": [
+          {
+            "point": [
+              46,
+              63
+            ],
+            "sourceRGBA": [
+              243,
+              140,
+              95,
+              253
+            ]
+          },
+          {
+            "point": [
+              46,
+              64
+            ],
+            "sourceRGBA": [
+              26,
+              6,
+              6,
+              253
+            ]
+          },
+          {
+            "point": [
+              47,
+              63
+            ],
+            "sourceRGBA": [
+              246,
+              141,
+              95,
+              253
+            ]
+          }
+        ]
+      },
+      {
+        "area": 2,
+        "bounds": [
+          50,
+          65,
+          51,
+          65
+        ],
+        "erasedOpaqueSourcePixels": 2,
+        "actualErasedPixels": [
+          {
+            "point": [
+              50,
+              65
+            ],
+            "sourceRGBA": [
+              167,
+              95,
+              70,
+              253
+            ]
+          },
+          {
+            "point": [
+              51,
+              65
+            ],
+            "sourceRGBA": [
+              178,
+              100,
+              73,
+              253
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "actorId": "human-female",
+    "family": "hand",
+    "dir": "right",
+    "index": 1,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-hand-female-right-1.png",
+    "target": "game/assets/interaction-v29/female-hand-right-1-fine.png",
+    "neck": [
+      51,
+      67
+    ],
+    "holes": [
+      {
+        "area": 3,
+        "bounds": [
+          46,
+          63,
+          47,
+          64
+        ],
+        "erasedOpaqueSourcePixels": 3,
+        "actualErasedPixels": [
+          {
+            "point": [
+              46,
+              63
+            ],
+            "sourceRGBA": [
+              239,
+              133,
+              91,
+              253
+            ]
+          },
+          {
+            "point": [
+              47,
+              63
+            ],
+            "sourceRGBA": [
+              251,
+              145,
+              100,
+              253
+            ]
+          },
+          {
+            "point": [
+              47,
+              64
+            ],
+            "sourceRGBA": [
+              25,
+              6,
+              5,
+              253
+            ]
+          }
+        ]
+      },
+      {
+        "area": 2,
+        "bounds": [
+          50,
+          65,
+          51,
+          65
+        ],
+        "erasedOpaqueSourcePixels": 2,
+        "actualErasedPixels": [
+          {
+            "point": [
+              50,
+              65
+            ],
+            "sourceRGBA": [
+              167,
+              92,
+              62,
+              253
+            ]
+          },
+          {
+            "point": [
+              51,
+              65
+            ],
+            "sourceRGBA": [
+              179,
+              109,
+              74,
+              253
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "actorId": "human-female",
+    "family": "hand",
+    "dir": "right",
+    "index": 2,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-hand-female-right-2.png",
+    "target": "game/assets/interaction-v29/female-hand-right-2-fine.png",
+    "neck": [
+      51,
+      67
+    ],
+    "holes": [
+      {
+        "area": 2,
+        "bounds": [
+          46,
+          63,
+          47,
+          63
+        ],
+        "erasedOpaqueSourcePixels": 2,
+        "actualErasedPixels": [
+          {
+            "point": [
+              46,
+              63
+            ],
+            "sourceRGBA": [
+              196,
+              107,
+              73,
+              253
+            ]
+          },
+          {
+            "point": [
+              47,
+              63
+            ],
+            "sourceRGBA": [
+              208,
+              114,
+              79,
+              253
+            ]
+          }
+        ]
+      },
+      {
+        "area": 2,
+        "bounds": [
+          50,
+          65,
+          51,
+          65
+        ],
+        "erasedOpaqueSourcePixels": 2,
+        "actualErasedPixels": [
+          {
+            "point": [
+              50,
+              65
+            ],
+            "sourceRGBA": [
+              11,
+              0,
+              0,
+              253
+            ]
+          },
+          {
+            "point": [
+              51,
+              65
+            ],
+            "sourceRGBA": [
+              7,
+              0,
+              0,
+              254
+            ]
+          }
+        ]
+      },
+      {
+        "area": 5,
+        "bounds": [
+          55,
+          68,
+          57,
+          69
+        ],
+        "erasedOpaqueSourcePixels": 5,
+        "actualErasedPixels": [
+          {
+            "point": [
+              55,
+              68
+            ],
+            "sourceRGBA": [
+              2,
+              1,
+              0,
+              252
+            ]
+          },
+          {
+            "point": [
+              55,
+              69
+            ],
+            "sourceRGBA": [
+              0,
+              0,
+              0,
+              252
+            ]
+          },
+          {
+            "point": [
+              56,
+              69
+            ],
+            "sourceRGBA": [
+              158,
+              152,
+              148,
+              251
+            ]
+          },
+          {
+            "point": [
+              56,
+              68
+            ],
+            "sourceRGBA": [
+              33,
+              24,
+              21,
+              252
+            ]
+          },
+          {
+            "point": [
+              57,
+              68
+            ],
+            "sourceRGBA": [
+              47,
+              38,
+              32,
+              252
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "actorId": "human-female",
+    "family": "hand",
+    "dir": "right",
+    "index": 3,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-hand-female-right-3.png",
+    "target": "game/assets/interaction-v29/female-hand-right-3-fine.png",
+    "neck": [
+      51,
+      67
+    ],
+    "holes": [
+      {
+        "area": 3,
+        "bounds": [
+          46,
+          63,
+          47,
+          64
+        ],
+        "erasedOpaqueSourcePixels": 3,
+        "actualErasedPixels": [
+          {
+            "point": [
+              46,
+              63
+            ],
+            "sourceRGBA": [
+              199,
+              103,
+              70,
+              253
+            ]
+          },
+          {
+            "point": [
+              47,
+              63
+            ],
+            "sourceRGBA": [
+              215,
+              120,
+              82,
+              253
+            ]
+          },
+          {
+            "point": [
+              47,
+              64
+            ],
+            "sourceRGBA": [
+              30,
+              8,
+              7,
+              253
+            ]
+          }
+        ]
+      },
+      {
+        "area": 1,
+        "bounds": [
+          51,
+          65,
+          51,
+          65
+        ],
+        "erasedOpaqueSourcePixels": 1,
+        "actualErasedPixels": [
+          {
+            "point": [
+              51,
+              65
+            ],
+            "sourceRGBA": [
+              0,
+              0,
+              0,
+              253
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "actorId": "human-female",
+    "family": "hand",
+    "dir": "down",
+    "index": 0,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-hand-female-down-0.png",
+    "target": "game/assets/interaction-v29/female-hand-down-0-fine.png",
+    "neck": [
+      48,
+      69
+    ],
+    "holes": [
+      {
+        "area": 11,
+        "bounds": [
+          35,
+          80,
+          37,
+          84
+        ],
+        "erasedOpaqueSourcePixels": 0,
+        "actualErasedPixels": []
+      }
+    ]
+  },
+  {
+    "actorId": "human-female",
+    "family": "hand",
+    "dir": "left",
+    "index": 2,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-hand-female-left-2.png",
+    "target": "game/assets/interaction-v29/female-hand-left-2-fine.png",
+    "neck": [
+      41,
+      68
+    ],
+    "holes": [
+      {
+        "area": 17,
+        "bounds": [
+          35,
+          63,
+          41,
+          68
+        ],
+        "erasedOpaqueSourcePixels": 17,
+        "actualErasedPixels": [
+          {
+            "point": [
+              38,
+              63
+            ],
+            "sourceRGBA": [
+              26,
+              8,
+              7,
+              253
+            ]
+          },
+          {
+            "point": [
+              38,
+              64
+            ],
+            "sourceRGBA": [
+              28,
+              8,
+              8,
+              253
+            ]
+          },
+          {
+            "point": [
+              38,
+              65
+            ],
+            "sourceRGBA": [
+              76,
+              36,
+              24,
+              253
+            ]
+          },
+          {
+            "point": [
+              38,
+              66
+            ],
+            "sourceRGBA": [
+              255,
+              161,
+              115,
+              253
+            ]
+          },
+          {
+            "point": [
+              39,
+              66
+            ],
+            "sourceRGBA": [
+              234,
+              129,
+              78,
+              253
+            ]
+          },
+          {
+            "point": [
+              40,
+              66
+            ],
+            "sourceRGBA": [
+              236,
+              135,
+              88,
+              253
+            ]
+          },
+          {
+            "point": [
+              41,
+              66
+            ],
+            "sourceRGBA": [
+              239,
+              149,
+              104,
+              254
+            ]
+          },
+          {
+            "point": [
+              39,
+              65
+            ],
+            "sourceRGBA": [
+              49,
+              22,
+              16,
+              253
+            ]
+          },
+          {
+            "point": [
+              37,
+              65
+            ],
+            "sourceRGBA": [
+              34,
+              11,
+              10,
+              253
+            ]
+          },
+          {
+            "point": [
+              36,
+              65
+            ],
+            "sourceRGBA": [
+              33,
+              13,
+              12,
+              253
+            ]
+          },
+          {
+            "point": [
+              36,
+              66
+            ],
+            "sourceRGBA": [
+              55,
+              48,
+              52,
+              253
+            ]
+          },
+          {
+            "point": [
+              35,
+              66
+            ],
+            "sourceRGBA": [
+              0,
+              0,
+              0,
+              253
+            ]
+          },
+          {
+            "point": [
+              35,
+              67
+            ],
+            "sourceRGBA": [
+              0,
+              0,
+              0,
+              253
+            ]
+          },
+          {
+            "point": [
+              35,
+              68
+            ],
+            "sourceRGBA": [
+              0,
+              0,
+              0,
+              253
+            ]
+          },
+          {
+            "point": [
+              35,
+              65
+            ],
+            "sourceRGBA": [
+              22,
+              5,
+              4,
+              253
+            ]
+          },
+          {
+            "point": [
+              39,
+              64
+            ],
+            "sourceRGBA": [
+              29,
+              7,
+              7,
+              253
+            ]
+          },
+          {
+            "point": [
+              39,
+              63
+            ],
+            "sourceRGBA": [
+              28,
+              8,
+              7,
+              253
+            ]
+          }
+        ]
+      },
+      {
+        "area": 4,
+        "bounds": [
+          28,
+          68,
+          30,
+          69
+        ],
+        "erasedOpaqueSourcePixels": 0,
+        "actualErasedPixels": []
+      }
+    ]
+  },
+  {
+    "actorId": "human-female",
+    "family": "hand",
+    "dir": "left",
+    "index": 3,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-hand-female-left-3.png",
+    "target": "game/assets/interaction-v29/female-hand-left-3-fine.png",
+    "neck": [
+      41,
+      68
+    ],
+    "holes": [
+      {
+        "area": 18,
+        "bounds": [
+          35,
+          63,
+          41,
+          69
+        ],
+        "erasedOpaqueSourcePixels": 18,
+        "actualErasedPixels": [
+          {
+            "point": [
+              38,
+              63
+            ],
+            "sourceRGBA": [
+              26,
+              9,
+              8,
+              253
+            ]
+          },
+          {
+            "point": [
+              38,
+              64
+            ],
+            "sourceRGBA": [
+              28,
+              8,
+              7,
+              253
+            ]
+          },
+          {
+            "point": [
+              38,
+              65
+            ],
+            "sourceRGBA": [
+              63,
+              27,
+              19,
+              253
+            ]
+          },
+          {
+            "point": [
+              38,
+              66
+            ],
+            "sourceRGBA": [
+              251,
+              154,
+              109,
+              253
+            ]
+          },
+          {
+            "point": [
+              39,
+              66
+            ],
+            "sourceRGBA": [
+              237,
+              132,
+              81,
+              253
+            ]
+          },
+          {
+            "point": [
+              40,
+              66
+            ],
+            "sourceRGBA": [
+              240,
+              141,
+              95,
+              253
+            ]
+          },
+          {
+            "point": [
+              41,
+              66
+            ],
+            "sourceRGBA": [
+              240,
+              145,
+              96,
+              253
+            ]
+          },
+          {
+            "point": [
+              39,
+              65
+            ],
+            "sourceRGBA": [
+              46,
+              20,
+              15,
+              253
+            ]
+          },
+          {
+            "point": [
+              37,
+              65
+            ],
+            "sourceRGBA": [
+              32,
+              11,
+              11,
+              253
+            ]
+          },
+          {
+            "point": [
+              36,
+              65
+            ],
+            "sourceRGBA": [
+              28,
+              11,
+              10,
+              253
+            ]
+          },
+          {
+            "point": [
+              36,
+              66
+            ],
+            "sourceRGBA": [
+              50,
+              43,
+              47,
+              253
+            ]
+          },
+          {
+            "point": [
+              35,
+              66
+            ],
+            "sourceRGBA": [
+              2,
+              0,
+              0,
+              253
+            ]
+          },
+          {
+            "point": [
+              35,
+              67
+            ],
+            "sourceRGBA": [
+              4,
+              0,
+              0,
+              253
+            ]
+          },
+          {
+            "point": [
+              35,
+              68
+            ],
+            "sourceRGBA": [
+              2,
+              0,
+              0,
+              253
+            ]
+          },
+          {
+            "point": [
+              35,
+              69
+            ],
+            "sourceRGBA": [
+              7,
+              1,
+              1,
+              253
+            ]
+          },
+          {
+            "point": [
+              35,
+              65
+            ],
+            "sourceRGBA": [
+              21,
+              5,
+              5,
+              253
+            ]
+          },
+          {
+            "point": [
+              39,
+              64
+            ],
+            "sourceRGBA": [
+              25,
+              6,
+              6,
+              253
+            ]
+          },
+          {
+            "point": [
+              39,
+              63
+            ],
+            "sourceRGBA": [
+              28,
+              8,
+              8,
+              253
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "actorId": "human-female",
+    "family": "hand",
+    "dir": "up",
+    "index": 0,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-hand-female-up-0.png",
+    "target": "game/assets/interaction-v29/female-hand-up-0-fine.png",
+    "neck": [
+      48,
+      65
+    ],
+    "holes": [
+      {
+        "area": 9,
+        "bounds": [
+          37,
+          76,
+          40,
+          79
+        ],
+        "erasedOpaqueSourcePixels": 0,
+        "actualErasedPixels": []
+      }
+    ]
+  }
+]

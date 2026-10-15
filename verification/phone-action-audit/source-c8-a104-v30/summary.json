@@ -1,0 +1,249 @@
+{
+  "status": "source-diagnostic-not-art-approval",
+  "stable": true,
+  "moduleHashes": {
+    "game/web/canonical-actors-data.js": "9610fb8305ee69140fa0c0850f45fc287cbf75e0f1bc096f3d8152a7c0eb6177",
+    "game/web/interaction-actors-data.js": "3c60c0717a4bb5bf398502528b6091e0e13bda02f91c12c4e78649c6994f9fa3"
+  },
+  "changedResources": [],
+  "counts": {
+    "C": 8,
+    "A": 104,
+    "detachedHead": 1,
+    "multipleLarge": 1,
+    "neckHoleFrames": 40
+  },
+  "detached": [
+    {
+      "collection": "C",
+      "actorId": "human-female",
+      "family": "idle",
+      "dir": "left",
+      "index": 0,
+      "path": "game/assets/canonical-idle-v2/female-left-fine.png",
+      "sha256": "889b4780df2c230419b85674c3ee76a2f869b73a7eb5e5d870d5703807143d21",
+      "head": {
+        "top": 9,
+        "bottom": 34,
+        "left": 6,
+        "right": 31,
+        "portraitChin": 35.5,
+        "eyeAnchor": [
+          14.049999999999999,
+          27.549999999999997
+        ],
+        "eyeLine": 27.549999999999997,
+        "neckAnchor": [
+          20.5,
+          34
+        ],
+        "facePolygon": [
+          [
+            11.575,
+            20.575
+          ],
+          [
+            13.6,
+            19.599999999999998
+          ],
+          [
+            14.799999999999999,
+            20.874999999999996
+          ],
+          [
+            16.224999999999998,
+            22.45
+          ],
+          [
+            17.349999999999998,
+            24.174999999999997
+          ],
+          [
+            17.65,
+            26.124999999999996
+          ],
+          [
+            18.325,
+            27.025
+          ],
+          [
+            20.05,
+            25.825
+          ],
+          [
+            21.25,
+            26.575
+          ],
+          [
+            21.4,
+            28.749999999999996
+          ],
+          [
+            20.349999999999998,
+            30.099999999999998
+          ],
+          [
+            18.775,
+            30.924999999999997
+          ],
+          [
+            17.125,
+            32.199999999999996
+          ],
+          [
+            15.7,
+            33.775
+          ],
+          [
+            13.6,
+            33.775
+          ],
+          [
+            12.174999999999999,
+            32.724999999999994
+          ],
+          [
+            10.75,
+            31.299999999999997
+          ],
+          [
+            9.174999999999999,
+            30.174999999999997
+          ],
+          [
+            8.799999999999999,
+            28.674999999999997
+          ],
+          [
+            9.625,
+            27.099999999999998
+          ],
+          [
+            10.975,
+            25.9
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            7.75,
+            16.825
+          ],
+          [
+            12.25,
+            11.949999999999998
+          ],
+          [
+            19.075,
+            10.224999999999998
+          ],
+          [
+            25.9,
+            11.949999999999998
+          ],
+          [
+            29.799999999999997,
+            16.525
+          ],
+          [
+            30.625,
+            23.124999999999996
+          ],
+          [
+            28.599999999999998,
+            27.999999999999996
+          ],
+          [
+            24.325,
+            31.074999999999996
+          ],
+          [
+            21.025,
+            31.599999999999994
+          ],
+          [
+            20.724999999999998,
+            29.275
+          ],
+          [
+            21.25,
+            27.174999999999997
+          ],
+          [
+            20.05,
+            25.9
+          ],
+          [
+            18.25,
+            26.95
+          ],
+          [
+            17.275,
+            25.224999999999998
+          ],
+          [
+            16.3,
+            22.674999999999997
+          ],
+          [
+            14.649999999999999,
+            20.874999999999996
+          ],
+          [
+            13.525,
+            19.9
+          ],
+          [
+            11.5,
+            21.549999999999997
+          ],
+          [
+            10.225,
+            24.249999999999996
+          ],
+          [
+            8.799999999999999,
+            25.674999999999997
+          ]
+        ]
+      },
+      "neck": [
+        41,
+        68
+      ],
+      "detachedHead": true,
+      "largeComponents": 2,
+      "components": [
+        {
+          "area": 1741,
+          "bounds": [
+            14,
+            20,
+            61,
+            67
+          ],
+          "headPixels": 1563,
+          "bodyPixels": 0
+        },
+        {
+          "area": 1304,
+          "bounds": [
+            32,
+            64,
+            61,
+            125
+          ],
+          "headPixels": 0,
+          "bodyPixels": 1030
+        }
+      ],
+      "neckHoles": [],
+      "erasedOpaqueSourcePixelsInNeckHoles": null,
+      "sourceComparisonAvailable": false
+    }
+  ],
+  "limitations": [
+    "Literal source PNG alpha only; no hair shader, garments or runtime props.",
+    "Enclosed transparency alone is not a defect. Source erased-pixel comparison is available only for40 SEATED/WATER registered source PNGs; C/HAND/LOWER lack that same export format.",
+    "A uses all approved whole-body families only (104 frames), excluding old legacy sequences."
+  ]
+}

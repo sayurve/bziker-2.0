@@ -1,0 +1,14 @@
+✔ open fields have 250–400 additional varied trees across every large map sector (0.88075ms)
+✔ the complete new crowns and shadows remain outside all roads and their shoulders and every house entrance (20.108167ms)
+✔ field trees leave buildings, existing trees, lamps, bins and usable activity areas unobscured (16.79725ms)
+✔ tree groups stay inside dry map land with open grass between the complete silhouettes (5.836959ms)
+✔ new flower planters use supported cached sprites beside clear pedestrian routes (1.926417ms)
+✔ all continuous animal routes keep body and complete new tree silhouettes clear, including loop closure (12.140583ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 145.301583

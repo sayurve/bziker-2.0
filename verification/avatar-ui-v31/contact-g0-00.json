@@ -1,0 +1,317 @@
+{
+  "status": "awaiting visual review",
+  "records": [
+    {
+      "file": "g0-white-h00-down-1.jpg",
+      "sha256": "920121ed3bead3122f329f1ecb918d7d2d845039bd56954759a484197624dcc7",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "captureOrder": 1,
+      "hairStyle": 0
+    },
+    {
+      "file": "g0-white-h00-down-2.jpg",
+      "sha256": "54def255f43652ef1faff7dcc652a0ab91d721936e1e1d5874837708dcd3361a",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "captureOrder": 2,
+      "hairStyle": 0
+    },
+    {
+      "file": "g0-white-h00-right-1.jpg",
+      "sha256": "b5a7bc4489eb0fd0ebc835fd2b8bd7df78d24adf444b46b80303015e0981aaa3",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "captureOrder": 1,
+      "hairStyle": 0
+    },
+    {
+      "file": "g0-white-h00-right-2.jpg",
+      "sha256": "245aa577c3f223089b76aa9c7168f7b85b23634bb214d92fb1320877da394b01",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "captureOrder": 2,
+      "hairStyle": 0
+    },
+    {
+      "file": "g0-white-h00-up-retake-1.jpg",
+      "sha256": "0a549d659838e8c0610eee6da6f1ba8607a6cc20e826ccb2c41a3f331d3257fb",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "captureOrder": 1,
+      "hairStyle": 0
+    },
+    {
+      "file": "g0-white-h00-up-retake-2.jpg",
+      "sha256": "6e042660ef5391f22e641d724e591002088ad77a7f30c99bf26626251875a507",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "captureOrder": 2,
+      "hairStyle": 0
+    },
+    {
+      "file": "g0-white-h00-left-1.jpg",
+      "sha256": "aa37100d6d44b1bf934143add065f97252ad52dc7b97c74d36d9f8d1f897784e",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "captureOrder": 1,
+      "hairStyle": 0
+    },
+    {
+      "file": "g0-white-h00-left-2.jpg",
+      "sha256": "76f22048ec7e734bb185495bb708e478fc37e641d530e790ba9ae45ea3cd8551",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "captureOrder": 2,
+      "hairStyle": 0
+    },
+    {
+      "file": "g0-white-h01-down-1.jpg",
+      "sha256": "c0307557f1d5e9624659e3e0716ac31de96a3166f52424a90a93e271c0dae707",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "captureOrder": 1,
+      "hairStyle": 1
+    },
+    {
+      "file": "g0-white-h01-down-2.jpg",
+      "sha256": "69e1069f23e75551fa4472777ae3942e5a8de60c16fc5ab4adb6a21a11aa7311",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "captureOrder": 2,
+      "hairStyle": 1
+    },
+    {
+      "file": "g0-white-h01-right-1.jpg",
+      "sha256": "a04d99de4bce10e77297cc7c3052fab23517f9b11d762b738095bb46bccea068",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "captureOrder": 1,
+      "hairStyle": 1
+    },
+    {
+      "file": "g0-white-h01-right-2.jpg",
+      "sha256": "18de98d861a10407abe368ef6cab28373df85994b56e154149037655aed39f02",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "captureOrder": 2,
+      "hairStyle": 1
+    },
+    {
+      "file": "g0-white-h01-up-retake-1.jpg",
+      "sha256": "ee2958fe3b05785adc6949a468c8cbe88fc112feb72679e48076051c2170f7b4",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "captureOrder": 1,
+      "hairStyle": 1
+    },
+    {
+      "file": "g0-white-h01-up-retake-2.jpg",
+      "sha256": "05e0798e2110b6e0f787f89a4b01f7a650c98b39e285ece6abcb5344c9e323a7",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "captureOrder": 2,
+      "hairStyle": 1
+    },
+    {
+      "file": "g0-white-h01-left-1.jpg",
+      "sha256": "9b708f36c125d84531a2f7c57ca497f0fbe37c2ecd0dd11ccd77a54dbdc6a188",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "captureOrder": 1,
+      "hairStyle": 1
+    },
+    {
+      "file": "g0-white-h01-left-2.jpg",
+      "sha256": "ee21b88bdd4d160bc909064cfd17150e70795fdded5745048606920fbd55bbc3",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "captureOrder": 2,
+      "hairStyle": 1
+    },
+    {
+      "file": "g0-white-h02-down-1.jpg",
+      "sha256": "1f599ef247692c3f2fd55f69a947fca9b48c4a4b701aadb8d9dc046961cdf2a5",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "captureOrder": 1,
+      "hairStyle": 2
+    },
+    {
+      "file": "g0-white-h02-down-2.jpg",
+      "sha256": "b2537b44059ff48cd8598179c868b7c35a8d28f8bdd241591eb3ba9b7177955b",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "captureOrder": 2,
+      "hairStyle": 2
+    },
+    {
+      "file": "g0-white-h02-right-1.jpg",
+      "sha256": "fc15f84e68a2ed085c9e1007c8d4856fe9167690a8fa3858338640a8c553b37c",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "captureOrder": 1,
+      "hairStyle": 2
+    },
+    {
+      "file": "g0-white-h02-right-2.jpg",
+      "sha256": "6c041c729f300d436aaad8c9884a93f144303c7b41a088f4ffa1089d7dada9e9",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "captureOrder": 2,
+      "hairStyle": 2
+    },
+    {
+      "file": "g0-white-h02-up-retake-1.jpg",
+      "sha256": "44b218cee249ad8dcd469136c485362519420db2485fe2139536f1e8890271c3",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "captureOrder": 1,
+      "hairStyle": 2
+    },
+    {
+      "file": "g0-white-h02-up-retake-2.jpg",
+      "sha256": "6af4bcfe5c505c2064552f60cce7a3c847214b8778dde16c49b1c80f1eb9a467",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "captureOrder": 2,
+      "hairStyle": 2
+    },
+    {
+      "file": "g0-white-h02-left-1.jpg",
+      "sha256": "768c0f7a8933a845267d5a4ff1e029a8d71a37ebec14fd91ded1aff6c561844f",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "captureOrder": 1,
+      "hairStyle": 2
+    },
+    {
+      "file": "g0-white-h02-left-2.jpg",
+      "sha256": "92d7575f150e06efb1aa5a4bff6a19b00257ffbac8841c23918139f0c814fddb",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "captureOrder": 2,
+      "hairStyle": 2
+    }
+  ]
+}

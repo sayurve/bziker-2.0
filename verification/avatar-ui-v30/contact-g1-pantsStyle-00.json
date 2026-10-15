@@ -1,0 +1,198 @@
+{
+  "status": "awaiting-visual-review",
+  "contact": "contact-g1-pantsStyle-00.png",
+  "records": [
+    {
+      "source": "g1-pantsStyle-00-up.jpg",
+      "sha256": "f5b3316d4474411a3a8739c2ffa84b41c1863635f8c04007af4b151a9a9d6fb3",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 0
+    },
+    {
+      "source": "g1-pantsStyle-00-left.jpg",
+      "sha256": "d268058fa31502bf6f89216f0b2f8ce69da338f3a45e5b55d809a9297cf1f088",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 0
+    },
+    {
+      "source": "g1-pantsStyle-00-down.jpg",
+      "sha256": "a6ee9add61ab98a794c23ce21567a5a2ed60ade985d9fee3bfd0b96e99019bef",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 0
+    },
+    {
+      "source": "g1-pantsStyle-00-right.jpg",
+      "sha256": "64b37f61553874e81ce2bb3716079d8c5f8e6365c6d6488ced2e76745bf7dc6a",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 0
+    },
+    {
+      "source": "g1-pantsStyle-01-up.jpg",
+      "sha256": "2cdf39a85d2e5735692180721e8e54135697034a1b5b04ca5114d6e840e83f38",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 1
+    },
+    {
+      "source": "g1-pantsStyle-01-left.jpg",
+      "sha256": "ff9d0cf7a73281fe2f933ceb3b733ba6ee4b1ab41b34b38188a184c5f10c1230",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 1
+    },
+    {
+      "source": "g1-pantsStyle-01-down.jpg",
+      "sha256": "37f649b7c5b141b1c7ea58362b51cad21ed2fab8ec5590b4288852089d9d92b6",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 1
+    },
+    {
+      "source": "g1-pantsStyle-01-right.jpg",
+      "sha256": "979c34203a211000d54e4b3d0c4fe1c5e0c9d5c782dc55a3d45a8030e8e7b242",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 1
+    },
+    {
+      "source": "g1-pantsStyle-02-up.jpg",
+      "sha256": "e4859a9052afb1deab00b3e2bc7d1adb9810e25a88f97000222db6180dba4777",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 2
+    },
+    {
+      "source": "g1-pantsStyle-02-left.jpg",
+      "sha256": "b80f665d4da6bd17be1b325127c62af05711e449e18532d552174576ed841927",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 2
+    },
+    {
+      "source": "g1-pantsStyle-02-down.jpg",
+      "sha256": "97f4e09d9260ee1e0ebba74f6f257ce91607eb8d5e847a7e0c3f04f93b9b5d24",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 2
+    },
+    {
+      "source": "g1-pantsStyle-02-right.jpg",
+      "sha256": "9a533a1ec0003a04a19518e8f31bb9ae35ac224be150062a6a95fdd3cdcb1831",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 2
+    },
+    {
+      "source": "g1-pantsStyle-03-up.jpg",
+      "sha256": "e4cf19bb9376784abf1532a1488eccaf6c74f99665e2d2bec4ac5b3872b71d0b",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 3
+    },
+    {
+      "source": "g1-pantsStyle-03-left.jpg",
+      "sha256": "56f0fafb46b28fb7f234929116aca7e121c4e4726c5f3818d43645c9517a8177",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 3
+    },
+    {
+      "source": "g1-pantsStyle-03-down.jpg",
+      "sha256": "2f2af8379b5c60b72a7c0ff8346dfde5bdf82e09b4c406b14eda7367ef32ef9f",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 3
+    },
+    {
+      "source": "g1-pantsStyle-03-right.jpg",
+      "sha256": "395a7e98e5a58ec387c40b3afc4187c20ed9729e36d52e9d0c48c2d5ccc5a8c7",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 3
+    }
+  ]
+}

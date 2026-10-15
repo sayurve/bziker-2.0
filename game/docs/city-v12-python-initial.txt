@@ -1,0 +1,159 @@
+........E...E.E..FF......................................F.EF................................................................................................F........F...........................................................
+======================================================================
+ERROR: test_litter_is_really_held_after_pickup_and_only_disappears_when_the_last_piece_is_binned (test_action_effects_v7.ActionEffectTests.test_litter_is_really_held_after_pickup_and_only_disappears_when_the_last_piece_is_binned)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_action_effects_v7.py", line 66, in test_litter_is_really_held_after_pickup_and_only_disappears_when_the_last_piece_is_binned
+    self.inventory('trash');bin=self.near(self.a,'trash-bin')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./tests/test_action_effects_v7.py", line 22, in near
+    self.world.move(uid,{'scene':'city','x':point['x'],'y':point['y']})
+  File "./world.py", line 901, in move
+    return self._snapshot(db,account_id,self._touch(db,account_id,data))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./world.py", line 750, in _touch
+    require(bool(boat) or valid_position(scene,x,y,sid),'Координаты вне проходимой зоны')
+  File "./game.py", line 21, in require
+    raise GameError(code, message, status)
+game.GameError: Координаты вне проходимой зоны
+
+======================================================================
+ERROR: test_actual_events_once_and_daily_claims_use_moscow_day_and_30_cap (test_activities_v5.ActivitiesV5Tests.test_actual_events_once_and_daily_claims_use_moscow_day_and_30_cap)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_activities_v5.py", line 42, in test_actual_events_once_and_daily_claims_use_moscow_day_and_30_cap
+    bin_id=self.near(self.a,'trash-bin');self.e.action(self.a,{'action':'trash-bin','target_id':bin_id})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./tests/test_activities_v5.py", line 28, in near
+    self.w.move(uid,{'scene':'city','x':point['x'],'y':point['y']})
+  File "./world.py", line 901, in move
+    return self._snapshot(db,account_id,self._touch(db,account_id,data))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./world.py", line 750, in _touch
+    require(bool(boat) or valid_position(scene,x,y,sid),'Координаты вне проходимой зоны')
+  File "./game.py", line 21, in require
+    raise GameError(code, message, status)
+game.GameError: Координаты вне проходимой зоны
+
+======================================================================
+ERROR: test_litter_dog_pet_and_funny_outfits_are_real_owned_state (test_activities_v5.ActivitiesV5Tests.test_litter_dog_pet_and_funny_outfits_are_real_owned_state)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_activities_v5.py", line 76, in test_litter_dog_pet_and_funny_outfits_are_real_owned_state
+    bin_id=self.near(self.a,'trash-bin');self.e.action(self.a,{'action':'trash-bin','target_id':bin_id})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./tests/test_activities_v5.py", line 28, in near
+    self.w.move(uid,{'scene':'city','x':point['x'],'y':point['y']})
+  File "./world.py", line 901, in move
+    return self._snapshot(db,account_id,self._touch(db,account_id,data))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./world.py", line 750, in _touch
+    require(bool(boat) or valid_position(scene,x,y,sid),'Координаты вне проходимой зоны')
+  File "./game.py", line 21, in require
+    raise GameError(code, message, status)
+game.GameError: Координаты вне проходимой зоны
+
+======================================================================
+ERROR: test_relocation_does_not_move_standing_players_or_rewrite_repaired_seats (test_city_fixtures_v7.CityFixtureV7Tests.test_relocation_does_not_move_standing_players_or_rewrite_repaired_seats)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_city_fixtures_v7.py", line 49, in test_relocation_does_not_move_standing_players_or_rewrite_repaired_seats
+    self.world.move(self.reader,{'scene':'city','x':x+20,'y':y})
+  File "./world.py", line 901, in move
+    return self._snapshot(db,account_id,self._touch(db,account_id,data))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "./world.py", line 750, in _touch
+    require(bool(boat) or valid_position(scene,x,y,sid),'Координаты вне проходимой зоны')
+  File "./game.py", line 21, in require
+    raise GameError(code, message, status)
+game.GameError: Координаты вне проходимой зоны
+
+======================================================================
+FAIL: test_catalog_retains_legacy_animals_and_adds_walkers (test_ambient_animals_v7.AmbientAnimalTests.test_catalog_retains_legacy_animals_and_adds_walkers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_ambient_animals_v7.py", line 27, in test_catalog_retains_legacy_animals_and_adds_walkers
+    self.assertTrue(valid_position('city', p['x'], p['y']), (animal['id'], p))
+AssertionError: False is not true : ('station-dog', {'x': 3710.5, 'y': 2760.0})
+
+======================================================================
+FAIL: test_javascript_and_python_positions_match (test_ambient_animals_v7.AmbientAnimalTests.test_javascript_and_python_positions_match)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_ambient_animals_v7.py", line 51, in test_javascript_and_python_positions_match
+    for key in ('id','kind','walking','facing','walk_frame'):self.assertEqual(py[key],js[key])
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2 != 1
+
+======================================================================
+FAIL: test_expired_seat_does_not_teleport_an_offline_player_after_the_bench_moves (test_city_fixtures_v7.CityFixtureV7Tests.test_expired_seat_does_not_teleport_an_offline_player_after_the_bench_moves)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_city_fixtures_v7.py", line 66, in test_expired_seat_does_not_teleport_an_offline_player_after_the_bench_moves
+    self.assertEqual(result['position'],dict(zip(('x','y'),self.before[self.seats[0]])))
+AssertionError: {'x': 5600.0, 'y': 2798} != {'x': 5600, 'y': 2788}
+- {'x': 5600.0, 'y': 2798}
+?           --         ^
+
++ {'x': 5600, 'y': 2788}
+?                    ^
+
+
+======================================================================
+FAIL: test_all_27_routes_persist_continuous_pedestrian_walks_without_reconciliation (test_city_routes_v9.CityRoutesV9Tests.test_all_27_routes_persist_continuous_pedestrian_walks_without_reconciliation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_city_routes_v9.py", line 48, in test_all_27_routes_persist_continuous_pedestrian_walks_without_reconciliation
+    self.assertEqual(failures, [], '\n'.join(failures[:12]))
+AssertionError: Lists differ: ['door-terrace at 5078.91,3242.00: invalid[579 chars]ion'] != []
+
+First list contains 12 additional elements.
+First extra element 0:
+'door-terrace at 5078.91,3242.00: invalid_action'
+
+Diff is 667 characters long. Set self.maxDiff to None to see it. : door-terrace at 5078.91,3242.00: invalid_action
+door-terrace at 5093.64,3242.00: invalid_action
+door-terrace at 5108.36,3242.00: invalid_action
+door-terrace at 5123.09,3242.00: invalid_action
+door-terrace at 5137.82,3242.00: invalid_action
+door-shop-food at 5088.91,1492.00: invalid_action
+door-shop-food at 5103.64,1492.00: invalid_action
+door-shop-food at 5118.36,1492.00: invalid_action
+door-shop-food at 5133.09,1492.00: invalid_action
+door-shop-food at 5147.82,1492.00: invalid_action
+park-promenade at 6914.55,4039.09: invalid_action
+park-promenade at 6915.76,4054.85: invalid_action
+
+======================================================================
+FAIL: test_city_bounds_collision_and_legacy_relocation (test_mobile_v2.MobileV2Tests.test_city_bounds_collision_and_legacy_relocation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_mobile_v2.py", line 143, in test_city_bounds_collision_and_legacy_relocation
+    self.assertEqual(self.w.snapshot(self.a)['position'],dict(zip(('x','y'),CITY_SPAWN)))
+AssertionError: {'x': 3360.0, 'y': 2359.0} != {'x': 3360, 'y': 2610}
+- {'x': 3360.0, 'y': 2359.0}
+?           --        ^^^^
+
++ {'x': 3360, 'y': 2610}
+?                   ^^
+
+
+======================================================================
+FAIL: test_world_snapshot_relocates_other_legacy_players_inside_buildings (test_mobile_v2.MobileV2Tests.test_world_snapshot_relocates_other_legacy_players_inside_buildings)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./tests/test_mobile_v2.py", line 152, in test_world_snapshot_relocates_other_legacy_players_inside_buildings
+    self.assertEqual((players[self.b]['x'],players[self.b]['y']),CITY_SPAWN)
+AssertionError: Tuples differ: (3360.0, 2359.0) != (3360, 2610)
+
+First differing element 1:
+2359.0
+2610
+
+- (3360.0, 2359.0)
++ (3360, 2610)
+
+----------------------------------------------------------------------
+Ran 226 tests in 21.520s
+
+FAILED (failures=6, errors=4)

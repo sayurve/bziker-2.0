@@ -1,0 +1,107 @@
+{
+  "mapSha": "4159e4039c2d506c2baaeb304831797fbce2a32c5d1fa9879ceb151fe57ec17b",
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844,
+      "joystick": 136
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "joystick": 128
+    }
+  ],
+  "phone": {
+    "frame": true,
+    "homeIcon": true,
+    "seatedPositionPreserved": true
+  },
+  "inventory": {
+    "separate": true,
+    "slots": 10
+  },
+  "topControlsRemoved": true,
+  "settingsViaHeader": true,
+  "interiors": [
+    {
+      "id": "railway",
+      "entry": true,
+      "movement": true,
+      "seatedPhone": true
+    },
+    {
+      "id": "clans",
+      "entry": true,
+      "exit": true
+    },
+    {
+      "id": "arena",
+      "entry": true
+    },
+    {
+      "id": "profile",
+      "entry": true,
+      "shortWalk": true,
+      "exit": true
+    },
+    {
+      "id": "results",
+      "entry": true,
+      "shortWalk": true,
+      "exit": true
+    },
+    {
+      "id": "messages",
+      "entry": true,
+      "shortWalk": true,
+      "exit": true
+    },
+    {
+      "id": "terrace",
+      "entry": true,
+      "shortWalk": true,
+      "exit": true
+    },
+    {
+      "id": "shop-food",
+      "entry": true,
+      "shortWalk": true,
+      "exit": true
+    },
+    {
+      "id": "shop-clothes",
+      "entry": true,
+      "shortWalk": true,
+      "exit": true
+    },
+    {
+      "id": "shop-furniture",
+      "entry": true,
+      "shortWalk": true,
+      "exit": true
+    },
+    {
+      "id": "casino",
+      "entry": true,
+      "shortWalk": true,
+      "exit": true
+    }
+  ],
+  "performanceSample": {
+    "samples": [
+      {
+        "fps": "120.0",
+        "frameMs": "8.33",
+        "renderMs": "0.80",
+        "visibleActorNodes": "1"
+      }
+    ],
+    "viewport": {
+      "height": 844,
+      "width": 390
+    }
+  },
+  "performanceScope": "One local player in the desktop in-app browser with a mobile viewport override; not a physical phone or multiplayer load test.",
+  "consoleWarningErrorCount": 0
+}

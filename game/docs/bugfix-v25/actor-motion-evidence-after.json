@@ -1,0 +1,2431 @@
+{
+  "actualAvatar": {
+    "gender": 0,
+    "skin": 0,
+    "hairStyle": 11,
+    "hairColor": 6,
+    "shirtStyle": 3,
+    "shirtColor": 4,
+    "pantsStyle": 2,
+    "pantsColor": 1,
+    "accessory": 0,
+    "shoesColor": 0,
+    "outfit": 0,
+    "headwear": 4
+  },
+  "logicalSize": [
+    48,
+    64
+  ],
+  "fineAtlasSize": [
+    96,
+    128
+  ],
+  "scale": 2,
+  "footAnchor": [
+    24,
+    63
+  ],
+  "measurements": [
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "down",
+      "pose": "idle",
+      "body": {
+        "left": 21,
+        "top": 11,
+        "right": 73,
+        "bottom": 125,
+        "width": 53,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 26,
+        "left": 15,
+        "right": 32
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "down",
+      "pose": "run 0",
+      "body": {
+        "left": 17,
+        "top": 11,
+        "right": 78,
+        "bottom": 125,
+        "width": 62,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "down",
+      "pose": "run 1",
+      "body": {
+        "left": 17,
+        "top": 11,
+        "right": 78,
+        "bottom": 125,
+        "width": 62,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "down",
+      "pose": "run 2",
+      "body": {
+        "left": 18,
+        "top": 11,
+        "right": 78,
+        "bottom": 125,
+        "width": 61,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 35
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "down",
+      "pose": "run 3",
+      "body": {
+        "left": 18,
+        "top": 11,
+        "right": 76,
+        "bottom": 125,
+        "width": 59,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "right",
+      "pose": "idle",
+      "body": {
+        "left": 22,
+        "top": 11,
+        "right": 73,
+        "bottom": 125,
+        "width": 52,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "right",
+      "pose": "run 0",
+      "body": {
+        "left": 13,
+        "top": 11,
+        "right": 82,
+        "bottom": 125,
+        "width": 70,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 14,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "right",
+      "pose": "run 1",
+      "body": {
+        "left": 19,
+        "top": 11,
+        "right": 75,
+        "bottom": 125,
+        "width": 57,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 14,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "right",
+      "pose": "run 2",
+      "body": {
+        "left": 11,
+        "top": 11,
+        "right": 82,
+        "bottom": 125,
+        "width": 72,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 16,
+        "right": 39
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "right",
+      "pose": "run 3",
+      "body": {
+        "left": 19,
+        "top": 11,
+        "right": 76,
+        "bottom": 125,
+        "width": 58,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 13,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "up",
+      "pose": "idle",
+      "body": {
+        "left": 18,
+        "top": 9,
+        "right": 77,
+        "bottom": 125,
+        "width": 60,
+        "height": 117
+      },
+      "catalogHeadRegion": {
+        "top": 4,
+        "bottom": 26,
+        "left": 12,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "up",
+      "pose": "run 0",
+      "body": {
+        "left": 18,
+        "top": 11,
+        "right": 76,
+        "bottom": 125,
+        "width": 59,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "up",
+      "pose": "run 1",
+      "body": {
+        "left": 19,
+        "top": 12,
+        "right": 75,
+        "bottom": 125,
+        "width": 57,
+        "height": 114
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 35
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "up",
+      "pose": "run 2",
+      "body": {
+        "left": 17,
+        "top": 11,
+        "right": 78,
+        "bottom": 125,
+        "width": 62,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "up",
+      "pose": "run 3",
+      "body": {
+        "left": 19,
+        "top": 11,
+        "right": 76,
+        "bottom": 125,
+        "width": 58,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "left",
+      "pose": "idle",
+      "body": {
+        "left": 22,
+        "top": 11,
+        "right": 73,
+        "bottom": 125,
+        "width": 52,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 35
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "left",
+      "pose": "run 0",
+      "body": {
+        "left": 13,
+        "top": 12,
+        "right": 81,
+        "bottom": 125,
+        "width": 69,
+        "height": 114
+      },
+      "catalogHeadRegion": {
+        "top": 6,
+        "bottom": 28,
+        "left": 10,
+        "right": 31
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "left",
+      "pose": "run 1",
+      "body": {
+        "left": 20,
+        "top": 9,
+        "right": 75,
+        "bottom": 125,
+        "width": 56,
+        "height": 117
+      },
+      "catalogHeadRegion": {
+        "top": 4,
+        "bottom": 26,
+        "left": 10,
+        "right": 33
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "left",
+      "pose": "run 2",
+      "body": {
+        "left": 13,
+        "top": 11,
+        "right": 82,
+        "bottom": 124,
+        "width": 70,
+        "height": 114
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 8,
+        "right": 31
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 0,
+      "facing": "left",
+      "pose": "run 3",
+      "body": {
+        "left": 20,
+        "top": 10,
+        "right": 74,
+        "bottom": 125,
+        "width": 55,
+        "height": 116
+      },
+      "catalogHeadRegion": {
+        "top": 4,
+        "bottom": 26,
+        "left": 10,
+        "right": 34
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "down",
+      "pose": "idle",
+      "body": {
+        "left": 15,
+        "top": 21,
+        "right": 80,
+        "bottom": 125,
+        "width": 66,
+        "height": 105
+      },
+      "catalogHeadRegion": {
+        "top": 8,
+        "bottom": 30,
+        "left": 14,
+        "right": 33
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "down",
+      "pose": "run 0",
+      "body": {
+        "left": 15,
+        "top": 21,
+        "right": 80,
+        "bottom": 125,
+        "width": 66,
+        "height": 105
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 8,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "down",
+      "pose": "run 1",
+      "body": {
+        "left": 18,
+        "top": 21,
+        "right": 77,
+        "bottom": 125,
+        "width": 60,
+        "height": 105
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 10,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "down",
+      "pose": "run 2",
+      "body": {
+        "left": 18,
+        "top": 21,
+        "right": 77,
+        "bottom": 125,
+        "width": 60,
+        "height": 105
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 9,
+        "right": 38
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "down",
+      "pose": "run 3",
+      "body": {
+        "left": 17,
+        "top": 19,
+        "right": 77,
+        "bottom": 125,
+        "width": 61,
+        "height": 107
+      },
+      "catalogHeadRegion": {
+        "top": 10,
+        "bottom": 32,
+        "left": 9,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "right",
+      "pose": "idle",
+      "body": {
+        "left": 19,
+        "top": 15,
+        "right": 76,
+        "bottom": 125,
+        "width": 58,
+        "height": 111
+      },
+      "catalogHeadRegion": {
+        "top": 8,
+        "bottom": 30,
+        "left": 10,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "right",
+      "pose": "run 0",
+      "body": {
+        "left": 10,
+        "top": 20,
+        "right": 84,
+        "bottom": 125,
+        "width": 75,
+        "height": 106
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 14,
+        "right": 42
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "right",
+      "pose": "run 1",
+      "body": {
+        "left": 9,
+        "top": 21,
+        "right": 86,
+        "bottom": 125,
+        "width": 78,
+        "height": 105
+      },
+      "catalogHeadRegion": {
+        "top": 12,
+        "bottom": 34,
+        "left": 14,
+        "right": 42
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "right",
+      "pose": "run 2",
+      "body": {
+        "left": 6,
+        "top": 20,
+        "right": 88,
+        "bottom": 125,
+        "width": 83,
+        "height": 106
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 17,
+        "right": 44
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "right",
+      "pose": "run 3",
+      "body": {
+        "left": 11,
+        "top": 20,
+        "right": 83,
+        "bottom": 125,
+        "width": 73,
+        "height": 106
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 14,
+        "right": 41
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "up",
+      "pose": "idle",
+      "body": {
+        "left": 18,
+        "top": 15,
+        "right": 77,
+        "bottom": 125,
+        "width": 60,
+        "height": 111
+      },
+      "catalogHeadRegion": {
+        "top": 8,
+        "bottom": 30,
+        "left": 9,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "up",
+      "pose": "run 0",
+      "body": {
+        "left": 18,
+        "top": 16,
+        "right": 77,
+        "bottom": 124,
+        "width": 60,
+        "height": 109
+      },
+      "catalogHeadRegion": {
+        "top": 9,
+        "bottom": 31,
+        "left": 9,
+        "right": 38
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "up",
+      "pose": "run 1",
+      "body": {
+        "left": 16,
+        "top": 17,
+        "right": 78,
+        "bottom": 125,
+        "width": 63,
+        "height": 109
+      },
+      "catalogHeadRegion": {
+        "top": 9,
+        "bottom": 31,
+        "left": 10,
+        "right": 39
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "up",
+      "pose": "run 2",
+      "body": {
+        "left": 18,
+        "top": 17,
+        "right": 76,
+        "bottom": 125,
+        "width": 59,
+        "height": 109
+      },
+      "catalogHeadRegion": {
+        "top": 9,
+        "bottom": 31,
+        "left": 10,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "up",
+      "pose": "run 3",
+      "body": {
+        "left": 18,
+        "top": 18,
+        "right": 76,
+        "bottom": 125,
+        "width": 59,
+        "height": 108
+      },
+      "catalogHeadRegion": {
+        "top": 10,
+        "bottom": 32,
+        "left": 9,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "left",
+      "pose": "idle",
+      "body": {
+        "left": 19,
+        "top": 15,
+        "right": 76,
+        "bottom": 125,
+        "width": 58,
+        "height": 111
+      },
+      "catalogHeadRegion": {
+        "top": 8,
+        "bottom": 30,
+        "left": 9,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "left",
+      "pose": "run 0",
+      "body": {
+        "left": 10,
+        "top": 20,
+        "right": 84,
+        "bottom": 125,
+        "width": 75,
+        "height": 106
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 5,
+        "right": 33
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "left",
+      "pose": "run 1",
+      "body": {
+        "left": 9,
+        "top": 21,
+        "right": 86,
+        "bottom": 125,
+        "width": 78,
+        "height": 105
+      },
+      "catalogHeadRegion": {
+        "top": 12,
+        "bottom": 34,
+        "left": 5,
+        "right": 33
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "left",
+      "pose": "run 2",
+      "body": {
+        "left": 6,
+        "top": 20,
+        "right": 88,
+        "bottom": 125,
+        "width": 83,
+        "height": 106
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 3,
+        "right": 30
+      }
+    },
+    {
+      "sheet": "actor-native-motion-contact-after.png",
+      "gender": 1,
+      "facing": "left",
+      "pose": "run 3",
+      "body": {
+        "left": 11,
+        "top": 20,
+        "right": 83,
+        "bottom": 125,
+        "width": 73,
+        "height": 106
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 6,
+        "right": 32
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "down",
+      "pose": "idle",
+      "body": {
+        "left": 21,
+        "top": 11,
+        "right": 73,
+        "bottom": 125,
+        "width": 53,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 26,
+        "left": 15,
+        "right": 32
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "down",
+      "pose": "run 0",
+      "body": {
+        "left": 17,
+        "top": 11,
+        "right": 78,
+        "bottom": 125,
+        "width": 62,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "down",
+      "pose": "run 1",
+      "body": {
+        "left": 17,
+        "top": 11,
+        "right": 78,
+        "bottom": 125,
+        "width": 62,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "down",
+      "pose": "run 2",
+      "body": {
+        "left": 18,
+        "top": 11,
+        "right": 78,
+        "bottom": 125,
+        "width": 61,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 35
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "down",
+      "pose": "run 3",
+      "body": {
+        "left": 18,
+        "top": 11,
+        "right": 76,
+        "bottom": 125,
+        "width": 59,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "right",
+      "pose": "idle",
+      "body": {
+        "left": 22,
+        "top": 11,
+        "right": 73,
+        "bottom": 125,
+        "width": 52,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "right",
+      "pose": "run 0",
+      "body": {
+        "left": 13,
+        "top": 11,
+        "right": 82,
+        "bottom": 125,
+        "width": 70,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 14,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "right",
+      "pose": "run 1",
+      "body": {
+        "left": 19,
+        "top": 11,
+        "right": 75,
+        "bottom": 125,
+        "width": 57,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 14,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "right",
+      "pose": "run 2",
+      "body": {
+        "left": 11,
+        "top": 11,
+        "right": 82,
+        "bottom": 125,
+        "width": 72,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 16,
+        "right": 39
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "right",
+      "pose": "run 3",
+      "body": {
+        "left": 19,
+        "top": 11,
+        "right": 76,
+        "bottom": 125,
+        "width": 58,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 13,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "up",
+      "pose": "idle",
+      "body": {
+        "left": 18,
+        "top": 9,
+        "right": 77,
+        "bottom": 125,
+        "width": 60,
+        "height": 117
+      },
+      "catalogHeadRegion": {
+        "top": 4,
+        "bottom": 26,
+        "left": 12,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "up",
+      "pose": "run 0",
+      "body": {
+        "left": 18,
+        "top": 11,
+        "right": 76,
+        "bottom": 125,
+        "width": 59,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "up",
+      "pose": "run 1",
+      "body": {
+        "left": 19,
+        "top": 12,
+        "right": 75,
+        "bottom": 125,
+        "width": 57,
+        "height": 114
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 35
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "up",
+      "pose": "run 2",
+      "body": {
+        "left": 17,
+        "top": 11,
+        "right": 78,
+        "bottom": 125,
+        "width": 62,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "up",
+      "pose": "run 3",
+      "body": {
+        "left": 19,
+        "top": 11,
+        "right": 76,
+        "bottom": 125,
+        "width": 58,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "left",
+      "pose": "idle",
+      "body": {
+        "left": 22,
+        "top": 11,
+        "right": 73,
+        "bottom": 125,
+        "width": 52,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 35
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "left",
+      "pose": "run 0",
+      "body": {
+        "left": 13,
+        "top": 12,
+        "right": 81,
+        "bottom": 125,
+        "width": 69,
+        "height": 114
+      },
+      "catalogHeadRegion": {
+        "top": 6,
+        "bottom": 28,
+        "left": 10,
+        "right": 31
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "left",
+      "pose": "run 1",
+      "body": {
+        "left": 20,
+        "top": 9,
+        "right": 75,
+        "bottom": 125,
+        "width": 56,
+        "height": 117
+      },
+      "catalogHeadRegion": {
+        "top": 4,
+        "bottom": 26,
+        "left": 10,
+        "right": 33
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "left",
+      "pose": "run 2",
+      "body": {
+        "left": 13,
+        "top": 11,
+        "right": 82,
+        "bottom": 124,
+        "width": 70,
+        "height": 114
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 8,
+        "right": 31
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 0,
+      "facing": "left",
+      "pose": "run 3",
+      "body": {
+        "left": 20,
+        "top": 10,
+        "right": 74,
+        "bottom": 125,
+        "width": 55,
+        "height": 116
+      },
+      "catalogHeadRegion": {
+        "top": 4,
+        "bottom": 26,
+        "left": 10,
+        "right": 34
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "down",
+      "pose": "idle",
+      "body": {
+        "left": 15,
+        "top": 21,
+        "right": 80,
+        "bottom": 125,
+        "width": 66,
+        "height": 105
+      },
+      "catalogHeadRegion": {
+        "top": 8,
+        "bottom": 30,
+        "left": 14,
+        "right": 33
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "down",
+      "pose": "run 0",
+      "body": {
+        "left": 15,
+        "top": 21,
+        "right": 80,
+        "bottom": 125,
+        "width": 66,
+        "height": 105
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 8,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "down",
+      "pose": "run 1",
+      "body": {
+        "left": 18,
+        "top": 21,
+        "right": 77,
+        "bottom": 125,
+        "width": 60,
+        "height": 105
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 10,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "down",
+      "pose": "run 2",
+      "body": {
+        "left": 18,
+        "top": 21,
+        "right": 77,
+        "bottom": 125,
+        "width": 60,
+        "height": 105
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 9,
+        "right": 38
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "down",
+      "pose": "run 3",
+      "body": {
+        "left": 17,
+        "top": 19,
+        "right": 77,
+        "bottom": 125,
+        "width": 61,
+        "height": 107
+      },
+      "catalogHeadRegion": {
+        "top": 10,
+        "bottom": 32,
+        "left": 9,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "right",
+      "pose": "idle",
+      "body": {
+        "left": 19,
+        "top": 15,
+        "right": 76,
+        "bottom": 125,
+        "width": 58,
+        "height": 111
+      },
+      "catalogHeadRegion": {
+        "top": 8,
+        "bottom": 30,
+        "left": 10,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "right",
+      "pose": "run 0",
+      "body": {
+        "left": 10,
+        "top": 20,
+        "right": 84,
+        "bottom": 125,
+        "width": 75,
+        "height": 106
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 14,
+        "right": 42
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "right",
+      "pose": "run 1",
+      "body": {
+        "left": 9,
+        "top": 21,
+        "right": 86,
+        "bottom": 125,
+        "width": 78,
+        "height": 105
+      },
+      "catalogHeadRegion": {
+        "top": 12,
+        "bottom": 34,
+        "left": 14,
+        "right": 42
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "right",
+      "pose": "run 2",
+      "body": {
+        "left": 6,
+        "top": 20,
+        "right": 88,
+        "bottom": 125,
+        "width": 83,
+        "height": 106
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 17,
+        "right": 44
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "right",
+      "pose": "run 3",
+      "body": {
+        "left": 11,
+        "top": 20,
+        "right": 83,
+        "bottom": 125,
+        "width": 73,
+        "height": 106
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 14,
+        "right": 41
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "up",
+      "pose": "idle",
+      "body": {
+        "left": 18,
+        "top": 15,
+        "right": 77,
+        "bottom": 125,
+        "width": 60,
+        "height": 111
+      },
+      "catalogHeadRegion": {
+        "top": 8,
+        "bottom": 30,
+        "left": 9,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "up",
+      "pose": "run 0",
+      "body": {
+        "left": 18,
+        "top": 16,
+        "right": 77,
+        "bottom": 124,
+        "width": 60,
+        "height": 109
+      },
+      "catalogHeadRegion": {
+        "top": 9,
+        "bottom": 31,
+        "left": 9,
+        "right": 38
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "up",
+      "pose": "run 1",
+      "body": {
+        "left": 16,
+        "top": 17,
+        "right": 78,
+        "bottom": 125,
+        "width": 63,
+        "height": 109
+      },
+      "catalogHeadRegion": {
+        "top": 9,
+        "bottom": 31,
+        "left": 10,
+        "right": 39
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "up",
+      "pose": "run 2",
+      "body": {
+        "left": 18,
+        "top": 17,
+        "right": 76,
+        "bottom": 125,
+        "width": 59,
+        "height": 109
+      },
+      "catalogHeadRegion": {
+        "top": 9,
+        "bottom": 31,
+        "left": 10,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "up",
+      "pose": "run 3",
+      "body": {
+        "left": 18,
+        "top": 18,
+        "right": 76,
+        "bottom": 125,
+        "width": 59,
+        "height": 108
+      },
+      "catalogHeadRegion": {
+        "top": 10,
+        "bottom": 32,
+        "left": 9,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "left",
+      "pose": "idle",
+      "body": {
+        "left": 19,
+        "top": 15,
+        "right": 76,
+        "bottom": 125,
+        "width": 58,
+        "height": 111
+      },
+      "catalogHeadRegion": {
+        "top": 8,
+        "bottom": 30,
+        "left": 9,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "left",
+      "pose": "run 0",
+      "body": {
+        "left": 10,
+        "top": 20,
+        "right": 84,
+        "bottom": 125,
+        "width": 75,
+        "height": 106
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 5,
+        "right": 33
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "left",
+      "pose": "run 1",
+      "body": {
+        "left": 9,
+        "top": 21,
+        "right": 86,
+        "bottom": 125,
+        "width": 78,
+        "height": 105
+      },
+      "catalogHeadRegion": {
+        "top": 12,
+        "bottom": 34,
+        "left": 5,
+        "right": 33
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "left",
+      "pose": "run 2",
+      "body": {
+        "left": 6,
+        "top": 20,
+        "right": 88,
+        "bottom": 125,
+        "width": 83,
+        "height": 106
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 3,
+        "right": 30
+      }
+    },
+    {
+      "sheet": "actor-white-hair-contact-after.png",
+      "gender": 1,
+      "facing": "left",
+      "pose": "run 3",
+      "body": {
+        "left": 11,
+        "top": 20,
+        "right": 83,
+        "bottom": 125,
+        "width": 73,
+        "height": 106
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 6,
+        "right": 32
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "down",
+      "pose": "idle",
+      "body": {
+        "left": 18,
+        "top": 12,
+        "right": 75,
+        "bottom": 125,
+        "width": 58,
+        "height": 114
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 26,
+        "left": 15,
+        "right": 32
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "down",
+      "pose": "run 0",
+      "body": {
+        "left": 17,
+        "top": 12,
+        "right": 78,
+        "bottom": 125,
+        "width": 62,
+        "height": 114
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "down",
+      "pose": "run 1",
+      "body": {
+        "left": 17,
+        "top": 12,
+        "right": 78,
+        "bottom": 125,
+        "width": 62,
+        "height": 114
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "down",
+      "pose": "run 2",
+      "body": {
+        "left": 18,
+        "top": 12,
+        "right": 78,
+        "bottom": 125,
+        "width": 61,
+        "height": 114
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 35
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "down",
+      "pose": "run 3",
+      "body": {
+        "left": 18,
+        "top": 12,
+        "right": 76,
+        "bottom": 125,
+        "width": 59,
+        "height": 114
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "right",
+      "pose": "idle",
+      "body": {
+        "left": 20,
+        "top": 12,
+        "right": 73,
+        "bottom": 125,
+        "width": 54,
+        "height": 114
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "right",
+      "pose": "run 0",
+      "body": {
+        "left": 13,
+        "top": 12,
+        "right": 82,
+        "bottom": 125,
+        "width": 70,
+        "height": 114
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 14,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "right",
+      "pose": "run 1",
+      "body": {
+        "left": 19,
+        "top": 11,
+        "right": 75,
+        "bottom": 125,
+        "width": 57,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 14,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "right",
+      "pose": "run 2",
+      "body": {
+        "left": 11,
+        "top": 11,
+        "right": 82,
+        "bottom": 125,
+        "width": 72,
+        "height": 115
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 16,
+        "right": 39
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "right",
+      "pose": "run 3",
+      "body": {
+        "left": 19,
+        "top": 12,
+        "right": 76,
+        "bottom": 125,
+        "width": 58,
+        "height": 114
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 13,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "up",
+      "pose": "idle",
+      "body": {
+        "left": 18,
+        "top": 10,
+        "right": 77,
+        "bottom": 125,
+        "width": 60,
+        "height": 116
+      },
+      "catalogHeadRegion": {
+        "top": 4,
+        "bottom": 26,
+        "left": 12,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "up",
+      "pose": "run 0",
+      "body": {
+        "left": 18,
+        "top": 12,
+        "right": 76,
+        "bottom": 125,
+        "width": 59,
+        "height": 114
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "up",
+      "pose": "run 1",
+      "body": {
+        "left": 19,
+        "top": 12,
+        "right": 75,
+        "bottom": 125,
+        "width": 57,
+        "height": 114
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 35
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "up",
+      "pose": "run 2",
+      "body": {
+        "left": 17,
+        "top": 12,
+        "right": 78,
+        "bottom": 125,
+        "width": 62,
+        "height": 114
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "up",
+      "pose": "run 3",
+      "body": {
+        "left": 19,
+        "top": 12,
+        "right": 76,
+        "bottom": 125,
+        "width": 58,
+        "height": 114
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 36
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "left",
+      "pose": "idle",
+      "body": {
+        "left": 22,
+        "top": 12,
+        "right": 75,
+        "bottom": 125,
+        "width": 54,
+        "height": 114
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 35
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "left",
+      "pose": "run 0",
+      "body": {
+        "left": 13,
+        "top": 14,
+        "right": 81,
+        "bottom": 125,
+        "width": 69,
+        "height": 112
+      },
+      "catalogHeadRegion": {
+        "top": 6,
+        "bottom": 28,
+        "left": 10,
+        "right": 31
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "left",
+      "pose": "run 1",
+      "body": {
+        "left": 20,
+        "top": 9,
+        "right": 75,
+        "bottom": 125,
+        "width": 56,
+        "height": 117
+      },
+      "catalogHeadRegion": {
+        "top": 4,
+        "bottom": 26,
+        "left": 10,
+        "right": 33
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "left",
+      "pose": "run 2",
+      "body": {
+        "left": 12,
+        "top": 12,
+        "right": 83,
+        "bottom": 124,
+        "width": 72,
+        "height": 113
+      },
+      "catalogHeadRegion": {
+        "top": 5,
+        "bottom": 27,
+        "left": 8,
+        "right": 31
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 0,
+      "facing": "left",
+      "pose": "run 3",
+      "body": {
+        "left": 20,
+        "top": 10,
+        "right": 75,
+        "bottom": 125,
+        "width": 56,
+        "height": 116
+      },
+      "catalogHeadRegion": {
+        "top": 4,
+        "bottom": 26,
+        "left": 10,
+        "right": 34
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "down",
+      "pose": "idle",
+      "body": {
+        "left": 12,
+        "top": 21,
+        "right": 80,
+        "bottom": 125,
+        "width": 69,
+        "height": 105
+      },
+      "catalogHeadRegion": {
+        "top": 8,
+        "bottom": 30,
+        "left": 14,
+        "right": 33
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "down",
+      "pose": "run 0",
+      "body": {
+        "left": 12,
+        "top": 21,
+        "right": 80,
+        "bottom": 125,
+        "width": 69,
+        "height": 105
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 8,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "down",
+      "pose": "run 1",
+      "body": {
+        "left": 16,
+        "top": 21,
+        "right": 77,
+        "bottom": 125,
+        "width": 62,
+        "height": 105
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 10,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "down",
+      "pose": "run 2",
+      "body": {
+        "left": 12,
+        "top": 21,
+        "right": 79,
+        "bottom": 125,
+        "width": 68,
+        "height": 105
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 9,
+        "right": 38
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "down",
+      "pose": "run 3",
+      "body": {
+        "left": 14,
+        "top": 19,
+        "right": 79,
+        "bottom": 125,
+        "width": 66,
+        "height": 107
+      },
+      "catalogHeadRegion": {
+        "top": 10,
+        "bottom": 32,
+        "left": 9,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "right",
+      "pose": "idle",
+      "body": {
+        "left": 18,
+        "top": 15,
+        "right": 76,
+        "bottom": 125,
+        "width": 59,
+        "height": 111
+      },
+      "catalogHeadRegion": {
+        "top": 8,
+        "bottom": 30,
+        "left": 10,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "right",
+      "pose": "run 0",
+      "body": {
+        "left": 10,
+        "top": 20,
+        "right": 84,
+        "bottom": 125,
+        "width": 75,
+        "height": 106
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 14,
+        "right": 42
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "right",
+      "pose": "run 1",
+      "body": {
+        "left": 8,
+        "top": 21,
+        "right": 86,
+        "bottom": 125,
+        "width": 79,
+        "height": 105
+      },
+      "catalogHeadRegion": {
+        "top": 12,
+        "bottom": 34,
+        "left": 14,
+        "right": 42
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "right",
+      "pose": "run 2",
+      "body": {
+        "left": 6,
+        "top": 20,
+        "right": 88,
+        "bottom": 125,
+        "width": 83,
+        "height": 106
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 17,
+        "right": 44
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "right",
+      "pose": "run 3",
+      "body": {
+        "left": 11,
+        "top": 20,
+        "right": 83,
+        "bottom": 125,
+        "width": 73,
+        "height": 106
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 14,
+        "right": 41
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "up",
+      "pose": "idle",
+      "body": {
+        "left": 16,
+        "top": 15,
+        "right": 79,
+        "bottom": 125,
+        "width": 64,
+        "height": 111
+      },
+      "catalogHeadRegion": {
+        "top": 8,
+        "bottom": 30,
+        "left": 9,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "up",
+      "pose": "run 0",
+      "body": {
+        "left": 16,
+        "top": 16,
+        "right": 79,
+        "bottom": 124,
+        "width": 64,
+        "height": 109
+      },
+      "catalogHeadRegion": {
+        "top": 9,
+        "bottom": 31,
+        "left": 9,
+        "right": 38
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "up",
+      "pose": "run 1",
+      "body": {
+        "left": 16,
+        "top": 17,
+        "right": 79,
+        "bottom": 125,
+        "width": 64,
+        "height": 109
+      },
+      "catalogHeadRegion": {
+        "top": 9,
+        "bottom": 31,
+        "left": 10,
+        "right": 39
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "up",
+      "pose": "run 2",
+      "body": {
+        "left": 18,
+        "top": 17,
+        "right": 77,
+        "bottom": 125,
+        "width": 60,
+        "height": 109
+      },
+      "catalogHeadRegion": {
+        "top": 9,
+        "bottom": 31,
+        "left": 10,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "up",
+      "pose": "run 3",
+      "body": {
+        "left": 16,
+        "top": 18,
+        "right": 79,
+        "bottom": 125,
+        "width": 64,
+        "height": 108
+      },
+      "catalogHeadRegion": {
+        "top": 10,
+        "bottom": 32,
+        "left": 9,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "left",
+      "pose": "idle",
+      "body": {
+        "left": 19,
+        "top": 15,
+        "right": 79,
+        "bottom": 125,
+        "width": 61,
+        "height": 111
+      },
+      "catalogHeadRegion": {
+        "top": 8,
+        "bottom": 30,
+        "left": 9,
+        "right": 37
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "left",
+      "pose": "run 0",
+      "body": {
+        "left": 10,
+        "top": 20,
+        "right": 85,
+        "bottom": 125,
+        "width": 76,
+        "height": 106
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 5,
+        "right": 33
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "left",
+      "pose": "run 1",
+      "body": {
+        "left": 9,
+        "top": 21,
+        "right": 87,
+        "bottom": 125,
+        "width": 79,
+        "height": 105
+      },
+      "catalogHeadRegion": {
+        "top": 12,
+        "bottom": 34,
+        "left": 5,
+        "right": 33
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "left",
+      "pose": "run 2",
+      "body": {
+        "left": 6,
+        "top": 20,
+        "right": 89,
+        "bottom": 125,
+        "width": 84,
+        "height": 106
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 3,
+        "right": 30
+      }
+    },
+    {
+      "sheet": "actor-live-avatar-contact-after.png",
+      "gender": 1,
+      "facing": "left",
+      "pose": "run 3",
+      "body": {
+        "left": 11,
+        "top": 20,
+        "right": 83,
+        "bottom": 125,
+        "width": 73,
+        "height": 106
+      },
+      "catalogHeadRegion": {
+        "top": 11,
+        "bottom": 33,
+        "left": 6,
+        "right": 32
+      }
+    }
+  ]
+}

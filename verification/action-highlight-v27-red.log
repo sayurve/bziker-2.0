@@ -1,0 +1,39 @@
+✖ a floor interaction outline stays visible beside the player and cannot erase their face (1.786625ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 164.696541
+
+✖ failing tests:
+
+test at game/tests/action-highlight-depth-v27.test.mjs:8:1
+✖ a floor interaction outline stays visible beside the player and cannot erase their face (1.786625ms)
+  AssertionError [ERR_ASSERTION]: The dashed top edge crosses this face pixel in world space and must remain behind it
+  + actual - expected
+  
+    [
+  +   250,
+  +   248,
+  +   242,
+  -   18,
+  -   52,
+  -   171,
+      255
+    ]
+  
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/action-highlight-depth-v27.test.mjs:23:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [ 250, 248, 242, 255 ],
+    expected: [ 18, 52, 171, 255 ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

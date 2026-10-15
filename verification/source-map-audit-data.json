@@ -1,0 +1,583 @@
+{
+  "schema": 1,
+  "scope": "Read-only canonical/source map comparison; source19 is historical tracing, not a second canonical artwork",
+  "canonicalSourceSize": [
+    1536,
+    1024
+  ],
+  "liveSize": [
+    12288,
+    8192
+  ],
+  "layoutScale": 8,
+  "assetScale": 5,
+  "sourceArtworkIsLiveBackground": null,
+  "buildings": [
+    {
+      "id": "railway",
+      "name": "ВОКЗАЛ БЗИКЕР",
+      "assetId": "railway-station",
+      "oldSourceBounds": [
+        880,
+        150,
+        230,
+        132
+      ],
+      "oldTracedDoorNative": {
+        "x": 1012,
+        "y": 300
+      },
+      "liveDoor": {
+        "x": 8911,
+        "y": 2264
+      },
+      "liveDoorNormalized": {
+        "x": 1113.875,
+        "y": 283
+      },
+      "liveArtWidthNormalized": 159.375,
+      "liveArtCenterNormalized": {
+        "x": 1117,
+        "y": 280
+      },
+      "canonicalApproximateWidth": 230
+    },
+    {
+      "id": "clans",
+      "name": "ДОМ КЛАНОВ",
+      "assetId": "clan-base-modern-clubhouse",
+      "oldSourceBounds": [
+        128,
+        53,
+        128,
+        103
+      ],
+      "oldTracedDoorNative": {
+        "x": 196,
+        "y": 172
+      },
+      "liveDoor": {
+        "x": 1416,
+        "y": 1144
+      },
+      "liveDoorNormalized": {
+        "x": 177,
+        "y": 143
+      },
+      "liveArtWidthNormalized": 84.375,
+      "liveArtCenterNormalized": {
+        "x": 180,
+        "y": 140
+      },
+      "canonicalApproximateWidth": 128
+    },
+    {
+      "id": "arena",
+      "name": "СВОЯ ИГРА",
+      "assetId": "shopping-mall-bzik-hub",
+      "oldSourceBounds": [
+        997,
+        739,
+        199,
+        167
+      ],
+      "oldTracedDoorNative": {
+        "x": 1086,
+        "y": 928
+      },
+      "liveDoor": {
+        "x": 7168,
+        "y": 7360
+      },
+      "liveDoorNormalized": {
+        "x": 896,
+        "y": 920
+      },
+      "liveArtWidthNormalized": 128.125,
+      "liveArtCenterNormalized": {
+        "x": 896,
+        "y": 917
+      },
+      "canonicalApproximateWidth": 199
+    },
+    {
+      "id": "profile",
+      "name": "СТУДИЯ ОБРАЗОВ",
+      "assetId": "clothing-shop",
+      "oldSourceBounds": [
+        681,
+        493,
+        65,
+        61
+      ],
+      "oldTracedDoorNative": {
+        "x": 718,
+        "y": 562
+      },
+      "liveDoor": {
+        "x": 5838,
+        "y": 5384
+      },
+      "liveDoorNormalized": {
+        "x": 729.75,
+        "y": 673
+      },
+      "liveArtWidthNormalized": 81.25,
+      "liveArtCenterNormalized": {
+        "x": 733,
+        "y": 670
+      },
+      "canonicalApproximateWidth": 65
+    },
+    {
+      "id": "results",
+      "name": "ГАЛЕРЕЯ РЕЗУЛЬТАТОВ",
+      "assetId": "clan-base-stone-mansion",
+      "oldSourceBounds": [
+        454,
+        269,
+        61,
+        87
+      ],
+      "oldTracedDoorNative": {
+        "x": 476,
+        "y": 380
+      },
+      "liveDoor": {
+        "x": 1517,
+        "y": 2440
+      },
+      "liveDoorNormalized": {
+        "x": 189.625,
+        "y": 305
+      },
+      "liveArtWidthNormalized": 87.5,
+      "liveArtCenterNormalized": {
+        "x": 194,
+        "y": 302
+      },
+      "canonicalApproximateWidth": 61
+    },
+    {
+      "id": "messages",
+      "name": "КАФЕ БЗИКЕР",
+      "assetId": "bar-pivkovy-tuz",
+      "oldSourceBounds": [
+        776,
+        783,
+        174,
+        124
+      ],
+      "oldTracedDoorNative": {
+        "x": 874,
+        "y": 932
+      },
+      "liveDoor": {
+        "x": 6116,
+        "y": 7392
+      },
+      "liveDoorNormalized": {
+        "x": 764.5,
+        "y": 924
+      },
+      "liveArtWidthNormalized": 109.375,
+      "liveArtCenterNormalized": {
+        "x": 770,
+        "y": 921
+      },
+      "canonicalApproximateWidth": 174
+    },
+    {
+      "id": "terrace",
+      "name": "ТВОРЧЕСКАЯ ГОСТИНАЯ",
+      "assetId": "clan-base-wood-clubhouse",
+      "oldSourceBounds": [
+        1260,
+        288,
+        88,
+        79
+      ],
+      "oldTracedDoorNative": {
+        "x": 1296,
+        "y": 390
+      },
+      "liveDoor": {
+        "x": 11600,
+        "y": 3424
+      },
+      "liveDoorNormalized": {
+        "x": 1450,
+        "y": 428
+      },
+      "liveArtWidthNormalized": 84.375,
+      "liveArtCenterNormalized": {
+        "x": 1450,
+        "y": 425
+      },
+      "canonicalApproximateWidth": 88
+    },
+    {
+      "id": "shop-food",
+      "name": "ЛАВКА МАСКОТА",
+      "assetId": "food-kiosk",
+      "oldSourceBounds": [
+        790,
+        593,
+        83,
+        78
+      ],
+      "oldTracedDoorNative": {
+        "x": 842,
+        "y": 686
+      },
+      "liveDoor": {
+        "x": 6616,
+        "y": 5408
+      },
+      "liveDoorNormalized": {
+        "x": 827,
+        "y": 676
+      },
+      "liveArtWidthNormalized": 59.375,
+      "liveArtCenterNormalized": {
+        "x": 827,
+        "y": 673
+      },
+      "canonicalApproximateWidth": 83
+    },
+    {
+      "id": "shop-clothes",
+      "name": "ГАРДЕРОБ БЗИКЕР",
+      "assetId": "clothing-shop",
+      "oldSourceBounds": [
+        399,
+        681,
+        161,
+        130
+      ],
+      "oldTracedDoorNative": {
+        "x": 480,
+        "y": 828
+      },
+      "liveDoor": {
+        "x": 3936,
+        "y": 6784
+      },
+      "liveDoorNormalized": {
+        "x": 492,
+        "y": 848
+      },
+      "liveArtWidthNormalized": 100,
+      "liveArtCenterNormalized": {
+        "x": 496,
+        "y": 845
+      },
+      "canonicalApproximateWidth": 161
+    },
+    {
+      "id": "shop-furniture",
+      "name": "МЕБЕЛЬНАЯ МАСТЕРСКАЯ",
+      "assetId": "furniture-store",
+      "oldSourceBounds": [
+        576,
+        722,
+        158,
+        122
+      ],
+      "oldTracedDoorNative": {
+        "x": 644,
+        "y": 864
+      },
+      "liveDoor": {
+        "x": 5326,
+        "y": 6744
+      },
+      "liveDoorNormalized": {
+        "x": 665.75,
+        "y": 843
+      },
+      "liveArtWidthNormalized": 106.25,
+      "liveArtCenterNormalized": {
+        "x": 671,
+        "y": 840
+      },
+      "canonicalApproximateWidth": 158
+    },
+    {
+      "id": "casino",
+      "name": "КАЗИНО БЗИКЕР",
+      "assetId": "casino-modern",
+      "oldSourceBounds": [
+        477,
+        446,
+        174,
+        163
+      ],
+      "oldTracedDoorNative": {
+        "x": 554,
+        "y": 628
+      },
+      "liveDoor": {
+        "x": 4734,
+        "y": 5048
+      },
+      "liveDoorNormalized": {
+        "x": 591.75,
+        "y": 631
+      },
+      "liveArtWidthNormalized": 106.25,
+      "liveArtCenterNormalized": {
+        "x": 597,
+        "y": 628
+      },
+      "canonicalApproximateWidth": 174
+    }
+  ],
+  "counts": {
+    "publicDoors": 11,
+    "privatePlots": 8,
+    "residentialBuildings": 30,
+    "trees": 772,
+    "lamps": 143,
+    "parkingAreas": 42,
+    "railSegments": 8,
+    "trainCoaches": 6,
+    "authoredTestRoutes": 30
+  },
+  "initialFindings": {
+    "railGaps": [
+      {
+        "left": "rail-track-1",
+        "right": "rail-track-2",
+        "worldPixels": 305
+      },
+      {
+        "left": "rail-track-2",
+        "right": "rail-track-3",
+        "worldPixels": 305
+      },
+      {
+        "left": "rail-track-3",
+        "right": "rail-track-4",
+        "worldPixels": 305
+      },
+      {
+        "left": "rail-track-4",
+        "right": "rail-track-5",
+        "worldPixels": 305
+      }
+    ],
+    "welcome": {
+      "landmark": {
+        "x": 7736,
+        "y": 2584
+      },
+      "sign": {
+        "id": "welcome-sign",
+        "kind": "sign",
+        "x": 7248,
+        "y": 2696,
+        "design": {
+          "assetId": "welcome-source-sign",
+          "x": 7248,
+          "y": 2696,
+          "width": 250,
+          "height": 195.588235,
+          "anchorX": 0.5,
+          "anchorY": 1,
+          "crop": "solid",
+          "direction": "front",
+          "baked_scene": false
+        },
+        "footprint": {
+          "x": 7153,
+          "y": 2671,
+          "width": 190,
+          "height": 25
+        },
+        "depth": 2696
+      },
+      "anchorDistance": 500.68752730620326
+    },
+    "railSegments": 5,
+    "gazebo": {
+      "landmark": {
+        "x": 5744,
+        "y": 2000
+      },
+      "liveObject": {
+        "id": "park-gazebo",
+        "kind": "gazebo",
+        "x": 5400,
+        "y": 2152,
+        "design": {
+          "assetId": "generated-environment-gazebo",
+          "x": 5400,
+          "y": 2152,
+          "width": 275,
+          "height": 324.925595,
+          "anchorX": 0.5,
+          "anchorY": 1,
+          "crop": "solid",
+          "direction": "front",
+          "baked_scene": false
+        },
+        "footprint": {
+          "x": 5320,
+          "y": 2072,
+          "width": 160,
+          "height": 80
+        },
+        "depth": 2152,
+        "provenance": "retained-v17-standalone-supplemental"
+      }
+    }
+  },
+  "afterRepair": {
+    "corridor": {
+      "x": 5856,
+      "y": 1056,
+      "width": 4440,
+      "height": 360,
+      "id": "north-rail-corridor",
+      "baseline_y": 1416,
+      "segment_count": 8,
+      "segment_width": 555
+    },
+    "railBounds": [
+      {
+        "id": "rail-track-1",
+        "x": 5856,
+        "y": 1197.0904872389792,
+        "width": 555,
+        "height": 218.90951276102086
+      },
+      {
+        "id": "rail-track-2",
+        "x": 6411,
+        "y": 1197.0904872389792,
+        "width": 555,
+        "height": 218.90951276102086
+      },
+      {
+        "id": "rail-track-3",
+        "x": 6966,
+        "y": 1197.0904872389792,
+        "width": 555,
+        "height": 218.90951276102086
+      },
+      {
+        "id": "rail-track-4",
+        "x": 7521,
+        "y": 1197.0904872389792,
+        "width": 555,
+        "height": 218.90951276102086
+      },
+      {
+        "id": "rail-track-5",
+        "x": 8076,
+        "y": 1197.0904872389792,
+        "width": 555,
+        "height": 218.90951276102086
+      },
+      {
+        "id": "rail-track-6",
+        "x": 8631,
+        "y": 1197.0904872389792,
+        "width": 555,
+        "height": 218.90951276102086
+      },
+      {
+        "id": "rail-track-7",
+        "x": 9186,
+        "y": 1197.0904872389792,
+        "width": 555,
+        "height": 218.90951276102086
+      },
+      {
+        "id": "rail-track-8",
+        "x": 9741,
+        "y": 1197.0904872389792,
+        "width": 555,
+        "height": 218.90951276102086
+      }
+    ],
+    "railGaps": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "welcome": {
+      "landmark": {
+        "x": 7248,
+        "y": 2720
+      },
+      "signApproach": {
+        "x": 7248,
+        "y": 2720
+      },
+      "arrival": {
+        "points": [
+          [
+            8911,
+            2288
+          ],
+          [
+            7725,
+            2575
+          ],
+          [
+            7600,
+            2700
+          ],
+          [
+            7248,
+            2720
+          ]
+        ],
+        "walking_seconds": 10.172
+      }
+    },
+    "collisions": 1468,
+    "gazebo": {
+      "landmark": {
+        "x": 5400.0,
+        "y": 2182
+      },
+      "approach": {
+        "x": 5400.0,
+        "y": 2182
+      },
+      "physicalAnchor": {
+        "x": 5400,
+        "y": 2152
+      },
+      "landingSource": "decor.fixture_pads[fixture_id=park-gazebo].path[0]"
+    }
+  },
+  "tests": {
+    "newRegressionRed": {
+      "tests": 2,
+      "passed": 0,
+      "failed": 2,
+      "log": "source-map-integration-red.log"
+    },
+    "green": {
+      "tests": 21,
+      "passed": 21,
+      "failed": 0,
+      "log": "source-map-integration-green.log"
+    },
+    "gazeboRegression": {
+      "redLog": "source-map-gazebo-red.log",
+      "redFailed": 1,
+      "greenLog": "source-map-gazebo-green.log",
+      "greenPassed": 22,
+      "greenFailed": 0
+    }
+  }
+}

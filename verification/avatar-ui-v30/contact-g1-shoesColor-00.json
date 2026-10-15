@@ -1,0 +1,294 @@
+{
+  "status": "awaiting-visual-review",
+  "contact": "contact-g1-shoesColor-00.png",
+  "records": [
+    {
+      "source": "g1-shoesColor-00-up.jpg",
+      "sha256": "449170f80f41eb6869ccccb89605407d009af7fac0b6508dc7cba9a6e0a19a58",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 0
+    },
+    {
+      "source": "g1-shoesColor-00-left.jpg",
+      "sha256": "20ed22f8fc8551d9624c6c43d885ab6728c5ace4d4312053eb8ba4e169c52021",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 0
+    },
+    {
+      "source": "g1-shoesColor-00-down.jpg",
+      "sha256": "7b62167e5977b3409d067c77a9c8b678a19a9560ba114bb28c4b2eff95180f96",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 0
+    },
+    {
+      "source": "g1-shoesColor-00-right.jpg",
+      "sha256": "45c7d8827dcf88d83cc68b29b0d479c7be8c9e9cf88bedc43defec29eff96cc6",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 0
+    },
+    {
+      "source": "g1-shoesColor-01-up.jpg",
+      "sha256": "56dda89e6d66ca339749a4da69d300d7c91ca18e025bea62624e29f9a1b0aa5a",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 1
+    },
+    {
+      "source": "g1-shoesColor-01-left.jpg",
+      "sha256": "e567691ef35b871f74f69b0176f45772f3622c3debaf56ab240f7d22deacfee8",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 1
+    },
+    {
+      "source": "g1-shoesColor-01-down.jpg",
+      "sha256": "50d78834160aa884455318cdd8a5af015e656e323f8b4b0dc0d8bb1f84504aac",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 1
+    },
+    {
+      "source": "g1-shoesColor-01-right.jpg",
+      "sha256": "a20b04679d8a98fe4073a6036a7f4901effd8ab978720d70c98427e83375d799",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 1
+    },
+    {
+      "source": "g1-shoesColor-02-up.jpg",
+      "sha256": "c7fe568e34ce8f3231df74db3dcee282074b0596033b712cc89875892360e0c3",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 2
+    },
+    {
+      "source": "g1-shoesColor-02-left.jpg",
+      "sha256": "e4ac5e033d4d2531215fdb0ce95a9dd2d3fd1ecb0c78c1682a6b5fd391d4872a",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 2
+    },
+    {
+      "source": "g1-shoesColor-02-down.jpg",
+      "sha256": "848a13d879ae845a4c3027a5c45d02cd1c3363807badb303469f37a5acc0c4ab",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 2
+    },
+    {
+      "source": "g1-shoesColor-02-right.jpg",
+      "sha256": "fda23244b6f86f25ccf664bdd75817397e9396063a0d8e4e506e13e875cbe351",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 2
+    },
+    {
+      "source": "g1-shoesColor-03-up.jpg",
+      "sha256": "0f77da8cc2fd71851e4b9bc2a67f720527895563e29c77f3cb735868a963853e",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 3
+    },
+    {
+      "source": "g1-shoesColor-03-left.jpg",
+      "sha256": "5673b1a7af8691038c2ac7f2dbc124b137f99effeb537ad228ec0dde1091d83e",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 3
+    },
+    {
+      "source": "g1-shoesColor-03-down.jpg",
+      "sha256": "64039d4c37c517b097fe89cf5db8811477210ad9c788b1085cbf704972e1f181",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 3
+    },
+    {
+      "source": "g1-shoesColor-03-right.jpg",
+      "sha256": "27130b7d708c52db3540708ae3fdb5b3a6c629a067c2e0901d2f2480e980cbcf",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 3
+    },
+    {
+      "source": "g1-shoesColor-04-up.jpg",
+      "sha256": "b1ebac4ad1a6f2557bdb437376df71ec1b9b16474755ebc89dd1d83ce18374e3",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 4
+    },
+    {
+      "source": "g1-shoesColor-04-left.jpg",
+      "sha256": "d089627324df17ccb09d63db6ea7571fc4cdff30d331005f435b52f68dbcc8b1",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 4
+    },
+    {
+      "source": "g1-shoesColor-04-down.jpg",
+      "sha256": "9fc871ffe85d27814eccc744981c717161f0bfa2412b9d58e76cad3eccbccaf4",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 4
+    },
+    {
+      "source": "g1-shoesColor-04-right.jpg",
+      "sha256": "2495958082e4ed42377d1859f3c2d41b3833211661e4ecf0c2351106e67f7221",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 4
+    },
+    {
+      "source": "g1-shoesColor-05-up.jpg",
+      "sha256": "2e6ed187a3ebd7411ff1d7658eac86f6735965901207df7e54dddf96b90d08d2",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 5
+    },
+    {
+      "source": "g1-shoesColor-05-left.jpg",
+      "sha256": "d759e82313ff0f91b05e738b56414441a1a142d996fc78ccfc60a302ba413e89",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 5
+    },
+    {
+      "source": "g1-shoesColor-05-down.jpg",
+      "sha256": "e3a245c56311bd1a94ad980490d331bf7e96b4b08509db59ecab0e17ad4c6514",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 5
+    },
+    {
+      "source": "g1-shoesColor-05-right.jpg",
+      "sha256": "8c88356c626d48ee92650ced43b244391134f074e3984eae35e30124f984837a",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 5
+    }
+  ]
+}

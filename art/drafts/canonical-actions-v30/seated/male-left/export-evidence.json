@@ -1,0 +1,1224 @@
+{
+  "status": "draft",
+  "family": "seated",
+  "gender": "male",
+  "dir": "left",
+  "master": "art/drafts/canonical-actions-v30/seated/male-left/seated-four-master.png",
+  "masterSHA256": "7df10ab13dc8d0b62556341d82b4fb85754da54532ded985dea5e655a5df2d1f",
+  "rawMasterUnchanged": true,
+  "uniformFineScale": 0.17679558011049723,
+  "poses": [
+    {
+      "frame": 0,
+      "pose": "neutral",
+      "fine": "art/drafts/canonical-actions-v30/seated/male-left/neutral-fine.png",
+      "coarse": "art/drafts/canonical-actions-v30/seated/male-left/neutral.png",
+      "bodyFine": "art/drafts/canonical-actions-v30/seated/male-left/neutral-body-fine.png",
+      "head": {
+        "top": 6.5,
+        "bottom": 29.5,
+        "left": 14.5,
+        "right": 36.5,
+        "portraitChin": 34,
+        "eyeAnchor": [
+          18.5,
+          25
+        ],
+        "eyeLine": 25,
+        "neckAnchor": [
+          25,
+          31.5
+        ],
+        "facePolygon": [
+          [
+            16.5,
+            18
+          ],
+          [
+            24,
+            18
+          ],
+          [
+            25,
+            22.5
+          ],
+          [
+            27.5,
+            23.5
+          ],
+          [
+            28,
+            25
+          ],
+          [
+            29.5,
+            23.5
+          ],
+          [
+            30.5,
+            24
+          ],
+          [
+            30.5,
+            28
+          ],
+          [
+            28,
+            29.5
+          ],
+          [
+            25,
+            30.5
+          ],
+          [
+            23,
+            32.5
+          ],
+          [
+            20,
+            32
+          ],
+          [
+            17,
+            31
+          ],
+          [
+            15,
+            29
+          ],
+          [
+            13.5,
+            28
+          ],
+          [
+            14.5,
+            25.5
+          ],
+          [
+            15.5,
+            22.5
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            16,
+            9
+          ],
+          [
+            24,
+            6
+          ],
+          [
+            31,
+            7.5
+          ],
+          [
+            36.5,
+            12
+          ],
+          [
+            39,
+            19
+          ],
+          [
+            37,
+            24.5
+          ],
+          [
+            33.5,
+            27.5
+          ],
+          [
+            30,
+            29.5
+          ],
+          [
+            27.5,
+            29
+          ],
+          [
+            28,
+            25
+          ],
+          [
+            24.5,
+            24.5
+          ],
+          [
+            23.5,
+            18.5
+          ],
+          [
+            16.5,
+            18
+          ],
+          [
+            14,
+            16
+          ]
+        ]
+      },
+      "hand": [
+        18,
+        45.5
+      ],
+      "pelvis": [
+        30,
+        47.5
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceRoot": [
+        57,
+        97
+      ],
+      "sourceNeck": [
+        47,
+        65
+      ],
+      "sourceHand": [
+        33,
+        93
+      ],
+      "sourceIsolation": [
+        0,
+        0,
+        543,
+        760
+      ],
+      "nominalCellOrigin": [
+        0,
+        0
+      ],
+      "uniformFineScale": 0.17679558011049723,
+      "clippedSourcePixels": 0,
+      "authoredOutlineCleanup": [],
+      "integerTranslation": [
+        3,
+        -2
+      ],
+      "headTranslationFromCurrentC": [
+        9,
+        -1
+      ],
+      "canonicalDonor": "art/drafts/locomotion-v27/shared-head-style-proposal/male-left-native-run0-head-fine.png",
+      "canonicalDonorSHA256": "808c31b3f5e25b41a95be00ba614066ddc946dd5cc1802c382dbab3de8e9d022",
+      "runtimeAlphaThreshold": 127,
+      "removeHeadPolygon": [
+        [
+          10,
+          -9
+        ],
+        [
+          90,
+          -9
+        ],
+        [
+          90,
+          54
+        ],
+        [
+          81,
+          72
+        ],
+        [
+          66,
+          75
+        ],
+        [
+          57,
+          70
+        ],
+        [
+          43,
+          70
+        ],
+        [
+          34,
+          75
+        ],
+        [
+          18,
+          72
+        ],
+        [
+          10,
+          54
+        ]
+      ],
+      "neckPreservePolygon": [
+        [
+          46,
+          55
+        ],
+        [
+          59,
+          55
+        ],
+        [
+          59,
+          68
+        ],
+        [
+          46,
+          68
+        ]
+      ],
+      "actualSourceContourPoints": [],
+      "sourceNeckPreservedPixels": 169,
+      "foregroundPolygons": [
+        [
+          [
+            27,
+            82
+          ],
+          [
+            43,
+            82
+          ],
+          [
+            46,
+            88
+          ],
+          [
+            45,
+            98
+          ],
+          [
+            36,
+            101
+          ],
+          [
+            27,
+            96
+          ]
+        ]
+      ],
+      "removedSourceHeadPixels": 1696,
+      "grayClothPreservedPixels": 316,
+      "foregroundPixels": 221,
+      "donorPixels": 1892,
+      "headClippedPixels": 0,
+      "opaqueBounds": [
+        23,
+        14,
+        77,
+        125
+      ],
+      "edgeInk": 0,
+      "bodyBelowHeadUnchangedPixels": 4992,
+      "sha256": "9c2391a70325f4d58d1c456a41372a8a59b1ad093e21014f13569d795316eb77"
+    },
+    {
+      "frame": 1,
+      "pose": "hand-chest",
+      "fine": "art/drafts/canonical-actions-v30/seated/male-left/hand-chest-fine.png",
+      "coarse": "art/drafts/canonical-actions-v30/seated/male-left/hand-chest.png",
+      "bodyFine": "art/drafts/canonical-actions-v30/seated/male-left/hand-chest-body-fine.png",
+      "head": {
+        "top": 6.5,
+        "bottom": 29.5,
+        "left": 14.5,
+        "right": 36.5,
+        "portraitChin": 34,
+        "eyeAnchor": [
+          18.5,
+          25
+        ],
+        "eyeLine": 25,
+        "neckAnchor": [
+          25,
+          31.5
+        ],
+        "facePolygon": [
+          [
+            16.5,
+            18
+          ],
+          [
+            24,
+            18
+          ],
+          [
+            25,
+            22.5
+          ],
+          [
+            27.5,
+            23.5
+          ],
+          [
+            28,
+            25
+          ],
+          [
+            29.5,
+            23.5
+          ],
+          [
+            30.5,
+            24
+          ],
+          [
+            30.5,
+            28
+          ],
+          [
+            28,
+            29.5
+          ],
+          [
+            25,
+            30.5
+          ],
+          [
+            23,
+            32.5
+          ],
+          [
+            20,
+            32
+          ],
+          [
+            17,
+            31
+          ],
+          [
+            15,
+            29
+          ],
+          [
+            13.5,
+            28
+          ],
+          [
+            14.5,
+            25.5
+          ],
+          [
+            15.5,
+            22.5
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            16,
+            9
+          ],
+          [
+            24,
+            6
+          ],
+          [
+            31,
+            7.5
+          ],
+          [
+            36.5,
+            12
+          ],
+          [
+            39,
+            19
+          ],
+          [
+            37,
+            24.5
+          ],
+          [
+            33.5,
+            27.5
+          ],
+          [
+            30,
+            29.5
+          ],
+          [
+            27.5,
+            29
+          ],
+          [
+            28,
+            25
+          ],
+          [
+            24.5,
+            24.5
+          ],
+          [
+            23.5,
+            18.5
+          ],
+          [
+            16.5,
+            18
+          ],
+          [
+            14,
+            16
+          ]
+        ]
+      },
+      "hand": [
+        18.5,
+        37.5
+      ],
+      "pelvis": [
+        30,
+        47.5
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceRoot": [
+        50,
+        97
+      ],
+      "sourceNeck": [
+        40,
+        65
+      ],
+      "sourceHand": [
+        27,
+        77
+      ],
+      "sourceIsolation": [
+        543,
+        0,
+        1086,
+        760
+      ],
+      "nominalCellOrigin": [
+        543,
+        0
+      ],
+      "uniformFineScale": 0.17679558011049723,
+      "clippedSourcePixels": 0,
+      "authoredOutlineCleanup": [],
+      "integerTranslation": [
+        10,
+        -2
+      ],
+      "headTranslationFromCurrentC": [
+        9,
+        -1
+      ],
+      "canonicalDonor": "art/drafts/locomotion-v27/shared-head-style-proposal/male-left-native-run0-head-fine.png",
+      "canonicalDonorSHA256": "808c31b3f5e25b41a95be00ba614066ddc946dd5cc1802c382dbab3de8e9d022",
+      "runtimeAlphaThreshold": 127,
+      "removeHeadPolygon": [
+        [
+          10,
+          -9
+        ],
+        [
+          90,
+          -9
+        ],
+        [
+          90,
+          54
+        ],
+        [
+          81,
+          72
+        ],
+        [
+          66,
+          75
+        ],
+        [
+          57,
+          70
+        ],
+        [
+          43,
+          70
+        ],
+        [
+          34,
+          75
+        ],
+        [
+          18,
+          72
+        ],
+        [
+          10,
+          54
+        ]
+      ],
+      "neckPreservePolygon": [
+        [
+          46,
+          55
+        ],
+        [
+          59,
+          55
+        ],
+        [
+          59,
+          68
+        ],
+        [
+          46,
+          68
+        ]
+      ],
+      "actualSourceContourPoints": [],
+      "sourceNeckPreservedPixels": 169,
+      "foregroundPolygons": [
+        [
+          [
+            28,
+            66
+          ],
+          [
+            44,
+            66
+          ],
+          [
+            47,
+            72
+          ],
+          [
+            46,
+            82
+          ],
+          [
+            37,
+            85
+          ],
+          [
+            28,
+            80
+          ]
+        ]
+      ],
+      "removedSourceHeadPixels": 1673,
+      "grayClothPreservedPixels": 314,
+      "foregroundPixels": 218,
+      "donorPixels": 1892,
+      "headClippedPixels": 0,
+      "opaqueBounds": [
+        23,
+        14,
+        77,
+        125
+      ],
+      "edgeInk": 0,
+      "bodyBelowHeadUnchangedPixels": 4992,
+      "sha256": "a17ee8eb262dac5cea3c4f96a0166b1004c30de626d2238d78e493ce75fa79e7"
+    },
+    {
+      "frame": 2,
+      "pose": "hand-mouth",
+      "fine": "art/drafts/canonical-actions-v30/seated/male-left/hand-mouth-fine.png",
+      "coarse": "art/drafts/canonical-actions-v30/seated/male-left/hand-mouth.png",
+      "bodyFine": "art/drafts/canonical-actions-v30/seated/male-left/hand-mouth-body-fine.png",
+      "head": {
+        "top": 6.5,
+        "bottom": 29.5,
+        "left": 14.5,
+        "right": 36.5,
+        "portraitChin": 34,
+        "eyeAnchor": [
+          18.5,
+          25
+        ],
+        "eyeLine": 25,
+        "neckAnchor": [
+          25,
+          31.5
+        ],
+        "facePolygon": [
+          [
+            16.5,
+            18
+          ],
+          [
+            24,
+            18
+          ],
+          [
+            25,
+            22.5
+          ],
+          [
+            27.5,
+            23.5
+          ],
+          [
+            28,
+            25
+          ],
+          [
+            29.5,
+            23.5
+          ],
+          [
+            30.5,
+            24
+          ],
+          [
+            30.5,
+            28
+          ],
+          [
+            28,
+            29.5
+          ],
+          [
+            25,
+            30.5
+          ],
+          [
+            23,
+            32.5
+          ],
+          [
+            20,
+            32
+          ],
+          [
+            17,
+            31
+          ],
+          [
+            15,
+            29
+          ],
+          [
+            13.5,
+            28
+          ],
+          [
+            14.5,
+            25.5
+          ],
+          [
+            15.5,
+            22.5
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            16,
+            9
+          ],
+          [
+            24,
+            6
+          ],
+          [
+            31,
+            7.5
+          ],
+          [
+            36.5,
+            12
+          ],
+          [
+            39,
+            19
+          ],
+          [
+            37,
+            24.5
+          ],
+          [
+            33.5,
+            27.5
+          ],
+          [
+            30,
+            29.5
+          ],
+          [
+            27.5,
+            29
+          ],
+          [
+            28,
+            25
+          ],
+          [
+            24.5,
+            24.5
+          ],
+          [
+            23.5,
+            18.5
+          ],
+          [
+            16.5,
+            18
+          ],
+          [
+            14,
+            16
+          ]
+        ]
+      },
+      "hand": [
+        14.5,
+        33
+      ],
+      "pelvis": [
+        30,
+        47.5
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceRoot": [
+        57,
+        92
+      ],
+      "sourceNeck": [
+        47,
+        60
+      ],
+      "sourceHand": [
+        26,
+        63
+      ],
+      "sourceIsolation": [
+        0,
+        760,
+        500,
+        1448
+      ],
+      "nominalCellOrigin": [
+        0,
+        724
+      ],
+      "uniformFineScale": 0.17679558011049723,
+      "clippedSourcePixels": 0,
+      "authoredOutlineCleanup": [],
+      "integerTranslation": [
+        3,
+        3
+      ],
+      "headTranslationFromCurrentC": [
+        9,
+        -1
+      ],
+      "canonicalDonor": "art/drafts/locomotion-v27/shared-head-style-proposal/male-left-native-run0-head-fine.png",
+      "canonicalDonorSHA256": "808c31b3f5e25b41a95be00ba614066ddc946dd5cc1802c382dbab3de8e9d022",
+      "runtimeAlphaThreshold": 127,
+      "removeHeadPolygon": [
+        [
+          10,
+          -9
+        ],
+        [
+          90,
+          -9
+        ],
+        [
+          90,
+          54
+        ],
+        [
+          81,
+          72
+        ],
+        [
+          66,
+          75
+        ],
+        [
+          57,
+          70
+        ],
+        [
+          43,
+          70
+        ],
+        [
+          34,
+          75
+        ],
+        [
+          18,
+          72
+        ],
+        [
+          10,
+          54
+        ]
+      ],
+      "neckPreservePolygon": [
+        [
+          46,
+          55
+        ],
+        [
+          59,
+          55
+        ],
+        [
+          59,
+          68
+        ],
+        [
+          46,
+          68
+        ]
+      ],
+      "actualSourceContourPoints": [],
+      "sourceNeckPreservedPixels": 169,
+      "foregroundPolygons": [
+        [
+          [
+            23,
+            60
+          ],
+          [
+            33,
+            60
+          ],
+          [
+            36,
+            64
+          ],
+          [
+            35,
+            71
+          ],
+          [
+            29,
+            73
+          ],
+          [
+            23,
+            69
+          ]
+        ]
+      ],
+      "removedSourceHeadPixels": 1763,
+      "grayClothPreservedPixels": 435,
+      "foregroundPixels": 68,
+      "donorPixels": 1892,
+      "headClippedPixels": 0,
+      "opaqueBounds": [
+        23,
+        14,
+        77,
+        125
+      ],
+      "edgeInk": 0,
+      "bodyBelowHeadUnchangedPixels": 4992,
+      "sha256": "91c387234b46d57ad3dac84d506be45fd325d817f9fb3413ca654bc1271c4b01"
+    },
+    {
+      "frame": 3,
+      "pose": "reach",
+      "fine": "art/drafts/canonical-actions-v30/seated/male-left/reach-fine.png",
+      "coarse": "art/drafts/canonical-actions-v30/seated/male-left/reach.png",
+      "bodyFine": "art/drafts/canonical-actions-v30/seated/male-left/reach-body-fine.png",
+      "head": {
+        "top": 6.5,
+        "bottom": 29.5,
+        "left": 14.5,
+        "right": 36.5,
+        "portraitChin": 34,
+        "eyeAnchor": [
+          18.5,
+          25
+        ],
+        "eyeLine": 25,
+        "neckAnchor": [
+          25,
+          31.5
+        ],
+        "facePolygon": [
+          [
+            16.5,
+            18
+          ],
+          [
+            24,
+            18
+          ],
+          [
+            25,
+            22.5
+          ],
+          [
+            27.5,
+            23.5
+          ],
+          [
+            28,
+            25
+          ],
+          [
+            29.5,
+            23.5
+          ],
+          [
+            30.5,
+            24
+          ],
+          [
+            30.5,
+            28
+          ],
+          [
+            28,
+            29.5
+          ],
+          [
+            25,
+            30.5
+          ],
+          [
+            23,
+            32.5
+          ],
+          [
+            20,
+            32
+          ],
+          [
+            17,
+            31
+          ],
+          [
+            15,
+            29
+          ],
+          [
+            13.5,
+            28
+          ],
+          [
+            14.5,
+            25.5
+          ],
+          [
+            15.5,
+            22.5
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            16,
+            9
+          ],
+          [
+            24,
+            6
+          ],
+          [
+            31,
+            7.5
+          ],
+          [
+            36.5,
+            12
+          ],
+          [
+            39,
+            19
+          ],
+          [
+            37,
+            24.5
+          ],
+          [
+            33.5,
+            27.5
+          ],
+          [
+            30,
+            29.5
+          ],
+          [
+            27.5,
+            29
+          ],
+          [
+            28,
+            25
+          ],
+          [
+            24.5,
+            24.5
+          ],
+          [
+            23.5,
+            18.5
+          ],
+          [
+            16.5,
+            18
+          ],
+          [
+            14,
+            16
+          ]
+        ]
+      },
+      "hand": [
+        9,
+        34
+      ],
+      "pelvis": [
+        30,
+        47.5
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceRoot": [
+        50,
+        92
+      ],
+      "sourceNeck": [
+        40,
+        60
+      ],
+      "sourceHand": [
+        8,
+        65
+      ],
+      "sourceIsolation": [
+        500,
+        760,
+        1086,
+        1448
+      ],
+      "nominalCellOrigin": [
+        543,
+        724
+      ],
+      "uniformFineScale": 0.17679558011049723,
+      "clippedSourcePixels": 0,
+      "authoredOutlineCleanup": [],
+      "integerTranslation": [
+        10,
+        3
+      ],
+      "headTranslationFromCurrentC": [
+        9,
+        -1
+      ],
+      "canonicalDonor": "art/drafts/locomotion-v27/shared-head-style-proposal/male-left-native-run0-head-fine.png",
+      "canonicalDonorSHA256": "808c31b3f5e25b41a95be00ba614066ddc946dd5cc1802c382dbab3de8e9d022",
+      "runtimeAlphaThreshold": 127,
+      "removeHeadPolygon": [
+        [
+          10,
+          -9
+        ],
+        [
+          90,
+          -9
+        ],
+        [
+          90,
+          54
+        ],
+        [
+          81,
+          72
+        ],
+        [
+          66,
+          75
+        ],
+        [
+          57,
+          70
+        ],
+        [
+          43,
+          70
+        ],
+        [
+          34,
+          75
+        ],
+        [
+          18,
+          72
+        ],
+        [
+          10,
+          54
+        ]
+      ],
+      "neckPreservePolygon": [
+        [
+          46,
+          55
+        ],
+        [
+          59,
+          55
+        ],
+        [
+          59,
+          68
+        ],
+        [
+          46,
+          68
+        ]
+      ],
+      "actualSourceContourPoints": [],
+      "sourceNeckPreservedPixels": 169,
+      "foregroundPolygons": [
+        [
+          [
+            9,
+            59
+          ],
+          [
+            25,
+            59
+          ],
+          [
+            28,
+            65
+          ],
+          [
+            27,
+            75
+          ],
+          [
+            18,
+            78
+          ],
+          [
+            9,
+            73
+          ]
+        ]
+      ],
+      "removedSourceHeadPixels": 1694,
+      "grayClothPreservedPixels": 460,
+      "foregroundPixels": 217,
+      "donorPixels": 1892,
+      "headClippedPixels": 0,
+      "opaqueBounds": [
+        6,
+        14,
+        77,
+        125
+      ],
+      "edgeInk": 0,
+      "bodyBelowHeadUnchangedPixels": 4992,
+      "sha256": "8caafcc6d4153353e74b62e8b52d81e720c4ddd808d0e6586c5172264442734b"
+    }
+  ]
+}

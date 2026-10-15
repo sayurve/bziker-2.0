@@ -1,0 +1,134 @@
+[
+  {
+    "gender": 0,
+    "hairStyle": 0,
+    "hairColor": 6,
+    "skin": 3,
+    "shirtColor": 8,
+    "capture": "actual UI selection/save and 3 concurrent held-input screenshots per direction; first screenshot can precede keydown"
+  },
+  {
+    "gender": 0,
+    "hairStyle": 1,
+    "hairColor": 6,
+    "skin": 3,
+    "shirtColor": 8,
+    "capture": "actual UI selection/save and 3 concurrent held-input screenshots per direction; first screenshot can precede keydown"
+  },
+  {
+    "gender": 0,
+    "hairStyle": 2,
+    "hairColor": 6,
+    "skin": 3,
+    "shirtColor": 8,
+    "capture": "actual UI selection/save and 3 concurrent held-input screenshots per direction; first screenshot can precede keydown"
+  },
+  {
+    "gender": 0,
+    "hairStyle": 3,
+    "hairColor": 6,
+    "skin": 3,
+    "shirtColor": 8,
+    "capture": "actual UI selection/save and 3 concurrent held-input screenshots per direction; first screenshot can precede keydown"
+  },
+  {
+    "gender": 0,
+    "hairStyle": 4,
+    "hairColor": 6,
+    "skin": 3,
+    "shirtColor": 8,
+    "capture": "actual UI selection/save and 3 concurrent held-input screenshots per direction; first screenshot can precede keydown"
+  },
+  {
+    "gender": 0,
+    "hairStyle": 5,
+    "hairColor": 6,
+    "skin": 3,
+    "shirtColor": 8,
+    "capture": "actual UI selection/save and 3 concurrent held-input screenshots per direction; first screenshot can precede keydown"
+  },
+  {
+    "gender": 0,
+    "hairStyle": 6,
+    "hairColor": 6,
+    "skin": 3,
+    "shirtColor": 8,
+    "capture": "actual UI selection/save and 3 concurrent held-input screenshots per direction; first screenshot can precede keydown"
+  },
+  {
+    "gender": 0,
+    "hairStyle": 7,
+    "hairColor": 6,
+    "skin": 3,
+    "shirtColor": 8,
+    "capture": "actual UI selection/save and 3 concurrent held-input screenshots per direction; first screenshot can precede keydown"
+  },
+  {
+    "gender": 0,
+    "hairStyle": 8,
+    "hairColor": 6,
+    "skin": 3,
+    "shirtColor": 8,
+    "capture": "actual UI selection/save and 3 concurrent held-input screenshots per direction; first screenshot can precede keydown"
+  },
+  {
+    "gender": 0,
+    "hairStyle": 9,
+    "hairColor": 6,
+    "skin": 3,
+    "shirtColor": 8,
+    "capture": "actual UI selection/save and 3 concurrent held-input screenshots per direction; first screenshot can precede keydown"
+  },
+  {
+    "gender": 0,
+    "hairStyle": 10,
+    "hairColor": 6,
+    "skin": 3,
+    "shirtColor": 8,
+    "capture": "actual UI selection/save and 3 concurrent held-input screenshots per direction; first screenshot can precede keydown"
+  },
+  {
+    "gender": 0,
+    "hairStyle": 11,
+    "hairColor": 6,
+    "skin": 3,
+    "shirtColor": 8,
+    "capture": "actual UI selection/save and 3 concurrent held-input screenshots per direction; first screenshot can precede keydown"
+  },
+  {
+    "gender": 1,
+    "hairStyle": 0,
+    "hairColor": 6,
+    "skin": 3,
+    "shirtColor": 8,
+    "route": "Down then reverse Up on same clear path, then Left and reverse Right",
+    "capture": "actual UI selection/save and 3 concurrent held-input screenshots per direction; first screenshot can precede keydown"
+  },
+  {
+    "gender": 1,
+    "hairStyle": 1,
+    "hairColor": 6,
+    "skin": 3,
+    "shirtColor": 8,
+    "route": "Down then reverse Up on same clear path, then Left and reverse Right",
+    "capture": "actual UI selection/save and 3 concurrent held-input screenshots per direction; first screenshot can precede keydown"
+  },
+  {
+    "gender": 1,
+    "hairStyle": 2,
+    "hairColor": 6,
+    "skin": 3,
+    "shirtColor": 8,
+    "route": "Down then reverse Up on same clear path, then Left and reverse Right",
+    "capture": "actual UI selection/save and 3 concurrent held-input screenshots per direction; first screenshot can precede keydown"
+  },
+  {
+    "gender": 1,
+    "hairStyle": 3,
+    "hairColor": 6,
+    "skin": 3,
+    "shirtColor": 8,
+    "route": "Down then reverse Up on same clear path, then Left and reverse Right",
+    "capture": "actual UI selection/save and 3 concurrent held-input screenshots per direction; first screenshot can precede keydown"
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "status": "awaiting-visual-review",
+  "contact": "contact-g1-pantsColor-01.png",
+  "records": [
+    {
+      "source": "g1-pantsColor-06-up.jpg",
+      "sha256": "181e9a750998e042433e8b2cb0218f062f9ad501213fa9a8b35730435a11fa9b",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 6
+    },
+    {
+      "source": "g1-pantsColor-06-left.jpg",
+      "sha256": "6dc4be47fa1da489dff2a5ade4aa9b74585e7428f37e0ac89c6caa2bff027a82",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 6
+    },
+    {
+      "source": "g1-pantsColor-06-down.jpg",
+      "sha256": "f1dc549d9b5008fd13299ac1c483164d6dea4c3f56b1435b1fd9ed78ce4e22a6",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 6
+    },
+    {
+      "source": "g1-pantsColor-06-right.jpg",
+      "sha256": "ae94da8115d1141d6b1dc7305bbeb153deac22dae97f96481256ffa107da3f62",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 6
+    },
+    {
+      "source": "g1-pantsColor-07-up.jpg",
+      "sha256": "4bff4127527deb4af9df64ecbfaa83f50fa88ed3bc334bc41dc8898b468dd4c6",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 7
+    },
+    {
+      "source": "g1-pantsColor-07-left.jpg",
+      "sha256": "cd77c92bb765cf2e54ef779dbdedf4c5edd9ca266b84142685805a80c771ae34",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 7
+    },
+    {
+      "source": "g1-pantsColor-07-down.jpg",
+      "sha256": "b48c8d13790c2aab3fd73c2ff81aae9952a8f114b0d38fd26e9948bfdef8e6bb",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 7
+    },
+    {
+      "source": "g1-pantsColor-07-right.jpg",
+      "sha256": "4cbc48e241ac14f23a5914d2859f0e1cc8d9fe97f03388b4b9fe8155d2ff6798",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 7
+    }
+  ]
+}

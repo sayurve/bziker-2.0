@@ -1,0 +1,19 @@
+{
+  "scope": "Live database before restart compared after map migration, same-tab reload and keyboard/touch walking. active_accounts updated is a runtime heartbeat; full cloned startup separately checks all33 non-position tables.",
+  "target_map_sha256": "6edc5160487a5f1a26de9dcc7ea0e1f4f5b681d79d9fcda1cee17f2f1d7b29bb",
+  "map_version_after": 21,
+  "integrity_check": "ok",
+  "persistent_tables_checked": 32,
+  "persistent_rows_checked": 162,
+  "all_persistent_tables_unchanged": true,
+  "unexpected_changes": [],
+  "active_account_membership_matches_backup": true,
+  "runtime_tables": [
+    "active_accounts",
+    "presence",
+    "world_boats",
+    "world_metadata",
+    "world_positions"
+  ],
+  "privacy": "No row values, names, account IDs, credentials or messages disclosed."
+}

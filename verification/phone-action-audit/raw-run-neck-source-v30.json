@@ -1,0 +1,686 @@
+{
+  "scope": "Raw native PNG neckline contact only; no runtime customized rendering or art approval inferred",
+  "sourceStable": true,
+  "records": [
+    {
+      "gender": "male",
+      "dir": "down",
+      "pose": "idle",
+      "path": "game/assets/canonical-idle-v2/male-down-fine.png",
+      "sha256": "478a8d42240000771dbb1f9ab5a1d0f3dcee43f2ba91b3a13867a70021f7b5f3",
+      "neck": [
+        48,
+        65
+      ],
+      "crop": [
+        30,
+        55,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "down",
+      "pose": "run0",
+      "path": "game/assets/locomotion-v27/male-down-0-fine.png",
+      "sha256": "0c867393fee9b6663c11ac90ea3460157e4fd578a6b1852ded936b17619177d6",
+      "neck": [
+        48,
+        61
+      ],
+      "crop": [
+        30,
+        51,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "down",
+      "pose": "run1",
+      "path": "game/assets/locomotion-v27/male-down-1-fine.png",
+      "sha256": "12c0758954086c94416c3c3a7da3a67b514a153d7e898ed297e857bbb5b08ac2",
+      "neck": [
+        48,
+        61
+      ],
+      "crop": [
+        30,
+        51,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "down",
+      "pose": "run2",
+      "path": "game/assets/locomotion-v27/male-down-2-fine.png",
+      "sha256": "0276624b0a7877ff8529c9304554008aafa198ca9c38a21ec5ae8d7a092aef2d",
+      "neck": [
+        48,
+        61
+      ],
+      "crop": [
+        30,
+        51,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "down",
+      "pose": "run3",
+      "path": "game/assets/locomotion-v27/male-down-3-fine.png",
+      "sha256": "bc5e152b2121b42af09971f47d52c48ada00d295ed3a5b90442a8383519ce6e8",
+      "neck": [
+        48,
+        61
+      ],
+      "crop": [
+        30,
+        51,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "right",
+      "pose": "idle",
+      "path": "game/assets/canonical-idle-v2/male-right-fine.png",
+      "sha256": "9eee484ea8fd0f10833772726be630c1d1af73ce9a1c892bc6947283094759c3",
+      "neck": [
+        51,
+        63
+      ],
+      "crop": [
+        33,
+        53,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "right",
+      "pose": "run0",
+      "path": "game/assets/locomotion-v27/male-right-0-fine.png",
+      "sha256": "f0092be95db63f919e7648ee7c203c9e8bbdd29b962e80287ffd1423ee5b67e6",
+      "neck": [
+        55,
+        61
+      ],
+      "crop": [
+        37,
+        51,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "right",
+      "pose": "run1",
+      "path": "game/assets/locomotion-v27/male-right-1-fine.png",
+      "sha256": "8181f5d51becf23eea067648b96bbcd091af00adf6195c5acd8c548044c77227",
+      "neck": [
+        52,
+        60
+      ],
+      "crop": [
+        34,
+        50,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "right",
+      "pose": "run2",
+      "path": "game/assets/locomotion-v27/male-right-2-fine.png",
+      "sha256": "40370b26ba99bca63c102acbf220a6061357855159d71e4941f1af34017211fd",
+      "neck": [
+        55,
+        61
+      ],
+      "crop": [
+        37,
+        51,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "right",
+      "pose": "run3",
+      "path": "game/assets/locomotion-v27/male-right-3-fine.png",
+      "sha256": "42f0591a11fd4504f1b0e3ae3a7288703a344890c284f0e7e0c2df086a0026cf",
+      "neck": [
+        55,
+        60
+      ],
+      "crop": [
+        37,
+        50,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "up",
+      "pose": "idle",
+      "path": "game/assets/canonical-idle-v2/male-up-fine.png",
+      "sha256": "5fbddf29e28bcd7f5f56af45ee091fab4edfd813f43defc59395f0c4d6f1b1ba",
+      "neck": [
+        48,
+        61
+      ],
+      "crop": [
+        30,
+        51,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "up",
+      "pose": "run0",
+      "path": "game/assets/locomotion-v27/male-up-0-fine.png",
+      "sha256": "3fa536529800896232856452a7273049c75a67ee018323869af5d12545973fea",
+      "neck": [
+        48,
+        58
+      ],
+      "crop": [
+        30,
+        48,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "up",
+      "pose": "run1",
+      "path": "game/assets/locomotion-v27/male-up-1-fine.png",
+      "sha256": "6f0b78f7da840c2c3d5ced42789277ac27bd9c319423db8499d6d862d0c53c35",
+      "neck": [
+        48,
+        58
+      ],
+      "crop": [
+        30,
+        48,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "up",
+      "pose": "run2",
+      "path": "game/assets/locomotion-v27/male-up-2-fine.png",
+      "sha256": "ccc45141b1f05d65126b82da02f29823bf7e8b7d587008f2270b1cb214bf3959",
+      "neck": [
+        48,
+        58
+      ],
+      "crop": [
+        30,
+        48,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "up",
+      "pose": "run3",
+      "path": "game/assets/locomotion-v27/male-up-3-fine.png",
+      "sha256": "04e42e3911952ea4332cd7fd61d49f6fe79bcdc126ebeeec6a9e87c90174bb0e",
+      "neck": [
+        48,
+        58
+      ],
+      "crop": [
+        30,
+        48,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "left",
+      "pose": "idle",
+      "path": "game/assets/canonical-idle-v2/male-left-fine.png",
+      "sha256": "55bc69a685ddb506eca21576b633d8e881f5a5eeae770c739ff100d43266f73a",
+      "neck": [
+        41,
+        64
+      ],
+      "crop": [
+        23,
+        54,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "left",
+      "pose": "run0",
+      "path": "game/assets/locomotion-v27/male-left-0-fine.png",
+      "sha256": "36bd295e69a1cc46fcabfc5157f00f3d6c70b7c0f8189f953617c675151c57d7",
+      "neck": [
+        44,
+        63
+      ],
+      "crop": [
+        26,
+        53,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "left",
+      "pose": "run1",
+      "path": "game/assets/locomotion-v27/male-left-1-fine.png",
+      "sha256": "1fcf63c0047a3a89a5d91d22bac18f27851cc8d6f54b79451ab32f786d8ba94d",
+      "neck": [
+        40,
+        63
+      ],
+      "crop": [
+        22,
+        53,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "left",
+      "pose": "run2",
+      "path": "game/assets/locomotion-v27/male-left-2-fine.png",
+      "sha256": "a2192d6f51828d58b55eda80ab4df8850ae5feb11b3d050a50f091661630d632",
+      "neck": [
+        43,
+        63
+      ],
+      "crop": [
+        25,
+        53,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "male",
+      "dir": "left",
+      "pose": "run3",
+      "path": "game/assets/locomotion-v27/male-left-3-fine.png",
+      "sha256": "97f0ae1ec2912aa95ae7c289e33b07d7ebd31d222bde83f2b3780d980a9cf91c",
+      "neck": [
+        40,
+        63
+      ],
+      "crop": [
+        22,
+        53,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "down",
+      "pose": "idle",
+      "path": "game/assets/canonical-idle-v2/female-down-fine.png",
+      "sha256": "ce97ac5426d74daf57de01b7318a58b8c703a571307a321600e62f5cffda84c9",
+      "neck": [
+        48,
+        69
+      ],
+      "crop": [
+        30,
+        59,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "down",
+      "pose": "run0",
+      "path": "game/assets/locomotion-v27/female-down-0-fine.png",
+      "sha256": "a8128c72e0340823a888a9606c3c1e4e53909afa731bbf094b42d8ca11d76b3c",
+      "neck": [
+        48,
+        68
+      ],
+      "crop": [
+        30,
+        58,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "down",
+      "pose": "run1",
+      "path": "game/assets/locomotion-v27/female-down-1-fine.png",
+      "sha256": "5fda038f4fbdad41a97af907b51079d480ee6972a5ac32d77b7144e317e3b461",
+      "neck": [
+        48,
+        67
+      ],
+      "crop": [
+        30,
+        57,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "down",
+      "pose": "run2",
+      "path": "game/assets/locomotion-v27/female-down-2-fine.png",
+      "sha256": "4c0a72282c66fee83289df54e3c6a44a01e4981c849c9d2306ff1af6e2f387ed",
+      "neck": [
+        48,
+        67
+      ],
+      "crop": [
+        30,
+        57,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "down",
+      "pose": "run3",
+      "path": "game/assets/locomotion-v27/female-down-3-fine.png",
+      "sha256": "125918a96c577ebf035d85fb3c0460eaab1c22493d3c743933a97fb6083ae8e3",
+      "neck": [
+        48,
+        67
+      ],
+      "crop": [
+        30,
+        57,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "right",
+      "pose": "idle",
+      "path": "game/assets/canonical-idle-v2/female-right-fine.png",
+      "sha256": "65072cb617b67a35ad12bfebf51ada29d3aa0ff315ba3395ddd60177df2a678e",
+      "neck": [
+        51,
+        67
+      ],
+      "crop": [
+        33,
+        57,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "right",
+      "pose": "run0",
+      "path": "game/assets/locomotion-v27/female-right-0-fine.png",
+      "sha256": "278c555590b2625dcbf234109a044ba1b37227344408d7069928ee4c3c80fef0",
+      "neck": [
+        55,
+        64
+      ],
+      "crop": [
+        37,
+        54,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "right",
+      "pose": "run1",
+      "path": "game/assets/locomotion-v27/female-right-1-fine.png",
+      "sha256": "7eed75cb034e61ffa437192fe88d4f05394de44f1470374b58dc93c2e653a4bb",
+      "neck": [
+        52,
+        64
+      ],
+      "crop": [
+        34,
+        54,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "right",
+      "pose": "run2",
+      "path": "game/assets/locomotion-v27/female-right-2-fine.png",
+      "sha256": "6169a7852ec772826febf8298735ed4df46a6519f296d839ba00e0d4d3c57f5c",
+      "neck": [
+        55,
+        65
+      ],
+      "crop": [
+        37,
+        55,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "right",
+      "pose": "run3",
+      "path": "game/assets/locomotion-v27/female-right-3-fine.png",
+      "sha256": "71f1accc5e2a178b2e76f4454575c2d5c37108dce55a2f4043fa8b1163bbddc6",
+      "neck": [
+        54,
+        64
+      ],
+      "crop": [
+        36,
+        54,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "up",
+      "pose": "idle",
+      "path": "game/assets/canonical-idle-v2/female-up-fine.png",
+      "sha256": "0c070e07cc71a626ed41bc4207b5d5122989c434bbf1abc8f8259b2dcae1d99d",
+      "neck": [
+        48,
+        65
+      ],
+      "crop": [
+        30,
+        55,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "up",
+      "pose": "run0",
+      "path": "game/assets/locomotion-v27/female-up-0-fine.png",
+      "sha256": "d9d973256df625b5cccd0a8e959297bbfbd3665c23d6e6fbf43b9e9587bb48b5",
+      "neck": [
+        49,
+        64
+      ],
+      "crop": [
+        31,
+        54,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "up",
+      "pose": "run1",
+      "path": "game/assets/locomotion-v27/female-up-1-fine.png",
+      "sha256": "74ae538bffa0ec9f807c9dbcfcb003afc0bc659fe8f07936b804c78175cabd55",
+      "neck": [
+        47,
+        64
+      ],
+      "crop": [
+        29,
+        54,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "up",
+      "pose": "run2",
+      "path": "game/assets/locomotion-v27/female-up-2-fine.png",
+      "sha256": "3f13e28048866284da0afd6a86c304cd7b8e4ee40e154acf5126862364814cd6",
+      "neck": [
+        49,
+        64
+      ],
+      "crop": [
+        31,
+        54,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "up",
+      "pose": "run3",
+      "path": "game/assets/locomotion-v27/female-up-3-fine.png",
+      "sha256": "055391dba7a07713b8c0de021a8109cc63e17573caddb233d6dcd6a9b91310d9",
+      "neck": [
+        47,
+        64
+      ],
+      "crop": [
+        29,
+        54,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "left",
+      "pose": "idle",
+      "path": "game/assets/canonical-idle-v2/female-left-fine.png",
+      "sha256": "889b4780df2c230419b85674c3ee76a2f869b73a7eb5e5d870d5703807143d21",
+      "neck": [
+        41,
+        68
+      ],
+      "crop": [
+        23,
+        58,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "left",
+      "pose": "run0",
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "sha256": "ded3729167f5a2305f3202d889036ce63928fec8c6d44cfa34b816e5ebd9ac38",
+      "neck": [
+        44,
+        67
+      ],
+      "crop": [
+        26,
+        57,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "left",
+      "pose": "run1",
+      "path": "game/assets/locomotion-v27/female-left-1-fine.png",
+      "sha256": "0c85be8bd72319faca2cd3f2000d372ed6f00267ccb4c611f25e47aec7b89512",
+      "neck": [
+        41,
+        67
+      ],
+      "crop": [
+        23,
+        57,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "left",
+      "pose": "run2",
+      "path": "game/assets/locomotion-v27/female-left-2-fine.png",
+      "sha256": "20a55cca4245d6ff3fc251d8981d40e2351ccb63199fb13d7bac2e443405fbf6",
+      "neck": [
+        43,
+        67
+      ],
+      "crop": [
+        25,
+        57,
+        36,
+        22
+      ]
+    },
+    {
+      "gender": "female",
+      "dir": "left",
+      "pose": "run3",
+      "path": "game/assets/locomotion-v27/female-left-3-fine.png",
+      "sha256": "7c80546a5a34f1474d342e30ad1040c2c2d07d2843b6acee8244c635beff19d3",
+      "neck": [
+        41,
+        67
+      ],
+      "crop": [
+        23,
+        57,
+        36,
+        22
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "status": "technical mask correction freeze; legacy action art/body NOT approved",
+  "hashes": {
+    "game/web/actor-sprite.js": "b8e838a0d8de5260c1c72a7e0fbca7e014249a5ee91fd6ba00363fd00b5c1fa2",
+    "game/web/source-actors.js": "b388c9f51158986083e105221f7906da40586f2b4f416bcef14921bcffdd4500",
+    "game/web/canonical-actors-data.js": "1a5b8a8dd84fd7714c36a88858dd9147c0cbd53c105356d220988883daa25233",
+    "game/web/locomotion-actors-data.js": "8b8985bba1a668c2d8fdcbbe4563d3b41726f658883bdb7557771968d24cfe48",
+    "game/web/interaction-actors-data.js": "8bc40f8b80f8a2704e527e78a15d02608cc9b19f5d21f1ba59b66a4b786d6a29"
+  },
+  "tests": {
+    "targeted": 23,
+    "pass": 23,
+    "log": "targeted-green.log",
+    "initialMaskRedFailures": 6,
+    "initialMaskRedPass": 3,
+    "additionalScalpIntermediateRegression": "natural-scalp-red.log"
+  },
+  "matrix": {
+    "requests": 5544,
+    "rows": 3528,
+    "sourceClips": 123,
+    "stable": true,
+    "strictNeutralSourceAlphaCases": 0,
+    "raisedHandCandidates": 0,
+    "strandCandidatesByGarment": {
+      "tshirt": 0,
+      "hoodie": 0,
+      "shirt": 0,
+      "outfit1": 0,
+      "outfit2": 0,
+      "outfit3": 0,
+      "outfit4": 0,
+      "outfit5": 1764,
+      "outfit6": 0
+    }
+  },
+  "contacts": {
+    "renders": 2016,
+    "files": [
+      "all-actions-male-down.png",
+      "all-actions-male-right.png",
+      "all-actions-male-up.png",
+      "all-actions-male-left.png",
+      "all-actions-female-down.png",
+      "all-actions-female-right.png",
+      "all-actions-female-up.png",
+      "all-actions-female-left.png"
+    ],
+    "stable": true
+  },
+  "originalMask": "685e6d9a77feb1d746b689c3072b5373dbe33667d3d0108b6e0773bcc9100531",
+  "rootPantsBlockUnchanged": true
+}

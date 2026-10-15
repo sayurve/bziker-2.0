@@ -1,0 +1,9 @@
+# Приёмка true standing idle / shared native head v27
+
+Root просмотрел `standing-idle-shared-head-v2-v27.png` и одобрил ограниченную idle compatibility двух моделей во всех4 направлениях. Женские body — реальные image_gen EDIT соответствующих мужских idle masters, изменены только плечи/талия; source PNG и exact prompts/provenance сохранены root в `art/drafts/canonical-idle-v27/`. Мужские standing masters сохранены в `canonical-idle-v2`. Все позы действительно стоят: руки расслаблены вниз, обе стопы на земле; бег или walk0 не подставлены.
+
+Мужской body fine scale .10625, женский .100 — один uniform X/Y scale на модель. SourceRoot/neck вручную заданы по мастер-позам; female-left новый boot contact находится у rawy1229 вместо прежнего male1235. Масштаб не вычисляется по bounding box. Видимая высота male111/112/112/111 finepx и female107/108/108/107, то есть во всех ракурсах женщина на4px ниже. Все подошвы заканчиваются наy125 при общем ground126. Талия женского тела уже; её лицо/глаза не растягивались.
+
+Голова — тот же точный alpha male native run0 donor каждого направления, что и у новой locomotion compatibility обоих полов. Generated head удалён криволинейной alpha mask по реальной neck boundary, затем donor приложен integer translation; opaque RGBA головы сохраняются1:1. Body ниже collar, руки/ноги не сдвигались отдельно. Совпадение identity idle/run проверяется decoded actual PNG тестами. Art review не распространяется на ordinary legacy walk или другие unreviewed source actions, которые сохраняют свои существующие рисунки.
+
+Экспорт воспроизводим скриптом `verification/export-standing-shared-head-v27.mjs`, установка — `install-reviewed-standing-idle-v27.mjs`; source hashes/roots/neck/head delta/dimensions сохранены в `standing-idle-shared-head-v2/evidence.json` и sequence provenance generated module. Whole-pose compatibility и производные head/body alpha не означают полного editable master/готовности всего гардероба.

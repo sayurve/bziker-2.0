@@ -1,0 +1,86 @@
+{
+  "status": "draft",
+  "scope": "candidatefemaleheadonexactretainedbody",
+  "poses": [
+    {
+      "dir": "down",
+      "state": "idle",
+      "bodyFile": "art/drafts/locomotion-v27/standing-idle-shared-head-v2/female-down-body-fine.png",
+      "delta": [
+        0,
+        8
+      ],
+      "bodyChangesBelow80": 0
+    },
+    {
+      "dir": "down",
+      "state": "run",
+      "bodyFile": "art/drafts/locomotion-v27/female-frontback-shared-head/down-0-body.png",
+      "delta": [
+        0,
+        7
+      ],
+      "bodyChangesBelow80": 0
+    },
+    {
+      "dir": "right",
+      "state": "idle",
+      "bodyFile": "art/drafts/locomotion-v27/standing-idle-shared-head-v2/female-right-body-fine.png",
+      "delta": [
+        -4,
+        7
+      ],
+      "bodyChangesBelow80": 0
+    },
+    {
+      "dir": "right",
+      "state": "run",
+      "bodyFile": "art/drafts/locomotion-v27/female-right-v3/native-head-composition/phase-0-body-below-neck-fine.png",
+      "delta": [
+        0,
+        4
+      ],
+      "bodyChangesBelow80": 0
+    },
+    {
+      "dir": "up",
+      "state": "idle",
+      "bodyFile": "art/drafts/locomotion-v27/standing-idle-shared-head-v2/female-up-body-fine.png",
+      "delta": [
+        0,
+        7
+      ],
+      "bodyChangesBelow80": 0
+    },
+    {
+      "dir": "up",
+      "state": "run",
+      "bodyFile": "art/drafts/locomotion-v27/female-up-v2/phase-0-body-below-neck-fine.png",
+      "delta": [
+        1,
+        5
+      ],
+      "bodyChangesBelow80": 0
+    },
+    {
+      "dir": "left",
+      "state": "idle",
+      "bodyFile": "art/drafts/locomotion-v27/standing-idle-shared-head-v2/female-left-body-fine.png",
+      "delta": [
+        1,
+        7
+      ],
+      "bodyChangesBelow80": 0
+    },
+    {
+      "dir": "left",
+      "state": "run",
+      "bodyFile": "art/drafts/locomotion-v27/female-left-v3/native-head-composition/phase-0-body-below-neck-fine.png",
+      "delta": [
+        4,
+        6
+      ],
+      "bodyChangesBelow80": 0
+    }
+  ]
+}

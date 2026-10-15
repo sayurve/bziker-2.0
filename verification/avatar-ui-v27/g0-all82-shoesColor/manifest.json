@@ -1,0 +1,479 @@
+{
+  "createdAt": "2026-10-15T11:49:35.665Z",
+  "gender": 0,
+  "category": "shoesColor",
+  "source": "final",
+  "cases": 24,
+  "crop": {
+    "x": 535,
+    "y": 375,
+    "width": 135,
+    "height": 180
+  },
+  "qaOnly": true,
+  "productionArtChanged": false,
+  "realBrowserCaptures": true,
+  "renderedMockups": false,
+  "scale": 1.5,
+  "sheets": [
+    "page-1.png"
+  ],
+  "records": [
+    {
+      "value": 0,
+      "name": "Чёрная",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-00-down.jpg",
+      "sourceSha256": "ee52631706cf0a601c8bab0175dc5d6d7a5200744302c6fc87a417125e502eea",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-00-down-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Чёрная",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-00-left.jpg",
+      "sourceSha256": "be1ba36f06af649373f48b2f912a1c43edae85d27e56f1ee5fa3d972c51a950c",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-00-left-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Чёрная",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-00-up.jpg",
+      "sourceSha256": "15f2f6110db3893e88fef3ad4f6d1657da247f948677963feb1248ac1021ca04",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-00-up-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Чёрная",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-00-right.jpg",
+      "sourceSha256": "d50e98ea58a951a89f87cdff3af03c05e3861f01392a4dc822a622baa9bc2e7a",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-00-right-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Белая",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-01-down.jpg",
+      "sourceSha256": "9f5630ee8e461357dde2c534350b44f601ea56da041f76b0c7838b73a780ad3b",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-01-down-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Белая",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-01-left.jpg",
+      "sourceSha256": "6d42d528d53faf6baf79365ecc7fd2a33067fc3e8e7d28e72c4d8384a6c705a5",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-01-left-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Белая",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-01-up.jpg",
+      "sourceSha256": "715b544fa99c6804b1be4328f09664fd97e1c541a6e0b14ee41d5c006217646b",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-01-up-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Белая",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-01-right.jpg",
+      "sourceSha256": "02557adf3d8138bce872f9ea0a91a824617c2aeb15502948be85e1080cf5509d",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-01-right-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Коралловая",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-02-down.jpg",
+      "sourceSha256": "0e7c105996b5683cda45ec1ba84456a8dd441dc2a91acb8a0b162ec275b88f50",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-02-down-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Коралловая",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-02-left.jpg",
+      "sourceSha256": "01a95618fce9cc8d7df8103bd3fc3a6fc30b12e8521eba12dab1d3ad82416bd5",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-02-left-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Коралловая",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-02-up.jpg",
+      "sourceSha256": "5f4692dd1b5b6d74bfa8dfcf104e6ed9886bdacdc1247320a8b72893ef983203",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-02-up-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Коралловая",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-02-right.jpg",
+      "sourceSha256": "70ded6c7122570c1fe6fee33063c0cbc563b600859f5e855898838aa8ae6ee3a",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-02-right-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Синяя",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-03-down.jpg",
+      "sourceSha256": "e743b051e26e91bf59e829db6ec3f40be5b3657c3fa9fc378e231d1c77423bbc",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-03-down-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Синяя",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-03-left.jpg",
+      "sourceSha256": "805bc1863f4acd34a733e3bcb2bdb7dbd23d0ad864ab4b25a57a6cd0e583d5fc",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-03-left-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Синяя",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-03-up.jpg",
+      "sourceSha256": "1496b6f95592e50e0caa84988c4df19cd2b6095a7bc1005323c780f6499595ac",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-03-up-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Синяя",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-03-right.jpg",
+      "sourceSha256": "35932b2849f7348d60de75cd8bb9a26c9a0c595969bd7da8210a255189e50eb9",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-03-right-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Песочная",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-04-down.jpg",
+      "sourceSha256": "1ca5ec6ac432822059f1be45a1b16c6c55eba150290295dc6f41e5ed0e47285c",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-04-down-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Песочная",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-04-left.jpg",
+      "sourceSha256": "d30b2cb54143c6137a192b46a9a625b6978d48a0a6be2a1f18528653b5ed7269",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-04-left-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Песочная",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-04-up.jpg",
+      "sourceSha256": "8b888a65170461ca61147237fa3091938163da14a8db1c880e6b64ec20058c38",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-04-up-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Песочная",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-04-right.jpg",
+      "sourceSha256": "8294e10cb808d17c48005d6dcd9e85fdcc56345504378759b6b1b42297708427",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-04-right-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Сиреневая",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-05-down.jpg",
+      "sourceSha256": "d519a72f49f47743e6ab86419e8c2892725e49e020f8253d5047ee02c3155184",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-05-down-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Сиреневая",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-05-left.jpg",
+      "sourceSha256": "f811427769a754189896504bd2cfe5fb29c1b1556e0653984592cd532173f2e9",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-05-left-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Сиреневая",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-05-up.jpg",
+      "sourceSha256": "b34d3ea740657187c9c6643ed681e51303c7adf337fad455ce368c903099afab",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-05-up-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Сиреневая",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-shoesColor-05-right.jpg",
+      "sourceSha256": "1422fecd64065510acfc80a1cb8fe8bb7645c01c37c29301e1847c62fbc2dbdb",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shoesColor-05-right-crop.png"
+    }
+  ]
+}

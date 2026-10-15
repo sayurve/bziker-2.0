@@ -1,0 +1,63 @@
+{
+  "at": "2026-10-15T16:55:17.013772+00:00",
+  "scope": "ONE H7 actual game QA only",
+  "full": {
+    "checkedAt": "2026-10-15T16:51:37.520373+00:00",
+    "steps": [
+      {
+        "name": "tools-tests",
+        "exitCode": 0,
+        "log": "verification/tools-tests-latest.log"
+      },
+      {
+        "name": "game-python",
+        "exitCode": 0,
+        "log": "verification/game-python-latest.log"
+      },
+      {
+        "name": "game-node",
+        "exitCode": 0,
+        "log": "verification/game-node-latest.log"
+      }
+    ],
+    "passed": true,
+    "scope": "technical validation; not an artistic approval",
+    "skills": [
+      "bziker-build-game",
+      "bziker-character-pipeline",
+      "bziker-game-qa"
+    ],
+    "art": {
+      "approvedDefinitionFiles": 0,
+      "draftPngFiles": 1655,
+      "ready": false,
+      "note": "Artwork needs editable layered masters and visual approval; copied legacy-composite art is compatibility only."
+    }
+  },
+  "counts": {
+    "tools": 13,
+    "python": 353,
+    "node": 941,
+    "failed": 0,
+    "skipped": 0
+  },
+  "runtimeSHA": {
+    "world.js": "a94b566cde2bede8e931bfcbfd10886312d96f1bfb7cd9bd9cb96dde403a692b",
+    "source-actors.js": "a101e25573dd30747c40477e738ce5eb40857f7881cff9a7c48338f4795cb071",
+    "actor-sprite.js": "be8e935642374699951146083fbef4ec1ad690a7de8a06ae2153f34dc9b4271b",
+    "canonical-actors-data.js": "d24ca352e05bf07c32b21ffe6775a53be6feebe3c047b61069245fccfef3a7eb",
+    "locomotion-actors-data.js": "ca80688f968f0fa059d584e5eac3a6bd035bec515498e4d06bfbd6176a7e8b73",
+    "interaction-actors-data.js": "34a771f62dc4ad38f5efd79788dd681b2ffe1a79751f4d4ce27faa23657cffa6",
+    "avatar.js": "d95537f37d3e2e4404a233f5a4c3f5c555a90b6e7c8153323d53559f09220422",
+    "action-effects.js": "a0b50650eb50dc71e63ffd55ecd9f764045fed2689de546736d65bf95de3861b",
+    "source-city.js": "c62fab72533f4cde0492e4b23ac2d4b70e357ec4470d1c3dfde47f8b25199520",
+    "app.js": "f94b38c718279f8246571d3da51396298d967b58099d6053f56d72ee44186db8"
+  },
+  "economySHA": "83863aa8f5f923af58c83264350cdc75a907446686bf295de3dd30b7947f9e5d",
+  "proofScreenshots": [
+    "one-preset-game-proof.png",
+    "latest-game-one-preset.jpg",
+    "pickup-stance-ui-contact.png",
+    "pickup-stance-final-inventory.jpg"
+  ]
+}

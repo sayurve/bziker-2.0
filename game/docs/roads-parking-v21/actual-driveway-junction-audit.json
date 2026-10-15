@@ -1,0 +1,364 @@
+{
+  "map_sha256": "6edc5160487a5f1a26de9dcc7ea0e1f4f5b681d79d9fcda1cee17f2f1d7b29bb",
+  "schema_version": 21,
+  "production_changed": false,
+  "method": "Independent segment-to-polygon distances against full authored driveway capsules; targeted proposed zebra centres at the nearest allowed interval boundary on each connected main segment.",
+  "current_crossing_count": 0,
+  "current_lane_marking_count": 200,
+  "entries": [
+    {
+      "id": "driveway-parking-shared-1",
+      "main_road_id": "north-link",
+      "main_segment_id": "north-link:1",
+      "junction_count": 1,
+      "junction_id": "junction-2098.915663-1000",
+      "junction_center": [
+        2098.915662650655,
+        1000
+      ],
+      "authored_endpoint": [
+        2098.915662650655,
+        862
+      ],
+      "endpoint_distance_to_main_center": 138,
+      "driveway_width": 128,
+      "main_width": 280,
+      "sidewalk_width": 60,
+      "current_dash_collisions": [],
+      "minimum_current_main_dash_distance_along": 313.9156626506551,
+      "dash_exclusion_reach": 246,
+      "targeted_zebra_exclusion_intervals": [
+        [
+          271,
+          478.9156626506551
+        ]
+      ],
+      "nearest_proposed_zebras": [
+        {
+          "center": [
+            1903.9156626506551,
+            1000
+          ],
+          "along": 478.9156626506551,
+          "distance_from_junction_along": 195,
+          "stripe_clearance_from_driveway_asphalt": 76.05713120009278,
+          "landing_clearance_from_driveway_asphalt": 76,
+          "landing_clearance_from_driveway_with_8px_shoulder": 68
+        }
+      ]
+    },
+    {
+      "id": "driveway-parking-shared-2",
+      "main_road_id": "south-avenue",
+      "main_segment_id": "south-avenue:0",
+      "junction_count": 1,
+      "junction_id": "junction-1202.367318-4334.598259",
+      "junction_center": [
+        1202.367317780786,
+        4334.598258872127
+      ],
+      "authored_endpoint": [
+        1249.5021143486206,
+        4204.897407091929
+      ],
+      "endpoint_distance_to_main_center": 138,
+      "driveway_width": 128,
+      "main_width": 280,
+      "sidewalk_width": 60,
+      "current_dash_collisions": [],
+      "minimum_current_main_dash_distance_along": 286.8725444687864,
+      "dash_exclusion_reach": 246,
+      "targeted_zebra_exclusion_intervals": [
+        [
+          740.9152929814015,
+          1048.1274555312136
+        ],
+        [
+          1438.1274555312136,
+          1513.5845830623082
+        ],
+        [
+          2055.5845830623084,
+          3225.0614284383605
+        ]
+      ],
+      "nearest_proposed_zebras": [
+        {
+          "center": [
+            1019.0943750478973,
+            4267.994741982796
+          ],
+          "along": 1048.1274555312136,
+          "distance_from_junction_along": 195,
+          "stripe_clearance_from_driveway_asphalt": 76.03272733986029,
+          "landing_clearance_from_driveway_asphalt": 74.85237469385763,
+          "landing_clearance_from_driveway_with_8px_shoulder": 66.85237469385763
+        },
+        {
+          "center": [
+            1385.6402605136736,
+            4401.2017757614585
+          ],
+          "along": 1438.1274555312136,
+          "distance_from_junction_along": 195,
+          "stripe_clearance_from_driveway_asphalt": 76.05713120009221,
+          "landing_clearance_from_driveway_asphalt": 76.36322608073965,
+          "landing_clearance_from_driveway_with_8px_shoulder": 68.36322608073965
+        },
+        {
+          "center": [
+            1965.9642849958275,
+            4612.098269207383
+          ],
+          "along": 2055.5845830623084,
+          "distance_from_junction_along": 812.4571275310948,
+          "stripe_clearance_from_driveway_asphalt": 693.4676891113284,
+          "landing_clearance_from_driveway_asphalt": 693.5369958276996,
+          "landing_clearance_from_driveway_with_8px_shoulder": 685.5369958276996
+        }
+      ]
+    },
+    {
+      "id": "driveway-parking-shared-3",
+      "main_road_id": "east-boulevard",
+      "main_segment_id": "east-boulevard:0",
+      "junction_count": 1,
+      "junction_id": "junction-6403.778658-712.973125",
+      "junction_center": [
+        6403.778658035039,
+        712.9731254498395
+      ],
+      "authored_endpoint": [
+        6536.353385377867,
+        751.2868523629826
+      ],
+      "endpoint_distance_to_main_center": 138.00000000000017,
+      "driveway_width": 128,
+      "main_width": 280,
+      "sidewalk_width": 60,
+      "current_dash_collisions": [],
+      "minimum_current_main_dash_distance_along": 303.24168195510197,
+      "dash_exclusion_reach": 246,
+      "targeted_zebra_exclusion_intervals": [
+        [
+          218,
+          511.75831804489803
+        ],
+        [
+          901.758318044898,
+          1276.7645299511225
+        ]
+      ],
+      "nearest_proposed_zebras": [
+        {
+          "center": [
+            6457.917619977525,
+            525.6392715958436
+          ],
+          "along": 511.75831804489803,
+          "distance_from_junction_along": 195,
+          "stripe_clearance_from_driveway_asphalt": 65.37552286003535,
+          "landing_clearance_from_driveway_asphalt": 55.14401862655936,
+          "landing_clearance_from_driveway_with_8px_shoulder": 47.14401862655936
+        },
+        {
+          "center": [
+            6349.639696092555,
+            900.3069793038349
+          ],
+          "along": 901.758318044898,
+          "distance_from_junction_along": 195,
+          "stripe_clearance_from_driveway_asphalt": 76.05713120009256,
+          "landing_clearance_from_driveway_asphalt": 76.43147795277216,
+          "landing_clearance_from_driveway_with_8px_shoulder": 68.43147795277216
+        }
+      ]
+    },
+    {
+      "id": "driveway-parking-shared-4",
+      "main_road_id": "avenue",
+      "main_segment_id": "avenue:0",
+      "junction_count": 1,
+      "junction_id": "junction-1935.565793-2099.664037",
+      "junction_center": [
+        1935.5657928497121,
+        2099.664037190839
+      ],
+      "authored_endpoint": [
+        1974.8490959277397,
+        1967.37336443089
+      ],
+      "endpoint_distance_to_main_center": 138.00000000000014,
+      "driveway_width": 128,
+      "main_width": 280,
+      "sidewalk_width": 60,
+      "current_dash_collisions": [],
+      "minimum_current_main_dash_distance_along": 323.6325111856811,
+      "dash_exclusion_reach": 246,
+      "targeted_zebra_exclusion_intervals": [
+        [
+          370.52537014064495,
+          967.1373670716287
+        ],
+        [
+          1509.1373670716287,
+          1788.632511185681
+        ],
+        [
+          2178.6325111856813,
+          2276.1894474959195
+        ]
+      ],
+      "nearest_proposed_zebras": [
+        {
+          "center": [
+            961.1250213129799,
+            1810.3068862953642
+          ],
+          "along": 967.1373670716287,
+          "distance_from_junction_along": 1016.4951441140524,
+          "stripe_clearance_from_driveway_asphalt": 893.5665561321364,
+          "landing_clearance_from_driveway_asphalt": 887.6423939088986,
+          "landing_clearance_from_driveway_with_8px_shoulder": 879.6423939088986
+        },
+        {
+          "center": [
+            1748.6333204715236,
+            2044.155021971887
+          ],
+          "along": 1788.632511185681,
+          "distance_from_junction_along": 195,
+          "stripe_clearance_from_driveway_asphalt": 75.99862064081702,
+          "landing_clearance_from_driveway_asphalt": 74.56265891700713,
+          "landing_clearance_from_driveway_with_8px_shoulder": 66.56265891700713
+        },
+        {
+          "center": [
+            2122.498265227901,
+            2155.1730524097907
+          ],
+          "along": 2178.6325111856813,
+          "distance_from_junction_along": 195.00000000000023,
+          "stripe_clearance_from_driveway_asphalt": 76.05713120009256,
+          "landing_clearance_from_driveway_asphalt": 76.40068992348418,
+          "landing_clearance_from_driveway_with_8px_shoulder": 68.40068992348418
+        }
+      ]
+    },
+    {
+      "id": "driveway-parking-shared-5",
+      "main_road_id": "south-avenue",
+      "main_segment_id": "south-avenue:0",
+      "junction_count": 1,
+      "junction_id": "junction-3270-5086",
+      "junction_center": [
+        3270,
+        5086
+      ],
+      "authored_endpoint": [
+        3317.1347965678347,
+        4956.299148219802
+      ],
+      "endpoint_distance_to_main_center": 138,
+      "driveway_width": 128,
+      "main_width": 280,
+      "sidewalk_width": 60,
+      "current_dash_collisions": [],
+      "minimum_current_main_dash_distance_along": 353.0614284383596,
+      "dash_exclusion_reach": 246,
+      "targeted_zebra_exclusion_intervals": [
+        [
+          740.9152929814015,
+          1048.1274555312136
+        ],
+        [
+          1438.1274555312136,
+          1513.5845830623082
+        ],
+        [
+          2055.5845830623084,
+          3225.0614284383605
+        ]
+      ],
+      "nearest_proposed_zebras": [
+        {
+          "center": [
+            1019.0943750478973,
+            4267.994741982796
+          ],
+          "along": 1048.1274555312136,
+          "distance_from_junction_along": 2394.933972907146,
+          "stripe_clearance_from_driveway_asphalt": 2275.9373918045385,
+          "landing_clearance_from_driveway_asphalt": 2275.959828194711,
+          "landing_clearance_from_driveway_with_8px_shoulder": 2267.959828194711
+        },
+        {
+          "center": [
+            1456.5594903228764,
+            4426.974647904729
+          ],
+          "along": 1513.5845830623082,
+          "distance_from_junction_along": 1929.4768453760514,
+          "stripe_clearance_from_driveway_asphalt": 1810.4811132286602,
+          "landing_clearance_from_driveway_asphalt": 1810.5091207702767,
+          "landing_clearance_from_driveway_with_8px_shoulder": 1802.5091207702767
+        },
+        {
+          "center": [
+            3065.1102486370787,
+            5011.540683682696
+          ],
+          "along": 3225.0614284383605,
+          "distance_from_junction_along": 217.9999999999991,
+          "stripe_clearance_from_driveway_asphalt": 99.04907236780008,
+          "landing_clearance_from_driveway_asphalt": 99.37074401495553,
+          "landing_clearance_from_driveway_with_8px_shoulder": 91.37074401495553
+        }
+      ]
+    },
+    {
+      "id": "driveway-parking-shared-6",
+      "main_road_id": "east-boulevard",
+      "main_segment_id": "east-boulevard:1",
+      "junction_count": 1,
+      "junction_id": "junction-6895-1950",
+      "junction_center": [
+        6895,
+        1950
+      ],
+      "authored_endpoint": [
+        6972.290198685201,
+        1835.6749144448072
+      ],
+      "endpoint_distance_to_main_center": 138.0000000000001,
+      "driveway_width": 128,
+      "main_width": 280,
+      "sidewalk_width": 60,
+      "current_dash_collisions": [],
+      "minimum_current_main_dash_distance_along": 367.02975444263325,
+      "dash_exclusion_reach": 246,
+      "targeted_zebra_exclusion_intervals": [
+        [
+          218,
+          639.029754442633
+        ]
+      ],
+      "nearest_proposed_zebras": [
+        {
+          "center": [
+            6714.399502528753,
+            1827.9038890335232
+          ],
+          "along": 639.029754442633,
+          "distance_from_junction_along": 218.00000000000023,
+          "stripe_clearance_from_driveway_asphalt": 99.04907236780002,
+          "landing_clearance_from_driveway_asphalt": 99.3707440149557,
+          "landing_clearance_from_driveway_with_8px_shoulder": 91.3707440149557
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "driveway_count": 6,
+  "pass": true
+}

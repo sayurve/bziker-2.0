@@ -1,0 +1,666 @@
+[
+  {
+    "stage": "before",
+    "id": "profile",
+    "floor": [
+      1149.6802980000002,
+      500
+    ],
+    "actorHeight": 80,
+    "seats": 0,
+    "BFS": {
+      "bodyRadius": 14,
+      "step": 4,
+      "visitedGridPoints": 27870,
+      "targets": [
+        {
+          "id": "service",
+          "point": {
+            "id": "profile",
+            "label": "Каталог персонажа",
+            "prop_id": "service",
+            "x": 498.4030415,
+            "y": 400,
+            "radius": 110
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 772
+        },
+        {
+          "id": "exit",
+          "point": {
+            "x": 925.5,
+            "y": 775
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 20
+        }
+      ],
+      "allTargetsReachable": true
+    },
+    "solidOverlaps": []
+  },
+  {
+    "stage": "before",
+    "id": "shop-food",
+    "floor": [
+      1030.8079480000001,
+      500
+    ],
+    "actorHeight": 80,
+    "seats": 0,
+    "BFS": {
+      "bodyRadius": 14,
+      "step": 4,
+      "visitedGridPoints": 22266,
+      "targets": [
+        {
+          "id": "service",
+          "point": {
+            "id": "shop-food",
+            "label": "Продуктовый магазин",
+            "prop_id": "service",
+            "x": 450.3392165,
+            "y": 381,
+            "radius": 110
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 732
+        },
+        {
+          "id": "exit",
+          "point": {
+            "x": 838.0,
+            "y": 756
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 20
+        }
+      ],
+      "allTargetsReachable": true
+    },
+    "solidOverlaps": []
+  },
+  {
+    "stage": "before",
+    "id": "shop-clothes",
+    "floor": [
+      1149.6802980000002,
+      500
+    ],
+    "actorHeight": 80,
+    "seats": 0,
+    "BFS": {
+      "bodyRadius": 14,
+      "step": 4,
+      "visitedGridPoints": 27870,
+      "targets": [
+        {
+          "id": "service",
+          "point": {
+            "id": "shop-clothes",
+            "label": "Магазин одежды",
+            "prop_id": "service",
+            "x": 498.4030415,
+            "y": 400,
+            "radius": 110
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 772
+        },
+        {
+          "id": "exit",
+          "point": {
+            "x": 925.5,
+            "y": 775
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 20
+        }
+      ],
+      "allTargetsReachable": true
+    },
+    "solidOverlaps": []
+  },
+  {
+    "stage": "before",
+    "id": "shop-furniture",
+    "floor": [
+      1035.7979799999998,
+      500
+    ],
+    "actorHeight": 80,
+    "seats": 3,
+    "BFS": {
+      "bodyRadius": 14,
+      "step": 4,
+      "visitedGridPoints": 24759,
+      "targets": [
+        {
+          "id": "service",
+          "point": {
+            "id": "shop-furniture",
+            "label": "Магазин мебели",
+            "prop_id": "service",
+            "x": 443.231445,
+            "y": 382,
+            "radius": 110
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 744
+        },
+        {
+          "id": "exit",
+          "point": {
+            "x": 842.0,
+            "y": 757
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 20
+        },
+        {
+          "id": "interior:shop-furniture:showroom-1:seat-1",
+          "point": {
+            "x": 411.79331774999997,
+            "y": 563
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 592
+        },
+        {
+          "id": "interior:shop-furniture:showroom-1:seat-2",
+          "point": {
+            "x": 507.17793324999997,
+            "y": 563
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 496
+        },
+        {
+          "id": "interior:shop-furniture:showroom-5",
+          "point": {
+            "x": 1210.668629,
+            "y": 713
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 380
+        }
+      ],
+      "allTargetsReachable": true
+    },
+    "solidOverlaps": []
+  },
+  {
+    "stage": "after-integrated",
+    "id": "profile",
+    "floor": [
+      689.808178,
+      260
+    ],
+    "actorHeight": 80,
+    "seats": 3,
+    "BFS": {
+      "authority": "world.valid_position",
+      "bodyRadius": 14,
+      "step": 4,
+      "visitedGridPoints": 6262,
+      "targets": [
+        {
+          "id": "service",
+          "point": {
+            "id": "profile",
+            "label": "Каталог персонажа",
+            "prop_id": "service",
+            "x": 347.3256405,
+            "y": 378,
+            "radius": 110
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 348
+        },
+        {
+          "id": "exit",
+          "point": {
+            "x": 587.5,
+            "y": 518
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 20
+        },
+        {
+          "id": "interior:profile:waiting-sofa:seat-1",
+          "point": {
+            "x": 364.39078283333333,
+            "y": 509
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 232
+        },
+        {
+          "id": "interior:profile:waiting-sofa:seat-2",
+          "point": {
+            "x": 427.9805265,
+            "y": 509
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 168
+        },
+        {
+          "id": "interior:profile:waiting-sofa:seat-3",
+          "point": {
+            "x": 491.57027016666666,
+            "y": 509
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 104
+        },
+        {
+          "id": "fitting-1",
+          "point": {
+            "prop_id": "fitting-1",
+            "x": 827.494295,
+            "y": 394
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 332
+        },
+        {
+          "id": "mirror",
+          "point": {
+            "prop_id": "mirror",
+            "x": 873.5851915,
+            "y": 481
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 292
+        },
+        {
+          "id": "consultation-archive",
+          "point": {
+            "prop_id": "consultation-archive",
+            "x": 603.2176469999999,
+            "y": 369
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 132
+        }
+      ],
+      "allTargetsReachable": true
+    },
+    "solidOverlaps": [],
+    "currentMapSha256": "0e4da5e3d9ea54fa8039eddfa0ff99983a55da99da94baa216849f7231314547",
+    "physicalGeometryUnchangedSinceBfs": true
+  },
+  {
+    "stage": "after-integrated",
+    "id": "shop-clothes",
+    "floor": [
+      843.098884,
+      340
+    ],
+    "actorHeight": 80,
+    "seats": 0,
+    "BFS": {
+      "authority": "world.valid_position",
+      "bodyRadius": 14,
+      "step": 4,
+      "visitedGridPoints": 11030,
+      "targets": [
+        {
+          "id": "service",
+          "point": {
+            "id": "shop-clothes",
+            "label": "Магазин одежды",
+            "prop_id": "service",
+            "x": 403.217095,
+            "y": 413,
+            "radius": 110
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 484
+        },
+        {
+          "id": "exit",
+          "point": {
+            "x": 700.0,
+            "y": 633
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 20
+        },
+        {
+          "id": "fitting-1",
+          "point": {
+            "prop_id": "fitting-1",
+            "x": 916.639648,
+            "y": 424
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 392
+        },
+        {
+          "id": "fitting-2",
+          "point": {
+            "prop_id": "fitting-2",
+            "x": 1041.639648,
+            "y": 424
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 520
+        },
+        {
+          "id": "rail-1",
+          "point": {
+            "prop_id": "rail-1",
+            "x": 381.7333865,
+            "y": 592
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 328
+        },
+        {
+          "id": "rail-2",
+          "point": {
+            "prop_id": "rail-2",
+            "x": 566.7333865,
+            "y": 592
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 144
+        },
+        {
+          "id": "shoe-shelf-1",
+          "point": {
+            "prop_id": "shoe-shelf-1",
+            "x": 819.0,
+            "y": 601
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 120
+        },
+        {
+          "id": "shoe-shelf-2",
+          "point": {
+            "prop_id": "shoe-shelf-2",
+            "x": 954.0,
+            "y": 601
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 256
+        },
+        {
+          "id": "mirror",
+          "point": {
+            "prop_id": "mirror",
+            "x": 1072.7305445,
+            "y": 511
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 464
+        }
+      ],
+      "allTargetsReachable": true
+    },
+    "solidOverlaps": [],
+    "currentMapSha256": "0e4da5e3d9ea54fa8039eddfa0ff99983a55da99da94baa216849f7231314547",
+    "physicalGeometryUnchangedSinceBfs": true
+  },
+  {
+    "stage": "after-integrated",
+    "id": "shop-food",
+    "floor": [
+      755.9258279999999,
+      340
+    ],
+    "actorHeight": 80,
+    "seats": 0,
+    "BFS": {
+      "authority": "world.valid_position",
+      "bodyRadius": 14,
+      "step": 4,
+      "visitedGridPoints": 10023,
+      "targets": [
+        {
+          "id": "service",
+          "point": {
+            "id": "shop-food",
+            "label": "Продуктовый магазин",
+            "prop_id": "service",
+            "x": 367.16752099999997,
+            "y": 335,
+            "radius": 110
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 456
+        },
+        {
+          "id": "exit",
+          "point": {
+            "x": 636.0,
+            "y": 555
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 20
+        },
+        {
+          "id": "food-row-1-left",
+          "point": {
+            "prop_id": "food-row-1-left",
+            "x": 490.13043500000003,
+            "y": 448
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 220
+        },
+        {
+          "id": "food-row-1-right",
+          "point": {
+            "prop_id": "food-row-1-right",
+            "x": 780.130435,
+            "y": 448
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 220
+        },
+        {
+          "id": "food-row-2-left",
+          "point": {
+            "prop_id": "food-row-2-left",
+            "x": 490.13043500000003,
+            "y": 558
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 168
+        },
+        {
+          "id": "food-row-2-right",
+          "point": {
+            "prop_id": "food-row-2-right",
+            "x": 780.130435,
+            "y": 558
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 164
+        }
+      ],
+      "allTargetsReachable": true
+    },
+    "solidOverlaps": [],
+    "currentMapSha256": "0e4da5e3d9ea54fa8039eddfa0ff99983a55da99da94baa216849f7231314547",
+    "physicalGeometryUnchangedSinceBfs": true
+  },
+  {
+    "stage": "after-integrated",
+    "id": "shop-furniture",
+    "floor": [
+      828.6383839999999,
+      380
+    ],
+    "actorHeight": 80,
+    "seats": 5,
+    "BFS": {
+      "authority": "world.valid_position",
+      "bodyRadius": 14,
+      "step": 4,
+      "visitedGridPoints": 12718,
+      "targets": [
+        {
+          "id": "service",
+          "point": {
+            "id": "shop-furniture",
+            "label": "Магазин мебели",
+            "prop_id": "service",
+            "x": 384.311243,
+            "y": 346,
+            "radius": 110
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 532
+        },
+        {
+          "id": "exit",
+          "point": {
+            "x": 689.5,
+            "y": 606
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 20
+        },
+        {
+          "id": "interior:shop-furniture:showroom-sofa:seat-1",
+          "point": {
+            "x": 470.29487183333333,
+            "y": 512
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 280
+        },
+        {
+          "id": "interior:shop-furniture:showroom-sofa:seat-2",
+          "point": {
+            "x": 533.8846155,
+            "y": 512
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 216
+        },
+        {
+          "id": "interior:shop-furniture:showroom-sofa:seat-3",
+          "point": {
+            "x": 597.4743591666667,
+            "y": 512
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 156
+        },
+        {
+          "id": "interior:shop-furniture:dining-chair-north",
+          "point": {
+            "x": 826.0014165,
+            "y": 340
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 372
+        },
+        {
+          "id": "interior:shop-furniture:dining-chair-south",
+          "point": {
+            "x": 827.2027025,
+            "y": 594
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 144
+        },
+        {
+          "id": "showroom-desk",
+          "point": {
+            "prop_id": "showroom-desk",
+            "x": 954.5739090000001,
+            "y": 352
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 488
+        },
+        {
+          "id": "showroom-bookcase",
+          "point": {
+            "prop_id": "showroom-bookcase",
+            "x": 783.5657894999999,
+            "y": 337
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 332
+        },
+        {
+          "id": "showroom-coffee-table",
+          "point": {
+            "prop_id": "showroom-coffee-table",
+            "x": 563.5485435,
+            "y": 602
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 140
+        },
+        {
+          "id": "showroom-dining-table",
+          "point": {
+            "prop_id": "showroom-dining-table",
+            "x": 756.5,
+            "y": 468
+          },
+          "valid": true,
+          "reachable": true,
+          "gridPathLength": 172
+        }
+      ],
+      "allTargetsReachable": true
+    },
+    "solidOverlaps": [],
+    "currentMapSha256": "0e4da5e3d9ea54fa8039eddfa0ff99983a55da99da94baa216849f7231314547",
+    "physicalGeometryUnchangedSinceBfs": true
+  }
+]

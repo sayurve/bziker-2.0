@@ -1,0 +1,269 @@
+{
+  "scope": "pure current camera geometry with side cutaways; no browser viewport assertion",
+  "out": [
+    {
+      "room": "clans",
+      "canvas": [
+        1204,
+        650
+      ],
+      "spawn": {
+        "x": 762.5,
+        "y": 656
+      },
+      "roofY": 87,
+      "fixtureTop": 127.44,
+      "view": {
+        "scale": 1,
+        "width": 1204,
+        "height": 650,
+        "x": 160,
+        "y": 209
+      },
+      "roofCroppedWorldUnits": 122,
+      "fixtureCroppedWorldUnits": 81.56
+    },
+    {
+      "room": "clans",
+      "canvas": [
+        1204,
+        800
+      ],
+      "spawn": {
+        "x": 762.5,
+        "y": 656
+      },
+      "roofY": 87,
+      "fixtureTop": 127.44,
+      "view": {
+        "scale": 2,
+        "width": 602,
+        "height": 400,
+        "x": 461.5,
+        "y": 402
+      },
+      "roofCroppedWorldUnits": 315,
+      "fixtureCroppedWorldUnits": 274.56
+    },
+    {
+      "room": "clans",
+      "canvas": [
+        390,
+        600
+      ],
+      "spawn": {
+        "x": 762.5,
+        "y": 656
+      },
+      "roofY": 87,
+      "fixtureTop": 127.44,
+      "view": {
+        "scale": 1,
+        "width": 390,
+        "height": 600,
+        "x": 568,
+        "y": 259
+      },
+      "roofCroppedWorldUnits": 172,
+      "fixtureCroppedWorldUnits": 131.56
+    },
+    {
+      "room": "arena",
+      "canvas": [
+        1204,
+        650
+      ],
+      "spawn": {
+        "x": 861,
+        "y": 1043
+      },
+      "roofY": 574,
+      "fixtureTop": 578,
+      "view": {
+        "scale": 1,
+        "width": 1204,
+        "height": 650,
+        "x": 259,
+        "y": 596
+      },
+      "roofCroppedWorldUnits": 22,
+      "fixtureCroppedWorldUnits": 18
+    },
+    {
+      "room": "arena",
+      "canvas": [
+        1204,
+        800
+      ],
+      "spawn": {
+        "x": 861,
+        "y": 1043
+      },
+      "roofY": 574,
+      "fixtureTop": 578,
+      "view": {
+        "scale": 2,
+        "width": 602,
+        "height": 400,
+        "x": 560,
+        "y": 789
+      },
+      "roofCroppedWorldUnits": 215,
+      "fixtureCroppedWorldUnits": 211
+    },
+    {
+      "room": "arena",
+      "canvas": [
+        390,
+        600
+      ],
+      "spawn": {
+        "x": 861,
+        "y": 1043
+      },
+      "roofY": 574,
+      "fixtureTop": 578,
+      "view": {
+        "scale": 1,
+        "width": 390,
+        "height": 600,
+        "x": 666,
+        "y": 646
+      },
+      "roofCroppedWorldUnits": 72,
+      "fixtureCroppedWorldUnits": 68
+    },
+    {
+      "room": "results",
+      "canvas": [
+        1204,
+        650
+      ],
+      "spawn": {
+        "x": 767.5,
+        "y": 913
+      },
+      "roofY": 504,
+      "fixtureTop": 508,
+      "view": {
+        "scale": 1,
+        "width": 1204,
+        "height": 650,
+        "x": 165,
+        "y": 473
+      },
+      "roofCroppedWorldUnits": 0,
+      "fixtureCroppedWorldUnits": 0
+    },
+    {
+      "room": "results",
+      "canvas": [
+        1204,
+        800
+      ],
+      "spawn": {
+        "x": 767.5,
+        "y": 913
+      },
+      "roofY": 504,
+      "fixtureTop": 508,
+      "view": {
+        "scale": 2,
+        "width": 602,
+        "height": 400,
+        "x": 466.5,
+        "y": 659
+      },
+      "roofCroppedWorldUnits": 155,
+      "fixtureCroppedWorldUnits": 151
+    },
+    {
+      "room": "results",
+      "canvas": [
+        390,
+        600
+      ],
+      "spawn": {
+        "x": 767.5,
+        "y": 913
+      },
+      "roofY": 504,
+      "fixtureTop": 508,
+      "view": {
+        "scale": 1,
+        "width": 390,
+        "height": 600,
+        "x": 573,
+        "y": 516
+      },
+      "roofCroppedWorldUnits": 12,
+      "fixtureCroppedWorldUnits": 8
+    },
+    {
+      "room": "terrace",
+      "canvas": [
+        1204,
+        650
+      ],
+      "spawn": {
+        "x": 749,
+        "y": 732
+      },
+      "roofY": 163,
+      "fixtureTop": 203.44,
+      "view": {
+        "scale": 1,
+        "width": 1204,
+        "height": 650,
+        "x": 147,
+        "y": 285
+      },
+      "roofCroppedWorldUnits": 122,
+      "fixtureCroppedWorldUnits": 81.56
+    },
+    {
+      "room": "terrace",
+      "canvas": [
+        1204,
+        800
+      ],
+      "spawn": {
+        "x": 749,
+        "y": 732
+      },
+      "roofY": 163,
+      "fixtureTop": 203.44,
+      "view": {
+        "scale": 2,
+        "width": 602,
+        "height": 400,
+        "x": 448,
+        "y": 478
+      },
+      "roofCroppedWorldUnits": 315,
+      "fixtureCroppedWorldUnits": 274.56
+    },
+    {
+      "room": "terrace",
+      "canvas": [
+        390,
+        600
+      ],
+      "spawn": {
+        "x": 749,
+        "y": 732
+      },
+      "roofY": 163,
+      "fixtureTop": 203.44,
+      "view": {
+        "scale": 1,
+        "width": 390,
+        "height": 600,
+        "x": 554,
+        "y": 335
+      },
+      "roofCroppedWorldUnits": 172,
+      "fixtureCroppedWorldUnits": 131.56
+    }
+  ]
+}

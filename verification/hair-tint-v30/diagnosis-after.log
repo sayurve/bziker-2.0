@@ -1,0 +1,90 @@
+[
+  {
+    gender: 0,
+    dir: 'down',
+    skin: 0,
+    res: 160,
+    first: [ [Array], [Array] ]
+  },
+  {
+    gender: 0,
+    dir: 'down',
+    skin: 3,
+    res: 82,
+    first: [ [Array], [Array] ]
+  },
+  {
+    gender: 0,
+    dir: 'right',
+    skin: 0,
+    res: 158,
+    first: [ [Array], [Array] ]
+  },
+  {
+    gender: 0,
+    dir: 'right',
+    skin: 3,
+    res: 114,
+    first: [ [Array], [Array] ]
+  },
+  { gender: 0, dir: 'up', skin: 0, res: 0, first: [] },
+  { gender: 0, dir: 'up', skin: 3, res: 0, first: [] },
+  {
+    gender: 0,
+    dir: 'left',
+    skin: 0,
+    res: 127,
+    first: [ [Array], [Array] ]
+  },
+  {
+    gender: 0,
+    dir: 'left',
+    skin: 3,
+    res: 75,
+    first: [ [Array], [Array] ]
+  },
+  {
+    gender: 1,
+    dir: 'down',
+    skin: 0,
+    res: 82,
+    first: [ [Array], [Array] ]
+  },
+  {
+    gender: 1,
+    dir: 'down',
+    skin: 3,
+    res: 74,
+    first: [ [Array], [Array] ]
+  },
+  {
+    gender: 1,
+    dir: 'right',
+    skin: 0,
+    res: 30,
+    first: [ [Array], [Array] ]
+  },
+  {
+    gender: 1,
+    dir: 'right',
+    skin: 3,
+    res: 22,
+    first: [ [Array], [Array] ]
+  },
+  { gender: 1, dir: 'up', skin: 0, res: 0, first: [] },
+  { gender: 1, dir: 'up', skin: 3, res: 0, first: [] },
+  {
+    gender: 1,
+    dir: 'left',
+    skin: 0,
+    res: 52,
+    first: [ [Array], [Array] ]
+  },
+  {
+    gender: 1,
+    dir: 'left',
+    skin: 3,
+    res: 45,
+    first: [ [Array], [Array] ]
+  }
+]

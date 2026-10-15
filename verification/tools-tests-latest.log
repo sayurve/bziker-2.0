@@ -1,0 +1,18 @@
+test_copied_hardlink_is_rejected (test_materials.MaterialsTests.test_copied_hardlink_is_rejected) ... ok
+test_dest_inside_source_is_rejected (test_materials.MaterialsTests.test_dest_inside_source_is_rejected) ... ok
+test_existing_content_is_never_overwritten (test_materials.MaterialsTests.test_existing_content_is_never_overwritten) ... ok
+test_extra_copied_file_is_reported (test_materials.MaterialsTests.test_extra_copied_file_is_reported) ... ok
+test_extra_draft_file_is_reported (test_materials.MaterialsTests.test_extra_draft_file_is_reported) ... ok
+test_import_and_full_hash_verification (test_materials.MaterialsTests.test_import_and_full_hash_verification) ... ok
+test_manifest_traversal_is_rejected (test_materials.MaterialsTests.test_manifest_traversal_is_rejected) ... ok
+test_source_change_is_reported (test_materials.MaterialsTests.test_source_change_is_reported) ... ok
+test_standalone_verification_without_original (test_materials.MaterialsTests.test_standalone_verification_without_original) ... ok
+test_symlink_is_rejected_before_copy (test_materials.MaterialsTests.test_symlink_is_rejected_before_copy) ... ok
+test_launcher_resolves_new_project_not_original (test_project_tools.ProjectToolTests.test_launcher_resolves_new_project_not_original) ... ok
+test_skills_install_is_idempotent_and_never_overwrites_other_skill (test_project_tools.ProjectToolTests.test_skills_install_is_idempotent_and_never_overwrites_other_skill) ... ok
+test_skills_metadata_is_present_and_scoped (test_project_tools.ProjectToolTests.test_skills_metadata_is_present_and_scoped) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 1.289s
+
+OK

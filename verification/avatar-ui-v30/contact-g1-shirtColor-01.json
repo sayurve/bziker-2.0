@@ -1,0 +1,294 @@
+{
+  "status": "awaiting-visual-review",
+  "contact": "contact-g1-shirtColor-01.png",
+  "records": [
+    {
+      "source": "g1-shirtColor-06-up.jpg",
+      "sha256": "e6be6619fb3b22488924da6ac141dd9a335d640476a56e0c53255e47e6568de8",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 6
+    },
+    {
+      "source": "g1-shirtColor-06-left.jpg",
+      "sha256": "5854b2a3fce993bfa0832ceb1cb60600d2ae848ba447612d4769015f98eae3ad",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 6
+    },
+    {
+      "source": "g1-shirtColor-06-down.jpg",
+      "sha256": "b2cb4a8570ebfe748a50a6bb522e298913871eaf52d1f4a237396d8b228aa132",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 6
+    },
+    {
+      "source": "g1-shirtColor-06-right.jpg",
+      "sha256": "63e9992dee799e350e425518648dc73a1157dd63ff36f93a0cfa0bb7f32f82da",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 6
+    },
+    {
+      "source": "g1-shirtColor-07-up.jpg",
+      "sha256": "803ccdb9294dd1f74f5753705c94056abb087c26061816165e31a593a8b412e6",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 7
+    },
+    {
+      "source": "g1-shirtColor-07-left.jpg",
+      "sha256": "c748844e0546f436962f7aff6a21ba9fbb5b0b42bcad39db16c5939be6479ca1",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 7
+    },
+    {
+      "source": "g1-shirtColor-07-down.jpg",
+      "sha256": "595822efc5b9a44eeee05e140836fe444978229d62fcab4bbce45e586d815610",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 7
+    },
+    {
+      "source": "g1-shirtColor-07-right.jpg",
+      "sha256": "af72950fac06c0a113f94d93c63627212f16ab3f46bec6105f6d7c4835469b8b",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 7
+    },
+    {
+      "source": "g1-shirtColor-08-up.jpg",
+      "sha256": "19d8fa6afd92a3ee3e00cf28565892dfee3e4aea8cd0717b6d2268641f433435",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 8
+    },
+    {
+      "source": "g1-shirtColor-08-left.jpg",
+      "sha256": "d9e03712f9e408b01fa95cbc3318912f336ff622fa41b7b52aed03a3edcb0a56",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 8
+    },
+    {
+      "source": "g1-shirtColor-08-down.jpg",
+      "sha256": "e83d7d854f87ff7e8b484ae7e1fafd4d6f92be9a32fc463055071c6a28e1693d",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 8
+    },
+    {
+      "source": "g1-shirtColor-08-right.jpg",
+      "sha256": "8cddf280b79b90116b3c7667284ffc588f333a82f46e533edd71a54ba6cc84ca",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 8
+    },
+    {
+      "source": "g1-shirtColor-09-up.jpg",
+      "sha256": "9bb67d67fa0f8e5cc8dd8c1c09ae66aee8ed267298ace9767908b37a0124464b",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 9
+    },
+    {
+      "source": "g1-shirtColor-09-left.jpg",
+      "sha256": "f13d1ab1566a2b90bd3fd7d520e065d472e811458655614884a25a8409048d57",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 9
+    },
+    {
+      "source": "g1-shirtColor-09-down.jpg",
+      "sha256": "d5abaa5ba7e5ecdf696525a864714f3e8ef974e75e49c8aa5b2a5328dab847e4",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 9
+    },
+    {
+      "source": "g1-shirtColor-09-right.jpg",
+      "sha256": "a9b04cbcd37b35cc18966c0a5412d6c60ffdd0d137365b905096cc0f5d3cd73a",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 9
+    },
+    {
+      "source": "g1-shirtColor-10-up.jpg",
+      "sha256": "c61b02728481881fdbeafe29ee7467e4ab88bf5d942317c124ed01dc10480ab0",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 10
+    },
+    {
+      "source": "g1-shirtColor-10-left.jpg",
+      "sha256": "ca03aba99eaa941d4aa97bc7c1d8c56d6b0993fc1846b52cc6cbd5151e4d817a",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 10
+    },
+    {
+      "source": "g1-shirtColor-10-down.jpg",
+      "sha256": "fae2b7bfa6c2479cab566eb0da30d3aa54f0031a18affd117270a9342aceb63b",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 10
+    },
+    {
+      "source": "g1-shirtColor-10-right.jpg",
+      "sha256": "94dfdc2ae980e68569cab953a89188aca7010341f4ee234254f5be36b263261a",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 10
+    },
+    {
+      "source": "g1-shirtColor-11-up.jpg",
+      "sha256": "b0bb1651c89c53bb9d432f6e5e60fae663fc60c2f1c51d635f560ca358407fe8",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 11
+    },
+    {
+      "source": "g1-shirtColor-11-left.jpg",
+      "sha256": "ae48d9c3ce54116096bc2c59085573031f13eeb5758762c7f88d8f0823efb479",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 11
+    },
+    {
+      "source": "g1-shirtColor-11-down.jpg",
+      "sha256": "c781676f782bc1e87bbba97e48526c56d58ebab01bc02af4ef2d044d504d4530",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 11
+    },
+    {
+      "source": "g1-shirtColor-11-right.jpg",
+      "sha256": "ab041245055076344a50a0f67e94f0de8e678d1bdfe9176d2e42ec59b9478b9f",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 11
+    }
+  ]
+}

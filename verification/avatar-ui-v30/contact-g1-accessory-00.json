@@ -1,0 +1,294 @@
+{
+  "status": "awaiting-visual-review",
+  "contact": "contact-g1-accessory-00.png",
+  "records": [
+    {
+      "source": "g1-accessory-00-up.jpg",
+      "sha256": "94ce6be1e467875fd2a4ff37e28c36bec962fa87512da9112a01f123cee7abc6",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 0
+    },
+    {
+      "source": "g1-accessory-00-left.jpg",
+      "sha256": "813a1fc8e4675584aea46ffb1a6a43c568f78c8330f9c084117dc2670c86ec5f",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 0
+    },
+    {
+      "source": "g1-accessory-00-down.jpg",
+      "sha256": "45a518b7e092ef222eacbf537a12fad565f043f1c1934da25e492e46bd9dda38",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 0
+    },
+    {
+      "source": "g1-accessory-00-right.jpg",
+      "sha256": "e569d6b9a85a84d837f83046a75b557186811c0d517f7eb4a9e17bec58d40db4",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 0
+    },
+    {
+      "source": "g1-accessory-01-up.jpg",
+      "sha256": "02df17f9b3d441e0ca04b46fb2e686049899a0f70f5a738a6ed830174ba05a15",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 1
+    },
+    {
+      "source": "g1-accessory-01-left.jpg",
+      "sha256": "3bbdb394972b2945c246e71452b2cdbb524a4809096a5e009e816444ef556804",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 1
+    },
+    {
+      "source": "g1-accessory-01-down.jpg",
+      "sha256": "beec388366b3bb9f8f6eb0c35d166aacd46d067b1b4e2af887f6d1bbd1c11278",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 1
+    },
+    {
+      "source": "g1-accessory-01-right.jpg",
+      "sha256": "edb99afc9a230e7ad60d765dc554b34ec7119c6420c96967f8c2d762fcd43d33",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 1
+    },
+    {
+      "source": "g1-accessory-02-up.jpg",
+      "sha256": "da36e6437c90f242ed54f541bf3fe41a57a7da9adae4375c5270833d9d6d5e10",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 2
+    },
+    {
+      "source": "g1-accessory-02-left.jpg",
+      "sha256": "6d0bff9a995e09ea891e5598c728c781927b1b7db651601f809e7ff1af10432f",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 2
+    },
+    {
+      "source": "g1-accessory-02-down.jpg",
+      "sha256": "f080711d9ebd3d980e7d66ecebcedd1ffcd8efcf67a8cbe55b58a4fd18a5ab8a",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 2
+    },
+    {
+      "source": "g1-accessory-02-right.jpg",
+      "sha256": "32fbf11c0a7b7e4e36d79094ed1a839d1cc8e5325a9aea1d8d359d3ffe0b08a5",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 2
+    },
+    {
+      "source": "g1-accessory-03-up.jpg",
+      "sha256": "ae4fd14bd70bd5b412990246b4760e9eed8fc4b6e2da1d2fb65cfeefcbe2714e",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 3
+    },
+    {
+      "source": "g1-accessory-03-left.jpg",
+      "sha256": "c64e5d890de667a00f45d1cca4c8acea1d3b88e07fe85043c2fec63c67193590",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 3
+    },
+    {
+      "source": "g1-accessory-03-down.jpg",
+      "sha256": "138c5aebc9a5d4fecf6a298989bcc6f841bf3eb0972458eba22aac63dccb5cd3",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 3
+    },
+    {
+      "source": "g1-accessory-03-right.jpg",
+      "sha256": "fb1c636afb8e4d6589fe010dd07774d5cb5a1d96d84909140500481a7c2e5567",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 3
+    },
+    {
+      "source": "g1-accessory-04-up.jpg",
+      "sha256": "6642285af164932fef40032df17ffbf39d87285bfd7dbad3702a0494d5012e87",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 4
+    },
+    {
+      "source": "g1-accessory-04-left.jpg",
+      "sha256": "d93c926d9494bd3430d7801f08cbd9a205e5595447060311af317fe695d90599",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 4
+    },
+    {
+      "source": "g1-accessory-04-down.jpg",
+      "sha256": "6b292de30133d6e2cb5729ea31ca2b5e13d9afcd3e490e1484acb076dfc5e3aa",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 4
+    },
+    {
+      "source": "g1-accessory-04-right.jpg",
+      "sha256": "cf7756753b612db6c489018c297037d6d5946c35716818b4f286a1421fc18de8",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 4
+    },
+    {
+      "source": "g1-accessory-05-up.jpg",
+      "sha256": "213a855a964382f8dbf9df96bcbb37258b461b85b65fba460fa134e8b8f3bead",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 5
+    },
+    {
+      "source": "g1-accessory-05-left.jpg",
+      "sha256": "434418819129ecb9caae1efa8dd812253f815104076af89fe774390e15f78686",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 5
+    },
+    {
+      "source": "g1-accessory-05-down.jpg",
+      "sha256": "b6bedc25ad304aaf5d59c5fd314feaf583ce0271ff2a10bb6fe322d979651fc4",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 5
+    },
+    {
+      "source": "g1-accessory-05-right.jpg",
+      "sha256": "693366e27a54040719315c50adddecebf7cd065154f982e5dff375336501d82c",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 5
+    }
+  ]
+}

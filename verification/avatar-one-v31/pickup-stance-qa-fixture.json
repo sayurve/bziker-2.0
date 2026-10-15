@@ -1,0 +1,13 @@
+{
+  "purpose": "Reset one disposable QA daily receipt to replay actual gameplay pickup after proper approach repair. No inventory/action state created. Original/live database untouched.",
+  "database": "/tmp/bziker-locations-v26-qa.sqlite3",
+  "before": [
+    [
+      "Bl-qtHytVcLiMoFsdLHrrZKiaBIMX1Oh",
+      "litter-park-1",
+      "2026-10-15"
+    ]
+  ],
+  "removedRows": 1,
+  "at": "2026-10-15T16:47:07.124400+00:00"
+}

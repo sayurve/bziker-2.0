@@ -1,0 +1,22 @@
+{
+  "status": "draft",
+  "tool": "built-in image_gen",
+  "sourceOutput": "/Users/sapp/.codex/generated_images/01a13c9a-ae7d-7bc2-83f6-88b8b5a5e67b/exec-53738f52-17a3-4d51-952b-f6ac169c500b.png",
+  "masterPath": "art/drafts/canonical-actions-v30/seated/male-left/seated-four-master.png",
+  "actualSize": [
+    1086,
+    1448
+  ],
+  "rawMasterUnchanged": true,
+  "masterSHA256": "7df10ab13dc8d0b62556341d82b4fb85754da54532ded985dea5e655a5df2d1f",
+  "uniformFineScale": 0.17679558011049723,
+  "exportEvidence": "art/drafts/canonical-actions-v30/seated/male-left/export-evidence.json",
+  "promptPath": "art/drafts/canonical-actions-v30/seated/male-left/prompt.txt",
+  "reviewReceipt": "verification/canonical-seated-water-review-v30.json",
+  "poses": [
+    "neutral",
+    "hand-chest",
+    "hand-mouth",
+    "reach"
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "createdAt": "2026-10-15T11:49:35.522Z",
+  "gender": 0,
+  "category": "shirtStyle",
+  "source": "final",
+  "cases": 16,
+  "crop": {
+    "x": 535,
+    "y": 375,
+    "width": 135,
+    "height": 180
+  },
+  "qaOnly": true,
+  "productionArtChanged": false,
+  "realBrowserCaptures": true,
+  "renderedMockups": false,
+  "scale": 1.5,
+  "sheets": [
+    "page-1.png"
+  ],
+  "records": [
+    {
+      "value": 0,
+      "name": "Футболка",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-shirtStyle-00-down.jpg",
+      "sourceSha256": "c561736075dc92f7263992bf7e489c6098f307962e21af7de5dea26a0e73aa2b",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-00-down-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Футболка",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-shirtStyle-00-left.jpg",
+      "sourceSha256": "83625555678f619afa5c9868236f70813817fe4d65e52df3bb7917d18f50375b",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-00-left-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Футболка",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-shirtStyle-00-up.jpg",
+      "sourceSha256": "bc898ab6ec1ed3368da50f4b75148be09b233c116e6d8eac72473ef8ecbd86ad",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-00-up-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Футболка",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-shirtStyle-00-right.jpg",
+      "sourceSha256": "b48ad81647ea544b43101b66173d327fa25dfaf2b8a89e30993bdd4ea64ae653",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-00-right-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Худи",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-shirtStyle-01-down.jpg",
+      "sourceSha256": "182d836baf41c46ce90ebdebd507f1cd2bca88dbc5fe847e6d478c02faa6e303",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-01-down-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Худи",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-shirtStyle-01-left.jpg",
+      "sourceSha256": "e1e4ffbb412ded50a5577b550a7033df85895259ba2697ca2a1860822f2f0036",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-01-left-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Худи",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-shirtStyle-01-up.jpg",
+      "sourceSha256": "bed980831e758a61495c6e4ca72d41ebfabca47b678c32688b024cc9632fed0c",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-01-up-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Худи",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-shirtStyle-01-right.jpg",
+      "sourceSha256": "2f8aa29623f750482fd092e6b247a5544c559c490bb5c499e0c67ec0c51bde22",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-01-right-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Куртка",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-shirtStyle-02-down.jpg",
+      "sourceSha256": "f32c9d87495a027716fbbeaae652932ee837ec2b837f9cd3edbb89c1744bbf2e",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-02-down-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Куртка",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-shirtStyle-02-left.jpg",
+      "sourceSha256": "6146ade7f5d123d4a1b2b741c14ddbe8786754ce4deffb8de73fff5d7472225f",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-02-left-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Куртка",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-shirtStyle-02-up.jpg",
+      "sourceSha256": "910083c404d17bc89eed1d1a85f591c04d2ed3c36c96d938433bede35cad6078",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-02-up-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Куртка",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-shirtStyle-02-right.jpg",
+      "sourceSha256": "b987c28848a46988456f1665ae87bf72aac78a277b21ce8eaccf8666713edb46",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-02-right-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Рубашка",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-shirtStyle-03-down.jpg",
+      "sourceSha256": "d1adb7057a91df56131a860c46f51dc2c612b8c5bd7871d9e9360d6523acfca6",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-03-down-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Рубашка",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-shirtStyle-03-left.jpg",
+      "sourceSha256": "3d32b9605ade9f8157f43f36dadc30e2e2f14286fc450beda0bedfff3cd0fc38",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-03-left-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Рубашка",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-shirtStyle-03-up.jpg",
+      "sourceSha256": "549e3c2b2a66d02d1e46ccfedaac212f09ae689a0c876b5912ee195f255df683",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-03-up-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Рубашка",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-shirtStyle-03-right.jpg",
+      "sourceSha256": "7a2d3e8ff1fcb94045e047db4c4cad99e566c8939c75a76e9b5e26c78679d83c",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-shirtStyle-03-right-crop.png"
+    }
+  ]
+}

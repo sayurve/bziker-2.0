@@ -1,0 +1,1347 @@
+[
+  {
+    "actorId": "human-male",
+    "family": "lowerReach",
+    "dir": "down",
+    "index": 1,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-lower-male-down-1.png",
+    "target": "game/assets/interaction-v29/male-lowerReach-down-1-fine.png",
+    "neck": [
+      47,
+      72
+    ],
+    "holes": [
+      {
+        "area": 4,
+        "bounds": [
+          62,
+          79,
+          62,
+          82
+        ],
+        "erasedOpaqueSourcePixels": 0,
+        "actualErasedPixels": []
+      }
+    ]
+  },
+  {
+    "actorId": "human-male",
+    "family": "lowerReach",
+    "dir": "down",
+    "index": 2,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-lower-male-down-2.png",
+    "target": "game/assets/interaction-v29/male-lowerReach-down-2-fine.png",
+    "neck": [
+      48,
+      86
+    ],
+    "holes": [
+      {
+        "area": 1,
+        "bounds": [
+          63,
+          94,
+          63,
+          94
+        ],
+        "erasedOpaqueSourcePixels": 1,
+        "actualErasedPixels": [
+          {
+            "point": [
+              63,
+              94
+            ],
+            "sourceRGBA": [
+              127,
+              65,
+              46,
+              253
+            ]
+          }
+        ]
+      },
+      {
+        "area": 1,
+        "bounds": [
+          64,
+          98,
+          64,
+          98
+        ],
+        "erasedOpaqueSourcePixels": 1,
+        "actualErasedPixels": [
+          {
+            "point": [
+              64,
+              98
+            ],
+            "sourceRGBA": [
+              23,
+              6,
+              4,
+              253
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "actorId": "human-male",
+    "family": "lowerReach",
+    "dir": "up",
+    "index": 2,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-lower-male-up-2.png",
+    "target": "game/assets/interaction-v29/male-lowerReach-up-2-fine.png",
+    "neck": [
+      59,
+      74
+    ],
+    "holes": [
+      {
+        "area": 1,
+        "bounds": [
+          68,
+          74,
+          68,
+          74
+        ],
+        "erasedOpaqueSourcePixels": 1,
+        "actualErasedPixels": [
+          {
+            "point": [
+              68,
+              74
+            ],
+            "sourceRGBA": [
+              57,
+              33,
+              25,
+              253
+            ]
+          }
+        ]
+      },
+      {
+        "area": 1,
+        "bounds": [
+          67,
+          75,
+          67,
+          75
+        ],
+        "erasedOpaqueSourcePixels": 1,
+        "actualErasedPixels": [
+          {
+            "point": [
+              67,
+              75
+            ],
+            "sourceRGBA": [
+              55,
+              31,
+              24,
+              253
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "actorId": "human-female",
+    "family": "lowerReach",
+    "dir": "down",
+    "index": 1,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-lower-female-down-1.png",
+    "target": "game/assets/interaction-v29/female-lowerReach-down-1-fine.png",
+    "neck": [
+      46,
+      74
+    ],
+    "holes": [
+      {
+        "area": 16,
+        "bounds": [
+          42,
+          74,
+          50,
+          76
+        ],
+        "erasedOpaqueSourcePixels": 16,
+        "actualErasedPixels": [
+          {
+            "point": [
+              50,
+              74
+            ],
+            "sourceRGBA": [
+              252,
+              141,
+              91,
+              253
+            ]
+          },
+          {
+            "point": [
+              50,
+              75
+            ],
+            "sourceRGBA": [
+              253,
+              149,
+              101,
+              253
+            ]
+          },
+          {
+            "point": [
+              49,
+              75
+            ],
+            "sourceRGBA": [
+              253,
+              143,
+              94,
+              253
+            ]
+          },
+          {
+            "point": [
+              49,
+              76
+            ],
+            "sourceRGBA": [
+              251,
+              147,
+              98,
+              253
+            ]
+          },
+          {
+            "point": [
+              48,
+              76
+            ],
+            "sourceRGBA": [
+              253,
+              147,
+              97,
+              253
+            ]
+          },
+          {
+            "point": [
+              47,
+              76
+            ],
+            "sourceRGBA": [
+              254,
+              146,
+              96,
+              254
+            ]
+          },
+          {
+            "point": [
+              46,
+              76
+            ],
+            "sourceRGBA": [
+              253,
+              144,
+              97,
+              254
+            ]
+          },
+          {
+            "point": [
+              45,
+              76
+            ],
+            "sourceRGBA": [
+              252,
+              145,
+              98,
+              253
+            ]
+          },
+          {
+            "point": [
+              44,
+              76
+            ],
+            "sourceRGBA": [
+              79,
+              29,
+              18,
+              253
+            ]
+          },
+          {
+            "point": [
+              44,
+              75
+            ],
+            "sourceRGBA": [
+              251,
+              130,
+              82,
+              253
+            ]
+          },
+          {
+            "point": [
+              43,
+              75
+            ],
+            "sourceRGBA": [
+              248,
+              133,
+              88,
+              253
+            ]
+          },
+          {
+            "point": [
+              42,
+              75
+            ],
+            "sourceRGBA": [
+              85,
+              30,
+              16,
+              253
+            ]
+          },
+          {
+            "point": [
+              45,
+              75
+            ],
+            "sourceRGBA": [
+              254,
+              146,
+              97,
+              253
+            ]
+          },
+          {
+            "point": [
+              46,
+              75
+            ],
+            "sourceRGBA": [
+              253,
+              147,
+              97,
+              253
+            ]
+          },
+          {
+            "point": [
+              47,
+              75
+            ],
+            "sourceRGBA": [
+              253,
+              146,
+              97,
+              253
+            ]
+          },
+          {
+            "point": [
+              48,
+              75
+            ],
+            "sourceRGBA": [
+              252,
+              143,
+              94,
+              253
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "actorId": "human-female",
+    "family": "lowerReach",
+    "dir": "down",
+    "index": 2,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-lower-female-down-2.png",
+    "target": "game/assets/interaction-v29/female-lowerReach-down-2-fine.png",
+    "neck": [
+      48,
+      87
+    ],
+    "holes": [
+      {
+        "area": 1,
+        "bounds": [
+          43,
+          87,
+          43,
+          87
+        ],
+        "erasedOpaqueSourcePixels": 1,
+        "actualErasedPixels": [
+          {
+            "point": [
+              43,
+              87
+            ],
+            "sourceRGBA": [
+              76,
+              26,
+              11,
+              253
+            ]
+          }
+        ]
+      },
+      {
+        "area": 5,
+        "bounds": [
+          45,
+          88,
+          49,
+          88
+        ],
+        "erasedOpaqueSourcePixels": 5,
+        "actualErasedPixels": [
+          {
+            "point": [
+              45,
+              88
+            ],
+            "sourceRGBA": [
+              58,
+              25,
+              15,
+              253
+            ]
+          },
+          {
+            "point": [
+              46,
+              88
+            ],
+            "sourceRGBA": [
+              253,
+              151,
+              100,
+              254
+            ]
+          },
+          {
+            "point": [
+              47,
+              88
+            ],
+            "sourceRGBA": [
+              253,
+              150,
+              98,
+              254
+            ]
+          },
+          {
+            "point": [
+              48,
+              88
+            ],
+            "sourceRGBA": [
+              252,
+              145,
+              93,
+              253
+            ]
+          },
+          {
+            "point": [
+              49,
+              88
+            ],
+            "sourceRGBA": [
+              252,
+              147,
+              96,
+              253
+            ]
+          }
+        ]
+      },
+      {
+        "area": 7,
+        "bounds": [
+          61,
+          89,
+          62,
+          93
+        ],
+        "erasedOpaqueSourcePixels": 0,
+        "actualErasedPixels": []
+      }
+    ]
+  },
+  {
+    "actorId": "human-female",
+    "family": "lowerReach",
+    "dir": "right",
+    "index": 1,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-lower-female-right-1.png",
+    "target": "game/assets/interaction-v29/female-lowerReach-right-1-fine.png",
+    "neck": [
+      54,
+      72
+    ],
+    "holes": [
+      {
+        "area": 7,
+        "bounds": [
+          52,
+          70,
+          54,
+          72
+        ],
+        "erasedOpaqueSourcePixels": 7,
+        "actualErasedPixels": [
+          {
+            "point": [
+              52,
+              70
+            ],
+            "sourceRGBA": [
+              251,
+              145,
+              94,
+              254
+            ]
+          },
+          {
+            "point": [
+              52,
+              71
+            ],
+            "sourceRGBA": [
+              247,
+              144,
+              98,
+              253
+            ]
+          },
+          {
+            "point": [
+              52,
+              72
+            ],
+            "sourceRGBA": [
+              247,
+              128,
+              80,
+              253
+            ]
+          },
+          {
+            "point": [
+              53,
+              71
+            ],
+            "sourceRGBA": [
+              251,
+              145,
+              96,
+              253
+            ]
+          },
+          {
+            "point": [
+              54,
+              71
+            ],
+            "sourceRGBA": [
+              247,
+              141,
+              92,
+              253
+            ]
+          },
+          {
+            "point": [
+              54,
+              70
+            ],
+            "sourceRGBA": [
+              249,
+              148,
+              101,
+              253
+            ]
+          },
+          {
+            "point": [
+              53,
+              70
+            ],
+            "sourceRGBA": [
+              251,
+              147,
+              96,
+              253
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "actorId": "human-female",
+    "family": "lowerReach",
+    "dir": "right",
+    "index": 2,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-lower-female-right-2.png",
+    "target": "game/assets/interaction-v29/female-lowerReach-right-2-fine.png",
+    "neck": [
+      62,
+      86
+    ],
+    "holes": [
+      {
+        "area": 10,
+        "bounds": [
+          56,
+          82,
+          58,
+          87
+        ],
+        "erasedOpaqueSourcePixels": 10,
+        "actualErasedPixels": [
+          {
+            "point": [
+              57,
+              82
+            ],
+            "sourceRGBA": [
+              251,
+              145,
+              96,
+              253
+            ]
+          },
+          {
+            "point": [
+              57,
+              83
+            ],
+            "sourceRGBA": [
+              252,
+              150,
+              98,
+              253
+            ]
+          },
+          {
+            "point": [
+              57,
+              84
+            ],
+            "sourceRGBA": [
+              249,
+              145,
+              94,
+              253
+            ]
+          },
+          {
+            "point": [
+              58,
+              84
+            ],
+            "sourceRGBA": [
+              246,
+              138,
+              83,
+              253
+            ]
+          },
+          {
+            "point": [
+              56,
+              84
+            ],
+            "sourceRGBA": [
+              247,
+              147,
+              100,
+              253
+            ]
+          },
+          {
+            "point": [
+              56,
+              85
+            ],
+            "sourceRGBA": [
+              248,
+              154,
+              110,
+              253
+            ]
+          },
+          {
+            "point": [
+              56,
+              86
+            ],
+            "sourceRGBA": [
+              241,
+              136,
+              97,
+              253
+            ]
+          },
+          {
+            "point": [
+              56,
+              87
+            ],
+            "sourceRGBA": [
+              195,
+              180,
+              176,
+              253
+            ]
+          },
+          {
+            "point": [
+              58,
+              83
+            ],
+            "sourceRGBA": [
+              253,
+              155,
+              103,
+              253
+            ]
+          },
+          {
+            "point": [
+              58,
+              82
+            ],
+            "sourceRGBA": [
+              252,
+              143,
+              94,
+              253
+            ]
+          }
+        ]
+      },
+      {
+        "area": 2,
+        "bounds": [
+          62,
+          84,
+          62,
+          85
+        ],
+        "erasedOpaqueSourcePixels": 0,
+        "actualErasedPixels": []
+      },
+      {
+        "area": 3,
+        "bounds": [
+          45,
+          99,
+          46,
+          100
+        ],
+        "erasedOpaqueSourcePixels": 3,
+        "actualErasedPixels": [
+          {
+            "point": [
+              45,
+              99
+            ],
+            "sourceRGBA": [
+              19,
+              4,
+              3,
+              253
+            ]
+          },
+          {
+            "point": [
+              45,
+              100
+            ],
+            "sourceRGBA": [
+              23,
+              3,
+              2,
+              253
+            ]
+          },
+          {
+            "point": [
+              46,
+              99
+            ],
+            "sourceRGBA": [
+              7,
+              0,
+              0,
+              253
+            ]
+          }
+        ]
+      },
+      {
+        "area": 4,
+        "bounds": [
+          57,
+          99,
+          58,
+          101
+        ],
+        "erasedOpaqueSourcePixels": 0,
+        "actualErasedPixels": []
+      }
+    ]
+  },
+  {
+    "actorId": "human-female",
+    "family": "lowerReach",
+    "dir": "left",
+    "index": 1,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-lower-female-left-1.png",
+    "target": "game/assets/interaction-v29/female-lowerReach-left-1-fine.png",
+    "neck": [
+      35,
+      77
+    ],
+    "holes": [
+      {
+        "area": 21,
+        "bounds": [
+          32,
+          72,
+          37,
+          78
+        ],
+        "erasedOpaqueSourcePixels": 21,
+        "actualErasedPixels": [
+          {
+            "point": [
+              32,
+              72
+            ],
+            "sourceRGBA": [
+              35,
+              16,
+              13,
+              253
+            ]
+          },
+          {
+            "point": [
+              32,
+              73
+            ],
+            "sourceRGBA": [
+              27,
+              6,
+              6,
+              253
+            ]
+          },
+          {
+            "point": [
+              32,
+              74
+            ],
+            "sourceRGBA": [
+              209,
+              104,
+              76,
+              253
+            ]
+          },
+          {
+            "point": [
+              33,
+              74
+            ],
+            "sourceRGBA": [
+              208,
+              99,
+              71,
+              253
+            ]
+          },
+          {
+            "point": [
+              33,
+              75
+            ],
+            "sourceRGBA": [
+              197,
+              102,
+              71,
+              253
+            ]
+          },
+          {
+            "point": [
+              34,
+              75
+            ],
+            "sourceRGBA": [
+              216,
+              102,
+              74,
+              253
+            ]
+          },
+          {
+            "point": [
+              34,
+              76
+            ],
+            "sourceRGBA": [
+              78,
+              34,
+              22,
+              253
+            ]
+          },
+          {
+            "point": [
+              34,
+              77
+            ],
+            "sourceRGBA": [
+              84,
+              42,
+              29,
+              253
+            ]
+          },
+          {
+            "point": [
+              34,
+              78
+            ],
+            "sourceRGBA": [
+              79,
+              59,
+              53,
+              253
+            ]
+          },
+          {
+            "point": [
+              35,
+              78
+            ],
+            "sourceRGBA": [
+              238,
+              157,
+              125,
+              253
+            ]
+          },
+          {
+            "point": [
+              36,
+              78
+            ],
+            "sourceRGBA": [
+              248,
+              141,
+              98,
+              253
+            ]
+          },
+          {
+            "point": [
+              37,
+              78
+            ],
+            "sourceRGBA": [
+              245,
+              137,
+              93,
+              253
+            ]
+          },
+          {
+            "point": [
+              37,
+              77
+            ],
+            "sourceRGBA": [
+              221,
+              102,
+              69,
+              253
+            ]
+          },
+          {
+            "point": [
+              36,
+              77
+            ],
+            "sourceRGBA": [
+              232,
+              113,
+              78,
+              253
+            ]
+          },
+          {
+            "point": [
+              36,
+              76
+            ],
+            "sourceRGBA": [
+              75,
+              33,
+              27,
+              253
+            ]
+          },
+          {
+            "point": [
+              36,
+              75
+            ],
+            "sourceRGBA": [
+              61,
+              22,
+              19,
+              253
+            ]
+          },
+          {
+            "point": [
+              35,
+              77
+            ],
+            "sourceRGBA": [
+              233,
+              114,
+              80,
+              253
+            ]
+          },
+          {
+            "point": [
+              35,
+              76
+            ],
+            "sourceRGBA": [
+              233,
+              118,
+              84,
+              253
+            ]
+          },
+          {
+            "point": [
+              35,
+              75
+            ],
+            "sourceRGBA": [
+              208,
+              96,
+              68,
+              253
+            ]
+          },
+          {
+            "point": [
+              33,
+              73
+            ],
+            "sourceRGBA": [
+              26,
+              5,
+              7,
+              253
+            ]
+          },
+          {
+            "point": [
+              33,
+              72
+            ],
+            "sourceRGBA": [
+              26,
+              8,
+              8,
+              253
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "actorId": "human-female",
+    "family": "lowerReach",
+    "dir": "left",
+    "index": 2,
+    "source": "verification/phone-action-audit/source-c8-a104-v30/registered-source-lower-female-left-2.png",
+    "target": "game/assets/interaction-v29/female-lowerReach-left-2-fine.png",
+    "neck": [
+      38,
+      90
+    ],
+    "holes": [
+      {
+        "area": 12,
+        "bounds": [
+          35,
+          85,
+          39,
+          89
+        ],
+        "erasedOpaqueSourcePixels": 12,
+        "actualErasedPixels": [
+          {
+            "point": [
+              35,
+              85
+            ],
+            "sourceRGBA": [
+              22,
+              5,
+              4,
+              253
+            ]
+          },
+          {
+            "point": [
+              35,
+              86
+            ],
+            "sourceRGBA": [
+              237,
+              114,
+              78,
+              253
+            ]
+          },
+          {
+            "point": [
+              36,
+              86
+            ],
+            "sourceRGBA": [
+              237,
+              119,
+              88,
+              253
+            ]
+          },
+          {
+            "point": [
+              36,
+              87
+            ],
+            "sourceRGBA": [
+              233,
+              113,
+              80,
+              253
+            ]
+          },
+          {
+            "point": [
+              36,
+              88
+            ],
+            "sourceRGBA": [
+              232,
+              115,
+              80,
+              253
+            ]
+          },
+          {
+            "point": [
+              36,
+              89
+            ],
+            "sourceRGBA": [
+              235,
+              125,
+              86,
+              253
+            ]
+          },
+          {
+            "point": [
+              37,
+              89
+            ],
+            "sourceRGBA": [
+              247,
+              135,
+              95,
+              253
+            ]
+          },
+          {
+            "point": [
+              38,
+              89
+            ],
+            "sourceRGBA": [
+              248,
+              137,
+              98,
+              253
+            ]
+          },
+          {
+            "point": [
+              39,
+              89
+            ],
+            "sourceRGBA": [
+              239,
+              143,
+              106,
+              253
+            ]
+          },
+          {
+            "point": [
+              38,
+              88
+            ],
+            "sourceRGBA": [
+              234,
+              112,
+              78,
+              253
+            ]
+          },
+          {
+            "point": [
+              37,
+              88
+            ],
+            "sourceRGBA": [
+              232,
+              116,
+              80,
+              253
+            ]
+          },
+          {
+            "point": [
+              36,
+              85
+            ],
+            "sourceRGBA": [
+              21,
+              5,
+              6,
+              253
+            ]
+          }
+        ]
+      },
+      {
+        "area": 3,
+        "bounds": [
+          48,
+          95,
+          50,
+          95
+        ],
+        "erasedOpaqueSourcePixels": 3,
+        "actualErasedPixels": [
+          {
+            "point": [
+              48,
+              95
+            ],
+            "sourceRGBA": [
+              63,
+              35,
+              26,
+              253
+            ]
+          },
+          {
+            "point": [
+              49,
+              95
+            ],
+            "sourceRGBA": [
+              57,
+              30,
+              24,
+              253
+            ]
+          },
+          {
+            "point": [
+              50,
+              95
+            ],
+            "sourceRGBA": [
+              69,
+              32,
+              24,
+              253
+            ]
+          }
+        ]
+      },
+      {
+        "area": 7,
+        "bounds": [
+          35,
+          98,
+          37,
+          100
+        ],
+        "erasedOpaqueSourcePixels": 0,
+        "actualErasedPixels": []
+      },
+      {
+        "area": 1,
+        "bounds": [
+          49,
+          99,
+          49,
+          99
+        ],
+        "erasedOpaqueSourcePixels": 1,
+        "actualErasedPixels": [
+          {
+            "point": [
+              49,
+              99
+            ],
+            "sourceRGBA": [
+              98,
+              46,
+              37,
+              253
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

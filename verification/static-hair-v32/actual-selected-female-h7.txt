@@ -1,0 +1,66 @@
+- banner:
+  - button "Открыть меню Бзикера":
+    - text: Бзикер
+    - generic: ≡
+  - generic: Локальная версия
+- main:
+  - strong: LocationQA
+  - group "Повернуть персонажа":
+    - button "Спереди" [pressed]: ↓
+    - button "Слева": ←
+    - button "Сзади": ↑
+    - button "Справа": →
+  - paragraph: Каталог персонажа
+  - heading "Ваш персонаж" [level=1]
+  - text: Ник
+  - textbox "Ник":
+    - /placeholder: Ваш ник
+    - text: LocationQA
+  - paragraph: Ник закреплён. Внешность можно менять.
+  - generic "Персонаж Женский +":
+    - generic: Персонаж
+    - generic: Женский
+    - text: +
+  - generic "Готовые образы +"
+  - navigation "Категории каталога":
+    - button "Волосы" [pressed]
+    - button "Одежда"
+    - button "Детали"
+  - generic "Причёски Хвост −":
+    - generic: Причёски
+    - generic: Хвост
+    - text: −
+  - button "Короткая":
+    - generic: Короткая
+  - button "Каре":
+    - generic: Каре
+  - button "Кудри":
+    - generic: Кудри
+  - button "Пучок":
+    - generic: Пучок
+  - button "Ёжик":
+    - generic: Ёжик
+  - button "Пробор":
+    - generic: Пробор
+  - button "Длинные":
+    - generic: Длинные
+  - button "Хвост" [pressed]:
+    - generic: Хвост
+  - button "Пикси":
+    - generic: Пикси
+  - button "Ирокез":
+    - generic: Ирокез
+  - button "Два пучка":
+    - generic: Два пучка
+  - button "Волны":
+    - generic: Волны
+  - generic "Волосы Белый +":
+    - generic: Волосы
+    - generic: Белый
+    - text: +
+  - generic "Головные уборы Без убора +":
+    - generic: Головные уборы
+    - generic: Без убора
+    - text: +
+  - button "Сохранить внешность →"
+  - button "Отмена"

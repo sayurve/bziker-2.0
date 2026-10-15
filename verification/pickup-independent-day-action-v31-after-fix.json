@@ -1,0 +1,7 @@
+{
+  "beforeVisible": false,
+  "newDayVisible": true,
+  "latePreviousDayActionAccepted": false,
+  "afterLateActionExpiredVisible": true,
+  "expectedAfterLateActionExpiredVisible": true
+}

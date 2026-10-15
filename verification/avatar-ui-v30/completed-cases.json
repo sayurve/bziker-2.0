@@ -1,0 +1,644 @@
+[
+  {
+    "gender": 1,
+    "part": "hairStyle",
+    "value": 0,
+    "label": "Короткая"
+  },
+  {
+    "gender": 1,
+    "part": "hairStyle",
+    "value": 1,
+    "label": "Каре"
+  },
+  {
+    "gender": 1,
+    "part": "hairStyle",
+    "value": 2,
+    "label": "Кудри"
+  },
+  {
+    "gender": 1,
+    "part": "hairStyle",
+    "value": 3,
+    "label": "Пучок"
+  },
+  {
+    "gender": 1,
+    "part": "hairStyle",
+    "value": 4,
+    "label": "Ёжик"
+  },
+  {
+    "gender": 1,
+    "part": "hairStyle",
+    "value": 5,
+    "label": "Пробор"
+  },
+  {
+    "gender": 1,
+    "part": "hairStyle",
+    "value": 6,
+    "label": "Длинные"
+  },
+  {
+    "gender": 1,
+    "part": "hairStyle",
+    "value": 7,
+    "label": "Хвост"
+  },
+  {
+    "gender": 1,
+    "part": "hairStyle",
+    "value": 8,
+    "label": "Пикси"
+  },
+  {
+    "gender": 1,
+    "part": "hairStyle",
+    "value": 9,
+    "label": "Ирокез"
+  },
+  {
+    "gender": 1,
+    "part": "hairStyle",
+    "value": 10,
+    "label": "Два пучка"
+  },
+  {
+    "gender": 1,
+    "part": "hairStyle",
+    "value": 11,
+    "label": "Волны"
+  },
+  {
+    "gender": 1,
+    "part": "hairColor",
+    "value": 0,
+    "label": "Каштановый"
+  },
+  {
+    "gender": 1,
+    "part": "hairColor",
+    "value": 1,
+    "label": "Чёрный"
+  },
+  {
+    "gender": 1,
+    "part": "hairColor",
+    "value": 2,
+    "label": "Русый"
+  },
+  {
+    "gender": 1,
+    "part": "hairColor",
+    "value": 3,
+    "label": "Рыжий"
+  },
+  {
+    "gender": 1,
+    "part": "hairColor",
+    "value": 4,
+    "label": "Фиолетовый"
+  },
+  {
+    "gender": 1,
+    "part": "hairColor",
+    "value": 5,
+    "label": "Седой"
+  },
+  {
+    "gender": 1,
+    "part": "hairColor",
+    "value": 6,
+    "label": "Белый"
+  },
+  {
+    "gender": 1,
+    "part": "hairColor",
+    "value": 7,
+    "label": "Розовый"
+  },
+  {
+    "gender": 1,
+    "part": "hairColor",
+    "value": 8,
+    "label": "Бирюзовый"
+  },
+  {
+    "gender": 1,
+    "part": "hairColor",
+    "value": 9,
+    "label": "Шоколадный"
+  },
+  {
+    "gender": 1,
+    "part": "headwear",
+    "value": 0,
+    "label": "Без убора"
+  },
+  {
+    "gender": 1,
+    "part": "headwear",
+    "value": 1,
+    "label": "Кепка"
+  },
+  {
+    "gender": 1,
+    "part": "headwear",
+    "value": 2,
+    "label": "Шапка"
+  },
+  {
+    "gender": 1,
+    "part": "headwear",
+    "value": 3,
+    "label": "Панама"
+  },
+  {
+    "gender": 1,
+    "part": "headwear",
+    "value": 4,
+    "label": "Берет"
+  },
+  {
+    "gender": 1,
+    "part": "shirtStyle",
+    "value": 0,
+    "label": "Футболка"
+  },
+  {
+    "gender": 1,
+    "part": "shirtStyle",
+    "value": 1,
+    "label": "Худи"
+  },
+  {
+    "gender": 1,
+    "part": "shirtStyle",
+    "value": 2,
+    "label": "Куртка"
+  },
+  {
+    "gender": 1,
+    "part": "shirtStyle",
+    "value": 3,
+    "label": "Рубашка"
+  },
+  {
+    "gender": 1,
+    "part": "shirtColor",
+    "value": 0,
+    "label": "Розовый"
+  },
+  {
+    "gender": 1,
+    "part": "shirtColor",
+    "value": 1,
+    "label": "Сиреневый"
+  },
+  {
+    "gender": 1,
+    "part": "shirtColor",
+    "value": 2,
+    "label": "Синий"
+  },
+  {
+    "gender": 1,
+    "part": "shirtColor",
+    "value": 3,
+    "label": "Зелёный"
+  },
+  {
+    "gender": 1,
+    "part": "shirtColor",
+    "value": 4,
+    "label": "Жёлтый"
+  },
+  {
+    "gender": 1,
+    "part": "shirtColor",
+    "value": 5,
+    "label": "Белый"
+  },
+  {
+    "gender": 1,
+    "part": "shirtColor",
+    "value": 6,
+    "label": "Чёрный"
+  },
+  {
+    "gender": 1,
+    "part": "shirtColor",
+    "value": 7,
+    "label": "Коралловый"
+  },
+  {
+    "gender": 1,
+    "part": "shirtColor",
+    "value": 8,
+    "label": "Лаймовый"
+  },
+  {
+    "gender": 1,
+    "part": "shirtColor",
+    "value": 9,
+    "label": "Молочный"
+  },
+  {
+    "gender": 1,
+    "part": "shirtColor",
+    "value": 10,
+    "label": "Голубой"
+  },
+  {
+    "gender": 1,
+    "part": "shirtColor",
+    "value": 11,
+    "label": "Красный"
+  },
+  {
+    "gender": 1,
+    "part": "pantsStyle",
+    "value": 0,
+    "label": "Прямые брюки"
+  },
+  {
+    "gender": 1,
+    "part": "pantsStyle",
+    "value": 1,
+    "label": "Шорты"
+  },
+  {
+    "gender": 1,
+    "part": "pantsStyle",
+    "value": 2,
+    "label": "Юбка"
+  },
+  {
+    "gender": 1,
+    "part": "pantsStyle",
+    "value": 3,
+    "label": "Широкие брюки"
+  },
+  {
+    "gender": 1,
+    "part": "pantsColor",
+    "value": 0,
+    "label": "Синий"
+  },
+  {
+    "gender": 1,
+    "part": "pantsColor",
+    "value": 1,
+    "label": "Чёрный"
+  },
+  {
+    "gender": 1,
+    "part": "pantsColor",
+    "value": 2,
+    "label": "Серый"
+  },
+  {
+    "gender": 1,
+    "part": "pantsColor",
+    "value": 3,
+    "label": "Белый"
+  },
+  {
+    "gender": 1,
+    "part": "pantsColor",
+    "value": 4,
+    "label": "Песочный"
+  },
+  {
+    "gender": 1,
+    "part": "pantsColor",
+    "value": 5,
+    "label": "Хаки"
+  },
+  {
+    "gender": 1,
+    "part": "pantsColor",
+    "value": 6,
+    "label": "Сиреневый"
+  },
+  {
+    "gender": 1,
+    "part": "pantsColor",
+    "value": 7,
+    "label": "Коралловый"
+  },
+  {
+    "gender": 1,
+    "part": "outfit",
+    "value": 0,
+    "label": "Своя одежда"
+  },
+  {
+    "gender": 1,
+    "part": "outfit",
+    "value": 1,
+    "label": "Хромовая куртка"
+  },
+  {
+    "gender": 1,
+    "part": "outfit",
+    "value": 2,
+    "label": "Неон-худи"
+  },
+  {
+    "gender": 1,
+    "part": "outfit",
+    "value": 3,
+    "label": "Креативное пальто"
+  },
+  {
+    "gender": 1,
+    "part": "outfit",
+    "value": 4,
+    "label": "Спортивный костюм"
+  },
+  {
+    "gender": 1,
+    "part": "outfit",
+    "value": 5,
+    "label": "Костюм зверя"
+  },
+  {
+    "gender": 1,
+    "part": "outfit",
+    "value": 6,
+    "label": "Дождевик"
+  },
+  {
+    "gender": 1,
+    "part": "skin",
+    "value": 0,
+    "label": "Светлый"
+  },
+  {
+    "gender": 1,
+    "part": "skin",
+    "value": 1,
+    "label": "Тёплый"
+  },
+  {
+    "gender": 1,
+    "part": "skin",
+    "value": 2,
+    "label": "Смуглый"
+  },
+  {
+    "gender": 1,
+    "part": "skin",
+    "value": 3,
+    "label": "Тёмный"
+  },
+  {
+    "gender": 1,
+    "part": "skin",
+    "value": 4,
+    "label": "Фарфоровый"
+  },
+  {
+    "gender": 1,
+    "part": "skin",
+    "value": 5,
+    "label": "Песочный"
+  },
+  {
+    "gender": 1,
+    "part": "skin",
+    "value": 6,
+    "label": "Карамельный"
+  },
+  {
+    "gender": 1,
+    "part": "skin",
+    "value": 7,
+    "label": "Глубокий"
+  },
+  {
+    "gender": 1,
+    "part": "accessory",
+    "value": 0,
+    "label": "Без аксессуара"
+  },
+  {
+    "gender": 1,
+    "part": "accessory",
+    "value": 1,
+    "label": "Очки"
+  },
+  {
+    "gender": 1,
+    "part": "accessory",
+    "value": 2,
+    "label": "Значок"
+  },
+  {
+    "gender": 1,
+    "part": "accessory",
+    "value": 3,
+    "label": "Кепка"
+  },
+  {
+    "gender": 1,
+    "part": "accessory",
+    "value": 4,
+    "label": "Наушники"
+  },
+  {
+    "gender": 1,
+    "part": "accessory",
+    "value": 5,
+    "label": "Сумка"
+  },
+  {
+    "gender": 1,
+    "part": "shoesColor",
+    "value": 0,
+    "label": "Чёрная"
+  },
+  {
+    "gender": 1,
+    "part": "shoesColor",
+    "value": 1,
+    "label": "Белая"
+  },
+  {
+    "gender": 1,
+    "part": "shoesColor",
+    "value": 2,
+    "label": "Коралловая"
+  },
+  {
+    "gender": 1,
+    "part": "shoesColor",
+    "value": 3,
+    "label": "Синяя"
+  },
+  {
+    "gender": 1,
+    "part": "shoesColor",
+    "value": 4,
+    "label": "Песочная"
+  },
+  {
+    "gender": 1,
+    "part": "shoesColor",
+    "value": 5,
+    "label": "Сиреневая"
+  },
+  {
+    "gender": 0,
+    "part": "hairStyle",
+    "value": 0,
+    "label": "Короткая"
+  },
+  {
+    "gender": 0,
+    "part": "hairStyle",
+    "value": 1,
+    "label": "Каре"
+  },
+  {
+    "gender": 0,
+    "part": "hairStyle",
+    "value": 2,
+    "label": "Кудри"
+  },
+  {
+    "gender": 0,
+    "part": "hairStyle",
+    "value": 3,
+    "label": "Пучок"
+  },
+  {
+    "gender": 0,
+    "part": "hairStyle",
+    "value": 4,
+    "label": "Ёжик"
+  },
+  {
+    "gender": 0,
+    "part": "hairStyle",
+    "value": 5,
+    "label": "Пробор"
+  },
+  {
+    "gender": 0,
+    "part": "hairStyle",
+    "value": 6,
+    "label": "Длинные"
+  },
+  {
+    "gender": 0,
+    "part": "hairStyle",
+    "value": 7,
+    "label": "Хвост"
+  },
+  {
+    "gender": 0,
+    "part": "hairStyle",
+    "value": 8,
+    "label": "Пикси"
+  },
+  {
+    "gender": 0,
+    "part": "hairStyle",
+    "value": 9,
+    "label": "Ирокез"
+  },
+  {
+    "gender": 0,
+    "part": "hairStyle",
+    "value": 10,
+    "label": "Два пучка"
+  },
+  {
+    "gender": 0,
+    "part": "hairStyle",
+    "value": 11,
+    "label": "Волны"
+  },
+  {
+    "gender": 0,
+    "part": "headwear",
+    "value": 0,
+    "label": "Без убора"
+  },
+  {
+    "gender": 0,
+    "part": "headwear",
+    "value": 1,
+    "label": "Кепка"
+  },
+  {
+    "gender": 0,
+    "part": "headwear",
+    "value": 2,
+    "label": "Шапка"
+  },
+  {
+    "gender": 0,
+    "part": "headwear",
+    "value": 3,
+    "label": "Панама"
+  },
+  {
+    "gender": 0,
+    "part": "headwear",
+    "value": 4,
+    "label": "Берет"
+  },
+  {
+    "gender": 0,
+    "part": "outfit",
+    "value": 0,
+    "label": "Своя одежда"
+  },
+  {
+    "gender": 0,
+    "part": "outfit",
+    "value": 1,
+    "label": "Хромовая куртка"
+  },
+  {
+    "gender": 0,
+    "part": "outfit",
+    "value": 2,
+    "label": "Неон-худи"
+  },
+  {
+    "gender": 0,
+    "part": "outfit",
+    "value": 3,
+    "label": "Креативное пальто"
+  },
+  {
+    "gender": 0,
+    "part": "outfit",
+    "value": 4,
+    "label": "Спортивный костюм"
+  },
+  {
+    "gender": 0,
+    "part": "outfit",
+    "value": 5,
+    "label": "Костюм зверя"
+  },
+  {
+    "gender": 0,
+    "part": "outfit",
+    "value": 6,
+    "label": "Дождевик"
+  },
+  {
+    "gender": 0,
+    "part": "pantsStyle",
+    "value": 1,
+    "label": "Шорты"
+  }
+]

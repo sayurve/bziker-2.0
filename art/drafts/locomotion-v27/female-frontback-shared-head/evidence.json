@@ -1,0 +1,207 @@
+{
+  "status": "draft",
+  "headRGBAResize": false,
+  "bodyScale": 1,
+  "poses": [
+    {
+      "dir": "down",
+      "n": 0,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#06_Бег_Спереди",
+      "sourceAtlas": "assets/design-actor-detail-base-human-female-1.png",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-female-1.png",
+        "x": 384,
+        "y": 256,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "bodyTranslation": [
+        0,
+        0
+      ],
+      "delta": [
+        0,
+        7
+      ],
+      "removed": 2497,
+      "bodyChangesBelow80": 0,
+      "preservedHandPixels": 251
+    },
+    {
+      "dir": "down",
+      "n": 1,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#06_Бег_Спереди",
+      "sourceAtlas": "assets/design-actor-detail-base-human-female-1.png",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-female-1.png",
+        "x": 480,
+        "y": 256,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "bodyTranslation": [
+        0,
+        0
+      ],
+      "delta": [
+        0,
+        6
+      ],
+      "removed": 2413,
+      "bodyChangesBelow80": 0,
+      "preservedHandPixels": 265
+    },
+    {
+      "dir": "down",
+      "n": 2,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#06_Бег_Спереди",
+      "sourceAtlas": "assets/design-actor-detail-base-human-female-1.png",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-female-1.png",
+        "x": 576,
+        "y": 256,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "bodyTranslation": [
+        0,
+        0
+      ],
+      "delta": [
+        0,
+        6
+      ],
+      "removed": 2417,
+      "bodyChangesBelow80": 0,
+      "preservedHandPixels": 269
+    },
+    {
+      "dir": "down",
+      "n": 3,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#06_Бег_Спереди",
+      "sourceAtlas": "assets/design-actor-detail-base-human-female-1.png",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-female-1.png",
+        "x": 672,
+        "y": 256,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "bodyTranslation": [
+        0,
+        0
+      ],
+      "delta": [
+        0,
+        6
+      ],
+      "removed": 2430,
+      "bodyChangesBelow80": 0,
+      "preservedHandPixels": 284
+    },
+    {
+      "dir": "up",
+      "n": 0,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#08_Бег_Сзади",
+      "sourceAtlas": "assets/design-actor-detail-base-human-female-1.png",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-female-1.png",
+        "x": 384,
+        "y": 384,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "bodyTranslation": [
+        0,
+        1
+      ],
+      "delta": [
+        0,
+        13
+      ],
+      "removed": 2491,
+      "bodyChangesBelow80": 0,
+      "preservedHandPixels": 204
+    },
+    {
+      "dir": "up",
+      "n": 1,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#08_Бег_Сзади",
+      "sourceAtlas": "assets/design-actor-detail-base-human-female-1.png",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-female-1.png",
+        "x": 480,
+        "y": 384,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "bodyTranslation": [
+        0,
+        0
+      ],
+      "delta": [
+        0,
+        12
+      ],
+      "removed": 2496,
+      "bodyChangesBelow80": 0,
+      "preservedHandPixels": 168
+    },
+    {
+      "dir": "up",
+      "n": 2,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#08_Бег_Сзади",
+      "sourceAtlas": "assets/design-actor-detail-base-human-female-1.png",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-female-1.png",
+        "x": 576,
+        "y": 384,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "bodyTranslation": [
+        0,
+        0
+      ],
+      "delta": [
+        0,
+        12
+      ],
+      "removed": 2477,
+      "bodyChangesBelow80": 0,
+      "preservedHandPixels": 211
+    },
+    {
+      "dir": "up",
+      "n": 3,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#08_Бег_Сзади",
+      "sourceAtlas": "assets/design-actor-detail-base-human-female-1.png",
+      "sourceRect": {
+        "path": "assets/design-actor-detail-base-human-female-1.png",
+        "x": 672,
+        "y": 384,
+        "w": 96,
+        "h": 128,
+        "factor": 2
+      },
+      "bodyTranslation": [
+        0,
+        0
+      ],
+      "delta": [
+        0,
+        12
+      ],
+      "removed": 2475,
+      "bodyChangesBelow80": 0,
+      "preservedHandPixels": 188
+    }
+  ]
+}

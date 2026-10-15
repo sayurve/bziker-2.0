@@ -1,0 +1,327 @@
+{
+  "createdAt": "2026-10-15T11:49:35.578Z",
+  "gender": 0,
+  "category": "pantsStyle",
+  "source": "final",
+  "cases": 16,
+  "crop": {
+    "x": 535,
+    "y": 375,
+    "width": 135,
+    "height": 180
+  },
+  "qaOnly": true,
+  "productionArtChanged": false,
+  "realBrowserCaptures": true,
+  "renderedMockups": false,
+  "scale": 1.5,
+  "sheets": [
+    "page-1.png"
+  ],
+  "records": [
+    {
+      "value": 0,
+      "name": "Прямые брюки",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-pantsStyle-00-down.jpg",
+      "sourceSha256": "4853d32c0cc77dd5486a0bbe2e46b2a83cb6062be090d3579c292936e21aa458",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsStyle-00-down-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Прямые брюки",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-pantsStyle-00-left.jpg",
+      "sourceSha256": "ac7b7860f324cee73ac8f7190caf29557aad740c557f11c8692b932636dca654",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsStyle-00-left-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Прямые брюки",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-pantsStyle-00-up.jpg",
+      "sourceSha256": "910083c404d17bc89eed1d1a85f591c04d2ed3c36c96d938433bede35cad6078",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsStyle-00-up-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Прямые брюки",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-pantsStyle-00-right.jpg",
+      "sourceSha256": "b63c9c6cc8a31427215c2d1fcaf0441de8bf22c40cc494c5cd1486e516bd5c26",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsStyle-00-right-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Шорты",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-pantsStyle-01-down.jpg",
+      "sourceSha256": "83677c828eb575e9004684a813c373055017a1c9ed578a3e57ffc157113e9908",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsStyle-01-down-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Шорты",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-pantsStyle-01-left.jpg",
+      "sourceSha256": "ad551f8ae69cca9c464a3a2106427a0489c072efd7a690af65ce9b4534c65d04",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsStyle-01-left-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Шорты",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-pantsStyle-01-up.jpg",
+      "sourceSha256": "1c1bed7e451a6227116696371cc1beccae90b210b8ab65b31e722f4402c957dc",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsStyle-01-up-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Шорты",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-pantsStyle-01-right.jpg",
+      "sourceSha256": "4e46ebe6c2e3e0514119309ffa9b795e3a5618af92801732f5ddf2ef7cbe2c32",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsStyle-01-right-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Юбка",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-pantsStyle-02-down.jpg",
+      "sourceSha256": "b5019121c014183fafda246a28d98a085d8e8c4cbf23b31c134e226f57480d7c",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsStyle-02-down-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Юбка",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-pantsStyle-02-left.jpg",
+      "sourceSha256": "a68dac058eada67684c2bfd262af70fdfb497c053e0475e08456e5cee008727a",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsStyle-02-left-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Юбка",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-pantsStyle-02-up.jpg",
+      "sourceSha256": "890c316b3c89f00fca349ce43c1533d4d915182d245c6e6097df3c7253448fff",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsStyle-02-up-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Юбка",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-pantsStyle-02-right.jpg",
+      "sourceSha256": "8a501e3789490d282d636d0bed4fc0f2e196f7fa2359fdbe70cb67f856a932b3",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsStyle-02-right-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Широкие брюки",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-pantsStyle-03-down.jpg",
+      "sourceSha256": "39665872dcc426e65cf80ce9a89d071bff5ccba02b12a0de6d51e99df45e21c0",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsStyle-03-down-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Широкие брюки",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-pantsStyle-03-left.jpg",
+      "sourceSha256": "1730a96d711ea3af2345980339c5018f1a0eb2e668f58ffb0b6a9f0e7ba428cc",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsStyle-03-left-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Широкие брюки",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-pantsStyle-03-up.jpg",
+      "sourceSha256": "68d14cf013d467df1aee4397f93fd5ab4bb8db21886b46522577a3edcf73f400",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsStyle-03-up-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Широкие брюки",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-pantsStyle-03-right.jpg",
+      "sourceSha256": "0ba1b7cccf7c9be9fd9ab3055f267b31b02938149fed29b8340f8e39ecb3d53b",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsStyle-03-right-crop.png"
+    }
+  ]
+}

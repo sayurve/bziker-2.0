@@ -1,0 +1,11 @@
+✔ real retained native fringe/temple hair takes the selected white tint on every hairstyle and light/dark skin in fine+coarse UI raster (2245.637834ms)
+✔ selected hairstyles cannot detach the actual male rear run head from the existing native neck (632.106542ms)
+✔ native portrait material mask keeps same-colour long strands explicitly, retains headwear writes and excludes body hands (111.594375ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3311.876292

@@ -1,0 +1,106 @@
+{
+  "status": "draft",
+  "sourceSheet": "art/drafts/locomotion-v27/female-up-v2/sheet.png",
+  "sourceSHA256": "28376c89ace1ed15f499379b8aaebd6d302e264a3687ca85ea55df38ee33aac7",
+  "sourceDimensions": [
+    1086,
+    1448
+  ],
+  "sourceCell": [
+    543,
+    724
+  ],
+  "uniformFineScale": 0.17,
+  "scalePolicy": "One authored body scale .170 for four phases, based on source neck/root distance. Source canvas reference aspect did not preserve exact drawn body height. No bbox fit or independent X/Y scale.",
+  "headDonor": "art/drafts/locomotion-v27/shared-head-style-proposal/male-up-native-run0-head-fine.png",
+  "poses": [
+    {
+      "n": 0,
+      "sourceRoot": [
+        271,
+        686
+      ],
+      "sourceNeck": [
+        274,
+        315
+      ],
+      "delta": [
+        1,
+        5
+      ],
+      "removedGeneratedPixels": 1558,
+      "identicalOpaqueHeadPixels": 1917,
+      "bodyChangesBelow80": 0,
+      "top": 16,
+      "bottom": 125,
+      "height": 110,
+      "bodySource": "art/drafts/locomotion-v27/female-up-v2/phase-0-body-source-fine.png"
+    },
+    {
+      "n": 1,
+      "sourceRoot": [
+        271,
+        686
+      ],
+      "sourceNeck": [
+        267,
+        315
+      ],
+      "delta": [
+        -1,
+        5
+      ],
+      "removedGeneratedPixels": 1512,
+      "identicalOpaqueHeadPixels": 1917,
+      "bodyChangesBelow80": 0,
+      "top": 16,
+      "bottom": 125,
+      "height": 110,
+      "bodySource": "art/drafts/locomotion-v27/female-up-v2/phase-1-body-source-fine.png"
+    },
+    {
+      "n": 2,
+      "sourceRoot": [
+        271,
+        675
+      ],
+      "sourceNeck": [
+        274,
+        304
+      ],
+      "delta": [
+        1,
+        5
+      ],
+      "removedGeneratedPixels": 1548,
+      "identicalOpaqueHeadPixels": 1917,
+      "bodyChangesBelow80": 0,
+      "top": 16,
+      "bottom": 125,
+      "height": 110,
+      "bodySource": "art/drafts/locomotion-v27/female-up-v2/phase-2-body-source-fine.png"
+    },
+    {
+      "n": 3,
+      "sourceRoot": [
+        271,
+        674
+      ],
+      "sourceNeck": [
+        267,
+        304
+      ],
+      "delta": [
+        -1,
+        5
+      ],
+      "removedGeneratedPixels": 1541,
+      "identicalOpaqueHeadPixels": 1917,
+      "bodyChangesBelow80": 0,
+      "top": 16,
+      "bottom": 125,
+      "height": 110,
+      "bodySource": "art/drafts/locomotion-v27/female-up-v2/phase-3-body-source-fine.png"
+    }
+  ]
+}

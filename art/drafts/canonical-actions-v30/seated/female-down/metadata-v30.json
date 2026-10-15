@@ -1,0 +1,22 @@
+{
+  "status": "draft",
+  "tool": "built-in image_gen",
+  "sourceOutput": "/Users/sapp/.codex/generated_images/01a13c9a-ae7d-7bc2-83f6-88b8b5a5e67b/exec-a59ce470-1523-46b6-a0a2-a3e1eeab81f0.png",
+  "masterPath": "art/drafts/canonical-actions-v30/seated/female-down/seated-four-master.png",
+  "actualSize": [
+    1086,
+    1448
+  ],
+  "rawMasterUnchanged": true,
+  "masterSHA256": "289b84104334a8429e014d36383622b96b217b0e49485b545c91d18309c69afa",
+  "uniformFineScale": 0.17679558011049723,
+  "exportEvidence": "art/drafts/canonical-actions-v30/seated/female-down/export-evidence.json",
+  "promptPath": "art/drafts/canonical-actions-v30/seated/female-down/prompt.txt",
+  "reviewReceipt": "verification/canonical-seated-water-review-v30.json",
+  "poses": [
+    "neutral",
+    "hand-chest",
+    "hand-mouth",
+    "reach"
+  ]
+}

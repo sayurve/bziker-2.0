@@ -1,0 +1,57 @@
+{
+  "status": "draft-authored-points",
+  "uniformScaleUnchanged": 0.17679558011049723,
+  "targetPelvis": [
+    43,
+    95
+  ],
+  "feetBaseline": 124,
+  "coordinateSpace": "native fine96×128",
+  "poses": [
+    {
+      "pose": "neutral",
+      "sourcePelvis": [
+        43,
+        95
+      ],
+      "translation": [
+        0,
+        0
+      ]
+    },
+    {
+      "pose": "hand-chest",
+      "sourcePelvis": [
+        38,
+        95
+      ],
+      "translation": [
+        5,
+        0
+      ]
+    },
+    {
+      "pose": "hand-mouth",
+      "sourcePelvis": [
+        43,
+        89
+      ],
+      "translation": [
+        0,
+        6
+      ]
+    },
+    {
+      "pose": "reach",
+      "sourcePelvis": [
+        38,
+        89
+      ],
+      "translation": [
+        5,
+        6
+      ]
+    }
+  ],
+  "basis": "Pelvis points manually read from whole generated native pose, checked against matching trouser/hip silhouette. Only integer translations, no bounding-box fitting or body resize."
+}

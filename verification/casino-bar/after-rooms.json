@@ -1,0 +1,2340 @@
+{
+  "rooms": [
+    {
+      "id": "messages",
+      "label": "Кафе БЗИКЕР",
+      "kind": "cafe",
+      "width": 1432,
+      "height": 784,
+      "bounds": {
+        "left": 283.845118,
+        "right": 1148.154882,
+        "top": 254,
+        "bottom": 654
+      },
+      "door": {
+        "x": 6116,
+        "y": 7392
+      },
+      "spawn": {
+        "x": 716.0,
+        "y": 609
+      },
+      "exit": {
+        "x": 716.0,
+        "y": 634
+      },
+      "action": {
+        "id": "messages",
+        "label": "Сообщения и знакомства",
+        "prop_id": "service",
+        "x": 461.845118,
+        "y": 357,
+        "radius": 110
+      },
+      "solids": [
+        {
+          "prop_id": "service",
+          "x": 321.845118,
+          "y": 282,
+          "width": 280.0,
+          "height": 50
+        },
+        {
+          "prop_id": "staff",
+          "x": 631.845118,
+          "y": 306,
+          "width": 24,
+          "height": 14
+        },
+        {
+          "prop_id": "bar-stool-1",
+          "x": 350.7764155,
+          "y": 382,
+          "width": 42.137405,
+          "height": 28
+        },
+        {
+          "prop_id": "bar-stool-2",
+          "x": 440.7764155,
+          "y": 382,
+          "width": 42.137405,
+          "height": 28
+        },
+        {
+          "prop_id": "bar-stool-3",
+          "x": 530.7764155,
+          "y": 382,
+          "width": 42.137405,
+          "height": 28
+        },
+        {
+          "prop_id": "table-1",
+          "x": 922.6994365,
+          "y": 384,
+          "width": 80.910891,
+          "height": 42
+        },
+        {
+          "prop_id": "table-1:left",
+          "x": 849.3299485,
+          "y": 394,
+          "width": 35.649867,
+          "height": 28
+        },
+        {
+          "prop_id": "table-1:right",
+          "x": 1040.222945,
+          "y": 394,
+          "width": 37.863874,
+          "height": 28
+        },
+        {
+          "prop_id": "table-2",
+          "x": 448.3896725,
+          "y": 546,
+          "width": 80.910891,
+          "height": 42
+        },
+        {
+          "prop_id": "table-2:left",
+          "x": 375.0201845,
+          "y": 556,
+          "width": 35.649867,
+          "height": 28
+        },
+        {
+          "prop_id": "table-2:right",
+          "x": 565.913181,
+          "y": 556,
+          "width": 37.863874,
+          "height": 28
+        },
+        {
+          "prop_id": "table-3",
+          "x": 902.6994365,
+          "y": 546,
+          "width": 80.910891,
+          "height": 42
+        },
+        {
+          "prop_id": "table-3:left",
+          "x": 829.3299485,
+          "y": 556,
+          "width": 35.649867,
+          "height": 28
+        },
+        {
+          "prop_id": "table-3:right",
+          "x": 1020.2229450000001,
+          "y": 556,
+          "width": 37.863874,
+          "height": 28
+        }
+      ],
+      "seats": [
+        {
+          "id": "interior:messages:bar-stool-1",
+          "prop_id": "bar-stool-1",
+          "x": 350.7764155,
+          "y": 382,
+          "width": 42.137405,
+          "height": 28,
+          "seat": {
+            "x": 371.84511799999996,
+            "y": 410
+          },
+          "approach": {
+            "x": 371.84511799999996,
+            "y": 446
+          },
+          "facing": "up"
+        },
+        {
+          "id": "interior:messages:bar-stool-2",
+          "prop_id": "bar-stool-2",
+          "x": 440.7764155,
+          "y": 382,
+          "width": 42.137405,
+          "height": 28,
+          "seat": {
+            "x": 461.84511799999996,
+            "y": 410
+          },
+          "approach": {
+            "x": 461.84511799999996,
+            "y": 446
+          },
+          "facing": "up"
+        },
+        {
+          "id": "interior:messages:bar-stool-3",
+          "prop_id": "bar-stool-3",
+          "x": 530.7764155,
+          "y": 382,
+          "width": 42.137405,
+          "height": 28,
+          "seat": {
+            "x": 551.845118,
+            "y": 410
+          },
+          "approach": {
+            "x": 551.845118,
+            "y": 446
+          },
+          "facing": "up"
+        },
+        {
+          "id": "interior:messages:table-1:left",
+          "prop_id": "table-1:left",
+          "x": 849.3299485,
+          "y": 394,
+          "width": 35.649867,
+          "height": 28,
+          "seat": {
+            "x": 867.154882,
+            "y": 422
+          },
+          "approach": {
+            "x": 813.3299485,
+            "y": 422
+          },
+          "facing": "right",
+          "table_id": "table-1"
+        },
+        {
+          "id": "interior:messages:table-1:right",
+          "prop_id": "table-1:right",
+          "x": 1040.222945,
+          "y": 394,
+          "width": 37.863874,
+          "height": 28,
+          "seat": {
+            "x": 1059.154882,
+            "y": 422
+          },
+          "approach": {
+            "x": 1114.0868189999999,
+            "y": 422
+          },
+          "facing": "left",
+          "table_id": "table-1"
+        },
+        {
+          "id": "interior:messages:table-2:left",
+          "prop_id": "table-2:left",
+          "x": 375.0201845,
+          "y": 556,
+          "width": 35.649867,
+          "height": 28,
+          "seat": {
+            "x": 392.845118,
+            "y": 584
+          },
+          "approach": {
+            "x": 339.0201845,
+            "y": 584
+          },
+          "facing": "right",
+          "table_id": "table-2"
+        },
+        {
+          "id": "interior:messages:table-2:right",
+          "prop_id": "table-2:right",
+          "x": 565.913181,
+          "y": 556,
+          "width": 37.863874,
+          "height": 28,
+          "seat": {
+            "x": 584.845118,
+            "y": 584
+          },
+          "approach": {
+            "x": 639.777055,
+            "y": 584
+          },
+          "facing": "left",
+          "table_id": "table-2"
+        },
+        {
+          "id": "interior:messages:table-3:left",
+          "prop_id": "table-3:left",
+          "x": 829.3299485,
+          "y": 556,
+          "width": 35.649867,
+          "height": 28,
+          "seat": {
+            "x": 847.154882,
+            "y": 584
+          },
+          "approach": {
+            "x": 793.3299485,
+            "y": 584
+          },
+          "facing": "right",
+          "table_id": "table-3"
+        },
+        {
+          "id": "interior:messages:table-3:right",
+          "prop_id": "table-3:right",
+          "x": 1020.2229450000001,
+          "y": 556,
+          "width": 37.863874,
+          "height": 28,
+          "seat": {
+            "x": 1039.154882,
+            "y": 584
+          },
+          "approach": {
+            "x": 1094.086819,
+            "y": 584
+          },
+          "facing": "left",
+          "table_id": "table-3"
+        }
+      ],
+      "counter": {
+        "x": 321.845118,
+        "y": 282,
+        "width": 280.0,
+        "height": 50
+      },
+      "cutouts": [],
+      "props": [
+        {
+          "id": "service",
+          "type": "bar",
+          "x": 321.845118,
+          "y": 282,
+          "width": 280.0,
+          "height": 50,
+          "solid": true,
+          "source_asset": "bar-pivkovy-tuz-interior-counter",
+          "source_direction": "front",
+          "visual": {
+            "x": 461.845118,
+            "y": 332,
+            "width": 280.0,
+            "height": 96,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 332
+        },
+        {
+          "id": "bar-stool-1",
+          "type": "chair",
+          "x": 350.7764155,
+          "y": 382,
+          "width": 42.137405,
+          "height": 28,
+          "solid": true,
+          "source_asset": "bar-pivkovy-tuz-interior-bar-stool",
+          "source_direction": "front",
+          "visual": {
+            "x": 371.8451175,
+            "y": 410,
+            "width": 42.137405,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 410
+        },
+        {
+          "id": "bar-stool-2",
+          "type": "chair",
+          "x": 440.7764155,
+          "y": 382,
+          "width": 42.137405,
+          "height": 28,
+          "solid": true,
+          "source_asset": "bar-pivkovy-tuz-interior-bar-stool",
+          "source_direction": "front",
+          "visual": {
+            "x": 461.8451175,
+            "y": 410,
+            "width": 42.137405,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 410
+        },
+        {
+          "id": "bar-stool-3",
+          "type": "chair",
+          "x": 530.7764155,
+          "y": 382,
+          "width": 42.137405,
+          "height": 28,
+          "solid": true,
+          "source_asset": "bar-pivkovy-tuz-interior-bar-stool",
+          "source_direction": "front",
+          "visual": {
+            "x": 551.8451175,
+            "y": 410,
+            "width": 42.137405,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 410
+        },
+        {
+          "id": "table-1",
+          "type": "table",
+          "x": 922.6994365,
+          "y": 384,
+          "width": 80.910891,
+          "height": 42,
+          "solid": true,
+          "source_asset": "bar-pivkovy-tuz-interior-pub-table",
+          "source_direction": "front",
+          "visual": {
+            "x": 963.1548825,
+            "y": 426,
+            "width": 80.910891,
+            "height": 72,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 426
+        },
+        {
+          "id": "table-1:left",
+          "type": "chair",
+          "x": 849.3299485,
+          "y": 394,
+          "width": 35.649867,
+          "height": 28,
+          "solid": true,
+          "source_asset": "bar-pivkovy-tuz-interior-chair",
+          "source_direction": "right",
+          "visual": {
+            "x": 867.1548825,
+            "y": 422,
+            "width": 35.649867,
+            "height": 64,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 422
+        },
+        {
+          "id": "table-1:right",
+          "type": "chair",
+          "x": 1040.222945,
+          "y": 394,
+          "width": 37.863874,
+          "height": 28,
+          "solid": true,
+          "source_asset": "bar-pivkovy-tuz-interior-chair",
+          "source_direction": "left",
+          "visual": {
+            "x": 1059.154882,
+            "y": 422,
+            "width": 37.863874,
+            "height": 64,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 422
+        },
+        {
+          "id": "table-2",
+          "type": "table",
+          "x": 448.3896725,
+          "y": 546,
+          "width": 80.910891,
+          "height": 42,
+          "solid": true,
+          "source_asset": "bar-pivkovy-tuz-interior-pub-table",
+          "source_direction": "front",
+          "visual": {
+            "x": 488.8451175,
+            "y": 588,
+            "width": 80.910891,
+            "height": 72,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 588
+        },
+        {
+          "id": "table-2:left",
+          "type": "chair",
+          "x": 375.0201845,
+          "y": 556,
+          "width": 35.649867,
+          "height": 28,
+          "solid": true,
+          "source_asset": "bar-pivkovy-tuz-interior-chair",
+          "source_direction": "right",
+          "visual": {
+            "x": 392.8451175,
+            "y": 584,
+            "width": 35.649867,
+            "height": 64,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 584
+        },
+        {
+          "id": "table-2:right",
+          "type": "chair",
+          "x": 565.913181,
+          "y": 556,
+          "width": 37.863874,
+          "height": 28,
+          "solid": true,
+          "source_asset": "bar-pivkovy-tuz-interior-chair",
+          "source_direction": "left",
+          "visual": {
+            "x": 584.8451180000001,
+            "y": 584,
+            "width": 37.863874,
+            "height": 64,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 584
+        },
+        {
+          "id": "table-3",
+          "type": "table",
+          "x": 902.6994365,
+          "y": 546,
+          "width": 80.910891,
+          "height": 42,
+          "solid": true,
+          "source_asset": "bar-pivkovy-tuz-interior-pub-table",
+          "source_direction": "front",
+          "visual": {
+            "x": 943.1548825,
+            "y": 588,
+            "width": 80.910891,
+            "height": 72,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 588
+        },
+        {
+          "id": "table-3:left",
+          "type": "chair",
+          "x": 829.3299485,
+          "y": 556,
+          "width": 35.649867,
+          "height": 28,
+          "solid": true,
+          "source_asset": "bar-pivkovy-tuz-interior-chair",
+          "source_direction": "right",
+          "visual": {
+            "x": 847.1548825,
+            "y": 584,
+            "width": 35.649867,
+            "height": 64,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 584
+        },
+        {
+          "id": "table-3:right",
+          "type": "chair",
+          "x": 1020.2229450000001,
+          "y": 556,
+          "width": 37.863874,
+          "height": 28,
+          "solid": true,
+          "source_asset": "bar-pivkovy-tuz-interior-chair",
+          "source_direction": "left",
+          "visual": {
+            "x": 1039.154882,
+            "y": 584,
+            "width": 37.863874,
+            "height": 64,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 584
+        }
+      ],
+      "zones": [],
+      "entry_label": "КАФЕ · СТОЛИКИ И ЗНАКОМСТВА",
+      "layout_version": 23,
+      "visual_version": 25,
+      "modular_source": true,
+      "source_family": "bar-pivkovy-tuz",
+      "interaction_radius": 110,
+      "source_reference": "bar-pivkovy-tuz-interior",
+      "surfaces": [
+        {
+          "id": "floor",
+          "asset_id": "bar-pivkovy-tuz-interior-floor",
+          "visual": {
+            "x": 716.0,
+            "y": 714,
+            "width": 1271.043771,
+            "height": 500,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 283.845118,
+            "y": 254,
+            "width": 864.3097640000001,
+            "height": 400
+          }
+        },
+        {
+          "id": "back-wall",
+          "asset_id": "bar-pivkovy-tuz-interior-back-wall",
+          "visual": {
+            "x": 367.647668,
+            "y": 261.471503,
+            "width": 696.704663,
+            "height": 181.471503,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 283.845118,
+            "y": 80,
+            "width": 433.154882,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 254,
+            "wall_native_y": 208,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "back-wall-1",
+          "asset_id": "bar-pivkovy-tuz-interior-back-wall",
+          "visual": {
+            "x": 1064.352332,
+            "y": 261.471503,
+            "width": 696.704663,
+            "height": 181.471503,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 715.0,
+            "y": 80,
+            "width": 433.15488200000004,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 254,
+            "wall_native_y": 208,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "front-cutaway",
+          "asset_id": "bar-pivkovy-tuz-interior-back-wall",
+          "visual": {
+            "x": 621.694364,
+            "y": 674,
+            "width": 675.698492,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 283.845118,
+            "y": 654,
+            "width": 864.3097640000001,
+            "height": 20
+          }
+        },
+        {
+          "id": "front-cutaway-1",
+          "asset_id": "bar-pivkovy-tuz-interior-back-wall",
+          "visual": {
+            "x": 1297.392857,
+            "y": 674,
+            "width": 675.698492,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 283.845118,
+            "y": 654,
+            "width": 864.3097640000001,
+            "height": 20
+          }
+        }
+      ],
+      "details": [
+        {
+          "id": "bottle-shelf",
+          "asset_id": "bar-pivkovy-tuz-interior-bottle-shelf",
+          "source_direction": "front",
+          "visual": {
+            "x": 461.845118,
+            "y": 205.44,
+            "width": 152.767528,
+            "height": 100,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 205.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "window",
+          "asset_id": "bar-pivkovy-tuz-interior-window",
+          "source_direction": "front",
+          "visual": {
+            "x": 975.292929,
+            "y": 190.44,
+            "width": 100.473186,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 190.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "door",
+          "asset_id": "bar-pivkovy-tuz-interior-door",
+          "source_direction": "front",
+          "visual": {
+            "x": 309.774411,
+            "y": 256,
+            "width": 47.056686,
+            "height": 125,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 256,
+          "interactive": false,
+          "collision": false,
+          "mounting": "floor"
+        },
+        {
+          "id": "sign",
+          "asset_id": "bar-pivkovy-tuz-interior-sign",
+          "source_direction": "front",
+          "visual": {
+            "x": 724.643098,
+            "y": 179.53621,
+            "width": 190.0,
+            "height": 48.19242,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 179.53621,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "pendant-1",
+          "asset_id": "bar-pivkovy-tuz-interior-pendant",
+          "source_direction": "front",
+          "visual": {
+            "x": 586.353535,
+            "y": 154,
+            "width": 36.408669,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 154,
+          "interactive": false,
+          "collision": false,
+          "mounting": "ceiling"
+        },
+        {
+          "id": "pendant-2",
+          "asset_id": "bar-pivkovy-tuz-interior-pendant",
+          "source_direction": "front",
+          "visual": {
+            "x": 888.861953,
+            "y": 154,
+            "width": 36.408669,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 154,
+          "interactive": false,
+          "collision": false,
+          "mounting": "ceiling"
+        },
+        {
+          "id": "wall-light-1",
+          "asset_id": "bar-pivkovy-tuz-interior-wall-lamp",
+          "source_direction": "front",
+          "visual": {
+            "x": 359.845118,
+            "y": 185.44,
+            "width": 23.396226,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 185.44,
+          "interactive": false,
+          "collision": false,
+          "preferred_x": 359.84511784511784,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-2",
+          "asset_id": "bar-pivkovy-tuz-interior-wall-lamp",
+          "source_direction": "front",
+          "visual": {
+            "x": 1088.154882,
+            "y": 185.44,
+            "width": 23.396226,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 185.44,
+          "interactive": false,
+          "collision": false,
+          "preferred_x": 1088.1548821548822,
+          "mounting": "wall-centre"
+        }
+      ],
+      "actor_height": 80,
+      "floor_material": {
+        "asset_id": "clan-surface-floor-board-texture",
+        "color": null,
+        "tile_world_size": [
+          320,
+          320
+        ],
+        "regions": [
+          [
+            [
+              283.845118,
+              254
+            ],
+            [
+              1148.154882,
+              254
+            ],
+            [
+              1148.154882,
+              654
+            ],
+            [
+              283.845118,
+              654
+            ]
+          ]
+        ]
+      },
+      "circulation": {
+        "entry": {
+          "x": 652.0,
+          "y": 434,
+          "width": 128,
+          "height": 220
+        }
+      },
+      "staff": {
+        "x": 643.845118,
+        "y": 320,
+        "source_asset": "mascot-location-bar",
+        "source_direction": "front",
+        "visual": {
+          "x": 643.845118,
+          "y": 320,
+          "width": 51.012623,
+          "height": 84,
+          "anchorX": 0.5,
+          "anchorY": 1,
+          "crop": "solid"
+        },
+        "depth": 320,
+        "footprint": {
+          "x": 631.845118,
+          "y": 306,
+          "width": 24,
+          "height": 14
+        }
+      },
+      "plan_version": 26,
+      "wall_body_height": 176,
+      "wall_cutaway": {
+        "asset_id": "clan-surface-wall-wood-texture",
+        "tile_world_size": [
+          160,
+          160
+        ],
+        "color": null,
+        "regions": [
+          {
+            "x": 265.845118,
+            "y": 254,
+            "width": 18,
+            "height": 420
+          },
+          {
+            "x": 1148.154882,
+            "y": 254,
+            "width": 18,
+            "height": 420
+          },
+          {
+            "x": 283.845118,
+            "y": 654,
+            "width": 864.3097640000001,
+            "height": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "casino",
+      "label": "Казино БЗИКЕР",
+      "kind": "casino",
+      "width": 1808,
+      "height": 864,
+      "bounds": {
+        "left": 343.827027,
+        "right": 1464.172973,
+        "top": 274,
+        "bottom": 734
+      },
+      "door": {
+        "x": 4734,
+        "y": 5048
+      },
+      "spawn": {
+        "x": 904.0,
+        "y": 689
+      },
+      "exit": {
+        "x": 904.0,
+        "y": 714
+      },
+      "action": {
+        "id": "casino",
+        "label": "Карточные комнаты и слоты",
+        "prop_id": "service",
+        "x": 477.917936,
+        "y": 381,
+        "radius": 110
+      },
+      "solids": [
+        {
+          "prop_id": "service",
+          "x": 388.827027,
+          "y": 296,
+          "width": 178.181818,
+          "height": 45
+        },
+        {
+          "prop_id": "staff",
+          "x": 597.008845,
+          "y": 315,
+          "width": 24,
+          "height": 14
+        },
+        {
+          "prop_id": "slot-1",
+          "x": 805.4623895,
+          "y": 298,
+          "width": 73.075221,
+          "height": 38
+        },
+        {
+          "prop_id": "slot-seat-1",
+          "x": 821.9753694999999,
+          "y": 399,
+          "width": 40.049261,
+          "height": 28
+        },
+        {
+          "prop_id": "slot-2",
+          "x": 929.4623895,
+          "y": 298,
+          "width": 73.075221,
+          "height": 38
+        },
+        {
+          "prop_id": "slot-seat-2",
+          "x": 945.9753694999999,
+          "y": 399,
+          "width": 40.049261,
+          "height": 28
+        },
+        {
+          "prop_id": "bar",
+          "x": 1146.586766,
+          "y": 304,
+          "width": 275.172414,
+          "height": 45
+        },
+        {
+          "prop_id": "bar-seat-1",
+          "x": 1207.781024,
+          "y": 404,
+          "width": 40.783898,
+          "height": 28
+        },
+        {
+          "prop_id": "bar-seat-2",
+          "x": 1319.781024,
+          "y": 404,
+          "width": 40.783898,
+          "height": 28
+        },
+        {
+          "prop_id": "roulette",
+          "x": 463.227027,
+          "y": 556,
+          "width": 241.2,
+          "height": 55
+        },
+        {
+          "prop_id": "roulette:north-1",
+          "x": 484.379791,
+          "y": 489,
+          "width": 38.894472,
+          "height": 25
+        },
+        {
+          "prop_id": "roulette:south-1",
+          "x": 483.8023965,
+          "y": 649,
+          "width": 40.049261,
+          "height": 30
+        },
+        {
+          "prop_id": "roulette:north-2",
+          "x": 564.3797910000001,
+          "y": 489,
+          "width": 38.894472,
+          "height": 25
+        },
+        {
+          "prop_id": "roulette:south-2",
+          "x": 563.8023965,
+          "y": 649,
+          "width": 40.049261,
+          "height": 30
+        },
+        {
+          "prop_id": "roulette:north-3",
+          "x": 644.3797910000001,
+          "y": 489,
+          "width": 38.894472,
+          "height": 25
+        },
+        {
+          "prop_id": "roulette:south-3",
+          "x": 643.8023965,
+          "y": 649,
+          "width": 40.049261,
+          "height": 30
+        },
+        {
+          "prop_id": "poker-one",
+          "x": 1101.4214935,
+          "y": 556,
+          "width": 245.502959,
+          "height": 55
+        },
+        {
+          "prop_id": "poker-one:north-1",
+          "x": 1124.725737,
+          "y": 489,
+          "width": 38.894472,
+          "height": 25
+        },
+        {
+          "prop_id": "poker-one:south-1",
+          "x": 1124.1483425,
+          "y": 649,
+          "width": 40.049261,
+          "height": 30
+        },
+        {
+          "prop_id": "poker-one:north-2",
+          "x": 1204.725737,
+          "y": 489,
+          "width": 38.894472,
+          "height": 25
+        },
+        {
+          "prop_id": "poker-one:south-2",
+          "x": 1204.1483425,
+          "y": 649,
+          "width": 40.049261,
+          "height": 30
+        },
+        {
+          "prop_id": "poker-one:north-3",
+          "x": 1284.725737,
+          "y": 489,
+          "width": 38.894472,
+          "height": 25
+        },
+        {
+          "prop_id": "poker-one:south-3",
+          "x": 1284.1483425,
+          "y": 649,
+          "width": 40.049261,
+          "height": 30
+        },
+        {
+          "prop_id": "plant",
+          "x": 1398.6375225,
+          "y": 379,
+          "width": 51.070901,
+          "height": 28
+        }
+      ],
+      "seats": [
+        {
+          "id": "interior:casino:slots:seat-1",
+          "prop_id": "slot-seat-1",
+          "x": 821.9753694999999,
+          "y": 399,
+          "width": 40.049261,
+          "height": 28,
+          "seat": {
+            "x": 842.0,
+            "y": 427
+          },
+          "approach": {
+            "x": 842.0,
+            "y": 463
+          },
+          "facing": "up"
+        },
+        {
+          "id": "interior:casino:slots:seat-2",
+          "prop_id": "slot-seat-2",
+          "x": 945.9753694999999,
+          "y": 399,
+          "width": 40.049261,
+          "height": 28,
+          "seat": {
+            "x": 966.0,
+            "y": 427
+          },
+          "approach": {
+            "x": 966.0,
+            "y": 463
+          },
+          "facing": "up"
+        },
+        {
+          "id": "interior:casino:bar:seat-1",
+          "prop_id": "bar-seat-1",
+          "x": 1207.781024,
+          "y": 404,
+          "width": 40.783898,
+          "height": 28,
+          "seat": {
+            "x": 1228.172973,
+            "y": 432
+          },
+          "approach": {
+            "x": 1228.172973,
+            "y": 468
+          },
+          "facing": "up"
+        },
+        {
+          "id": "interior:casino:bar:seat-2",
+          "prop_id": "bar-seat-2",
+          "x": 1319.781024,
+          "y": 404,
+          "width": 40.783898,
+          "height": 28,
+          "seat": {
+            "x": 1340.172973,
+            "y": 432
+          },
+          "approach": {
+            "x": 1340.172973,
+            "y": 468
+          },
+          "facing": "up"
+        },
+        {
+          "id": "interior:casino:roulette:north-1",
+          "prop_id": "roulette:north-1",
+          "x": 484.379791,
+          "y": 489,
+          "width": 38.894472,
+          "height": 25,
+          "seat": {
+            "x": 503.827027,
+            "y": 514
+          },
+          "approach": {
+            "x": 503.827027,
+            "y": 453
+          },
+          "facing": "down",
+          "table_id": "roulette"
+        },
+        {
+          "id": "interior:casino:roulette:south-1",
+          "prop_id": "roulette:south-1",
+          "x": 483.8023965,
+          "y": 649,
+          "width": 40.049261,
+          "height": 30,
+          "seat": {
+            "x": 503.827027,
+            "y": 679
+          },
+          "approach": {
+            "x": 503.827027,
+            "y": 715
+          },
+          "facing": "up",
+          "table_id": "roulette"
+        },
+        {
+          "id": "interior:casino:roulette:north-2",
+          "prop_id": "roulette:north-2",
+          "x": 564.3797910000001,
+          "y": 489,
+          "width": 38.894472,
+          "height": 25,
+          "seat": {
+            "x": 583.827027,
+            "y": 514
+          },
+          "approach": {
+            "x": 583.827027,
+            "y": 453
+          },
+          "facing": "down",
+          "table_id": "roulette"
+        },
+        {
+          "id": "interior:casino:roulette:south-2",
+          "prop_id": "roulette:south-2",
+          "x": 563.8023965,
+          "y": 649,
+          "width": 40.049261,
+          "height": 30,
+          "seat": {
+            "x": 583.827027,
+            "y": 679
+          },
+          "approach": {
+            "x": 583.827027,
+            "y": 715
+          },
+          "facing": "up",
+          "table_id": "roulette"
+        },
+        {
+          "id": "interior:casino:roulette:north-3",
+          "prop_id": "roulette:north-3",
+          "x": 644.3797910000001,
+          "y": 489,
+          "width": 38.894472,
+          "height": 25,
+          "seat": {
+            "x": 663.827027,
+            "y": 514
+          },
+          "approach": {
+            "x": 663.827027,
+            "y": 453
+          },
+          "facing": "down",
+          "table_id": "roulette"
+        },
+        {
+          "id": "interior:casino:roulette:south-3",
+          "prop_id": "roulette:south-3",
+          "x": 643.8023965,
+          "y": 649,
+          "width": 40.049261,
+          "height": 30,
+          "seat": {
+            "x": 663.827027,
+            "y": 679
+          },
+          "approach": {
+            "x": 663.827027,
+            "y": 715
+          },
+          "facing": "up",
+          "table_id": "roulette"
+        },
+        {
+          "id": "interior:casino:poker-one:north-1",
+          "prop_id": "poker-one:north-1",
+          "x": 1124.725737,
+          "y": 489,
+          "width": 38.894472,
+          "height": 25,
+          "seat": {
+            "x": 1144.172973,
+            "y": 514
+          },
+          "approach": {
+            "x": 1144.172973,
+            "y": 453
+          },
+          "facing": "down",
+          "table_id": "poker-one"
+        },
+        {
+          "id": "interior:casino:poker-one:south-1",
+          "prop_id": "poker-one:south-1",
+          "x": 1124.1483425,
+          "y": 649,
+          "width": 40.049261,
+          "height": 30,
+          "seat": {
+            "x": 1144.172973,
+            "y": 679
+          },
+          "approach": {
+            "x": 1144.172973,
+            "y": 715
+          },
+          "facing": "up",
+          "table_id": "poker-one"
+        },
+        {
+          "id": "interior:casino:poker-one:north-2",
+          "prop_id": "poker-one:north-2",
+          "x": 1204.725737,
+          "y": 489,
+          "width": 38.894472,
+          "height": 25,
+          "seat": {
+            "x": 1224.172973,
+            "y": 514
+          },
+          "approach": {
+            "x": 1224.172973,
+            "y": 453
+          },
+          "facing": "down",
+          "table_id": "poker-one"
+        },
+        {
+          "id": "interior:casino:poker-one:south-2",
+          "prop_id": "poker-one:south-2",
+          "x": 1204.1483425,
+          "y": 649,
+          "width": 40.049261,
+          "height": 30,
+          "seat": {
+            "x": 1224.172973,
+            "y": 679
+          },
+          "approach": {
+            "x": 1224.172973,
+            "y": 715
+          },
+          "facing": "up",
+          "table_id": "poker-one"
+        },
+        {
+          "id": "interior:casino:poker-one:north-3",
+          "prop_id": "poker-one:north-3",
+          "x": 1284.725737,
+          "y": 489,
+          "width": 38.894472,
+          "height": 25,
+          "seat": {
+            "x": 1304.172973,
+            "y": 514
+          },
+          "approach": {
+            "x": 1304.172973,
+            "y": 453
+          },
+          "facing": "down",
+          "table_id": "poker-one"
+        },
+        {
+          "id": "interior:casino:poker-one:south-3",
+          "prop_id": "poker-one:south-3",
+          "x": 1284.1483425,
+          "y": 649,
+          "width": 40.049261,
+          "height": 30,
+          "seat": {
+            "x": 1304.172973,
+            "y": 679
+          },
+          "approach": {
+            "x": 1304.172973,
+            "y": 715
+          },
+          "facing": "up",
+          "table_id": "poker-one"
+        }
+      ],
+      "counter": {
+        "x": 388.827027,
+        "y": 296,
+        "width": 178.181818,
+        "height": 45
+      },
+      "cutouts": [],
+      "props": [
+        {
+          "id": "service",
+          "type": "cashier",
+          "x": 388.827027,
+          "y": 296,
+          "width": 178.181818,
+          "height": 45,
+          "solid": true,
+          "source_asset": "casino-interior-cash-module",
+          "source_direction": "front",
+          "visual": {
+            "x": 477.917936,
+            "y": 341,
+            "width": 178.181818,
+            "height": 140,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 341
+        },
+        {
+          "id": "slot-1",
+          "type": "slot",
+          "x": 805.4623895,
+          "y": 298,
+          "width": 73.075221,
+          "height": 38,
+          "solid": true,
+          "source_asset": "casino-interior-slot",
+          "source_direction": "front",
+          "visual": {
+            "x": 842.0000004999999,
+            "y": 336,
+            "width": 73.075221,
+            "height": 135,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 336
+        },
+        {
+          "id": "slot-seat-1",
+          "type": "chair",
+          "x": 821.9753694999999,
+          "y": 399,
+          "width": 40.049261,
+          "height": 28,
+          "solid": true,
+          "source_asset": "casino-interior-chair-front",
+          "source_direction": "back",
+          "visual": {
+            "x": 842.0000004999999,
+            "y": 427,
+            "width": 40.049261,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 427
+        },
+        {
+          "id": "slot-2",
+          "type": "slot",
+          "x": 929.4623895,
+          "y": 298,
+          "width": 73.075221,
+          "height": 38,
+          "solid": true,
+          "source_asset": "casino-interior-slot",
+          "source_direction": "front",
+          "visual": {
+            "x": 966.0000004999999,
+            "y": 336,
+            "width": 73.075221,
+            "height": 135,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 336
+        },
+        {
+          "id": "slot-seat-2",
+          "type": "chair",
+          "x": 945.9753694999999,
+          "y": 399,
+          "width": 40.049261,
+          "height": 28,
+          "solid": true,
+          "source_asset": "casino-interior-chair-front",
+          "source_direction": "back",
+          "visual": {
+            "x": 966.0000004999999,
+            "y": 427,
+            "width": 40.049261,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 427
+        },
+        {
+          "id": "bar",
+          "type": "bar",
+          "x": 1146.586766,
+          "y": 304,
+          "width": 275.172414,
+          "height": 45,
+          "solid": true,
+          "source_asset": "casino-interior-bar-counter",
+          "source_direction": "front",
+          "visual": {
+            "x": 1284.172973,
+            "y": 349,
+            "width": 275.172414,
+            "height": 95,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 349
+        },
+        {
+          "id": "bar-seat-1",
+          "type": "chair",
+          "x": 1207.781024,
+          "y": 404,
+          "width": 40.783898,
+          "height": 28,
+          "solid": true,
+          "source_asset": "casino-interior-bar-stool",
+          "source_direction": "front",
+          "visual": {
+            "x": 1228.172973,
+            "y": 432,
+            "width": 40.783898,
+            "height": 55,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 432
+        },
+        {
+          "id": "bar-seat-2",
+          "type": "chair",
+          "x": 1319.781024,
+          "y": 404,
+          "width": 40.783898,
+          "height": 28,
+          "solid": true,
+          "source_asset": "casino-interior-bar-stool",
+          "source_direction": "front",
+          "visual": {
+            "x": 1340.172973,
+            "y": 432,
+            "width": 40.783898,
+            "height": 55,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 432
+        },
+        {
+          "id": "roulette",
+          "type": "roulette-table",
+          "x": 463.227027,
+          "y": 556,
+          "width": 241.2,
+          "height": 55,
+          "solid": true,
+          "source_asset": "casino-interior-roulette",
+          "source_direction": "front",
+          "visual": {
+            "x": 583.8270269999999,
+            "y": 611,
+            "width": 241.2,
+            "height": 90,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 611
+        },
+        {
+          "id": "roulette:north-1",
+          "type": "chair",
+          "x": 484.379791,
+          "y": 489,
+          "width": 38.894472,
+          "height": 25,
+          "solid": true,
+          "source_asset": "casino-interior-chair-front",
+          "source_direction": "front",
+          "visual": {
+            "x": 503.82702700000004,
+            "y": 514,
+            "width": 38.894472,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 514
+        },
+        {
+          "id": "roulette:south-1",
+          "type": "chair",
+          "x": 483.8023965,
+          "y": 649,
+          "width": 40.049261,
+          "height": 30,
+          "solid": true,
+          "source_asset": "casino-interior-chair-front",
+          "source_direction": "back",
+          "visual": {
+            "x": 503.82702750000004,
+            "y": 679,
+            "width": 40.049261,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 679
+        },
+        {
+          "id": "roulette:north-2",
+          "type": "chair",
+          "x": 564.3797910000001,
+          "y": 489,
+          "width": 38.894472,
+          "height": 25,
+          "solid": true,
+          "source_asset": "casino-interior-chair-front",
+          "source_direction": "front",
+          "visual": {
+            "x": 583.827027,
+            "y": 514,
+            "width": 38.894472,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 514
+        },
+        {
+          "id": "roulette:south-2",
+          "type": "chair",
+          "x": 563.8023965,
+          "y": 649,
+          "width": 40.049261,
+          "height": 30,
+          "solid": true,
+          "source_asset": "casino-interior-chair-front",
+          "source_direction": "back",
+          "visual": {
+            "x": 583.8270275,
+            "y": 679,
+            "width": 40.049261,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 679
+        },
+        {
+          "id": "roulette:north-3",
+          "type": "chair",
+          "x": 644.3797910000001,
+          "y": 489,
+          "width": 38.894472,
+          "height": 25,
+          "solid": true,
+          "source_asset": "casino-interior-chair-front",
+          "source_direction": "front",
+          "visual": {
+            "x": 663.827027,
+            "y": 514,
+            "width": 38.894472,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 514
+        },
+        {
+          "id": "roulette:south-3",
+          "type": "chair",
+          "x": 643.8023965,
+          "y": 649,
+          "width": 40.049261,
+          "height": 30,
+          "solid": true,
+          "source_asset": "casino-interior-chair-front",
+          "source_direction": "back",
+          "visual": {
+            "x": 663.8270275,
+            "y": 679,
+            "width": 40.049261,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 679
+        },
+        {
+          "id": "poker-one",
+          "type": "poker-table",
+          "x": 1101.4214935,
+          "y": 556,
+          "width": 245.502959,
+          "height": 55,
+          "solid": true,
+          "source_asset": "casino-interior-card-table",
+          "source_direction": "front",
+          "visual": {
+            "x": 1224.1729725,
+            "y": 611,
+            "width": 245.502959,
+            "height": 90,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 611
+        },
+        {
+          "id": "poker-one:north-1",
+          "type": "chair",
+          "x": 1124.725737,
+          "y": 489,
+          "width": 38.894472,
+          "height": 25,
+          "solid": true,
+          "source_asset": "casino-interior-chair-front",
+          "source_direction": "front",
+          "visual": {
+            "x": 1144.172973,
+            "y": 514,
+            "width": 38.894472,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 514
+        },
+        {
+          "id": "poker-one:south-1",
+          "type": "chair",
+          "x": 1124.1483425,
+          "y": 649,
+          "width": 40.049261,
+          "height": 30,
+          "solid": true,
+          "source_asset": "casino-interior-chair-front",
+          "source_direction": "back",
+          "visual": {
+            "x": 1144.1729725,
+            "y": 679,
+            "width": 40.049261,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 679
+        },
+        {
+          "id": "poker-one:north-2",
+          "type": "chair",
+          "x": 1204.725737,
+          "y": 489,
+          "width": 38.894472,
+          "height": 25,
+          "solid": true,
+          "source_asset": "casino-interior-chair-front",
+          "source_direction": "front",
+          "visual": {
+            "x": 1224.172973,
+            "y": 514,
+            "width": 38.894472,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 514
+        },
+        {
+          "id": "poker-one:south-2",
+          "type": "chair",
+          "x": 1204.1483425,
+          "y": 649,
+          "width": 40.049261,
+          "height": 30,
+          "solid": true,
+          "source_asset": "casino-interior-chair-front",
+          "source_direction": "back",
+          "visual": {
+            "x": 1224.1729725,
+            "y": 679,
+            "width": 40.049261,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 679
+        },
+        {
+          "id": "poker-one:north-3",
+          "type": "chair",
+          "x": 1284.725737,
+          "y": 489,
+          "width": 38.894472,
+          "height": 25,
+          "solid": true,
+          "source_asset": "casino-interior-chair-front",
+          "source_direction": "front",
+          "visual": {
+            "x": 1304.172973,
+            "y": 514,
+            "width": 38.894472,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 514
+        },
+        {
+          "id": "poker-one:south-3",
+          "type": "chair",
+          "x": 1284.1483425,
+          "y": 649,
+          "width": 40.049261,
+          "height": 30,
+          "solid": true,
+          "source_asset": "casino-interior-chair-front",
+          "source_direction": "back",
+          "visual": {
+            "x": 1304.1729725,
+            "y": 679,
+            "width": 40.049261,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 679
+        },
+        {
+          "id": "plant",
+          "type": "plant",
+          "x": 1398.6375225,
+          "y": 379,
+          "width": 51.070901,
+          "height": 28,
+          "solid": true,
+          "source_asset": "casino-interior-plant",
+          "source_direction": "front",
+          "visual": {
+            "x": 1424.1729725,
+            "y": 407,
+            "width": 51.070901,
+            "height": 75,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 407
+        }
+      ],
+      "zones": [],
+      "entry_label": "КАЗИНО · КАРТЫ И АВТОМАТЫ",
+      "layout_version": 23,
+      "visual_version": 25,
+      "modular_source": true,
+      "source_family": "casino",
+      "interaction_radius": 110,
+      "source_reference": "casino-interior",
+      "surfaces": [
+        {
+          "id": "floor",
+          "asset_id": "casino-interior-floor",
+          "visual": {
+            "x": 904.0,
+            "y": 794,
+            "width": 1647.567568,
+            "height": 560,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 343.827027,
+            "y": 274,
+            "width": 1120.345946,
+            "height": 460
+          }
+        },
+        {
+          "id": "back-wall",
+          "asset_id": "casino-interior-back-wall",
+          "visual": {
+            "x": 513.532934,
+            "y": 281.269461,
+            "width": 780.934132,
+            "height": 181.269461,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 343.827027,
+            "y": 100,
+            "width": 561.172973,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 274,
+            "wall_native_y": 198,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "back-wall-1",
+          "asset_id": "casino-interior-back-wall",
+          "visual": {
+            "x": 1294.467066,
+            "y": 281.269461,
+            "width": 780.934132,
+            "height": 181.269461,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 903.0,
+            "y": 100,
+            "width": 561.172973,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 274,
+            "wall_native_y": 198,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "front-cutaway",
+          "asset_id": "casino-interior-back-wall",
+          "visual": {
+            "x": 722.943306,
+            "y": 754,
+            "width": 758.232558,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 343.827027,
+            "y": 734,
+            "width": 1120.345946,
+            "height": 20
+          }
+        },
+        {
+          "id": "front-cutaway-1",
+          "asset_id": "casino-interior-back-wall",
+          "visual": {
+            "x": 1481.175864,
+            "y": 754,
+            "width": 758.232558,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 343.827027,
+            "y": 734,
+            "width": 1120.345946,
+            "height": 20
+          }
+        }
+      ],
+      "details": [
+        {
+          "id": "cash-sign",
+          "asset_id": "casino-interior-cash-sign",
+          "source_direction": "front",
+          "visual": {
+            "x": 478.268541,
+            "y": 190.572101,
+            "width": 145.0,
+            "height": 30.264201,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 190.572101,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "entry-door",
+          "asset_id": "casino-interior-entry-door",
+          "source_direction": "front",
+          "visual": {
+            "x": 371.835676,
+            "y": 276,
+            "width": 32.384488,
+            "height": 125,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 276,
+          "interactive": false,
+          "collision": false,
+          "mounting": "floor"
+        },
+        {
+          "id": "emblem",
+          "asset_id": "casino-interior-emblem",
+          "source_direction": "front",
+          "visual": {
+            "x": 904.0,
+            "y": 198.307299,
+            "width": 150.0,
+            "height": 45.734597,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 198.307299,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "shelf",
+          "asset_id": "casino-interior-shelf",
+          "source_direction": "front",
+          "visual": {
+            "x": 1284.172973,
+            "y": 229.44,
+            "width": 164.385542,
+            "height": 108,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 229.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "chandelier-1",
+          "asset_id": "casino-interior-chandelier",
+          "source_direction": "front",
+          "visual": {
+            "x": 679.930811,
+            "y": 174,
+            "width": 109.298246,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 174,
+          "interactive": false,
+          "collision": false,
+          "mounting": "ceiling"
+        },
+        {
+          "id": "chandelier-2",
+          "asset_id": "casino-interior-chandelier",
+          "source_direction": "front",
+          "visual": {
+            "x": 1128.069189,
+            "y": 174,
+            "width": 109.298246,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 174,
+          "interactive": false,
+          "collision": false,
+          "mounting": "ceiling"
+        },
+        {
+          "id": "wall-light-1",
+          "asset_id": "casino-interior-wall-lamp",
+          "source_direction": "front",
+          "visual": {
+            "x": 575.541903,
+            "y": 210.44,
+            "width": 23.429752,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 210.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-2",
+          "asset_id": "casino-interior-wall-lamp",
+          "source_direction": "front",
+          "visual": {
+            "x": 763.956757,
+            "y": 210.44,
+            "width": 23.429752,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 210.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-3",
+          "asset_id": "casino-interior-wall-lamp",
+          "source_direction": "front",
+          "visual": {
+            "x": 1044.043243,
+            "y": 210.44,
+            "width": 23.429752,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 210.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-4",
+          "asset_id": "casino-interior-wall-lamp",
+          "source_direction": "front",
+          "visual": {
+            "x": 1391.541903,
+            "y": 210.44,
+            "width": 23.429752,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 210.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "cup",
+          "asset_id": "casino-interior-cup",
+          "source_direction": "front",
+          "visual": {
+            "x": 1352.966076,
+            "y": 301,
+            "width": 15,
+            "height": 18.493976,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "object",
+          "depth": 301,
+          "interactive": false,
+          "collision": false,
+          "supportId": "bar"
+        }
+      ],
+      "actor_height": 80,
+      "floor_material": {
+        "asset_id": "clan-surface-floor-concrete-texture",
+        "color": "#8b2447",
+        "tile_world_size": [
+          320,
+          320
+        ],
+        "regions": [
+          [
+            [
+              343.827027,
+              274
+            ],
+            [
+              1464.172973,
+              274
+            ],
+            [
+              1464.172973,
+              734
+            ],
+            [
+              343.827027,
+              734
+            ]
+          ]
+        ]
+      },
+      "circulation": {
+        "entry": {
+          "x": 840.0,
+          "y": 454,
+          "width": 128,
+          "height": 280
+        }
+      },
+      "staff": {
+        "x": 609.008845,
+        "y": 329,
+        "source_asset": "casino-interior-cashier",
+        "source_direction": "front",
+        "visual": {
+          "x": 609.008845,
+          "y": 329,
+          "width": 50.648889,
+          "height": 84,
+          "anchorX": 0.5,
+          "anchorY": 1,
+          "crop": "solid"
+        },
+        "depth": 329,
+        "footprint": {
+          "x": 597.008845,
+          "y": 315,
+          "width": 24,
+          "height": 14
+        }
+      },
+      "plan_version": 26,
+      "wall_body_height": 176,
+      "wall_cutaway": {
+        "asset_id": "clan-surface-wall-stone-texture",
+        "tile_world_size": [
+          160,
+          160
+        ],
+        "color": null,
+        "regions": [
+          {
+            "x": 325.827027,
+            "y": 274,
+            "width": 18,
+            "height": 480
+          },
+          {
+            "x": 1464.172973,
+            "y": 274,
+            "width": 18,
+            "height": 480
+          },
+          {
+            "x": 343.827027,
+            "y": 734,
+            "width": 1120.345946,
+            "height": 20
+          }
+        ]
+      }
+    }
+  ]
+}

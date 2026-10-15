@@ -1,0 +1,90 @@
+[
+  {
+    gender: 0,
+    facing: 'down',
+    hand: [ 21, 30 ],
+    propLayer: undefined,
+    handVisibility: undefined,
+    foregroundPalmPixels: 126,
+    coveredByProp: 0,
+    first: [],
+    behindOverwrite: 0
+  },
+  {
+    gender: 0,
+    facing: 'right',
+    hand: [ 33, 30 ],
+    propLayer: undefined,
+    handVisibility: undefined,
+    foregroundPalmPixels: 92,
+    coveredByProp: 0,
+    first: [],
+    behindOverwrite: 0
+  },
+  {
+    gender: 0,
+    facing: 'up',
+    hand: [ 17.5, 27.5 ],
+    propLayer: 'behind-body',
+    handVisibility: 'occluded-by-head',
+    foregroundPalmPixels: 0,
+    coveredByProp: 0,
+    first: [],
+    behindOverwrite: 0
+  },
+  {
+    gender: 0,
+    facing: 'left',
+    hand: [ 11, 32.5 ],
+    propLayer: undefined,
+    handVisibility: undefined,
+    foregroundPalmPixels: 80,
+    coveredByProp: 0,
+    first: [],
+    behindOverwrite: 0
+  },
+  {
+    gender: 1,
+    facing: 'down',
+    hand: [ 21, 35 ],
+    propLayer: undefined,
+    handVisibility: undefined,
+    foregroundPalmPixels: 73,
+    coveredByProp: 0,
+    first: [],
+    behindOverwrite: 0
+  },
+  {
+    gender: 1,
+    facing: 'right',
+    hand: [ 32, 32.5 ],
+    propLayer: undefined,
+    handVisibility: undefined,
+    foregroundPalmPixels: 90,
+    coveredByProp: 0,
+    first: [],
+    behindOverwrite: 0
+  },
+  {
+    gender: 1,
+    facing: 'up',
+    hand: [ 18.5, 31 ],
+    propLayer: 'behind-body',
+    handVisibility: 'occluded-by-head',
+    foregroundPalmPixels: 0,
+    coveredByProp: 0,
+    first: [],
+    behindOverwrite: 0
+  },
+  {
+    gender: 1,
+    facing: 'left',
+    hand: [ 11.5, 31.5 ],
+    propLayer: undefined,
+    handVisibility: undefined,
+    foregroundPalmPixels: 70,
+    coveredByProp: 0,
+    first: [],
+    behindOverwrite: 0
+  }
+]

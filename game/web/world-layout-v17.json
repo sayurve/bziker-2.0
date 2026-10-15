@@ -1,0 +1,10188 @@
+{
+  "schema_version": 6,
+  "width": 7680,
+  "height": 5120,
+  "spawn": {
+    "x": 5050,
+    "y": 1575
+  },
+  "walkable": {
+    "left": 28,
+    "right": 7652,
+    "top": 28,
+    "bottom": 5092
+  },
+  "movement_speed": 172,
+  "arrival_route": {
+    "points": [
+      [
+        5050,
+        1575
+      ],
+      [
+        5040,
+        1600
+      ],
+      [
+        4925,
+        1665
+      ],
+      [
+        4800,
+        1685
+      ],
+      [
+        4300,
+        1850
+      ]
+    ],
+    "walking_seconds": 4.72
+  },
+  "landmarks": {
+    "station": {
+      "x": 5050,
+      "y": 1575
+    },
+    "welcome": {
+      "x": 4324,
+      "y": 1754
+    },
+    "plaza": {
+      "x": 3525,
+      "y": 1940
+    },
+    "district": {
+      "x": 1350,
+      "y": 1725
+    },
+    "park": {
+      "x": 3650,
+      "y": 2050
+    },
+    "dock": {
+      "x": 5625,
+      "y": 1610
+    },
+    "archive": {
+      "x": 3050,
+      "y": 1950
+    },
+    "smoking": {
+      "x": 4100,
+      "y": 2160
+    }
+  },
+  "buildings": [
+    {
+      "id": "railway",
+      "name": "ВОКЗАЛ БЗИКЕР",
+      "x": 4525,
+      "y": 1310,
+      "width": 1050,
+      "height": 190,
+      "door": {
+        "x": 5050,
+        "y": 1515
+      },
+      "design": {
+        "assetId": "railway-station",
+        "x": 5050,
+        "y": 1500,
+        "width": 1050,
+        "height": 664,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "clans",
+      "name": "ДОМ КЛАНОВ",
+      "x": 988,
+      "y": 900,
+      "width": 425,
+      "height": 200,
+      "door": {
+        "x": 1200,
+        "y": 1115
+      },
+      "design": {
+        "assetId": "clan-base-modern-clubhouse",
+        "x": 1200,
+        "y": 1100,
+        "width": 425,
+        "height": 283,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "arena",
+      "name": "СВОЯ ИГРА",
+      "x": 5225,
+      "y": 4225,
+      "width": 700,
+      "height": 325,
+      "door": {
+        "x": 5575,
+        "y": 4565
+      },
+      "design": {
+        "assetId": "shopping-mall-bzik-hub",
+        "x": 5575,
+        "y": 4550,
+        "width": 700,
+        "height": 430,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "profile",
+      "name": "СТУДИЯ ОБРАЗОВ",
+      "x": 3488,
+      "y": 4285,
+      "width": 325,
+      "height": 190,
+      "door": {
+        "x": 3650,
+        "y": 4490
+      },
+      "design": {
+        "assetId": "clothing-shop",
+        "x": 3650,
+        "y": 4475,
+        "width": 325,
+        "height": 208,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "results",
+      "name": "ГАЛЕРЕЯ РЕЗУЛЬТАТОВ",
+      "x": 2912,
+      "y": 1620,
+      "width": 325,
+      "height": 180,
+      "door": {
+        "x": 3075,
+        "y": 1815
+      },
+      "design": {
+        "assetId": "clan-base-stone-mansion",
+        "x": 3075,
+        "y": 1800,
+        "width": 325,
+        "height": 224,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "messages",
+      "name": "КАФЕ БЗИКЕР",
+      "x": 4100,
+      "y": 4185,
+      "width": 500,
+      "height": 250,
+      "door": {
+        "x": 4350,
+        "y": 4450
+      },
+      "design": {
+        "assetId": "bar-pivkovy-tuz",
+        "x": 4350,
+        "y": 4435,
+        "width": 500,
+        "height": 354,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "terrace",
+      "name": "ТВОРЧЕСКАЯ ГОСТИНАЯ",
+      "x": 3470,
+      "y": 1035,
+      "width": 360,
+      "height": 190,
+      "door": {
+        "x": 3650,
+        "y": 1240
+      },
+      "design": {
+        "assetId": "clan-base-wood-clubhouse",
+        "x": 3650,
+        "y": 1225,
+        "width": 360,
+        "height": 248,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "shop-food",
+      "name": "ЛАВКА МАСКОТА",
+      "x": 4030,
+      "y": 3200,
+      "width": 290,
+      "height": 160,
+      "door": {
+        "x": 4175,
+        "y": 3375
+      },
+      "design": {
+        "assetId": "food-kiosk",
+        "x": 4175,
+        "y": 3360,
+        "width": 290,
+        "height": 190,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "shop-clothes",
+      "name": "ГАРДЕРОБ БЗИКЕР",
+      "x": 2038,
+      "y": 3690,
+      "width": 575,
+      "height": 260,
+      "door": {
+        "x": 2325,
+        "y": 3965
+      },
+      "design": {
+        "assetId": "clothing-shop",
+        "x": 2325,
+        "y": 3950,
+        "width": 575,
+        "height": 367,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "shop-furniture",
+      "name": "МЕБЕЛЬНАЯ МАСТЕРСКАЯ",
+      "x": 3150,
+      "y": 3920,
+      "width": 500,
+      "height": 230,
+      "door": {
+        "x": 3400,
+        "y": 4165
+      },
+      "design": {
+        "assetId": "furniture-store",
+        "x": 3400,
+        "y": 4150,
+        "width": 500,
+        "height": 351,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "casino",
+      "name": "КАЗИНО БЗИКЕР",
+      "x": 2525,
+      "y": 2725,
+      "width": 750,
+      "height": 325,
+      "door": {
+        "x": 2900,
+        "y": 3065
+      },
+      "design": {
+        "assetId": "casino-modern",
+        "x": 2900,
+        "y": 3050,
+        "width": 750,
+        "height": 758,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    }
+  ],
+  "district": {
+    "width": 7680,
+    "height": 5120,
+    "spawn": {
+      "x": 1350,
+      "y": 1725
+    },
+    "buildings": [
+      {
+        "id": "base-1",
+        "name": "УЧАСТОК 01",
+        "x": 480,
+        "y": 600,
+        "width": 390,
+        "height": 175,
+        "door": {
+          "x": 675,
+          "y": 790
+        },
+        "design": {
+          "assetId": "construction-site-compact",
+          "x": 675,
+          "y": 775,
+          "width": 390,
+          "height": 269,
+          "anchorX": 0.5,
+          "anchorY": 1
+        }
+      },
+      {
+        "id": "base-2",
+        "name": "УЧАСТОК 02",
+        "x": 1455,
+        "y": 650,
+        "width": 390,
+        "height": 175,
+        "door": {
+          "x": 1650,
+          "y": 840
+        },
+        "design": {
+          "assetId": "construction-site-compact",
+          "x": 1650,
+          "y": 825,
+          "width": 390,
+          "height": 269,
+          "anchorX": 0.5,
+          "anchorY": 1
+        }
+      },
+      {
+        "id": "base-3",
+        "name": "УЧАСТОК 03",
+        "x": 580,
+        "y": 1375,
+        "width": 390,
+        "height": 175,
+        "door": {
+          "x": 775,
+          "y": 1565
+        },
+        "design": {
+          "assetId": "construction-site-compact",
+          "x": 775,
+          "y": 1550,
+          "width": 390,
+          "height": 269,
+          "anchorX": 0.5,
+          "anchorY": 1
+        }
+      },
+      {
+        "id": "base-4",
+        "name": "УЧАСТОК 04",
+        "x": 1430,
+        "y": 1500,
+        "width": 390,
+        "height": 175,
+        "door": {
+          "x": 1625,
+          "y": 1690
+        },
+        "design": {
+          "assetId": "construction-site-compact",
+          "x": 1625,
+          "y": 1675,
+          "width": 390,
+          "height": 269,
+          "anchorX": 0.5,
+          "anchorY": 1
+        }
+      },
+      {
+        "id": "base-5",
+        "name": "УЧАСТОК 05",
+        "x": 680,
+        "y": 1775,
+        "width": 390,
+        "height": 175,
+        "door": {
+          "x": 875,
+          "y": 1965
+        },
+        "design": {
+          "assetId": "construction-site-compact",
+          "x": 875,
+          "y": 1950,
+          "width": 390,
+          "height": 269,
+          "anchorX": 0.5,
+          "anchorY": 1
+        }
+      },
+      {
+        "id": "base-6",
+        "name": "УЧАСТОК 06",
+        "x": 1530,
+        "y": 1925,
+        "width": 390,
+        "height": 175,
+        "door": {
+          "x": 1725,
+          "y": 2115
+        },
+        "design": {
+          "assetId": "construction-site-compact",
+          "x": 1725,
+          "y": 2100,
+          "width": 390,
+          "height": 269,
+          "anchorX": 0.5,
+          "anchorY": 1
+        }
+      },
+      {
+        "id": "base-7",
+        "name": "УЧАСТОК 07",
+        "x": 355,
+        "y": 2525,
+        "width": 390,
+        "height": 175,
+        "door": {
+          "x": 550,
+          "y": 2715
+        },
+        "design": {
+          "assetId": "construction-site-compact",
+          "x": 550,
+          "y": 2700,
+          "width": 390,
+          "height": 269,
+          "anchorX": 0.5,
+          "anchorY": 1
+        }
+      },
+      {
+        "id": "base-8",
+        "name": "УЧАСТОК 08",
+        "x": 980,
+        "y": 2650,
+        "width": 390,
+        "height": 175,
+        "door": {
+          "x": 1175,
+          "y": 2840
+        },
+        "design": {
+          "assetId": "construction-site-compact",
+          "x": 1175,
+          "y": 2825,
+          "width": 390,
+          "height": 269,
+          "anchorX": 0.5,
+          "anchorY": 1
+        }
+      }
+    ],
+    "construction": {
+      "minimum_members": 4,
+      "styles_catalog": "house-catalog.json",
+      "exterior_immutable": true
+    }
+  },
+  "background_buildings": [
+    {
+      "id": "apartment-1",
+      "kind": "apartment",
+      "floors": 4,
+      "x": 100,
+      "y": 290,
+      "width": 250,
+      "height": 160,
+      "door": {
+        "x": 225,
+        "y": 465
+      },
+      "design": {
+        "assetId": "ordinary-house-grey-panel",
+        "x": 225,
+        "y": 450,
+        "width": 250,
+        "height": 174,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-2",
+      "kind": "apartment",
+      "floors": 5,
+      "x": 1785,
+      "y": 250,
+      "width": 280,
+      "height": 160,
+      "door": {
+        "x": 1925,
+        "y": 425
+      },
+      "design": {
+        "assetId": "ordinary-house-red-brick",
+        "x": 1925,
+        "y": 410,
+        "width": 280,
+        "height": 184,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-3",
+      "kind": "apartment",
+      "floors": 6,
+      "x": 2470,
+      "y": 740,
+      "width": 310,
+      "height": 160,
+      "door": {
+        "x": 2625,
+        "y": 915
+      },
+      "design": {
+        "assetId": "ordinary-house-beige-panel",
+        "x": 2625,
+        "y": 900,
+        "width": 310,
+        "height": 203,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-4",
+      "kind": "apartment",
+      "floors": 4,
+      "x": 3175,
+      "y": 590,
+      "width": 250,
+      "height": 160,
+      "door": {
+        "x": 3300,
+        "y": 765
+      },
+      "design": {
+        "assetId": "ordinary-house-grey-panel",
+        "x": 3300,
+        "y": 750,
+        "width": 250,
+        "height": 174,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-5",
+      "kind": "apartment",
+      "floors": 5,
+      "x": 3860,
+      "y": 540,
+      "width": 280,
+      "height": 160,
+      "door": {
+        "x": 4000,
+        "y": 715
+      },
+      "design": {
+        "assetId": "ordinary-house-red-brick",
+        "x": 4000,
+        "y": 700,
+        "width": 280,
+        "height": 184,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-6",
+      "kind": "apartment",
+      "floors": 6,
+      "x": 6145,
+      "y": 815,
+      "width": 310,
+      "height": 160,
+      "door": {
+        "x": 6300,
+        "y": 990
+      },
+      "design": {
+        "assetId": "ordinary-house-beige-panel",
+        "x": 6300,
+        "y": 975,
+        "width": 310,
+        "height": 203,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-7",
+      "kind": "apartment",
+      "floors": 4,
+      "x": 6925,
+      "y": 1090,
+      "width": 250,
+      "height": 160,
+      "door": {
+        "x": 7050,
+        "y": 1265
+      },
+      "design": {
+        "assetId": "ordinary-house-grey-panel",
+        "x": 7050,
+        "y": 1250,
+        "width": 250,
+        "height": 174,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-8",
+      "kind": "apartment",
+      "floors": 5,
+      "x": 7360,
+      "y": 1465,
+      "width": 280,
+      "height": 160,
+      "door": {
+        "x": 7500,
+        "y": 1640
+      },
+      "design": {
+        "assetId": "ordinary-house-red-brick",
+        "x": 7500,
+        "y": 1625,
+        "width": 280,
+        "height": 184,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-9",
+      "kind": "apartment",
+      "floors": 6,
+      "x": 270,
+      "y": 1490,
+      "width": 310,
+      "height": 160,
+      "door": {
+        "x": 425,
+        "y": 1665
+      },
+      "design": {
+        "assetId": "ordinary-house-beige-panel",
+        "x": 425,
+        "y": 1650,
+        "width": 310,
+        "height": 203,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-10",
+      "kind": "apartment",
+      "floors": 4,
+      "x": 200,
+      "y": 2365,
+      "width": 250,
+      "height": 160,
+      "door": {
+        "x": 325,
+        "y": 2540
+      },
+      "design": {
+        "assetId": "ordinary-house-grey-panel",
+        "x": 325,
+        "y": 2525,
+        "width": 250,
+        "height": 174,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-11",
+      "kind": "apartment",
+      "floors": 5,
+      "x": 260,
+      "y": 3290,
+      "width": 280,
+      "height": 160,
+      "door": {
+        "x": 400,
+        "y": 3465
+      },
+      "design": {
+        "assetId": "ordinary-house-red-brick",
+        "x": 400,
+        "y": 3450,
+        "width": 280,
+        "height": 184,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-12",
+      "kind": "apartment",
+      "floors": 6,
+      "x": 570,
+      "y": 3715,
+      "width": 310,
+      "height": 160,
+      "door": {
+        "x": 725,
+        "y": 3890
+      },
+      "design": {
+        "assetId": "ordinary-house-beige-panel",
+        "x": 725,
+        "y": 3875,
+        "width": 310,
+        "height": 203,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-13",
+      "kind": "apartment",
+      "floors": 4,
+      "x": 650,
+      "y": 4665,
+      "width": 250,
+      "height": 160,
+      "door": {
+        "x": 775,
+        "y": 4840
+      },
+      "design": {
+        "assetId": "ordinary-house-grey-panel",
+        "x": 775,
+        "y": 4825,
+        "width": 250,
+        "height": 174,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-14",
+      "kind": "apartment",
+      "floors": 5,
+      "x": 60,
+      "y": 4265,
+      "width": 280,
+      "height": 160,
+      "door": {
+        "x": 200,
+        "y": 4440
+      },
+      "design": {
+        "assetId": "ordinary-house-red-brick",
+        "x": 200,
+        "y": 4425,
+        "width": 280,
+        "height": 184,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-15",
+      "kind": "apartment",
+      "floors": 6,
+      "x": 1735,
+      "y": 2765,
+      "width": 310,
+      "height": 160,
+      "door": {
+        "x": 1890,
+        "y": 2940
+      },
+      "design": {
+        "assetId": "ordinary-house-beige-panel",
+        "x": 1890,
+        "y": 2925,
+        "width": 310,
+        "height": 203,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-16",
+      "kind": "apartment",
+      "floors": 4,
+      "x": 1775,
+      "y": 3715,
+      "width": 250,
+      "height": 160,
+      "door": {
+        "x": 1900,
+        "y": 3890
+      },
+      "design": {
+        "assetId": "ordinary-house-grey-panel",
+        "x": 1900,
+        "y": 3875,
+        "width": 250,
+        "height": 174,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-17",
+      "kind": "apartment",
+      "floors": 5,
+      "x": 7310,
+      "y": 2065,
+      "width": 280,
+      "height": 160,
+      "door": {
+        "x": 7450,
+        "y": 2240
+      },
+      "design": {
+        "assetId": "ordinary-house-red-brick",
+        "x": 7450,
+        "y": 2225,
+        "width": 280,
+        "height": 184,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-18",
+      "kind": "apartment",
+      "floors": 6,
+      "x": 7295,
+      "y": 2990,
+      "width": 310,
+      "height": 160,
+      "door": {
+        "x": 7450,
+        "y": 3165
+      },
+      "design": {
+        "assetId": "ordinary-house-beige-panel",
+        "x": 7450,
+        "y": 3150,
+        "width": 310,
+        "height": 203,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-19",
+      "kind": "apartment",
+      "floors": 4,
+      "x": 6900,
+      "y": 3790,
+      "width": 250,
+      "height": 160,
+      "door": {
+        "x": 7025,
+        "y": 3965
+      },
+      "design": {
+        "assetId": "ordinary-house-grey-panel",
+        "x": 7025,
+        "y": 3950,
+        "width": 250,
+        "height": 174,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-20",
+      "kind": "apartment",
+      "floors": 5,
+      "x": 6410,
+      "y": 4440,
+      "width": 280,
+      "height": 160,
+      "door": {
+        "x": 6550,
+        "y": 4615
+      },
+      "design": {
+        "assetId": "ordinary-house-red-brick",
+        "x": 6550,
+        "y": 4600,
+        "width": 280,
+        "height": 184,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-21",
+      "kind": "apartment",
+      "floors": 6,
+      "x": 6145,
+      "y": 4890,
+      "width": 310,
+      "height": 160,
+      "door": {
+        "x": 6300,
+        "y": 5065
+      },
+      "design": {
+        "assetId": "ordinary-house-beige-panel",
+        "x": 6300,
+        "y": 5050,
+        "width": 310,
+        "height": 203,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-22",
+      "kind": "apartment",
+      "floors": 4,
+      "x": 2550,
+      "y": 4640,
+      "width": 250,
+      "height": 160,
+      "door": {
+        "x": 2675,
+        "y": 4815
+      },
+      "design": {
+        "assetId": "ordinary-house-grey-panel",
+        "x": 2675,
+        "y": 4800,
+        "width": 250,
+        "height": 174,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-23",
+      "kind": "apartment",
+      "floors": 5,
+      "x": 3485,
+      "y": 4825,
+      "width": 280,
+      "height": 160,
+      "door": {
+        "x": 3625,
+        "y": 5000
+      },
+      "design": {
+        "assetId": "ordinary-house-red-brick",
+        "x": 3625,
+        "y": 4985,
+        "width": 280,
+        "height": 184,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    },
+    {
+      "id": "apartment-24",
+      "kind": "apartment",
+      "floors": 6,
+      "x": 1770,
+      "y": 4840,
+      "width": 310,
+      "height": 160,
+      "door": {
+        "x": 1925,
+        "y": 5015
+      },
+      "design": {
+        "assetId": "ordinary-house-beige-panel",
+        "x": 1925,
+        "y": 5000,
+        "width": 310,
+        "height": 203,
+        "anchorX": 0.5,
+        "anchorY": 1
+      }
+    }
+  ],
+  "solids": [
+    {
+      "x": 100,
+      "y": 290,
+      "width": 250,
+      "height": 160
+    },
+    {
+      "x": 1785,
+      "y": 250,
+      "width": 280,
+      "height": 160
+    },
+    {
+      "x": 2470,
+      "y": 740,
+      "width": 310,
+      "height": 160
+    },
+    {
+      "x": 3175,
+      "y": 590,
+      "width": 250,
+      "height": 160
+    },
+    {
+      "x": 3860,
+      "y": 540,
+      "width": 280,
+      "height": 160
+    },
+    {
+      "x": 6145,
+      "y": 815,
+      "width": 310,
+      "height": 160
+    },
+    {
+      "x": 6925,
+      "y": 1090,
+      "width": 250,
+      "height": 160
+    },
+    {
+      "x": 7360,
+      "y": 1465,
+      "width": 280,
+      "height": 160
+    },
+    {
+      "x": 270,
+      "y": 1490,
+      "width": 310,
+      "height": 160
+    },
+    {
+      "x": 200,
+      "y": 2365,
+      "width": 250,
+      "height": 160
+    },
+    {
+      "x": 260,
+      "y": 3290,
+      "width": 280,
+      "height": 160
+    },
+    {
+      "x": 570,
+      "y": 3715,
+      "width": 310,
+      "height": 160
+    },
+    {
+      "x": 650,
+      "y": 4665,
+      "width": 250,
+      "height": 160
+    },
+    {
+      "x": 60,
+      "y": 4265,
+      "width": 280,
+      "height": 160
+    },
+    {
+      "x": 1735,
+      "y": 2765,
+      "width": 310,
+      "height": 160
+    },
+    {
+      "x": 1775,
+      "y": 3715,
+      "width": 250,
+      "height": 160
+    },
+    {
+      "x": 7310,
+      "y": 2065,
+      "width": 280,
+      "height": 160
+    },
+    {
+      "x": 7295,
+      "y": 2990,
+      "width": 310,
+      "height": 160
+    },
+    {
+      "x": 6900,
+      "y": 3790,
+      "width": 250,
+      "height": 160
+    },
+    {
+      "x": 6410,
+      "y": 4440,
+      "width": 280,
+      "height": 160
+    },
+    {
+      "x": 6145,
+      "y": 4890,
+      "width": 310,
+      "height": 160
+    },
+    {
+      "x": 2550,
+      "y": 4640,
+      "width": 250,
+      "height": 160
+    },
+    {
+      "x": 3485,
+      "y": 4825,
+      "width": 280,
+      "height": 160
+    },
+    {
+      "x": 1770,
+      "y": 4840,
+      "width": 310,
+      "height": 160
+    }
+  ],
+  "roads": [
+    {
+      "id": "arrival",
+      "points": [
+        [
+          5050,
+          1575
+        ],
+        [
+          5040,
+          1600
+        ],
+        [
+          4925,
+          1665
+        ],
+        [
+          4800,
+          1685
+        ],
+        [
+          4300,
+          1850
+        ]
+      ],
+      "width": 64,
+      "kind": "walkway"
+    },
+    {
+      "id": "avenue",
+      "points": [
+        [
+          300,
+          1350
+        ],
+        [
+          480,
+          1240
+        ],
+        [
+          1520,
+          1240
+        ],
+        [
+          1920,
+          1360
+        ],
+        [
+          2040,
+          1560
+        ],
+        [
+          2250,
+          2050
+        ],
+        [
+          4400,
+          2825
+        ]
+      ],
+      "width": 100,
+      "kind": "road"
+    },
+    {
+      "id": "shopping-avenue",
+      "points": [
+        [
+          120,
+          3000
+        ],
+        [
+          1520,
+          3440
+        ],
+        [
+          1700,
+          3565
+        ],
+        [
+          2720,
+          3560
+        ],
+        [
+          3800,
+          3800
+        ],
+        [
+          3800,
+          4160
+        ],
+        [
+          3960,
+          4160
+        ],
+        [
+          3960,
+          4560
+        ],
+        [
+          5240,
+          4680
+        ],
+        [
+          6760,
+          4760
+        ],
+        [
+          7280,
+          5000
+        ]
+      ],
+      "width": 105,
+      "kind": "road"
+    },
+    {
+      "id": "west-boulevard",
+      "points": [
+        [
+          2440,
+          160
+        ],
+        [
+          2150,
+          1200
+        ],
+        [
+          2040,
+          2240
+        ],
+        [
+          1900,
+          2250
+        ],
+        [
+          1600,
+          2640
+        ],
+        [
+          1350,
+          3500
+        ],
+        [
+          1040,
+          4520
+        ],
+        [
+          1040,
+          4960
+        ]
+      ],
+      "width": 110,
+      "kind": "road"
+    },
+    {
+      "id": "clan-lane",
+      "points": [
+        [
+          320,
+          560
+        ],
+        [
+          360,
+          880
+        ],
+        [
+          920,
+          1240
+        ],
+        [
+          1520,
+          1240
+        ],
+        [
+          1960,
+          960
+        ],
+        [
+          1960,
+          520
+        ],
+        [
+          1360,
+          520
+        ],
+        [
+          1160,
+          760
+        ],
+        [
+          1360,
+          520
+        ],
+        [
+          1960,
+          520
+        ],
+        [
+          2125,
+          1250
+        ]
+      ],
+      "width": 88,
+      "kind": "road"
+    },
+    {
+      "id": "clan-south",
+      "points": [
+        [
+          120,
+          1920
+        ],
+        [
+          850,
+          2200
+        ],
+        [
+          1850,
+          2550
+        ]
+      ],
+      "width": 88,
+      "kind": "road"
+    },
+    {
+      "id": "lake-west",
+      "points": [
+        [
+          4400,
+          1850
+        ],
+        [
+          4360,
+          2280
+        ],
+        [
+          4175,
+          2450
+        ],
+        [
+          4240,
+          3080
+        ],
+        [
+          4440,
+          3080
+        ],
+        [
+          4700,
+          3975
+        ],
+        [
+          5120,
+          4680
+        ],
+        [
+          5850,
+          4850
+        ]
+      ],
+      "width": 90,
+      "kind": "road"
+    },
+    {
+      "id": "east-residential",
+      "points": [
+        [
+          6800,
+          1040
+        ],
+        [
+          6800,
+          1360
+        ],
+        [
+          7200,
+          2360
+        ],
+        [
+          7440,
+          2360
+        ],
+        [
+          7160,
+          2920
+        ],
+        [
+          7160,
+          3640
+        ],
+        [
+          7280,
+          3680
+        ],
+        [
+          7280,
+          4080
+        ],
+        [
+          6800,
+          4720
+        ],
+        [
+          6600,
+          4880
+        ]
+      ],
+      "width": 92,
+      "kind": "road"
+    },
+    {
+      "id": "park-loop",
+      "points": [
+        [
+          3025,
+          1300
+        ],
+        [
+          3800,
+          1500
+        ],
+        [
+          4320,
+          1880
+        ],
+        [
+          4320,
+          2040
+        ],
+        [
+          4320,
+          2280
+        ],
+        [
+          3925,
+          2350
+        ],
+        [
+          3325,
+          2200
+        ],
+        [
+          2800,
+          1920
+        ],
+        [
+          2800,
+          1800
+        ],
+        [
+          2800,
+          1520
+        ],
+        [
+          3025,
+          1300
+        ]
+      ],
+      "width": 64,
+      "kind": "walkway"
+    },
+    {
+      "id": "station-promenade",
+      "points": [
+        [
+          4250,
+          1575
+        ],
+        [
+          4640,
+          1640
+        ],
+        [
+          5040,
+          1640
+        ],
+        [
+          5960,
+          1600
+        ],
+        [
+          5920,
+          1640
+        ],
+        [
+          6200,
+          1680
+        ],
+        [
+          6600,
+          1950
+        ]
+      ],
+      "width": 76,
+      "kind": "walkway"
+    },
+    {
+      "id": "lake-ring",
+      "points": [
+        [
+          5100,
+          1675
+        ],
+        [
+          5840,
+          1600
+        ],
+        [
+          6000,
+          1640
+        ],
+        [
+          6400,
+          1800
+        ],
+        [
+          6760,
+          2120
+        ],
+        [
+          6800,
+          2200
+        ],
+        [
+          6880,
+          2720
+        ],
+        [
+          6825,
+          3100
+        ],
+        [
+          6300,
+          3700
+        ],
+        [
+          5400,
+          3775
+        ],
+        [
+          4525,
+          3250
+        ],
+        [
+          4400,
+          2720
+        ],
+        [
+          4400,
+          2360
+        ],
+        [
+          4425,
+          2300
+        ],
+        [
+          4720,
+          1960
+        ],
+        [
+          5100,
+          1675
+        ]
+      ],
+      "width": 62,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-railway",
+      "points": [
+        [
+          5050,
+          1515
+        ],
+        [
+          5050,
+          1575
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-clans",
+      "points": [
+        [
+          1200,
+          1115
+        ],
+        [
+          1200,
+          1175
+        ],
+        [
+          1200,
+          1240
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-arena",
+      "points": [
+        [
+          5575,
+          4565
+        ],
+        [
+          5575,
+          4625
+        ],
+        [
+          5571,
+          4697
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-profile",
+      "points": [
+        [
+          3650,
+          4490
+        ],
+        [
+          3650,
+          4550
+        ],
+        [
+          3960,
+          4550
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-results",
+      "points": [
+        [
+          3075,
+          1815
+        ],
+        [
+          3075,
+          1875
+        ],
+        [
+          2995,
+          2024
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-messages",
+      "points": [
+        [
+          4350,
+          4450
+        ],
+        [
+          4350,
+          4510
+        ],
+        [
+          4342,
+          4596
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-terrace",
+      "points": [
+        [
+          3650,
+          1240
+        ],
+        [
+          3650,
+          1300
+        ],
+        [
+          3611,
+          1451
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-shop-food",
+      "points": [
+        [
+          4175,
+          3375
+        ],
+        [
+          4175,
+          3435
+        ],
+        [
+          4360,
+          3400
+        ],
+        [
+          4514,
+          3336
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-shop-clothes",
+      "points": [
+        [
+          2325,
+          3965
+        ],
+        [
+          2325,
+          4025
+        ],
+        [
+          2640,
+          4000
+        ],
+        [
+          2680,
+          3920
+        ],
+        [
+          2680,
+          3680
+        ],
+        [
+          2640,
+          3640
+        ],
+        [
+          2323,
+          3562
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-shop-furniture",
+      "points": [
+        [
+          3400,
+          4165
+        ],
+        [
+          3400,
+          4225
+        ],
+        [
+          3680,
+          4200
+        ],
+        [
+          3800,
+          4160
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-casino",
+      "points": [
+        [
+          2900,
+          3065
+        ],
+        [
+          2900,
+          3125
+        ],
+        [
+          2799,
+          3578
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-base-1",
+      "points": [
+        [
+          675,
+          790
+        ],
+        [
+          675,
+          850
+        ],
+        [
+          569,
+          1015
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-base-2",
+      "points": [
+        [
+          1650,
+          840
+        ],
+        [
+          1650,
+          900
+        ],
+        [
+          1767,
+          1083
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-base-3",
+      "points": [
+        [
+          775,
+          1565
+        ],
+        [
+          775,
+          1625
+        ],
+        [
+          1000,
+          1600
+        ],
+        [
+          1040,
+          1440
+        ],
+        [
+          1000,
+          1320
+        ],
+        [
+          775,
+          1240
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-base-4",
+      "points": [
+        [
+          1625,
+          1690
+        ],
+        [
+          1625,
+          1750
+        ],
+        [
+          1880,
+          1720
+        ],
+        [
+          2014,
+          1517
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-base-5",
+      "points": [
+        [
+          875,
+          1965
+        ],
+        [
+          875,
+          2025
+        ],
+        [
+          813,
+          2186
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-base-6",
+      "points": [
+        [
+          1725,
+          2115
+        ],
+        [
+          1725,
+          2175
+        ],
+        [
+          1871,
+          2287
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-base-7",
+      "points": [
+        [
+          550,
+          2715
+        ],
+        [
+          550,
+          2775
+        ],
+        [
+          447,
+          3103
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-base-8",
+      "points": [
+        [
+          1175,
+          2840
+        ],
+        [
+          1175,
+          2900
+        ],
+        [
+          1497,
+          2994
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-1",
+      "points": [
+        [
+          225,
+          465
+        ],
+        [
+          225,
+          525
+        ],
+        [
+          320,
+          560
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-2",
+      "points": [
+        [
+          1925,
+          425
+        ],
+        [
+          1925,
+          485
+        ],
+        [
+          1925,
+          520
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-3",
+      "points": [
+        [
+          2625,
+          915
+        ],
+        [
+          2625,
+          975
+        ],
+        [
+          2360,
+          920
+        ],
+        [
+          2242,
+          868
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-4",
+      "points": [
+        [
+          3300,
+          765
+        ],
+        [
+          3300,
+          825
+        ],
+        [
+          3168,
+          1337
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-5",
+      "points": [
+        [
+          4000,
+          715
+        ],
+        [
+          4000,
+          775
+        ],
+        [
+          3800,
+          1500
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-6",
+      "points": [
+        [
+          6300,
+          990
+        ],
+        [
+          6300,
+          1050
+        ],
+        [
+          6800,
+          1050
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-7",
+      "points": [
+        [
+          7050,
+          1265
+        ],
+        [
+          7050,
+          1325
+        ],
+        [
+          6822,
+          1416
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-8",
+      "points": [
+        [
+          7500,
+          1640
+        ],
+        [
+          7500,
+          1700
+        ],
+        [
+          7014,
+          1894
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-9",
+      "points": [
+        [
+          425,
+          1665
+        ],
+        [
+          425,
+          1725
+        ],
+        [
+          321,
+          1997
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-10",
+      "points": [
+        [
+          325,
+          2540
+        ],
+        [
+          320,
+          2600
+        ],
+        [
+          192,
+          3023
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-11",
+      "points": [
+        [
+          400,
+          3465
+        ],
+        [
+          400,
+          3525
+        ],
+        [
+          600,
+          3480
+        ],
+        [
+          600,
+          3280
+        ],
+        [
+          525,
+          3127
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-12",
+      "points": [
+        [
+          725,
+          3890
+        ],
+        [
+          725,
+          3950
+        ],
+        [
+          1172,
+          4086
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-13",
+      "points": [
+        [
+          775,
+          4840
+        ],
+        [
+          775,
+          4900
+        ],
+        [
+          1040,
+          4900
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-14",
+      "points": [
+        [
+          200,
+          4440
+        ],
+        [
+          200,
+          4500
+        ],
+        [
+          1040,
+          4520
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-15",
+      "points": [
+        [
+          1890,
+          2940
+        ],
+        [
+          1890,
+          3000
+        ],
+        [
+          1680,
+          2960
+        ],
+        [
+          1526,
+          2894
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-16",
+      "points": [
+        [
+          1900,
+          3890
+        ],
+        [
+          1900,
+          3950
+        ],
+        [
+          1720,
+          3920
+        ],
+        [
+          1720,
+          3680
+        ],
+        [
+          1898,
+          3564
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-17",
+      "points": [
+        [
+          7450,
+          2240
+        ],
+        [
+          7450,
+          2300
+        ],
+        [
+          7440,
+          2360
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-18",
+      "points": [
+        [
+          7450,
+          3165
+        ],
+        [
+          7450,
+          3225
+        ],
+        [
+          7160,
+          3225
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-19",
+      "points": [
+        [
+          7025,
+          3965
+        ],
+        [
+          7025,
+          4025
+        ],
+        [
+          7215,
+          4167
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-20",
+      "points": [
+        [
+          6550,
+          4615
+        ],
+        [
+          6550,
+          4675
+        ],
+        [
+          6546,
+          4749
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-21",
+      "points": [
+        [
+          6300,
+          5065
+        ],
+        [
+          6520,
+          5080
+        ],
+        [
+          6600,
+          4880
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-22",
+      "points": [
+        [
+          2675,
+          4815
+        ],
+        [
+          2675,
+          4875
+        ],
+        [
+          2840,
+          4840
+        ],
+        [
+          2956,
+          3612
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-23",
+      "points": [
+        [
+          3625,
+          5000
+        ],
+        [
+          3625,
+          5060
+        ],
+        [
+          3800,
+          5040
+        ],
+        [
+          3960,
+          4560
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "door-apartment-24",
+      "points": [
+        [
+          1925,
+          5015
+        ],
+        [
+          1925,
+          5075
+        ],
+        [
+          1120,
+          5040
+        ],
+        [
+          1040,
+          4960
+        ]
+      ],
+      "width": 58,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-railway",
+      "points": [
+        [
+          5673,
+          1491
+        ],
+        [
+          5673,
+          1511
+        ],
+        [
+          5677,
+          1612
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-clans",
+      "points": [
+        [
+          1511,
+          1067
+        ],
+        [
+          1511,
+          1087
+        ],
+        [
+          1583,
+          1200
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-arena",
+      "points": [
+        [
+          6023,
+          4565
+        ],
+        [
+          6023,
+          4585
+        ],
+        [
+          6016,
+          4721
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-profile",
+      "points": [
+        [
+          3767,
+          4706
+        ],
+        [
+          3767,
+          4726
+        ],
+        [
+          3880,
+          4720
+        ],
+        [
+          3960,
+          4560
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-results",
+      "points": [
+        [
+          3335,
+          1863
+        ],
+        [
+          3335,
+          1883
+        ],
+        [
+          3201,
+          2134
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-messages",
+      "points": [
+        [
+          4698,
+          4474
+        ],
+        [
+          4698,
+          4494
+        ],
+        [
+          4685,
+          4628
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-terrace",
+      "points": [
+        [
+          4000,
+          1288
+        ],
+        [
+          4000,
+          1308
+        ],
+        [
+          3839,
+          1528
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-shop-food",
+      "points": [
+        [
+          4418,
+          3567
+        ],
+        [
+          4418,
+          3587
+        ],
+        [
+          4480,
+          3600
+        ],
+        [
+          4574,
+          3542
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-shop-clothes",
+      "points": [
+        [
+          2783,
+          4037
+        ],
+        [
+          2783,
+          4057
+        ],
+        [
+          2880,
+          4040
+        ],
+        [
+          2885,
+          3597
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-shop-furniture",
+      "points": [
+        [
+          3940,
+          4021
+        ],
+        [
+          3940,
+          4041
+        ],
+        [
+          3940,
+          4160
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-casino",
+      "points": [
+        [
+          3373,
+          3113
+        ],
+        [
+          3373,
+          3133
+        ],
+        [
+          3252,
+          3678
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-base-1",
+      "points": [
+        [
+          968,
+          814
+        ],
+        [
+          968,
+          834
+        ],
+        [
+          1040,
+          840
+        ],
+        [
+          1160,
+          760
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-base-2",
+      "points": [
+        [
+          2135,
+          648
+        ],
+        [
+          2135,
+          668
+        ],
+        [
+          2000,
+          698
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-base-3",
+      "points": [
+        [
+          1116,
+          1661
+        ],
+        [
+          1116,
+          1681
+        ],
+        [
+          1200,
+          1680
+        ],
+        [
+          1200,
+          1520
+        ],
+        [
+          1116,
+          1240
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-base-4",
+      "points": [
+        [
+          2254,
+          1666
+        ],
+        [
+          2254,
+          1686
+        ],
+        [
+          2119,
+          1744
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-base-5",
+      "points": [
+        [
+          1168,
+          2013
+        ],
+        [
+          1168,
+          2033
+        ],
+        [
+          1081,
+          2281
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-base-6",
+      "points": [
+        [
+          2186,
+          2307
+        ],
+        [
+          2186,
+          2327
+        ],
+        [
+          2080,
+          2320
+        ],
+        [
+          2040,
+          2240
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-base-7",
+      "points": [
+        [
+          843,
+          2763
+        ],
+        [
+          843,
+          2783
+        ],
+        [
+          716,
+          3187
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-base-8",
+      "points": [
+        [
+          1300,
+          3104
+        ],
+        [
+          1300,
+          3124
+        ],
+        [
+          1447,
+          3167
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-1",
+      "points": [
+        [
+          448,
+          489
+        ],
+        [
+          448,
+          509
+        ],
+        [
+          320,
+          560
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-2",
+      "points": [
+        [
+          2163,
+          473
+        ],
+        [
+          2163,
+          493
+        ],
+        [
+          2334,
+          541
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-3",
+      "points": [
+        [
+          2878,
+          963
+        ],
+        [
+          2878,
+          983
+        ],
+        [
+          3025,
+          1300
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-4",
+      "points": [
+        [
+          3523,
+          813
+        ],
+        [
+          3523,
+          833
+        ],
+        [
+          3400,
+          1080
+        ],
+        [
+          3379,
+          1391
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-5",
+      "points": [
+        [
+          4238,
+          763
+        ],
+        [
+          4238,
+          783
+        ],
+        [
+          4250,
+          1575
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-6",
+      "points": [
+        [
+          6553,
+          942
+        ],
+        [
+          6553,
+          962
+        ],
+        [
+          6800,
+          1040
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-7",
+      "points": [
+        [
+          7273,
+          1313
+        ],
+        [
+          7273,
+          1333
+        ],
+        [
+          6856,
+          1500
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-8",
+      "points": [
+        [
+          7570,
+          1880
+        ],
+        [
+          7570,
+          1900
+        ],
+        [
+          7640,
+          2080
+        ],
+        [
+          7640,
+          2240
+        ],
+        [
+          7440,
+          2360
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-9",
+      "points": [
+        [
+          582,
+          1809
+        ],
+        [
+          582,
+          1829
+        ],
+        [
+          492,
+          2063
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-10",
+      "points": [
+        [
+          548,
+          2444
+        ],
+        [
+          548,
+          2464
+        ],
+        [
+          600,
+          2480
+        ],
+        [
+          640,
+          2440
+        ],
+        [
+          675,
+          2133
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-11",
+      "points": [
+        [
+          710,
+          3513
+        ],
+        [
+          710,
+          3533
+        ],
+        [
+          800,
+          3520
+        ],
+        [
+          809,
+          3217
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-12",
+      "points": [
+        [
+          1002,
+          3914
+        ],
+        [
+          1002,
+          3934
+        ],
+        [
+          1200,
+          3994
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-13",
+      "points": [
+        [
+          1214,
+          4552
+        ],
+        [
+          1214,
+          4572
+        ],
+        [
+          1040,
+          4572
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-14",
+      "points": [
+        [
+          438,
+          4392
+        ],
+        [
+          438,
+          4412
+        ],
+        [
+          1040,
+          4520
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-15",
+      "points": [
+        [
+          2143,
+          2988
+        ],
+        [
+          2143,
+          3008
+        ],
+        [
+          2240,
+          3000
+        ],
+        [
+          2240,
+          2840
+        ],
+        [
+          1850,
+          2550
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-16",
+      "points": [
+        [
+          2123,
+          4082
+        ],
+        [
+          2123,
+          4102
+        ],
+        [
+          2000,
+          4080
+        ],
+        [
+          1720,
+          3880
+        ],
+        [
+          1720,
+          3720
+        ],
+        [
+          1760,
+          3680
+        ],
+        [
+          2120,
+          3563
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-17",
+      "points": [
+        [
+          7568,
+          2504
+        ],
+        [
+          7568,
+          2524
+        ],
+        [
+          7480,
+          2520
+        ],
+        [
+          7400,
+          2440
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-18",
+      "points": [
+        [
+          7583,
+          3357
+        ],
+        [
+          7583,
+          3377
+        ],
+        [
+          7160,
+          3377
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-19",
+      "points": [
+        [
+          7416,
+          4013
+        ],
+        [
+          7416,
+          4033
+        ],
+        [
+          7280,
+          4033
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-20",
+      "points": [
+        [
+          6788,
+          4471
+        ],
+        [
+          6788,
+          4491
+        ],
+        [
+          6906,
+          4579
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-21",
+      "points": [
+        [
+          6745,
+          5017
+        ],
+        [
+          6745,
+          5037
+        ],
+        [
+          6680,
+          5040
+        ],
+        [
+          6640,
+          5000
+        ],
+        [
+          6612,
+          4871
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-22",
+      "points": [
+        [
+          2970,
+          4863
+        ],
+        [
+          2970,
+          4883
+        ],
+        [
+          3080,
+          4880
+        ],
+        [
+          3720,
+          4560
+        ],
+        [
+          3960,
+          4560
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-23",
+      "points": [
+        [
+          3959,
+          5024
+        ],
+        [
+          3959,
+          5044
+        ],
+        [
+          4040,
+          5040
+        ],
+        [
+          4080,
+          4840
+        ],
+        [
+          4004,
+          4564
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    },
+    {
+      "id": "parking-apartment-24",
+      "points": [
+        [
+          2178,
+          5015
+        ],
+        [
+          2178,
+          5035
+        ],
+        [
+          1160,
+          5040
+        ],
+        [
+          1040,
+          4960
+        ]
+      ],
+      "width": 36,
+      "kind": "walkway"
+    }
+  ],
+  "bench_groups": [
+    {
+      "id": "city-bench-1",
+      "x": 3300,
+      "y": 1700,
+      "width": 120,
+      "height": 36
+    },
+    {
+      "id": "city-bench-2",
+      "x": 3950,
+      "y": 1800,
+      "width": 120,
+      "height": 36
+    },
+    {
+      "id": "city-bench-3",
+      "x": 3429,
+      "y": 2346,
+      "width": 120,
+      "height": 36
+    },
+    {
+      "id": "city-bench-4",
+      "x": 2908,
+      "y": 2141,
+      "width": 120,
+      "height": 36
+    },
+    {
+      "id": "park-bench-1",
+      "x": 3880,
+      "y": 2078,
+      "width": 120,
+      "height": 36
+    },
+    {
+      "id": "station-bench-1",
+      "x": 5250,
+      "y": 1238,
+      "width": 120,
+      "height": 36
+    },
+    {
+      "id": "station-bench-2",
+      "x": 4607,
+      "y": 1838,
+      "width": 120,
+      "height": 36
+    },
+    {
+      "id": "park-bench-2",
+      "x": 5774,
+      "y": 1485,
+      "width": 120,
+      "height": 36
+    },
+    {
+      "id": "district-bench-1",
+      "x": 1300,
+      "y": 1775,
+      "width": 120,
+      "height": 36
+    },
+    {
+      "id": "district-bench-2",
+      "x": 830,
+      "y": 2344,
+      "width": 120,
+      "height": 36
+    },
+    {
+      "id": "district-bench-3",
+      "x": 1894,
+      "y": 2448,
+      "width": 120,
+      "height": 36
+    }
+  ],
+  "benches": [
+    {
+      "id": "city-bench-1:seat-1",
+      "x": 3300,
+      "y": 1700,
+      "width": 120,
+      "height": 36,
+      "group_id": "city-bench-1",
+      "seat": {
+        "x": 3335,
+        "y": 1728
+      }
+    },
+    {
+      "id": "city-bench-1:seat-2",
+      "x": 3300,
+      "y": 1700,
+      "width": 120,
+      "height": 36,
+      "group_id": "city-bench-1",
+      "seat": {
+        "x": 3385,
+        "y": 1728
+      }
+    },
+    {
+      "id": "city-bench-2:seat-1",
+      "x": 3950,
+      "y": 1800,
+      "width": 120,
+      "height": 36,
+      "group_id": "city-bench-2",
+      "seat": {
+        "x": 3985,
+        "y": 1828
+      }
+    },
+    {
+      "id": "city-bench-2:seat-2",
+      "x": 3950,
+      "y": 1800,
+      "width": 120,
+      "height": 36,
+      "group_id": "city-bench-2",
+      "seat": {
+        "x": 4035,
+        "y": 1828
+      }
+    },
+    {
+      "id": "city-bench-3:seat-1",
+      "x": 3429,
+      "y": 2346,
+      "width": 120,
+      "height": 36,
+      "group_id": "city-bench-3",
+      "seat": {
+        "x": 3464,
+        "y": 2374
+      }
+    },
+    {
+      "id": "city-bench-3:seat-2",
+      "x": 3429,
+      "y": 2346,
+      "width": 120,
+      "height": 36,
+      "group_id": "city-bench-3",
+      "seat": {
+        "x": 3514,
+        "y": 2374
+      }
+    },
+    {
+      "id": "city-bench-4:seat-1",
+      "x": 2908,
+      "y": 2141,
+      "width": 120,
+      "height": 36,
+      "group_id": "city-bench-4",
+      "seat": {
+        "x": 2943,
+        "y": 2169
+      }
+    },
+    {
+      "id": "city-bench-4:seat-2",
+      "x": 2908,
+      "y": 2141,
+      "width": 120,
+      "height": 36,
+      "group_id": "city-bench-4",
+      "seat": {
+        "x": 2993,
+        "y": 2169
+      }
+    },
+    {
+      "id": "park-bench-1:seat-1",
+      "x": 3880,
+      "y": 2078,
+      "width": 120,
+      "height": 36,
+      "group_id": "park-bench-1",
+      "seat": {
+        "x": 3915,
+        "y": 2106
+      }
+    },
+    {
+      "id": "park-bench-1:seat-2",
+      "x": 3880,
+      "y": 2078,
+      "width": 120,
+      "height": 36,
+      "group_id": "park-bench-1",
+      "seat": {
+        "x": 3965,
+        "y": 2106
+      }
+    },
+    {
+      "id": "station-bench-1:seat-1",
+      "x": 5250,
+      "y": 1238,
+      "width": 120,
+      "height": 36,
+      "group_id": "station-bench-1",
+      "seat": {
+        "x": 5285,
+        "y": 1266
+      }
+    },
+    {
+      "id": "station-bench-1:seat-2",
+      "x": 5250,
+      "y": 1238,
+      "width": 120,
+      "height": 36,
+      "group_id": "station-bench-1",
+      "seat": {
+        "x": 5335,
+        "y": 1266
+      }
+    },
+    {
+      "id": "station-bench-2:seat-1",
+      "x": 4607,
+      "y": 1838,
+      "width": 120,
+      "height": 36,
+      "group_id": "station-bench-2",
+      "seat": {
+        "x": 4642,
+        "y": 1866
+      }
+    },
+    {
+      "id": "station-bench-2:seat-2",
+      "x": 4607,
+      "y": 1838,
+      "width": 120,
+      "height": 36,
+      "group_id": "station-bench-2",
+      "seat": {
+        "x": 4692,
+        "y": 1866
+      }
+    },
+    {
+      "id": "park-bench-2:seat-1",
+      "x": 5774,
+      "y": 1485,
+      "width": 120,
+      "height": 36,
+      "group_id": "park-bench-2",
+      "seat": {
+        "x": 5809,
+        "y": 1513
+      }
+    },
+    {
+      "id": "park-bench-2:seat-2",
+      "x": 5774,
+      "y": 1485,
+      "width": 120,
+      "height": 36,
+      "group_id": "park-bench-2",
+      "seat": {
+        "x": 5859,
+        "y": 1513
+      }
+    },
+    {
+      "id": "district-bench-1:seat-1",
+      "x": 1300,
+      "y": 1775,
+      "width": 120,
+      "height": 36,
+      "group_id": "district-bench-1",
+      "seat": {
+        "x": 1335,
+        "y": 1803
+      }
+    },
+    {
+      "id": "district-bench-1:seat-2",
+      "x": 1300,
+      "y": 1775,
+      "width": 120,
+      "height": 36,
+      "group_id": "district-bench-1",
+      "seat": {
+        "x": 1385,
+        "y": 1803
+      }
+    },
+    {
+      "id": "district-bench-2:seat-1",
+      "x": 830,
+      "y": 2344,
+      "width": 120,
+      "height": 36,
+      "group_id": "district-bench-2",
+      "seat": {
+        "x": 865,
+        "y": 2372
+      }
+    },
+    {
+      "id": "district-bench-2:seat-2",
+      "x": 830,
+      "y": 2344,
+      "width": 120,
+      "height": 36,
+      "group_id": "district-bench-2",
+      "seat": {
+        "x": 915,
+        "y": 2372
+      }
+    },
+    {
+      "id": "district-bench-3:seat-1",
+      "x": 1894,
+      "y": 2448,
+      "width": 120,
+      "height": 36,
+      "group_id": "district-bench-3",
+      "seat": {
+        "x": 1929,
+        "y": 2476
+      }
+    },
+    {
+      "id": "district-bench-3:seat-2",
+      "x": 1894,
+      "y": 2448,
+      "width": 120,
+      "height": 36,
+      "group_id": "district-bench-3",
+      "seat": {
+        "x": 1979,
+        "y": 2476
+      }
+    }
+  ],
+  "activities": [
+    {
+      "id": "fishing-west",
+      "action": "fishing",
+      "label": "Рыбачить",
+      "x": 4810,
+      "y": 1900,
+      "radius": 65
+    },
+    {
+      "id": "fishing-east",
+      "action": "fishing",
+      "label": "Рыбачить",
+      "x": 6750,
+      "y": 3000,
+      "radius": 65
+    },
+    {
+      "id": "park-dog",
+      "action": "pet-dog",
+      "label": "Погладить собаку",
+      "x": 3704,
+      "y": 2050,
+      "radius": 65
+    },
+    {
+      "id": "litter-park-1",
+      "action": "pick-litter",
+      "label": "Поднять мусор",
+      "x": 3704,
+      "y": 2044,
+      "radius": 55
+    },
+    {
+      "id": "litter-city-1",
+      "action": "pick-litter",
+      "label": "Поднять мусор",
+      "x": 3507,
+      "y": 2000,
+      "radius": 55
+    },
+    {
+      "id": "bin-plaza",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "x": 3125,
+      "y": 2001,
+      "radius": 65
+    },
+    {
+      "id": "bin-park",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "x": 3776,
+      "y": 2032,
+      "radius": 65
+    },
+    {
+      "id": "park-cat",
+      "action": "pet-cat",
+      "label": "Погладить кошку",
+      "x": 3680,
+      "y": 2218,
+      "radius": 65
+    },
+    {
+      "id": "bin-v10-4",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "radius": 65,
+      "x": 2857,
+      "y": 2098
+    },
+    {
+      "id": "bin-v10-5",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "radius": 65,
+      "x": 1477,
+      "y": 2234
+    },
+    {
+      "id": "bin-v10-6",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "radius": 65,
+      "x": 2821,
+      "y": 1233
+    },
+    {
+      "id": "bin-v10-7",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "radius": 65,
+      "x": 3538,
+      "y": 1973
+    },
+    {
+      "id": "bin-v10-8",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "radius": 65,
+      "x": 2787,
+      "y": 2119
+    },
+    {
+      "id": "bin-v10-9",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "radius": 65,
+      "x": 4171,
+      "y": 1913
+    },
+    {
+      "id": "bin-v10-10",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "radius": 65,
+      "x": 4323,
+      "y": 2511
+    },
+    {
+      "id": "bin-v10-11",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "radius": 65,
+      "x": 3475,
+      "y": 1914
+    },
+    {
+      "id": "bin-v10-12",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "radius": 65,
+      "x": 1688,
+      "y": 1440
+    },
+    {
+      "id": "bin-v10-13",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "radius": 65,
+      "x": 4493,
+      "y": 2098
+    },
+    {
+      "id": "bin-v10-14",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "radius": 65,
+      "x": 1361,
+      "y": 2083
+    },
+    {
+      "id": "bin-v10-15",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "radius": 65,
+      "x": 1585,
+      "y": 2201
+    },
+    {
+      "id": "bin-v10-16",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "radius": 65,
+      "x": 3651,
+      "y": 2418
+    },
+    {
+      "id": "bin-v10-17",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "radius": 65,
+      "x": 5941,
+      "y": 1506
+    },
+    {
+      "id": "bin-v10-18",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "radius": 65,
+      "x": 5179,
+      "y": 1259
+    },
+    {
+      "id": "bin-v10-arrival-v11-1",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "radius": 65,
+      "x": 5099,
+      "y": 1269
+    },
+    {
+      "id": "bin-v10-arrival-v11-2",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "radius": 65,
+      "x": 5621,
+      "y": 1345
+    },
+    {
+      "id": "bin-v10-arrival-v11-3",
+      "action": "trash-bin",
+      "label": "Выбросить мусор",
+      "radius": 65,
+      "x": 4563,
+      "y": 1900
+    }
+  ],
+  "smoking": {
+    "id": "smoking",
+    "x": 3950,
+    "y": 2000,
+    "width": 270,
+    "height": 180,
+    "door": {
+      "x": 4100,
+      "y": 2160
+    }
+  },
+  "lake": {
+    "x": 5625,
+    "y": 2600,
+    "radius_x": 1125,
+    "radius_y": 875,
+    "rotation": -0.08
+  },
+  "decor": {
+    "trees": [
+      {
+        "x": 149,
+        "y": 183,
+        "size": 1,
+        "id": "tree-v17-1",
+        "radius": 15,
+        "kind": "oak"
+      },
+      {
+        "x": 583,
+        "y": 176,
+        "size": 1.1,
+        "id": "tree-v17-2",
+        "radius": 16.5,
+        "kind": "birch"
+      },
+      {
+        "x": 871,
+        "y": 205,
+        "size": 0.85,
+        "id": "tree-v17-3",
+        "radius": 12.75,
+        "kind": "maple"
+      },
+      {
+        "x": 2064,
+        "y": 152,
+        "size": 0.7,
+        "id": "tree-v17-4",
+        "radius": 10.5,
+        "kind": "linden"
+      },
+      {
+        "x": 2699,
+        "y": 194,
+        "size": 0.7,
+        "id": "tree-v17-5",
+        "radius": 10.5,
+        "kind": "willow"
+      },
+      {
+        "x": 2800,
+        "y": 189,
+        "size": 0.85,
+        "id": "tree-v17-6",
+        "radius": 12.75,
+        "kind": "poplar"
+      },
+      {
+        "x": 2952,
+        "y": 173,
+        "size": 1.1,
+        "id": "tree-v17-7",
+        "radius": 16.5,
+        "kind": "pine"
+      },
+      {
+        "x": 3110,
+        "y": 187,
+        "size": 1,
+        "id": "tree-v17-8",
+        "radius": 15,
+        "kind": "spruce"
+      },
+      {
+        "x": 3278,
+        "y": 158,
+        "size": 0.7,
+        "id": "tree-v17-9",
+        "radius": 10.5,
+        "kind": "oak"
+      },
+      {
+        "x": 3429,
+        "y": 194,
+        "size": 0.85,
+        "id": "tree-v17-10",
+        "radius": 12.75,
+        "kind": "birch"
+      },
+      {
+        "x": 4016,
+        "y": 190,
+        "size": 0.85,
+        "id": "tree-v17-11",
+        "radius": 12.75,
+        "kind": "maple"
+      },
+      {
+        "x": 4204,
+        "y": 186,
+        "size": 1.1,
+        "id": "tree-v17-12",
+        "radius": 16.5,
+        "kind": "linden"
+      },
+      {
+        "x": 4309,
+        "y": 164,
+        "size": 1,
+        "id": "tree-v17-13",
+        "radius": 15,
+        "kind": "willow"
+      },
+      {
+        "x": 5086,
+        "y": 176,
+        "size": 1.1,
+        "id": "tree-v17-14",
+        "radius": 16.5,
+        "kind": "poplar"
+      },
+      {
+        "x": 5204,
+        "y": 195,
+        "size": 0.7,
+        "id": "tree-v17-15",
+        "radius": 10.5,
+        "kind": "pine"
+      },
+      {
+        "x": 5401,
+        "y": 200,
+        "size": 1,
+        "id": "tree-v17-16",
+        "radius": 15,
+        "kind": "spruce"
+      },
+      {
+        "x": 5680,
+        "y": 179,
+        "size": 1.1,
+        "id": "tree-v17-17",
+        "radius": 16.5,
+        "kind": "oak"
+      },
+      {
+        "x": 5960,
+        "y": 173,
+        "size": 0.85,
+        "id": "tree-v17-18",
+        "radius": 12.75,
+        "kind": "birch"
+      },
+      {
+        "x": 6569,
+        "y": 205,
+        "size": 1,
+        "id": "tree-v17-19",
+        "radius": 15,
+        "kind": "maple"
+      },
+      {
+        "x": 6722,
+        "y": 197,
+        "size": 0.7,
+        "id": "tree-v17-20",
+        "radius": 10.5,
+        "kind": "linden"
+      },
+      {
+        "x": 6872,
+        "y": 169,
+        "size": 1.1,
+        "id": "tree-v17-21",
+        "radius": 16.5,
+        "kind": "willow"
+      },
+      {
+        "x": 7007,
+        "y": 156,
+        "size": 0.85,
+        "id": "tree-v17-22",
+        "radius": 12.75,
+        "kind": "poplar"
+      },
+      {
+        "x": 7156,
+        "y": 183,
+        "size": 0.7,
+        "id": "tree-v17-23",
+        "radius": 10.5,
+        "kind": "pine"
+      },
+      {
+        "x": 7484,
+        "y": 153,
+        "size": 0.7,
+        "id": "tree-v17-24",
+        "radius": 10.5,
+        "kind": "spruce"
+      },
+      {
+        "x": 569,
+        "y": 331,
+        "size": 1,
+        "id": "tree-v17-25",
+        "radius": 15,
+        "kind": "oak"
+      },
+      {
+        "x": 713,
+        "y": 354,
+        "size": 0.7,
+        "id": "tree-v17-26",
+        "radius": 10.5,
+        "kind": "birch"
+      },
+      {
+        "x": 855,
+        "y": 323,
+        "size": 1,
+        "id": "tree-v17-27",
+        "radius": 15,
+        "kind": "maple"
+      },
+      {
+        "x": 1018,
+        "y": 323,
+        "size": 1,
+        "id": "tree-v17-28",
+        "radius": 15,
+        "kind": "linden"
+      },
+      {
+        "x": 1320,
+        "y": 316,
+        "size": 0.85,
+        "id": "tree-v17-29",
+        "radius": 12.75,
+        "kind": "willow"
+      },
+      {
+        "x": 1452,
+        "y": 328,
+        "size": 0.7,
+        "id": "tree-v17-30",
+        "radius": 10.5,
+        "kind": "poplar"
+      },
+      {
+        "x": 2695,
+        "y": 326,
+        "size": 1.1,
+        "id": "tree-v17-31",
+        "radius": 16.5,
+        "kind": "pine"
+      },
+      {
+        "x": 3288,
+        "y": 310,
+        "size": 1.1,
+        "id": "tree-v17-32",
+        "radius": 16.5,
+        "kind": "spruce"
+      },
+      {
+        "x": 3437,
+        "y": 314,
+        "size": 1,
+        "id": "tree-v17-33",
+        "radius": 15,
+        "kind": "oak"
+      },
+      {
+        "x": 3571,
+        "y": 311,
+        "size": 0.7,
+        "id": "tree-v17-34",
+        "radius": 10.5,
+        "kind": "birch"
+      },
+      {
+        "x": 4025,
+        "y": 334,
+        "size": 0.85,
+        "id": "tree-v17-35",
+        "radius": 12.75,
+        "kind": "maple"
+      },
+      {
+        "x": 4169,
+        "y": 320,
+        "size": 0.7,
+        "id": "tree-v17-36",
+        "radius": 10.5,
+        "kind": "linden"
+      },
+      {
+        "x": 4472,
+        "y": 318,
+        "size": 1,
+        "id": "tree-v17-37",
+        "radius": 15,
+        "kind": "willow"
+      },
+      {
+        "x": 4635,
+        "y": 317,
+        "size": 1.1,
+        "id": "tree-v17-38",
+        "radius": 16.5,
+        "kind": "poplar"
+      },
+      {
+        "x": 4938,
+        "y": 323,
+        "size": 1.1,
+        "id": "tree-v17-39",
+        "radius": 16.5,
+        "kind": "pine"
+      },
+      {
+        "x": 5215,
+        "y": 347,
+        "size": 0.85,
+        "id": "tree-v17-40",
+        "radius": 12.75,
+        "kind": "spruce"
+      },
+      {
+        "x": 5374,
+        "y": 329,
+        "size": 1.1,
+        "id": "tree-v17-41",
+        "radius": 16.5,
+        "kind": "oak"
+      },
+      {
+        "x": 5536,
+        "y": 347,
+        "size": 0.85,
+        "id": "tree-v17-42",
+        "radius": 12.75,
+        "kind": "birch"
+      },
+      {
+        "x": 5969,
+        "y": 358,
+        "size": 1.1,
+        "id": "tree-v17-43",
+        "radius": 16.5,
+        "kind": "maple"
+      },
+      {
+        "x": 6122,
+        "y": 325,
+        "size": 0.7,
+        "id": "tree-v17-44",
+        "radius": 10.5,
+        "kind": "linden"
+      },
+      {
+        "x": 6427,
+        "y": 303,
+        "size": 1,
+        "id": "tree-v17-45",
+        "radius": 15,
+        "kind": "willow"
+      },
+      {
+        "x": 6701,
+        "y": 358,
+        "size": 1,
+        "id": "tree-v17-46",
+        "radius": 15,
+        "kind": "poplar"
+      },
+      {
+        "x": 6866,
+        "y": 336,
+        "size": 0.7,
+        "id": "tree-v17-47",
+        "radius": 10.5,
+        "kind": "pine"
+      },
+      {
+        "x": 7056,
+        "y": 356,
+        "size": 0.7,
+        "id": "tree-v17-48",
+        "radius": 10.5,
+        "kind": "spruce"
+      },
+      {
+        "x": 7493,
+        "y": 338,
+        "size": 0.7,
+        "id": "tree-v17-49",
+        "radius": 10.5,
+        "kind": "oak"
+      },
+      {
+        "x": 701,
+        "y": 486,
+        "size": 1,
+        "id": "tree-v17-50",
+        "radius": 15,
+        "kind": "birch"
+      },
+      {
+        "x": 1021,
+        "y": 487,
+        "size": 1.1,
+        "id": "tree-v17-51",
+        "radius": 16.5,
+        "kind": "maple"
+      },
+      {
+        "x": 2690,
+        "y": 483,
+        "size": 1,
+        "id": "tree-v17-52",
+        "radius": 15,
+        "kind": "linden"
+      },
+      {
+        "x": 3136,
+        "y": 468,
+        "size": 1,
+        "id": "tree-v17-53",
+        "radius": 15,
+        "kind": "willow"
+      },
+      {
+        "x": 3262,
+        "y": 457,
+        "size": 1.1,
+        "id": "tree-v17-54",
+        "radius": 16.5,
+        "kind": "poplar"
+      },
+      {
+        "x": 3556,
+        "y": 488,
+        "size": 1.1,
+        "id": "tree-v17-55",
+        "radius": 16.5,
+        "kind": "pine"
+      },
+      {
+        "x": 3752,
+        "y": 502,
+        "size": 0.85,
+        "id": "tree-v17-56",
+        "radius": 12.75,
+        "kind": "spruce"
+      },
+      {
+        "x": 4179,
+        "y": 459,
+        "size": 1,
+        "id": "tree-v17-57",
+        "radius": 15,
+        "kind": "oak"
+      },
+      {
+        "x": 4306,
+        "y": 467,
+        "size": 1.1,
+        "id": "tree-v17-58",
+        "radius": 16.5,
+        "kind": "birch"
+      },
+      {
+        "x": 4497,
+        "y": 494,
+        "size": 1.1,
+        "id": "tree-v17-59",
+        "radius": 16.5,
+        "kind": "maple"
+      },
+      {
+        "x": 4609,
+        "y": 487,
+        "size": 1.1,
+        "id": "tree-v17-60",
+        "radius": 16.5,
+        "kind": "linden"
+      },
+      {
+        "x": 4772,
+        "y": 470,
+        "size": 1,
+        "id": "tree-v17-61",
+        "radius": 15,
+        "kind": "willow"
+      },
+      {
+        "x": 4924,
+        "y": 507,
+        "size": 1.1,
+        "id": "tree-v17-62",
+        "radius": 16.5,
+        "kind": "poplar"
+      },
+      {
+        "x": 5051,
+        "y": 501,
+        "size": 0.7,
+        "id": "tree-v17-63",
+        "radius": 10.5,
+        "kind": "pine"
+      },
+      {
+        "x": 5233,
+        "y": 460,
+        "size": 0.7,
+        "id": "tree-v17-64",
+        "radius": 10.5,
+        "kind": "spruce"
+      },
+      {
+        "x": 5405,
+        "y": 472,
+        "size": 1,
+        "id": "tree-v17-65",
+        "radius": 15,
+        "kind": "oak"
+      },
+      {
+        "x": 5539,
+        "y": 506,
+        "size": 0.7,
+        "id": "tree-v17-66",
+        "radius": 10.5,
+        "kind": "birch"
+      },
+      {
+        "x": 5690,
+        "y": 460,
+        "size": 0.85,
+        "id": "tree-v17-67",
+        "radius": 12.75,
+        "kind": "maple"
+      },
+      {
+        "x": 5994,
+        "y": 478,
+        "size": 1,
+        "id": "tree-v17-68",
+        "radius": 15,
+        "kind": "linden"
+      },
+      {
+        "x": 6112,
+        "y": 486,
+        "size": 1,
+        "id": "tree-v17-69",
+        "radius": 15,
+        "kind": "willow"
+      },
+      {
+        "x": 6308,
+        "y": 463,
+        "size": 0.85,
+        "id": "tree-v17-70",
+        "radius": 12.75,
+        "kind": "poplar"
+      },
+      {
+        "x": 6405,
+        "y": 452,
+        "size": 1,
+        "id": "tree-v17-71",
+        "radius": 15,
+        "kind": "pine"
+      },
+      {
+        "x": 6735,
+        "y": 478,
+        "size": 0.7,
+        "id": "tree-v17-72",
+        "radius": 10.5,
+        "kind": "spruce"
+      },
+      {
+        "x": 7193,
+        "y": 500,
+        "size": 1,
+        "id": "tree-v17-73",
+        "radius": 15,
+        "kind": "oak"
+      },
+      {
+        "x": 7333,
+        "y": 471,
+        "size": 1,
+        "id": "tree-v17-74",
+        "radius": 15,
+        "kind": "birch"
+      },
+      {
+        "x": 1045,
+        "y": 626,
+        "size": 1,
+        "id": "tree-v17-75",
+        "radius": 15,
+        "kind": "maple"
+      },
+      {
+        "x": 2823,
+        "y": 640,
+        "size": 1,
+        "id": "tree-v17-76",
+        "radius": 15,
+        "kind": "linden"
+      },
+      {
+        "x": 3584,
+        "y": 614,
+        "size": 1,
+        "id": "tree-v17-77",
+        "radius": 15,
+        "kind": "willow"
+      },
+      {
+        "x": 3749,
+        "y": 652,
+        "size": 1,
+        "id": "tree-v17-78",
+        "radius": 15,
+        "kind": "poplar"
+      },
+      {
+        "x": 4492,
+        "y": 611,
+        "size": 0.85,
+        "id": "tree-v17-79",
+        "radius": 12.75,
+        "kind": "pine"
+      },
+      {
+        "x": 4609,
+        "y": 609,
+        "size": 1.1,
+        "id": "tree-v17-80",
+        "radius": 16.5,
+        "kind": "spruce"
+      },
+      {
+        "x": 5097,
+        "y": 635,
+        "size": 0.7,
+        "id": "tree-v17-81",
+        "radius": 10.5,
+        "kind": "oak"
+      },
+      {
+        "x": 5383,
+        "y": 653,
+        "size": 0.7,
+        "id": "tree-v17-82",
+        "radius": 10.5,
+        "kind": "birch"
+      },
+      {
+        "x": 5546,
+        "y": 639,
+        "size": 0.7,
+        "id": "tree-v17-83",
+        "radius": 10.5,
+        "kind": "maple"
+      },
+      {
+        "x": 5657,
+        "y": 617,
+        "size": 0.85,
+        "id": "tree-v17-84",
+        "radius": 12.75,
+        "kind": "linden"
+      },
+      {
+        "x": 6108,
+        "y": 616,
+        "size": 1.1,
+        "id": "tree-v17-85",
+        "radius": 16.5,
+        "kind": "willow"
+      },
+      {
+        "x": 6298,
+        "y": 642,
+        "size": 0.7,
+        "id": "tree-v17-86",
+        "radius": 10.5,
+        "kind": "poplar"
+      },
+      {
+        "x": 6417,
+        "y": 627,
+        "size": 0.85,
+        "id": "tree-v17-87",
+        "radius": 12.75,
+        "kind": "pine"
+      },
+      {
+        "x": 6559,
+        "y": 639,
+        "size": 1,
+        "id": "tree-v17-88",
+        "radius": 15,
+        "kind": "spruce"
+      },
+      {
+        "x": 6907,
+        "y": 624,
+        "size": 0.7,
+        "id": "tree-v17-89",
+        "radius": 10.5,
+        "kind": "oak"
+      },
+      {
+        "x": 7349,
+        "y": 619,
+        "size": 1.1,
+        "id": "tree-v17-90",
+        "radius": 16.5,
+        "kind": "birch"
+      },
+      {
+        "x": 7483,
+        "y": 603,
+        "size": 0.85,
+        "id": "tree-v17-91",
+        "radius": 12.75,
+        "kind": "maple"
+      },
+      {
+        "x": 3009,
+        "y": 757,
+        "size": 1,
+        "id": "tree-v17-92",
+        "radius": 15,
+        "kind": "linden"
+      },
+      {
+        "x": 3754,
+        "y": 802,
+        "size": 1,
+        "id": "tree-v17-93",
+        "radius": 15,
+        "kind": "willow"
+      },
+      {
+        "x": 4482,
+        "y": 796,
+        "size": 1,
+        "id": "tree-v17-94",
+        "radius": 15,
+        "kind": "poplar"
+      },
+      {
+        "x": 4612,
+        "y": 770,
+        "size": 0.7,
+        "id": "tree-v17-95",
+        "radius": 10.5,
+        "kind": "pine"
+      },
+      {
+        "x": 5109,
+        "y": 789,
+        "size": 0.85,
+        "id": "tree-v17-96",
+        "radius": 12.75,
+        "kind": "spruce"
+      },
+      {
+        "x": 5668,
+        "y": 777,
+        "size": 0.85,
+        "id": "tree-v17-97",
+        "radius": 12.75,
+        "kind": "oak"
+      },
+      {
+        "x": 5833,
+        "y": 769,
+        "size": 0.85,
+        "id": "tree-v17-98",
+        "radius": 12.75,
+        "kind": "birch"
+      },
+      {
+        "x": 6555,
+        "y": 754,
+        "size": 0.7,
+        "id": "tree-v17-99",
+        "radius": 10.5,
+        "kind": "maple"
+      },
+      {
+        "x": 6749,
+        "y": 762,
+        "size": 0.85,
+        "id": "tree-v17-100",
+        "radius": 12.75,
+        "kind": "linden"
+      },
+      {
+        "x": 7335,
+        "y": 785,
+        "size": 1.1,
+        "id": "tree-v17-101",
+        "radius": 16.5,
+        "kind": "willow"
+      },
+      {
+        "x": 7470,
+        "y": 804,
+        "size": 1.1,
+        "id": "tree-v17-102",
+        "radius": 16.5,
+        "kind": "poplar"
+      },
+      {
+        "x": 4484,
+        "y": 940,
+        "size": 0.85,
+        "id": "tree-v17-103",
+        "radius": 12.75,
+        "kind": "pine"
+      },
+      {
+        "x": 4785,
+        "y": 941,
+        "size": 0.85,
+        "id": "tree-v17-104",
+        "radius": 12.75,
+        "kind": "spruce"
+      },
+      {
+        "x": 5078,
+        "y": 919,
+        "size": 0.85,
+        "id": "tree-v17-105",
+        "radius": 12.75,
+        "kind": "oak"
+      },
+      {
+        "x": 5362,
+        "y": 945,
+        "size": 0.85,
+        "id": "tree-v17-106",
+        "radius": 12.75,
+        "kind": "birch"
+      },
+      {
+        "x": 5545,
+        "y": 905,
+        "size": 0.7,
+        "id": "tree-v17-107",
+        "radius": 10.5,
+        "kind": "maple"
+      },
+      {
+        "x": 5659,
+        "y": 945,
+        "size": 1.1,
+        "id": "tree-v17-108",
+        "radius": 16.5,
+        "kind": "linden"
+      },
+      {
+        "x": 5858,
+        "y": 921,
+        "size": 1,
+        "id": "tree-v17-109",
+        "radius": 15,
+        "kind": "willow"
+      },
+      {
+        "x": 7010,
+        "y": 903,
+        "size": 1.1,
+        "id": "tree-v17-110",
+        "radius": 16.5,
+        "kind": "poplar"
+      },
+      {
+        "x": 7178,
+        "y": 936,
+        "size": 1,
+        "id": "tree-v17-111",
+        "radius": 15,
+        "kind": "pine"
+      },
+      {
+        "x": 111,
+        "y": 1085,
+        "size": 0.85,
+        "id": "tree-v17-112",
+        "radius": 12.75,
+        "kind": "spruce"
+      },
+      {
+        "x": 4654,
+        "y": 1084,
+        "size": 0.7,
+        "id": "tree-v17-113",
+        "radius": 10.5,
+        "kind": "oak"
+      },
+      {
+        "x": 4783,
+        "y": 1090,
+        "size": 0.7,
+        "id": "tree-v17-114",
+        "radius": 10.5,
+        "kind": "birch"
+      },
+      {
+        "x": 4915,
+        "y": 1107,
+        "size": 1,
+        "id": "tree-v17-115",
+        "radius": 15,
+        "kind": "maple"
+      },
+      {
+        "x": 5050,
+        "y": 1064,
+        "size": 0.7,
+        "id": "tree-v17-116",
+        "radius": 10.5,
+        "kind": "linden"
+      },
+      {
+        "x": 7346,
+        "y": 1062,
+        "size": 1.1,
+        "id": "tree-v17-117",
+        "radius": 16.5,
+        "kind": "willow"
+      },
+      {
+        "x": 7474,
+        "y": 1060,
+        "size": 0.85,
+        "id": "tree-v17-118",
+        "radius": 12.75,
+        "kind": "poplar"
+      },
+      {
+        "x": 140,
+        "y": 1213,
+        "size": 0.7,
+        "id": "tree-v17-119",
+        "radius": 10.5,
+        "kind": "pine"
+      },
+      {
+        "x": 2518,
+        "y": 1244,
+        "size": 0.7,
+        "id": "tree-v17-120",
+        "radius": 10.5,
+        "kind": "spruce"
+      },
+      {
+        "x": 4654,
+        "y": 1237,
+        "size": 0.7,
+        "id": "tree-v17-121",
+        "radius": 10.5,
+        "kind": "oak"
+      },
+      {
+        "x": 4783,
+        "y": 1238,
+        "size": 1,
+        "id": "tree-v17-122",
+        "radius": 15,
+        "kind": "birch"
+      },
+      {
+        "x": 6570,
+        "y": 1243,
+        "size": 0.7,
+        "id": "tree-v17-123",
+        "radius": 10.5,
+        "kind": "maple"
+      },
+      {
+        "x": 106,
+        "y": 1406,
+        "size": 1,
+        "id": "tree-v17-124",
+        "radius": 15,
+        "kind": "linden"
+      },
+      {
+        "x": 2387,
+        "y": 1377,
+        "size": 0.7,
+        "id": "tree-v17-125",
+        "radius": 10.5,
+        "kind": "willow"
+      },
+      {
+        "x": 2559,
+        "y": 1357,
+        "size": 1.1,
+        "id": "tree-v17-126",
+        "radius": 16.5,
+        "kind": "poplar"
+      },
+      {
+        "x": 7480,
+        "y": 1376,
+        "size": 0.85,
+        "id": "tree-v17-127",
+        "radius": 12.75,
+        "kind": "pine"
+      },
+      {
+        "x": 104,
+        "y": 1554,
+        "size": 0.7,
+        "id": "tree-v17-128",
+        "radius": 10.5,
+        "kind": "spruce"
+      },
+      {
+        "x": 1324,
+        "y": 1539,
+        "size": 0.7,
+        "id": "tree-v17-129",
+        "radius": 10.5,
+        "kind": "oak"
+      },
+      {
+        "x": 2405,
+        "y": 1516,
+        "size": 1.1,
+        "id": "tree-v17-130",
+        "radius": 16.5,
+        "kind": "birch"
+      },
+      {
+        "x": 3131,
+        "y": 1511,
+        "size": 0.7,
+        "id": "tree-v17-131",
+        "radius": 10.5,
+        "kind": "maple"
+      },
+      {
+        "x": 6126,
+        "y": 1511,
+        "size": 0.7,
+        "id": "tree-v17-132",
+        "radius": 10.5,
+        "kind": "linden"
+      },
+      {
+        "x": 6273,
+        "y": 1552,
+        "size": 1.1,
+        "id": "tree-v17-133",
+        "radius": 16.5,
+        "kind": "willow"
+      },
+      {
+        "x": 6436,
+        "y": 1515,
+        "size": 1,
+        "id": "tree-v17-134",
+        "radius": 15,
+        "kind": "poplar"
+      },
+      {
+        "x": 6551,
+        "y": 1535,
+        "size": 1.1,
+        "id": "tree-v17-135",
+        "radius": 16.5,
+        "kind": "pine"
+      },
+      {
+        "x": 124,
+        "y": 1665,
+        "size": 1.1,
+        "id": "tree-v17-136",
+        "radius": 16.5,
+        "kind": "spruce"
+      },
+      {
+        "x": 2540,
+        "y": 1708,
+        "size": 1.1,
+        "id": "tree-v17-137",
+        "radius": 16.5,
+        "kind": "oak"
+      },
+      {
+        "x": 2660,
+        "y": 1704,
+        "size": 0.7,
+        "id": "tree-v17-138",
+        "radius": 10.5,
+        "kind": "birch"
+      },
+      {
+        "x": 3751,
+        "y": 1686,
+        "size": 0.7,
+        "id": "tree-v17-139",
+        "radius": 10.5,
+        "kind": "maple"
+      },
+      {
+        "x": 6404,
+        "y": 1654,
+        "size": 1,
+        "id": "tree-v17-140",
+        "radius": 15,
+        "kind": "linden"
+      },
+      {
+        "x": 7151,
+        "y": 1678,
+        "size": 1,
+        "id": "tree-v17-141",
+        "radius": 15,
+        "kind": "willow"
+      },
+      {
+        "x": 1186,
+        "y": 1815,
+        "size": 0.7,
+        "id": "tree-v17-142",
+        "radius": 10.5,
+        "kind": "poplar"
+      },
+      {
+        "x": 3723,
+        "y": 1834,
+        "size": 0.7,
+        "id": "tree-v17-143",
+        "radius": 10.5,
+        "kind": "pine"
+      },
+      {
+        "x": 2548,
+        "y": 1992,
+        "size": 0.85,
+        "id": "tree-v17-144",
+        "radius": 12.75,
+        "kind": "spruce"
+      },
+      {
+        "x": 7347,
+        "y": 1972,
+        "size": 0.85,
+        "id": "tree-v17-145",
+        "radius": 12.75,
+        "kind": "oak"
+      },
+      {
+        "x": 3440,
+        "y": 2113,
+        "size": 0.7,
+        "id": "tree-v17-146",
+        "radius": 10.5,
+        "kind": "birch"
+      },
+      {
+        "x": 251,
+        "y": 2284,
+        "size": 0.85,
+        "id": "tree-v17-147",
+        "radius": 12.75,
+        "kind": "maple"
+      },
+      {
+        "x": 2382,
+        "y": 2442,
+        "size": 1,
+        "id": "tree-v17-148",
+        "radius": 15,
+        "kind": "linden"
+      },
+      {
+        "x": 859,
+        "y": 2592,
+        "size": 0.85,
+        "id": "tree-v17-149",
+        "radius": 12.75,
+        "kind": "willow"
+      },
+      {
+        "x": 1311,
+        "y": 2584,
+        "size": 0.85,
+        "id": "tree-v17-150",
+        "radius": 12.75,
+        "kind": "poplar"
+      },
+      {
+        "x": 2365,
+        "y": 2552,
+        "size": 1.1,
+        "id": "tree-v17-151",
+        "radius": 16.5,
+        "kind": "pine"
+      },
+      {
+        "x": 2537,
+        "y": 2579,
+        "size": 0.7,
+        "id": "tree-v17-152",
+        "radius": 10.5,
+        "kind": "spruce"
+      },
+      {
+        "x": 2954,
+        "y": 2557,
+        "size": 1,
+        "id": "tree-v17-153",
+        "radius": 15,
+        "kind": "oak"
+      },
+      {
+        "x": 124,
+        "y": 2721,
+        "size": 1,
+        "id": "tree-v17-154",
+        "radius": 15,
+        "kind": "birch"
+      },
+      {
+        "x": 2359,
+        "y": 2741,
+        "size": 1,
+        "id": "tree-v17-155",
+        "radius": 15,
+        "kind": "maple"
+      },
+      {
+        "x": 3603,
+        "y": 2750,
+        "size": 0.7,
+        "id": "tree-v17-156",
+        "radius": 10.5,
+        "kind": "linden"
+      },
+      {
+        "x": 2386,
+        "y": 2858,
+        "size": 1,
+        "id": "tree-v17-157",
+        "radius": 15,
+        "kind": "willow"
+      },
+      {
+        "x": 3709,
+        "y": 2898,
+        "size": 0.85,
+        "id": "tree-v17-158",
+        "radius": 12.75,
+        "kind": "poplar"
+      },
+      {
+        "x": 7026,
+        "y": 2905,
+        "size": 0.85,
+        "id": "tree-v17-159",
+        "radius": 12.75,
+        "kind": "pine"
+      },
+      {
+        "x": 1012,
+        "y": 3034,
+        "size": 0.85,
+        "id": "tree-v17-160",
+        "radius": 12.75,
+        "kind": "spruce"
+      },
+      {
+        "x": 2353,
+        "y": 3052,
+        "size": 1,
+        "id": "tree-v17-161",
+        "radius": 15,
+        "kind": "oak"
+      },
+      {
+        "x": 3568,
+        "y": 3045,
+        "size": 1.1,
+        "id": "tree-v17-162",
+        "radius": 16.5,
+        "kind": "birch"
+      },
+      {
+        "x": 111,
+        "y": 3323,
+        "size": 1.1,
+        "id": "tree-v17-163",
+        "radius": 16.5,
+        "kind": "maple"
+      },
+      {
+        "x": 1755,
+        "y": 3336,
+        "size": 0.7,
+        "id": "tree-v17-164",
+        "radius": 10.5,
+        "kind": "linden"
+      },
+      {
+        "x": 1936,
+        "y": 3317,
+        "size": 0.85,
+        "id": "tree-v17-165",
+        "radius": 12.75,
+        "kind": "willow"
+      },
+      {
+        "x": 2514,
+        "y": 3352,
+        "size": 1,
+        "id": "tree-v17-166",
+        "radius": 15,
+        "kind": "poplar"
+      },
+      {
+        "x": 3569,
+        "y": 3334,
+        "size": 1.1,
+        "id": "tree-v17-167",
+        "radius": 16.5,
+        "kind": "pine"
+      },
+      {
+        "x": 3732,
+        "y": 3337,
+        "size": 1.1,
+        "id": "tree-v17-168",
+        "radius": 16.5,
+        "kind": "spruce"
+      },
+      {
+        "x": 3863,
+        "y": 3349,
+        "size": 0.7,
+        "id": "tree-v17-169",
+        "radius": 10.5,
+        "kind": "oak"
+      },
+      {
+        "x": 6412,
+        "y": 3357,
+        "size": 0.7,
+        "id": "tree-v17-170",
+        "radius": 10.5,
+        "kind": "birch"
+      },
+      {
+        "x": 145,
+        "y": 3465,
+        "size": 1.1,
+        "id": "tree-v17-171",
+        "radius": 16.5,
+        "kind": "maple"
+      },
+      {
+        "x": 2981,
+        "y": 3468,
+        "size": 0.7,
+        "id": "tree-v17-172",
+        "radius": 10.5,
+        "kind": "linden"
+      },
+      {
+        "x": 3584,
+        "y": 3501,
+        "size": 1.1,
+        "id": "tree-v17-173",
+        "radius": 16.5,
+        "kind": "willow"
+      },
+      {
+        "x": 3737,
+        "y": 3493,
+        "size": 0.85,
+        "id": "tree-v17-174",
+        "radius": 12.75,
+        "kind": "poplar"
+      },
+      {
+        "x": 114,
+        "y": 3651,
+        "size": 1,
+        "id": "tree-v17-175",
+        "radius": 15,
+        "kind": "pine"
+      },
+      {
+        "x": 3745,
+        "y": 3636,
+        "size": 1.1,
+        "id": "tree-v17-176",
+        "radius": 16.5,
+        "kind": "spruce"
+      },
+      {
+        "x": 4001,
+        "y": 3606,
+        "size": 0.7,
+        "id": "tree-v17-177",
+        "radius": 10.5,
+        "kind": "oak"
+      },
+      {
+        "x": 4153,
+        "y": 3651,
+        "size": 0.7,
+        "id": "tree-v17-178",
+        "radius": 10.5,
+        "kind": "birch"
+      },
+      {
+        "x": 6720,
+        "y": 3640,
+        "size": 1.1,
+        "id": "tree-v17-179",
+        "radius": 16.5,
+        "kind": "maple"
+      },
+      {
+        "x": 6872,
+        "y": 3627,
+        "size": 1.1,
+        "id": "tree-v17-180",
+        "radius": 16.5,
+        "kind": "linden"
+      },
+      {
+        "x": 7028,
+        "y": 3615,
+        "size": 0.7,
+        "id": "tree-v17-181",
+        "radius": 10.5,
+        "kind": "willow"
+      },
+      {
+        "x": 290,
+        "y": 3797,
+        "size": 1.1,
+        "id": "tree-v17-182",
+        "radius": 16.5,
+        "kind": "poplar"
+      },
+      {
+        "x": 4164,
+        "y": 3779,
+        "size": 0.7,
+        "id": "tree-v17-183",
+        "radius": 10.5,
+        "kind": "pine"
+      },
+      {
+        "x": 6603,
+        "y": 3768,
+        "size": 1,
+        "id": "tree-v17-184",
+        "radius": 15,
+        "kind": "spruce"
+      },
+      {
+        "x": 7506,
+        "y": 3764,
+        "size": 0.7,
+        "id": "tree-v17-185",
+        "radius": 10.5,
+        "kind": "oak"
+      },
+      {
+        "x": 411,
+        "y": 3949,
+        "size": 0.7,
+        "id": "tree-v17-186",
+        "radius": 10.5,
+        "kind": "birch"
+      },
+      {
+        "x": 4198,
+        "y": 3932,
+        "size": 1.1,
+        "id": "tree-v17-187",
+        "radius": 16.5,
+        "kind": "maple"
+      },
+      {
+        "x": 4316,
+        "y": 3946,
+        "size": 0.7,
+        "id": "tree-v17-188",
+        "radius": 10.5,
+        "kind": "linden"
+      },
+      {
+        "x": 5050,
+        "y": 3919,
+        "size": 1.1,
+        "id": "tree-v17-189",
+        "radius": 16.5,
+        "kind": "willow"
+      },
+      {
+        "x": 5827,
+        "y": 3942,
+        "size": 0.7,
+        "id": "tree-v17-190",
+        "radius": 10.5,
+        "kind": "poplar"
+      },
+      {
+        "x": 6134,
+        "y": 3955,
+        "size": 1.1,
+        "id": "tree-v17-191",
+        "radius": 16.5,
+        "kind": "pine"
+      },
+      {
+        "x": 6599,
+        "y": 3922,
+        "size": 1.1,
+        "id": "tree-v17-192",
+        "radius": 16.5,
+        "kind": "spruce"
+      },
+      {
+        "x": 309,
+        "y": 4086,
+        "size": 0.7,
+        "id": "tree-v17-193",
+        "radius": 10.5,
+        "kind": "oak"
+      },
+      {
+        "x": 1506,
+        "y": 4052,
+        "size": 0.85,
+        "id": "tree-v17-194",
+        "radius": 12.75,
+        "kind": "birch"
+      },
+      {
+        "x": 4163,
+        "y": 4074,
+        "size": 0.85,
+        "id": "tree-v17-195",
+        "radius": 12.75,
+        "kind": "maple"
+      },
+      {
+        "x": 4360,
+        "y": 4108,
+        "size": 1.1,
+        "id": "tree-v17-196",
+        "radius": 16.5,
+        "kind": "linden"
+      },
+      {
+        "x": 5217,
+        "y": 4070,
+        "size": 0.85,
+        "id": "tree-v17-197",
+        "radius": 12.75,
+        "kind": "willow"
+      },
+      {
+        "x": 5530,
+        "y": 4098,
+        "size": 0.85,
+        "id": "tree-v17-198",
+        "radius": 12.75,
+        "kind": "poplar"
+      },
+      {
+        "x": 5831,
+        "y": 4079,
+        "size": 0.85,
+        "id": "tree-v17-199",
+        "radius": 12.75,
+        "kind": "pine"
+      },
+      {
+        "x": 6295,
+        "y": 4097,
+        "size": 0.7,
+        "id": "tree-v17-200",
+        "radius": 10.5,
+        "kind": "spruce"
+      },
+      {
+        "x": 6442,
+        "y": 4070,
+        "size": 0.85,
+        "id": "tree-v17-201",
+        "radius": 12.75,
+        "kind": "oak"
+      },
+      {
+        "x": 6552,
+        "y": 4088,
+        "size": 0.85,
+        "id": "tree-v17-202",
+        "radius": 12.75,
+        "kind": "birch"
+      },
+      {
+        "x": 434,
+        "y": 4212,
+        "size": 0.7,
+        "id": "tree-v17-203",
+        "radius": 10.5,
+        "kind": "maple"
+      },
+      {
+        "x": 727,
+        "y": 4230,
+        "size": 1,
+        "id": "tree-v17-204",
+        "radius": 15,
+        "kind": "linden"
+      },
+      {
+        "x": 898,
+        "y": 4246,
+        "size": 1.1,
+        "id": "tree-v17-205",
+        "radius": 16.5,
+        "kind": "willow"
+      },
+      {
+        "x": 1509,
+        "y": 4219,
+        "size": 0.85,
+        "id": "tree-v17-206",
+        "radius": 12.75,
+        "kind": "poplar"
+      },
+      {
+        "x": 2656,
+        "y": 4239,
+        "size": 1.1,
+        "id": "tree-v17-207",
+        "radius": 16.5,
+        "kind": "pine"
+      },
+      {
+        "x": 6108,
+        "y": 4215,
+        "size": 1.1,
+        "id": "tree-v17-208",
+        "radius": 16.5,
+        "kind": "spruce"
+      },
+      {
+        "x": 6759,
+        "y": 4241,
+        "size": 1,
+        "id": "tree-v17-209",
+        "radius": 15,
+        "kind": "oak"
+      },
+      {
+        "x": 7499,
+        "y": 4206,
+        "size": 0.85,
+        "id": "tree-v17-210",
+        "radius": 12.75,
+        "kind": "birch"
+      },
+      {
+        "x": 1797,
+        "y": 4382,
+        "size": 1,
+        "id": "tree-v17-211",
+        "radius": 15,
+        "kind": "maple"
+      },
+      {
+        "x": 1909,
+        "y": 4377,
+        "size": 0.85,
+        "id": "tree-v17-212",
+        "radius": 12.75,
+        "kind": "linden"
+      },
+      {
+        "x": 2240,
+        "y": 4375,
+        "size": 0.7,
+        "id": "tree-v17-213",
+        "radius": 10.5,
+        "kind": "willow"
+      },
+      {
+        "x": 2384,
+        "y": 4367,
+        "size": 1,
+        "id": "tree-v17-214",
+        "radius": 15,
+        "kind": "poplar"
+      },
+      {
+        "x": 2538,
+        "y": 4398,
+        "size": 0.7,
+        "id": "tree-v17-215",
+        "radius": 10.5,
+        "kind": "pine"
+      },
+      {
+        "x": 2672,
+        "y": 4379,
+        "size": 0.85,
+        "id": "tree-v17-216",
+        "radius": 12.75,
+        "kind": "spruce"
+      },
+      {
+        "x": 3149,
+        "y": 4399,
+        "size": 1,
+        "id": "tree-v17-217",
+        "radius": 15,
+        "kind": "oak"
+      },
+      {
+        "x": 6444,
+        "y": 4370,
+        "size": 0.7,
+        "id": "tree-v17-218",
+        "radius": 10.5,
+        "kind": "birch"
+      },
+      {
+        "x": 1483,
+        "y": 4505,
+        "size": 0.85,
+        "id": "tree-v17-219",
+        "radius": 12.75,
+        "kind": "maple"
+      },
+      {
+        "x": 1652,
+        "y": 4510,
+        "size": 0.7,
+        "id": "tree-v17-220",
+        "radius": 10.5,
+        "kind": "linden"
+      },
+      {
+        "x": 1764,
+        "y": 4517,
+        "size": 0.7,
+        "id": "tree-v17-221",
+        "radius": 10.5,
+        "kind": "willow"
+      },
+      {
+        "x": 1949,
+        "y": 4517,
+        "size": 1,
+        "id": "tree-v17-222",
+        "radius": 15,
+        "kind": "poplar"
+      },
+      {
+        "x": 2092,
+        "y": 4508,
+        "size": 1.1,
+        "id": "tree-v17-223",
+        "radius": 16.5,
+        "kind": "pine"
+      },
+      {
+        "x": 2220,
+        "y": 4550,
+        "size": 1,
+        "id": "tree-v17-224",
+        "radius": 15,
+        "kind": "spruce"
+      },
+      {
+        "x": 2400,
+        "y": 4558,
+        "size": 0.7,
+        "id": "tree-v17-225",
+        "radius": 10.5,
+        "kind": "oak"
+      },
+      {
+        "x": 2553,
+        "y": 4542,
+        "size": 0.7,
+        "id": "tree-v17-226",
+        "radius": 10.5,
+        "kind": "birch"
+      },
+      {
+        "x": 2680,
+        "y": 4512,
+        "size": 0.85,
+        "id": "tree-v17-227",
+        "radius": 12.75,
+        "kind": "maple"
+      },
+      {
+        "x": 1913,
+        "y": 4685,
+        "size": 1,
+        "id": "tree-v17-228",
+        "radius": 15,
+        "kind": "linden"
+      },
+      {
+        "x": 2098,
+        "y": 4702,
+        "size": 1,
+        "id": "tree-v17-229",
+        "radius": 15,
+        "kind": "willow"
+      },
+      {
+        "x": 2249,
+        "y": 4671,
+        "size": 1,
+        "id": "tree-v17-230",
+        "radius": 15,
+        "kind": "poplar"
+      },
+      {
+        "x": 2379,
+        "y": 4686,
+        "size": 1.1,
+        "id": "tree-v17-231",
+        "radius": 16.5,
+        "kind": "pine"
+      },
+      {
+        "x": 7504,
+        "y": 4683,
+        "size": 0.7,
+        "id": "tree-v17-232",
+        "radius": 10.5,
+        "kind": "spruce"
+      },
+      {
+        "x": 2201,
+        "y": 4813,
+        "size": 1,
+        "id": "tree-v17-233",
+        "radius": 15,
+        "kind": "oak"
+      },
+      {
+        "x": 4505,
+        "y": 4833,
+        "size": 0.85,
+        "id": "tree-v17-234",
+        "radius": 12.75,
+        "kind": "birch"
+      },
+      {
+        "x": 4803,
+        "y": 4843,
+        "size": 0.7,
+        "id": "tree-v17-235",
+        "radius": 10.5,
+        "kind": "maple"
+      },
+      {
+        "x": 7470,
+        "y": 4847,
+        "size": 1.1,
+        "id": "tree-v17-236",
+        "radius": 16.5,
+        "kind": "linden"
+      },
+      {
+        "x": 2370,
+        "y": 4981,
+        "size": 0.7,
+        "id": "tree-v17-237",
+        "radius": 10.5,
+        "kind": "willow"
+      },
+      {
+        "x": 4190,
+        "y": 4972,
+        "size": 0.7,
+        "id": "tree-v17-238",
+        "radius": 10.5,
+        "kind": "poplar"
+      },
+      {
+        "x": 4311,
+        "y": 5005,
+        "size": 0.7,
+        "id": "tree-v17-239",
+        "radius": 10.5,
+        "kind": "pine"
+      },
+      {
+        "x": 4504,
+        "y": 4975,
+        "size": 1.1,
+        "id": "tree-v17-240",
+        "radius": 16.5,
+        "kind": "spruce"
+      },
+      {
+        "x": 4763,
+        "y": 4989,
+        "size": 1,
+        "id": "tree-v17-241",
+        "radius": 15,
+        "kind": "oak"
+      },
+      {
+        "x": 5090,
+        "y": 4991,
+        "size": 1,
+        "id": "tree-v17-242",
+        "radius": 15,
+        "kind": "birch"
+      },
+      {
+        "x": 5207,
+        "y": 4970,
+        "size": 0.85,
+        "id": "tree-v17-243",
+        "radius": 12.75,
+        "kind": "maple"
+      },
+      {
+        "x": 7479,
+        "y": 4964,
+        "size": 0.85,
+        "id": "tree-v17-244",
+        "radius": 12.75,
+        "kind": "linden"
+      }
+    ],
+    "lamps": [
+      {
+        "id": "lamp-v17-1",
+        "x": 830,
+        "y": 1005,
+        "road_id": "avenue",
+        "anchor": [
+          830,
+          1240
+        ],
+        "zone": "clans",
+        "row_id": "avenue-1--1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-2",
+        "x": 2394,
+        "y": 1789,
+        "road_id": "avenue",
+        "anchor": [
+          2178,
+          1882
+        ],
+        "zone": "park",
+        "row_id": "avenue-4--1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-3",
+        "x": 2659,
+        "y": 1948,
+        "road_id": "avenue",
+        "anchor": [
+          2579,
+          2169
+        ],
+        "zone": "park",
+        "row_id": "avenue-5--1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-4",
+        "x": 2500,
+        "y": 2390,
+        "road_id": "avenue",
+        "anchor": [
+          2579,
+          2169
+        ],
+        "zone": "park",
+        "row_id": "avenue-5-1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-5",
+        "x": 2829,
+        "y": 2508,
+        "road_id": "avenue",
+        "anchor": [
+          2909,
+          2287
+        ],
+        "zone": "centre",
+        "row_id": "avenue-5-1",
+        "row_position": 700,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-6",
+        "x": 3158,
+        "y": 2627,
+        "road_id": "avenue",
+        "anchor": [
+          3238,
+          2406
+        ],
+        "zone": "centre",
+        "row_id": "avenue-5-1",
+        "row_position": 1050,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-7",
+        "x": 3487,
+        "y": 2746,
+        "road_id": "avenue",
+        "anchor": [
+          3567,
+          2525
+        ],
+        "zone": "centre",
+        "row_id": "avenue-5-1",
+        "row_position": 1400,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-8",
+        "x": 3817,
+        "y": 2865,
+        "road_id": "avenue",
+        "anchor": [
+          3896,
+          2643
+        ],
+        "zone": "centre",
+        "row_id": "avenue-5-1",
+        "row_position": 1750,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-9",
+        "x": 1193,
+        "y": 3088,
+        "road_id": "shopping-avenue",
+        "anchor": [
+          1122,
+          3315
+        ],
+        "zone": "clans",
+        "row_id": "shopping-avenue-0--1",
+        "row_position": 1050,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-10",
+        "x": 1050,
+        "y": 3541,
+        "road_id": "shopping-avenue",
+        "anchor": [
+          1122,
+          3315
+        ],
+        "zone": "clans",
+        "row_id": "shopping-avenue-0-1",
+        "row_position": 1050,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-11",
+        "x": 2049,
+        "y": 3326,
+        "road_id": "shopping-avenue",
+        "anchor": [
+          2050,
+          3563
+        ],
+        "zone": "centre",
+        "row_id": "shopping-avenue-2--1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-12",
+        "x": 2399,
+        "y": 3324,
+        "road_id": "shopping-avenue",
+        "anchor": [
+          2400,
+          3562
+        ],
+        "zone": "centre",
+        "row_id": "shopping-avenue-2--1",
+        "row_position": 700,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-13",
+        "x": 3113,
+        "y": 3404,
+        "road_id": "shopping-avenue",
+        "anchor": [
+          3062,
+          3636
+        ],
+        "zone": "centre",
+        "row_id": "shopping-avenue-3--1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-14",
+        "x": 3455,
+        "y": 3480,
+        "road_id": "shopping-avenue",
+        "anchor": [
+          3403,
+          3712
+        ],
+        "zone": "centre",
+        "row_id": "shopping-avenue-3--1",
+        "row_position": 700,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-15",
+        "x": 4286,
+        "y": 4829,
+        "road_id": "shopping-avenue",
+        "anchor": [
+          4308,
+          4593
+        ],
+        "zone": "centre",
+        "row_id": "shopping-avenue-7-1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-16",
+        "x": 4635,
+        "y": 4862,
+        "road_id": "shopping-avenue",
+        "anchor": [
+          4657,
+          4625
+        ],
+        "zone": "centre",
+        "row_id": "shopping-avenue-7-1",
+        "row_position": 700,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-17",
+        "x": 4983,
+        "y": 4894,
+        "road_id": "shopping-avenue",
+        "anchor": [
+          5005,
+          4658
+        ],
+        "zone": "centre",
+        "row_id": "shopping-avenue-7-1",
+        "row_position": 1050,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-18",
+        "x": 6301,
+        "y": 4498,
+        "road_id": "shopping-avenue",
+        "anchor": [
+          6289,
+          4735
+        ],
+        "zone": "centre",
+        "row_id": "shopping-avenue-8--1",
+        "row_position": 1050,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-19",
+        "x": 7177,
+        "y": 4691,
+        "road_id": "shopping-avenue",
+        "anchor": [
+          7078,
+          4907
+        ],
+        "zone": "centre",
+        "row_id": "shopping-avenue-9--1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-20",
+        "x": 2577,
+        "y": 562,
+        "road_id": "west-boulevard",
+        "anchor": [
+          2346,
+          497
+        ],
+        "zone": "park",
+        "row_id": "west-boulevard-0--1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-21",
+        "x": 1635,
+        "y": 3379,
+        "road_id": "west-boulevard",
+        "anchor": [
+          1405,
+          3312
+        ],
+        "zone": "clans",
+        "row_id": "west-boulevard-4--1",
+        "row_position": 700,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-22",
+        "x": 1478,
+        "y": 3905,
+        "road_id": "west-boulevard",
+        "anchor": [
+          1248,
+          3835
+        ],
+        "zone": "clans",
+        "row_id": "west-boulevard-5--1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-23",
+        "x": 1376,
+        "y": 4240,
+        "road_id": "west-boulevard",
+        "anchor": [
+          1146,
+          4170
+        ],
+        "zone": "clans",
+        "row_id": "west-boulevard-5--1",
+        "row_position": 700,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-24",
+        "x": 1019,
+        "y": 3765,
+        "road_id": "west-boulevard",
+        "anchor": [
+          1248,
+          3835
+        ],
+        "zone": "clans",
+        "row_id": "west-boulevard-5-1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-25",
+        "x": 1938,
+        "y": 1245,
+        "road_id": "clan-lane",
+        "anchor": [
+          1815,
+          1052
+        ],
+        "zone": "park",
+        "row_id": "clan-lane-3-1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-26",
+        "x": 1610,
+        "y": 291,
+        "road_id": "clan-lane",
+        "anchor": [
+          1610,
+          520
+        ],
+        "zone": "clans",
+        "row_id": "clan-lane-5-1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-27",
+        "x": 1710,
+        "y": 291,
+        "road_id": "clan-lane",
+        "anchor": [
+          1710,
+          520
+        ],
+        "zone": "clans",
+        "row_id": "clan-lane-8--1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-28",
+        "x": 365,
+        "y": 2259,
+        "road_id": "clan-south",
+        "anchor": [
+          447,
+          2045
+        ],
+        "zone": "clans",
+        "row_id": "clan-south-0-1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-29",
+        "x": 1105,
+        "y": 2532,
+        "road_id": "clan-south",
+        "anchor": [
+          1180,
+          2316
+        ],
+        "zone": "clans",
+        "row_id": "clan-south-1-1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-30",
+        "x": 1435,
+        "y": 2647,
+        "road_id": "clan-south",
+        "anchor": [
+          1511,
+          2431
+        ],
+        "zone": "clans",
+        "row_id": "clan-south-1-1",
+        "row_position": 700,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-31",
+        "x": 4856,
+        "y": 3688,
+        "road_id": "lake-west",
+        "anchor": [
+          4635,
+          3752
+        ],
+        "zone": "centre",
+        "row_id": "lake-west-4--1",
+        "row_position": 700,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-32",
+        "x": 4414,
+        "y": 3816,
+        "road_id": "lake-west",
+        "anchor": [
+          4635,
+          3752
+        ],
+        "zone": "centre",
+        "row_id": "lake-west-4-1",
+        "row_position": 700,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-33",
+        "x": 5077,
+        "y": 4158,
+        "road_id": "lake-west",
+        "anchor": [
+          4879,
+          4276
+        ],
+        "zone": "centre",
+        "row_id": "lake-west-5--1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-34",
+        "x": 5409,
+        "y": 4983,
+        "road_id": "lake-west",
+        "anchor": [
+          5461,
+          4759
+        ],
+        "zone": "centre",
+        "row_id": "lake-west-6-1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-35",
+        "x": 6716,
+        "y": 1771,
+        "road_id": "east-residential",
+        "anchor": [
+          6930,
+          1685
+        ],
+        "zone": "arrival",
+        "row_id": "east-residential-1-1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-36",
+        "x": 7490,
+        "y": 2776,
+        "road_id": "east-residential",
+        "anchor": [
+          7283,
+          2673
+        ],
+        "zone": "centre",
+        "row_id": "east-residential-3--1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-37",
+        "x": 7077,
+        "y": 2570,
+        "road_id": "east-residential",
+        "anchor": [
+          7283,
+          2673
+        ],
+        "zone": "centre",
+        "row_id": "east-residential-3-1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-38",
+        "x": 6929,
+        "y": 3270,
+        "road_id": "east-residential",
+        "anchor": [
+          7160,
+          3270
+        ],
+        "zone": "centre",
+        "row_id": "east-residential-4-1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-39",
+        "x": 7255,
+        "y": 4499,
+        "road_id": "east-residential",
+        "anchor": [
+          7070,
+          4360
+        ],
+        "zone": "centre",
+        "row_id": "east-residential-7--1",
+        "row_position": 350,
+        "spacing": 350
+      },
+      {
+        "id": "lamp-v17-40",
+        "x": 6885,
+        "y": 4221,
+        "road_id": "east-residential",
+        "anchor": [
+          7070,
+          4360
+        ],
+        "zone": "centre",
+        "row_id": "east-residential-7-1",
+        "row_position": 350,
+        "spacing": 350
+      }
+    ],
+    "lawns": [
+      {
+        "x": 20,
+        "y": 20,
+        "width": 7640,
+        "height": 5080
+      }
+    ],
+    "plaza": {
+      "x": 3120,
+      "y": 1570,
+      "width": 760,
+      "height": 680
+    },
+    "city": {
+      "x": 28,
+      "y": 28,
+      "width": 7624,
+      "height": 5064
+    },
+    "crosswalks": [
+      {
+        "x": 1350,
+        "y": 3500,
+        "width": 100,
+        "height": 70,
+        "angle": -0.33
+      },
+      {
+        "x": 1925,
+        "y": 2250,
+        "width": 100,
+        "height": 70,
+        "angle": -0.33
+      },
+      {
+        "x": 4175,
+        "y": 2450,
+        "width": 100,
+        "height": 70,
+        "angle": -0.33
+      }
+    ],
+    "street_details": [
+      {
+        "id": "bin-v17-1",
+        "kind": "bin",
+        "x": 5029,
+        "y": 1253,
+        "footprint": {
+          "x": 5013,
+          "y": 1255,
+          "width": 32,
+          "height": 15
+        }
+      },
+      {
+        "id": "bin-v17-2",
+        "kind": "bin",
+        "x": 1467,
+        "y": 925,
+        "footprint": {
+          "x": 1451,
+          "y": 927,
+          "width": 32,
+          "height": 15
+        }
+      },
+      {
+        "id": "bin-v17-3",
+        "kind": "bin",
+        "x": 5986,
+        "y": 4423,
+        "footprint": {
+          "x": 5970,
+          "y": 4425,
+          "width": 32,
+          "height": 15
+        }
+      },
+      {
+        "id": "bin-v17-4",
+        "kind": "bin",
+        "x": 3437,
+        "y": 4420,
+        "footprint": {
+          "x": 3421,
+          "y": 4422,
+          "width": 32,
+          "height": 15
+        }
+      },
+      {
+        "id": "bin-v17-5",
+        "kind": "bin",
+        "x": 3294,
+        "y": 1625,
+        "footprint": {
+          "x": 3278,
+          "y": 1627,
+          "width": 32,
+          "height": 15
+        }
+      },
+      {
+        "id": "bin-v17-6",
+        "kind": "bin",
+        "x": 4665,
+        "y": 4332,
+        "footprint": {
+          "x": 4649,
+          "y": 4334,
+          "width": 32,
+          "height": 15
+        }
+      },
+      {
+        "id": "bin-v17-7",
+        "kind": "bin",
+        "x": 4013,
+        "y": 1146,
+        "footprint": {
+          "x": 3997,
+          "y": 1148,
+          "width": 32,
+          "height": 15
+        }
+      },
+      {
+        "id": "bin-v17-8",
+        "kind": "bin",
+        "x": 4370,
+        "y": 3305,
+        "footprint": {
+          "x": 4354,
+          "y": 3307,
+          "width": 32,
+          "height": 15
+        }
+      },
+      {
+        "id": "bin-v17-9",
+        "kind": "bin",
+        "x": 2448,
+        "y": 4135,
+        "footprint": {
+          "x": 2432,
+          "y": 4137,
+          "width": 32,
+          "height": 15
+        }
+      },
+      {
+        "id": "bin-v17-10",
+        "kind": "bin",
+        "x": 3355,
+        "y": 4359,
+        "footprint": {
+          "x": 3339,
+          "y": 4361,
+          "width": 32,
+          "height": 15
+        }
+      },
+      {
+        "id": "bin-v17-11",
+        "kind": "bin",
+        "x": 3023,
+        "y": 3139,
+        "footprint": {
+          "x": 3007,
+          "y": 3141,
+          "width": 32,
+          "height": 15
+        }
+      }
+    ],
+    "fixture_pads": [
+      {
+        "id": "pad-city-bench-1",
+        "x": 3286,
+        "y": 1668,
+        "width": 148,
+        "height": 84
+      },
+      {
+        "id": "pad-city-bench-2",
+        "x": 3936,
+        "y": 1768,
+        "width": 148,
+        "height": 84
+      },
+      {
+        "id": "pad-city-bench-3",
+        "x": 3415,
+        "y": 2314,
+        "width": 148,
+        "height": 84
+      },
+      {
+        "id": "pad-city-bench-4",
+        "x": 2894,
+        "y": 2109,
+        "width": 148,
+        "height": 84
+      },
+      {
+        "id": "pad-park-bench-1",
+        "x": 3866,
+        "y": 2046,
+        "width": 148,
+        "height": 84
+      },
+      {
+        "id": "pad-station-bench-1",
+        "x": 5236,
+        "y": 1206,
+        "width": 148,
+        "height": 84
+      },
+      {
+        "id": "pad-station-bench-2",
+        "x": 4593,
+        "y": 1806,
+        "width": 148,
+        "height": 84
+      },
+      {
+        "id": "pad-park-bench-2",
+        "x": 5760,
+        "y": 1453,
+        "width": 148,
+        "height": 84
+      },
+      {
+        "id": "pad-district-bench-1",
+        "x": 1286,
+        "y": 1743,
+        "width": 148,
+        "height": 84
+      },
+      {
+        "id": "pad-district-bench-2",
+        "x": 816,
+        "y": 2312,
+        "width": 148,
+        "height": 84
+      },
+      {
+        "id": "pad-district-bench-3",
+        "x": 1880,
+        "y": 2416,
+        "width": 148,
+        "height": 84
+      },
+      {
+        "id": "pad-bin-plaza",
+        "x": 3102,
+        "y": 1985,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-bin-park",
+        "x": 3753,
+        "y": 2016,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-bin-v10-4",
+        "x": 2834,
+        "y": 2082,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-bin-v10-5",
+        "x": 1454,
+        "y": 2218,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-bin-v10-6",
+        "x": 2798,
+        "y": 1217,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-bin-v10-7",
+        "x": 3515,
+        "y": 1957,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-bin-v10-8",
+        "x": 2764,
+        "y": 2103,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-bin-v10-9",
+        "x": 4148,
+        "y": 1897,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-bin-v10-10",
+        "x": 4300,
+        "y": 2495,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-bin-v10-11",
+        "x": 3452,
+        "y": 1898,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-bin-v10-12",
+        "x": 1665,
+        "y": 1424,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-bin-v10-13",
+        "x": 4470,
+        "y": 2082,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-bin-v10-14",
+        "x": 1338,
+        "y": 2067,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-bin-v10-15",
+        "x": 1562,
+        "y": 2185,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-bin-v10-16",
+        "x": 3628,
+        "y": 2402,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-bin-v10-17",
+        "x": 5918,
+        "y": 1490,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-bin-v10-18",
+        "x": 5156,
+        "y": 1243,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-bin-v10-arrival-v11-1",
+        "x": 5076,
+        "y": 1253,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-bin-v10-arrival-v11-2",
+        "x": 5598,
+        "y": 1329,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-bin-v10-arrival-v11-3",
+        "x": 4540,
+        "y": 1884,
+        "width": 46,
+        "height": 40
+      },
+      {
+        "id": "pad-archive",
+        "x": 3001,
+        "y": 1942,
+        "width": 98,
+        "height": 31
+      }
+    ]
+  },
+  "base": {
+    "width": 1200,
+    "height": 900,
+    "bounds": {
+      "left": 180,
+      "right": 1020,
+      "top": 174,
+      "bottom": 760
+    },
+    "spawn": {
+      "x": 600,
+      "y": 670
+    },
+    "exit": {
+      "x": 600,
+      "y": 769
+    },
+    "grid": {
+      "x": 180,
+      "y": 260,
+      "columns": 12,
+      "rows": 8,
+      "cell_width": 70,
+      "cell_height": 58
+    }
+  },
+  "furniture_catalog": "furniture-map.json",
+  "day_cycle_seconds": 1200,
+  "palette": {
+    "ground": "#93ac72",
+    "pavement": "#c7c4b8",
+    "asphalt": "#62666a",
+    "grass": "#93ac72",
+    "leaf": "#467349",
+    "water": "#3a899c"
+  },
+  "boats": [
+    {
+      "id": "boat-1",
+      "label": "Лодка 1",
+      "x": 5250,
+      "y": 1870,
+      "dock": {
+        "x": 5250,
+        "y": 1870
+      },
+      "boarding": {
+        "x": 5250,
+        "y": 1630,
+        "radius": 65
+      }
+    },
+    {
+      "id": "boat-2",
+      "label": "Лодка 2",
+      "x": 5625,
+      "y": 1850,
+      "dock": {
+        "x": 5625,
+        "y": 1850
+      },
+      "boarding": {
+        "x": 5625,
+        "y": 1610,
+        "radius": 65
+      }
+    },
+    {
+      "id": "boat-3",
+      "label": "Лодка 3",
+      "x": 6000,
+      "y": 1890,
+      "dock": {
+        "x": 6000,
+        "y": 1890
+      },
+      "boarding": {
+        "x": 6000,
+        "y": 1650,
+        "radius": 65
+      }
+    }
+  ],
+  "architecture": {
+    "version": 17,
+    "frontages": [
+      {
+        "id": "frontage-railway",
+        "building_id": "railway",
+        "door": {
+          "x": 5050,
+          "y": 1515
+        },
+        "path": [
+          [
+            5050,
+            1515
+          ],
+          [
+            5050,
+            1575
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "arrival"
+        },
+        "forecourt": {
+          "x": 4513,
+          "y": 1502,
+          "width": 1074,
+          "height": 76
+        },
+        "parking": {
+          "x": 5615,
+          "y": 1393,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 5615,
+              "y": 1393,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              5673,
+              1491
+            ],
+            [
+              5673,
+              1511
+            ],
+            [
+              5677,
+              1612
+            ]
+          ],
+          "connection": {
+            "road_id": "station-promenade"
+          }
+        }
+      },
+      {
+        "id": "frontage-clans",
+        "building_id": "clans",
+        "door": {
+          "x": 1200,
+          "y": 1115
+        },
+        "path": [
+          [
+            1200,
+            1115
+          ],
+          [
+            1200,
+            1175
+          ],
+          [
+            1200,
+            1240
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "avenue"
+        },
+        "forecourt": {
+          "x": 976,
+          "y": 1102,
+          "width": 449,
+          "height": 76
+        },
+        "parking": {
+          "x": 1453,
+          "y": 969,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 1453,
+              "y": 969,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              1511,
+              1067
+            ],
+            [
+              1511,
+              1087
+            ],
+            [
+              1583,
+              1200
+            ]
+          ],
+          "connection": {
+            "road_id": "clan-lane"
+          }
+        }
+      },
+      {
+        "id": "frontage-arena",
+        "building_id": "arena",
+        "door": {
+          "x": 5575,
+          "y": 4565
+        },
+        "path": [
+          [
+            5575,
+            4565
+          ],
+          [
+            5575,
+            4625
+          ],
+          [
+            5571,
+            4697
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "shopping-avenue"
+        },
+        "forecourt": {
+          "x": 5213,
+          "y": 4552,
+          "width": 724,
+          "height": 76
+        },
+        "parking": {
+          "x": 5965,
+          "y": 4467,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 5965,
+              "y": 4467,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              6023,
+              4565
+            ],
+            [
+              6023,
+              4585
+            ],
+            [
+              6016,
+              4721
+            ]
+          ],
+          "connection": {
+            "road_id": "shopping-avenue"
+          }
+        }
+      },
+      {
+        "id": "frontage-profile",
+        "building_id": "profile",
+        "door": {
+          "x": 3650,
+          "y": 4490
+        },
+        "path": [
+          [
+            3650,
+            4490
+          ],
+          [
+            3650,
+            4550
+          ],
+          [
+            3960,
+            4550
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "shopping-avenue"
+        },
+        "forecourt": {
+          "x": 3476,
+          "y": 4477,
+          "width": 349,
+          "height": 76
+        },
+        "parking": {
+          "x": 3709,
+          "y": 4608,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 3709,
+              "y": 4608,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              3767,
+              4706
+            ],
+            [
+              3767,
+              4726
+            ],
+            [
+              3880,
+              4720
+            ],
+            [
+              3960,
+              4560
+            ]
+          ],
+          "connection": {
+            "road_id": "shopping-avenue"
+          }
+        }
+      },
+      {
+        "id": "frontage-results",
+        "building_id": "results",
+        "door": {
+          "x": 3075,
+          "y": 1815
+        },
+        "path": [
+          [
+            3075,
+            1815
+          ],
+          [
+            3075,
+            1875
+          ],
+          [
+            2995,
+            2024
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "park-loop"
+        },
+        "forecourt": {
+          "x": 2900,
+          "y": 1802,
+          "width": 349,
+          "height": 76
+        },
+        "parking": {
+          "x": 3277,
+          "y": 1765,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 3277,
+              "y": 1765,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              3335,
+              1863
+            ],
+            [
+              3335,
+              1883
+            ],
+            [
+              3201,
+              2134
+            ]
+          ],
+          "connection": {
+            "road_id": "park-loop"
+          }
+        }
+      },
+      {
+        "id": "frontage-messages",
+        "building_id": "messages",
+        "door": {
+          "x": 4350,
+          "y": 4450
+        },
+        "path": [
+          [
+            4350,
+            4450
+          ],
+          [
+            4350,
+            4510
+          ],
+          [
+            4342,
+            4596
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "shopping-avenue"
+        },
+        "forecourt": {
+          "x": 4088,
+          "y": 4437,
+          "width": 524,
+          "height": 76
+        },
+        "parking": {
+          "x": 4640,
+          "y": 4376,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 4640,
+              "y": 4376,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              4698,
+              4474
+            ],
+            [
+              4698,
+              4494
+            ],
+            [
+              4685,
+              4628
+            ]
+          ],
+          "connection": {
+            "road_id": "shopping-avenue"
+          }
+        },
+        "terrace": {
+          "x": 4098,
+          "y": 4454,
+          "width": 498,
+          "height": 76
+        }
+      },
+      {
+        "id": "frontage-terrace",
+        "building_id": "terrace",
+        "door": {
+          "x": 3650,
+          "y": 1240
+        },
+        "path": [
+          [
+            3650,
+            1240
+          ],
+          [
+            3650,
+            1300
+          ],
+          [
+            3611,
+            1451
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "park-loop"
+        },
+        "forecourt": {
+          "x": 3458,
+          "y": 1227,
+          "width": 384,
+          "height": 76
+        },
+        "parking": {
+          "x": 3942,
+          "y": 1190,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 3942,
+              "y": 1190,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              4000,
+              1288
+            ],
+            [
+              4000,
+              1308
+            ],
+            [
+              3839,
+              1528
+            ]
+          ],
+          "connection": {
+            "road_id": "park-loop"
+          }
+        },
+        "terrace": {
+          "x": 3468,
+          "y": 1292,
+          "width": 310,
+          "height": 100
+        }
+      },
+      {
+        "id": "frontage-shop-food",
+        "building_id": "shop-food",
+        "door": {
+          "x": 4175,
+          "y": 3375
+        },
+        "path": [
+          [
+            4175,
+            3375
+          ],
+          [
+            4175,
+            3435
+          ],
+          [
+            4360,
+            3400
+          ],
+          [
+            4514,
+            3336
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "lake-west"
+        },
+        "forecourt": {
+          "x": 4018,
+          "y": 3362,
+          "width": 314,
+          "height": 76
+        },
+        "parking": {
+          "x": 4360,
+          "y": 3469,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 4360,
+              "y": 3469,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              4418,
+              3567
+            ],
+            [
+              4418,
+              3587
+            ],
+            [
+              4480,
+              3600
+            ],
+            [
+              4574,
+              3542
+            ]
+          ],
+          "connection": {
+            "road_id": "lake-west"
+          }
+        }
+      },
+      {
+        "id": "frontage-shop-clothes",
+        "building_id": "shop-clothes",
+        "door": {
+          "x": 2325,
+          "y": 3965
+        },
+        "path": [
+          [
+            2325,
+            3965
+          ],
+          [
+            2325,
+            4025
+          ],
+          [
+            2640,
+            4000
+          ],
+          [
+            2680,
+            3920
+          ],
+          [
+            2680,
+            3680
+          ],
+          [
+            2640,
+            3640
+          ],
+          [
+            2323,
+            3562
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "shopping-avenue"
+        },
+        "forecourt": {
+          "x": 2026,
+          "y": 3952,
+          "width": 599,
+          "height": 76
+        },
+        "parking": {
+          "x": 2725,
+          "y": 3939,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 2725,
+              "y": 3939,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              2783,
+              4037
+            ],
+            [
+              2783,
+              4057
+            ],
+            [
+              2880,
+              4040
+            ],
+            [
+              2885,
+              3597
+            ]
+          ],
+          "connection": {
+            "road_id": "shopping-avenue"
+          }
+        }
+      },
+      {
+        "id": "frontage-shop-furniture",
+        "building_id": "shop-furniture",
+        "door": {
+          "x": 3400,
+          "y": 4165
+        },
+        "path": [
+          [
+            3400,
+            4165
+          ],
+          [
+            3400,
+            4225
+          ],
+          [
+            3680,
+            4200
+          ],
+          [
+            3800,
+            4160
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "shopping-avenue"
+        },
+        "forecourt": {
+          "x": 3138,
+          "y": 4152,
+          "width": 524,
+          "height": 76
+        },
+        "parking": {
+          "x": 3882,
+          "y": 3923,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 3882,
+              "y": 3923,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              3940,
+              4021
+            ],
+            [
+              3940,
+              4041
+            ],
+            [
+              3940,
+              4160
+            ]
+          ],
+          "connection": {
+            "road_id": "shopping-avenue"
+          }
+        }
+      },
+      {
+        "id": "frontage-casino",
+        "building_id": "casino",
+        "door": {
+          "x": 2900,
+          "y": 3065
+        },
+        "path": [
+          [
+            2900,
+            3065
+          ],
+          [
+            2900,
+            3125
+          ],
+          [
+            2799,
+            3578
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "shopping-avenue"
+        },
+        "forecourt": {
+          "x": 2513,
+          "y": 3052,
+          "width": 774,
+          "height": 76
+        },
+        "parking": {
+          "x": 3315,
+          "y": 3015,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 3315,
+              "y": 3015,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              3373,
+              3113
+            ],
+            [
+              3373,
+              3133
+            ],
+            [
+              3252,
+              3678
+            ]
+          ],
+          "connection": {
+            "road_id": "shopping-avenue"
+          }
+        }
+      },
+      {
+        "id": "frontage-base-1",
+        "building_id": "base-1",
+        "door": {
+          "x": 675,
+          "y": 790
+        },
+        "path": [
+          [
+            675,
+            790
+          ],
+          [
+            675,
+            850
+          ],
+          [
+            569,
+            1015
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "clan-lane"
+        },
+        "forecourt": {
+          "x": 468,
+          "y": 777,
+          "width": 414,
+          "height": 76
+        },
+        "parking": {
+          "x": 910,
+          "y": 716,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 910,
+              "y": 716,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              968,
+              814
+            ],
+            [
+              968,
+              834
+            ],
+            [
+              1040,
+              840
+            ],
+            [
+              1160,
+              760
+            ]
+          ],
+          "connection": {
+            "road_id": "clan-lane"
+          }
+        }
+      },
+      {
+        "id": "frontage-base-2",
+        "building_id": "base-2",
+        "door": {
+          "x": 1650,
+          "y": 840
+        },
+        "path": [
+          [
+            1650,
+            840
+          ],
+          [
+            1650,
+            900
+          ],
+          [
+            1767,
+            1083
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "clan-lane"
+        },
+        "forecourt": {
+          "x": 1443,
+          "y": 827,
+          "width": 414,
+          "height": 76
+        },
+        "parking": {
+          "x": 2077,
+          "y": 550,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 2077,
+              "y": 550,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              2135,
+              648
+            ],
+            [
+              2135,
+              668
+            ],
+            [
+              2000,
+              698
+            ]
+          ],
+          "connection": {
+            "road_id": "clan-lane"
+          }
+        }
+      },
+      {
+        "id": "frontage-base-3",
+        "building_id": "base-3",
+        "door": {
+          "x": 775,
+          "y": 1565
+        },
+        "path": [
+          [
+            775,
+            1565
+          ],
+          [
+            775,
+            1625
+          ],
+          [
+            1000,
+            1600
+          ],
+          [
+            1040,
+            1440
+          ],
+          [
+            1000,
+            1320
+          ],
+          [
+            775,
+            1240
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "avenue"
+        },
+        "forecourt": {
+          "x": 568,
+          "y": 1552,
+          "width": 414,
+          "height": 76
+        },
+        "parking": {
+          "x": 1058,
+          "y": 1563,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 1058,
+              "y": 1563,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              1116,
+              1661
+            ],
+            [
+              1116,
+              1681
+            ],
+            [
+              1200,
+              1680
+            ],
+            [
+              1200,
+              1520
+            ],
+            [
+              1116,
+              1240
+            ]
+          ],
+          "connection": {
+            "road_id": "avenue"
+          }
+        }
+      },
+      {
+        "id": "frontage-base-4",
+        "building_id": "base-4",
+        "door": {
+          "x": 1625,
+          "y": 1690
+        },
+        "path": [
+          [
+            1625,
+            1690
+          ],
+          [
+            1625,
+            1750
+          ],
+          [
+            1880,
+            1720
+          ],
+          [
+            2014,
+            1517
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "avenue"
+        },
+        "forecourt": {
+          "x": 1418,
+          "y": 1677,
+          "width": 414,
+          "height": 76
+        },
+        "parking": {
+          "x": 2196,
+          "y": 1568,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 2196,
+              "y": 1568,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              2254,
+              1666
+            ],
+            [
+              2254,
+              1686
+            ],
+            [
+              2119,
+              1744
+            ]
+          ],
+          "connection": {
+            "road_id": "avenue"
+          }
+        }
+      },
+      {
+        "id": "frontage-base-5",
+        "building_id": "base-5",
+        "door": {
+          "x": 875,
+          "y": 1965
+        },
+        "path": [
+          [
+            875,
+            1965
+          ],
+          [
+            875,
+            2025
+          ],
+          [
+            813,
+            2186
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "clan-south"
+        },
+        "forecourt": {
+          "x": 668,
+          "y": 1952,
+          "width": 414,
+          "height": 76
+        },
+        "parking": {
+          "x": 1110,
+          "y": 1915,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 1110,
+              "y": 1915,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              1168,
+              2013
+            ],
+            [
+              1168,
+              2033
+            ],
+            [
+              1081,
+              2281
+            ]
+          ],
+          "connection": {
+            "road_id": "clan-south"
+          }
+        }
+      },
+      {
+        "id": "frontage-base-6",
+        "building_id": "base-6",
+        "door": {
+          "x": 1725,
+          "y": 2115
+        },
+        "path": [
+          [
+            1725,
+            2115
+          ],
+          [
+            1725,
+            2175
+          ],
+          [
+            1871,
+            2287
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "west-boulevard"
+        },
+        "forecourt": {
+          "x": 1518,
+          "y": 2102,
+          "width": 414,
+          "height": 76
+        },
+        "parking": {
+          "x": 2128,
+          "y": 2209,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 2128,
+              "y": 2209,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              2186,
+              2307
+            ],
+            [
+              2186,
+              2327
+            ],
+            [
+              2080,
+              2320
+            ],
+            [
+              2040,
+              2240
+            ]
+          ],
+          "connection": {
+            "road_id": "west-boulevard"
+          }
+        }
+      },
+      {
+        "id": "frontage-base-7",
+        "building_id": "base-7",
+        "door": {
+          "x": 550,
+          "y": 2715
+        },
+        "path": [
+          [
+            550,
+            2715
+          ],
+          [
+            550,
+            2775
+          ],
+          [
+            447,
+            3103
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "shopping-avenue"
+        },
+        "forecourt": {
+          "x": 343,
+          "y": 2702,
+          "width": 414,
+          "height": 76
+        },
+        "parking": {
+          "x": 785,
+          "y": 2665,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 785,
+              "y": 2665,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              843,
+              2763
+            ],
+            [
+              843,
+              2783
+            ],
+            [
+              716,
+              3187
+            ]
+          ],
+          "connection": {
+            "road_id": "shopping-avenue"
+          }
+        }
+      },
+      {
+        "id": "frontage-base-8",
+        "building_id": "base-8",
+        "door": {
+          "x": 1175,
+          "y": 2840
+        },
+        "path": [
+          [
+            1175,
+            2840
+          ],
+          [
+            1175,
+            2900
+          ],
+          [
+            1497,
+            2994
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "west-boulevard"
+        },
+        "forecourt": {
+          "x": 968,
+          "y": 2827,
+          "width": 414,
+          "height": 76
+        },
+        "parking": {
+          "x": 1242,
+          "y": 3006,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 1242,
+              "y": 3006,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              1300,
+              3104
+            ],
+            [
+              1300,
+              3124
+            ],
+            [
+              1447,
+              3167
+            ]
+          ],
+          "connection": {
+            "road_id": "west-boulevard"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-1",
+        "building_id": "apartment-1",
+        "door": {
+          "x": 225,
+          "y": 465
+        },
+        "path": [
+          [
+            225,
+            465
+          ],
+          [
+            225,
+            525
+          ],
+          [
+            320,
+            560
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "clan-lane"
+        },
+        "forecourt": {
+          "x": 88,
+          "y": 452,
+          "width": 274,
+          "height": 76
+        },
+        "parking": {
+          "x": 390,
+          "y": 391,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 390,
+              "y": 391,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              448,
+              489
+            ],
+            [
+              448,
+              509
+            ],
+            [
+              320,
+              560
+            ]
+          ],
+          "connection": {
+            "road_id": "clan-lane"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-2",
+        "building_id": "apartment-2",
+        "door": {
+          "x": 1925,
+          "y": 425
+        },
+        "path": [
+          [
+            1925,
+            425
+          ],
+          [
+            1925,
+            485
+          ],
+          [
+            1925,
+            520
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "clan-lane"
+        },
+        "forecourt": {
+          "x": 1773,
+          "y": 412,
+          "width": 304,
+          "height": 76
+        },
+        "parking": {
+          "x": 2105,
+          "y": 375,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 2105,
+              "y": 375,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              2163,
+              473
+            ],
+            [
+              2163,
+              493
+            ],
+            [
+              2334,
+              541
+            ]
+          ],
+          "connection": {
+            "road_id": "west-boulevard"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-3",
+        "building_id": "apartment-3",
+        "door": {
+          "x": 2625,
+          "y": 915
+        },
+        "path": [
+          [
+            2625,
+            915
+          ],
+          [
+            2625,
+            975
+          ],
+          [
+            2360,
+            920
+          ],
+          [
+            2242,
+            868
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "west-boulevard"
+        },
+        "forecourt": {
+          "x": 2458,
+          "y": 902,
+          "width": 334,
+          "height": 76
+        },
+        "parking": {
+          "x": 2820,
+          "y": 865,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 2820,
+              "y": 865,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              2878,
+              963
+            ],
+            [
+              2878,
+              983
+            ],
+            [
+              3025,
+              1300
+            ]
+          ],
+          "connection": {
+            "road_id": "park-loop"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-4",
+        "building_id": "apartment-4",
+        "door": {
+          "x": 3300,
+          "y": 765
+        },
+        "path": [
+          [
+            3300,
+            765
+          ],
+          [
+            3300,
+            825
+          ],
+          [
+            3168,
+            1337
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "park-loop"
+        },
+        "forecourt": {
+          "x": 3163,
+          "y": 752,
+          "width": 274,
+          "height": 76
+        },
+        "parking": {
+          "x": 3465,
+          "y": 715,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 3465,
+              "y": 715,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              3523,
+              813
+            ],
+            [
+              3523,
+              833
+            ],
+            [
+              3400,
+              1080
+            ],
+            [
+              3379,
+              1391
+            ]
+          ],
+          "connection": {
+            "road_id": "park-loop"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-5",
+        "building_id": "apartment-5",
+        "door": {
+          "x": 4000,
+          "y": 715
+        },
+        "path": [
+          [
+            4000,
+            715
+          ],
+          [
+            4000,
+            775
+          ],
+          [
+            3800,
+            1500
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "park-loop"
+        },
+        "forecourt": {
+          "x": 3848,
+          "y": 702,
+          "width": 304,
+          "height": 76
+        },
+        "parking": {
+          "x": 4180,
+          "y": 665,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 4180,
+              "y": 665,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              4238,
+              763
+            ],
+            [
+              4238,
+              783
+            ],
+            [
+              4250,
+              1575
+            ]
+          ],
+          "connection": {
+            "road_id": "station-promenade"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-6",
+        "building_id": "apartment-6",
+        "door": {
+          "x": 6300,
+          "y": 990
+        },
+        "path": [
+          [
+            6300,
+            990
+          ],
+          [
+            6300,
+            1050
+          ],
+          [
+            6800,
+            1050
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "east-residential"
+        },
+        "forecourt": {
+          "x": 6133,
+          "y": 977,
+          "width": 334,
+          "height": 76
+        },
+        "parking": {
+          "x": 6495,
+          "y": 844,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 6495,
+              "y": 844,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              6553,
+              942
+            ],
+            [
+              6553,
+              962
+            ],
+            [
+              6800,
+              1040
+            ]
+          ],
+          "connection": {
+            "road_id": "east-residential"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-7",
+        "building_id": "apartment-7",
+        "door": {
+          "x": 7050,
+          "y": 1265
+        },
+        "path": [
+          [
+            7050,
+            1265
+          ],
+          [
+            7050,
+            1325
+          ],
+          [
+            6822,
+            1416
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "east-residential"
+        },
+        "forecourt": {
+          "x": 6913,
+          "y": 1252,
+          "width": 274,
+          "height": 76
+        },
+        "parking": {
+          "x": 7215,
+          "y": 1215,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 7215,
+              "y": 1215,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              7273,
+              1313
+            ],
+            [
+              7273,
+              1333
+            ],
+            [
+              6856,
+              1500
+            ]
+          ],
+          "connection": {
+            "road_id": "east-residential"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-8",
+        "building_id": "apartment-8",
+        "door": {
+          "x": 7500,
+          "y": 1640
+        },
+        "path": [
+          [
+            7500,
+            1640
+          ],
+          [
+            7500,
+            1700
+          ],
+          [
+            7014,
+            1894
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "east-residential"
+        },
+        "forecourt": {
+          "x": 7348,
+          "y": 1627,
+          "width": 304,
+          "height": 76
+        },
+        "parking": {
+          "x": 7512,
+          "y": 1782,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 7512,
+              "y": 1782,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              7570,
+              1880
+            ],
+            [
+              7570,
+              1900
+            ],
+            [
+              7640,
+              2080
+            ],
+            [
+              7640,
+              2240
+            ],
+            [
+              7440,
+              2360
+            ]
+          ],
+          "connection": {
+            "road_id": "east-residential"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-9",
+        "building_id": "apartment-9",
+        "door": {
+          "x": 425,
+          "y": 1665
+        },
+        "path": [
+          [
+            425,
+            1665
+          ],
+          [
+            425,
+            1725
+          ],
+          [
+            321,
+            1997
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "clan-south"
+        },
+        "forecourt": {
+          "x": 258,
+          "y": 1652,
+          "width": 334,
+          "height": 76
+        },
+        "parking": {
+          "x": 524,
+          "y": 1711,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 524,
+              "y": 1711,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              582,
+              1809
+            ],
+            [
+              582,
+              1829
+            ],
+            [
+              492,
+              2063
+            ]
+          ],
+          "connection": {
+            "road_id": "clan-south"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-10",
+        "building_id": "apartment-10",
+        "door": {
+          "x": 325,
+          "y": 2540
+        },
+        "path": [
+          [
+            325,
+            2540
+          ],
+          [
+            320,
+            2600
+          ],
+          [
+            192,
+            3023
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "shopping-avenue"
+        },
+        "forecourt": {
+          "x": 188,
+          "y": 2527,
+          "width": 274,
+          "height": 76
+        },
+        "parking": {
+          "x": 490,
+          "y": 2346,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 490,
+              "y": 2346,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              548,
+              2444
+            ],
+            [
+              548,
+              2464
+            ],
+            [
+              600,
+              2480
+            ],
+            [
+              640,
+              2440
+            ],
+            [
+              675,
+              2133
+            ]
+          ],
+          "connection": {
+            "road_id": "clan-south"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-11",
+        "building_id": "apartment-11",
+        "door": {
+          "x": 400,
+          "y": 3465
+        },
+        "path": [
+          [
+            400,
+            3465
+          ],
+          [
+            400,
+            3525
+          ],
+          [
+            600,
+            3480
+          ],
+          [
+            600,
+            3280
+          ],
+          [
+            525,
+            3127
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "shopping-avenue"
+        },
+        "forecourt": {
+          "x": 248,
+          "y": 3452,
+          "width": 304,
+          "height": 76
+        },
+        "parking": {
+          "x": 652,
+          "y": 3415,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 652,
+              "y": 3415,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              710,
+              3513
+            ],
+            [
+              710,
+              3533
+            ],
+            [
+              800,
+              3520
+            ],
+            [
+              809,
+              3217
+            ]
+          ],
+          "connection": {
+            "road_id": "shopping-avenue"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-12",
+        "building_id": "apartment-12",
+        "door": {
+          "x": 725,
+          "y": 3890
+        },
+        "path": [
+          [
+            725,
+            3890
+          ],
+          [
+            725,
+            3950
+          ],
+          [
+            1172,
+            4086
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "west-boulevard"
+        },
+        "forecourt": {
+          "x": 558,
+          "y": 3877,
+          "width": 334,
+          "height": 76
+        },
+        "parking": {
+          "x": 944,
+          "y": 3816,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 944,
+              "y": 3816,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              1002,
+              3914
+            ],
+            [
+              1002,
+              3934
+            ],
+            [
+              1200,
+              3994
+            ]
+          ],
+          "connection": {
+            "road_id": "west-boulevard"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-13",
+        "building_id": "apartment-13",
+        "door": {
+          "x": 775,
+          "y": 4840
+        },
+        "path": [
+          [
+            775,
+            4840
+          ],
+          [
+            775,
+            4900
+          ],
+          [
+            1040,
+            4900
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "west-boulevard"
+        },
+        "forecourt": {
+          "x": 638,
+          "y": 4827,
+          "width": 274,
+          "height": 76
+        },
+        "parking": {
+          "x": 1156,
+          "y": 4454,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 1156,
+              "y": 4454,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              1214,
+              4552
+            ],
+            [
+              1214,
+              4572
+            ],
+            [
+              1040,
+              4572
+            ]
+          ],
+          "connection": {
+            "road_id": "west-boulevard"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-14",
+        "building_id": "apartment-14",
+        "door": {
+          "x": 200,
+          "y": 4440
+        },
+        "path": [
+          [
+            200,
+            4440
+          ],
+          [
+            200,
+            4500
+          ],
+          [
+            1040,
+            4520
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "west-boulevard"
+        },
+        "forecourt": {
+          "x": 48,
+          "y": 4427,
+          "width": 304,
+          "height": 76
+        },
+        "parking": {
+          "x": 380,
+          "y": 4294,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 380,
+              "y": 4294,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              438,
+              4392
+            ],
+            [
+              438,
+              4412
+            ],
+            [
+              1040,
+              4520
+            ]
+          ],
+          "connection": {
+            "road_id": "west-boulevard"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-15",
+        "building_id": "apartment-15",
+        "door": {
+          "x": 1890,
+          "y": 2940
+        },
+        "path": [
+          [
+            1890,
+            2940
+          ],
+          [
+            1890,
+            3000
+          ],
+          [
+            1680,
+            2960
+          ],
+          [
+            1526,
+            2894
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "west-boulevard"
+        },
+        "forecourt": {
+          "x": 1723,
+          "y": 2927,
+          "width": 334,
+          "height": 76
+        },
+        "parking": {
+          "x": 2085,
+          "y": 2890,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 2085,
+              "y": 2890,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              2143,
+              2988
+            ],
+            [
+              2143,
+              3008
+            ],
+            [
+              2240,
+              3000
+            ],
+            [
+              2240,
+              2840
+            ],
+            [
+              1850,
+              2550
+            ]
+          ],
+          "connection": {
+            "road_id": "clan-south"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-16",
+        "building_id": "apartment-16",
+        "door": {
+          "x": 1900,
+          "y": 3890
+        },
+        "path": [
+          [
+            1900,
+            3890
+          ],
+          [
+            1900,
+            3950
+          ],
+          [
+            1720,
+            3920
+          ],
+          [
+            1720,
+            3680
+          ],
+          [
+            1898,
+            3564
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "shopping-avenue"
+        },
+        "forecourt": {
+          "x": 1763,
+          "y": 3877,
+          "width": 274,
+          "height": 76
+        },
+        "parking": {
+          "x": 2065,
+          "y": 3984,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 2065,
+              "y": 3984,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              2123,
+              4082
+            ],
+            [
+              2123,
+              4102
+            ],
+            [
+              2000,
+              4080
+            ],
+            [
+              1720,
+              3880
+            ],
+            [
+              1720,
+              3720
+            ],
+            [
+              1760,
+              3680
+            ],
+            [
+              2120,
+              3563
+            ]
+          ],
+          "connection": {
+            "road_id": "shopping-avenue"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-17",
+        "building_id": "apartment-17",
+        "door": {
+          "x": 7450,
+          "y": 2240
+        },
+        "path": [
+          [
+            7450,
+            2240
+          ],
+          [
+            7450,
+            2300
+          ],
+          [
+            7440,
+            2360
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "east-residential"
+        },
+        "forecourt": {
+          "x": 7298,
+          "y": 2227,
+          "width": 304,
+          "height": 76
+        },
+        "parking": {
+          "x": 7510,
+          "y": 2406,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 7510,
+              "y": 2406,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              7568,
+              2504
+            ],
+            [
+              7568,
+              2524
+            ],
+            [
+              7480,
+              2520
+            ],
+            [
+              7400,
+              2440
+            ]
+          ],
+          "connection": {
+            "road_id": "east-residential"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-18",
+        "building_id": "apartment-18",
+        "door": {
+          "x": 7450,
+          "y": 3165
+        },
+        "path": [
+          [
+            7450,
+            3165
+          ],
+          [
+            7450,
+            3225
+          ],
+          [
+            7160,
+            3225
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "east-residential"
+        },
+        "forecourt": {
+          "x": 7283,
+          "y": 3152,
+          "width": 334,
+          "height": 76
+        },
+        "parking": {
+          "x": 7525,
+          "y": 3259,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 7525,
+              "y": 3259,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              7583,
+              3357
+            ],
+            [
+              7583,
+              3377
+            ],
+            [
+              7160,
+              3377
+            ]
+          ],
+          "connection": {
+            "road_id": "east-residential"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-19",
+        "building_id": "apartment-19",
+        "door": {
+          "x": 7025,
+          "y": 3965
+        },
+        "path": [
+          [
+            7025,
+            3965
+          ],
+          [
+            7025,
+            4025
+          ],
+          [
+            7215,
+            4167
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "east-residential"
+        },
+        "forecourt": {
+          "x": 6888,
+          "y": 3952,
+          "width": 274,
+          "height": 76
+        },
+        "parking": {
+          "x": 7358,
+          "y": 3915,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 7358,
+              "y": 3915,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              7416,
+              4013
+            ],
+            [
+              7416,
+              4033
+            ],
+            [
+              7280,
+              4033
+            ]
+          ],
+          "connection": {
+            "road_id": "east-residential"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-20",
+        "building_id": "apartment-20",
+        "door": {
+          "x": 6550,
+          "y": 4615
+        },
+        "path": [
+          [
+            6550,
+            4615
+          ],
+          [
+            6550,
+            4675
+          ],
+          [
+            6546,
+            4749
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "shopping-avenue"
+        },
+        "forecourt": {
+          "x": 6398,
+          "y": 4602,
+          "width": 304,
+          "height": 76
+        },
+        "parking": {
+          "x": 6730,
+          "y": 4373,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 6730,
+              "y": 4373,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              6788,
+              4471
+            ],
+            [
+              6788,
+              4491
+            ],
+            [
+              6906,
+              4579
+            ]
+          ],
+          "connection": {
+            "road_id": "east-residential"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-21",
+        "building_id": "apartment-21",
+        "door": {
+          "x": 6300,
+          "y": 5065
+        },
+        "path": [
+          [
+            6300,
+            5065
+          ],
+          [
+            6520,
+            5080
+          ],
+          [
+            6600,
+            4880
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "east-residential"
+        },
+        "forecourt": {
+          "x": 6133,
+          "y": 5052,
+          "width": 334,
+          "height": 76
+        },
+        "parking": {
+          "x": 6687,
+          "y": 4919,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 6687,
+              "y": 4919,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              6745,
+              5017
+            ],
+            [
+              6745,
+              5037
+            ],
+            [
+              6680,
+              5040
+            ],
+            [
+              6640,
+              5000
+            ],
+            [
+              6612,
+              4871
+            ]
+          ],
+          "connection": {
+            "road_id": "east-residential"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-22",
+        "building_id": "apartment-22",
+        "door": {
+          "x": 2675,
+          "y": 4815
+        },
+        "path": [
+          [
+            2675,
+            4815
+          ],
+          [
+            2675,
+            4875
+          ],
+          [
+            2840,
+            4840
+          ],
+          [
+            2956,
+            3612
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "shopping-avenue"
+        },
+        "forecourt": {
+          "x": 2538,
+          "y": 4802,
+          "width": 274,
+          "height": 76
+        },
+        "parking": {
+          "x": 2912,
+          "y": 4765,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 2912,
+              "y": 4765,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              2970,
+              4863
+            ],
+            [
+              2970,
+              4883
+            ],
+            [
+              3080,
+              4880
+            ],
+            [
+              3720,
+              4560
+            ],
+            [
+              3960,
+              4560
+            ]
+          ],
+          "connection": {
+            "road_id": "shopping-avenue"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-23",
+        "building_id": "apartment-23",
+        "door": {
+          "x": 3625,
+          "y": 5000
+        },
+        "path": [
+          [
+            3625,
+            5000
+          ],
+          [
+            3625,
+            5060
+          ],
+          [
+            3800,
+            5040
+          ],
+          [
+            3960,
+            4560
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "shopping-avenue"
+        },
+        "forecourt": {
+          "x": 3473,
+          "y": 4987,
+          "width": 304,
+          "height": 76
+        },
+        "parking": {
+          "x": 3901,
+          "y": 4926,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 3901,
+              "y": 4926,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              3959,
+              5024
+            ],
+            [
+              3959,
+              5044
+            ],
+            [
+              4040,
+              5040
+            ],
+            [
+              4080,
+              4840
+            ],
+            [
+              4004,
+              4564
+            ]
+          ],
+          "connection": {
+            "road_id": "shopping-avenue"
+          }
+        }
+      },
+      {
+        "id": "frontage-apartment-24",
+        "building_id": "apartment-24",
+        "door": {
+          "x": 1925,
+          "y": 5015
+        },
+        "path": [
+          [
+            1925,
+            5015
+          ],
+          [
+            1925,
+            5075
+          ],
+          [
+            1120,
+            5040
+          ],
+          [
+            1040,
+            4960
+          ]
+        ],
+        "width": 58,
+        "connection": {
+          "road_id": "west-boulevard"
+        },
+        "forecourt": {
+          "x": 1758,
+          "y": 5002,
+          "width": 334,
+          "height": 76
+        },
+        "parking": {
+          "x": 2120,
+          "y": 4917,
+          "width": 116,
+          "height": 78,
+          "bays": [
+            {
+              "x": 2120,
+              "y": 4917,
+              "width": 116,
+              "height": 78
+            }
+          ],
+          "drive": [
+            [
+              2178,
+              5015
+            ],
+            [
+              2178,
+              5035
+            ],
+            [
+              1160,
+              5040
+            ],
+            [
+              1040,
+              4960
+            ]
+          ],
+          "connection": {
+            "road_id": "west-boulevard"
+          }
+        }
+      }
+    ],
+    "props": [
+      {
+        "id": "terrace-table-messages-1",
+        "kind": "terrace-table",
+        "x": 4142,
+        "y": 4461,
+        "footprint": {
+          "x": 4113,
+          "y": 4469,
+          "width": 64,
+          "height": 22
+        }
+      },
+      {
+        "id": "terrace-table-messages-2",
+        "kind": "terrace-table",
+        "x": 4546,
+        "y": 4485,
+        "footprint": {
+          "x": 4517,
+          "y": 4493,
+          "width": 64,
+          "height": 22
+        }
+      },
+      {
+        "id": "terrace-table-terrace-1",
+        "kind": "terrace-table",
+        "x": 3512,
+        "y": 1299,
+        "footprint": {
+          "x": 3483,
+          "y": 1307,
+          "width": 64,
+          "height": 22
+        }
+      },
+      {
+        "id": "terrace-table-terrace-2",
+        "kind": "terrace-table",
+        "x": 3728,
+        "y": 1347,
+        "footprint": {
+          "x": 3699,
+          "y": 1355,
+          "width": 64,
+          "height": 22
+        }
+      }
+    ],
+    "districts": [
+      {
+        "id": "centre",
+        "label": "ЦЕНТР БЗИКЕРА",
+        "x": 1900,
+        "y": 1950,
+        "width": 2600,
+        "height": 2650,
+        "color": "#c1b99d"
+      },
+      {
+        "id": "clans",
+        "label": "КЛАНОВЫЙ КВАРТАЛ",
+        "x": 120,
+        "y": 450,
+        "width": 1900,
+        "height": 2500,
+        "color": "#a4b7ad"
+      },
+      {
+        "id": "park",
+        "label": "ГОРОДСКОЙ ПАРК",
+        "x": 2700,
+        "y": 1100,
+        "width": 1500,
+        "height": 1300,
+        "color": "#7c9c64"
+      }
+    ],
+    "bike_racks": [
+      {
+        "id": "bike-rack-clans",
+        "x": 996,
+        "y": 1107,
+        "footprint": {
+          "x": 992,
+          "y": 1128,
+          "width": 68,
+          "height": 8
+        }
+      },
+      {
+        "id": "bike-rack-arena",
+        "x": 5233,
+        "y": 4557,
+        "footprint": {
+          "x": 5229,
+          "y": 4578,
+          "width": 68,
+          "height": 8
+        }
+      },
+      {
+        "id": "bike-rack-profile",
+        "x": 3472,
+        "y": 4482,
+        "footprint": {
+          "x": 3468,
+          "y": 4503,
+          "width": 68,
+          "height": 8
+        }
+      },
+      {
+        "id": "bike-rack-results",
+        "x": 2896,
+        "y": 1807,
+        "footprint": {
+          "x": 2892,
+          "y": 1828,
+          "width": 68,
+          "height": 8
+        }
+      },
+      {
+        "id": "bike-rack-messages",
+        "x": 4132,
+        "y": 4658,
+        "footprint": {
+          "x": 4128,
+          "y": 4679,
+          "width": 68,
+          "height": 8
+        }
+      },
+      {
+        "id": "bike-rack-terrace",
+        "x": 3478,
+        "y": 1232,
+        "footprint": {
+          "x": 3474,
+          "y": 1253,
+          "width": 68,
+          "height": 8
+        }
+      },
+      {
+        "id": "bike-rack-shop-clothes",
+        "x": 1902,
+        "y": 4101,
+        "footprint": {
+          "x": 1898,
+          "y": 4122,
+          "width": 68,
+          "height": 8
+        }
+      },
+      {
+        "id": "bike-rack-shop-furniture",
+        "x": 3158,
+        "y": 4157,
+        "footprint": {
+          "x": 3154,
+          "y": 4178,
+          "width": 68,
+          "height": 8
+        }
+      },
+      {
+        "id": "bike-rack-casino",
+        "x": 2533,
+        "y": 3057,
+        "footprint": {
+          "x": 2529,
+          "y": 3078,
+          "width": 68,
+          "height": 8
+        }
+      }
+    ]
+  },
+  "design_source": {
+    "map": "city-source-map",
+    "grid": [
+      3,
+      2
+    ],
+    "native_size": [
+      1536,
+      1024
+    ],
+    "scale": 5,
+    "file": "01_Окружение/Карта_города/Квадраты_карты/Карта_исходная.png",
+    "physical_welcome_sign_only": true
+  },
+  "previous_landmarks": {
+    "station": {
+      "x": 3360,
+      "y": 2610
+    },
+    "welcome": {
+      "x": 4700,
+      "y": 2610
+    },
+    "plaza": {
+      "x": 5800,
+      "y": 2610
+    },
+    "district": {
+      "x": 7560,
+      "y": 1900
+    },
+    "park": {
+      "x": 6860,
+      "y": 3890
+    },
+    "dock": {
+      "x": 7440,
+      "y": 4100
+    },
+    "archive": {
+      "x": 5660,
+      "y": 2480
+    },
+    "smoking": {
+      "x": 6280,
+      "y": 2290
+    }
+  },
+  "design_areas": [
+    {
+      "id": "basketball",
+      "assetId": "city-basketball-court",
+      "x": 325,
+      "y": 5000,
+      "width": 550,
+      "height": 400,
+      "depth": -1
+    },
+    {
+      "id": "tennis",
+      "assetId": "city-tennis-court",
+      "x": 1425,
+      "y": 5000,
+      "width": 500,
+      "height": 380,
+      "depth": -1
+    },
+    {
+      "id": "station-parking",
+      "assetId": "city-parking-empty",
+      "x": 6000,
+      "y": 1400,
+      "width": 500,
+      "height": 340,
+      "depth": -1
+    }
+  ]
+}

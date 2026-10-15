@@ -1,0 +1,50 @@
+{
+  "scope": "Изолированный экран с реальными HTML управления и CSS в порядке загрузки игры; без авторизации и данных игроков",
+  "result": {
+    "buttons": [
+      {
+        "disabled": false,
+        "display": "block",
+        "height": 48,
+        "hidden": false,
+        "image": "url(\"http://127.0.0.1:53097/assets/design-ui-hand-normal.png\")",
+        "label": "Взаимодействие с окружением: подойдите к объекту",
+        "width": 48,
+        "x": 68,
+        "y": 712
+      },
+      {
+        "disabled": false,
+        "display": "grid",
+        "height": 48,
+        "hidden": false,
+        "image": "url(\"http://127.0.0.1:53097/assets/design-ui-inventory-normal.png\")",
+        "label": "Открыть инвентарь",
+        "width": 48,
+        "x": 68,
+        "y": 768
+      },
+      {
+        "disabled": false,
+        "display": "grid",
+        "height": 48,
+        "hidden": false,
+        "image": "url(\"http://127.0.0.1:53097/assets/design-ui-phone-button-normal.png\")",
+        "label": "Открыть Телебзи",
+        "width": 48,
+        "x": 12,
+        "y": 768
+      }
+    ],
+    "layout": "right",
+    "styles": [
+      "/web/styles.css",
+      "/web/source-ui.css",
+      "/web/world.css"
+    ],
+    "viewport": {
+      "height": 844,
+      "width": 390
+    }
+  }
+}

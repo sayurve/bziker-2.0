@@ -1,0 +1,198 @@
+{
+  "database": "temporary",
+  "roadCount": 27,
+  "samples": 3910,
+  "failures": 0,
+  "elapsed_seconds": 4.79,
+  "routes": [
+    {
+      "id": "arrival",
+      "samples": 503,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "avenue",
+      "samples": 459,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "west-street",
+      "samples": 663,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "east-street",
+      "samples": 388,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "quarter-north",
+      "samples": 331,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "quarter-south",
+      "samples": 208,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "access-base-1",
+      "samples": 20,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "access-base-2",
+      "samples": 20,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "access-base-3",
+      "samples": 20,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "access-base-4",
+      "samples": 20,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "access-base-5",
+      "samples": 12,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "access-base-6",
+      "samples": 12,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "access-base-7",
+      "samples": 12,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "access-base-8",
+      "samples": 12,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "door-clans",
+      "samples": 70,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "door-arena",
+      "samples": 36,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "door-profile",
+      "samples": 62,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "door-results",
+      "samples": 53,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "door-messages",
+      "samples": 40,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "door-terrace",
+      "samples": 105,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "door-shop-food",
+      "samples": 78,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "door-shop-clothes",
+      "samples": 75,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "door-shop-furniture",
+      "samples": 12,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "door-casino",
+      "samples": 70,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "park-promenade",
+      "samples": 507,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "fishing-east-path",
+      "samples": 58,
+      "failures": 0,
+      "first": null,
+      "last": null
+    },
+    {
+      "id": "smoking-path",
+      "samples": 64,
+      "failures": 0,
+      "first": null,
+      "last": null
+    }
+  ]
+}

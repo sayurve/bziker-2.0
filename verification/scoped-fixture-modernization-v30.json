@@ -1,0 +1,57 @@
+{
+  "status": "passed-scoped-fixture-modernization",
+  "recordedAt": "2026-10-15T15:46:53.291919+00:00",
+  "scope": "Only six requested test files and unique native test helper; no runtime/art/production writes",
+  "command": "/Users/sapp/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node --test tests/actor-actions-v12.test.mjs tests/canonical-idle-runtime.test.mjs tests/canonical-shared-head-v27.test.mjs tests/community-interior-plans.test.mjs tests/furniture-render-v16.test.mjs tests/world-lifecycle.test.mjs",
+  "cwd": "/Users/sapp/Desktop/Игра/Bzikert 2.0/game",
+  "results": {
+    "red": {
+      "path": "verification/scoped-fixture-modernization-red-v30.log",
+      "sha256": "c9a7eba8dd4e0c18270e496a914705247bafe957f6929dee696a046f749adae1",
+      "exitCode": 1,
+      "tests": 109,
+      "pass": 99,
+      "fail": 10,
+      "skipped": 0
+    },
+    "green": {
+      "path": "verification/scoped-fixture-modernization-green-v30.log",
+      "sha256": "9310370aa6c9a12cd8f35bbcc338cbfb8172445e021c2587453d6e053b2098f9",
+      "exitCode": 0,
+      "tests": 109,
+      "pass": 109,
+      "fail": 0,
+      "skipped": 0
+    }
+  },
+  "files": {
+    "game/tests/actor-actions-v12.test.mjs": "ccf420e221d6cc3663a1601d606ff47be65005ada82d26fc39df53750c7bf76a",
+    "game/tests/canonical-idle-runtime.test.mjs": "a5a9e6e86625450415e8916400eab9844dd1d6bad81b5317d82401c0e499a1a0",
+    "game/tests/canonical-shared-head-v27.test.mjs": "ebe74f4b6b27b2f3d20ffdb6dd9977bf37b90958a5c0417d159275aee4e09c97",
+    "game/tests/community-interior-plans.test.mjs": "ed071a2bfa7dd1bed62f7283cc1bf7407383d49126ed7576332513a13f0963a8",
+    "game/tests/furniture-render-v16.test.mjs": "410336dcbac0f393e31933259096923f2b6e53927b484227c0f9c6d429e0e87f",
+    "game/tests/world-lifecycle.test.mjs": "20bcfbd7117b57a2c50aa1eb5d9d43a78a8846181533c65fd488605b03346981",
+    "game/tests/helpers/native-avatar-fixture-v30.mjs": "16daf13872452408a76ff654560605fd901c29b7f09d3ba3e6d8349ace57199f"
+  },
+  "rationale": {
+    "actor-actions-v12.test.mjs": "Preload actual coarse/fine PNGs; observe nonempty factor2 native raster/runs. Verify authored smoking timeline0/1/1/2/2/1/1/0, fixed native ground125 and anchor24,63; exact static neutral seated phone and visible native props. Independent whole-body shoe silhouettes are not equated to idle shoe RGBA. Server action-stage tests remain unchanged.",
+    "canonical-idle-runtime.test.mjs": "Contract fixture now isolates separately reviewed A/L supplements while retaining real actor shader/masks. Fixture head contains complete neck/eye metadata and real nonempty Napi pixels; full defaultAvatar and parts are passed. Canonical standing phone explicitly keeps idle. Existing real-resource preload/approval/rejection tests remain.",
+    "canonical-shared-head-v27.test.mjs": "Use own female donor and verified donor/body hashes. Every male opaque donor pixel remains exact. Every visible female donor pixel alpha>127 is checked against literal source-over composition with its recorded body or explicit approved neckRepair body, covering roughly1700–1800 actual headpixels per frame. Preserve5poses per model/direction, integer headtranslation, fixed96x128/48x64 canvas/anchor, native ground125, donor-derived crown and exact uniform body scalar .10625male/.1female; obsolete4px fullheight difference removed.",
+    "community-interior-plans.test.mjs": "Phone assertion now requires actual seated family frame0, phone prop, exact same neutral source rect, selected facing and existing authoritative seat coords; obsolete phone-seated substring removed.",
+    "furniture-render-v16.test.mjs": "Preload actual both-model PNGs and reject source-loading/empty raster; real seated frame0 head mask ends at actual authored neck rather than fixed37logical row. Foreground cannot change any observed head-region RGBA, with positive nonempty head coverage.",
+    "world-lifecycle.test.mjs": "Preload native PNGs. Scene observer decodes actual96x128 bitmap drawImage with actual nearest-neighbour destination scaling. Shoe ink uses actual factor2 grid dimensions. Blocked and peer motion tests retain positive foot coverage and exact pixel equality, settled idle/stationary feet checks, authoritative positions and distance phase; moving expectation uses same running:true as world renderer."
+  },
+  "runtimeSnapshot": {
+    "game/web/actor-sprite.js": "be8e935642374699951146083fbef4ec1ad690a7de8a06ae2153f34dc9b4271b",
+    "game/web/source-actors.js": "c73e4d0fa823d8d4f72bcb1625cfff902e2bdb8ee3c86b14abe7ed1ac1b2c5ba",
+    "game/web/avatar.js": "d95537f37d3e2e4404a233f5a4c3f5c555a90b6e7c8153323d53559f09220422",
+    "game/web/canonical-actors-data.js": "d24ca352e05bf07c32b21ffe6775a53be6feebe3c047b61069245fccfef3a7eb",
+    "game/web/locomotion-actors-data.js": "ca80688f968f0fa059d584e5eac3a6bd035bec515498e4d06bfbd6176a7e8b73",
+    "game/web/interaction-actors-data.js": "34a771f62dc4ad38f5efd79788dd681b2ffe1a79751f4d4ce27faa23657cffa6"
+  },
+  "limits": [
+    "109 tests in six files only; full919 suite not run by this agent.",
+    "This task modernizes meaningful automated fixtures, not artistic approval or browser/device QA.",
+    "Core owns separate avatar/legacy test modernization."
+  ]
+}

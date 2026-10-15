@@ -1,0 +1,102 @@
+{
+  "status": "awaiting-visual-review",
+  "contact": "contact-g1-skin-01.png",
+  "records": [
+    {
+      "source": "g1-skin-06-up.jpg",
+      "sha256": "a0c064a19d5c6cd983dd6c3e3ff8e7df985f9b65ee5d19292db1dd602e46661a",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 6
+    },
+    {
+      "source": "g1-skin-06-left.jpg",
+      "sha256": "cafeedfc2df7f00717e51770d1ff08d7ffa7ed408902d4558230a11cfdf27766",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 6
+    },
+    {
+      "source": "g1-skin-06-down.jpg",
+      "sha256": "808a9f33f047e4bc05b8dfb9cb064cbd67ba6b6599513912a95ecee9a5b591e2",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 6
+    },
+    {
+      "source": "g1-skin-06-right.jpg",
+      "sha256": "90ee431b133b64f29ec23364e49f968ba80637dd9eaef12f6635f802180a2af1",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 6
+    },
+    {
+      "source": "g1-skin-07-up.jpg",
+      "sha256": "ad2d803857d220d84100e23fb220fe83a6c1082ac69fdd40a388c4580fd918f0",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 7
+    },
+    {
+      "source": "g1-skin-07-left.jpg",
+      "sha256": "54f1b1898c15452f48007ec65360782d50a2c89b5645753a2c6a49ce6521cc9e",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 7
+    },
+    {
+      "source": "g1-skin-07-down.jpg",
+      "sha256": "ca3c7f04c6d064ea96a3bf7450d95a6819df9bcb7e359337b6b2ef1d0b9b5058",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 7
+    },
+    {
+      "source": "g1-skin-07-right.jpg",
+      "sha256": "8a704013f9111e724f4e6fe7d6c7a3fa2698594056dbde5f229233539e06c163",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 7
+    }
+  ]
+}

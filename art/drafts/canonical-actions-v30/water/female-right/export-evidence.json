@@ -1,0 +1,1562 @@
+{
+  "status": "draft",
+  "family": "water",
+  "gender": "female",
+  "dir": "right",
+  "master": "art/drafts/canonical-actions-v30/water/female-right/water-four-master.png",
+  "masterSHA256": "710b8f117e2de32526cfdd5d4cc975821e5720aa5c13709564f0b0cc68eb7e66",
+  "rawMasterUnchanged": true,
+  "uniformFineScale": 0.17679558011049723,
+  "poses": [
+    {
+      "frame": 0,
+      "pose": "cast",
+      "fine": "art/drafts/canonical-actions-v30/water/female-right/cast-fine.png",
+      "coarse": "art/drafts/canonical-actions-v30/water/female-right/cast.png",
+      "bodyFine": "art/drafts/canonical-actions-v30/water/female-right/cast-body-fine.png",
+      "head": {
+        "top": 5,
+        "bottom": 30,
+        "left": 8.5,
+        "right": 33.5,
+        "portraitChin": 30.5,
+        "eyeAnchor": [
+          25.9,
+          22.974999999999998
+        ],
+        "eyeLine": 22.974999999999998,
+        "neckAnchor": [
+          22,
+          29.5
+        ],
+        "facePolygon": [
+          [
+            23.65,
+            17.65
+          ],
+          [
+            25.224999999999998,
+            16.599999999999998
+          ],
+          [
+            27.474999999999994,
+            15.7
+          ],
+          [
+            28.9,
+            14.349999999999998
+          ],
+          [
+            29.349999999999994,
+            18.325
+          ],
+          [
+            29.875,
+            20.875
+          ],
+          [
+            30.474999999999994,
+            22.825
+          ],
+          [
+            31.15,
+            24.775
+          ],
+          [
+            30.099999999999994,
+            27.025
+          ],
+          [
+            28.224999999999994,
+            28.525
+          ],
+          [
+            27.025,
+            29.65
+          ],
+          [
+            24.4,
+            29.65
+          ],
+          [
+            22.675,
+            28.824999999999996
+          ],
+          [
+            21.4,
+            27.475
+          ],
+          [
+            20.425,
+            26.424999999999997
+          ],
+          [
+            18.849999999999998,
+            25.15
+          ],
+          [
+            18.25,
+            23.2
+          ],
+          [
+            19,
+            21.25
+          ],
+          [
+            20.275,
+            21.325
+          ],
+          [
+            20.5,
+            23.424999999999997
+          ],
+          [
+            21.849999999999998,
+            24.474999999999998
+          ],
+          [
+            22.3,
+            21.925
+          ],
+          [
+            23.05,
+            19.9
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            9.55,
+            12.55
+          ],
+          [
+            13.975000000000001,
+            7.975
+          ],
+          [
+            20.95,
+            5.574999999999999
+          ],
+          [
+            27.700000000000003,
+            6.475
+          ],
+          [
+            32.275,
+            10.524999999999999
+          ],
+          [
+            32.875,
+            15.399999999999999
+          ],
+          [
+            30.549999999999997,
+            18.925
+          ],
+          [
+            29.125,
+            20.875
+          ],
+          [
+            28.75,
+            17.275
+          ],
+          [
+            27.549999999999997,
+            15.849999999999998
+          ],
+          [
+            25.3,
+            17.65
+          ],
+          [
+            23.875,
+            19.974999999999998
+          ],
+          [
+            22.599999999999998,
+            22.675
+          ],
+          [
+            21.55,
+            24.7
+          ],
+          [
+            20.2,
+            23.05
+          ],
+          [
+            20.2,
+            21.25
+          ],
+          [
+            18.849999999999998,
+            21.25
+          ],
+          [
+            17.875,
+            23.349999999999998
+          ],
+          [
+            18.325,
+            25.674999999999997
+          ],
+          [
+            15.325,
+            26.349999999999998
+          ],
+          [
+            11.725000000000001,
+            23.275
+          ],
+          [
+            9.85,
+            18.775
+          ]
+        ]
+      },
+      "hand": [
+        17.5,
+        18
+      ],
+      "pelvis": [
+        24,
+        49
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceRoot": [
+        57,
+        131
+      ],
+      "sourceNeck": [
+        53,
+        64
+      ],
+      "sourceHand": [
+        44,
+        41
+      ],
+      "sourceIsolation": [
+        0,
+        0,
+        543,
+        760
+      ],
+      "nominalCellOrigin": [
+        0,
+        0
+      ],
+      "uniformFineScale": 0.17679558011049723,
+      "clippedSourcePixels": 0,
+      "authoredOutlineCleanup": [],
+      "integerTranslation": [
+        -9,
+        -5
+      ],
+      "headTranslationFromCurrentC": [
+        -7,
+        -8
+      ],
+      "canonicalDonor": "art/drafts/canonical-face-v29/female-heads-v1/right-fine.png",
+      "canonicalDonorSHA256": "4329eb109b40d0d47de048b8256d681df95c711f11abc48b9f6be4a32b09dd77",
+      "runtimeAlphaThreshold": 127,
+      "removeHeadPolygon": [
+        [
+          4,
+          -13
+        ],
+        [
+          84,
+          -13
+        ],
+        [
+          84,
+          50
+        ],
+        [
+          75,
+          68
+        ],
+        [
+          60,
+          71
+        ],
+        [
+          51,
+          66
+        ],
+        [
+          37,
+          66
+        ],
+        [
+          28,
+          71
+        ],
+        [
+          12,
+          68
+        ],
+        [
+          4,
+          50
+        ]
+      ],
+      "neckPreservePolygon": [
+        [
+          37,
+          51
+        ],
+        [
+          53,
+          51
+        ],
+        [
+          53,
+          64
+        ],
+        [
+          37,
+          64
+        ]
+      ],
+      "actualSourceContourPoints": [],
+      "sourceNeckPreservedPixels": 208,
+      "foregroundPolygons": [
+        [
+          [
+            26,
+            27
+          ],
+          [
+            42,
+            27
+          ],
+          [
+            45,
+            33
+          ],
+          [
+            44,
+            43
+          ],
+          [
+            35,
+            46
+          ],
+          [
+            26,
+            41
+          ]
+        ],
+        [
+          [
+            29,
+            29
+          ],
+          [
+            39,
+            29
+          ],
+          [
+            41,
+            41
+          ],
+          [
+            35,
+            46
+          ],
+          [
+            34,
+            57
+          ],
+          [
+            39,
+            63
+          ],
+          [
+            35,
+            68
+          ],
+          [
+            28,
+            64
+          ],
+          [
+            24,
+            55
+          ],
+          [
+            23,
+            45
+          ],
+          [
+            26,
+            39
+          ]
+        ]
+      ],
+      "removedSourceHeadPixels": 1252,
+      "grayClothPreservedPixels": 398,
+      "foregroundPixels": 507,
+      "donorPixels": 1811,
+      "headClippedPixels": 0,
+      "opaqueBounds": [
+        17,
+        11,
+        77,
+        127
+      ],
+      "edgeInk": 0,
+      "bodyBelowHeadUnchangedPixels": 5376,
+      "sha256": "ce273822e1cd2d51e8f6b1703d3f81ed5c8bbeb208077c1ef8f53f02eecd8e43",
+      "rod_hand": [
+        17.5,
+        18
+      ],
+      "water": {
+        "rodAngle": -0.95,
+        "rodHand": [
+          17.5,
+          18
+        ],
+        "rod_hand": [
+          17.5,
+          18
+        ],
+        "sourceScale": 0.305,
+        "equipmentReview": "draft; scale belongs to original rod contract, not body export factor"
+      }
+    },
+    {
+      "frame": 1,
+      "pose": "hold",
+      "fine": "art/drafts/canonical-actions-v30/water/female-right/hold-fine.png",
+      "coarse": "art/drafts/canonical-actions-v30/water/female-right/hold.png",
+      "bodyFine": "art/drafts/canonical-actions-v30/water/female-right/hold-body-fine.png",
+      "head": {
+        "top": 5,
+        "bottom": 30,
+        "left": 11.5,
+        "right": 36.5,
+        "portraitChin": 30.5,
+        "eyeAnchor": [
+          28.9,
+          22.974999999999998
+        ],
+        "eyeLine": 22.974999999999998,
+        "neckAnchor": [
+          25,
+          29.5
+        ],
+        "facePolygon": [
+          [
+            26.65,
+            17.65
+          ],
+          [
+            28.224999999999998,
+            16.599999999999998
+          ],
+          [
+            30.474999999999994,
+            15.7
+          ],
+          [
+            31.9,
+            14.349999999999998
+          ],
+          [
+            32.349999999999994,
+            18.325
+          ],
+          [
+            32.875,
+            20.875
+          ],
+          [
+            33.474999999999994,
+            22.825
+          ],
+          [
+            34.15,
+            24.775
+          ],
+          [
+            33.099999999999994,
+            27.025
+          ],
+          [
+            31.224999999999994,
+            28.525
+          ],
+          [
+            30.025,
+            29.65
+          ],
+          [
+            27.4,
+            29.65
+          ],
+          [
+            25.675,
+            28.824999999999996
+          ],
+          [
+            24.4,
+            27.475
+          ],
+          [
+            23.425,
+            26.424999999999997
+          ],
+          [
+            21.849999999999998,
+            25.15
+          ],
+          [
+            21.25,
+            23.2
+          ],
+          [
+            22,
+            21.25
+          ],
+          [
+            23.275,
+            21.325
+          ],
+          [
+            23.5,
+            23.424999999999997
+          ],
+          [
+            24.849999999999998,
+            24.474999999999998
+          ],
+          [
+            25.3,
+            21.925
+          ],
+          [
+            26.05,
+            19.9
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            12.55,
+            12.55
+          ],
+          [
+            16.975,
+            7.975
+          ],
+          [
+            23.95,
+            5.574999999999999
+          ],
+          [
+            30.700000000000003,
+            6.475
+          ],
+          [
+            35.275,
+            10.524999999999999
+          ],
+          [
+            35.875,
+            15.399999999999999
+          ],
+          [
+            33.55,
+            18.925
+          ],
+          [
+            32.125,
+            20.875
+          ],
+          [
+            31.75,
+            17.275
+          ],
+          [
+            30.549999999999997,
+            15.849999999999998
+          ],
+          [
+            28.3,
+            17.65
+          ],
+          [
+            26.875,
+            19.974999999999998
+          ],
+          [
+            25.599999999999998,
+            22.675
+          ],
+          [
+            24.55,
+            24.7
+          ],
+          [
+            23.2,
+            23.05
+          ],
+          [
+            23.2,
+            21.25
+          ],
+          [
+            21.849999999999998,
+            21.25
+          ],
+          [
+            20.875,
+            23.349999999999998
+          ],
+          [
+            21.325,
+            25.674999999999997
+          ],
+          [
+            18.325,
+            26.349999999999998
+          ],
+          [
+            14.725000000000001,
+            23.275
+          ],
+          [
+            12.85,
+            18.775
+          ]
+        ]
+      },
+      "hand": [
+        34.5,
+        36.5
+      ],
+      "pelvis": [
+        24,
+        49
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceRoot": [
+        48,
+        131
+      ],
+      "sourceNeck": [
+        50,
+        64
+      ],
+      "sourceHand": [
+        69,
+        78
+      ],
+      "sourceIsolation": [
+        543,
+        0,
+        1086,
+        760
+      ],
+      "nominalCellOrigin": [
+        543,
+        0
+      ],
+      "uniformFineScale": 0.17679558011049723,
+      "clippedSourcePixels": 0,
+      "authoredOutlineCleanup": [],
+      "integerTranslation": [
+        0,
+        -5
+      ],
+      "headTranslationFromCurrentC": [
+        -1,
+        -8
+      ],
+      "canonicalDonor": "art/drafts/canonical-face-v29/female-heads-v1/right-fine.png",
+      "canonicalDonorSHA256": "4329eb109b40d0d47de048b8256d681df95c711f11abc48b9f6be4a32b09dd77",
+      "runtimeAlphaThreshold": 127,
+      "removeHeadPolygon": [
+        [
+          10,
+          -13
+        ],
+        [
+          90,
+          -13
+        ],
+        [
+          90,
+          50
+        ],
+        [
+          81,
+          68
+        ],
+        [
+          66,
+          71
+        ],
+        [
+          57,
+          66
+        ],
+        [
+          43,
+          66
+        ],
+        [
+          34,
+          71
+        ],
+        [
+          18,
+          68
+        ],
+        [
+          10,
+          50
+        ]
+      ],
+      "neckPreservePolygon": [
+        [
+          43,
+          51
+        ],
+        [
+          59,
+          51
+        ],
+        [
+          59,
+          64
+        ],
+        [
+          43,
+          64
+        ]
+      ],
+      "actualSourceContourPoints": [],
+      "sourceNeckPreservedPixels": 206,
+      "foregroundPolygons": [
+        [
+          [
+            60,
+            64
+          ],
+          [
+            76,
+            64
+          ],
+          [
+            79,
+            70
+          ],
+          [
+            78,
+            80
+          ],
+          [
+            69,
+            83
+          ],
+          [
+            60,
+            78
+          ]
+        ]
+      ],
+      "removedSourceHeadPixels": 1623,
+      "grayClothPreservedPixels": 301,
+      "foregroundPixels": 127,
+      "donorPixels": 1811,
+      "headClippedPixels": 0,
+      "opaqueBounds": [
+        23,
+        11,
+        73,
+        127
+      ],
+      "edgeInk": 0,
+      "bodyBelowHeadUnchangedPixels": 5376,
+      "sha256": "a293613d6382196de53a701e2aebd08365371349d9ab826bfd191804f3db2d96",
+      "rod_hand": [
+        34.5,
+        36.5
+      ],
+      "water": {
+        "rodAngle": -0.45,
+        "rodHand": [
+          34.5,
+          36.5
+        ],
+        "rod_hand": [
+          34.5,
+          36.5
+        ],
+        "sourceScale": 0.305,
+        "equipmentReview": "draft; scale belongs to original rod contract, not body export factor"
+      }
+    },
+    {
+      "frame": 2,
+      "pose": "reel",
+      "fine": "art/drafts/canonical-actions-v30/water/female-right/reel-fine.png",
+      "coarse": "art/drafts/canonical-actions-v30/water/female-right/reel.png",
+      "bodyFine": "art/drafts/canonical-actions-v30/water/female-right/reel-body-fine.png",
+      "head": {
+        "top": 6.5,
+        "bottom": 31.5,
+        "left": 8,
+        "right": 33,
+        "portraitChin": 32,
+        "eyeAnchor": [
+          25.4,
+          24.474999999999998
+        ],
+        "eyeLine": 24.474999999999998,
+        "neckAnchor": [
+          21.5,
+          31
+        ],
+        "facePolygon": [
+          [
+            23.15,
+            19.15
+          ],
+          [
+            24.724999999999998,
+            18.099999999999998
+          ],
+          [
+            26.974999999999994,
+            17.2
+          ],
+          [
+            28.4,
+            15.849999999999998
+          ],
+          [
+            28.849999999999994,
+            19.825
+          ],
+          [
+            29.375,
+            22.375
+          ],
+          [
+            29.974999999999994,
+            24.325
+          ],
+          [
+            30.65,
+            26.275
+          ],
+          [
+            29.599999999999994,
+            28.525
+          ],
+          [
+            27.724999999999994,
+            30.025
+          ],
+          [
+            26.525,
+            31.15
+          ],
+          [
+            23.9,
+            31.15
+          ],
+          [
+            22.175,
+            30.324999999999996
+          ],
+          [
+            20.9,
+            28.975
+          ],
+          [
+            19.925,
+            27.924999999999997
+          ],
+          [
+            18.349999999999998,
+            26.65
+          ],
+          [
+            17.75,
+            24.7
+          ],
+          [
+            18.5,
+            22.75
+          ],
+          [
+            19.775,
+            22.825
+          ],
+          [
+            20,
+            24.924999999999997
+          ],
+          [
+            21.349999999999998,
+            25.974999999999998
+          ],
+          [
+            21.8,
+            23.425
+          ],
+          [
+            22.55,
+            21.4
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            9.05,
+            14.05
+          ],
+          [
+            13.475000000000001,
+            9.475
+          ],
+          [
+            20.45,
+            7.074999999999999
+          ],
+          [
+            27.200000000000003,
+            7.975
+          ],
+          [
+            31.775,
+            12.024999999999999
+          ],
+          [
+            32.375,
+            16.9
+          ],
+          [
+            30.049999999999997,
+            20.425
+          ],
+          [
+            28.625,
+            22.375
+          ],
+          [
+            28.25,
+            18.775
+          ],
+          [
+            27.049999999999997,
+            17.349999999999998
+          ],
+          [
+            24.8,
+            19.15
+          ],
+          [
+            23.375,
+            21.474999999999998
+          ],
+          [
+            22.099999999999998,
+            24.175
+          ],
+          [
+            21.05,
+            26.2
+          ],
+          [
+            19.7,
+            24.55
+          ],
+          [
+            19.7,
+            22.75
+          ],
+          [
+            18.349999999999998,
+            22.75
+          ],
+          [
+            17.375,
+            24.849999999999998
+          ],
+          [
+            17.825,
+            27.174999999999997
+          ],
+          [
+            14.825,
+            27.849999999999998
+          ],
+          [
+            11.225000000000001,
+            24.775
+          ],
+          [
+            9.35,
+            20.275
+          ]
+        ]
+      },
+      "hand": [
+        27.5,
+        36
+      ],
+      "pelvis": [
+        24,
+        49
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceRoot": [
+        57,
+        124
+      ],
+      "sourceNeck": [
+        52,
+        60
+      ],
+      "sourceHand": [
+        64,
+        70
+      ],
+      "sourceIsolation": [
+        0,
+        760,
+        543,
+        1448
+      ],
+      "nominalCellOrigin": [
+        0,
+        724
+      ],
+      "uniformFineScale": 0.17679558011049723,
+      "clippedSourcePixels": 0,
+      "authoredOutlineCleanup": [],
+      "integerTranslation": [
+        -9,
+        2
+      ],
+      "headTranslationFromCurrentC": [
+        -8,
+        -5
+      ],
+      "canonicalDonor": "art/drafts/canonical-face-v29/female-heads-v1/right-fine.png",
+      "canonicalDonorSHA256": "4329eb109b40d0d47de048b8256d681df95c711f11abc48b9f6be4a32b09dd77",
+      "runtimeAlphaThreshold": 127,
+      "removeHeadPolygon": [
+        [
+          3,
+          -10
+        ],
+        [
+          83,
+          -10
+        ],
+        [
+          83,
+          53
+        ],
+        [
+          74,
+          71
+        ],
+        [
+          59,
+          74
+        ],
+        [
+          50,
+          69
+        ],
+        [
+          36,
+          69
+        ],
+        [
+          27,
+          74
+        ],
+        [
+          11,
+          71
+        ],
+        [
+          3,
+          53
+        ]
+      ],
+      "neckPreservePolygon": [
+        [
+          36,
+          54
+        ],
+        [
+          52,
+          54
+        ],
+        [
+          52,
+          67
+        ],
+        [
+          36,
+          67
+        ]
+      ],
+      "actualSourceContourPoints": [],
+      "sourceNeckPreservedPixels": 208,
+      "foregroundPolygons": [
+        [
+          [
+            46,
+            63
+          ],
+          [
+            62,
+            63
+          ],
+          [
+            65,
+            69
+          ],
+          [
+            64,
+            79
+          ],
+          [
+            55,
+            82
+          ],
+          [
+            46,
+            77
+          ]
+        ]
+      ],
+      "removedSourceHeadPixels": 1593,
+      "grayClothPreservedPixels": 302,
+      "foregroundPixels": 264,
+      "donorPixels": 1811,
+      "headClippedPixels": 0,
+      "opaqueBounds": [
+        16,
+        14,
+        69,
+        126
+      ],
+      "edgeInk": 0,
+      "bodyBelowHeadUnchangedPixels": 5088,
+      "sha256": "9f7853c484a2c8fd16474c7e840ba37e1d05b093615de271977196a4981eb802",
+      "rod_hand": [
+        27.5,
+        36
+      ],
+      "water": {
+        "rodAngle": -0.35,
+        "rodHand": [
+          27.5,
+          36
+        ],
+        "rod_hand": [
+          27.5,
+          36
+        ],
+        "sourceScale": 0.305,
+        "equipmentReview": "draft; scale belongs to original rod contract, not body export factor"
+      }
+    },
+    {
+      "frame": 3,
+      "pose": "row",
+      "fine": "art/drafts/canonical-actions-v30/water/female-right/row-fine.png",
+      "coarse": "art/drafts/canonical-actions-v30/water/female-right/row.png",
+      "bodyFine": "art/drafts/canonical-actions-v30/water/female-right/row-body-fine.png",
+      "head": {
+        "top": 9,
+        "bottom": 34,
+        "left": 10,
+        "right": 35,
+        "portraitChin": 34.5,
+        "eyeAnchor": [
+          27.4,
+          26.974999999999998
+        ],
+        "eyeLine": 26.974999999999998,
+        "neckAnchor": [
+          23.5,
+          33.5
+        ],
+        "facePolygon": [
+          [
+            25.15,
+            21.65
+          ],
+          [
+            26.724999999999998,
+            20.599999999999998
+          ],
+          [
+            28.974999999999994,
+            19.7
+          ],
+          [
+            30.4,
+            18.349999999999998
+          ],
+          [
+            30.849999999999994,
+            22.325
+          ],
+          [
+            31.375,
+            24.875
+          ],
+          [
+            31.974999999999994,
+            26.825
+          ],
+          [
+            32.65,
+            28.775
+          ],
+          [
+            31.599999999999994,
+            31.025
+          ],
+          [
+            29.724999999999994,
+            32.525
+          ],
+          [
+            28.525,
+            33.65
+          ],
+          [
+            25.9,
+            33.65
+          ],
+          [
+            24.175,
+            32.824999999999996
+          ],
+          [
+            22.9,
+            31.475
+          ],
+          [
+            21.925,
+            30.424999999999997
+          ],
+          [
+            20.349999999999998,
+            29.15
+          ],
+          [
+            19.75,
+            27.2
+          ],
+          [
+            20.5,
+            25.25
+          ],
+          [
+            21.775,
+            25.325
+          ],
+          [
+            22,
+            27.424999999999997
+          ],
+          [
+            23.349999999999998,
+            28.474999999999998
+          ],
+          [
+            23.8,
+            25.925
+          ],
+          [
+            24.55,
+            23.9
+          ]
+        ],
+        "scalpPolygon": [
+          [
+            11.05,
+            16.55
+          ],
+          [
+            15.475000000000001,
+            11.975
+          ],
+          [
+            22.45,
+            9.575
+          ],
+          [
+            29.200000000000003,
+            10.475
+          ],
+          [
+            33.775,
+            14.524999999999999
+          ],
+          [
+            34.375,
+            19.4
+          ],
+          [
+            32.05,
+            22.925
+          ],
+          [
+            30.625,
+            24.875
+          ],
+          [
+            30.25,
+            21.275
+          ],
+          [
+            29.049999999999997,
+            19.849999999999998
+          ],
+          [
+            26.8,
+            21.65
+          ],
+          [
+            25.375,
+            23.974999999999998
+          ],
+          [
+            24.099999999999998,
+            26.675
+          ],
+          [
+            23.05,
+            28.7
+          ],
+          [
+            21.7,
+            27.05
+          ],
+          [
+            21.7,
+            25.25
+          ],
+          [
+            20.349999999999998,
+            25.25
+          ],
+          [
+            19.375,
+            27.349999999999998
+          ],
+          [
+            19.825,
+            29.674999999999997
+          ],
+          [
+            16.825,
+            30.349999999999998
+          ],
+          [
+            13.225000000000001,
+            27.275
+          ],
+          [
+            11.35,
+            22.775
+          ]
+        ]
+      },
+      "hand": [
+        37.5,
+        38
+      ],
+      "pelvis": [
+        20,
+        48.5
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceRoot": [
+        44,
+        97
+      ],
+      "sourceNeck": [
+        51,
+        67
+      ],
+      "sourceHand": [
+        79,
+        76
+      ],
+      "sourceIsolation": [
+        543,
+        760,
+        1086,
+        1448
+      ],
+      "nominalCellOrigin": [
+        543,
+        724
+      ],
+      "uniformFineScale": 0.17679558011049723,
+      "clippedSourcePixels": 0,
+      "authoredOutlineCleanup": [],
+      "integerTranslation": [
+        -4,
+        0
+      ],
+      "headTranslationFromCurrentC": [
+        -4,
+        0
+      ],
+      "canonicalDonor": "art/drafts/canonical-face-v29/female-heads-v1/right-fine.png",
+      "canonicalDonorSHA256": "4329eb109b40d0d47de048b8256d681df95c711f11abc48b9f6be4a32b09dd77",
+      "runtimeAlphaThreshold": 127,
+      "removeHeadPolygon": [
+        [
+          7,
+          -5
+        ],
+        [
+          87,
+          -5
+        ],
+        [
+          87,
+          58
+        ],
+        [
+          78,
+          76
+        ],
+        [
+          63,
+          79
+        ],
+        [
+          54,
+          74
+        ],
+        [
+          40,
+          74
+        ],
+        [
+          31,
+          79
+        ],
+        [
+          15,
+          76
+        ],
+        [
+          7,
+          58
+        ]
+      ],
+      "neckPreservePolygon": [
+        [
+          40,
+          59
+        ],
+        [
+          56,
+          59
+        ],
+        [
+          56,
+          72
+        ],
+        [
+          40,
+          72
+        ]
+      ],
+      "actualSourceContourPoints": [],
+      "sourceNeckPreservedPixels": 201,
+      "foregroundPolygons": [
+        [
+          [
+            66,
+            67
+          ],
+          [
+            82,
+            67
+          ],
+          [
+            85,
+            73
+          ],
+          [
+            84,
+            83
+          ],
+          [
+            75,
+            86
+          ],
+          [
+            66,
+            81
+          ]
+        ]
+      ],
+      "removedSourceHeadPixels": 1535,
+      "grayClothPreservedPixels": 331,
+      "foregroundPixels": 119,
+      "donorPixels": 1811,
+      "headClippedPixels": 0,
+      "opaqueBounds": [
+        20,
+        19,
+        79,
+        122
+      ],
+      "edgeInk": 0,
+      "bodyBelowHeadUnchangedPixels": 4608,
+      "sha256": "cc721d66bd04aeddedc8a4b70c92f22ad785df650c9b57b431a72fdd97a35802",
+      "rod_hand": [
+        37.5,
+        38
+      ],
+      "water": {
+        "rodAngle": 0,
+        "rodHand": [
+          37.5,
+          38
+        ],
+        "rod_hand": [
+          37.5,
+          38
+        ],
+        "sourceScale": 0.305,
+        "equipmentReview": "draft; scale belongs to original rod contract, not body export factor"
+      }
+    }
+  ]
+}

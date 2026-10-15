@@ -1,0 +1,294 @@
+{
+  "status": "awaiting-visual-review",
+  "contact": "contact-g1-hairColor-00.png",
+  "records": [
+    {
+      "source": "g1-hairColor-00-up.jpg",
+      "sha256": "e6be6619fb3b22488924da6ac141dd9a335d640476a56e0c53255e47e6568de8",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 0
+    },
+    {
+      "source": "g1-hairColor-00-left.jpg",
+      "sha256": "5854b2a3fce993bfa0832ceb1cb60600d2ae848ba447612d4769015f98eae3ad",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 0
+    },
+    {
+      "source": "g1-hairColor-00-down.jpg",
+      "sha256": "a3419491739fea0ab6e9af286bb2d350446422d6b266921e4fca7cf58582f2b5",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 0
+    },
+    {
+      "source": "g1-hairColor-00-right.jpg",
+      "sha256": "6aa13667c53fd86b034394511ef8f57f702a32af12d7f9e5d0a5a129ee523483",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 0
+    },
+    {
+      "source": "g1-hairColor-01-up.jpg",
+      "sha256": "daa0ebe313dde4d485c0189619617c91d7d9e0f317e25523efc7a6a8c3feacbe",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 1
+    },
+    {
+      "source": "g1-hairColor-01-left.jpg",
+      "sha256": "8f1e755718b495519fee5296b6dc9983f418ff034bb0b622ca38d81c08804b49",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 1
+    },
+    {
+      "source": "g1-hairColor-01-down.jpg",
+      "sha256": "c01152538e63d20528e65bf6023c796337c27031038ce9af43f6fcf2674041bd",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 1
+    },
+    {
+      "source": "g1-hairColor-01-right.jpg",
+      "sha256": "e56a876d7007b1594657878ac02da19c2eac4dadca5e8c7db9565451dc100266",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 1
+    },
+    {
+      "source": "g1-hairColor-02-up.jpg",
+      "sha256": "4f8be0c61bfc31566ffc8a5f8448ae2712e41566a0d90d6d798cb7d0b49f5b23",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 2
+    },
+    {
+      "source": "g1-hairColor-02-left.jpg",
+      "sha256": "1715ecab4abe1c80b0365a3e3f61991fe331390e040cfe42038d4878ac4b8cb8",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 2
+    },
+    {
+      "source": "g1-hairColor-02-down.jpg",
+      "sha256": "ac73c4d26e26f97634472e1b20274af6189bdf15b05c40ac50a880658252b5b5",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 2
+    },
+    {
+      "source": "g1-hairColor-02-right.jpg",
+      "sha256": "fa3bfe964c8a953e053c3e80f297b1f6ec5b6bc5b1ef8f6b65d6de0b69c9f269",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 2
+    },
+    {
+      "source": "g1-hairColor-03-up.jpg",
+      "sha256": "063ca7354794ffb4e921c28f58466f31b4253da52c8cbba174825cda1344202b",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 3
+    },
+    {
+      "source": "g1-hairColor-03-left.jpg",
+      "sha256": "5d99aa0b24dfdf7ff2a93d564f8c651b793f1b3f3dbe2dc1ca1fc6f471d8320d",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 3
+    },
+    {
+      "source": "g1-hairColor-03-down.jpg",
+      "sha256": "dd14a5a1ad0315116700dfe83fb152d2694a7cb5676330a09ef3dd204e1e6632",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 3
+    },
+    {
+      "source": "g1-hairColor-03-right.jpg",
+      "sha256": "2f295465d073140e1d6cee1739bd5094da0cceab88b5b93a56992d75d2e9f3ee",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 3
+    },
+    {
+      "source": "g1-hairColor-04-up.jpg",
+      "sha256": "ef181fb5fbcd551db57a086ef1d64e071ffd6e074c0ca640f325945979bebad9",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 4
+    },
+    {
+      "source": "g1-hairColor-04-left.jpg",
+      "sha256": "4d03b1e918484091ad425ad51dfdbf05c96bcbba6a4287e398147129df1c3e71",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 4
+    },
+    {
+      "source": "g1-hairColor-04-down.jpg",
+      "sha256": "cca999454612ee4e3da6ecc03bae2d0a049325cbcab36b50eba60c58c0b51a4f",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 4
+    },
+    {
+      "source": "g1-hairColor-04-right.jpg",
+      "sha256": "febaae6ecafde1cc58d8e79231e14b5ef8ceb83554d1f7513579f671eded27ce",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 4
+    },
+    {
+      "source": "g1-hairColor-05-up.jpg",
+      "sha256": "a4f7c1f1cde806518b2ea4d1dd19ab54f1effb010a391a14858d7b767d15a447",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 5
+    },
+    {
+      "source": "g1-hairColor-05-left.jpg",
+      "sha256": "2519ba61b9cede51c1f7e8abdb46acd9fcdba5f15b7f853ab6f9859936a56a5d",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 5
+    },
+    {
+      "source": "g1-hairColor-05-down.jpg",
+      "sha256": "995b1d7a9dd83acc90c46576b61615a297f32f9e20341d6b0c4abb3360e6b788",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 5
+    },
+    {
+      "source": "g1-hairColor-05-right.jpg",
+      "sha256": "430e3f936c99f1ac40b6da26b5f51adef50907e3ddb9e6aa0d33dd0ce72252f9",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 5
+    }
+  ]
+}

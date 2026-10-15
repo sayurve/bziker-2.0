@@ -1,0 +1,384 @@
+{
+  "junctions": [
+    {
+      "key": "5800.00,2610.00",
+      "point": [
+        5800,
+        2610
+      ],
+      "roads": [
+        "avenue",
+        "west-street"
+      ],
+      "segments": [
+        "avenue:1",
+        "west-street:4",
+        "west-street:5",
+        "avenue:2"
+      ],
+      "centerColor": "#596266",
+      "corruptedCount": 6,
+      "corruptedExamples": [
+        {
+          "point": [
+            5850,
+            2460
+          ],
+          "color": "#909793"
+        },
+        {
+          "point": [
+            5820,
+            2470
+          ],
+          "color": "#626a6d"
+        },
+        {
+          "point": [
+            5860,
+            2480
+          ],
+          "color": "#949a96"
+        },
+        {
+          "point": [
+            5830,
+            2490
+          ],
+          "color": "#727a7a"
+        },
+        {
+          "point": [
+            5870,
+            2500
+          ],
+          "color": "#a3a9a3"
+        },
+        {
+          "point": [
+            5840,
+            2510
+          ],
+          "color": "#697273"
+        }
+      ]
+    },
+    {
+      "key": "6700.00,2610.00",
+      "point": [
+        6700,
+        2610
+      ],
+      "roads": [
+        "avenue",
+        "east-street"
+      ],
+      "segments": [
+        "avenue:2",
+        "east-street:1",
+        "east-street:2",
+        "avenue:3"
+      ],
+      "centerColor": "#596266",
+      "corruptedCount": 7,
+      "corruptedExamples": [
+        {
+          "point": [
+            6720,
+            2710
+          ],
+          "color": "#c7ccc0"
+        },
+        {
+          "point": [
+            6640,
+            2720
+          ],
+          "color": "#7e8684"
+        },
+        {
+          "point": [
+            6650,
+            2720
+          ],
+          "color": "#697173"
+        },
+        {
+          "point": [
+            6670,
+            2730
+          ],
+          "color": "#d0d4c7"
+        },
+        {
+          "point": [
+            6680,
+            2740
+          ],
+          "color": "#767e7e"
+        },
+        {
+          "point": [
+            6700,
+            2750
+          ],
+          "color": "#abb1a9"
+        },
+        {
+          "point": [
+            6710,
+            2760
+          ],
+          "color": "#9fa59f"
+        }
+      ]
+    },
+    {
+      "key": "8310.00,2610.00",
+      "point": [
+        8310,
+        2610
+      ],
+      "roads": [
+        "avenue",
+        "quarter-north"
+      ],
+      "segments": [
+        "avenue:4",
+        "quarter-north:4"
+      ],
+      "centerColor": "#596266",
+      "corruptedCount": 0,
+      "corruptedExamples": []
+    },
+    {
+      "key": "6700.00,1630.00",
+      "point": [
+        6700,
+        1630
+      ],
+      "roads": [
+        "east-street",
+        "quarter-north"
+      ],
+      "segments": [
+        "east-street:0",
+        "quarter-north:0"
+      ],
+      "centerColor": "#596266",
+      "corruptedCount": 0,
+      "corruptedExamples": []
+    },
+    {
+      "key": "6700.00,2370.00",
+      "point": [
+        6700,
+        2370
+      ],
+      "roads": [
+        "east-street",
+        "quarter-south"
+      ],
+      "segments": [
+        "east-street:1",
+        "quarter-south:0"
+      ],
+      "centerColor": "#596266",
+      "corruptedCount": 0,
+      "corruptedExamples": []
+    },
+    {
+      "key": "8310.00,2370.00",
+      "point": [
+        8310,
+        2370
+      ],
+      "roads": [
+        "quarter-north",
+        "quarter-south"
+      ],
+      "segments": [
+        "quarter-north:4",
+        "quarter-south:3"
+      ],
+      "centerColor": "#596266",
+      "corruptedCount": 0,
+      "corruptedExamples": []
+    }
+  ],
+  "forecourts": [
+    {
+      "id": "base-5",
+      "forecourt": {
+        "x": 6928,
+        "y": 2286,
+        "width": 244,
+        "height": 85
+      },
+      "roadIds": [
+        "quarter-south"
+      ],
+      "sampleCount": 77,
+      "sample": [
+        6932,
+        2346
+      ],
+      "color": "#596266"
+    },
+    {
+      "id": "base-6",
+      "forecourt": {
+        "x": 7268,
+        "y": 2286,
+        "width": 244,
+        "height": 85
+      },
+      "roadIds": [
+        "quarter-south"
+      ],
+      "sampleCount": 125,
+      "sample": [
+        7272,
+        2338
+      ],
+      "color": "#596266"
+    },
+    {
+      "id": "base-7",
+      "forecourt": {
+        "x": 7608,
+        "y": 2286,
+        "width": 244,
+        "height": 85
+      },
+      "roadIds": [
+        "quarter-south"
+      ],
+      "sampleCount": 73,
+      "sample": [
+        7612,
+        2346
+      ],
+      "color": "#596266"
+    },
+    {
+      "id": "base-8",
+      "forecourt": {
+        "x": 7948,
+        "y": 2286,
+        "width": 244,
+        "height": 85
+      },
+      "roadIds": [
+        "quarter-south"
+      ],
+      "sampleCount": 106,
+      "sample": [
+        7952,
+        2346
+      ],
+      "color": "#596266"
+    }
+  ],
+  "pathways": [
+    {
+      "path": "arrival",
+      "road": "avenue",
+      "point": [
+        4700,
+        2610
+      ],
+      "color": "#596266"
+    },
+    {
+      "path": "park-promenade",
+      "road": "east-street",
+      "point": [
+        6690,
+        3820
+      ],
+      "color": "#596266"
+    },
+    {
+      "path": "park-promenade",
+      "road": "east-street",
+      "point": [
+        6690,
+        3820
+      ],
+      "color": "#596266"
+    },
+    {
+      "path": "park-promenade",
+      "road": "east-street",
+      "point": [
+        6762.5,
+        3822.5
+      ],
+      "color": "#596266"
+    },
+    {
+      "path": "park-promenade",
+      "road": "east-street",
+      "point": [
+        6980,
+        3830
+      ],
+      "color": "#596266"
+    },
+    {
+      "path": "smoking-path",
+      "road": "west-street",
+      "point": [
+        5896.214988644966,
+        2215.5185465556397
+      ],
+      "color": "#596266"
+    }
+  ],
+  "crossings": [
+    {
+      "id": "crossing-1",
+      "road": "west-street",
+      "center": [
+        5836.254295569224,
+        2461.3573881661814
+      ],
+      "nearJunctions": [
+        {
+          "roads": [
+            "avenue",
+            "west-street"
+          ],
+          "d": 152.99999999999983
+        }
+      ]
+    },
+    {
+      "id": "crossing-2",
+      "road": "east-street",
+      "center": [
+        6686.148030855495,
+        2762.371660589559
+      ],
+      "nearJunctions": [
+        {
+          "roads": [
+            "avenue",
+            "east-street"
+          ],
+          "d": 153.00000000000014
+        }
+      ]
+    },
+    {
+      "id": "crossing-3",
+      "road": "west-street",
+      "center": [
+        5633,
+        1350
+      ],
+      "nearJunctions": []
+    }
+  ]
+}

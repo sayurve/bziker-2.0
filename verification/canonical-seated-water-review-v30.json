@@ -1,0 +1,72 @@
+{
+  "status": "approved-native-source",
+  "reviewer": "materials native visual QA + root final limited native-source approval",
+  "scope": "new40wholebody sources + exact own C donors; runtimeworld/wardrobe/equipment not covered",
+  "sourceArtApproval": "Root re-viewed final neck-gap-after-v30.png and reaffirmed limited approval of all40 native whole bodies; runtime equipment/garments/seat placement remain separate",
+  "contacts": [
+    {
+      "path": "verification/canonical-seated-water-male-v30-draft.png",
+      "sha256": "350f1ae798dce572e652bf4ce0cde19f71da20323a633bd70117fb647beef5fd",
+      "materialsAgentViewedEntire": true,
+      "rootViewedEntire": true
+    },
+    {
+      "path": "verification/canonical-seated-water-female-v30-draft.png",
+      "sha256": "e100ca3daedbc9e0fd263bddcc4aaaac399603ca3376ae0d2a0e8f629c4e233a",
+      "materialsAgentViewedEntire": true,
+      "rootViewedEntire": true
+    },
+    {
+      "path": "verification/phone-action-audit/neck-gap-after-v30.png",
+      "sha256": "9e331b17c3d88dd03e2072e9da8f52e8982fb6ef8372aa0bbf85de091b08f48e",
+      "materialsAgentViewedEntire": true,
+      "rootViewedEntire": true
+    }
+  ],
+  "technicalEvidence": "verification/canonical-seated-water-checks-v30.json",
+  "alphaEvidence": "verification/canonical-seated-water-alpha-holes-v30.json",
+  "stagedManifest": "art/drafts/canonical-actions-v30/seated-water-staged-actors.json",
+  "approvalRecordedAt": "2026-10-15T14:51:34.910354+00:00",
+  "approvedFineFrames": {
+    "art/drafts/canonical-actions-v30/seated/male-right/neutral-fine.png": "fc2d52fd29e015dbb40a326b62b72dd5236df296258302178800e3cf17953076",
+    "art/drafts/canonical-actions-v30/seated/male-right/hand-chest-fine.png": "135153529eca350bb5c27d5b88dd5cda8623b34570c32b757acc340a25bd7f3a",
+    "art/drafts/canonical-actions-v30/seated/male-right/hand-mouth-fine.png": "fd2c01b442e48878b3ba77ad14c4d75bcfb44a314daf497bbfc951595fde8880",
+    "art/drafts/canonical-actions-v30/seated/male-right/reach-fine.png": "4a99b83765375eb4b4b0e036927300da14038a30eb99db3ac50aee3886974da3",
+    "art/drafts/canonical-actions-v30/seated/male-left/neutral-fine.png": "9c2391a70325f4d58d1c456a41372a8a59b1ad093e21014f13569d795316eb77",
+    "art/drafts/canonical-actions-v30/seated/male-left/hand-chest-fine.png": "a17ee8eb262dac5cea3c4f96a0166b1004c30de626d2238d78e493ce75fa79e7",
+    "art/drafts/canonical-actions-v30/seated/male-left/hand-mouth-fine.png": "91c387234b46d57ad3dac84d506be45fd325d817f9fb3413ca654bc1271c4b01",
+    "art/drafts/canonical-actions-v30/seated/male-left/reach-fine.png": "8caafcc6d4153353e74b62e8b52d81e720c4ddd808d0e6586c5172264442734b",
+    "art/drafts/canonical-actions-v30/seated/male-down/neutral-fine.png": "dcc833ab14218c9c132f549d443a802c447b106edf0c0829506e1b749c703d6b",
+    "art/drafts/canonical-actions-v30/seated/male-down/hand-chest-fine.png": "b84dd0af5beb294b0a54fc1a66e3b68fe9c7e1ae2311272574cbdb902fa803e7",
+    "art/drafts/canonical-actions-v30/seated/male-down/hand-mouth-fine.png": "95b936625667e99855b16c7181e0aabe98fcd0873a76ed7769522e684a8b57d6",
+    "art/drafts/canonical-actions-v30/seated/male-down/reach-fine.png": "edd3805659cac9c83fbd6a5fbea4410bebdd5c3c533a7e6640cb9a5f478e5e15",
+    "art/drafts/canonical-actions-v30/seated/male-up/neutral-fine.png": "62d2aa80fdd56188beb0a1b0b7d1d528d9408d12cb06a5531f7084eb73be9694",
+    "art/drafts/canonical-actions-v30/seated/male-up/hand-chest-fine.png": "0ab4e785ced20e414065e667d1e1785740cc8f07edf8687fb1a8cf4dd05d060f",
+    "art/drafts/canonical-actions-v30/seated/male-up/hand-mouth-fine.png": "2d60e4ca71cd28e463292a343f9a2cf2da2f97170350d2111ec3b6cf284332f6",
+    "art/drafts/canonical-actions-v30/seated/male-up/reach-fine.png": "bd634fbbd794a0aefb1bc9395a71a56eca6d4d65bc381addbc35fd02dd7664a8",
+    "art/drafts/canonical-actions-v30/seated/female-right/neutral-fine.png": "f4be48da5636505834399f642a8c9e73f405a8115707ce6f972760ad0744e72c",
+    "art/drafts/canonical-actions-v30/seated/female-right/hand-chest-fine.png": "007167b5a8041e75795d5ded67d7670af84410ecfbafe55bf67de1a4724bbf75",
+    "art/drafts/canonical-actions-v30/seated/female-right/hand-mouth-fine.png": "2da2851d83833ed8323dd58bd1247b486de0688df8104abbddfd066cfddacfd9",
+    "art/drafts/canonical-actions-v30/seated/female-right/reach-fine.png": "4f21d1f4bb59bc6048b8bba44386ca48d5f9aed532975adeccd59d54c4657e90",
+    "art/drafts/canonical-actions-v30/seated/female-left/neutral-fine.png": "26250789beebf157902ec9c063e36f8166be96b08bc4fc2809bbc9ee251dc3f7",
+    "art/drafts/canonical-actions-v30/seated/female-left/hand-chest-fine.png": "9eb24b9ba44cf4a833a03a58cea8f988a18dd176cc5084353061ac23e9efe92e",
+    "art/drafts/canonical-actions-v30/seated/female-left/hand-mouth-fine.png": "a356c86b06ac041159ffcb267d05be81897e3c1b0022d3d28d1dd372d25c7fb6",
+    "art/drafts/canonical-actions-v30/seated/female-left/reach-fine.png": "50b61b25d2e6eacaf8dd3c97eacb1253de314ce860d0e6fd51e8f1ed4e4b5858",
+    "art/drafts/canonical-actions-v30/seated/female-down/neutral-fine.png": "79b090af849de03d6d2ceeadaadb86c46efd224699757f550c48fd8f2a0b87a9",
+    "art/drafts/canonical-actions-v30/seated/female-down/hand-chest-fine.png": "a95438575f581d171bc59eeb74e44d929cda6f68ce63de14a5882158b4abd523",
+    "art/drafts/canonical-actions-v30/seated/female-down/hand-mouth-fine.png": "f59d3e670993cfdacdc1c7175156e163c53fb71552cc81e3e95961978e8b237a",
+    "art/drafts/canonical-actions-v30/seated/female-down/reach-fine.png": "4caceddb69f9b57676279849f3c4b4b9c53be1d464c82cfd3b4e826fb7183e39",
+    "art/drafts/canonical-actions-v30/seated/female-up/neutral-fine.png": "eb47b3b8dd09e01f60e38713d7b1bbdf4863fd782433bdffcad7335332205cce",
+    "art/drafts/canonical-actions-v30/seated/female-up/hand-chest-fine.png": "62294437eb978686dc5b938ddada85f2aca22cd5e172e5a1ca81260f51c9ef45",
+    "art/drafts/canonical-actions-v30/seated/female-up/hand-mouth-fine.png": "01cdd7ec43970f52d9cd7d5eadf2e448c99712411fbb436721780bada65a1027",
+    "art/drafts/canonical-actions-v30/seated/female-up/reach-fine.png": "7207530550541039b7ef52f5ed5e894a07070b88579d835cbe53e1b8f349727a",
+    "art/drafts/canonical-actions-v30/water/male-right/cast-fine.png": "81d483e07a59d1dfec5dd7f70d685f5cf63b086d8ff7674bcace525a18baf381",
+    "art/drafts/canonical-actions-v30/water/male-right/hold-fine.png": "940ac11da55c334a20d472222f0aa787d1f37ec1b7f0577b3cc9511e91361e69",
+    "art/drafts/canonical-actions-v30/water/male-right/reel-fine.png": "db53e583c3e87ce49f71de3fe139a658d7b25bcba3e2c93aa584005845cbbfa6",
+    "art/drafts/canonical-actions-v30/water/male-right/row-fine.png": "809c36296fc053d5094d9e8f7a4b777f0aa99d4ca5c6d758c4613037e1876062",
+    "art/drafts/canonical-actions-v30/water/female-right/cast-fine.png": "ce273822e1cd2d51e8f6b1703d3f81ed5c8bbeb208077c1ef8f53f02eecd8e43",
+    "art/drafts/canonical-actions-v30/water/female-right/hold-fine.png": "a293613d6382196de53a701e2aebd08365371349d9ab826bfd191804f3db2d96",
+    "art/drafts/canonical-actions-v30/water/female-right/reel-fine.png": "9f7853c484a2c8fd16474c7e840ba37e1d05b093615de271977196a4981eb802",
+    "art/drafts/canonical-actions-v30/water/female-right/row-fine.png": "cc721d66bd04aeddedc8a4b70c92f22ad785df650c9b57b431a72fdd97a35802"
+  }
+}

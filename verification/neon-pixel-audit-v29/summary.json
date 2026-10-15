@@ -1,0 +1,11 @@
+{
+  "readOnly": true,
+  "checkedFiles": 48,
+  "allFileHashesStillMatch": true,
+  "classification": "exact primary red/green/yellow, channel max>=60; black low-level RGB excluded",
+  "opaqueCount": 0,
+  "maxCandidateAlpha": 6,
+  "runtimeFinePoints": 191,
+  "runtimeAllRGBAZero": true,
+  "runtimeSHA": "b8e838a0d8de5260c1c72a7e0fbca7e014249a5ee91fd6ba00363fd00b5c1fa2"
+}

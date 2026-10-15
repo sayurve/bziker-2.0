@@ -1,0 +1,21 @@
+✔ open fields have 250–400 additional varied trees across every large map sector (0.912666ms)
+✔ the complete new crowns and shadows remain outside all roads and their shoulders and every house entrance (19.671709ms)
+✔ field trees leave buildings, existing trees, lamps, bins and usable activity areas unobscured (16.0365ms)
+✔ tree groups stay inside dry map land with open grass between the complete silhouettes (5.651458ms)
+✔ new flower planters use supported cached sprites beside clear pedestrian routes (1.941792ms)
+✔ all continuous animal routes keep body and complete new tree silhouettes clear, including loop closure (12.118042ms)
+✔ the authored city has substantially denser lighting in all pedestrian districts (0.62325ms)
+✔ full visible contours leave all 27 routes and all 19 generated entrances open (134.297666ms)
+✔ new props keep clear of every house, tree, bench, planting, existing light and each other (9.525625ms)
+✔ street details are grounded beside their declared routes and outside the water (1.185416ms)
+✔ new waste bins participate in the existing disposal action (0.113833ms)
+✔ crossing landings, their tactile pads and the plaza title stay unobscured (0.312041ms)
+✔ each street sprite fits its declared complete bounds with stable pixels and ground depth (7.255667ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 355.507625

@@ -1,0 +1,936 @@
+{
+  "createdAt": "2026-10-15T11:49:35.995Z",
+  "gender": 0,
+  "category": "hairStyle",
+  "source": "final",
+  "cases": 48,
+  "crop": {
+    "x": 535,
+    "y": 375,
+    "width": 135,
+    "height": 180
+  },
+  "qaOnly": true,
+  "productionArtChanged": false,
+  "realBrowserCaptures": true,
+  "renderedMockups": false,
+  "scale": 1.5,
+  "sheets": [
+    "page-1.png",
+    "page-2.png"
+  ],
+  "records": [
+    {
+      "value": 0,
+      "name": "Короткая",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-00-down.jpg",
+      "sourceSha256": "14aea5bbac341fe496f33cba3232f13a793c4fbaab4f06100ec39a47f85347c8",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-00-down-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Короткая",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-00-left.jpg",
+      "sourceSha256": "64c023d339fa5b96f53c2dca2420b17d66854b0675c77ba9a280494476904c59",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-00-left-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Короткая",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-00-up.jpg",
+      "sourceSha256": "3cf0a93d2b970b350b272954e2d2b24e0bc587945b8eb859ab2f72794ce873a7",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-00-up-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Короткая",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-00-right.jpg",
+      "sourceSha256": "4f6e53d741e25748d47aef3b4b2084c82f21e271cd3b0571724843e659dbdc6e",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-00-right-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Каре",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-01-down.jpg",
+      "sourceSha256": "438385e38f36fbe78f0798936e3c40775bc856a57a4cd401589e004c873fe6ec",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-01-down-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Каре",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-01-left.jpg",
+      "sourceSha256": "422e58a6759bfb8a40eea7af4f9d8498ad7901484d239f1502f915e7ddc14956",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-01-left-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Каре",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-01-up.jpg",
+      "sourceSha256": "c3562bb0354e18b6badd285884d425872cc7a3e3061c926576c4ce79dbee1336",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-01-up-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Каре",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-01-right.jpg",
+      "sourceSha256": "03e259786e8bf59aa69fcd4c3ef8930dc5164f3dceac4e4dd02efac952f6bb75",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-01-right-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Кудри",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-02-down.jpg",
+      "sourceSha256": "68f4c853d6e40077c029b24c7e14eed178cdd1163bb7c5f11bac652c93dd00d1",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-02-down-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Кудри",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-02-left.jpg",
+      "sourceSha256": "9d254653ba421bdfb329b0be9289f5029d9ac28107802dae956c33e072f7df43",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-02-left-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Кудри",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-02-up.jpg",
+      "sourceSha256": "0c815c510dc89dc79414b02a4b59e06493a4fb15fd0b6ddc8dd581c31ed74857",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-02-up-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Кудри",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-02-right.jpg",
+      "sourceSha256": "5befaec4c821af21614d9ac747415208ca9a2f1ca14804a26a25e52e102680db",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-02-right-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Пучок",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-03-down.jpg",
+      "sourceSha256": "9dfdab4a01d62ce89cd5adb66be8b9e2fa733deec1b423c855608f8dad7ecf5e",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-03-down-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Пучок",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-03-left.jpg",
+      "sourceSha256": "e62c71d9b6702b2aeb1b6168890769dbe39c9d8739459645b5837122971a271e",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-03-left-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Пучок",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-03-up.jpg",
+      "sourceSha256": "3de65c0658224cce253d84f026ccbd89163198579ba7bce5532210b1ced6d174",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-03-up-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Пучок",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-03-right.jpg",
+      "sourceSha256": "69fcc40d7ed6bfe77e60df2eb265d54eed0d616b2cc2f5a04f3213d3e049756f",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-03-right-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Ёжик",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-04-down.jpg",
+      "sourceSha256": "8d9d59e20751b886989fc5abea3fa0abe517249b11aafac7198ad0a5814986f1",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-04-down-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Ёжик",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-04-left.jpg",
+      "sourceSha256": "f5f8fae042e00e2a45c0b35eeec37adce1b3dc521f39738c7dd5f82a3ba78ace",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-04-left-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Ёжик",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-04-up.jpg",
+      "sourceSha256": "365184762452f134447464dcab0990aa580149364ca786916f0d9c41293d7c5c",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-04-up-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Ёжик",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-04-right.jpg",
+      "sourceSha256": "c82d5ce6d7ed322e5ac33abc84a01e1f6525c020e57010fbda32f0c42c5faedd",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-04-right-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Пробор",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-05-down.jpg",
+      "sourceSha256": "1a97634fcfc7e1b9c815ab14a939ff1ab801b1caed392ecc17f395c748d4da5b",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-05-down-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Пробор",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-05-left.jpg",
+      "sourceSha256": "96ffaa2e80061658cb4875e1f85cee6e52afdb5461d8f46dc8eab7e6b06e7812",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-05-left-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Пробор",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-05-up.jpg",
+      "sourceSha256": "fdfce6facf505efc2cfd0aef1ab53fce7f08097550c80ac7f74927dfbc0d1a2b",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-05-up-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Пробор",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-05-right.jpg",
+      "sourceSha256": "d09f332c09e28ea726ff99ced0482aa5bf729f4ce28534e1931a297b2394561e",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-05-right-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Длинные",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-06-down.jpg",
+      "sourceSha256": "64e38cd867c0a21170acb5e7e47674be48aec5d014cabca9b48edb6ceab2cafa",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-06-down-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Длинные",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-06-left.jpg",
+      "sourceSha256": "271ba4cd9eaa22fe2753191063fa14d352b2ba2f7b6e89c5a93dbf0e29fb479a",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-06-left-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Длинные",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-06-up.jpg",
+      "sourceSha256": "18b20e844718bb2f85819fc1970b278f5862118418b23d8cece3611faaa26f1d",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-06-up-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Длинные",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-06-right.jpg",
+      "sourceSha256": "eedb75406c8c1fcd2eceb78bb4fcb0df988e7013ce6a8d0932a3d37c6ef9765b",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-06-right-crop.png"
+    },
+    {
+      "value": 7,
+      "name": "Хвост",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-07-down.jpg",
+      "sourceSha256": "081868b1fd3e03297c364c142b52a1440a7dff885bb2397d1b83e7baf94ab2b2",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-07-down-crop.png"
+    },
+    {
+      "value": 7,
+      "name": "Хвост",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-07-left.jpg",
+      "sourceSha256": "210b45a6cb79a9045c1b85c9fe6a2f8fd675fa0cdda5b951d4fe1e9f40af9aaf",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-07-left-crop.png"
+    },
+    {
+      "value": 7,
+      "name": "Хвост",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-07-up.jpg",
+      "sourceSha256": "f916a9b0f89ed50299d231618a7a02ab7034edb4408fb8afdcf180354f0052d4",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-07-up-crop.png"
+    },
+    {
+      "value": 7,
+      "name": "Хвост",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-07-right.jpg",
+      "sourceSha256": "57ac08a5ec06f61175ab9bc651ddbb8a936ed758035512a2526f58fec4b287ad",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-07-right-crop.png"
+    },
+    {
+      "value": 8,
+      "name": "Пикси",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-08-down.jpg",
+      "sourceSha256": "3c9fa054a538f9e682a672bcdb5c26b94d8613e8e58a312fa5e328704985eabb",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-08-down-crop.png"
+    },
+    {
+      "value": 8,
+      "name": "Пикси",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-08-left.jpg",
+      "sourceSha256": "09132c3f90200e7a7f66b2bb17cbb31b9c7bb555eee2f656ae794e00955282c8",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-08-left-crop.png"
+    },
+    {
+      "value": 8,
+      "name": "Пикси",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-08-up.jpg",
+      "sourceSha256": "9bd04a0a429136c2d631fca0f78cf791cc699817de42ae33c72abf47df60239a",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-08-up-crop.png"
+    },
+    {
+      "value": 8,
+      "name": "Пикси",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-08-right.jpg",
+      "sourceSha256": "17254a8efea0713425a8c0cef81ff72da39e28ba435135b23d5794cb8cb539a5",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-08-right-crop.png"
+    },
+    {
+      "value": 9,
+      "name": "Ирокез",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-09-down.jpg",
+      "sourceSha256": "b1c515934da24e0bb487a0323dbb6dd3ced39eaf7b882b5761991b22cc7c67b0",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-09-down-crop.png"
+    },
+    {
+      "value": 9,
+      "name": "Ирокез",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-09-left.jpg",
+      "sourceSha256": "0bfd23e3c8b6229f14d9c4044e86f5b8bb484ff237e96772af8df0f331681fac",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-09-left-crop.png"
+    },
+    {
+      "value": 9,
+      "name": "Ирокез",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-09-up.jpg",
+      "sourceSha256": "54bffd765b9d6b18d22f5a4a353c584c4f0a0e5afc49fea237a617e06606a3e0",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-09-up-crop.png"
+    },
+    {
+      "value": 9,
+      "name": "Ирокез",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-09-right.jpg",
+      "sourceSha256": "0e9dfa71f37b8ae04c2e733197b98d4049a9eb15bd85e907516fe9fe1f2a6f7f",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-09-right-crop.png"
+    },
+    {
+      "value": 10,
+      "name": "Два пучка",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-10-down.jpg",
+      "sourceSha256": "ca9c6f82a663fb7c009f67bd97296e7e10cd7ee8b8d82814fa8ba59c042ab966",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-10-down-crop.png"
+    },
+    {
+      "value": 10,
+      "name": "Два пучка",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-10-left.jpg",
+      "sourceSha256": "9aac85026ecca8150a271b909a5aba72d2cad43de71c527c012a956dfd11ce29",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-10-left-crop.png"
+    },
+    {
+      "value": 10,
+      "name": "Два пучка",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-10-up.jpg",
+      "sourceSha256": "ae89c764262c4f25123b9b1ec1e9ef2a131fc8c24014bb4ac15e35169c92c49f",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-10-up-crop.png"
+    },
+    {
+      "value": 10,
+      "name": "Два пучка",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-10-right.jpg",
+      "sourceSha256": "d3ac5b3a29a3cb4d054a0088cbee486dc216bd72d603beefac177fff99e978e1",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-10-right-crop.png"
+    },
+    {
+      "value": 11,
+      "name": "Волны",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-11-down.jpg",
+      "sourceSha256": "f309e794f762291f33e3892315947021bada13494755ba0dd19f7c7249cc5e28",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-11-down-crop.png"
+    },
+    {
+      "value": 11,
+      "name": "Волны",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-11-left.jpg",
+      "sourceSha256": "fdb81a760f28ada45f72a3336f3577caf03be863dba3d0a2bb7a155105f3149b",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-11-left-crop.png"
+    },
+    {
+      "value": 11,
+      "name": "Волны",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-11-up.jpg",
+      "sourceSha256": "a2d1e597ebbf06fe4929146dff876f891c15231ac4d23bc38236321e8914b837",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-11-up-crop.png"
+    },
+    {
+      "value": 11,
+      "name": "Волны",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairStyle-11-right.jpg",
+      "sourceSha256": "cb9facca638eb61605fc13edfaaa98e6d15471a90957ace6113923cda6e8071d",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairStyle-11-right-crop.png"
+    }
+  ]
+}

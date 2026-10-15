@@ -1,0 +1,16 @@
+{
+  "selection": "user-confirmed first two running screenshots; third idle screenshot excluded",
+  "purpose": "visual identity and proportions reference; screenshot is not a production transparent sprite",
+  "references": [
+    {
+      "path": "art/references/canonical-run/reference-01.png",
+      "source": "/var/folders/d0/nqbmbjt57w94zcxwddrkysmc0000gn/T/TemporaryItems/NSIRD_screencaptureui_p1FImT/Снимок экрана — 2026-10-15 в 02.39.38.png",
+      "sha256": "c2263aab814e11a7b2eb6476ac8747c1262ab81f7e82be50e688d13801224d37"
+    },
+    {
+      "path": "art/references/canonical-run/reference-02.png",
+      "source": "/var/folders/d0/nqbmbjt57w94zcxwddrkysmc0000gn/T/TemporaryItems/NSIRD_screencaptureui_meUhee/Снимок экрана — 2026-10-15 в 02.40.04.png",
+      "sha256": "1dc28f903df6a87315de69e8a53fd8a6b61333918b593fe476bd48a2661182f8"
+    }
+  ]
+}

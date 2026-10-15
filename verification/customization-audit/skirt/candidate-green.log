@@ -1,0 +1,11 @@
+✔ native skirt has a continuous central cloth panel in idle and all walking phases (52.910125ms)
+✔ skirt preserves native shirt, face, feet and visible hands (59.411625ms)
+✔ black skirt panel does not sample bright shirt rows into horizontal stripes (26.502667ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 483.61275

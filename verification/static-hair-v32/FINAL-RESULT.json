@@ -1,0 +1,87 @@
+{
+  "at": "2026-10-15T17:38:10.474112+00:00",
+  "scope": "one hairstyle H7; actual female skin7 / own male historical model native support",
+  "actualPreset": {
+    "gender": 1,
+    "skin": 7,
+    "hairStyle": 7,
+    "hairColor": 6,
+    "shirtStyle": 2,
+    "shirtColor": 8,
+    "pantsStyle": 0,
+    "pantsColor": 1,
+    "accessory": 0,
+    "shoesColor": 0,
+    "outfit": 0,
+    "headwear": 0
+  },
+  "finalFreeze": {
+    "game/web/source-actors.js": "a6377f7840eeb2da912266488105876d53d3e8533b47d8a31758bc3cc0366ef5",
+    "game/web/phaser-world-renderer.js": "93fabca405458cf776c177b5b4d07eaa17920bc0ef2ed74902fb537bc5d46a48",
+    "game/web/world-camera.js": "44254ed011fc28f41604711fb978d21d94368072349c6d11e273f276cdea52af",
+    "game/tests/static-locomotion-head-v32.test.mjs": "df52133f7c8442e961594551c25d7a3a844f082dc43e1509ed4443f872ae42fb",
+    "game/tests/hairstyle-native-v27.test.mjs": "028d4222fceced25e876c6978d780a43e7473d348fa3f4e5474cca41c5fd36ed"
+  },
+  "full": {
+    "checkedAt": "2026-10-15T17:33:09.849036+00:00",
+    "steps": [
+      {
+        "name": "tools-tests",
+        "exitCode": 0,
+        "log": "verification/tools-tests-latest.log"
+      },
+      {
+        "name": "game-python",
+        "exitCode": 0,
+        "log": "verification/game-python-latest.log"
+      },
+      {
+        "name": "game-node",
+        "exitCode": 0,
+        "log": "verification/game-node-latest.log"
+      }
+    ],
+    "passed": true,
+    "scope": "technical validation; not an artistic approval",
+    "skills": [
+      "bziker-build-game",
+      "bziker-character-pipeline",
+      "bziker-game-qa"
+    ],
+    "art": {
+      "approvedDefinitionFiles": 0,
+      "draftPngFiles": 1655,
+      "ready": false,
+      "note": "Artwork needs editable layered masters and visual approval; copied legacy-composite art is compatibility only."
+    }
+  },
+  "counts": {
+    "tools": 13,
+    "python": 353,
+    "node": 959,
+    "failed": 0,
+    "skipped": 0
+  },
+  "ui": {
+    "rootReviewed": true,
+    "independentReceipt": "independent-ui-review.json",
+    "actualPort": 8798,
+    "userPortReloaded": 8797,
+    "frameCount": 72,
+    "moving": 53,
+    "idleAndTransition": 19,
+    "captureSource": "0826a5e7b45f2bdd2a409dcbb148c7ba91b7ef70fb27ad47b68d7968d1491f75",
+    "finalSource": "a6377f7840eeb2da912266488105876d53d3e8533b47d8a31758bc3cc0366ef5",
+    "difference": "only original body fallback for held props; static head bitmap unchanged"
+  },
+  "console": {
+    "main": [],
+    "isolated": []
+  },
+  "limits": [
+    "Other hairstyles were not selected or visually accepted.",
+    "LEFT authored torso silhouette was not redrawn.",
+    "No claim of continuous GPU recording or physical-phone performance.",
+    "Archived actions and complete layered wardrobe remain outside this task."
+  ]
+}

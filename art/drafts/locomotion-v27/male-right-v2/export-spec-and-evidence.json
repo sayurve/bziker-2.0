@@ -1,0 +1,331 @@
+{
+  "version": 1,
+  "status": "draft",
+  "mode": "legacy-composite",
+  "artReview": {
+    "checked": false,
+    "evidence": []
+  },
+  "sourcePath": "/Users/sapp/.codex/generated_images/01a11cc3-6744-72b3-ad8a-81b59ea9f091/exec-c3b67b16-3bed-4d5a-b526-d7e78449847d.png",
+  "sourceSHA256": "d1844b625ae8d573c82d8827991cb88be61355ff2553a1a05c658b4eaaacccf1",
+  "sourceDimensions": [
+    1254,
+    1254
+  ],
+  "sourceCellDimensions": [
+    627,
+    627
+  ],
+  "uniformFineScale": 0.2125,
+  "fineCanvas": [
+    96,
+    128
+  ],
+  "fineAnchor": [
+    48,
+    126
+  ],
+  "coarseCanvas": [
+    48,
+    64
+  ],
+  "coarseAnchor": [
+    24,
+    63
+  ],
+  "promptText": null,
+  "promptNote": "Root generated this sheet with built-in image_gen. Exact prompt text was not supplied to this agent.",
+  "headReview": "not accepted: generated head identity/shape drift; no head replacement performed",
+  "anatomyReview": "candidate: opposite near-arm contact and passing ownership now visible; leg depth material tags remain to review",
+  "precision": "source root/eye/neck points manually authored, not measured anatomical ground truth",
+  "poses": [
+    {
+      "phase": 0,
+      "sourceRoot": [
+        320,
+        591
+      ],
+      "sourceEyeAnchor": [
+        399,
+        232
+      ],
+      "sourceNeckAnchor": [
+        355,
+        284
+      ],
+      "sourceHeadBounds": [
+        232,
+        69,
+        455,
+        292
+      ],
+      "head": {
+        "top": 7,
+        "bottom": 32,
+        "left": 14,
+        "right": 39,
+        "eyeAnchor": [
+          32.39375,
+          24.856250000000003
+        ],
+        "eyeLine": 24.856250000000003,
+        "neckAnchor": [
+          27.71875,
+          30.38125
+        ]
+      },
+      "sourceAlphaBounds": [
+        167,
+        68,
+        480,
+        592
+      ],
+      "exports": [
+        {
+          "file": "art/drafts/locomotion-v27/male-right-v2/phase-0-coarse.png",
+          "size": [
+            48,
+            64
+          ],
+          "sha256": "e9a7174f162a6b35a4dfae8dafa881b8acfe16f2a9ef135b51a0810f860c43ae",
+          "alphaBounds": [
+            8,
+            7,
+            40,
+            62
+          ]
+        },
+        {
+          "file": "art/drafts/locomotion-v27/male-right-v2/phase-0-fine.png",
+          "size": [
+            96,
+            128
+          ],
+          "sha256": "427e4d42491226dd0b058f5f5ec5ed7530cad1a31d427b496b712e28d6c3059a",
+          "alphaBounds": [
+            15,
+            15,
+            81,
+            125
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "sourceRoot": [
+        292,
+        593
+      ],
+      "sourceEyeAnchor": [
+        351,
+        232
+      ],
+      "sourceNeckAnchor": [
+        313,
+        282
+      ],
+      "sourceHeadBounds": [
+        194,
+        71,
+        411,
+        292
+      ],
+      "head": {
+        "top": 7,
+        "bottom": 32,
+        "left": 13,
+        "right": 37,
+        "eyeAnchor": [
+          30.26875,
+          24.643750000000004
+        ],
+        "eyeLine": 24.643750000000004,
+        "neckAnchor": [
+          26.23125,
+          29.956250000000004
+        ]
+      },
+      "sourceAlphaBounds": [
+        194,
+        68,
+        409,
+        593
+      ],
+      "exports": [
+        {
+          "file": "art/drafts/locomotion-v27/male-right-v2/phase-1-coarse.png",
+          "size": [
+            48,
+            64
+          ],
+          "sha256": "c1bef59b21139c06fdcbf1eaaf6ef5152664424efb5d44b0d3e2f0e21a8ee43b",
+          "alphaBounds": [
+            14,
+            7,
+            36,
+            62
+          ]
+        },
+        {
+          "file": "art/drafts/locomotion-v27/male-right-v2/phase-1-fine.png",
+          "size": [
+            96,
+            128
+          ],
+          "sha256": "012abebd2ce17673c5483c82841bb59ef5acc6d12389fdf44b09ffcb85098ecf",
+          "alphaBounds": [
+            27,
+            14,
+            72,
+            125
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "sourceRoot": [
+        322,
+        582
+      ],
+      "sourceEyeAnchor": [
+        399,
+        224
+      ],
+      "sourceNeckAnchor": [
+        355,
+        277
+      ],
+      "sourceHeadBounds": [
+        233,
+        64,
+        455,
+        286
+      ],
+      "head": {
+        "top": 7,
+        "bottom": 32,
+        "left": 14,
+        "right": 39,
+        "eyeAnchor": [
+          32.18125,
+          24.9625
+        ],
+        "eyeLine": 24.9625,
+        "neckAnchor": [
+          27.50625,
+          30.59375
+        ]
+      },
+      "sourceAlphaBounds": [
+        167,
+        63,
+        491,
+        582
+      ],
+      "exports": [
+        {
+          "file": "art/drafts/locomotion-v27/male-right-v2/phase-2-coarse.png",
+          "size": [
+            48,
+            64
+          ],
+          "sha256": "f9760998b48e5be80e355d07028eed98a39e25adc4d38481ef9aae7fe1394c15",
+          "alphaBounds": [
+            8,
+            8,
+            41,
+            62
+          ]
+        },
+        {
+          "file": "art/drafts/locomotion-v27/male-right-v2/phase-2-fine.png",
+          "size": [
+            96,
+            128
+          ],
+          "sha256": "f980a1cd3b219e525169671385f57a4bed4b5a5f62384e03cac67177ee78db4a",
+          "alphaBounds": [
+            15,
+            16,
+            83,
+            125
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "sourceRoot": [
+        282,
+        585
+      ],
+      "sourceEyeAnchor": [
+        352,
+        225
+      ],
+      "sourceNeckAnchor": [
+        314,
+        275
+      ],
+      "sourceHeadBounds": [
+        194,
+        65,
+        412,
+        286
+      ],
+      "head": {
+        "top": 7,
+        "bottom": 32,
+        "left": 14,
+        "right": 38,
+        "eyeAnchor": [
+          31.4375,
+          24.75
+        ],
+        "eyeLine": 24.75,
+        "neckAnchor": [
+          27.4,
+          30.0625
+        ]
+      },
+      "sourceAlphaBounds": [
+        167,
+        64,
+        412,
+        586
+      ],
+      "exports": [
+        {
+          "file": "art/drafts/locomotion-v27/male-right-v2/phase-3-coarse.png",
+          "size": [
+            48,
+            64
+          ],
+          "sha256": "860319b6464114034a9b70f391af13371e59401eb5f42beaf96f2c870ea8c62c",
+          "alphaBounds": [
+            12,
+            8,
+            37,
+            62
+          ]
+        },
+        {
+          "file": "art/drafts/locomotion-v27/male-right-v2/phase-3-fine.png",
+          "size": [
+            96,
+            128
+          ],
+          "sha256": "1e39c48b1f412fa72c8b92eabbd75c9fa8bea76b11ac03955c153d5a87eb0290",
+          "alphaBounds": [
+            24,
+            15,
+            75,
+            125
+          ]
+        }
+      ]
+    }
+  ]
+}

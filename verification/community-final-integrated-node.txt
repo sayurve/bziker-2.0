@@ -1,0 +1,29 @@
+✔ all community service points invoke their existing feature and the exit remains usable (0.555375ms)
+✔ every newly placed community seat is a selectable real directional furnishing and an occupied seat is excluded (1.156083ms)
+✔ all community seats retain their actual ground, facing and seated source clip when the phone opens (0.860334ms)
+✔ native station framing uses the visible room at left and right instead of blank canvas padding (0.871958ms)
+✔ native station framing keeps the upper wall and lower cutaway with touch-control clearance (0.143125ms)
+✔ a viewport larger than the visible room centers that room in the usable frame without changing zoom (0.102875ms)
+✔ city and private-base camera values are identical when no interior framing is supplied (0.570666ms)
+✔ only modular public room surfaces supply framing bounds (0.25075ms)
+✔ actual room surfaces never paint detached perspective wings outside the physical wall envelope (634.581041ms)
+✔ actual rear corners and both side cutaways meet the floor continuously at the collision boundary (1.558375ms)
+✔ all eleven actual public rooms fit the vertical rear, fixture and floor envelope above controls at spawn (2.319125ms)
+✔ public framing includes actual physical cutaways and authored fixture extents (0.437083ms)
+✔ a tiny public viewport keeps a bounded minimum scale and can pan without moving world positions (0.225958ms)
+✔ city and private base camera outputs retain their exact pre-change values (0.121875ms)
+✔ the visible floor and cutaway meet the actual navigation boundary in every public room (1.162667ms)
+✔ native rear uprights stay human-sized while genuine cutaways follow both physical side walls (0.397959ms)
+✔ station signs and clock are centred on real supports and stay clear of each other (0.719959ms)
+✔ rendered human-sized walls cover the full physical perimeter without painted floor outside it (515.529666ms)
+✔ short landscape uses the available viewport height without extending below screen (0.464834ms)
+✔ a room entrance stays above action buttons even when the floor is shorter than the viewport (0.19775ms)
+✔ hero remains above touch controls and device pixel snapping stabilizes every frame (0.14125ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 855.588125

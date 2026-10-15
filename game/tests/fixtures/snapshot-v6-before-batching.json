@@ -1,0 +1,2831 @@
+{
+  "city": {
+    "restricted": false,
+    "scene": "city",
+    "scene_id": null,
+    "interior_id": null,
+    "interior": null,
+    "position": {
+      "x": 760.0,
+      "y": 2610.0
+    },
+    "arena_lobby_id": null,
+    "card_table_id": null,
+    "pose": "idle",
+    "bench_id": null,
+    "phone_open": false,
+    "pet": {
+      "id": "pet-dog",
+      "kind": "dog"
+    },
+    "boat": null,
+    "pet_effect": {
+      "id": "effect-parity-id-0",
+      "target_id": "pet-dog",
+      "kind": "dog",
+      "started_at": 999.0,
+      "duration": 2.0
+    },
+    "boats": [
+      {
+        "id": "boat-1",
+        "x": 7250.0,
+        "y": 4230.0,
+        "occupant_id": "parity-id-2",
+        "dock": {
+          "x": 7250,
+          "y": 4230
+        },
+        "boarding": {
+          "x": 7250,
+          "y": 4120,
+          "radius": 65
+        }
+      },
+      {
+        "id": "boat-2",
+        "x": 7440.0,
+        "y": 4210.0,
+        "occupant_id": null,
+        "dock": {
+          "x": 7440,
+          "y": 4210
+        },
+        "boarding": {
+          "x": 7440,
+          "y": 4100,
+          "radius": 65
+        }
+      },
+      {
+        "id": "boat-3",
+        "x": 7630.0,
+        "y": 4210.0,
+        "occupant_id": null,
+        "dock": {
+          "x": 7630,
+          "y": 4210
+        },
+        "boarding": {
+          "x": 7630,
+          "y": 4090,
+          "radius": 65
+        }
+      }
+    ],
+    "collected_litter": [],
+    "wallet": {
+      "currency": "Бзинге",
+      "balance": 0
+    },
+    "buildings": [
+      {
+        "id": "base-1",
+        "name": "УЧАСТОК 01",
+        "clan": {
+          "id": "parity-id-13",
+          "name": "Zulu",
+          "color": "#112233",
+          "flag": "Z",
+          "building_id": "base-1",
+          "exterior_style": 0,
+          "exterior_color": "#112233",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "base-2",
+        "name": "УЧАСТОК 02",
+        "clan": {
+          "id": "parity-id-14",
+          "name": "Alpha",
+          "color": "#abcdef",
+          "flag": "A",
+          "building_id": "base-2",
+          "exterior_style": 2,
+          "exterior_color": "#abcdef",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "base-3",
+        "name": "УЧАСТОК 03",
+        "clan": null
+      },
+      {
+        "id": "base-4",
+        "name": "УЧАСТОК 04",
+        "clan": null
+      },
+      {
+        "id": "base-5",
+        "name": "УЧАСТОК 05",
+        "clan": null
+      },
+      {
+        "id": "base-6",
+        "name": "УЧАСТОК 06",
+        "clan": null
+      },
+      {
+        "id": "base-7",
+        "name": "УЧАСТОК 07",
+        "clan": null
+      },
+      {
+        "id": "base-8",
+        "name": "УЧАСТОК 08",
+        "clan": null
+      }
+    ],
+    "players": [
+      {
+        "id": "parity-id-0",
+        "name": "Parity 0",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 0,
+          "hairColor": 0,
+          "shirtStyle": 0,
+          "shirtColor": 0,
+          "pantsStyle": 0,
+          "pantsColor": 0,
+          "accessory": 0,
+          "shoesColor": 0,
+          "outfit": 0,
+          "headwear": 0
+        },
+        "x": 760.0,
+        "y": 2610.0,
+        "scene": "city",
+        "scene_id": null,
+        "interior_id": null,
+        "phone_open": false,
+        "pet": {
+          "id": "pet-dog",
+          "kind": "dog"
+        },
+        "boat": null,
+        "pet_effect": {
+          "id": "effect-parity-id-0",
+          "target_id": "pet-dog",
+          "kind": "dog",
+          "started_at": 999.0,
+          "duration": 2.0
+        },
+        "pose": "idle",
+        "bench_id": null,
+        "clan": {
+          "id": "parity-id-13",
+          "name": "Zulu",
+          "color": "#112233",
+          "flag": "Z",
+          "building_id": "base-1",
+          "exterior_style": 0,
+          "exterior_color": "#112233",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "parity-id-1",
+        "name": "Parity 1",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 1,
+          "hairColor": 0,
+          "shirtStyle": 0,
+          "shirtColor": 0,
+          "pantsStyle": 0,
+          "pantsColor": 0,
+          "accessory": 0,
+          "shoesColor": 0,
+          "outfit": 0,
+          "headwear": 0
+        },
+        "x": 760.0,
+        "y": 2610.0,
+        "scene": "city",
+        "scene_id": null,
+        "interior_id": null,
+        "phone_open": true,
+        "pet": {
+          "id": "pet-cat",
+          "kind": "cat"
+        },
+        "boat": null,
+        "pet_effect": null,
+        "pose": "idle",
+        "bench_id": null,
+        "clan": {
+          "id": "parity-id-13",
+          "name": "Zulu",
+          "color": "#112233",
+          "flag": "Z",
+          "building_id": "base-1",
+          "exterior_style": 0,
+          "exterior_color": "#112233",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "parity-id-2",
+        "name": "Parity 2",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 2,
+          "hairColor": 0,
+          "shirtStyle": 0,
+          "shirtColor": 0,
+          "pantsStyle": 0,
+          "pantsColor": 0,
+          "accessory": 0,
+          "shoesColor": 0,
+          "outfit": 0,
+          "headwear": 0
+        },
+        "x": 7250.0,
+        "y": 4230.0,
+        "scene": "city",
+        "scene_id": null,
+        "interior_id": null,
+        "phone_open": false,
+        "pet": null,
+        "boat": {
+          "id": "boat-1",
+          "x": 7250.0,
+          "y": 4230.0
+        },
+        "pet_effect": null,
+        "pose": "idle",
+        "bench_id": null,
+        "clan": null
+      },
+      {
+        "id": "parity-id-3",
+        "name": "Parity 3",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 3,
+          "hairColor": 0,
+          "shirtStyle": 0,
+          "shirtColor": 0,
+          "pantsStyle": 0,
+          "pantsColor": 0,
+          "accessory": 0,
+          "shoesColor": 0,
+          "outfit": 0,
+          "headwear": 0
+        },
+        "x": 760.0,
+        "y": 2610.0,
+        "scene": "city",
+        "scene_id": null,
+        "interior_id": null,
+        "phone_open": false,
+        "pet": null,
+        "boat": null,
+        "pet_effect": null,
+        "pose": "idle",
+        "bench_id": null,
+        "clan": null
+      }
+    ],
+    "clans": [
+      {
+        "id": "parity-id-13",
+        "name": "Zulu",
+        "color": "#112233",
+        "flag": "Z",
+        "status": "active",
+        "building_id": "base-1",
+        "exterior_style": 0,
+        "exterior_color": "#112233",
+        "exterior_locked": true,
+        "member_count": 4,
+        "score": 0.3,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-14",
+        "name": "Alpha",
+        "color": "#abcdef",
+        "flag": "A",
+        "status": "active",
+        "building_id": "base-2",
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "member_count": 1,
+        "score": 0.3,
+        "wins": 1
+      }
+    ],
+    "my_clan": {
+      "id": "parity-id-13",
+      "name": "Zulu",
+      "color": "#112233",
+      "flag": "Z",
+      "status": "active",
+      "building_id": "base-1",
+      "exterior_style": 0,
+      "exterior_color": "#112233",
+      "exterior_locked": true,
+      "member_count": 4,
+      "score": 0.3,
+      "wins": 1,
+      "leader_id": "parity-id-0",
+      "members": [
+        {
+          "id": "parity-id-0",
+          "name": "Parity 0",
+          "avatar": {
+            "gender": 0,
+            "skin": 0,
+            "hairStyle": 0,
+            "hairColor": 0,
+            "shirtStyle": 0,
+            "shirtColor": 0,
+            "pantsStyle": 0,
+            "pantsColor": 0,
+            "accessory": 0,
+            "shoesColor": 0,
+            "outfit": 0,
+            "headwear": 0
+          }
+        },
+        {
+          "id": "parity-id-1",
+          "name": "Parity 1",
+          "avatar": {
+            "gender": 0,
+            "skin": 0,
+            "hairStyle": 1,
+            "hairColor": 0,
+            "shirtStyle": 0,
+            "shirtColor": 0,
+            "pantsStyle": 0,
+            "pantsColor": 0,
+            "accessory": 0,
+            "shoesColor": 0,
+            "outfit": 0,
+            "headwear": 0
+          }
+        },
+        {
+          "id": "parity-id-4",
+          "name": "Parity 4",
+          "avatar": {
+            "gender": 0,
+            "skin": 0,
+            "hairStyle": 4,
+            "hairColor": 0,
+            "shirtStyle": 0,
+            "shirtColor": 0,
+            "pantsStyle": 0,
+            "pantsColor": 0,
+            "accessory": 0,
+            "shoesColor": 0,
+            "outfit": 0,
+            "headwear": 0
+          }
+        }
+      ],
+      "requests": [
+        {
+          "id": "parity-id-10",
+          "name": "Parity 10",
+          "avatar": {
+            "gender": 0,
+            "skin": 0,
+            "hairStyle": 10,
+            "hairColor": 0,
+            "shirtStyle": 0,
+            "shirtColor": 0,
+            "pantsStyle": 0,
+            "pantsColor": 0,
+            "accessory": 0,
+            "shoesColor": 0,
+            "outfit": 0,
+            "headwear": 0
+          }
+        }
+      ],
+      "base": {
+        "items": [
+          {
+            "id": "legacy-sofa",
+            "type": "sofa",
+            "x": 1,
+            "y": 1,
+            "color": "#faf8f2",
+            "variant": "standard"
+          }
+        ],
+        "exterior_locked": true,
+        "exterior_color": "#112233",
+        "exterior_style": 0,
+        "wall_color": "#faf8f2",
+        "floor_color": "#141414",
+        "building_id": "base-1"
+      },
+      "is_leader": true
+    },
+    "active_base": null,
+    "leaderboard": [
+      {
+        "id": "parity-id-15",
+        "name": "Archive",
+        "color": "#ff8562",
+        "flag": "X",
+        "status": "archived",
+        "building_id": null,
+        "exterior_style": 0,
+        "exterior_color": "#faf8f2",
+        "exterior_locked": false,
+        "member_count": 0,
+        "score": 12.5,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-14",
+        "name": "Alpha",
+        "color": "#abcdef",
+        "flag": "A",
+        "status": "active",
+        "building_id": "base-2",
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "member_count": 1,
+        "score": 0.3,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-13",
+        "name": "Zulu",
+        "color": "#112233",
+        "flag": "Z",
+        "status": "active",
+        "building_id": "base-1",
+        "exterior_style": 0,
+        "exterior_color": "#112233",
+        "exterior_locked": true,
+        "member_count": 4,
+        "score": 0.3,
+        "wins": 1
+      }
+    ],
+    "max_online": 100,
+    "online_count": 10
+  },
+  "own_boat": {
+    "restricted": false,
+    "scene": "city",
+    "scene_id": null,
+    "interior_id": null,
+    "interior": null,
+    "position": {
+      "x": 7250.0,
+      "y": 4230.0
+    },
+    "arena_lobby_id": null,
+    "card_table_id": null,
+    "pose": "idle",
+    "bench_id": null,
+    "phone_open": false,
+    "pet": null,
+    "boat": {
+      "id": "boat-1",
+      "x": 7250.0,
+      "y": 4230.0
+    },
+    "pet_effect": null,
+    "boats": [
+      {
+        "id": "boat-1",
+        "x": 7250.0,
+        "y": 4230.0,
+        "occupant_id": "parity-id-2",
+        "dock": {
+          "x": 7250,
+          "y": 4230
+        },
+        "boarding": {
+          "x": 7250,
+          "y": 4120,
+          "radius": 65
+        }
+      },
+      {
+        "id": "boat-2",
+        "x": 7440.0,
+        "y": 4210.0,
+        "occupant_id": null,
+        "dock": {
+          "x": 7440,
+          "y": 4210
+        },
+        "boarding": {
+          "x": 7440,
+          "y": 4100,
+          "radius": 65
+        }
+      },
+      {
+        "id": "boat-3",
+        "x": 7630.0,
+        "y": 4210.0,
+        "occupant_id": null,
+        "dock": {
+          "x": 7630,
+          "y": 4210
+        },
+        "boarding": {
+          "x": 7630,
+          "y": 4090,
+          "radius": 65
+        }
+      }
+    ],
+    "collected_litter": [],
+    "wallet": {
+      "currency": "Бзинге",
+      "balance": 0
+    },
+    "buildings": [
+      {
+        "id": "base-1",
+        "name": "УЧАСТОК 01",
+        "clan": {
+          "id": "parity-id-13",
+          "name": "Zulu",
+          "color": "#112233",
+          "flag": "Z",
+          "building_id": "base-1",
+          "exterior_style": 0,
+          "exterior_color": "#112233",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "base-2",
+        "name": "УЧАСТОК 02",
+        "clan": {
+          "id": "parity-id-14",
+          "name": "Alpha",
+          "color": "#abcdef",
+          "flag": "A",
+          "building_id": "base-2",
+          "exterior_style": 2,
+          "exterior_color": "#abcdef",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "base-3",
+        "name": "УЧАСТОК 03",
+        "clan": null
+      },
+      {
+        "id": "base-4",
+        "name": "УЧАСТОК 04",
+        "clan": null
+      },
+      {
+        "id": "base-5",
+        "name": "УЧАСТОК 05",
+        "clan": null
+      },
+      {
+        "id": "base-6",
+        "name": "УЧАСТОК 06",
+        "clan": null
+      },
+      {
+        "id": "base-7",
+        "name": "УЧАСТОК 07",
+        "clan": null
+      },
+      {
+        "id": "base-8",
+        "name": "УЧАСТОК 08",
+        "clan": null
+      }
+    ],
+    "players": [
+      {
+        "id": "parity-id-0",
+        "name": "Parity 0",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 0,
+          "hairColor": 0,
+          "shirtStyle": 0,
+          "shirtColor": 0,
+          "pantsStyle": 0,
+          "pantsColor": 0,
+          "accessory": 0,
+          "shoesColor": 0,
+          "outfit": 0,
+          "headwear": 0
+        },
+        "x": 760.0,
+        "y": 2610.0,
+        "scene": "city",
+        "scene_id": null,
+        "interior_id": null,
+        "phone_open": false,
+        "pet": {
+          "id": "pet-dog",
+          "kind": "dog"
+        },
+        "boat": null,
+        "pet_effect": {
+          "id": "effect-parity-id-0",
+          "target_id": "pet-dog",
+          "kind": "dog",
+          "started_at": 999.0,
+          "duration": 2.0
+        },
+        "pose": "idle",
+        "bench_id": null,
+        "clan": {
+          "id": "parity-id-13",
+          "name": "Zulu",
+          "color": "#112233",
+          "flag": "Z",
+          "building_id": "base-1",
+          "exterior_style": 0,
+          "exterior_color": "#112233",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "parity-id-1",
+        "name": "Parity 1",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 1,
+          "hairColor": 0,
+          "shirtStyle": 0,
+          "shirtColor": 0,
+          "pantsStyle": 0,
+          "pantsColor": 0,
+          "accessory": 0,
+          "shoesColor": 0,
+          "outfit": 0,
+          "headwear": 0
+        },
+        "x": 760.0,
+        "y": 2610.0,
+        "scene": "city",
+        "scene_id": null,
+        "interior_id": null,
+        "phone_open": true,
+        "pet": {
+          "id": "pet-cat",
+          "kind": "cat"
+        },
+        "boat": null,
+        "pet_effect": null,
+        "pose": "idle",
+        "bench_id": null,
+        "clan": {
+          "id": "parity-id-13",
+          "name": "Zulu",
+          "color": "#112233",
+          "flag": "Z",
+          "building_id": "base-1",
+          "exterior_style": 0,
+          "exterior_color": "#112233",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "parity-id-2",
+        "name": "Parity 2",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 2,
+          "hairColor": 0,
+          "shirtStyle": 0,
+          "shirtColor": 0,
+          "pantsStyle": 0,
+          "pantsColor": 0,
+          "accessory": 0,
+          "shoesColor": 0,
+          "outfit": 0,
+          "headwear": 0
+        },
+        "x": 7250.0,
+        "y": 4230.0,
+        "scene": "city",
+        "scene_id": null,
+        "interior_id": null,
+        "phone_open": false,
+        "pet": null,
+        "boat": {
+          "id": "boat-1",
+          "x": 7250.0,
+          "y": 4230.0
+        },
+        "pet_effect": null,
+        "pose": "idle",
+        "bench_id": null,
+        "clan": null
+      },
+      {
+        "id": "parity-id-3",
+        "name": "Parity 3",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 3,
+          "hairColor": 0,
+          "shirtStyle": 0,
+          "shirtColor": 0,
+          "pantsStyle": 0,
+          "pantsColor": 0,
+          "accessory": 0,
+          "shoesColor": 0,
+          "outfit": 0,
+          "headwear": 0
+        },
+        "x": 760.0,
+        "y": 2610.0,
+        "scene": "city",
+        "scene_id": null,
+        "interior_id": null,
+        "phone_open": false,
+        "pet": null,
+        "boat": null,
+        "pet_effect": null,
+        "pose": "idle",
+        "bench_id": null,
+        "clan": null
+      }
+    ],
+    "clans": [
+      {
+        "id": "parity-id-13",
+        "name": "Zulu",
+        "color": "#112233",
+        "flag": "Z",
+        "status": "active",
+        "building_id": "base-1",
+        "exterior_style": 0,
+        "exterior_color": "#112233",
+        "exterior_locked": true,
+        "member_count": 4,
+        "score": 0.3,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-14",
+        "name": "Alpha",
+        "color": "#abcdef",
+        "flag": "A",
+        "status": "active",
+        "building_id": "base-2",
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "member_count": 1,
+        "score": 0.3,
+        "wins": 1
+      }
+    ],
+    "my_clan": null,
+    "active_base": null,
+    "leaderboard": [
+      {
+        "id": "parity-id-15",
+        "name": "Archive",
+        "color": "#ff8562",
+        "flag": "X",
+        "status": "archived",
+        "building_id": null,
+        "exterior_style": 0,
+        "exterior_color": "#faf8f2",
+        "exterior_locked": false,
+        "member_count": 0,
+        "score": 12.5,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-14",
+        "name": "Alpha",
+        "color": "#abcdef",
+        "flag": "A",
+        "status": "active",
+        "building_id": "base-2",
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "member_count": 1,
+        "score": 0.3,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-13",
+        "name": "Zulu",
+        "color": "#112233",
+        "flag": "Z",
+        "status": "active",
+        "building_id": "base-1",
+        "exterior_style": 0,
+        "exterior_color": "#112233",
+        "exterior_locked": true,
+        "member_count": 4,
+        "score": 0.3,
+        "wins": 1
+      }
+    ],
+    "max_online": 100,
+    "online_count": 10
+  },
+  "interior": {
+    "restricted": false,
+    "scene": "interior",
+    "scene_id": "railway",
+    "interior_id": "railway",
+    "interior": {
+      "id": "railway",
+      "label": "Железнодорожный вокзал",
+      "kind": "station",
+      "width": 900,
+      "height": 680,
+      "bounds": {
+        "left": 28,
+        "right": 872,
+        "top": 78,
+        "bottom": 652
+      },
+      "door": {
+        "x": 760,
+        "y": 2575
+      },
+      "spawn": {
+        "x": 450,
+        "y": 568
+      },
+      "exit": {
+        "x": 450,
+        "y": 625
+      },
+      "action": {
+        "x": 450,
+        "y": 385,
+        "id": "travel",
+        "label": "Карта города"
+      },
+      "solids": [
+        {
+          "x": 370,
+          "y": 255,
+          "width": 160,
+          "height": 80
+        }
+      ],
+      "seats": [
+        {
+          "id": "interior:railway:bench-1:seat-1",
+          "group_id": "interior:railway:bench-1",
+          "x": 120,
+          "y": 430,
+          "width": 120,
+          "height": 36,
+          "seat": {
+            "x": 155,
+            "y": 458
+          }
+        },
+        {
+          "id": "interior:railway:bench-1:seat-2",
+          "group_id": "interior:railway:bench-1",
+          "x": 120,
+          "y": 430,
+          "width": 120,
+          "height": 36,
+          "seat": {
+            "x": 205,
+            "y": 458
+          }
+        },
+        {
+          "id": "interior:railway:bench-2:seat-1",
+          "group_id": "interior:railway:bench-2",
+          "x": 660,
+          "y": 430,
+          "width": 120,
+          "height": 36,
+          "seat": {
+            "x": 695,
+            "y": 458
+          }
+        },
+        {
+          "id": "interior:railway:bench-2:seat-2",
+          "group_id": "interior:railway:bench-2",
+          "x": 660,
+          "y": 430,
+          "width": 120,
+          "height": 36,
+          "seat": {
+            "x": 745,
+            "y": 458
+          }
+        }
+      ],
+      "counter": {
+        "x": 370,
+        "y": 255,
+        "width": 160,
+        "height": 80
+      },
+      "cutouts": [],
+      "staff": {
+        "x": 450,
+        "y": 250
+      },
+      "layout_version": 5
+    },
+    "position": {
+      "x": 450.0,
+      "y": 568.0
+    },
+    "arena_lobby_id": null,
+    "card_table_id": null,
+    "pose": "idle",
+    "bench_id": null,
+    "phone_open": false,
+    "pet": null,
+    "boat": null,
+    "pet_effect": null,
+    "boats": [],
+    "collected_litter": [],
+    "wallet": {
+      "currency": "Бзинге",
+      "balance": 0
+    },
+    "buildings": [
+      {
+        "id": "base-1",
+        "name": "УЧАСТОК 01",
+        "clan": {
+          "id": "parity-id-13",
+          "name": "Zulu",
+          "color": "#112233",
+          "flag": "Z",
+          "building_id": "base-1",
+          "exterior_style": 0,
+          "exterior_color": "#112233",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "base-2",
+        "name": "УЧАСТОК 02",
+        "clan": {
+          "id": "parity-id-14",
+          "name": "Alpha",
+          "color": "#abcdef",
+          "flag": "A",
+          "building_id": "base-2",
+          "exterior_style": 2,
+          "exterior_color": "#abcdef",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "base-3",
+        "name": "УЧАСТОК 03",
+        "clan": null
+      },
+      {
+        "id": "base-4",
+        "name": "УЧАСТОК 04",
+        "clan": null
+      },
+      {
+        "id": "base-5",
+        "name": "УЧАСТОК 05",
+        "clan": null
+      },
+      {
+        "id": "base-6",
+        "name": "УЧАСТОК 06",
+        "clan": null
+      },
+      {
+        "id": "base-7",
+        "name": "УЧАСТОК 07",
+        "clan": null
+      },
+      {
+        "id": "base-8",
+        "name": "УЧАСТОК 08",
+        "clan": null
+      }
+    ],
+    "players": [
+      {
+        "id": "parity-id-6",
+        "name": "Parity 6",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 6,
+          "hairColor": 0,
+          "shirtStyle": 0,
+          "shirtColor": 0,
+          "pantsStyle": 0,
+          "pantsColor": 0,
+          "accessory": 0,
+          "shoesColor": 0,
+          "outfit": 0,
+          "headwear": 0
+        },
+        "x": 450.0,
+        "y": 568.0,
+        "scene": "interior",
+        "scene_id": "railway",
+        "interior_id": "railway",
+        "phone_open": false,
+        "pet": null,
+        "boat": null,
+        "pet_effect": null,
+        "pose": "idle",
+        "bench_id": null,
+        "clan": null
+      }
+    ],
+    "clans": [
+      {
+        "id": "parity-id-13",
+        "name": "Zulu",
+        "color": "#112233",
+        "flag": "Z",
+        "status": "active",
+        "building_id": "base-1",
+        "exterior_style": 0,
+        "exterior_color": "#112233",
+        "exterior_locked": true,
+        "member_count": 4,
+        "score": 0.3,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-14",
+        "name": "Alpha",
+        "color": "#abcdef",
+        "flag": "A",
+        "status": "active",
+        "building_id": "base-2",
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "member_count": 1,
+        "score": 0.3,
+        "wins": 1
+      }
+    ],
+    "my_clan": null,
+    "active_base": null,
+    "leaderboard": [
+      {
+        "id": "parity-id-15",
+        "name": "Archive",
+        "color": "#ff8562",
+        "flag": "X",
+        "status": "archived",
+        "building_id": null,
+        "exterior_style": 0,
+        "exterior_color": "#faf8f2",
+        "exterior_locked": false,
+        "member_count": 0,
+        "score": 12.5,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-14",
+        "name": "Alpha",
+        "color": "#abcdef",
+        "flag": "A",
+        "status": "active",
+        "building_id": "base-2",
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "member_count": 1,
+        "score": 0.3,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-13",
+        "name": "Zulu",
+        "color": "#112233",
+        "flag": "Z",
+        "status": "active",
+        "building_id": "base-1",
+        "exterior_style": 0,
+        "exterior_color": "#112233",
+        "exterior_locked": true,
+        "member_count": 4,
+        "score": 0.3,
+        "wins": 1
+      }
+    ],
+    "max_online": 100,
+    "online_count": 10
+  },
+  "second_base": {
+    "restricted": false,
+    "scene": "base",
+    "scene_id": "parity-id-14",
+    "interior_id": null,
+    "interior": null,
+    "position": {
+      "x": 600.0,
+      "y": 670.0
+    },
+    "arena_lobby_id": null,
+    "card_table_id": null,
+    "pose": "idle",
+    "bench_id": null,
+    "phone_open": false,
+    "pet": null,
+    "boat": null,
+    "pet_effect": null,
+    "boats": [],
+    "collected_litter": [],
+    "wallet": {
+      "currency": "Бзинге",
+      "balance": 0
+    },
+    "buildings": [
+      {
+        "id": "base-1",
+        "name": "УЧАСТОК 01",
+        "clan": {
+          "id": "parity-id-13",
+          "name": "Zulu",
+          "color": "#112233",
+          "flag": "Z",
+          "building_id": "base-1",
+          "exterior_style": 0,
+          "exterior_color": "#112233",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "base-2",
+        "name": "УЧАСТОК 02",
+        "clan": {
+          "id": "parity-id-14",
+          "name": "Alpha",
+          "color": "#abcdef",
+          "flag": "A",
+          "building_id": "base-2",
+          "exterior_style": 2,
+          "exterior_color": "#abcdef",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "base-3",
+        "name": "УЧАСТОК 03",
+        "clan": null
+      },
+      {
+        "id": "base-4",
+        "name": "УЧАСТОК 04",
+        "clan": null
+      },
+      {
+        "id": "base-5",
+        "name": "УЧАСТОК 05",
+        "clan": null
+      },
+      {
+        "id": "base-6",
+        "name": "УЧАСТОК 06",
+        "clan": null
+      },
+      {
+        "id": "base-7",
+        "name": "УЧАСТОК 07",
+        "clan": null
+      },
+      {
+        "id": "base-8",
+        "name": "УЧАСТОК 08",
+        "clan": null
+      }
+    ],
+    "players": [
+      {
+        "id": "parity-id-9",
+        "name": "Parity 9",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 9,
+          "hairColor": 0,
+          "shirtStyle": 0,
+          "shirtColor": 0,
+          "pantsStyle": 0,
+          "pantsColor": 0,
+          "accessory": 0,
+          "shoesColor": 0,
+          "outfit": 0,
+          "headwear": 0
+        },
+        "x": 600.0,
+        "y": 670.0,
+        "scene": "base",
+        "scene_id": "parity-id-14",
+        "interior_id": null,
+        "phone_open": false,
+        "pet": null,
+        "boat": null,
+        "pet_effect": null,
+        "pose": "idle",
+        "bench_id": null,
+        "clan": {
+          "id": "parity-id-14",
+          "name": "Alpha",
+          "color": "#abcdef",
+          "flag": "A",
+          "building_id": "base-2",
+          "exterior_style": 2,
+          "exterior_color": "#abcdef",
+          "exterior_locked": true
+        }
+      }
+    ],
+    "clans": [
+      {
+        "id": "parity-id-13",
+        "name": "Zulu",
+        "color": "#112233",
+        "flag": "Z",
+        "status": "active",
+        "building_id": "base-1",
+        "exterior_style": 0,
+        "exterior_color": "#112233",
+        "exterior_locked": true,
+        "member_count": 4,
+        "score": 0.3,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-14",
+        "name": "Alpha",
+        "color": "#abcdef",
+        "flag": "A",
+        "status": "active",
+        "building_id": "base-2",
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "member_count": 1,
+        "score": 0.3,
+        "wins": 1
+      }
+    ],
+    "my_clan": {
+      "id": "parity-id-14",
+      "name": "Alpha",
+      "color": "#abcdef",
+      "flag": "A",
+      "status": "active",
+      "building_id": "base-2",
+      "exterior_style": 2,
+      "exterior_color": "#abcdef",
+      "exterior_locked": true,
+      "member_count": 1,
+      "score": 0.3,
+      "wins": 1,
+      "leader_id": "parity-id-9",
+      "members": [
+        {
+          "id": "parity-id-9",
+          "name": "Parity 9",
+          "avatar": {
+            "gender": 0,
+            "skin": 0,
+            "hairStyle": 9,
+            "hairColor": 0,
+            "shirtStyle": 0,
+            "shirtColor": 0,
+            "pantsStyle": 0,
+            "pantsColor": 0,
+            "accessory": 0,
+            "shoesColor": 0,
+            "outfit": 0,
+            "headwear": 0
+          }
+        }
+      ],
+      "requests": [],
+      "base": {
+        "items": [],
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "wall_color": "#faf8f2",
+        "floor_color": "#141414",
+        "building_id": "base-2"
+      },
+      "is_leader": true
+    },
+    "active_base": {
+      "id": "parity-id-14",
+      "name": "Alpha",
+      "color": "#abcdef",
+      "flag": "A",
+      "leader_id": "parity-id-9",
+      "base": {
+        "items": [],
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "building_id": "base-2",
+        "wall_color": "#faf8f2",
+        "floor_color": "#141414",
+        "seats": []
+      },
+      "is_leader": true,
+      "is_guest": false
+    },
+    "leaderboard": [
+      {
+        "id": "parity-id-15",
+        "name": "Archive",
+        "color": "#ff8562",
+        "flag": "X",
+        "status": "archived",
+        "building_id": null,
+        "exterior_style": 0,
+        "exterior_color": "#faf8f2",
+        "exterior_locked": false,
+        "member_count": 0,
+        "score": 12.5,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-14",
+        "name": "Alpha",
+        "color": "#abcdef",
+        "flag": "A",
+        "status": "active",
+        "building_id": "base-2",
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "member_count": 1,
+        "score": 0.3,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-13",
+        "name": "Zulu",
+        "color": "#112233",
+        "flag": "Z",
+        "status": "active",
+        "building_id": "base-1",
+        "exterior_style": 0,
+        "exterior_color": "#112233",
+        "exterior_locked": true,
+        "member_count": 4,
+        "score": 0.3,
+        "wins": 1
+      }
+    ],
+    "max_online": 100,
+    "online_count": 10
+  },
+  "arena": {
+    "restricted": false,
+    "scene": "arena",
+    "scene_id": "parity-id-19",
+    "interior_id": null,
+    "interior": null,
+    "position": {
+      "x": 600.0,
+      "y": 510.0
+    },
+    "arena_lobby_id": "parity-id-19",
+    "card_table_id": null,
+    "pose": "idle",
+    "bench_id": null,
+    "phone_open": false,
+    "pet": null,
+    "boat": null,
+    "pet_effect": null,
+    "boats": [],
+    "collected_litter": [],
+    "wallet": {
+      "currency": "Бзинге",
+      "balance": 0
+    },
+    "buildings": [
+      {
+        "id": "base-1",
+        "name": "УЧАСТОК 01",
+        "clan": {
+          "id": "parity-id-13",
+          "name": "Zulu",
+          "color": "#112233",
+          "flag": "Z",
+          "building_id": "base-1",
+          "exterior_style": 0,
+          "exterior_color": "#112233",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "base-2",
+        "name": "УЧАСТОК 02",
+        "clan": {
+          "id": "parity-id-14",
+          "name": "Alpha",
+          "color": "#abcdef",
+          "flag": "A",
+          "building_id": "base-2",
+          "exterior_style": 2,
+          "exterior_color": "#abcdef",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "base-3",
+        "name": "УЧАСТОК 03",
+        "clan": null
+      },
+      {
+        "id": "base-4",
+        "name": "УЧАСТОК 04",
+        "clan": null
+      },
+      {
+        "id": "base-5",
+        "name": "УЧАСТОК 05",
+        "clan": null
+      },
+      {
+        "id": "base-6",
+        "name": "УЧАСТОК 06",
+        "clan": null
+      },
+      {
+        "id": "base-7",
+        "name": "УЧАСТОК 07",
+        "clan": null
+      },
+      {
+        "id": "base-8",
+        "name": "УЧАСТОК 08",
+        "clan": null
+      }
+    ],
+    "players": [
+      {
+        "id": "parity-id-7",
+        "name": "Parity 7",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 7,
+          "hairColor": 0,
+          "shirtStyle": 0,
+          "shirtColor": 0,
+          "pantsStyle": 0,
+          "pantsColor": 0,
+          "accessory": 0,
+          "shoesColor": 0,
+          "outfit": 0,
+          "headwear": 0
+        },
+        "x": 600.0,
+        "y": 510.0,
+        "scene": "arena",
+        "scene_id": "parity-id-19",
+        "interior_id": null,
+        "phone_open": false,
+        "pet": null,
+        "boat": null,
+        "pet_effect": null,
+        "pose": "idle",
+        "bench_id": null,
+        "clan": null
+      }
+    ],
+    "clans": [
+      {
+        "id": "parity-id-13",
+        "name": "Zulu",
+        "color": "#112233",
+        "flag": "Z",
+        "status": "active",
+        "building_id": "base-1",
+        "exterior_style": 0,
+        "exterior_color": "#112233",
+        "exterior_locked": true,
+        "member_count": 4,
+        "score": 0.3,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-14",
+        "name": "Alpha",
+        "color": "#abcdef",
+        "flag": "A",
+        "status": "active",
+        "building_id": "base-2",
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "member_count": 1,
+        "score": 0.3,
+        "wins": 1
+      }
+    ],
+    "my_clan": null,
+    "active_base": null,
+    "leaderboard": [
+      {
+        "id": "parity-id-15",
+        "name": "Archive",
+        "color": "#ff8562",
+        "flag": "X",
+        "status": "archived",
+        "building_id": null,
+        "exterior_style": 0,
+        "exterior_color": "#faf8f2",
+        "exterior_locked": false,
+        "member_count": 0,
+        "score": 12.5,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-14",
+        "name": "Alpha",
+        "color": "#abcdef",
+        "flag": "A",
+        "status": "active",
+        "building_id": "base-2",
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "member_count": 1,
+        "score": 0.3,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-13",
+        "name": "Zulu",
+        "color": "#112233",
+        "flag": "Z",
+        "status": "active",
+        "building_id": "base-1",
+        "exterior_style": 0,
+        "exterior_color": "#112233",
+        "exterior_locked": true,
+        "member_count": 4,
+        "score": 0.3,
+        "wins": 1
+      }
+    ],
+    "max_online": 100,
+    "online_count": 10
+  },
+  "cards": {
+    "restricted": false,
+    "scene": "cards",
+    "scene_id": "parity-id-22",
+    "interior_id": null,
+    "interior": null,
+    "position": {
+      "x": 600.0,
+      "y": 510.0
+    },
+    "arena_lobby_id": null,
+    "card_table_id": "parity-id-22",
+    "pose": "idle",
+    "bench_id": null,
+    "phone_open": false,
+    "pet": null,
+    "boat": null,
+    "pet_effect": null,
+    "boats": [],
+    "collected_litter": [],
+    "wallet": {
+      "currency": "Бзинге",
+      "balance": 0
+    },
+    "buildings": [
+      {
+        "id": "base-1",
+        "name": "УЧАСТОК 01",
+        "clan": {
+          "id": "parity-id-13",
+          "name": "Zulu",
+          "color": "#112233",
+          "flag": "Z",
+          "building_id": "base-1",
+          "exterior_style": 0,
+          "exterior_color": "#112233",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "base-2",
+        "name": "УЧАСТОК 02",
+        "clan": {
+          "id": "parity-id-14",
+          "name": "Alpha",
+          "color": "#abcdef",
+          "flag": "A",
+          "building_id": "base-2",
+          "exterior_style": 2,
+          "exterior_color": "#abcdef",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "base-3",
+        "name": "УЧАСТОК 03",
+        "clan": null
+      },
+      {
+        "id": "base-4",
+        "name": "УЧАСТОК 04",
+        "clan": null
+      },
+      {
+        "id": "base-5",
+        "name": "УЧАСТОК 05",
+        "clan": null
+      },
+      {
+        "id": "base-6",
+        "name": "УЧАСТОК 06",
+        "clan": null
+      },
+      {
+        "id": "base-7",
+        "name": "УЧАСТОК 07",
+        "clan": null
+      },
+      {
+        "id": "base-8",
+        "name": "УЧАСТОК 08",
+        "clan": null
+      }
+    ],
+    "players": [
+      {
+        "id": "parity-id-8",
+        "name": "Parity 8",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 8,
+          "hairColor": 0,
+          "shirtStyle": 0,
+          "shirtColor": 0,
+          "pantsStyle": 0,
+          "pantsColor": 0,
+          "accessory": 0,
+          "shoesColor": 0,
+          "outfit": 0,
+          "headwear": 0
+        },
+        "x": 600.0,
+        "y": 510.0,
+        "scene": "cards",
+        "scene_id": "parity-id-22",
+        "interior_id": null,
+        "phone_open": false,
+        "pet": null,
+        "boat": null,
+        "pet_effect": null,
+        "pose": "idle",
+        "bench_id": null,
+        "clan": null
+      }
+    ],
+    "clans": [
+      {
+        "id": "parity-id-13",
+        "name": "Zulu",
+        "color": "#112233",
+        "flag": "Z",
+        "status": "active",
+        "building_id": "base-1",
+        "exterior_style": 0,
+        "exterior_color": "#112233",
+        "exterior_locked": true,
+        "member_count": 4,
+        "score": 0.3,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-14",
+        "name": "Alpha",
+        "color": "#abcdef",
+        "flag": "A",
+        "status": "active",
+        "building_id": "base-2",
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "member_count": 1,
+        "score": 0.3,
+        "wins": 1
+      }
+    ],
+    "my_clan": null,
+    "active_base": null,
+    "leaderboard": [
+      {
+        "id": "parity-id-15",
+        "name": "Archive",
+        "color": "#ff8562",
+        "flag": "X",
+        "status": "archived",
+        "building_id": null,
+        "exterior_style": 0,
+        "exterior_color": "#faf8f2",
+        "exterior_locked": false,
+        "member_count": 0,
+        "score": 12.5,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-14",
+        "name": "Alpha",
+        "color": "#abcdef",
+        "flag": "A",
+        "status": "active",
+        "building_id": "base-2",
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "member_count": 1,
+        "score": 0.3,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-13",
+        "name": "Zulu",
+        "color": "#112233",
+        "flag": "Z",
+        "status": "active",
+        "building_id": "base-1",
+        "exterior_style": 0,
+        "exterior_color": "#112233",
+        "exterior_locked": true,
+        "member_count": 4,
+        "score": 0.3,
+        "wins": 1
+      }
+    ],
+    "max_online": 100,
+    "online_count": 10
+  },
+  "restricted": {
+    "restricted": true,
+    "scene": "restricted",
+    "scene_id": null,
+    "interior_id": null,
+    "interior": null,
+    "position": null,
+    "buildings": [],
+    "players": [],
+    "clans": [],
+    "my_clan": null,
+    "active_base": null,
+    "pet": null,
+    "boat": null,
+    "boats": [],
+    "pet_effect": null,
+    "phone_open": false,
+    "leaderboard": [],
+    "card_table_id": null,
+    "arena_lobby_id": null,
+    "max_online": 100,
+    "online_count": 0
+  },
+  "guest_base": {
+    "restricted": false,
+    "scene": "base",
+    "scene_id": "parity-id-13",
+    "interior_id": null,
+    "interior": null,
+    "position": {
+      "x": 600,
+      "y": 670
+    },
+    "arena_lobby_id": null,
+    "card_table_id": null,
+    "pose": "idle",
+    "bench_id": null,
+    "phone_open": false,
+    "pet": null,
+    "boat": null,
+    "pet_effect": null,
+    "boats": [],
+    "collected_litter": [],
+    "wallet": {
+      "currency": "Бзинге",
+      "balance": 0
+    },
+    "buildings": [
+      {
+        "id": "base-1",
+        "name": "УЧАСТОК 01",
+        "clan": {
+          "id": "parity-id-13",
+          "name": "Zulu",
+          "color": "#112233",
+          "flag": "Z",
+          "building_id": "base-1",
+          "exterior_style": 0,
+          "exterior_color": "#112233",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "base-2",
+        "name": "УЧАСТОК 02",
+        "clan": {
+          "id": "parity-id-14",
+          "name": "Alpha",
+          "color": "#abcdef",
+          "flag": "A",
+          "building_id": "base-2",
+          "exterior_style": 2,
+          "exterior_color": "#abcdef",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "base-3",
+        "name": "УЧАСТОК 03",
+        "clan": null
+      },
+      {
+        "id": "base-4",
+        "name": "УЧАСТОК 04",
+        "clan": null
+      },
+      {
+        "id": "base-5",
+        "name": "УЧАСТОК 05",
+        "clan": null
+      },
+      {
+        "id": "base-6",
+        "name": "УЧАСТОК 06",
+        "clan": null
+      },
+      {
+        "id": "base-7",
+        "name": "УЧАСТОК 07",
+        "clan": null
+      },
+      {
+        "id": "base-8",
+        "name": "УЧАСТОК 08",
+        "clan": null
+      }
+    ],
+    "players": [
+      {
+        "id": "parity-id-2",
+        "name": "Parity 2",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 2,
+          "hairColor": 0,
+          "shirtStyle": 0,
+          "shirtColor": 0,
+          "pantsStyle": 0,
+          "pantsColor": 0,
+          "accessory": 0,
+          "shoesColor": 0,
+          "outfit": 0,
+          "headwear": 0
+        },
+        "x": 600.0,
+        "y": 670.0,
+        "scene": "base",
+        "scene_id": "parity-id-13",
+        "interior_id": null,
+        "phone_open": false,
+        "pet": null,
+        "boat": null,
+        "pet_effect": null,
+        "pose": "idle",
+        "bench_id": null,
+        "clan": null
+      }
+    ],
+    "clans": [
+      {
+        "id": "parity-id-13",
+        "name": "Zulu",
+        "color": "#112233",
+        "flag": "Z",
+        "status": "active",
+        "building_id": "base-1",
+        "exterior_style": 0,
+        "exterior_color": "#112233",
+        "exterior_locked": true,
+        "member_count": 4,
+        "score": 0.3,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-14",
+        "name": "Alpha",
+        "color": "#abcdef",
+        "flag": "A",
+        "status": "active",
+        "building_id": "base-2",
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "member_count": 1,
+        "score": 0.3,
+        "wins": 1
+      }
+    ],
+    "my_clan": null,
+    "active_base": {
+      "id": "parity-id-13",
+      "name": "Zulu",
+      "color": "#112233",
+      "flag": "Z",
+      "leader_id": "parity-id-0",
+      "base": {
+        "items": [
+          {
+            "id": "legacy-sofa",
+            "type": "sofa",
+            "x": 1,
+            "y": 1
+          }
+        ],
+        "exterior_locked": true,
+        "exterior_color": "#112233",
+        "exterior_style": 0,
+        "building_id": "base-1",
+        "wall_color": "#faf8f2",
+        "floor_color": "#141414",
+        "seats": [
+          {
+            "id": "base:parity-id-13:legacy-sofa:seat-1",
+            "item_id": "legacy-sofa",
+            "type": "sofa",
+            "seat": {
+              "x": 285,
+              "y": 365
+            }
+          }
+        ]
+      },
+      "is_leader": false,
+      "is_guest": true
+    },
+    "leaderboard": [
+      {
+        "id": "parity-id-15",
+        "name": "Archive",
+        "color": "#ff8562",
+        "flag": "X",
+        "status": "archived",
+        "building_id": null,
+        "exterior_style": 0,
+        "exterior_color": "#faf8f2",
+        "exterior_locked": false,
+        "member_count": 0,
+        "score": 12.5,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-14",
+        "name": "Alpha",
+        "color": "#abcdef",
+        "flag": "A",
+        "status": "active",
+        "building_id": "base-2",
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "member_count": 1,
+        "score": 0.3,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-13",
+        "name": "Zulu",
+        "color": "#112233",
+        "flag": "Z",
+        "status": "active",
+        "building_id": "base-1",
+        "exterior_style": 0,
+        "exterior_color": "#112233",
+        "exterior_locked": true,
+        "member_count": 4,
+        "score": 0.3,
+        "wins": 1
+      }
+    ],
+    "max_online": 100,
+    "online_count": 10
+  },
+  "member_base": {
+    "restricted": false,
+    "scene": "base",
+    "scene_id": "parity-id-13",
+    "interior_id": null,
+    "interior": null,
+    "position": {
+      "x": 600,
+      "y": 670
+    },
+    "arena_lobby_id": null,
+    "card_table_id": null,
+    "pose": "idle",
+    "bench_id": null,
+    "phone_open": false,
+    "pet": {
+      "id": "pet-cat",
+      "kind": "cat"
+    },
+    "boat": null,
+    "pet_effect": null,
+    "boats": [],
+    "collected_litter": [],
+    "wallet": {
+      "currency": "Бзинге",
+      "balance": 0
+    },
+    "buildings": [
+      {
+        "id": "base-1",
+        "name": "УЧАСТОК 01",
+        "clan": {
+          "id": "parity-id-13",
+          "name": "Zulu",
+          "color": "#112233",
+          "flag": "Z",
+          "building_id": "base-1",
+          "exterior_style": 0,
+          "exterior_color": "#112233",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "base-2",
+        "name": "УЧАСТОК 02",
+        "clan": {
+          "id": "parity-id-14",
+          "name": "Alpha",
+          "color": "#abcdef",
+          "flag": "A",
+          "building_id": "base-2",
+          "exterior_style": 2,
+          "exterior_color": "#abcdef",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "base-3",
+        "name": "УЧАСТОК 03",
+        "clan": null
+      },
+      {
+        "id": "base-4",
+        "name": "УЧАСТОК 04",
+        "clan": null
+      },
+      {
+        "id": "base-5",
+        "name": "УЧАСТОК 05",
+        "clan": null
+      },
+      {
+        "id": "base-6",
+        "name": "УЧАСТОК 06",
+        "clan": null
+      },
+      {
+        "id": "base-7",
+        "name": "УЧАСТОК 07",
+        "clan": null
+      },
+      {
+        "id": "base-8",
+        "name": "УЧАСТОК 08",
+        "clan": null
+      }
+    ],
+    "players": [
+      {
+        "id": "parity-id-1",
+        "name": "Parity 1",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 1,
+          "hairColor": 0,
+          "shirtStyle": 0,
+          "shirtColor": 0,
+          "pantsStyle": 0,
+          "pantsColor": 0,
+          "accessory": 0,
+          "shoesColor": 0,
+          "outfit": 0,
+          "headwear": 0
+        },
+        "x": 600.0,
+        "y": 670.0,
+        "scene": "base",
+        "scene_id": "parity-id-13",
+        "interior_id": null,
+        "phone_open": false,
+        "pet": {
+          "id": "pet-cat",
+          "kind": "cat"
+        },
+        "boat": null,
+        "pet_effect": null,
+        "pose": "idle",
+        "bench_id": null,
+        "clan": {
+          "id": "parity-id-13",
+          "name": "Zulu",
+          "color": "#112233",
+          "flag": "Z",
+          "building_id": "base-1",
+          "exterior_style": 0,
+          "exterior_color": "#112233",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "parity-id-2",
+        "name": "Parity 2",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 2,
+          "hairColor": 0,
+          "shirtStyle": 0,
+          "shirtColor": 0,
+          "pantsStyle": 0,
+          "pantsColor": 0,
+          "accessory": 0,
+          "shoesColor": 0,
+          "outfit": 0,
+          "headwear": 0
+        },
+        "x": 600.0,
+        "y": 670.0,
+        "scene": "base",
+        "scene_id": "parity-id-13",
+        "interior_id": null,
+        "phone_open": false,
+        "pet": null,
+        "boat": null,
+        "pet_effect": null,
+        "pose": "idle",
+        "bench_id": null,
+        "clan": null
+      }
+    ],
+    "clans": [
+      {
+        "id": "parity-id-13",
+        "name": "Zulu",
+        "color": "#112233",
+        "flag": "Z",
+        "status": "active",
+        "building_id": "base-1",
+        "exterior_style": 0,
+        "exterior_color": "#112233",
+        "exterior_locked": true,
+        "member_count": 4,
+        "score": 0.3,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-14",
+        "name": "Alpha",
+        "color": "#abcdef",
+        "flag": "A",
+        "status": "active",
+        "building_id": "base-2",
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "member_count": 1,
+        "score": 0.3,
+        "wins": 1
+      }
+    ],
+    "my_clan": {
+      "id": "parity-id-13",
+      "name": "Zulu",
+      "color": "#112233",
+      "flag": "Z",
+      "status": "active",
+      "building_id": "base-1",
+      "exterior_style": 0,
+      "exterior_color": "#112233",
+      "exterior_locked": true,
+      "member_count": 4,
+      "score": 0.3,
+      "wins": 1,
+      "leader_id": "parity-id-0",
+      "members": [
+        {
+          "id": "parity-id-0",
+          "name": "Parity 0",
+          "avatar": {
+            "gender": 0,
+            "skin": 0,
+            "hairStyle": 0,
+            "hairColor": 0,
+            "shirtStyle": 0,
+            "shirtColor": 0,
+            "pantsStyle": 0,
+            "pantsColor": 0,
+            "accessory": 0,
+            "shoesColor": 0,
+            "outfit": 0,
+            "headwear": 0
+          }
+        },
+        {
+          "id": "parity-id-1",
+          "name": "Parity 1",
+          "avatar": {
+            "gender": 0,
+            "skin": 0,
+            "hairStyle": 1,
+            "hairColor": 0,
+            "shirtStyle": 0,
+            "shirtColor": 0,
+            "pantsStyle": 0,
+            "pantsColor": 0,
+            "accessory": 0,
+            "shoesColor": 0,
+            "outfit": 0,
+            "headwear": 0
+          }
+        },
+        {
+          "id": "parity-id-4",
+          "name": "Parity 4",
+          "avatar": {
+            "gender": 0,
+            "skin": 0,
+            "hairStyle": 4,
+            "hairColor": 0,
+            "shirtStyle": 0,
+            "shirtColor": 0,
+            "pantsStyle": 0,
+            "pantsColor": 0,
+            "accessory": 0,
+            "shoesColor": 0,
+            "outfit": 0,
+            "headwear": 0
+          }
+        }
+      ],
+      "requests": [],
+      "base": {
+        "items": [
+          {
+            "id": "legacy-sofa",
+            "type": "sofa",
+            "x": 1,
+            "y": 1,
+            "color": "#faf8f2",
+            "variant": "standard"
+          }
+        ],
+        "exterior_locked": true,
+        "exterior_color": "#112233",
+        "exterior_style": 0,
+        "wall_color": "#faf8f2",
+        "floor_color": "#141414",
+        "building_id": "base-1"
+      },
+      "is_leader": false
+    },
+    "active_base": {
+      "id": "parity-id-13",
+      "name": "Zulu",
+      "color": "#112233",
+      "flag": "Z",
+      "leader_id": "parity-id-0",
+      "base": {
+        "items": [
+          {
+            "id": "legacy-sofa",
+            "type": "sofa",
+            "x": 1,
+            "y": 1
+          }
+        ],
+        "exterior_locked": true,
+        "exterior_color": "#112233",
+        "exterior_style": 0,
+        "building_id": "base-1",
+        "wall_color": "#faf8f2",
+        "floor_color": "#141414",
+        "seats": [
+          {
+            "id": "base:parity-id-13:legacy-sofa:seat-1",
+            "item_id": "legacy-sofa",
+            "type": "sofa",
+            "seat": {
+              "x": 285,
+              "y": 365
+            }
+          }
+        ]
+      },
+      "is_leader": false,
+      "is_guest": false
+    },
+    "leaderboard": [
+      {
+        "id": "parity-id-15",
+        "name": "Archive",
+        "color": "#ff8562",
+        "flag": "X",
+        "status": "archived",
+        "building_id": null,
+        "exterior_style": 0,
+        "exterior_color": "#faf8f2",
+        "exterior_locked": false,
+        "member_count": 0,
+        "score": 12.5,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-14",
+        "name": "Alpha",
+        "color": "#abcdef",
+        "flag": "A",
+        "status": "active",
+        "building_id": "base-2",
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "member_count": 1,
+        "score": 0.3,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-13",
+        "name": "Zulu",
+        "color": "#112233",
+        "flag": "Z",
+        "status": "active",
+        "building_id": "base-1",
+        "exterior_style": 0,
+        "exterior_color": "#112233",
+        "exterior_locked": true,
+        "member_count": 4,
+        "score": 0.3,
+        "wins": 1
+      }
+    ],
+    "max_online": 100,
+    "online_count": 10
+  },
+  "after_mutation": {
+    "restricted": false,
+    "scene": "city",
+    "scene_id": null,
+    "interior_id": null,
+    "interior": null,
+    "position": {
+      "x": 760.0,
+      "y": 2610.0
+    },
+    "arena_lobby_id": null,
+    "card_table_id": null,
+    "pose": "idle",
+    "bench_id": null,
+    "phone_open": false,
+    "pet": {
+      "id": "pet-cat",
+      "kind": "cat"
+    },
+    "boat": null,
+    "pet_effect": {
+      "id": "effect-parity-id-0",
+      "target_id": "pet-dog",
+      "kind": "dog",
+      "started_at": 999.0,
+      "duration": 2.0
+    },
+    "boats": [
+      {
+        "id": "boat-1",
+        "x": 7250.0,
+        "y": 4230.0,
+        "occupant_id": null,
+        "dock": {
+          "x": 7250,
+          "y": 4230
+        },
+        "boarding": {
+          "x": 7250,
+          "y": 4120,
+          "radius": 65
+        }
+      },
+      {
+        "id": "boat-2",
+        "x": 7440.0,
+        "y": 4210.0,
+        "occupant_id": null,
+        "dock": {
+          "x": 7440,
+          "y": 4210
+        },
+        "boarding": {
+          "x": 7440,
+          "y": 4100,
+          "radius": 65
+        }
+      },
+      {
+        "id": "boat-3",
+        "x": 7630.0,
+        "y": 4210.0,
+        "occupant_id": null,
+        "dock": {
+          "x": 7630,
+          "y": 4210
+        },
+        "boarding": {
+          "x": 7630,
+          "y": 4090,
+          "radius": 65
+        }
+      }
+    ],
+    "collected_litter": [],
+    "wallet": {
+      "currency": "Бзинге",
+      "balance": 0
+    },
+    "buildings": [
+      {
+        "id": "base-1",
+        "name": "УЧАСТОК 01",
+        "clan": {
+          "id": "parity-id-13",
+          "name": "Zulu",
+          "color": "#112233",
+          "flag": "Z",
+          "building_id": "base-1",
+          "exterior_style": 0,
+          "exterior_color": "#112233",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "base-2",
+        "name": "УЧАСТОК 02",
+        "clan": {
+          "id": "parity-id-14",
+          "name": "Alpha",
+          "color": "#abcdef",
+          "flag": "A",
+          "building_id": "base-2",
+          "exterior_style": 2,
+          "exterior_color": "#abcdef",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "base-3",
+        "name": "УЧАСТОК 03",
+        "clan": null
+      },
+      {
+        "id": "base-4",
+        "name": "УЧАСТОК 04",
+        "clan": null
+      },
+      {
+        "id": "base-5",
+        "name": "УЧАСТОК 05",
+        "clan": null
+      },
+      {
+        "id": "base-6",
+        "name": "УЧАСТОК 06",
+        "clan": null
+      },
+      {
+        "id": "base-7",
+        "name": "УЧАСТОК 07",
+        "clan": null
+      },
+      {
+        "id": "base-8",
+        "name": "УЧАСТОК 08",
+        "clan": null
+      }
+    ],
+    "players": [
+      {
+        "id": "parity-id-0",
+        "name": "Parity 0",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 4,
+          "hairColor": 0,
+          "shirtStyle": 0,
+          "shirtColor": 0,
+          "pantsStyle": 0,
+          "pantsColor": 0,
+          "accessory": 0,
+          "shoesColor": 0,
+          "outfit": 0,
+          "headwear": 0
+        },
+        "x": 760.0,
+        "y": 2610.0,
+        "scene": "city",
+        "scene_id": null,
+        "interior_id": null,
+        "phone_open": false,
+        "pet": {
+          "id": "pet-cat",
+          "kind": "cat"
+        },
+        "boat": null,
+        "pet_effect": {
+          "id": "effect-parity-id-0",
+          "target_id": "pet-dog",
+          "kind": "dog",
+          "started_at": 999.0,
+          "duration": 2.0
+        },
+        "pose": "idle",
+        "bench_id": null,
+        "clan": {
+          "id": "parity-id-13",
+          "name": "Zulu",
+          "color": "#112233",
+          "flag": "Z",
+          "building_id": "base-1",
+          "exterior_style": 0,
+          "exterior_color": "#112233",
+          "exterior_locked": true
+        }
+      },
+      {
+        "id": "parity-id-3",
+        "name": "Parity 3",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 3,
+          "hairColor": 0,
+          "shirtStyle": 0,
+          "shirtColor": 0,
+          "pantsStyle": 0,
+          "pantsColor": 0,
+          "accessory": 0,
+          "shoesColor": 0,
+          "outfit": 0,
+          "headwear": 0
+        },
+        "x": 760.0,
+        "y": 2610.0,
+        "scene": "city",
+        "scene_id": null,
+        "interior_id": null,
+        "phone_open": false,
+        "pet": null,
+        "boat": null,
+        "pet_effect": null,
+        "pose": "idle",
+        "bench_id": null,
+        "clan": null
+      }
+    ],
+    "clans": [
+      {
+        "id": "parity-id-13",
+        "name": "Zulu",
+        "color": "#112233",
+        "flag": "Z",
+        "status": "active",
+        "building_id": "base-1",
+        "exterior_style": 0,
+        "exterior_color": "#112233",
+        "exterior_locked": true,
+        "member_count": 4,
+        "score": 2.0,
+        "wins": 2
+      },
+      {
+        "id": "parity-id-14",
+        "name": "Alpha",
+        "color": "#abcdef",
+        "flag": "A",
+        "status": "active",
+        "building_id": "base-2",
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "member_count": 1,
+        "score": 0.3,
+        "wins": 1
+      }
+    ],
+    "my_clan": {
+      "id": "parity-id-13",
+      "name": "Zulu",
+      "color": "#112233",
+      "flag": "Z",
+      "status": "active",
+      "building_id": "base-1",
+      "exterior_style": 0,
+      "exterior_color": "#112233",
+      "exterior_locked": true,
+      "member_count": 4,
+      "score": 2.0,
+      "wins": 2,
+      "leader_id": "parity-id-0",
+      "members": [
+        {
+          "id": "parity-id-0",
+          "name": "Parity 0",
+          "avatar": {
+            "gender": 0,
+            "skin": 0,
+            "hairStyle": 4,
+            "hairColor": 0,
+            "shirtStyle": 0,
+            "shirtColor": 0,
+            "pantsStyle": 0,
+            "pantsColor": 0,
+            "accessory": 0,
+            "shoesColor": 0,
+            "outfit": 0,
+            "headwear": 0
+          }
+        },
+        {
+          "id": "parity-id-1",
+          "name": "Parity 1",
+          "avatar": {
+            "gender": 0,
+            "skin": 0,
+            "hairStyle": 1,
+            "hairColor": 0,
+            "shirtStyle": 0,
+            "shirtColor": 0,
+            "pantsStyle": 0,
+            "pantsColor": 0,
+            "accessory": 0,
+            "shoesColor": 0,
+            "outfit": 0,
+            "headwear": 0
+          }
+        },
+        {
+          "id": "parity-id-4",
+          "name": "Parity 4",
+          "avatar": {
+            "gender": 0,
+            "skin": 0,
+            "hairStyle": 4,
+            "hairColor": 0,
+            "shirtStyle": 0,
+            "shirtColor": 0,
+            "pantsStyle": 0,
+            "pantsColor": 0,
+            "accessory": 0,
+            "shoesColor": 0,
+            "outfit": 0,
+            "headwear": 0
+          }
+        }
+      ],
+      "requests": [
+        {
+          "id": "parity-id-10",
+          "name": "Parity 10",
+          "avatar": {
+            "gender": 0,
+            "skin": 0,
+            "hairStyle": 10,
+            "hairColor": 0,
+            "shirtStyle": 0,
+            "shirtColor": 0,
+            "pantsStyle": 0,
+            "pantsColor": 0,
+            "accessory": 0,
+            "shoesColor": 0,
+            "outfit": 0,
+            "headwear": 0
+          }
+        }
+      ],
+      "base": {
+        "items": [
+          {
+            "id": "legacy-sofa",
+            "type": "sofa",
+            "x": 1,
+            "y": 1,
+            "color": "#faf8f2",
+            "variant": "standard"
+          }
+        ],
+        "exterior_locked": true,
+        "exterior_color": "#112233",
+        "exterior_style": 0,
+        "wall_color": "#faf8f2",
+        "floor_color": "#141414",
+        "building_id": "base-1"
+      },
+      "is_leader": true
+    },
+    "active_base": null,
+    "leaderboard": [
+      {
+        "id": "parity-id-15",
+        "name": "Archive",
+        "color": "#ff8562",
+        "flag": "X",
+        "status": "archived",
+        "building_id": null,
+        "exterior_style": 0,
+        "exterior_color": "#faf8f2",
+        "exterior_locked": false,
+        "member_count": 0,
+        "score": 12.5,
+        "wins": 1
+      },
+      {
+        "id": "parity-id-13",
+        "name": "Zulu",
+        "color": "#112233",
+        "flag": "Z",
+        "status": "active",
+        "building_id": "base-1",
+        "exterior_style": 0,
+        "exterior_color": "#112233",
+        "exterior_locked": true,
+        "member_count": 4,
+        "score": 2.0,
+        "wins": 2
+      },
+      {
+        "id": "parity-id-14",
+        "name": "Alpha",
+        "color": "#abcdef",
+        "flag": "A",
+        "status": "active",
+        "building_id": "base-2",
+        "exterior_style": 2,
+        "exterior_color": "#abcdef",
+        "exterior_locked": true,
+        "member_count": 1,
+        "score": 0.3,
+        "wins": 1
+      }
+    ],
+    "max_online": 100,
+    "online_count": 10
+  }
+}

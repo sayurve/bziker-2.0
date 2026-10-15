@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "actorId": "human-female",
+  "gender": "female",
+  "status": "draft",
+  "mode": "legacy-composite",
+  "uniformScale": 0.10625,
+  "canvas": [48, 64],
+  "anchor": [24, 63],
+  "artReview": {"checked": false, "evidence": []},
+  "registrationPolicy": "Authored ground/root landmarks. Shared male/female art scale; female masters are shorter by design. No per-frame silhouette fitting.",
+  "poses": {
+    "down": {"file": "female-idle-down.png", "sourceAnchor": [575, 1247]},
+    "left": {"file": "female-idle-left-v2.png", "sourceAnchor": [550, 1344]},
+    "right": {"file": "female-idle-right.png", "sourceAnchor": [615, 1275]},
+    "up": {"file": "female-idle-up.png", "sourceAnchor": [535, 1300]}
+  }
+}

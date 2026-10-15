@@ -1,0 +1,268 @@
+{
+  "status": "approved",
+  "scope": "female four-direction idle/run face only; existing bodies unchanged",
+  "review": "verification/canonical-female-face-art-review-v29.md",
+  "sourceSHA256": "ab27a43b2f7d69122ad80d2726458e5c738196feee6c7b2c3f19d4aa0345f388",
+  "poses": [
+    {
+      "state": "idle",
+      "dir": "down",
+      "phase": 0,
+      "sourceBody": "art/drafts/locomotion-v27/standing-idle-shared-head-v2/female-down-body-fine.png",
+      "sourceBodySHA256": "8b4e78eaacabe12f9c3b07cfc1d45ced59ff1422d65fc8291b9c0cea41c688a1",
+      "translation": [
+        0,
+        8
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/canonical-idle-v2/female-down-fine.png"
+    },
+    {
+      "state": "idle",
+      "dir": "right",
+      "phase": 0,
+      "sourceBody": "art/drafts/locomotion-v27/standing-idle-shared-head-v2/female-right-body-fine.png",
+      "sourceBodySHA256": "994292586cf1d910dc3cd611f39c14a6f3676424b69c34007277e86fc7158f5d",
+      "translation": [
+        -4,
+        7
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/canonical-idle-v2/female-right-fine.png"
+    },
+    {
+      "state": "idle",
+      "dir": "up",
+      "phase": 0,
+      "sourceBody": "art/drafts/locomotion-v27/standing-idle-shared-head-v2/female-up-body-fine.png",
+      "sourceBodySHA256": "a014b888880ccc24ef122b5c04282832d292b094990e52b7bd45abd21af18c47",
+      "translation": [
+        0,
+        7
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/canonical-idle-v2/female-up-fine.png"
+    },
+    {
+      "state": "idle",
+      "dir": "left",
+      "phase": 0,
+      "sourceBody": "art/drafts/locomotion-v27/standing-idle-shared-head-v2/female-left-body-fine.png",
+      "sourceBodySHA256": "61445cc89809408bafd7fd5cc46e1915ce355ff26ee9faad5755a939a4c797a8",
+      "translation": [
+        1,
+        7
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/canonical-idle-v2/female-left-fine.png"
+    },
+    {
+      "state": "run",
+      "dir": "down",
+      "phase": 0,
+      "sourceBody": "art/drafts/locomotion-v27/female-frontback-shared-head/down-0-body.png",
+      "sourceBodySHA256": "6bd69da3fd73150f3accf3ec4ee6c103e53acd1bd0e7a6737e74a5d2a68a2ad6",
+      "translation": [
+        0,
+        7
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/locomotion-v27/female-down-0-fine.png"
+    },
+    {
+      "state": "run",
+      "dir": "down",
+      "phase": 1,
+      "sourceBody": "art/drafts/locomotion-v27/female-frontback-shared-head/down-1-body.png",
+      "sourceBodySHA256": "e69e94b604cdf07e7b7d73a54927475e40096a35cc843b002e9c227329a8a7c1",
+      "translation": [
+        0,
+        6
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/locomotion-v27/female-down-1-fine.png"
+    },
+    {
+      "state": "run",
+      "dir": "down",
+      "phase": 2,
+      "sourceBody": "art/drafts/locomotion-v27/female-frontback-shared-head/down-2-body.png",
+      "sourceBodySHA256": "fe485c3e24ee1361be11016dc98ea5d5778e28b361328a064ee1fe32c6cf7c6a",
+      "translation": [
+        0,
+        6
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/locomotion-v27/female-down-2-fine.png"
+    },
+    {
+      "state": "run",
+      "dir": "down",
+      "phase": 3,
+      "sourceBody": "art/drafts/locomotion-v27/female-frontback-shared-head/down-3-body.png",
+      "sourceBodySHA256": "487351bb44d5d2d994af4a35b0f9e82a4c75def975b965bbc1d826721c7c5eaf",
+      "translation": [
+        0,
+        6
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/locomotion-v27/female-down-3-fine.png"
+    },
+    {
+      "state": "run",
+      "dir": "right",
+      "phase": 0,
+      "sourceBody": "art/drafts/locomotion-v27/female-right-v3/native-head-composition/phase-0-body-below-neck-fine.png",
+      "sourceBodySHA256": "210383937f2f5e2fe47f1d745662c0d64a3933a952bc802b8d81ba6da37213a0",
+      "translation": [
+        0,
+        4
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/locomotion-v27/female-right-0-fine.png"
+    },
+    {
+      "state": "run",
+      "dir": "right",
+      "phase": 1,
+      "sourceBody": "art/drafts/locomotion-v27/female-right-v3/native-head-composition/phase-1-body-below-neck-fine.png",
+      "sourceBodySHA256": "51912c8bbc52b55198a584d7382fac08a5878a692778ac5bbabc6c0b612ecc79",
+      "translation": [
+        -3,
+        4
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/locomotion-v27/female-right-1-fine.png"
+    },
+    {
+      "state": "run",
+      "dir": "right",
+      "phase": 2,
+      "sourceBody": "art/drafts/locomotion-v27/female-right-v3/native-head-composition/phase-2-body-below-neck-fine.png",
+      "sourceBodySHA256": "fedf26b6478eb7a57226ce50967fcf90c9459e04f792b4e7ed2811e0a7f7c3f1",
+      "translation": [
+        0,
+        5
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/locomotion-v27/female-right-2-fine.png"
+    },
+    {
+      "state": "run",
+      "dir": "right",
+      "phase": 3,
+      "sourceBody": "art/drafts/locomotion-v27/female-right-v3/native-head-composition/phase-3-body-below-neck-fine.png",
+      "sourceBodySHA256": "591f9d781b859d52b24b05c32656171f698f34543f1b5ae4d0f411b6366b9d8c",
+      "translation": [
+        -1,
+        4
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/locomotion-v27/female-right-3-fine.png"
+    },
+    {
+      "state": "run",
+      "dir": "up",
+      "phase": 0,
+      "sourceBody": "art/drafts/locomotion-v27/female-up-v2/phase-0-body-below-neck-fine.png",
+      "sourceBodySHA256": "71080045a0aa3b2fa398ee4812c564917ee941109f8b1cd96f33449b7d79150d",
+      "translation": [
+        1,
+        5
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/locomotion-v27/female-up-0-fine.png"
+    },
+    {
+      "state": "run",
+      "dir": "up",
+      "phase": 1,
+      "sourceBody": "art/drafts/locomotion-v27/female-up-v2/phase-1-body-below-neck-fine.png",
+      "sourceBodySHA256": "107c80e51397f8cf2770d162378404df6aedb5b0c29260599c35da94daa6868b",
+      "translation": [
+        -1,
+        5
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/locomotion-v27/female-up-1-fine.png"
+    },
+    {
+      "state": "run",
+      "dir": "up",
+      "phase": 2,
+      "sourceBody": "art/drafts/locomotion-v27/female-up-v2/phase-2-body-below-neck-fine.png",
+      "sourceBodySHA256": "b00d5eb2b9ad1146f237d585327f68b9599a80c1f050ccc77e851a394719f928",
+      "translation": [
+        1,
+        5
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/locomotion-v27/female-up-2-fine.png"
+    },
+    {
+      "state": "run",
+      "dir": "up",
+      "phase": 3,
+      "sourceBody": "art/drafts/locomotion-v27/female-up-v2/phase-3-body-below-neck-fine.png",
+      "sourceBodySHA256": "3412f2ad02f200892af00b59eb4528f4d85985c4cb557c65cc4f0ddddce3ab62",
+      "translation": [
+        -1,
+        5
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/locomotion-v27/female-up-3-fine.png"
+    },
+    {
+      "state": "run",
+      "dir": "left",
+      "phase": 0,
+      "sourceBody": "art/drafts/locomotion-v27/female-left-v3/native-head-composition/phase-0-body-below-neck-fine.png",
+      "sourceBodySHA256": "785c511aedc0ed08f09d7f13ea271426b49bcc9f80a1f62a52cb046c8707248d",
+      "translation": [
+        4,
+        6
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/locomotion-v27/female-left-0-fine.png"
+    },
+    {
+      "state": "run",
+      "dir": "left",
+      "phase": 1,
+      "sourceBody": "art/drafts/locomotion-v27/female-left-v3/native-head-composition/phase-1-body-below-neck-fine.png",
+      "sourceBodySHA256": "e434256b291a705aadf80bc3073c6f26b49cbf604c85c3f14290853485d21a6c",
+      "translation": [
+        1,
+        6
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/locomotion-v27/female-left-1-fine.png"
+    },
+    {
+      "state": "run",
+      "dir": "left",
+      "phase": 2,
+      "sourceBody": "art/drafts/locomotion-v27/female-left-v3/native-head-composition/phase-2-body-below-neck-fine.png",
+      "sourceBodySHA256": "f31dddeb28ec0fb117f3bff94810af750ca94e8e32945095087864734a621a0a",
+      "translation": [
+        3,
+        6
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/locomotion-v27/female-left-2-fine.png"
+    },
+    {
+      "state": "run",
+      "dir": "left",
+      "phase": 3,
+      "sourceBody": "art/drafts/locomotion-v27/female-left-v3/native-head-composition/phase-3-body-below-neck-fine.png",
+      "sourceBodySHA256": "0b88d4675036eaf975442304c1e224e714a546efaddf6d8982446661b3256a28",
+      "translation": [
+        1,
+        6
+      ],
+      "bodyChangesBelow80": 0,
+      "output": "assets/locomotion-v27/female-left-3-fine.png"
+    }
+  ]
+}

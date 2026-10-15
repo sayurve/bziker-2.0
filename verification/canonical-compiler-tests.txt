@@ -1,0 +1,11 @@
+✔ canonical export rejects missing directions and per-frame fitting (1.082458ms)
+✔ exporting another model preserves the first model and its provenance (215.126541ms)
+✔ actual canonical masters export fixed canvases using one immutable model scale (54.948333ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 325.89825

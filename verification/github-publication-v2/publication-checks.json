@@ -1,0 +1,39 @@
+{
+  "result": "passed",
+  "scope": "independent byte integrity and public snapshot screening, not artistic approval",
+  "repository": "https://github.com/sayurve/bziker-2.0",
+  "materialsFiles": 331189,
+  "materialLogicalBytes": 16327102047,
+  "archiveCompressedBytes": 5427737084,
+  "parts": 6,
+  "uniquePayloads": 54885,
+  "hardlinkAliases": 276304,
+  "archiveChecks": {
+    "allPartSHA256": true,
+    "allUniquePayloadSHA256": true,
+    "embeddedManifestMatchesSource": true,
+    "gzipCRCAndEOF": true,
+    "noExtraDuplicateOrUnsafeTarPaths": true,
+    "allHardlinksTargetEarlierRegularEntries": true
+  },
+  "credentialScreening": {
+    "eligibleTextFiles": 107906,
+    "eligibleTextBytes": 835650798,
+    "highConfidencePatternMatches": 0,
+    "readErrors": 0,
+    "additionalCJSFiles": 17,
+    "zipTextEntries": 390,
+    "zipTextBytes": 2710595,
+    "gzipDecompressedBytes": 89281222,
+    "additionalPatternMatches": 0,
+    "secretValuesPrinted": false,
+    "note": "Pattern screening is scoped to supported high-confidence credential patterns; it is not proof that no sensitive information can exist."
+  },
+  "excludedFromPublicCopy": [
+    "actual data/bziker.db",
+    "private .env/key files",
+    "node_modules",
+    "Python caches"
+  ],
+  "sourceMaterialsWritesPerformed": false
+}

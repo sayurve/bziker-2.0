@@ -1,0 +1,25 @@
+import {createRequire} from 'node:module';
+import {writeFile} from 'node:fs/promises';
+import {fileURLToPath} from 'node:url';
+let native;
+try{native=createRequire(import.meta.url)('@napi-rs/canvas');}catch{native=createRequire(process.execPath)('@napi-rs/canvas');}
+const {createCanvas,loadImage}=native;
+globalThis.document={createElement:()=>createCanvas(1,1),querySelectorAll:()=>[]};
+const root=new URL('../../',import.meta.url),loader=url=>loadImage(fileURLToPath(new URL(url.replace(/^\//,''),root)));
+const {preloadDesignAssets}=await import('../../web/design-assets.js');
+const {sourceCityAssetIds,sourceParkedVehicleLayouts,isExactSourceCity,preloadExactSourceCity}=await import('../../web/source-city.js');
+const {preloadSourceWater,sourceBoatLayout}=await import('../../web/source-water.js');
+const {preloadSourceHouseMaterials}=await import('../../web/source-house-materials.js');
+const {preloadSupplementalEnvironment}=await import('../../web/supplemental-environment.js');
+const {drawBoat}=await import('../../web/waterfront.js');
+const {createCityArt,worldMap,districtHouses,houseObject,sortWorldDepth}=await import('../../web/world.js');
+if(isExactSourceCity(worldMap))await preloadExactSourceCity(loader,{createCanvas});
+await preloadDesignAssets([...sourceCityAssetIds,...sourceParkedVehicleLayouts(worldMap).map(car=>car.assetId),'welcome-source-sign'],loader);
+await preloadSourceWater(loader,{createCanvas});await preloadSourceHouseMaterials(loader,{createCanvas});
+await preloadSupplementalEnvironment(loader);
+const art=createCityArt(),scale=.2,output=createCanvas(worldMap.width*scale,worldMap.height*scale),c=output.getContext('2d');c.imageSmoothingEnabled=false;c.scale(scale,scale);
+art.drawGround(c,{x:0,y:0,width:worldMap.width,height:worldMap.height});
+const boats=isExactSourceCity(worldMap)?[]:worldMap.boats.flatMap(b=>[false,true].map(front=>({depth:b.y+(front?6:-2),bounds:sourceBoatLayout(b).bounds,draw:ctx=>drawBoat(ctx,b,0,front,true)})));
+for(const node of sortWorldDepth([...art.objects,...districtHouses.flatMap(h=>houseObject(h,null)),...boats]))node.draw(c,0);
+await writeFile(new URL('city-overview.png',import.meta.url),output.toBuffer('image/png'));
+console.log(JSON.stringify({width:output.width,height:output.height,objects:art.objects.length,buildings:worldMap.buildings.length+worldMap.background_buildings.length+districtHouses.length}));

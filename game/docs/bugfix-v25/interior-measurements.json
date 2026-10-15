@@ -1,0 +1,1169 @@
+[
+  {
+    "id": "railway",
+    "actorHeight": 80,
+    "wallBodyHeight": 176,
+    "backWallHeights": [
+      180.4,
+      180.4,
+      180.4
+    ],
+    "sidePanelHeights": [
+      221.375,
+      222.464
+    ],
+    "bounds": {
+      "left": 453.847525,
+      "right": 2042.152475,
+      "top": 289,
+      "bottom": 809
+    },
+    "mountedDetails": [
+      {
+        "id": "railway:source-detail:cash-sign",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 712.3046217835821,
+          "y": 172.885415,
+          "width": 179.9999984328358,
+          "height": 35.10917
+        }
+      },
+      {
+        "id": "railway:source-detail:departure-board",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1154.9376047037038,
+          "y": 155.44,
+          "width": 122.59259259259258,
+          "height": 70
+        }
+      },
+      {
+        "id": "railway:source-detail:clock",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1352.5643960628931,
+          "y": 167.797595,
+          "width": 44.99999987421384,
+          "height": 45.28481
+        }
+      },
+      {
+        "id": "railway:source-detail:platform-door",
+        "mounting": "floor",
+        "bounds": {
+          "x": 1726.2820300620156,
+          "y": 166,
+          "width": 187.015503875969,
+          "height": 125
+        }
+      },
+      {
+        "id": "railway:source-detail:platform-sign",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1744.7897822318841,
+          "y": 124.596591,
+          "width": 149.99999953623188,
+          "height": 29.403409
+        }
+      },
+      {
+        "id": "railway:source-detail:pendant-1",
+        "mounting": "ceiling",
+        "bounds": {
+          "x": 855.33901,
+          "y": 119.0000003811075,
+          "width": 150,
+          "height": 52.035830618892504
+        }
+      },
+      {
+        "id": "railway:source-detail:pendant-2",
+        "mounting": "ceiling",
+        "bounds": {
+          "x": 1490.66099,
+          "y": 119.0000003811075,
+          "width": 150,
+          "height": 52.035830618892504
+        }
+      },
+      {
+        "id": "railway:source-detail:wall-light-1",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 641.8475251533647,
+          "y": 155.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      },
+      {
+        "id": "railway:source-detail:wall-light-2",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1041.8475251533646,
+          "y": 155.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      },
+      {
+        "id": "railway:source-detail:wall-light-3",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1433.8475251533646,
+          "y": 155.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      },
+      {
+        "id": "railway:source-detail:wall-light-4",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1929.8475251533646,
+          "y": 155.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      }
+    ],
+    "people": [
+      {
+        "x": 1248,
+        "y": 764
+      },
+      {
+        "x": 473.847525,
+        "y": 509
+      }
+    ]
+  },
+  {
+    "id": "clans",
+    "actorHeight": 80,
+    "wallBodyHeight": 176,
+    "backWallHeights": [
+      176,
+      176
+    ],
+    "sidePanelHeights": [
+      221.375,
+      222.464
+    ],
+    "bounds": {
+      "left": 322.596026,
+      "right": 1353.403974,
+      "top": 276,
+      "bottom": 776
+    },
+    "mountedDetails": [
+      {
+        "id": "clans:source-detail:wall-light-1",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 438.5960261533647,
+          "y": 142.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      },
+      {
+        "id": "clans:source-detail:wall-light-2",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 702.5960261533646,
+          "y": 142.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      },
+      {
+        "id": "clans:source-detail:wall-light-3",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 958.5960261533646,
+          "y": 142.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      },
+      {
+        "id": "clans:source-detail:wall-light-4",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1214.5960261533646,
+          "y": 142.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      }
+    ],
+    "people": [
+      {
+        "x": 838,
+        "y": 731
+      },
+      {
+        "x": 342.596026,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "id": "arena",
+    "actorHeight": 80,
+    "wallBodyHeight": 176,
+    "backWallHeights": [
+      198.835443,
+      198.835443,
+      198.835443,
+      198.835443
+    ],
+    "sidePanelHeights": [
+      236.936864,
+      237.257951
+    ],
+    "bounds": {
+      "left": 420.238843,
+      "right": 1864.761157,
+      "top": 960,
+      "bottom": 1480
+    },
+    "mountedDetails": [
+      {
+        "id": "arena:source-detail:header",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1039.2660550458716,
+          "y": 826.44,
+          "width": 206.4678899082569,
+          "height": 70
+        }
+      },
+      {
+        "id": "arena:source-detail:selector-sign",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 735.259868,
+          "y": 841.19,
+          "width": 150,
+          "height": 40.5
+        }
+      },
+      {
+        "id": "arena:source-detail:overhead-light",
+        "mounting": "ceiling",
+        "bounds": {
+          "x": 1442.240132,
+          "y": 790.0000001473296,
+          "width": 65,
+          "height": 19.27255985267035
+        }
+      },
+      {
+        "id": "arena:source-detail:entry-door",
+        "mounting": "floor",
+        "bounds": {
+          "x": 414.74676800000003,
+          "y": 837.0000003909249,
+          "width": 126.545936,
+          "height": 124.99999960907505
+        }
+      },
+      {
+        "id": "arena:source-detail:backdrop-amber",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1680.308926,
+          "y": 832.3617392608696,
+          "width": 80,
+          "height": 58.15652173913043
+        }
+      },
+      {
+        "id": "arena:source-detail:wall-light-1",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 584.2388430482654,
+          "y": 826.44,
+          "width": 25.55052790346908,
+          "height": 70
+        }
+      },
+      {
+        "id": "arena:source-detail:wall-light-2",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 952.2388430482654,
+          "y": 826.44,
+          "width": 25.55052790346908,
+          "height": 70
+        }
+      },
+      {
+        "id": "arena:source-detail:wall-light-3",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1312.2388430482654,
+          "y": 826.44,
+          "width": 25.55052790346908,
+          "height": 70
+        }
+      },
+      {
+        "id": "arena:source-detail:wall-light-4",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1640.2388430482654,
+          "y": 826.44,
+          "width": 25.55052790346908,
+          "height": 70
+        }
+      }
+    ],
+    "people": [
+      {
+        "x": 1142.5,
+        "y": 1435
+      },
+      {
+        "x": 440.238843,
+        "y": 1180
+      }
+    ]
+  },
+  {
+    "id": "profile",
+    "actorHeight": 80,
+    "wallBodyHeight": 176,
+    "backWallHeights": [
+      227.096774,
+      227.096774
+    ],
+    "sidePanelHeights": [
+      269.465839,
+      339.926121
+    ],
+    "bounds": {
+      "left": 350.659851,
+      "right": 1500.340149,
+      "top": 295,
+      "bottom": 795
+    },
+    "mountedDetails": [
+      {
+        "id": "profile:source-detail:sign-clothes",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 480.595911,
+          "y": 173.69947543731777,
+          "width": 200,
+          "height": 45.481049562682216
+        }
+      },
+      {
+        "id": "profile:source-detail:sign-fitting",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1221.391301,
+          "y": 173.02982523847376,
+          "width": 190.00000000000003,
+          "height": 46.82034976152624
+        }
+      },
+      {
+        "id": "profile:source-detail:strip-light",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 820.5,
+          "y": 169.95851803703704,
+          "width": 210,
+          "height": 52.96296296296296
+        }
+      },
+      {
+        "id": "profile:source-detail:wall-light-1",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 434.6598517158837,
+          "y": 161.44,
+          "width": 28.501118568232663,
+          "height": 70
+        }
+      },
+      {
+        "id": "profile:source-detail:wall-light-2",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 770.6598517158836,
+          "y": 161.44,
+          "width": 28.501118568232663,
+          "height": 70
+        }
+      },
+      {
+        "id": "profile:source-detail:wall-light-3",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1058.6598517158836,
+          "y": 161.44,
+          "width": 28.501118568232663,
+          "height": 70
+        }
+      },
+      {
+        "id": "profile:source-detail:wall-light-4",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1426.6598517158836,
+          "y": 161.44,
+          "width": 28.501118568232663,
+          "height": 70
+        }
+      }
+    ],
+    "people": [
+      {
+        "x": 925.5,
+        "y": 750
+      },
+      {
+        "x": 370.659851,
+        "y": 515
+      }
+    ]
+  },
+  {
+    "id": "results",
+    "actorHeight": 80,
+    "wallBodyHeight": 176,
+    "backWallHeights": [
+      198.835443,
+      198.835443,
+      198.835443,
+      198.835443
+    ],
+    "sidePanelHeights": [
+      236.936864,
+      237.257951
+    ],
+    "bounds": {
+      "left": 420.238843,
+      "right": 1864.761157,
+      "top": 960,
+      "bottom": 1480
+    },
+    "mountedDetails": [
+      {
+        "id": "results:source-detail:header",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1039.2660550458716,
+          "y": 826.44,
+          "width": 206.4678899082569,
+          "height": 70
+        }
+      },
+      {
+        "id": "results:source-detail:selector-sign",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 735.259868,
+          "y": 841.19,
+          "width": 150,
+          "height": 40.5
+        }
+      },
+      {
+        "id": "results:source-detail:overhead-light",
+        "mounting": "ceiling",
+        "bounds": {
+          "x": 1442.240132,
+          "y": 790.0000001473296,
+          "width": 65,
+          "height": 19.27255985267035
+        }
+      },
+      {
+        "id": "results:source-detail:entry-door",
+        "mounting": "floor",
+        "bounds": {
+          "x": 414.74676800000003,
+          "y": 837.0000003909249,
+          "width": 126.545936,
+          "height": 124.99999960907505
+        }
+      },
+      {
+        "id": "results:source-detail:backdrop-amber",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1680.308926,
+          "y": 832.3617392608696,
+          "width": 80,
+          "height": 58.15652173913043
+        }
+      },
+      {
+        "id": "results:source-detail:wall-light-1",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 584.2388430482654,
+          "y": 826.44,
+          "width": 25.55052790346908,
+          "height": 70
+        }
+      },
+      {
+        "id": "results:source-detail:wall-light-2",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 952.2388430482654,
+          "y": 826.44,
+          "width": 25.55052790346908,
+          "height": 70
+        }
+      },
+      {
+        "id": "results:source-detail:wall-light-3",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1312.2388430482654,
+          "y": 826.44,
+          "width": 25.55052790346908,
+          "height": 70
+        }
+      },
+      {
+        "id": "results:source-detail:wall-light-4",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1640.2388430482654,
+          "y": 826.44,
+          "width": 25.55052790346908,
+          "height": 70
+        }
+      }
+    ],
+    "people": [
+      {
+        "x": 1142.5,
+        "y": 1435
+      },
+      {
+        "x": 440.238843,
+        "y": 1180
+      }
+    ]
+  },
+  {
+    "id": "messages",
+    "actorHeight": 80,
+    "wallBodyHeight": 176,
+    "backWallHeights": [
+      181.471503,
+      181.471503
+    ],
+    "sidePanelHeights": [
+      256.114695,
+      256.864865
+    ],
+    "bounds": {
+      "left": 324.414141,
+      "right": 1361.585859,
+      "top": 280,
+      "bottom": 780
+    },
+    "mountedDetails": [
+      {
+        "id": "messages:source-detail:bottle-shelf",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 468.0081335,
+          "y": 146.44000024396135,
+          "width": 106.937269,
+          "height": 69.99999975603865
+        }
+      },
+      {
+        "id": "messages:source-detail:window",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1072.799771,
+          "y": 146.44000008351648,
+          "width": 100.473186,
+          "height": 69.99999991648352
+        }
+      },
+      {
+        "id": "messages:source-detail:door",
+        "mounting": "floor",
+        "bounds": {
+          "x": 332.00095,
+          "y": 157.00000012355213,
+          "width": 47.056686,
+          "height": 124.99999987644787
+        }
+      },
+      {
+        "id": "messages:source-detail:sign",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 753.371717,
+          "y": 156.07556802623907,
+          "width": 200,
+          "height": 50.72886297376093
+        }
+      },
+      {
+        "id": "messages:source-detail:pendant",
+        "mounting": "ceiling",
+        "bounds": {
+          "x": 959.6279886346749,
+          "y": 110,
+          "width": 36.408668730650156,
+          "height": 70
+        }
+      },
+      {
+        "id": "messages:source-detail:wall-light-1",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 424.4141405,
+          "y": 146.44000124193548,
+          "width": 27.295597,
+          "height": 69.99999875806452
+        }
+      },
+      {
+        "id": "messages:source-detail:wall-light-2",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 696.4141405,
+          "y": 146.44000124193548,
+          "width": 27.295597,
+          "height": 69.99999875806452
+        }
+      },
+      {
+        "id": "messages:source-detail:wall-light-3",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1008.4141405,
+          "y": 146.44000124193548,
+          "width": 27.295597,
+          "height": 69.99999875806452
+        }
+      },
+      {
+        "id": "messages:source-detail:wall-light-4",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1216.4141405,
+          "y": 146.44000124193548,
+          "width": 27.295597,
+          "height": 69.99999875806452
+        }
+      }
+    ],
+    "people": [
+      {
+        "x": 843,
+        "y": 735
+      },
+      {
+        "x": 344.414141,
+        "y": 500
+      }
+    ]
+  },
+  {
+    "id": "terrace",
+    "actorHeight": 80,
+    "wallBodyHeight": 176,
+    "backWallHeights": [
+      176,
+      176,
+      176
+    ],
+    "sidePanelHeights": [
+      221.375,
+      222.464
+    ],
+    "bounds": {
+      "left": 318.166667,
+      "right": 1328.833333,
+      "top": 282,
+      "bottom": 782
+    },
+    "mountedDetails": [
+      {
+        "id": "terrace:source-detail:wall-light-1",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 434.16666715336464,
+          "y": 148.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      },
+      {
+        "id": "terrace:source-detail:wall-light-2",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 690.1666671533646,
+          "y": 148.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      },
+      {
+        "id": "terrace:source-detail:wall-light-3",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 938.1666671533646,
+          "y": 148.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      },
+      {
+        "id": "terrace:source-detail:wall-light-4",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1194.1666671533646,
+          "y": 148.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      }
+    ],
+    "people": [
+      {
+        "x": 823.5,
+        "y": 737
+      },
+      {
+        "x": 338.166667,
+        "y": 502
+      }
+    ]
+  },
+  {
+    "id": "shop-food",
+    "actorHeight": 80,
+    "wallBodyHeight": 176,
+    "backWallHeights": [
+      176,
+      176
+    ],
+    "sidePanelHeights": [
+      221.375,
+      222.464
+    ],
+    "bounds": {
+      "left": 322.596026,
+      "right": 1353.403974,
+      "top": 276,
+      "bottom": 776
+    },
+    "mountedDetails": [
+      {
+        "id": "shop-food:source-detail:wall-light-1",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 438.5960261533647,
+          "y": 142.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      },
+      {
+        "id": "shop-food:source-detail:wall-light-2",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 702.5960261533646,
+          "y": 142.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      },
+      {
+        "id": "shop-food:source-detail:wall-light-3",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 958.5960261533646,
+          "y": 142.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      },
+      {
+        "id": "shop-food:source-detail:wall-light-4",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1214.5960261533646,
+          "y": 142.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      }
+    ],
+    "people": [
+      {
+        "x": 838,
+        "y": 731
+      },
+      {
+        "x": 342.596026,
+        "y": 496
+      }
+    ]
+  },
+  {
+    "id": "shop-clothes",
+    "actorHeight": 80,
+    "wallBodyHeight": 176,
+    "backWallHeights": [
+      227.096774,
+      227.096774
+    ],
+    "sidePanelHeights": [
+      269.465839,
+      339.926121
+    ],
+    "bounds": {
+      "left": 350.659851,
+      "right": 1500.340149,
+      "top": 295,
+      "bottom": 795
+    },
+    "mountedDetails": [
+      {
+        "id": "shop-clothes:source-detail:sign-clothes",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 480.595911,
+          "y": 173.69947543731777,
+          "width": 200,
+          "height": 45.481049562682216
+        }
+      },
+      {
+        "id": "shop-clothes:source-detail:sign-fitting",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1221.391301,
+          "y": 173.02982523847376,
+          "width": 190.00000000000003,
+          "height": 46.82034976152624
+        }
+      },
+      {
+        "id": "shop-clothes:source-detail:strip-light",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 820.5,
+          "y": 169.95851803703704,
+          "width": 210,
+          "height": 52.96296296296296
+        }
+      },
+      {
+        "id": "shop-clothes:source-detail:wall-light-1",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 434.6598517158837,
+          "y": 161.44,
+          "width": 28.501118568232663,
+          "height": 70
+        }
+      },
+      {
+        "id": "shop-clothes:source-detail:wall-light-2",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 770.6598517158836,
+          "y": 161.44,
+          "width": 28.501118568232663,
+          "height": 70
+        }
+      },
+      {
+        "id": "shop-clothes:source-detail:wall-light-3",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1058.6598517158836,
+          "y": 161.44,
+          "width": 28.501118568232663,
+          "height": 70
+        }
+      },
+      {
+        "id": "shop-clothes:source-detail:wall-light-4",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1426.6598517158836,
+          "y": 161.44,
+          "width": 28.501118568232663,
+          "height": 70
+        }
+      }
+    ],
+    "people": [
+      {
+        "x": 925.5,
+        "y": 750
+      },
+      {
+        "x": 370.659851,
+        "y": 515
+      }
+    ]
+  },
+  {
+    "id": "shop-furniture",
+    "actorHeight": 80,
+    "wallBodyHeight": 176,
+    "backWallHeights": [
+      176,
+      176
+    ],
+    "sidePanelHeights": [
+      221.375,
+      222.464
+    ],
+    "bounds": {
+      "left": 324.10101,
+      "right": 1359.89899,
+      "top": 277,
+      "bottom": 777
+    },
+    "mountedDetails": [
+      {
+        "id": "shop-furniture:source-detail:wall-light-1",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 440.10101015336465,
+          "y": 143.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      },
+      {
+        "id": "shop-furniture:source-detail:wall-light-2",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 704.1010101533647,
+          "y": 143.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      },
+      {
+        "id": "shop-furniture:source-detail:wall-light-3",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 960.1010101533647,
+          "y": 143.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      },
+      {
+        "id": "shop-furniture:source-detail:wall-light-4",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1224.1010101533645,
+          "y": 143.44,
+          "width": 19.608763693270735,
+          "height": 70
+        }
+      }
+    ],
+    "people": [
+      {
+        "x": 842,
+        "y": 732
+      },
+      {
+        "x": 344.10101,
+        "y": 497
+      }
+    ]
+  },
+  {
+    "id": "casino",
+    "actorHeight": 80,
+    "wallBodyHeight": 176,
+    "backWallHeights": [
+      181.269461,
+      181.269461
+    ],
+    "sidePanelHeights": [
+      251.931429,
+      247.87988
+    ],
+    "bounds": {
+      "left": 381.302317,
+      "right": 1661.697683,
+      "top": 296,
+      "bottom": 836
+    },
+    "mountedDetails": [
+      {
+        "id": "casino:source-detail:cash-sign",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 439.341853,
+          "y": 182.82969633817703,
+          "width": 140,
+          "height": 29.220607661822985
+        }
+      },
+      {
+        "id": "casino:source-detail:shelf",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1441.9731936305222,
+          "y": 162.44,
+          "width": 106.54618473895582,
+          "height": 70
+        }
+      },
+      {
+        "id": "casino:source-detail:entry-door",
+        "mounting": "floor",
+        "bounds": {
+          "x": 397.119957,
+          "y": 173.00000173248407,
+          "width": 32.384488,
+          "height": 124.99999826751592
+        }
+      },
+      {
+        "id": "casino:source-detail:emblem",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 956.5,
+          "y": 177.62167513112166,
+          "width": 130,
+          "height": 39.636650868878355
+        }
+      },
+      {
+        "id": "casino:source-detail:chandelier-1",
+        "mounting": "ceiling",
+        "bounds": {
+          "x": 710.7718041929825,
+          "y": 126,
+          "width": 109.29824561403508,
+          "height": 70
+        }
+      },
+      {
+        "id": "casino:source-detail:chandelier-2",
+        "mounting": "ceiling",
+        "bounds": {
+          "x": 1222.9299501929825,
+          "y": 126,
+          "width": 109.29824561403508,
+          "height": 70
+        }
+      },
+      {
+        "id": "casino:source-detail:wall-light-1",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 593.302317,
+          "y": 162.44000019753088,
+          "width": 23.429751999999997,
+          "height": 69.99999980246913
+        }
+      },
+      {
+        "id": "casino:source-detail:wall-light-2",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 633.302317,
+          "y": 162.44000019753088,
+          "width": 23.429751999999997,
+          "height": 69.99999980246913
+        }
+      },
+      {
+        "id": "casino:source-detail:wall-light-3",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 833.302317,
+          "y": 162.44000019753088,
+          "width": 23.429751999999997,
+          "height": 69.99999980246913
+        }
+      },
+      {
+        "id": "casino:source-detail:wall-light-4",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 913.302317,
+          "y": 162.44000019753088,
+          "width": 23.429751999999997,
+          "height": 69.99999980246913
+        }
+      },
+      {
+        "id": "casino:source-detail:wall-light-5",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1105.302317,
+          "y": 162.44000019753088,
+          "width": 23.429751999999997,
+          "height": 69.99999980246913
+        }
+      },
+      {
+        "id": "casino:source-detail:wall-light-6",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1185.302317,
+          "y": 162.44000019753088,
+          "width": 23.429751999999997,
+          "height": 69.99999980246913
+        }
+      },
+      {
+        "id": "casino:source-detail:wall-light-7",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1401.302317,
+          "y": 162.44000019753088,
+          "width": 23.429751999999997,
+          "height": 69.99999980246913
+        }
+      },
+      {
+        "id": "casino:source-detail:wall-light-8",
+        "mounting": "wall-centre",
+        "bounds": {
+          "x": 1569.302317,
+          "y": 162.44000019753088,
+          "width": 23.429751999999997,
+          "height": 69.99999980246913
+        }
+      }
+    ],
+    "people": [
+      {
+        "x": 1021.5,
+        "y": 791
+      },
+      {
+        "x": 401.302317,
+        "y": 516
+      }
+    ]
+  }
+]

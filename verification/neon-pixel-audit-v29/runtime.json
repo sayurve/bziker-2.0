@@ -1,0 +1,4017 @@
+{
+  "points": 191,
+  "allExcluded": true,
+  "rows": [
+    {
+      "path": "game/assets/canonical-idle-v2/female-down-fine.png",
+      "frame": "canonical-idle-female-down",
+      "frameIndex": 0,
+      "x": 29,
+      "y": 28,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/canonical-idle-v2/female-down-fine.png",
+      "frame": "canonical-idle-female-down",
+      "frameIndex": 0,
+      "x": 27,
+      "y": 57,
+      "rgba": [
+        0,
+        255,
+        0,
+        1
+      ],
+      "color": "green",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/canonical-idle-v2/female-down-fine.png",
+      "frame": "canonical-idle-female-down",
+      "frameIndex": 0,
+      "x": 37,
+      "y": 100,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/canonical-idle-v2/female-right-fine.png",
+      "frame": "canonical-idle-female-right",
+      "frameIndex": 0,
+      "x": 34,
+      "y": 25,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/canonical-idle-v2/female-right-fine.png",
+      "frame": "canonical-idle-female-right",
+      "frameIndex": 0,
+      "x": 72,
+      "y": 40,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/canonical-idle-v2/female-right-fine.png",
+      "frame": "canonical-idle-female-right",
+      "frameIndex": 0,
+      "x": 36,
+      "y": 96,
+      "rgba": [
+        85,
+        85,
+        0,
+        3
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/canonical-idle-v2/female-up-fine.png",
+      "frame": "canonical-idle-female-up",
+      "frameIndex": 0,
+      "x": 33,
+      "y": 24,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/canonical-idle-v2/female-up-fine.png",
+      "frame": "canonical-idle-female-up",
+      "frameIndex": 0,
+      "x": 68,
+      "y": 28,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/canonical-idle-v2/female-up-fine.png",
+      "frame": "canonical-idle-female-up",
+      "frameIndex": 0,
+      "x": 68,
+      "y": 29,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/canonical-idle-v2/female-up-fine.png",
+      "frame": "canonical-idle-female-up",
+      "frameIndex": 0,
+      "x": 68,
+      "y": 46,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/canonical-idle-v2/female-up-fine.png",
+      "frame": "canonical-idle-female-up",
+      "frameIndex": 0,
+      "x": 27,
+      "y": 48,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/canonical-idle-v2/female-up-fine.png",
+      "frame": "canonical-idle-female-up",
+      "frameIndex": 0,
+      "x": 64,
+      "y": 88,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/canonical-idle-v2/female-left-fine.png",
+      "frame": "canonical-idle-female-left",
+      "frameIndex": 0,
+      "x": 24,
+      "y": 24,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/canonical-idle-v2/female-left-fine.png",
+      "frame": "canonical-idle-female-left",
+      "frameIndex": 0,
+      "x": 55,
+      "y": 26,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/canonical-idle-v2/female-left-fine.png",
+      "frame": "canonical-idle-female-left",
+      "frameIndex": 0,
+      "x": 60,
+      "y": 41,
+      "rgba": [
+        255,
+        255,
+        0,
+        1
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/canonical-idle-v2/female-left-fine.png",
+      "frame": "canonical-idle-female-left",
+      "frameIndex": 0,
+      "x": 19,
+      "y": 63,
+      "rgba": [
+        64,
+        64,
+        0,
+        4
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/canonical-idle-v2/female-left-fine.png",
+      "frame": "canonical-idle-female-left",
+      "frameIndex": 0,
+      "x": 39,
+      "y": 63,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/canonical-idle-v2/female-left-fine.png",
+      "frame": "canonical-idle-female-left",
+      "frameIndex": 0,
+      "x": 22,
+      "y": 66,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/canonical-idle-v2/female-left-fine.png",
+      "frame": "canonical-idle-female-left",
+      "frameIndex": 0,
+      "x": 23,
+      "y": 67,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-0-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 0,
+      "x": 38,
+      "y": 22,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-0-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 0,
+      "x": 76,
+      "y": 37,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-0-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 0,
+      "x": 43,
+      "y": 60,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-0-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 0,
+      "x": 58,
+      "y": 65,
+      "rgba": [
+        0,
+        85,
+        0,
+        3
+      ],
+      "color": "green",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-0-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 0,
+      "x": 66,
+      "y": 72,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-0-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 0,
+      "x": 63,
+      "y": 74,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-0-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 0,
+      "x": 26,
+      "y": 75,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-0-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 0,
+      "x": 23,
+      "y": 79,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-0-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 0,
+      "x": 34,
+      "y": 83,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-0-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 0,
+      "x": 73,
+      "y": 83,
+      "rgba": [
+        0,
+        255,
+        0,
+        1
+      ],
+      "color": "green",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-0-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 0,
+      "x": 31,
+      "y": 88,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-0-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 0,
+      "x": 48,
+      "y": 98,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-0-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 0,
+      "x": 71,
+      "y": 114,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-1-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 1,
+      "x": 35,
+      "y": 22,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-1-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 1,
+      "x": 73,
+      "y": 37,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-1-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 1,
+      "x": 55,
+      "y": 65,
+      "rgba": [
+        0,
+        85,
+        0,
+        3
+      ],
+      "color": "green",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-1-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 1,
+      "x": 64,
+      "y": 71,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-1-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 1,
+      "x": 65,
+      "y": 71,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-1-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 1,
+      "x": 72,
+      "y": 77,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-1-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 1,
+      "x": 72,
+      "y": 78,
+      "rgba": [
+        64,
+        64,
+        0,
+        4
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-1-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 1,
+      "x": 72,
+      "y": 80,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-1-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 1,
+      "x": 69,
+      "y": 83,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-1-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 1,
+      "x": 30,
+      "y": 86,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-1-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 1,
+      "x": 33,
+      "y": 91,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-2-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 2,
+      "x": 38,
+      "y": 23,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-2-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 2,
+      "x": 76,
+      "y": 38,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-2-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 2,
+      "x": 58,
+      "y": 66,
+      "rgba": [
+        0,
+        85,
+        0,
+        3
+      ],
+      "color": "green",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-2-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 2,
+      "x": 64,
+      "y": 74,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-2-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 2,
+      "x": 66,
+      "y": 74,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-2-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 2,
+      "x": 76,
+      "y": 74,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-2-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 2,
+      "x": 19,
+      "y": 83,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-2-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 2,
+      "x": 19,
+      "y": 110,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-3-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 3,
+      "x": 37,
+      "y": 22,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-3-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 3,
+      "x": 75,
+      "y": 37,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-3-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 3,
+      "x": 42,
+      "y": 60,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-3-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 3,
+      "x": 57,
+      "y": 65,
+      "rgba": [
+        0,
+        85,
+        0,
+        3
+      ],
+      "color": "green",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-3-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 3,
+      "x": 60,
+      "y": 70,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-3-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 3,
+      "x": 72,
+      "y": 70,
+      "rgba": [
+        128,
+        128,
+        0,
+        2
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-3-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 3,
+      "x": 61,
+      "y": 71,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-3-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 3,
+      "x": 62,
+      "y": 71,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-3-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 3,
+      "x": 63,
+      "y": 71,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-3-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 3,
+      "x": 61,
+      "y": 72,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-3-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 3,
+      "x": 74,
+      "y": 72,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-3-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 3,
+      "x": 74,
+      "y": 73,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-3-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 3,
+      "x": 74,
+      "y": 76,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-3-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 3,
+      "x": 74,
+      "y": 77,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-right-3-fine.png",
+      "frame": "locomotion-run-female-right",
+      "frameIndex": 3,
+      "x": 37,
+      "y": 82,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 27,
+      "y": 23,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 58,
+      "y": 25,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 63,
+      "y": 40,
+      "rgba": [
+        255,
+        255,
+        0,
+        1
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 22,
+      "y": 62,
+      "rgba": [
+        64,
+        64,
+        0,
+        4
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 42,
+      "y": 62,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 25,
+      "y": 65,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 26,
+      "y": 66,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 36,
+      "y": 70,
+      "rgba": [
+        85,
+        85,
+        0,
+        3
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 66,
+      "y": 71,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 35,
+      "y": 73,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 20,
+      "y": 74,
+      "rgba": [
+        64,
+        64,
+        0,
+        4
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 31,
+      "y": 75,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 32,
+      "y": 75,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 33,
+      "y": 75,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 18,
+      "y": 77,
+      "rgba": [
+        85,
+        85,
+        0,
+        3
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 18,
+      "y": 78,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 72,
+      "y": 78,
+      "rgba": [
+        255,
+        255,
+        0,
+        1
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 73,
+      "y": 78,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 18,
+      "y": 79,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 18,
+      "y": 80,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 19,
+      "y": 82,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 20,
+      "y": 83,
+      "rgba": [
+        85,
+        85,
+        0,
+        3
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 63,
+      "y": 86,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 64,
+      "y": 89,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 65,
+      "y": 89,
+      "rgba": [
+        85,
+        85,
+        0,
+        3
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-0-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 0,
+      "x": 76,
+      "y": 89,
+      "rgba": [
+        170,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-1-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 1,
+      "x": 24,
+      "y": 23,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-1-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 1,
+      "x": 55,
+      "y": 25,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-1-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 1,
+      "x": 60,
+      "y": 40,
+      "rgba": [
+        255,
+        255,
+        0,
+        1
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-1-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 1,
+      "x": 19,
+      "y": 62,
+      "rgba": [
+        64,
+        64,
+        0,
+        4
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-1-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 1,
+      "x": 39,
+      "y": 62,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-1-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 1,
+      "x": 22,
+      "y": 65,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-1-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 1,
+      "x": 23,
+      "y": 66,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-1-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 1,
+      "x": 65,
+      "y": 77,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-1-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 1,
+      "x": 28,
+      "y": 89,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-1-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 1,
+      "x": 57,
+      "y": 91,
+      "rgba": [
+        85,
+        0,
+        0,
+        6
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-1-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 1,
+      "x": 57,
+      "y": 92,
+      "rgba": [
+        85,
+        85,
+        0,
+        3
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-1-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 1,
+      "x": 29,
+      "y": 93,
+      "rgba": [
+        64,
+        64,
+        0,
+        4
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-1-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 1,
+      "x": 66,
+      "y": 93,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-2-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 2,
+      "x": 26,
+      "y": 23,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-2-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 2,
+      "x": 57,
+      "y": 25,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-2-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 2,
+      "x": 62,
+      "y": 40,
+      "rgba": [
+        255,
+        255,
+        0,
+        1
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-2-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 2,
+      "x": 21,
+      "y": 62,
+      "rgba": [
+        64,
+        64,
+        0,
+        4
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-2-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 2,
+      "x": 41,
+      "y": 62,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-2-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 2,
+      "x": 24,
+      "y": 65,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-2-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 2,
+      "x": 25,
+      "y": 66,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-2-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 2,
+      "x": 35,
+      "y": 69,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-2-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 2,
+      "x": 31,
+      "y": 70,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-2-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 2,
+      "x": 36,
+      "y": 71,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-2-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 2,
+      "x": 21,
+      "y": 72,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-2-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 2,
+      "x": 66,
+      "y": 72,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-2-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 2,
+      "x": 20,
+      "y": 79,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-3-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 3,
+      "x": 24,
+      "y": 23,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-3-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 3,
+      "x": 55,
+      "y": 25,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-3-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 3,
+      "x": 60,
+      "y": 40,
+      "rgba": [
+        255,
+        255,
+        0,
+        1
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-3-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 3,
+      "x": 19,
+      "y": 62,
+      "rgba": [
+        64,
+        64,
+        0,
+        4
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-3-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 3,
+      "x": 39,
+      "y": 62,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-3-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 3,
+      "x": 22,
+      "y": 65,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-3-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 3,
+      "x": 23,
+      "y": 66,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-3-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 3,
+      "x": 26,
+      "y": 70,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-3-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 3,
+      "x": 27,
+      "y": 70,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-3-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 3,
+      "x": 28,
+      "y": 70,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-3-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 3,
+      "x": 35,
+      "y": 71,
+      "rgba": [
+        0,
+        85,
+        0,
+        3
+      ],
+      "color": "green",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-3-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 3,
+      "x": 63,
+      "y": 71,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-3-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 3,
+      "x": 23,
+      "y": 82,
+      "rgba": [
+        128,
+        128,
+        0,
+        2
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-3-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 3,
+      "x": 70,
+      "y": 89,
+      "rgba": [
+        85,
+        85,
+        0,
+        3
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-left-3-fine.png",
+      "frame": "locomotion-run-female-left",
+      "frameIndex": 3,
+      "x": 29,
+      "y": 110,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-down-0-fine.png",
+      "frame": "locomotion-run-female-down",
+      "frameIndex": 0,
+      "x": 29,
+      "y": 27,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-down-0-fine.png",
+      "frame": "locomotion-run-female-down",
+      "frameIndex": 0,
+      "x": 27,
+      "y": 56,
+      "rgba": [
+        0,
+        255,
+        0,
+        1
+      ],
+      "color": "green",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-down-1-fine.png",
+      "frame": "locomotion-run-female-down",
+      "frameIndex": 1,
+      "x": 29,
+      "y": 26,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-down-1-fine.png",
+      "frame": "locomotion-run-female-down",
+      "frameIndex": 1,
+      "x": 27,
+      "y": 55,
+      "rgba": [
+        0,
+        255,
+        0,
+        1
+      ],
+      "color": "green",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-down-2-fine.png",
+      "frame": "locomotion-run-female-down",
+      "frameIndex": 2,
+      "x": 29,
+      "y": 26,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-down-2-fine.png",
+      "frame": "locomotion-run-female-down",
+      "frameIndex": 2,
+      "x": 27,
+      "y": 55,
+      "rgba": [
+        0,
+        255,
+        0,
+        1
+      ],
+      "color": "green",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-down-3-fine.png",
+      "frame": "locomotion-run-female-down",
+      "frameIndex": 3,
+      "x": 29,
+      "y": 26,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-down-3-fine.png",
+      "frame": "locomotion-run-female-down",
+      "frameIndex": 3,
+      "x": 27,
+      "y": 55,
+      "rgba": [
+        0,
+        255,
+        0,
+        1
+      ],
+      "color": "green",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-0-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 0,
+      "x": 34,
+      "y": 22,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-0-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 0,
+      "x": 69,
+      "y": 26,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-0-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 0,
+      "x": 69,
+      "y": 27,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-0-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 0,
+      "x": 69,
+      "y": 44,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-0-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 0,
+      "x": 28,
+      "y": 46,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-0-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 0,
+      "x": 36,
+      "y": 79,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-0-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 0,
+      "x": 37,
+      "y": 79,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-0-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 0,
+      "x": 33,
+      "y": 84,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-0-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 0,
+      "x": 24,
+      "y": 89,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-0-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 0,
+      "x": 26,
+      "y": 91,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-0-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 0,
+      "x": 31,
+      "y": 91,
+      "rgba": [
+        102,
+        0,
+        0,
+        5
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-1-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 1,
+      "x": 32,
+      "y": 22,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-1-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 1,
+      "x": 67,
+      "y": 26,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-1-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 1,
+      "x": 67,
+      "y": 27,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-1-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 1,
+      "x": 67,
+      "y": 44,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-1-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 1,
+      "x": 26,
+      "y": 46,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-1-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 1,
+      "x": 59,
+      "y": 79,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-1-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 1,
+      "x": 70,
+      "y": 88,
+      "rgba": [
+        128,
+        128,
+        0,
+        2
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-1-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 1,
+      "x": 71,
+      "y": 88,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-1-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 1,
+      "x": 66,
+      "y": 89,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-1-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 1,
+      "x": 37,
+      "y": 111,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-1-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 1,
+      "x": 37,
+      "y": 112,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-2-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 2,
+      "x": 34,
+      "y": 22,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-2-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 2,
+      "x": 69,
+      "y": 26,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-2-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 2,
+      "x": 69,
+      "y": 27,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-2-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 2,
+      "x": 69,
+      "y": 44,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-2-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 2,
+      "x": 28,
+      "y": 46,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-2-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 2,
+      "x": 31,
+      "y": 59,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-2-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 2,
+      "x": 65,
+      "y": 59,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-2-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 2,
+      "x": 63,
+      "y": 62,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-2-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 2,
+      "x": 30,
+      "y": 70,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-2-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 2,
+      "x": 34,
+      "y": 87,
+      "rgba": [
+        128,
+        0,
+        0,
+        2
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-2-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 2,
+      "x": 33,
+      "y": 89,
+      "rgba": [
+        0,
+        255,
+        0,
+        1
+      ],
+      "color": "green",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-2-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 2,
+      "x": 34,
+      "y": 89,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-2-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 2,
+      "x": 26,
+      "y": 91,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-2-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 2,
+      "x": 27,
+      "y": 91,
+      "rgba": [
+        102,
+        0,
+        0,
+        5
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-2-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 2,
+      "x": 31,
+      "y": 91,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-3-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 3,
+      "x": 32,
+      "y": 22,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-3-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 3,
+      "x": 67,
+      "y": 26,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-3-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 3,
+      "x": 67,
+      "y": 27,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-3-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 3,
+      "x": 67,
+      "y": 44,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-3-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 3,
+      "x": 26,
+      "y": 46,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-3-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 3,
+      "x": 27,
+      "y": 59,
+      "rgba": [
+        64,
+        0,
+        0,
+        4
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-3-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 3,
+      "x": 28,
+      "y": 59,
+      "rgba": [
+        64,
+        64,
+        0,
+        4
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-3-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 3,
+      "x": 29,
+      "y": 59,
+      "rgba": [
+        64,
+        64,
+        0,
+        4
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-3-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 3,
+      "x": 66,
+      "y": 59,
+      "rgba": [
+        64,
+        64,
+        0,
+        4
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-3-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 3,
+      "x": 66,
+      "y": 72,
+      "rgba": [
+        255,
+        0,
+        0,
+        1
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-3-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 3,
+      "x": 22,
+      "y": 84,
+      "rgba": [
+        85,
+        0,
+        0,
+        3
+      ],
+      "color": "red",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-3-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 3,
+      "x": 22,
+      "y": 85,
+      "rgba": [
+        64,
+        64,
+        0,
+        4
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    },
+    {
+      "path": "game/assets/locomotion-v27/female-up-3-fine.png",
+      "frame": "locomotion-run-female-up",
+      "frameIndex": 3,
+      "x": 24,
+      "y": 87,
+      "rgba": [
+        64,
+        64,
+        0,
+        4
+      ],
+      "color": "yellow",
+      "runtimeRGBA": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "excluded": true
+    }
+  ]
+}

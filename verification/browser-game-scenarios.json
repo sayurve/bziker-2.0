@@ -1,0 +1,47 @@
+{
+  "game": {
+    "documentWidth": 390,
+    "phone": {
+      "bottom": 844,
+      "left": 15,
+      "right": 375,
+      "top": 399.1015625
+    },
+    "renderers": [
+      {
+        "engineState": "scene-ready",
+        "phaserObjects": "11",
+        "phaserTextureBytes": "4608880",
+        "renderer": "Phaser 4.2.1"
+      }
+    ],
+    "width": 390
+  },
+  "labFinal": {
+    "anchor": "48,126",
+    "engine": "Phaser 4.2.1",
+    "frame": "2",
+    "gender": "0",
+    "layerCount": "1",
+    "mode": "legacy-composite",
+    "model": "lab-legacy-male",
+    "origin": "0.5,0.984375",
+    "outfit": "native",
+    "phase": "0.25",
+    "playing": "false",
+    "poseKey": "run/right/2",
+    "ready": "true",
+    "scale": "2",
+    "status": "draft",
+    "swapPreserved": "untried",
+    "texture": "bziker-character-lab-v1:0:native:run/right/2"
+  },
+  "console": [
+    {
+      "level": "error",
+      "message": "Error: Must set explicit renderType in custom environment\n    at t.exports (http://127.0.0.1:8796/web/vendor/phaser.min.js:1:76395)\n    at initialize.boot (http://127.0.0.1:8796/web/vendor/phaser.min.js:1:79903)\n    at t.exports (http://127.0.0.1:8796/web/vendor/phaser.min.js:1:145476)\n    at new initialize (http://127.0.0.1:8796/web/vendor/phaser.min.js:1:79771)\n    at startCharacterLab (http://127.0.0.1:8796/web/character-lab.js:106:13)\n    at http://127.0.0.1:8796/web/character-lab.js:113:95",
+      "timestamp": "2026-10-14T23:17:18.376Z",
+      "url": "http://127.0.0.1:8796/web/vendor/phaser.min.js"
+    }
+  ]
+}

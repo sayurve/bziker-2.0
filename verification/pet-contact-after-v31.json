@@ -1,0 +1,173 @@
+{
+  "breed": "dog-poodle-black",
+  "metrics": [
+    {
+      "progress": 0.01,
+      "hand": {
+        "x": 56.25,
+        "y": 100.625
+      },
+      "animal": {
+        "id": "park-dog",
+        "kind": "dog",
+        "x": 99.85510973936906,
+        "y": 125.02006172839505,
+        "facing": "left",
+        "walking": false,
+        "pet_contact_frame": 0
+      },
+      "contact": false,
+      "headSocket": [
+        27,
+        47
+      ]
+    },
+    {
+      "progress": 0.15,
+      "hand": {
+        "x": 56.25,
+        "y": 100.625
+      },
+      "animal": {
+        "id": "park-dog",
+        "kind": "dog",
+        "x": 84.95370370370381,
+        "y": 127.08333333333331,
+        "facing": "left",
+        "walking": false,
+        "pet_contact_frame": 0
+      },
+      "contact": false,
+      "headSocket": [
+        27,
+        47
+      ]
+    },
+    {
+      "progress": 0.22,
+      "hand": {
+        "x": 78.75,
+        "y": 111.25
+      },
+      "animal": {
+        "id": "park-dog",
+        "kind": "dog",
+        "x": 83.75,
+        "y": 127.25,
+        "facing": "left",
+        "walking": false,
+        "pet_contact_frame": 1
+      },
+      "contact": true,
+      "headSocket": [
+        27,
+        47
+      ]
+    },
+    {
+      "progress": 0.4,
+      "hand": {
+        "x": 79.375,
+        "y": 120
+      },
+      "animal": {
+        "id": "park-dog",
+        "kind": "dog",
+        "x": 84.375,
+        "y": 128,
+        "facing": "left",
+        "walking": false,
+        "pet_contact_frame": 2
+      },
+      "contact": true,
+      "headSocket": [
+        27,
+        55
+      ]
+    },
+    {
+      "progress": 0.56,
+      "hand": {
+        "x": 78.75,
+        "y": 111.25
+      },
+      "animal": {
+        "id": "park-dog",
+        "kind": "dog",
+        "x": 83.75,
+        "y": 127.25,
+        "facing": "left",
+        "walking": false,
+        "pet_contact_frame": 1
+      },
+      "contact": true,
+      "headSocket": [
+        27,
+        47
+      ]
+    },
+    {
+      "progress": 0.74,
+      "hand": {
+        "x": 79.375,
+        "y": 120
+      },
+      "animal": {
+        "id": "park-dog",
+        "kind": "dog",
+        "x": 84.375,
+        "y": 128,
+        "facing": "left",
+        "walking": false,
+        "pet_contact_frame": 2
+      },
+      "contact": true,
+      "headSocket": [
+        27,
+        55
+      ]
+    },
+    {
+      "progress": 0.88,
+      "hand": {
+        "x": 61.875,
+        "y": 91.25
+      },
+      "animal": {
+        "id": "park-dog",
+        "kind": "dog",
+        "x": 86.2890625000003,
+        "y": 126.89843749999996,
+        "facing": "left",
+        "walking": false,
+        "pet_contact_frame": 3
+      },
+      "contact": false,
+      "headSocket": [
+        27,
+        47
+      ]
+    },
+    {
+      "progress": 0.99,
+      "hand": {
+        "x": 61.875,
+        "y": 91.25
+      },
+      "animal": {
+        "id": "park-dog",
+        "kind": "dog",
+        "x": 99.81750488281257,
+        "y": 125.02526855468749,
+        "facing": "left",
+        "walking": false,
+        "pet_contact_frame": 3
+      },
+      "contact": false,
+      "headSocket": [
+        27,
+        47
+      ]
+    }
+  ]
+}

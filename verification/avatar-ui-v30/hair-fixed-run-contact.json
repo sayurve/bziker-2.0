@@ -1,0 +1,149 @@
+{
+  "status": "awaiting visual review",
+  "records": [
+    {
+      "file": "hair-fixed-run-down-0.jpg",
+      "sha256": "020865673122546d2aacc8a8dc87b8a50a6c34f11cca75c2cc722c62de7a6b4d",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "captureOrder": 0
+    },
+    {
+      "file": "hair-fixed-run-down-1.jpg",
+      "sha256": "34814673855fe4c21cf5817f81cbedf97ff57a3715a5aa3bb346c99285040ddb",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "captureOrder": 1
+    },
+    {
+      "file": "hair-fixed-run-down-2.jpg",
+      "sha256": "f54f35d1a6ba7ac1e0e6d82e66b9e15659234e593e42266bce09607a0fe7ac0a",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "captureOrder": 2
+    },
+    {
+      "file": "hair-fixed-run-right-0.jpg",
+      "sha256": "75e58e314e0e35d99988750f69a3bd2b6f896241d922f6d94f163c022aafcc2e",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "captureOrder": 0
+    },
+    {
+      "file": "hair-fixed-run-right-1.jpg",
+      "sha256": "0bacb5e95eacb8d0ca53c0c9f2d916fec88263a274553faa5d248f7c4da219f1",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "captureOrder": 1
+    },
+    {
+      "file": "hair-fixed-run-right-2.jpg",
+      "sha256": "8d713f41639dc8b802df20974fcdd6b22c7b1fbd4755a09deec2f62f2eab9ccb",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "captureOrder": 2
+    },
+    {
+      "file": "hair-fixed-run-up-0.jpg",
+      "sha256": "d320544c56b44a405cf80921b552d8f202ec7d86ee8d014d3c0d53c71db81c85",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "captureOrder": 0
+    },
+    {
+      "file": "hair-fixed-run-up-1.jpg",
+      "sha256": "57bb897261e569dc46f79f46dd7d88d91eb5ea8aeed6b3bfa41f2c67b4e6b73f",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "captureOrder": 1
+    },
+    {
+      "file": "hair-fixed-run-up-2.jpg",
+      "sha256": "8dac81cc689abc9d2285b790b0941f9b0bf4ef3d89735d1805aaa3ef87f3039a",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "captureOrder": 2
+    },
+    {
+      "file": "hair-fixed-run-left-0.jpg",
+      "sha256": "3e03f4c602f171dbd7a244817b350b26242d949b1088a4dc56503a5a9a3a3049",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "captureOrder": 0
+    },
+    {
+      "file": "hair-fixed-run-left-1.jpg",
+      "sha256": "1734e7c8593c4245ed6b7ecd2c5220fcd72a3c811bde574dcacb43fd6072e740",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "captureOrder": 1
+    },
+    {
+      "file": "hair-fixed-run-left-2.jpg",
+      "sha256": "d60ed7006b86ab20f200bdf2e1de77d8e9248c178d4eac66de8ca9f84ef1234d",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "captureOrder": 2
+    }
+  ]
+}

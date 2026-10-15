@@ -1,0 +1,10 @@
+Use case: identity-preserve.
+Asset type: ONE transparent pixel-art female idle sprite.
+
+Image1 female-idle-right.png is the MAIN EDIT TARGET and exact model/scale/identity master. Preserve this same woman, same large head size, same compact torso size, same waist and limb proportions, same wavy shoulder-length chestnut hair, same face, same grey jacket/light T-shirt/black trousers/dark flat boots, same pixel shading quality. Image2 female-run-left-native.png is ONLY supporting reference for how her actual LEFT-facing hair and identity read; do not copy its running pose or its frame scale. No male image or old thin idle is an input.
+
+Change only her facing direction from screen RIGHT to screen LEFT, drawing the real corresponding side rather than doing a mechanical horizontal mirror. Her nose, gaze, chest and boot toes now point LEFT. Keep a neutral upright IDLE: both arms relaxed down beside the hips and both boots planted close beside each other, no stride, bent running elbows, raised foot or body lean.
+
+CRITICAL INVARIANTS: keep the size and framing of Image1. On exactly the same 1150x1367 transparent canvas, preserve about960 source pixels of total figure height. Hair crown around y315, bottom soles around y1275, character horizontally centered around x575. Do not enlarge the woman to the taller earlier left view. Do not lengthen the legs or enlarge her head. Maintain image1's head-to-torso ratio and costume geometry, only reauthor her opposite direction. Entire hair and shoes visible.
+
+True alpha outside character, no floor, no shadow, no backdrop, no grid, no crosshair, no checkerboard, no text, no watermark. Exactly one sprite and one pose.

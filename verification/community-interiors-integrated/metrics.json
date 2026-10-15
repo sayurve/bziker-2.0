@@ -1,0 +1,586 @@
+[
+  {
+    "room": "clans",
+    "source": "integrated interiors-map.json",
+    "bounds": {
+      "left": 298.636424,
+      "right": 1226.363576,
+      "top": 261,
+      "bottom": 701
+    },
+    "props": 13,
+    "seats": 7,
+    "action": {
+      "id": "clans",
+      "label": "Управление кланом",
+      "prop_id": "service",
+      "x": 422.76685899999995,
+      "y": 361,
+      "radius": 110
+    },
+    "actors": [
+      {
+        "x": 762.5,
+        "y": 656,
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 0,
+          "hairColor": 0,
+          "shirtStyle": 2,
+          "shirtColor": 6,
+          "pantsStyle": 0,
+          "pantsColor": 1,
+          "accessory": 0,
+          "shoesColor": 0,
+          "headwear": 0,
+          "outfit": 0
+        },
+        "facing": "down",
+        "walking": false,
+        "name": "",
+        "id": "proof-0"
+      },
+      {
+        "x": 422.76685899999995,
+        "y": 361,
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 0,
+          "hairColor": 0,
+          "shirtStyle": 2,
+          "shirtColor": 6,
+          "pantsStyle": 0,
+          "pantsColor": 1,
+          "accessory": 0,
+          "shoesColor": 0,
+          "headwear": 0,
+          "outfit": 0
+        },
+        "facing": "down",
+        "walking": false,
+        "name": "",
+        "id": "proof-1"
+      },
+      {
+        "x": 756.5336135,
+        "y": 399,
+        "bench_id": "interior:clans:registry-seat",
+        "pose": "sit",
+        "phone_open": false,
+        "facing": "up",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 0,
+          "hairColor": 0,
+          "shirtStyle": 2,
+          "shirtColor": 6,
+          "pantsStyle": 0,
+          "pantsColor": 1,
+          "accessory": 0,
+          "shoesColor": 0,
+          "headwear": 0,
+          "outfit": 0
+        },
+        "walking": false,
+        "name": "",
+        "id": "proof-2"
+      },
+      {
+        "x": 947.5355505,
+        "y": 431,
+        "bench_id": "interior:clans:conference-table:north-1",
+        "pose": "sit",
+        "phone_open": true,
+        "facing": "down",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 0,
+          "hairColor": 0,
+          "shirtStyle": 2,
+          "shirtColor": 6,
+          "pantsStyle": 0,
+          "pantsColor": 1,
+          "accessory": 0,
+          "shoesColor": 0,
+          "headwear": 0,
+          "outfit": 0
+        },
+        "walking": false,
+        "name": "",
+        "id": "proof-3"
+      }
+    ],
+    "cameras": [
+      {
+        "canvas": [
+          390,
+          798
+        ],
+        "dpr": 1,
+        "view": {
+          "scale": 1,
+          "width": 390,
+          "height": 798,
+          "x": 568,
+          "y": 62
+        }
+      },
+      {
+        "canvas": [
+          1204,
+          880
+        ],
+        "dpr": 1,
+        "view": {
+          "scale": 1,
+          "width": 1204,
+          "height": 880,
+          "x": 160,
+          "y": 21
+        }
+      }
+    ]
+  },
+  {
+    "room": "arena",
+    "source": "integrated interiors-map.json",
+    "bounds": {
+      "left": 329.92562,
+      "right": 1392.07438,
+      "top": 748,
+      "bottom": 1088
+    },
+    "props": 7,
+    "seats": 4,
+    "action": {
+      "id": "games",
+      "label": "Выбрать или создать матч",
+      "prop_id": "service",
+      "x": 859.6307055,
+      "y": 846,
+      "radius": 110
+    },
+    "actors": [
+      {
+        "x": 861,
+        "y": 1043,
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 0,
+          "hairColor": 0,
+          "shirtStyle": 2,
+          "shirtColor": 6,
+          "pantsStyle": 0,
+          "pantsColor": 1,
+          "accessory": 0,
+          "shoesColor": 0,
+          "headwear": 0,
+          "outfit": 0
+        },
+        "facing": "down",
+        "walking": false,
+        "name": "",
+        "id": "proof-0"
+      },
+      {
+        "x": 859.6307055,
+        "y": 846,
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 0,
+          "hairColor": 0,
+          "shirtStyle": 2,
+          "shirtColor": 6,
+          "pantsStyle": 0,
+          "pantsColor": 1,
+          "accessory": 0,
+          "shoesColor": 0,
+          "headwear": 0,
+          "outfit": 0
+        },
+        "facing": "down",
+        "walking": false,
+        "name": "",
+        "id": "proof-1"
+      },
+      {
+        "x": 461.1915775,
+        "y": 991,
+        "bench_id": "interior:arena:spectator-blue:seat-1",
+        "pose": "sit",
+        "phone_open": false,
+        "facing": "up",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 0,
+          "hairColor": 0,
+          "shirtStyle": 2,
+          "shirtColor": 6,
+          "pantsStyle": 0,
+          "pantsColor": 1,
+          "accessory": 0,
+          "shoesColor": 0,
+          "headwear": 0,
+          "outfit": 0
+        },
+        "walking": false,
+        "name": "",
+        "id": "proof-2"
+      },
+      {
+        "x": 533.7234925,
+        "y": 991,
+        "bench_id": "interior:arena:spectator-blue:seat-2",
+        "pose": "sit",
+        "phone_open": true,
+        "facing": "up",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 0,
+          "hairColor": 0,
+          "shirtStyle": 2,
+          "shirtColor": 6,
+          "pantsStyle": 0,
+          "pantsColor": 1,
+          "accessory": 0,
+          "shoesColor": 0,
+          "headwear": 0,
+          "outfit": 0
+        },
+        "walking": false,
+        "name": "",
+        "id": "proof-3"
+      }
+    ],
+    "cameras": [
+      {
+        "canvas": [
+          390,
+          798
+        ],
+        "dpr": 1,
+        "view": {
+          "scale": 1,
+          "width": 390,
+          "height": 798,
+          "x": 666,
+          "y": 499
+        }
+      },
+      {
+        "canvas": [
+          1204,
+          880
+        ],
+        "dpr": 1,
+        "view": {
+          "scale": 1,
+          "width": 1204,
+          "height": 880,
+          "x": 259,
+          "y": 458
+        }
+      }
+    ]
+  },
+  {
+    "room": "results",
+    "source": "integrated interiors-map.json",
+    "bounds": {
+      "left": 300.154545,
+      "right": 1234.845455,
+      "top": 678,
+      "bottom": 958
+    },
+    "props": 8,
+    "seats": 4,
+    "action": {
+      "id": "results",
+      "label": "Рейтинг и результаты",
+      "prop_id": "service",
+      "x": 419.131379,
+      "y": 783,
+      "radius": 110
+    },
+    "actors": [
+      {
+        "x": 767.5,
+        "y": 913,
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 0,
+          "hairColor": 0,
+          "shirtStyle": 2,
+          "shirtColor": 6,
+          "pantsStyle": 0,
+          "pantsColor": 1,
+          "accessory": 0,
+          "shoesColor": 0,
+          "headwear": 0,
+          "outfit": 0
+        },
+        "facing": "down",
+        "walking": false,
+        "name": "",
+        "id": "proof-0"
+      },
+      {
+        "x": 419.131379,
+        "y": 783,
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 0,
+          "hairColor": 0,
+          "shirtStyle": 2,
+          "shirtColor": 6,
+          "pantsStyle": 0,
+          "pantsColor": 1,
+          "accessory": 0,
+          "shoesColor": 0,
+          "headwear": 0,
+          "outfit": 0
+        },
+        "facing": "down",
+        "walking": false,
+        "name": "",
+        "id": "proof-1"
+      },
+      {
+        "x": 401.4205025,
+        "y": 871,
+        "bench_id": "interior:results:gallery-seat-left:seat-1",
+        "pose": "sit",
+        "phone_open": false,
+        "facing": "up",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 0,
+          "hairColor": 0,
+          "shirtStyle": 2,
+          "shirtColor": 6,
+          "pantsStyle": 0,
+          "pantsColor": 1,
+          "accessory": 0,
+          "shoesColor": 0,
+          "headwear": 0,
+          "outfit": 0
+        },
+        "walking": false,
+        "name": "",
+        "id": "proof-2"
+      },
+      {
+        "x": 473.95241749999997,
+        "y": 871,
+        "bench_id": "interior:results:gallery-seat-left:seat-2",
+        "pose": "sit",
+        "phone_open": true,
+        "facing": "up",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 0,
+          "hairColor": 0,
+          "shirtStyle": 2,
+          "shirtColor": 6,
+          "pantsStyle": 0,
+          "pantsColor": 1,
+          "accessory": 0,
+          "shoesColor": 0,
+          "headwear": 0,
+          "outfit": 0
+        },
+        "walking": false,
+        "name": "",
+        "id": "proof-3"
+      }
+    ],
+    "cameras": [
+      {
+        "canvas": [
+          390,
+          798
+        ],
+        "dpr": 1,
+        "view": {
+          "scale": 1,
+          "width": 390,
+          "height": 798,
+          "x": 573,
+          "y": 399
+        }
+      },
+      {
+        "canvas": [
+          1204,
+          880
+        ],
+        "dpr": 1,
+        "view": {
+          "scale": 1,
+          "width": 1204,
+          "height": 880,
+          "x": 164,
+          "y": 358
+        }
+      }
+    ]
+  },
+  {
+    "room": "terrace",
+    "source": "integrated interiors-map.json",
+    "bounds": {
+      "left": 294.2,
+      "right": 1203.8,
+      "top": 337,
+      "bottom": 777
+    },
+    "props": 15,
+    "seats": 10,
+    "action": {
+      "id": "messages",
+      "label": "Открыть сообщения",
+      "prop_id": "service",
+      "x": 748.4941635,
+      "y": 437,
+      "radius": 110
+    },
+    "actors": [
+      {
+        "x": 749,
+        "y": 732,
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 0,
+          "hairColor": 0,
+          "shirtStyle": 2,
+          "shirtColor": 6,
+          "pantsStyle": 0,
+          "pantsColor": 1,
+          "accessory": 0,
+          "shoesColor": 0,
+          "headwear": 0,
+          "outfit": 0
+        },
+        "facing": "down",
+        "walking": false,
+        "name": "",
+        "id": "proof-0"
+      },
+      {
+        "x": 748.4941635,
+        "y": 437,
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 0,
+          "hairColor": 0,
+          "shirtStyle": 2,
+          "shirtColor": 6,
+          "pantsStyle": 0,
+          "pantsColor": 1,
+          "accessory": 0,
+          "shoesColor": 0,
+          "headwear": 0,
+          "outfit": 0
+        },
+        "facing": "down",
+        "walking": false,
+        "name": "",
+        "id": "proof-1"
+      },
+      {
+        "x": 1018.8697209999999,
+        "y": 395,
+        "bench_id": "interior:terrace:reading-sofa:seat-1",
+        "pose": "sit",
+        "phone_open": false,
+        "facing": "down",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 0,
+          "hairColor": 0,
+          "shirtStyle": 2,
+          "shirtColor": 6,
+          "pantsStyle": 0,
+          "pantsColor": 1,
+          "accessory": 0,
+          "shoesColor": 0,
+          "headwear": 0,
+          "outfit": 0
+        },
+        "walking": false,
+        "name": "",
+        "id": "proof-2"
+      },
+      {
+        "x": 1089.009163,
+        "y": 395,
+        "bench_id": "interior:terrace:reading-sofa:seat-2",
+        "pose": "sit",
+        "phone_open": true,
+        "facing": "down",
+        "avatar": {
+          "gender": 0,
+          "skin": 0,
+          "hairStyle": 0,
+          "hairColor": 0,
+          "shirtStyle": 2,
+          "shirtColor": 6,
+          "pantsStyle": 0,
+          "pantsColor": 1,
+          "accessory": 0,
+          "shoesColor": 0,
+          "headwear": 0,
+          "outfit": 0
+        },
+        "walking": false,
+        "name": "",
+        "id": "proof-3"
+      }
+    ],
+    "cameras": [
+      {
+        "canvas": [
+          390,
+          798
+        ],
+        "dpr": 1,
+        "view": {
+          "scale": 1,
+          "width": 390,
+          "height": 798,
+          "x": 554,
+          "y": 138
+        }
+      },
+      {
+        "canvas": [
+          1204,
+          880
+        ],
+        "dpr": 1,
+        "view": {
+          "scale": 1,
+          "width": 1204,
+          "height": 880,
+          "x": 147,
+          "y": 97
+        }
+      }
+    ]
+  }
+]

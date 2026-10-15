@@ -1,0 +1,257 @@
+{
+  "purpose": "actual UI QA montage only; no game raster edited",
+  "files": [
+    {
+      "file": "final-female-down-00.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "b609aa0a8b7f36d5d057eaae92b77230914a0af3d8f01cf7029332d1ace78b5b"
+    },
+    {
+      "file": "final-female-down-01.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "777c2aa4bf0444b76ce0e56108ea795a5bfbf83d6fedf918bd04bc498dd8ea4b"
+    },
+    {
+      "file": "final-female-down-02.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "b4b18fed10464356dc62e950aa44cbba6fbcfba62ba606902195620c343ad06e"
+    },
+    {
+      "file": "final-female-down-03.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "34b340e245f392a6c10b15393e833af15afb9067ea2554f064bd995a85460781"
+    },
+    {
+      "file": "final-female-down-04.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "d01c5dff9498c7945ee80cb73dbfbf07a9f35d03e1aed6b8872fd56c67819020"
+    },
+    {
+      "file": "final-female-down-05.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "01e7297a493038349d4716463dd943efbf3bf54b8133cfef6ec1caa6a95f8d05"
+    },
+    {
+      "file": "final-female-down-06.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "2f06ff41519b17cb6fce95d46f989b1a209790248bca4f75775039ba0e928253"
+    },
+    {
+      "file": "final-female-down-07.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "10e0478a8a24f5760f1862272f54242b3f27613855b9a180691b85251eb0420e"
+    },
+    {
+      "file": "final-female-down-08.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "622f943accdf3f589f3eb5ceff6ed41f491e7e43f095b3a25bac5090c2725ab8"
+    },
+    {
+      "file": "final-female-down-09.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "563ee6eb0d7b011e6a78f4fcb155d19fdb85a36b47db8f69d2e76e0de07a8aa3"
+    },
+    {
+      "file": "final-female-down-10.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "8fce19824a6a8a861fcbaf83d27f3ef6cdb3e86d75171b0b5cb5c149de2fe52c"
+    },
+    {
+      "file": "final-female-down-11.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "4860aee4f56b6193a6f1ef5c203e85f7a01d35d3e847fc91b63e5dc1346cd68b"
+    },
+    {
+      "file": "final-female-down-12.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "c7bf46bd7b0234fbdf44edd356152247328be1eb4f11d6d131edadb1413dda21"
+    },
+    {
+      "file": "final-female-down-13.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "676adccc6cb4db645db39a28d3116ce5d0f4a2cd408f538e83deec4c6fd28b07"
+    },
+    {
+      "file": "final-female-down-14.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "f0547ea4249c10c81d49935811c6dd329f44c6a33a7c5a8fef9a3481bb2496fa"
+    },
+    {
+      "file": "final-female-down-15.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "03f70628b006bfab14dd5ed0844fca3a3e9ee4567f8ec1ac1d7288ba2cfb8d32"
+    },
+    {
+      "file": "final-female-down-16.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "13d2606071476c11c0cf6437890f88ea4518f11f101c9fe3169e85a7fe0abf59"
+    },
+    {
+      "file": "final-female-down-17.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "df72dac5650d0ce859d10fea928880dd788109c255e0eec57fa74c89e7679911"
+    }
+  ]
+}

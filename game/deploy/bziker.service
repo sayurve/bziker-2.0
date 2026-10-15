@@ -1,0 +1,22 @@
+[Unit]
+Description=Bziker browser game
+After=network.target
+
+[Service]
+Type=simple
+User=bziker
+Group=bziker
+WorkingDirectory=/opt/bziker
+EnvironmentFile=/etc/bziker/bziker.env
+ExecStart=/usr/bin/python3 /opt/bziker/server.py --db /var/lib/bziker/game.db
+Restart=on-failure
+RestartSec=3
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/bziker
+
+[Install]
+WantedBy=multi-user.target

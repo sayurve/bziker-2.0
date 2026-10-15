@@ -1,0 +1,935 @@
+{
+  "status": "manually-measured-existing-native-art",
+  "scope": "whole-animal world registration only; no new pose or modified source PNG",
+  "contacts": [
+    "verification/pet-dog-native-reaction-v31.png",
+    "verification/pet-cat-native-reaction-v31.png",
+    "verification/pet-contact-after-v31.png"
+  ],
+  "runtimeHashes": {
+    "world": "f285df4235fae25989177e4ff5f9bf9ada6027afea880f1986d15241710a7a09",
+    "sourceActors": "e8b28698806865f0e1a298c00148fffe2115fc818efc799936ff8bd40afc1a8e"
+  },
+  "breeds": {
+    "cat-british-black": {
+      "sourceKey": "03_Животные/Кошки/Британская_короткошёрстная/Чёрный/Анимации/каталог_анимаций.json#16_Потягивается",
+      "sourceSequence": "16_Потягивается",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            48
+          ],
+          "sourceAtlas": "assets/design-actor-base-cat-british-black-1.png",
+          "sourceAtlasSHA256": "d4e8e9a74cf9d5bf28911d5b3c01a3671be69396432d9ffa6caab42c7472f5bc",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            56
+          ],
+          "sourceAtlas": "assets/design-actor-base-cat-british-black-1.png",
+          "sourceAtlasSHA256": "d4e8e9a74cf9d5bf28911d5b3c01a3671be69396432d9ffa6caab42c7472f5bc",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    },
+    "cat-british-blue": {
+      "sourceKey": "03_Животные/Кошки/Британская_короткошёрстная/Голубой/Анимации/каталог_анимаций.json#16_Потягивается",
+      "sourceSequence": "16_Потягивается",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            48
+          ],
+          "sourceAtlas": "assets/design-actor-base-cat-british-blue-1.png",
+          "sourceAtlasSHA256": "b276619adf421162e54994b8bd3521bf68445568b7453b279bc7be5abd19acd5",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            56
+          ],
+          "sourceAtlas": "assets/design-actor-base-cat-british-blue-1.png",
+          "sourceAtlasSHA256": "b276619adf421162e54994b8bd3521bf68445568b7453b279bc7be5abd19acd5",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    },
+    "cat-british-cream": {
+      "sourceKey": "03_Животные/Кошки/Британская_короткошёрстная/Кремовый/Анимации/каталог_анимаций.json#16_Потягивается",
+      "sourceSequence": "16_Потягивается",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            49
+          ],
+          "sourceAtlas": "assets/design-actor-base-cat-british-cream-1.png",
+          "sourceAtlasSHA256": "605ca14636ab1b1dce05c0ed106fccbc5ee4c4d2fe0ac63ad7751a849f156e8d",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            57
+          ],
+          "sourceAtlas": "assets/design-actor-base-cat-british-cream-1.png",
+          "sourceAtlasSHA256": "605ca14636ab1b1dce05c0ed106fccbc5ee4c4d2fe0ac63ad7751a849f156e8d",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    },
+    "cat-british-silver-tabby": {
+      "sourceKey": "03_Животные/Кошки/Британская_короткошёрстная/Серебристый_полосатый/Анимации/каталог_анимаций.json#16_Потягивается",
+      "sourceSequence": "16_Потягивается",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            48
+          ],
+          "sourceAtlas": "assets/design-actor-base-cat-british-silver-tabby-1.png",
+          "sourceAtlasSHA256": "8cf1e6b2871786979e5b1103ca4c9f72ac4a2f2972458cbedbfd24a8a579fe0d",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            56
+          ],
+          "sourceAtlas": "assets/design-actor-base-cat-british-silver-tabby-1.png",
+          "sourceAtlasSHA256": "8cf1e6b2871786979e5b1103ca4c9f72ac4a2f2972458cbedbfd24a8a579fe0d",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    },
+    "cat-maine-coon-brown-tabby": {
+      "sourceKey": "03_Животные/Кошки/Мейн_кун/Коричневый_полосатый/Анимации/каталог_анимаций.json#16_Потягивается",
+      "sourceSequence": "16_Потягивается",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            48
+          ],
+          "sourceAtlas": "assets/design-actor-base-cat-maine-coon-brown-tabby-1.png",
+          "sourceAtlasSHA256": "7da8c895ce65134e46ab3114668797b408519ac75e06861057cbf2d03afae346",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            56
+          ],
+          "sourceAtlas": "assets/design-actor-base-cat-maine-coon-brown-tabby-1.png",
+          "sourceAtlasSHA256": "7da8c895ce65134e46ab3114668797b408519ac75e06861057cbf2d03afae346",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    },
+    "cat-maine-coon-red-tabby": {
+      "sourceKey": "03_Животные/Кошки/Мейн_кун/Рыжий_полосатый/Анимации/каталог_анимаций.json#16_Потягивается",
+      "sourceSequence": "16_Потягивается",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            48
+          ],
+          "sourceAtlas": "assets/design-actor-base-cat-maine-coon-red-tabby-1.png",
+          "sourceAtlasSHA256": "194341bc3fec6d322b8b62adf2df438aa9156b40280ff43883059f3f2b2106d0",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            56
+          ],
+          "sourceAtlas": "assets/design-actor-base-cat-maine-coon-red-tabby-1.png",
+          "sourceAtlasSHA256": "194341bc3fec6d322b8b62adf2df438aa9156b40280ff43883059f3f2b2106d0",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    },
+    "cat-maine-coon-silver-tabby": {
+      "sourceKey": "03_Животные/Кошки/Мейн_кун/Серебристый_полосатый/Анимации/каталог_анимаций.json#16_Потягивается",
+      "sourceSequence": "16_Потягивается",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            48
+          ],
+          "sourceAtlas": "assets/design-actor-base-cat-maine-coon-silver-tabby-1.png",
+          "sourceAtlasSHA256": "b9f08e0ac737c63f0b9d799c2314b4b6003687de9966a6374906fb0d6f2672bd",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            56
+          ],
+          "sourceAtlas": "assets/design-actor-base-cat-maine-coon-silver-tabby-1.png",
+          "sourceAtlasSHA256": "b9f08e0ac737c63f0b9d799c2314b4b6003687de9966a6374906fb0d6f2672bd",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    },
+    "cat-maine-coon-tortoiseshell": {
+      "sourceKey": "03_Животные/Кошки/Мейн_кун/Черепаховый/Анимации/каталог_анимаций.json#16_Потягивается",
+      "sourceSequence": "16_Потягивается",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            48
+          ],
+          "sourceAtlas": "assets/design-actor-base-cat-maine-coon-tortoiseshell-1.png",
+          "sourceAtlasSHA256": "c1462a0de854e0f6d9095ec49ca46df8d1debc6acd035ada653fd908d899c960",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            56
+          ],
+          "sourceAtlas": "assets/design-actor-base-cat-maine-coon-tortoiseshell-1.png",
+          "sourceAtlasSHA256": "c1462a0de854e0f6d9095ec49ca46df8d1debc6acd035ada653fd908d899c960",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    },
+    "dog-corgi-red-white": {
+      "sourceKey": "03_Животные/Собаки/Корги/Рыже_белый/Анимации/каталог_анимаций.json#16_Играет",
+      "sourceSequence": "16_Играет",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            47
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-corgi-red-white-1.png",
+          "sourceAtlasSHA256": "fe16e8e91b965f8b44b423f94454155c051112956f4e9ffc48ef67271bfb481e",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            55
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-corgi-red-white-1.png",
+          "sourceAtlasSHA256": "fe16e8e91b965f8b44b423f94454155c051112956f4e9ffc48ef67271bfb481e",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    },
+    "dog-corgi-sable-white": {
+      "sourceKey": "03_Животные/Собаки/Корги/Соболино_белый/Анимации/каталог_анимаций.json#16_Играет",
+      "sourceSequence": "16_Играет",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            49
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-corgi-sable-white-1.png",
+          "sourceAtlasSHA256": "053635ab509dda99434fa72f17573bd052da592fb8c0b3ca7dd50fb5d46be1c2",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            57
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-corgi-sable-white-1.png",
+          "sourceAtlasSHA256": "053635ab509dda99434fa72f17573bd052da592fb8c0b3ca7dd50fb5d46be1c2",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    },
+    "dog-corgi-tricolor": {
+      "sourceKey": "03_Животные/Собаки/Корги/Трёхцветный/Анимации/каталог_анимаций.json#16_Играет",
+      "sourceSequence": "16_Играет",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            49
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-corgi-tricolor-1.png",
+          "sourceAtlasSHA256": "be3a6e7733849b2abe060660896abb1981ca2b3501ab5a05159c35eeae7d1d23",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            57
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-corgi-tricolor-1.png",
+          "sourceAtlasSHA256": "be3a6e7733849b2abe060660896abb1981ca2b3501ab5a05159c35eeae7d1d23",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    },
+    "dog-german-shepherd-black": {
+      "sourceKey": "03_Животные/Собаки/Немецкая_овчарка/Чёрный/Анимации/каталог_анимаций.json#16_Играет",
+      "sourceSequence": "16_Играет",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            47
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-german-shepherd-black-1.png",
+          "sourceAtlasSHA256": "edc6a0851244310961fc770894e70275498cb43839df2845fbf125caf93ab10e",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            55
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-german-shepherd-black-1.png",
+          "sourceAtlasSHA256": "edc6a0851244310961fc770894e70275498cb43839df2845fbf125caf93ab10e",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    },
+    "dog-german-shepherd-black-tan": {
+      "sourceKey": "03_Животные/Собаки/Немецкая_овчарка/Чёрно_рыжий/Анимации/каталог_анимаций.json#16_Играет",
+      "sourceSequence": "16_Играет",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            47
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-german-shepherd-black-tan-1.png",
+          "sourceAtlasSHA256": "318edb26ff2d1a051544233ca3d70a2b8cf0a8f928831151a5ecb2bd663c840b",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            55
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-german-shepherd-black-tan-1.png",
+          "sourceAtlasSHA256": "318edb26ff2d1a051544233ca3d70a2b8cf0a8f928831151a5ecb2bd663c840b",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    },
+    "dog-german-shepherd-sable": {
+      "sourceKey": "03_Животные/Собаки/Немецкая_овчарка/Зонарный_серый/Анимации/каталог_анимаций.json#16_Играет",
+      "sourceSequence": "16_Играет",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            47
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-german-shepherd-sable-1.png",
+          "sourceAtlasSHA256": "69c239664b5fd0a9a70292f813fbd7f1c1de1a9f00416f08ee717eccaf0ce0cd",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            55
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-german-shepherd-sable-1.png",
+          "sourceAtlasSHA256": "69c239664b5fd0a9a70292f813fbd7f1c1de1a9f00416f08ee717eccaf0ce0cd",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    },
+    "dog-labrador-black": {
+      "sourceKey": "03_Животные/Собаки/Лабрадор/Чёрный/Анимации/каталог_анимаций.json#16_Играет",
+      "sourceSequence": "16_Играет",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            47
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-labrador-black-1.png",
+          "sourceAtlasSHA256": "5bac2b14154bcc3f4a411a5b93461ed4c311e510d9bdc9e0eaf1354d914285f0",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            55
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-labrador-black-1.png",
+          "sourceAtlasSHA256": "5bac2b14154bcc3f4a411a5b93461ed4c311e510d9bdc9e0eaf1354d914285f0",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    },
+    "dog-labrador-chocolate": {
+      "sourceKey": "03_Животные/Собаки/Лабрадор/Шоколадный/Анимации/каталог_анимаций.json#16_Играет",
+      "sourceSequence": "16_Играет",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            47
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-labrador-chocolate-1.png",
+          "sourceAtlasSHA256": "fdc9277e0e64d86f9c5ced39c11e54e24034f9e92316046d5104ddd84564fa56",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            55
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-labrador-chocolate-1.png",
+          "sourceAtlasSHA256": "fdc9277e0e64d86f9c5ced39c11e54e24034f9e92316046d5104ddd84564fa56",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    },
+    "dog-labrador-yellow": {
+      "sourceKey": "03_Животные/Собаки/Лабрадор/Палевый/Анимации/каталог_анимаций.json#16_Играет",
+      "sourceSequence": "16_Играет",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            47
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-labrador-yellow-1.png",
+          "sourceAtlasSHA256": "c8cd994416ebd9e469e15f2d4c58cc59e35846dbd788dee2b1f92527fbbe15d3",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            55
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-labrador-yellow-1.png",
+          "sourceAtlasSHA256": "c8cd994416ebd9e469e15f2d4c58cc59e35846dbd788dee2b1f92527fbbe15d3",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    },
+    "dog-poodle-apricot": {
+      "sourceKey": "03_Животные/Собаки/Пудель/Абрикосовый/Анимации/каталог_анимаций.json#16_Играет",
+      "sourceSequence": "16_Играет",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            47
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-poodle-apricot-1.png",
+          "sourceAtlasSHA256": "6ed2e4d16d341c4b631b8fb89352b831680543e80f2576e9ce635f647747f6a9",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            55
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-poodle-apricot-1.png",
+          "sourceAtlasSHA256": "6ed2e4d16d341c4b631b8fb89352b831680543e80f2576e9ce635f647747f6a9",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    },
+    "dog-poodle-black": {
+      "sourceKey": "03_Животные/Собаки/Пудель/Чёрный/Анимации/каталог_анимаций.json#16_Играет",
+      "sourceSequence": "16_Играет",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            47
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-poodle-black-1.png",
+          "sourceAtlasSHA256": "b08e7e0e40eef0f7c625c11e3c1dd84735308cec0466a782bb6d20891c554a67",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            55
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-poodle-black-1.png",
+          "sourceAtlasSHA256": "b08e7e0e40eef0f7c625c11e3c1dd84735308cec0466a782bb6d20891c554a67",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    },
+    "dog-poodle-white": {
+      "sourceKey": "03_Животные/Собаки/Пудель/Белый/Анимации/каталог_анимаций.json#16_Играет",
+      "sourceSequence": "16_Играет",
+      "nativeCanvas": [
+        64,
+        64
+      ],
+      "anchor": [
+        32,
+        63
+      ],
+      "strokes": [
+        {
+          "phase": 1,
+          "part": "upper head/crown",
+          "point": [
+            27,
+            47
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-poodle-white-1.png",
+          "sourceAtlasSHA256": "b1b52f489a05e6833cc07a51944a642c7eebb3f3ed9d1fa21e0ebf244e862a3a",
+          "rect": {
+            "x": 320,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "phase": 2,
+          "part": "lower head/cheek",
+          "point": [
+            27,
+            55
+          ],
+          "sourceAtlas": "assets/design-actor-base-dog-poodle-white-1.png",
+          "sourceAtlasSHA256": "b1b52f489a05e6833cc07a51944a642c7eebb3f3ed9d1fa21e0ebf244e862a3a",
+          "rect": {
+            "x": 384,
+            "y": 448,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    }
+  }
+}

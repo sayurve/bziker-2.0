@@ -1,0 +1,49 @@
+{
+  "source": "/Users/sapp/Desktop/Игра/Bzikert 2.0",
+  "destination": "/Users/sapp/Desktop/Игра/Bzikert 2.0 GitHub",
+  "copiedFiles": 9631,
+  "copiedBytes": 1296135051,
+  "excluded": [
+    {
+      "path": "materials",
+      "reason": "local data/dependencies, or full materials supplied separately"
+    },
+    {
+      "path": "data",
+      "reason": "local data/dependencies, or full materials supplied separately"
+    },
+    {
+      "path": "tools/__pycache__",
+      "reason": "local data/dependencies, or full materials supplied separately"
+    },
+    {
+      "path": "tests/__pycache__",
+      "reason": "local data/dependencies, or full materials supplied separately"
+    },
+    {
+      "path": "game/__pycache__",
+      "reason": "local data/dependencies, or full materials supplied separately"
+    },
+    {
+      "path": "game/tests/__pycache__",
+      "reason": "local data/dependencies, or full materials supplied separately"
+    },
+    {
+      "path": "game/scripts/__pycache__",
+      "reason": "local data/dependencies, or full materials supplied separately"
+    },
+    {
+      "path": "game/scripts/interior_plans/__pycache__",
+      "reason": "local data/dependencies, or full materials supplied separately"
+    },
+    {
+      "path": "verification/__pycache__",
+      "reason": "local data/dependencies, or full materials supplied separately"
+    },
+    {
+      "path": "verification/materials-manifest.json",
+      "reason": "large original-library manifest is supplied with full materials release"
+    }
+  ],
+  "publicationPerformed": false
+}

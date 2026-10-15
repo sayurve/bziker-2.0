@@ -1,0 +1,2908 @@
+{
+  "rooms": [
+    {
+      "id": "profile",
+      "label": "Студия образов",
+      "kind": "wardrobe",
+      "width": 1175,
+      "height": 668,
+      "bounds": {
+        "left": 242.595911,
+        "right": 932.404089,
+        "top": 278,
+        "bottom": 538
+      },
+      "door": {
+        "x": 5838,
+        "y": 5384
+      },
+      "spawn": {
+        "x": 587.5,
+        "y": 493
+      },
+      "exit": {
+        "x": 587.5,
+        "y": 518
+      },
+      "action": {
+        "id": "profile",
+        "label": "Каталог персонажа",
+        "prop_id": "service",
+        "x": 347.3256405,
+        "y": 378,
+        "radius": 110
+      },
+      "solids": [
+        {
+          "prop_id": "service",
+          "x": 282.595911,
+          "y": 298,
+          "width": 129.459459,
+          "height": 40
+        },
+        {
+          "prop_id": "staff",
+          "x": 442.05537,
+          "y": 312,
+          "width": 24,
+          "height": 14
+        },
+        {
+          "prop_id": "fitting-1",
+          "x": 772.404089,
+          "y": 303,
+          "width": 110.180412,
+          "height": 55
+        },
+        {
+          "prop_id": "mirror",
+          "x": 842.404089,
+          "y": 423,
+          "width": 62.362205,
+          "height": 22
+        },
+        {
+          "prop_id": "waiting-sofa",
+          "x": 332.595911,
+          "y": 433,
+          "width": 190.769231,
+          "height": 40
+        },
+        {
+          "prop_id": "consultation-archive",
+          "x": 542.5,
+          "y": 303,
+          "width": 121.435294,
+          "height": 30
+        },
+        {
+          "prop_id": "plant",
+          "x": 262.595911,
+          "y": 373,
+          "width": 44.294606,
+          "height": 28
+        }
+      ],
+      "seats": [
+        {
+          "id": "interior:profile:waiting-sofa:seat-1",
+          "prop_id": "waiting-sofa",
+          "x": 332.595911,
+          "y": 433,
+          "width": 190.769231,
+          "height": 40,
+          "seat": {
+            "x": 364.39078283333333,
+            "y": 473
+          },
+          "approach": {
+            "x": 364.39078283333333,
+            "y": 509
+          },
+          "facing": "down"
+        },
+        {
+          "id": "interior:profile:waiting-sofa:seat-2",
+          "prop_id": "waiting-sofa",
+          "x": 332.595911,
+          "y": 433,
+          "width": 190.769231,
+          "height": 40,
+          "seat": {
+            "x": 427.9805265,
+            "y": 473
+          },
+          "approach": {
+            "x": 427.9805265,
+            "y": 509
+          },
+          "facing": "down"
+        },
+        {
+          "id": "interior:profile:waiting-sofa:seat-3",
+          "prop_id": "waiting-sofa",
+          "x": 332.595911,
+          "y": 433,
+          "width": 190.769231,
+          "height": 40,
+          "seat": {
+            "x": 491.57027016666666,
+            "y": 473
+          },
+          "approach": {
+            "x": 491.57027016666666,
+            "y": 509
+          },
+          "facing": "down"
+        }
+      ],
+      "counter": {
+        "x": 282.595911,
+        "y": 298,
+        "width": 129.459459,
+        "height": 40
+      },
+      "cutouts": [],
+      "props": [
+        {
+          "id": "service",
+          "type": "table",
+          "x": 282.595911,
+          "y": 298,
+          "width": 129.459459,
+          "height": 40,
+          "solid": true,
+          "source_asset": "clan-furniture-computer-desk-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 347.32564,
+            "y": 338,
+            "width": 129.459459,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 338
+        },
+        {
+          "id": "fitting-1",
+          "type": "fitting",
+          "x": 772.404089,
+          "y": 303,
+          "width": 110.180412,
+          "height": 55,
+          "solid": true,
+          "source_asset": "clothing-interior-fitting-booth",
+          "source_direction": "front",
+          "visual": {
+            "x": 827.494295,
+            "y": 358,
+            "width": 110.180412,
+            "height": 125,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 358
+        },
+        {
+          "id": "mirror",
+          "type": "mirror",
+          "x": 842.404089,
+          "y": 423,
+          "width": 62.362205,
+          "height": 22,
+          "solid": true,
+          "source_asset": "clothing-interior-mirror",
+          "source_direction": "front",
+          "visual": {
+            "x": 873.585192,
+            "y": 445,
+            "width": 62.362205,
+            "height": 110,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 445
+        },
+        {
+          "id": "waiting-sofa",
+          "type": "sofa",
+          "x": 332.595911,
+          "y": 433,
+          "width": 190.769231,
+          "height": 40,
+          "solid": true,
+          "source_asset": "clan-furniture-sofa-loft",
+          "source_direction": "front",
+          "visual": {
+            "x": 427.980526,
+            "y": 473,
+            "width": 190.769231,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 473
+        },
+        {
+          "id": "consultation-archive",
+          "type": "bookcase",
+          "x": 542.5,
+          "y": 303,
+          "width": 121.435294,
+          "height": 30,
+          "solid": true,
+          "source_asset": "clan-furniture-bookcase-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 603.217647,
+            "y": 333,
+            "width": 121.435294,
+            "height": 130,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 333
+        },
+        {
+          "id": "plant",
+          "type": "plant",
+          "x": 262.595911,
+          "y": 373,
+          "width": 44.294606,
+          "height": 28,
+          "solid": true,
+          "source_asset": "clothing-interior-plant",
+          "source_direction": "front",
+          "visual": {
+            "x": 284.743214,
+            "y": 401,
+            "width": 44.294606,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 401
+        }
+      ],
+      "zones": [],
+      "entry_label": "СТУДИЯ ОБРАЗОВ · ЗЕРКАЛА И ПРИМЕРКА",
+      "layout_version": 26,
+      "visual_version": 25,
+      "modular_source": true,
+      "source_family": "clothing",
+      "interaction_radius": 110,
+      "source_reference": "clothing-shop-interior",
+      "surfaces": [
+        {
+          "id": "floor",
+          "asset_id": "clothing-interior-floor",
+          "visual": {
+            "x": 587.5,
+            "y": 598,
+            "width": 1014.423792,
+            "height": 360,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 242.595911,
+            "y": 278,
+            "width": 689.808178,
+            "height": 260
+          }
+        },
+        {
+          "id": "back-wall",
+          "asset_id": "clothing-interior-back-wall",
+          "visual": {
+            "x": 291.327957,
+            "y": 331.096774,
+            "width": 713.462366,
+            "height": 227.096774,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 242.595911,
+            "y": 104,
+            "width": 345.904089,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 278,
+            "wall_native_y": 206,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "back-wall-1",
+          "asset_id": "clothing-interior-back-wall",
+          "visual": {
+            "x": 881.77957,
+            "y": 331.096774,
+            "width": 713.462366,
+            "height": 227.096774,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 586.5,
+            "y": 104,
+            "width": 345.904089,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 278,
+            "wall_native_y": 206,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "front-cutaway",
+          "asset_id": "clothing-interior-back-wall",
+          "visual": {
+            "x": 519.062578,
+            "y": 558,
+            "width": 552.933333,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 242.595911,
+            "y": 538,
+            "width": 689.808178,
+            "height": 20
+          }
+        },
+        {
+          "id": "front-cutaway-1",
+          "asset_id": "clothing-interior-back-wall",
+          "visual": {
+            "x": 1071.995911,
+            "y": 558,
+            "width": 552.933333,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 242.595911,
+            "y": 538,
+            "width": 689.808178,
+            "height": 20
+          }
+        }
+      ],
+      "details": [
+        {
+          "id": "overhead-light-1",
+          "asset_id": "clothing-interior-strip-light",
+          "source_direction": "front",
+          "visual": {
+            "x": 415.047955,
+            "y": 145.830688,
+            "width": 150.0,
+            "height": 37.830688,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 145.830688,
+          "interactive": false,
+          "collision": false,
+          "mounting": "ceiling"
+        },
+        {
+          "id": "overhead-light-2",
+          "asset_id": "clothing-interior-strip-light",
+          "source_direction": "front",
+          "visual": {
+            "x": 759.952045,
+            "y": 145.830688,
+            "width": 150.0,
+            "height": 37.830688,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 145.830688,
+          "interactive": false,
+          "collision": false,
+          "mounting": "ceiling"
+        },
+        {
+          "id": "wall-light-1",
+          "asset_id": "clothing-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 328.821933,
+            "y": 204.44,
+            "width": 20.357942142857144,
+            "height": 50,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 204.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-2",
+          "asset_id": "clothing-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 501.273978,
+            "y": 204.44,
+            "width": 20.357942142857144,
+            "height": 50,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 204.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-3",
+          "asset_id": "clothing-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 673.726022,
+            "y": 204.44,
+            "width": 20.357942142857144,
+            "height": 50,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 204.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-4",
+          "asset_id": "clothing-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 846.178067,
+            "y": 204.44,
+            "width": 20.357942142857144,
+            "height": 50,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 204.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        }
+      ],
+      "actor_height": 80,
+      "floor_material": {
+        "asset_id": "clan-surface-floor-tile-texture",
+        "color": "#d5cdbc",
+        "tile_world_size": [
+          320,
+          320
+        ],
+        "regions": [
+          [
+            [
+              242.595911,
+              278
+            ],
+            [
+              932.404089,
+              278
+            ],
+            [
+              932.404089,
+              538
+            ],
+            [
+              242.595911,
+              538
+            ]
+          ]
+        ]
+      },
+      "circulation": {
+        "entry": {
+          "x": 527.5,
+          "y": 398,
+          "width": 120,
+          "height": 140
+        }
+      },
+      "plan_approaches": [
+        {
+          "prop_id": "fitting-1",
+          "x": 827.494295,
+          "y": 394
+        },
+        {
+          "prop_id": "mirror",
+          "x": 873.5851915,
+          "y": 481
+        },
+        {
+          "prop_id": "consultation-archive",
+          "x": 603.2176469999999,
+          "y": 369
+        }
+      ],
+      "staff": {
+        "x": 454.05537,
+        "y": 326,
+        "source_asset": "clothing-interior-mascot",
+        "source_direction": "front",
+        "visual": {
+          "x": 454.05537,
+          "y": 326,
+          "width": 52.720721,
+          "height": 84,
+          "anchorX": 0.5,
+          "anchorY": 1,
+          "crop": "solid"
+        },
+        "depth": 326,
+        "footprint": {
+          "x": 442.05537,
+          "y": 312,
+          "width": 24,
+          "height": 14
+        }
+      },
+      "plan_purpose": "Character consultation and wardrobe studio: one private booth, mirror, archive and waiting sofa; no retail rows.",
+      "wall_body_height": 176,
+      "wall_cutaway": {
+        "asset_id": "clan-surface-wall-plaster-texture",
+        "tile_world_size": [
+          160,
+          160
+        ],
+        "color": null,
+        "regions": [
+          {
+            "x": 224.595911,
+            "y": 278,
+            "width": 18,
+            "height": 280
+          },
+          {
+            "x": 932.404089,
+            "y": 278,
+            "width": 18,
+            "height": 280
+          },
+          {
+            "x": 242.595911,
+            "y": 538,
+            "width": 689.808178,
+            "height": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "shop-clothes",
+      "label": "Гардероб БЗИКЕР",
+      "kind": "clothing-store",
+      "width": 1400,
+      "height": 783,
+      "bounds": {
+        "left": 278.450558,
+        "right": 1121.549442,
+        "top": 313,
+        "bottom": 653
+      },
+      "door": {
+        "x": 3936,
+        "y": 6784
+      },
+      "spawn": {
+        "x": 700.0,
+        "y": 608
+      },
+      "exit": {
+        "x": 700.0,
+        "y": 633
+      },
+      "action": {
+        "id": "shop-clothes",
+        "label": "Магазин одежды",
+        "prop_id": "service",
+        "x": 403.217095,
+        "y": 413,
+        "radius": 110
+      },
+      "solids": [
+        {
+          "prop_id": "service",
+          "x": 323.450558,
+          "y": 333,
+          "width": 159.533074,
+          "height": 40
+        },
+        {
+          "prop_id": "staff",
+          "x": 512.983632,
+          "y": 347,
+          "width": 24,
+          "height": 14
+        },
+        {
+          "prop_id": "fitting-1",
+          "x": 861.549442,
+          "y": 333,
+          "width": 110.180412,
+          "height": 55
+        },
+        {
+          "prop_id": "fitting-2",
+          "x": 986.549442,
+          "y": 333,
+          "width": 110.180412,
+          "height": 55
+        },
+        {
+          "prop_id": "rail-1",
+          "x": 313.450558,
+          "y": 518,
+          "width": 136.565657,
+          "height": 38
+        },
+        {
+          "prop_id": "rail-2",
+          "x": 498.450558,
+          "y": 518,
+          "width": 136.565657,
+          "height": 38
+        },
+        {
+          "prop_id": "shoe-shelf-1",
+          "x": 765.0,
+          "y": 533,
+          "width": 108.0,
+          "height": 32
+        },
+        {
+          "prop_id": "shoe-shelf-2",
+          "x": 900.0,
+          "y": 533,
+          "width": 108.0,
+          "height": 32
+        },
+        {
+          "prop_id": "mirror",
+          "x": 1041.549442,
+          "y": 453,
+          "width": 62.362205,
+          "height": 22
+        },
+        {
+          "prop_id": "plant",
+          "x": 293.450558,
+          "y": 425,
+          "width": 44.294606,
+          "height": 28
+        }
+      ],
+      "seats": [],
+      "counter": {
+        "x": 323.450558,
+        "y": 333,
+        "width": 159.533074,
+        "height": 40
+      },
+      "cutouts": [],
+      "props": [
+        {
+          "id": "service",
+          "type": "cashier",
+          "x": 323.450558,
+          "y": 333,
+          "width": 159.533074,
+          "height": 40,
+          "solid": true,
+          "source_asset": "clothing-interior-counter",
+          "source_direction": "front",
+          "visual": {
+            "x": 403.217095,
+            "y": 373,
+            "width": 159.533074,
+            "height": 100,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 373
+        },
+        {
+          "id": "fitting-1",
+          "type": "fitting",
+          "x": 861.549442,
+          "y": 333,
+          "width": 110.180412,
+          "height": 55,
+          "solid": true,
+          "source_asset": "clothing-interior-fitting-booth",
+          "source_direction": "front",
+          "visual": {
+            "x": 916.639648,
+            "y": 388,
+            "width": 110.180412,
+            "height": 125,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 388
+        },
+        {
+          "id": "fitting-2",
+          "type": "fitting",
+          "x": 986.549442,
+          "y": 333,
+          "width": 110.180412,
+          "height": 55,
+          "solid": true,
+          "source_asset": "clothing-interior-fitting-booth",
+          "source_direction": "front",
+          "visual": {
+            "x": 1041.639648,
+            "y": 388,
+            "width": 110.180412,
+            "height": 125,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 388
+        },
+        {
+          "id": "rail-1",
+          "type": "rack",
+          "x": 313.450558,
+          "y": 518,
+          "width": 136.565657,
+          "height": 38,
+          "solid": true,
+          "source_asset": "clothing-interior-rail",
+          "source_direction": "front",
+          "visual": {
+            "x": 381.733386,
+            "y": 556,
+            "width": 136.565657,
+            "height": 120,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 556
+        },
+        {
+          "id": "rail-2",
+          "type": "rack",
+          "x": 498.450558,
+          "y": 518,
+          "width": 136.565657,
+          "height": 38,
+          "solid": true,
+          "source_asset": "clothing-interior-rail",
+          "source_direction": "front",
+          "visual": {
+            "x": 566.733386,
+            "y": 556,
+            "width": 136.565657,
+            "height": 120,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 556
+        },
+        {
+          "id": "shoe-shelf-1",
+          "type": "shelf",
+          "x": 765.0,
+          "y": 533,
+          "width": 108.0,
+          "height": 32,
+          "solid": true,
+          "source_asset": "clothing-interior-shoe-shelf",
+          "source_direction": "front",
+          "visual": {
+            "x": 819.0,
+            "y": 565,
+            "width": 108.0,
+            "height": 120,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 565
+        },
+        {
+          "id": "shoe-shelf-2",
+          "type": "shelf",
+          "x": 900.0,
+          "y": 533,
+          "width": 108.0,
+          "height": 32,
+          "solid": true,
+          "source_asset": "clothing-interior-shoe-shelf",
+          "source_direction": "front",
+          "visual": {
+            "x": 954.0,
+            "y": 565,
+            "width": 108.0,
+            "height": 120,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 565
+        },
+        {
+          "id": "mirror",
+          "type": "mirror",
+          "x": 1041.549442,
+          "y": 453,
+          "width": 62.362205,
+          "height": 22,
+          "solid": true,
+          "source_asset": "clothing-interior-mirror",
+          "source_direction": "front",
+          "visual": {
+            "x": 1072.730545,
+            "y": 475,
+            "width": 62.362205,
+            "height": 110,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 475
+        },
+        {
+          "id": "plant",
+          "type": "plant",
+          "x": 293.450558,
+          "y": 425,
+          "width": 44.294606,
+          "height": 28,
+          "solid": true,
+          "source_asset": "clothing-interior-plant",
+          "source_direction": "front",
+          "visual": {
+            "x": 315.597861,
+            "y": 453,
+            "width": 44.294606,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 453
+        }
+      ],
+      "zones": [],
+      "entry_label": "ОДЕЖДА · ПРИМЕРКА В ГЛУБИНЕ",
+      "layout_version": 26,
+      "visual_version": 25,
+      "modular_source": true,
+      "source_family": "clothing",
+      "interaction_radius": 110,
+      "source_reference": "clothing-shop-interior",
+      "surfaces": [
+        {
+          "id": "floor",
+          "asset_id": "clothing-interior-floor",
+          "visual": {
+            "x": 700.0,
+            "y": 713,
+            "width": 1239.851301,
+            "height": 440,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 278.450558,
+            "y": 313,
+            "width": 843.098884,
+            "height": 340
+          }
+        },
+        {
+          "id": "back-wall",
+          "asset_id": "clothing-interior-back-wall",
+          "visual": {
+            "x": 403.827957,
+            "y": 366.096774,
+            "width": 713.462366,
+            "height": 227.096774,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 278.450558,
+            "y": 139,
+            "width": 422.549442,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 313,
+            "wall_native_y": 206,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "back-wall-1",
+          "asset_id": "clothing-interior-back-wall",
+          "visual": {
+            "x": 994.27957,
+            "y": 366.096774,
+            "width": 713.462366,
+            "height": 227.096774,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 699.0,
+            "y": 139,
+            "width": 422.549442,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 313,
+            "wall_native_y": 206,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "front-cutaway",
+          "asset_id": "clothing-interior-back-wall",
+          "visual": {
+            "x": 554.917225,
+            "y": 673,
+            "width": 552.933333,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 278.450558,
+            "y": 653,
+            "width": 843.098884,
+            "height": 20
+          }
+        },
+        {
+          "id": "front-cutaway-1",
+          "asset_id": "clothing-interior-back-wall",
+          "visual": {
+            "x": 1107.850558,
+            "y": 673,
+            "width": 552.933333,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 278.450558,
+            "y": 653,
+            "width": 843.098884,
+            "height": 20
+          }
+        }
+      ],
+      "details": [
+        {
+          "id": "sign-clothes",
+          "asset_id": "clothing-interior-sign-clothes",
+          "source_direction": "front",
+          "visual": {
+            "x": 455.501323,
+            "y": 237.180525,
+            "width": 200.0,
+            "height": 45.48105,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 237.180525,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "sign-fitting",
+          "asset_id": "clothing-interior-sign-fitting",
+          "source_direction": "front",
+          "visual": {
+            "x": 927.636699,
+            "y": 237.850175,
+            "width": 190.0,
+            "height": 46.82035,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 237.850175,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "overhead-light-1",
+          "asset_id": "clothing-interior-strip-light",
+          "source_direction": "front",
+          "visual": {
+            "x": 489.225279,
+            "y": 180.830688,
+            "width": 150.0,
+            "height": 37.830688,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 180.830688,
+          "interactive": false,
+          "collision": false,
+          "mounting": "ceiling"
+        },
+        {
+          "id": "overhead-light-2",
+          "asset_id": "clothing-interior-strip-light",
+          "source_direction": "front",
+          "visual": {
+            "x": 910.774721,
+            "y": 180.830688,
+            "width": 150.0,
+            "height": 37.830688,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 180.830688,
+          "interactive": false,
+          "collision": false,
+          "mounting": "ceiling"
+        },
+        {
+          "id": "wall-light-1",
+          "asset_id": "clothing-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 332.629529,
+            "y": 239.44,
+            "width": 20.357942142857144,
+            "height": 50,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 239.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-2",
+          "asset_id": "clothing-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 594.61264,
+            "y": 239.44,
+            "width": 20.357942142857144,
+            "height": 50,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 239.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-3",
+          "asset_id": "clothing-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 805.38736,
+            "y": 239.44,
+            "width": 20.357942142857144,
+            "height": 50,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 239.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-4",
+          "asset_id": "clothing-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 1052.629529,
+            "y": 239.44,
+            "width": 20.357942142857144,
+            "height": 50,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 239.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "entry-mat",
+          "asset_id": "clothing-interior-entry-mat",
+          "source_direction": "front",
+          "visual": {
+            "x": 700.0,
+            "y": 647,
+            "width": 110,
+            "height": 28.616236,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 647,
+          "interactive": false,
+          "collision": false
+        }
+      ],
+      "actor_height": 80,
+      "floor_material": {
+        "asset_id": "clan-surface-floor-tile-texture",
+        "color": "#d5cdbc",
+        "tile_world_size": [
+          320,
+          320
+        ],
+        "regions": [
+          [
+            [
+              278.450558,
+              313
+            ],
+            [
+              1121.549442,
+              313
+            ],
+            [
+              1121.549442,
+              653
+            ],
+            [
+              278.450558,
+              653
+            ]
+          ]
+        ]
+      },
+      "circulation": {
+        "entry": {
+          "x": 640.0,
+          "y": 433,
+          "width": 120,
+          "height": 220
+        }
+      },
+      "plan_approaches": [
+        {
+          "prop_id": "fitting-1",
+          "x": 916.639648,
+          "y": 424
+        },
+        {
+          "prop_id": "fitting-2",
+          "x": 1041.639648,
+          "y": 424
+        },
+        {
+          "prop_id": "rail-1",
+          "x": 381.7333865,
+          "y": 592
+        },
+        {
+          "prop_id": "rail-2",
+          "x": 566.7333865,
+          "y": 592
+        },
+        {
+          "prop_id": "shoe-shelf-1",
+          "x": 819.0,
+          "y": 601
+        },
+        {
+          "prop_id": "shoe-shelf-2",
+          "x": 954.0,
+          "y": 601
+        },
+        {
+          "prop_id": "mirror",
+          "x": 1072.7305445,
+          "y": 511
+        }
+      ],
+      "staff": {
+        "x": 524.983632,
+        "y": 361,
+        "source_asset": "clothing-interior-mascot",
+        "source_direction": "front",
+        "visual": {
+          "x": 524.983632,
+          "y": 361,
+          "width": 52.720721,
+          "height": 84,
+          "anchorX": 0.5,
+          "anchorY": 1,
+          "crop": "solid"
+        },
+        "depth": 361,
+        "footprint": {
+          "x": 512.983632,
+          "y": 347,
+          "width": 24,
+          "height": 14
+        }
+      },
+      "plan_purpose": "Clothing retail: two private fitting booths, two garment rails, two genuine shoe racks.",
+      "wall_body_height": 176,
+      "wall_cutaway": {
+        "asset_id": "clan-surface-wall-plaster-texture",
+        "tile_world_size": [
+          160,
+          160
+        ],
+        "color": null,
+        "regions": [
+          {
+            "x": 260.450558,
+            "y": 313,
+            "width": 18,
+            "height": 360
+          },
+          {
+            "x": 1121.549442,
+            "y": 313,
+            "width": 18,
+            "height": 360
+          },
+          {
+            "x": 278.450558,
+            "y": 653,
+            "width": 843.098884,
+            "height": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "shop-food",
+      "label": "Лавка маскота",
+      "kind": "food-store",
+      "width": 1272,
+      "height": 705,
+      "bounds": {
+        "left": 258.037086,
+        "right": 1013.962914,
+        "top": 235,
+        "bottom": 575
+      },
+      "door": {
+        "x": 6616,
+        "y": 5408
+      },
+      "spawn": {
+        "x": 636.0,
+        "y": 530
+      },
+      "exit": {
+        "x": 636.0,
+        "y": 555
+      },
+      "action": {
+        "id": "shop-food",
+        "label": "Продуктовый магазин",
+        "prop_id": "service",
+        "x": 367.16752099999997,
+        "y": 335,
+        "radius": 110
+      },
+      "solids": [
+        {
+          "prop_id": "service",
+          "x": 288.037086,
+          "y": 255,
+          "width": 158.26087,
+          "height": 40
+        },
+        {
+          "prop_id": "staff",
+          "x": 476.297956,
+          "y": 269,
+          "width": 24,
+          "height": 14
+        },
+        {
+          "prop_id": "food-row-1-left",
+          "x": 411.0,
+          "y": 380,
+          "width": 158.26087,
+          "height": 40
+        },
+        {
+          "prop_id": "food-row-1-right",
+          "x": 701.0,
+          "y": 380,
+          "width": 158.26087,
+          "height": 40
+        },
+        {
+          "prop_id": "food-row-2-left",
+          "x": 411.0,
+          "y": 490,
+          "width": 158.26087,
+          "height": 40
+        },
+        {
+          "prop_id": "food-row-2-right",
+          "x": 701.0,
+          "y": 490,
+          "width": 158.26087,
+          "height": 40
+        },
+        {
+          "prop_id": "plant",
+          "x": 938.962914,
+          "y": 260,
+          "width": 45.257271,
+          "height": 28
+        }
+      ],
+      "seats": [],
+      "counter": {
+        "x": 288.037086,
+        "y": 255,
+        "width": 158.26087,
+        "height": 40
+      },
+      "cutouts": [],
+      "props": [
+        {
+          "id": "service",
+          "type": "table",
+          "x": 288.037086,
+          "y": 255,
+          "width": 158.26087,
+          "height": 40,
+          "solid": true,
+          "source_asset": "clan-furniture-table-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 367.167521,
+            "y": 295,
+            "width": 158.26087,
+            "height": 65,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 295
+        },
+        {
+          "id": "food-row-1-left",
+          "type": "food-display",
+          "x": 411.0,
+          "y": 380,
+          "width": 158.26087,
+          "height": 40,
+          "solid": true,
+          "source_asset": "clan-furniture-table-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 490.130435,
+            "y": 420,
+            "width": 158.26087,
+            "height": 65,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 420
+        },
+        {
+          "id": "food-row-1-right",
+          "type": "food-display",
+          "x": 701.0,
+          "y": 380,
+          "width": 158.26087,
+          "height": 40,
+          "solid": true,
+          "source_asset": "clan-furniture-table-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 780.130435,
+            "y": 420,
+            "width": 158.26087,
+            "height": 65,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 420
+        },
+        {
+          "id": "food-row-2-left",
+          "type": "food-display",
+          "x": 411.0,
+          "y": 490,
+          "width": 158.26087,
+          "height": 40,
+          "solid": true,
+          "source_asset": "clan-furniture-table-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 490.130435,
+            "y": 530,
+            "width": 158.26087,
+            "height": 65,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 530
+        },
+        {
+          "id": "food-row-2-right",
+          "type": "food-display",
+          "x": 701.0,
+          "y": 490,
+          "width": 158.26087,
+          "height": 40,
+          "solid": true,
+          "source_asset": "clan-furniture-table-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 780.130435,
+            "y": 530,
+            "width": 158.26087,
+            "height": 65,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 530
+        },
+        {
+          "id": "plant",
+          "type": "plant",
+          "x": 938.962914,
+          "y": 260,
+          "width": 45.257271,
+          "height": 28,
+          "solid": true,
+          "source_asset": "clan-furniture-plant-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 961.591549,
+            "y": 288,
+            "width": 45.257271,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 288
+        }
+      ],
+      "zones": [],
+      "entry_label": "ПРОДУКТЫ · КАССА СПРАВА",
+      "layout_version": 26,
+      "visual_version": 25,
+      "modular_source": true,
+      "source_family": "food",
+      "interaction_radius": 110,
+      "source_reference": "bar-pivkovy-tuz-interior",
+      "surfaces": [
+        {
+          "id": "floor",
+          "asset_id": "clan-surface-floor-tile",
+          "visual": {
+            "x": 636.0,
+            "y": 635,
+            "width": 1111.655629,
+            "height": 440,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 258.037086,
+            "y": 235,
+            "width": 755.9258279999999,
+            "height": 340
+          }
+        },
+        {
+          "id": "back-wall",
+          "asset_id": "clan-surface-wall-plaster",
+          "visual": {
+            "x": 290.804124,
+            "y": 237.0,
+            "width": 690.391753,
+            "height": 176.0,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 258.037086,
+            "y": 61,
+            "width": 378.962914,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 235,
+            "wall_native_y": 220,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "back-wall-1",
+          "asset_id": "clan-surface-wall-plaster",
+          "visual": {
+            "x": 981.195876,
+            "y": 237.0,
+            "width": 690.391753,
+            "height": 176.0,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 635.0,
+            "y": 61,
+            "width": 378.96291399999996,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 235,
+            "wall_native_y": 220,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "front-cutaway",
+          "asset_id": "clan-surface-wall-plaster",
+          "visual": {
+            "x": 603.232962,
+            "y": 595,
+            "width": 690.391753,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 258.037086,
+            "y": 575,
+            "width": 755.9258279999999,
+            "height": 20
+          }
+        },
+        {
+          "id": "front-cutaway-1",
+          "asset_id": "clan-surface-wall-plaster",
+          "visual": {
+            "x": 1293.624715,
+            "y": 595,
+            "width": 690.391753,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 258.037086,
+            "y": 575,
+            "width": 755.9258279999999,
+            "height": 20
+          }
+        }
+      ],
+      "details": [
+        {
+          "id": "service-glass",
+          "asset_id": "food-kiosk",
+          "source_rect": [
+            209,
+            291,
+            373,
+            357
+          ],
+          "x": 367.16752099999997,
+          "y": 257,
+          "width": 138.26087,
+          "layer": "object",
+          "depth": 296,
+          "interactive": false,
+          "collision": false,
+          "supportId": "service"
+        },
+        {
+          "id": "service-goods-1",
+          "source_prop": "sandwich",
+          "x": 327.6023035,
+          "y": 252,
+          "width": 22,
+          "layer": "object",
+          "depth": 297,
+          "interactive": false,
+          "collision": false,
+          "supportId": "service"
+        },
+        {
+          "id": "service-goods-2",
+          "source_prop": "food-packet",
+          "x": 367.16752099999997,
+          "y": 252,
+          "width": 18,
+          "layer": "object",
+          "depth": 297,
+          "interactive": false,
+          "collision": false,
+          "supportId": "service"
+        },
+        {
+          "id": "service-goods-3",
+          "source_prop": "mug",
+          "x": 406.7327385,
+          "y": 252,
+          "width": 22,
+          "layer": "object",
+          "depth": 297,
+          "interactive": false,
+          "collision": false,
+          "supportId": "service"
+        },
+        {
+          "id": "food-row-1-left-glass",
+          "asset_id": "food-kiosk",
+          "source_rect": [
+            209,
+            291,
+            373,
+            357
+          ],
+          "x": 490.13043500000003,
+          "y": 382,
+          "width": 138.26087,
+          "layer": "object",
+          "depth": 421,
+          "interactive": false,
+          "collision": false,
+          "supportId": "food-row-1-left"
+        },
+        {
+          "id": "food-row-1-left-goods-1",
+          "source_prop": "sandwich",
+          "x": 450.5652175,
+          "y": 377,
+          "width": 22,
+          "layer": "object",
+          "depth": 422,
+          "interactive": false,
+          "collision": false,
+          "supportId": "food-row-1-left"
+        },
+        {
+          "id": "food-row-1-left-goods-2",
+          "source_prop": "food-packet",
+          "x": 490.13043500000003,
+          "y": 377,
+          "width": 18,
+          "layer": "object",
+          "depth": 422,
+          "interactive": false,
+          "collision": false,
+          "supportId": "food-row-1-left"
+        },
+        {
+          "id": "food-row-1-left-goods-3",
+          "source_prop": "mug",
+          "x": 529.6956525,
+          "y": 377,
+          "width": 22,
+          "layer": "object",
+          "depth": 422,
+          "interactive": false,
+          "collision": false,
+          "supportId": "food-row-1-left"
+        },
+        {
+          "id": "food-row-1-right-glass",
+          "asset_id": "food-kiosk",
+          "source_rect": [
+            209,
+            291,
+            373,
+            357
+          ],
+          "x": 780.130435,
+          "y": 382,
+          "width": 138.26087,
+          "layer": "object",
+          "depth": 421,
+          "interactive": false,
+          "collision": false,
+          "supportId": "food-row-1-right"
+        },
+        {
+          "id": "food-row-1-right-goods-1",
+          "source_prop": "sandwich",
+          "x": 740.5652175,
+          "y": 377,
+          "width": 22,
+          "layer": "object",
+          "depth": 422,
+          "interactive": false,
+          "collision": false,
+          "supportId": "food-row-1-right"
+        },
+        {
+          "id": "food-row-1-right-goods-2",
+          "source_prop": "food-packet",
+          "x": 780.130435,
+          "y": 377,
+          "width": 18,
+          "layer": "object",
+          "depth": 422,
+          "interactive": false,
+          "collision": false,
+          "supportId": "food-row-1-right"
+        },
+        {
+          "id": "food-row-1-right-goods-3",
+          "source_prop": "mug",
+          "x": 819.6956525,
+          "y": 377,
+          "width": 22,
+          "layer": "object",
+          "depth": 422,
+          "interactive": false,
+          "collision": false,
+          "supportId": "food-row-1-right"
+        },
+        {
+          "id": "food-row-2-left-glass",
+          "asset_id": "food-kiosk",
+          "source_rect": [
+            209,
+            291,
+            373,
+            357
+          ],
+          "x": 490.13043500000003,
+          "y": 492,
+          "width": 138.26087,
+          "layer": "object",
+          "depth": 531,
+          "interactive": false,
+          "collision": false,
+          "supportId": "food-row-2-left"
+        },
+        {
+          "id": "food-row-2-left-goods-1",
+          "source_prop": "sandwich",
+          "x": 450.5652175,
+          "y": 487,
+          "width": 22,
+          "layer": "object",
+          "depth": 532,
+          "interactive": false,
+          "collision": false,
+          "supportId": "food-row-2-left"
+        },
+        {
+          "id": "food-row-2-left-goods-2",
+          "source_prop": "food-packet",
+          "x": 490.13043500000003,
+          "y": 487,
+          "width": 18,
+          "layer": "object",
+          "depth": 532,
+          "interactive": false,
+          "collision": false,
+          "supportId": "food-row-2-left"
+        },
+        {
+          "id": "food-row-2-left-goods-3",
+          "source_prop": "mug",
+          "x": 529.6956525,
+          "y": 487,
+          "width": 22,
+          "layer": "object",
+          "depth": 532,
+          "interactive": false,
+          "collision": false,
+          "supportId": "food-row-2-left"
+        },
+        {
+          "id": "food-row-2-right-glass",
+          "asset_id": "food-kiosk",
+          "source_rect": [
+            209,
+            291,
+            373,
+            357
+          ],
+          "x": 780.130435,
+          "y": 492,
+          "width": 138.26087,
+          "layer": "object",
+          "depth": 531,
+          "interactive": false,
+          "collision": false,
+          "supportId": "food-row-2-right"
+        },
+        {
+          "id": "food-row-2-right-goods-1",
+          "source_prop": "sandwich",
+          "x": 740.5652175,
+          "y": 487,
+          "width": 22,
+          "layer": "object",
+          "depth": 532,
+          "interactive": false,
+          "collision": false,
+          "supportId": "food-row-2-right"
+        },
+        {
+          "id": "food-row-2-right-goods-2",
+          "source_prop": "food-packet",
+          "x": 780.130435,
+          "y": 487,
+          "width": 18,
+          "layer": "object",
+          "depth": 532,
+          "interactive": false,
+          "collision": false,
+          "supportId": "food-row-2-right"
+        },
+        {
+          "id": "food-row-2-right-goods-3",
+          "source_prop": "mug",
+          "x": 819.6956525,
+          "y": 487,
+          "width": 22,
+          "layer": "object",
+          "depth": 532,
+          "interactive": false,
+          "collision": false,
+          "supportId": "food-row-2-right"
+        },
+        {
+          "id": "overhead-light-1",
+          "asset_id": "clothing-interior-strip-light",
+          "source_direction": "front",
+          "visual": {
+            "x": 447.018543,
+            "y": 102.83068800000001,
+            "width": 150.0,
+            "height": 37.830688,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 102.83068800000001,
+          "interactive": false,
+          "collision": false,
+          "mounting": "ceiling"
+        },
+        {
+          "id": "overhead-light-2",
+          "asset_id": "clothing-interior-strip-light",
+          "source_direction": "front",
+          "visual": {
+            "x": 824.981457,
+            "y": 102.83068800000001,
+            "width": 150.0,
+            "height": 37.830688,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 102.83068800000001,
+          "interactive": false,
+          "collision": false,
+          "mounting": "ceiling"
+        },
+        {
+          "id": "wall-light-1",
+          "asset_id": "clothing-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 352.527814,
+            "y": 161.44,
+            "width": 20.357942142857144,
+            "height": 50,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 161.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-2",
+          "asset_id": "clothing-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 541.509271,
+            "y": 161.44,
+            "width": 20.357942142857144,
+            "height": 50,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 161.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-3",
+          "asset_id": "clothing-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 730.490728,
+            "y": 161.44,
+            "width": 20.357942142857144,
+            "height": 50,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 161.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-4",
+          "asset_id": "clothing-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 919.472186,
+            "y": 161.44,
+            "width": 20.357942142857144,
+            "height": 50,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 161.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        }
+      ],
+      "actor_height": 80,
+      "floor_material": {
+        "asset_id": "clan-surface-floor-tile-texture",
+        "color": null,
+        "tile_world_size": [
+          320,
+          320
+        ],
+        "regions": [
+          [
+            [
+              258.037086,
+              235
+            ],
+            [
+              1013.962914,
+              235
+            ],
+            [
+              1013.962914,
+              575
+            ],
+            [
+              258.037086,
+              575
+            ]
+          ]
+        ]
+      },
+      "circulation": {
+        "entry": {
+          "x": 576.0,
+          "y": 355,
+          "width": 120,
+          "height": 220
+        }
+      },
+      "plan_approaches": [
+        {
+          "prop_id": "food-row-1-left",
+          "x": 490.13043500000003,
+          "y": 448
+        },
+        {
+          "prop_id": "food-row-1-right",
+          "x": 780.130435,
+          "y": 448
+        },
+        {
+          "prop_id": "food-row-2-left",
+          "x": 490.13043500000003,
+          "y": 558
+        },
+        {
+          "prop_id": "food-row-2-right",
+          "x": 780.130435,
+          "y": 558
+        }
+      ],
+      "staff": {
+        "x": 488.297956,
+        "y": 283,
+        "source_asset": "mascot-location-food",
+        "source_direction": "front",
+        "visual": {
+          "x": 488.297956,
+          "y": 283,
+          "width": 50.654545,
+          "height": 84,
+          "anchorX": 0.5,
+          "anchorY": 1,
+          "crop": "solid"
+        },
+        "depth": 283,
+        "footprint": {
+          "x": 476.297956,
+          "y": 269,
+          "width": 24,
+          "height": 14
+        }
+      },
+      "source_gaps": [
+        "No dedicated grocery interior, refrigerator or supermarket gondola PNG exists in the supplied pack. This is an adapted food shop: genuine empty modular tables, kiosk glass/food pixels and native food props, not an exact source-scene copy."
+      ],
+      "plan_purpose": "Food retail: checkout and two paired low product rows, broad central aisle; no bar seating or clothing counter.",
+      "wall_body_height": 176,
+      "wall_cutaway": {
+        "asset_id": "clan-surface-wall-plaster-texture",
+        "tile_world_size": [
+          160,
+          160
+        ],
+        "color": null,
+        "regions": [
+          {
+            "x": 240.037086,
+            "y": 235,
+            "width": 18,
+            "height": 360
+          },
+          {
+            "x": 1013.962914,
+            "y": 235,
+            "width": 18,
+            "height": 360
+          },
+          {
+            "x": 258.037086,
+            "y": 575,
+            "width": 755.9258279999999,
+            "height": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "shop-furniture",
+      "label": "Мебельная мастерская",
+      "kind": "furniture-store",
+      "width": 1379,
+      "height": 756,
+      "bounds": {
+        "left": 275.180808,
+        "right": 1103.819192,
+        "top": 246,
+        "bottom": 626
+      },
+      "door": {
+        "x": 5326,
+        "y": 6744
+      },
+      "spawn": {
+        "x": 689.5,
+        "y": 581
+      },
+      "exit": {
+        "x": 689.5,
+        "y": 606
+      },
+      "action": {
+        "id": "shop-furniture",
+        "label": "Магазин мебели",
+        "prop_id": "service",
+        "x": 384.311243,
+        "y": 346,
+        "radius": 110
+      },
+      "solids": [
+        {
+          "prop_id": "service",
+          "x": 305.180808,
+          "y": 266,
+          "width": 158.26087,
+          "height": 40
+        },
+        {
+          "prop_id": "staff",
+          "x": 493.441678,
+          "y": 280,
+          "width": 24,
+          "height": 14
+        },
+        {
+          "prop_id": "showroom-desk",
+          "x": 883.819192,
+          "y": 271,
+          "width": 141.509434,
+          "height": 45
+        },
+        {
+          "prop_id": "showroom-bookcase",
+          "x": 709.5,
+          "y": 266,
+          "width": 148.131579,
+          "height": 35
+        },
+        {
+          "prop_id": "showroom-sofa",
+          "x": 438.5,
+          "y": 436,
+          "width": 190.769231,
+          "height": 40
+        },
+        {
+          "prop_id": "showroom-coffee-table",
+          "x": 508.5,
+          "y": 548,
+          "width": 110.097087,
+          "height": 30
+        },
+        {
+          "prop_id": "showroom-dining-table",
+          "x": 784.5,
+          "y": 446,
+          "width": 128.988327,
+          "height": 45
+        },
+        {
+          "prop_id": "dining-chair-north",
+          "x": 804.5,
+          "y": 376,
+          "width": 43.002833,
+          "height": 25
+        },
+        {
+          "prop_id": "dining-chair-south",
+          "x": 804.5,
+          "y": 528,
+          "width": 45.405405,
+          "height": 30
+        },
+        {
+          "prop_id": "plant",
+          "x": 295.180808,
+          "y": 356,
+          "width": 48.186047,
+          "height": 28
+        }
+      ],
+      "seats": [
+        {
+          "id": "interior:shop-furniture:showroom-sofa:seat-1",
+          "prop_id": "showroom-sofa",
+          "x": 438.5,
+          "y": 436,
+          "width": 190.769231,
+          "height": 40,
+          "seat": {
+            "x": 470.29487183333333,
+            "y": 476
+          },
+          "approach": {
+            "x": 470.29487183333333,
+            "y": 512
+          },
+          "facing": "down"
+        },
+        {
+          "id": "interior:shop-furniture:showroom-sofa:seat-2",
+          "prop_id": "showroom-sofa",
+          "x": 438.5,
+          "y": 436,
+          "width": 190.769231,
+          "height": 40,
+          "seat": {
+            "x": 533.8846155,
+            "y": 476
+          },
+          "approach": {
+            "x": 533.8846155,
+            "y": 512
+          },
+          "facing": "down"
+        },
+        {
+          "id": "interior:shop-furniture:showroom-sofa:seat-3",
+          "prop_id": "showroom-sofa",
+          "x": 438.5,
+          "y": 436,
+          "width": 190.769231,
+          "height": 40,
+          "seat": {
+            "x": 597.4743591666667,
+            "y": 476
+          },
+          "approach": {
+            "x": 597.4743591666667,
+            "y": 512
+          },
+          "facing": "down"
+        },
+        {
+          "id": "interior:shop-furniture:dining-chair-north",
+          "prop_id": "dining-chair-north",
+          "x": 804.5,
+          "y": 376,
+          "width": 43.002833,
+          "height": 25,
+          "seat": {
+            "x": 826.0014165,
+            "y": 401
+          },
+          "approach": {
+            "x": 826.0014165,
+            "y": 340
+          },
+          "facing": "down"
+        },
+        {
+          "id": "interior:shop-furniture:dining-chair-south",
+          "prop_id": "dining-chair-south",
+          "x": 804.5,
+          "y": 528,
+          "width": 45.405405,
+          "height": 30,
+          "seat": {
+            "x": 827.2027025,
+            "y": 558
+          },
+          "approach": {
+            "x": 827.2027025,
+            "y": 594
+          },
+          "facing": "up"
+        }
+      ],
+      "counter": {
+        "x": 305.180808,
+        "y": 266,
+        "width": 158.26087,
+        "height": 40
+      },
+      "cutouts": [],
+      "props": [
+        {
+          "id": "service",
+          "type": "table",
+          "x": 305.180808,
+          "y": 266,
+          "width": 158.26087,
+          "height": 40,
+          "solid": true,
+          "source_asset": "clan-furniture-table-modern",
+          "source_direction": "front",
+          "visual": {
+            "x": 384.311243,
+            "y": 306,
+            "width": 158.26087,
+            "height": 65,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 306
+        },
+        {
+          "id": "showroom-desk",
+          "type": "display-desk",
+          "x": 883.819192,
+          "y": 271,
+          "width": 141.509434,
+          "height": 45,
+          "solid": true,
+          "source_asset": "clan-furniture-computer-desk-tech",
+          "source_direction": "front",
+          "visual": {
+            "x": 954.573909,
+            "y": 316,
+            "width": 141.509434,
+            "height": 75,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 316
+        },
+        {
+          "id": "showroom-bookcase",
+          "type": "bookcase",
+          "x": 709.5,
+          "y": 266,
+          "width": 148.131579,
+          "height": 35,
+          "solid": true,
+          "source_asset": "clan-furniture-bookcase-wood",
+          "source_direction": "front",
+          "visual": {
+            "x": 783.565789,
+            "y": 301,
+            "width": 148.131579,
+            "height": 130,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 301
+        },
+        {
+          "id": "showroom-sofa",
+          "type": "sofa",
+          "x": 438.5,
+          "y": 436,
+          "width": 190.769231,
+          "height": 40,
+          "solid": true,
+          "source_asset": "clan-furniture-sofa-loft",
+          "source_direction": "front",
+          "visual": {
+            "x": 533.884615,
+            "y": 476,
+            "width": 190.769231,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 476
+        },
+        {
+          "id": "showroom-coffee-table",
+          "type": "coffee-table",
+          "x": 508.5,
+          "y": 548,
+          "width": 110.097087,
+          "height": 30,
+          "solid": true,
+          "source_asset": "clan-furniture-table-loft",
+          "source_direction": "front",
+          "visual": {
+            "x": 563.548544,
+            "y": 578,
+            "width": 110.097087,
+            "height": 45,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 578
+        },
+        {
+          "id": "showroom-dining-table",
+          "type": "table",
+          "x": 784.5,
+          "y": 446,
+          "width": 128.988327,
+          "height": 45,
+          "solid": true,
+          "source_asset": "clan-furniture-table-wood",
+          "source_direction": "front",
+          "visual": {
+            "x": 848.994164,
+            "y": 491,
+            "width": 128.988327,
+            "height": 65,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 491
+        },
+        {
+          "id": "dining-chair-north",
+          "type": "chair",
+          "x": 804.5,
+          "y": 376,
+          "width": 43.002833,
+          "height": 25,
+          "solid": true,
+          "source_asset": "clan-furniture-chair-wood",
+          "source_direction": "front",
+          "visual": {
+            "x": 826.001417,
+            "y": 401,
+            "width": 43.002833,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 401
+        },
+        {
+          "id": "dining-chair-south",
+          "type": "chair",
+          "x": 804.5,
+          "y": 528,
+          "width": 45.405405,
+          "height": 30,
+          "solid": true,
+          "source_asset": "clan-furniture-chair-wood",
+          "source_direction": "back",
+          "visual": {
+            "x": 827.202702,
+            "y": 558,
+            "width": 45.405405,
+            "height": 60,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 558
+        },
+        {
+          "id": "plant",
+          "type": "plant",
+          "x": 295.180808,
+          "y": 356,
+          "width": 48.186047,
+          "height": 28,
+          "solid": true,
+          "source_asset": "clan-furniture-plant-wood",
+          "source_direction": "front",
+          "visual": {
+            "x": 319.273832,
+            "y": 384,
+            "width": 48.186047,
+            "height": 70,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "depth": 384
+        }
+      ],
+      "zones": [],
+      "entry_label": "МЕБЕЛЬ · КОМНАТЫ-ОБРАЗЦЫ",
+      "layout_version": 26,
+      "visual_version": 25,
+      "modular_source": true,
+      "source_family": "furniture",
+      "interaction_radius": 110,
+      "source_reference": "bar-pivkovy-tuz-interior",
+      "surfaces": [
+        {
+          "id": "floor",
+          "asset_id": "clan-surface-floor-parquet",
+          "visual": {
+            "x": 689.5,
+            "y": 686,
+            "width": 1218.585859,
+            "height": 480,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 275.180808,
+            "y": 246,
+            "width": 828.6383839999999,
+            "height": 380
+          }
+        },
+        {
+          "id": "back-wall",
+          "asset_id": "clan-surface-wall-plaster",
+          "visual": {
+            "x": 344.304124,
+            "y": 248.0,
+            "width": 690.391753,
+            "height": 176.0,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 275.180808,
+            "y": 72,
+            "width": 415.319192,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 246,
+            "wall_native_y": 220,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "back-wall-1",
+          "asset_id": "clan-surface-wall-plaster",
+          "visual": {
+            "x": 1034.695876,
+            "y": 248.0,
+            "width": 690.391753,
+            "height": 176.0,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 688.5,
+            "y": 72,
+            "width": 415.31919199999993,
+            "height": 176
+          },
+          "wall_body_height": 176,
+          "source_join": {
+            "floor_world_y": 246,
+            "wall_native_y": 220,
+            "physical_boundary": true
+          }
+        },
+        {
+          "id": "front-cutaway",
+          "asset_id": "clan-surface-wall-plaster",
+          "visual": {
+            "x": 620.376684,
+            "y": 646,
+            "width": 690.391753,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 275.180808,
+            "y": 626,
+            "width": 828.6383839999999,
+            "height": 20
+          }
+        },
+        {
+          "id": "front-cutaway-1",
+          "asset_id": "clan-surface-wall-plaster",
+          "visual": {
+            "x": 1310.768437,
+            "y": 646,
+            "width": 690.391753,
+            "height": 176,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "clip": {
+            "x": 275.180808,
+            "y": 626,
+            "width": 828.6383839999999,
+            "height": 20
+          }
+        }
+      ],
+      "details": [
+        {
+          "id": "overhead-light-1",
+          "asset_id": "clothing-interior-strip-light",
+          "source_direction": "front",
+          "visual": {
+            "x": 482.340404,
+            "y": 113.83068800000001,
+            "width": 150.0,
+            "height": 37.830688,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 113.83068800000001,
+          "interactive": false,
+          "collision": false,
+          "mounting": "ceiling"
+        },
+        {
+          "id": "overhead-light-2",
+          "asset_id": "clothing-interior-strip-light",
+          "source_direction": "front",
+          "visual": {
+            "x": 896.659596,
+            "y": 113.83068800000001,
+            "width": 150.0,
+            "height": 37.830688,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 113.83068800000001,
+          "interactive": false,
+          "collision": false,
+          "mounting": "ceiling"
+        },
+        {
+          "id": "wall-light-1",
+          "asset_id": "clothing-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 378.760606,
+            "y": 172.44,
+            "width": 20.357942142857144,
+            "height": 50,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 172.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-2",
+          "asset_id": "clothing-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 585.920202,
+            "y": 172.44,
+            "width": 20.357942142857144,
+            "height": 50,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 172.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-3",
+          "asset_id": "clothing-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 793.079798,
+            "y": 172.44,
+            "width": 20.357942142857144,
+            "height": 50,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 172.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        },
+        {
+          "id": "wall-light-4",
+          "asset_id": "clothing-interior-sconce",
+          "source_direction": "front",
+          "visual": {
+            "x": 1000.239394,
+            "y": 172.44,
+            "width": 20.357942142857144,
+            "height": 50,
+            "anchorX": 0.5,
+            "anchorY": 1,
+            "crop": "solid"
+          },
+          "layer": "background",
+          "depth": 172.44,
+          "interactive": false,
+          "collision": false,
+          "mounting": "wall-centre"
+        }
+      ],
+      "actor_height": 80,
+      "floor_material": {
+        "asset_id": "clan-surface-floor-parquet-texture",
+        "color": null,
+        "tile_world_size": [
+          192,
+          192
+        ],
+        "regions": [
+          [
+            [
+              275.180808,
+              246
+            ],
+            [
+              1103.819192,
+              246
+            ],
+            [
+              1103.819192,
+              626
+            ],
+            [
+              275.180808,
+              626
+            ]
+          ]
+        ]
+      },
+      "circulation": {
+        "entry": {
+          "x": 629.5,
+          "y": 366,
+          "width": 120,
+          "height": 260
+        }
+      },
+      "plan_approaches": [
+        {
+          "prop_id": "showroom-desk",
+          "x": 954.5739090000001,
+          "y": 352
+        },
+        {
+          "prop_id": "showroom-bookcase",
+          "x": 783.5657894999999,
+          "y": 337
+        },
+        {
+          "prop_id": "showroom-coffee-table",
+          "x": 563.5485435,
+          "y": 602
+        },
+        {
+          "prop_id": "showroom-dining-table",
+          "x": 756.5,
+          "y": 468
+        }
+      ],
+      "staff": {
+        "x": 505.441678,
+        "y": 294,
+        "source_asset": "mascot-location-furniture",
+        "source_direction": "front",
+        "visual": {
+          "x": 505.441678,
+          "y": 294,
+          "width": 49.08,
+          "height": 84,
+          "anchorX": 0.5,
+          "anchorY": 1,
+          "crop": "solid"
+        },
+        "depth": 294,
+        "footprint": {
+          "x": 493.441678,
+          "y": 280,
+          "width": 24,
+          "height": 14
+        }
+      },
+      "source_gaps": [
+        "No dedicated furniture-store interior exists. Three walkable showroom groups reuse real four-view furniture; no unavailable wardrobe or floor-lamp layer is claimed."
+      ],
+      "plan_purpose": "Furniture showroom: lounge, dining set and office group, all with clear inspection and seat approaches.",
+      "wall_body_height": 176,
+      "wall_cutaway": {
+        "asset_id": "clan-surface-wall-plaster-texture",
+        "tile_world_size": [
+          160,
+          160
+        ],
+        "color": null,
+        "regions": [
+          {
+            "x": 257.180808,
+            "y": 246,
+            "width": 18,
+            "height": 400
+          },
+          {
+            "x": 1103.819192,
+            "y": 246,
+            "width": 18,
+            "height": 400
+          },
+          {
+            "x": 275.180808,
+            "y": 626,
+            "width": 828.6383839999999,
+            "height": 20
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "status": "draft",
+  "scope": "literal actual source collar/neck within authored region; donor and existing opaque unchanged",
+  "repairs": [
+    {
+      "actorId": "human-male",
+      "direction": "left",
+      "fineTarget": "game/assets/canonical-idle-v2/male-left-fine.png",
+      "coarseTarget": "game/assets/canonical-idle-v2/male-left.png",
+      "beforeFineSHA": "55bc69a685ddb506eca21576b633d8e881f5a5eeae770c739ff100d43266f73a",
+      "beforeCoarseSHA": "67b65dfc7689711577bdacf2fd3711117e9733f3cd2514595f680b0b779d3976",
+      "fine": "verification/c-left-neck-v30/male-left-fine.png",
+      "fineSHA": "70faf7dfc7b6a89361e89a92e4b618cf859d45ae41037a661d35e17d42677978",
+      "coarse": "verification/c-left-neck-v30/male-left.png",
+      "coarseSHA": "43fbfd221f0a066e34a9294cba22a53cd5420a667725e0a30cbaf697203367f9",
+      "source": "art/drafts/canonical-idle-v2/male-idle-left.png",
+      "sourceSHA": "42ddae0c87d99e1aa14f7d094473f985ef86a304589f09bce9d1eae275cde14f",
+      "uniformFineScale": 0.10625,
+      "sourceRoot": [
+        575,
+        1235
+      ],
+      "polygon": [
+        [
+          41,
+          59
+        ],
+        [
+          47,
+          59
+        ],
+        [
+          48,
+          62
+        ],
+        [
+          46,
+          66
+        ],
+        [
+          40,
+          66
+        ],
+        [
+          39,
+          63
+        ]
+      ],
+      "restoredPixels": [
+        {
+          "x": 45,
+          "y": 61,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            227,
+            133,
+            96,
+            253
+          ]
+        },
+        {
+          "x": 46,
+          "y": 61,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            1,
+            0,
+            0,
+            253
+          ]
+        },
+        {
+          "x": 47,
+          "y": 61,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            46,
+            42,
+            43,
+            254
+          ]
+        },
+        {
+          "x": 43,
+          "y": 62,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            235,
+            135,
+            94,
+            253
+          ]
+        },
+        {
+          "x": 44,
+          "y": 62,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            231,
+            131,
+            88,
+            253
+          ]
+        },
+        {
+          "x": 45,
+          "y": 62,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            224,
+            130,
+            95,
+            253
+          ]
+        },
+        {
+          "x": 42,
+          "y": 63,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            10,
+            4,
+            3,
+            253
+          ]
+        },
+        {
+          "x": 43,
+          "y": 63,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            226,
+            124,
+            89,
+            253
+          ]
+        },
+        {
+          "x": 44,
+          "y": 63,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            7,
+            2,
+            2,
+            253
+          ]
+        },
+        {
+          "x": 41,
+          "y": 64,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            6,
+            3,
+            3,
+            253
+          ]
+        },
+        {
+          "x": 42,
+          "y": 64,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            18,
+            6,
+            5,
+            253
+          ]
+        },
+        {
+          "x": 43,
+          "y": 64,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            218,
+            121,
+            88,
+            253
+          ]
+        },
+        {
+          "x": 44,
+          "y": 64,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            1,
+            0,
+            0,
+            253
+          ]
+        }
+      ],
+      "existingOpaqueChanged": 0
+    },
+    {
+      "actorId": "human-female",
+      "direction": "left",
+      "fineTarget": "game/assets/canonical-idle-v2/female-left-fine.png",
+      "coarseTarget": "game/assets/canonical-idle-v2/female-left.png",
+      "beforeFineSHA": "889b4780df2c230419b85674c3ee76a2f869b73a7eb5e5d870d5703807143d21",
+      "beforeCoarseSHA": "7aa2e2e70f7f61b216a0009052b4e386c390c192808cce6ecdeedb43401480d3",
+      "fine": "verification/c-left-neck-v30/female-left-fine.png",
+      "fineSHA": "6bf9fc9b1cceaefdff2c7aac1373ebd4799e24fd0e6c650fc5f2c9dd28727070",
+      "coarse": "verification/c-left-neck-v30/female-left.png",
+      "coarseSHA": "2585a5f892071c9a46cfdf37cb86f1e99b3013bce55ced47c0b2b8014be4db97",
+      "source": "art/drafts/canonical-idle-v27/female-idle-left.png",
+      "sourceSHA": "6dbac045d0a11e0c33cbe4f9ecefc7436ba718de27cb4cb5fbea046fc07321a1",
+      "uniformFineScale": 0.1,
+      "sourceRoot": [
+        575,
+        1229
+      ],
+      "polygon": [
+        [
+          39,
+          63
+        ],
+        [
+          44,
+          63
+        ],
+        [
+          46,
+          66
+        ],
+        [
+          45,
+          72
+        ],
+        [
+          38,
+          72
+        ],
+        [
+          38,
+          68
+        ]
+      ],
+      "restoredPixels": [
+        {
+          "x": 39,
+          "y": 63,
+          "previousRGBA": [
+            85,
+            0,
+            0,
+            3
+          ],
+          "sourceRGBA": [
+            253,
+            168,
+            113,
+            253
+          ]
+        },
+        {
+          "x": 39,
+          "y": 64,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "sourceRGBA": [
+            251,
+            165,
+            109,
+            253
+          ]
+        },
+        {
+          "x": 44,
+          "y": 64,
+          "previousRGBA": [
+            31,
+            10,
+            10,
+            49
+          ],
+          "sourceRGBA": [
+            230,
+            132,
+            94,
+            253
+          ]
+        },
+        {
+          "x": 38,
+          "y": 65,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            9,
+            5,
+            3,
+            253
+          ]
+        },
+        {
+          "x": 39,
+          "y": 65,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "sourceRGBA": [
+            7,
+            5,
+            3,
+            253
+          ]
+        },
+        {
+          "x": 44,
+          "y": 65,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            226,
+            128,
+            92,
+            253
+          ]
+        },
+        {
+          "x": 45,
+          "y": 65,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            229,
+            132,
+            91,
+            253
+          ]
+        },
+        {
+          "x": 38,
+          "y": 66,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            8,
+            1,
+            0,
+            251
+          ]
+        },
+        {
+          "x": 39,
+          "y": 66,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            10,
+            2,
+            1,
+            251
+          ]
+        },
+        {
+          "x": 40,
+          "y": 66,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            11,
+            2,
+            1,
+            252
+          ]
+        },
+        {
+          "x": 41,
+          "y": 66,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            18,
+            4,
+            3,
+            253
+          ]
+        },
+        {
+          "x": 42,
+          "y": 66,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            224,
+            123,
+            88,
+            253
+          ]
+        },
+        {
+          "x": 43,
+          "y": 66,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            226,
+            129,
+            93,
+            253
+          ]
+        },
+        {
+          "x": 44,
+          "y": 66,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            226,
+            128,
+            92,
+            254
+          ]
+        },
+        {
+          "x": 45,
+          "y": 66,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            230,
+            132,
+            93,
+            253
+          ]
+        },
+        {
+          "x": 41,
+          "y": 67,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            3,
+            0,
+            0,
+            253
+          ]
+        },
+        {
+          "x": 42,
+          "y": 67,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            7,
+            4,
+            4,
+            253
+          ]
+        },
+        {
+          "x": 43,
+          "y": 67,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            96,
+            49,
+            32,
+            253
+          ]
+        },
+        {
+          "x": 44,
+          "y": 67,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            238,
+            138,
+            99,
+            254
+          ]
+        },
+        {
+          "x": 41,
+          "y": 68,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            5,
+            0,
+            0,
+            253
+          ]
+        },
+        {
+          "x": 42,
+          "y": 68,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            4,
+            0,
+            0,
+            253
+          ]
+        },
+        {
+          "x": 43,
+          "y": 68,
+          "previousRGBA": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sourceRGBA": [
+            110,
+            59,
+            38,
+            253
+          ]
+        }
+      ],
+      "existingOpaqueChanged": 0
+    }
+  ]
+}

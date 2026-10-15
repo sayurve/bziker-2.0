@@ -1,0 +1,10 @@
+✔ real retained native fringe/temple hair takes the selected white tint on every hairstyle and light/dark skin in fine+coarse UI raster (1260.713625ms)
+✔ selected hairstyles cannot detach the actual male rear run head from the existing native neck (483.389041ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2041.612583

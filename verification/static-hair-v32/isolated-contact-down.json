@@ -1,0 +1,257 @@
+{
+  "purpose": "QA screenshot assembly only; no new game art",
+  "files": [
+    {
+      "file": "isolated-down-00.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "c0cc950e31d3e1cc9f0b42fcd8c57314780b4c4823c9573318a9710501dcd33a"
+    },
+    {
+      "file": "isolated-down-01.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "f17796001af533fa8d4fe9c774706c081a776c157b14f6f81330e8c90b375652"
+    },
+    {
+      "file": "isolated-down-02.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "e2dff23d350515acb54d31de1387a18465ef4cf05b30aaf90417a61be4b02672"
+    },
+    {
+      "file": "isolated-down-03.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "66eb0a0c0a07292d029cb26b78e5f478aed44cf9b644c7410b7a3b866742f42b"
+    },
+    {
+      "file": "isolated-down-04.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "3ba03ca6347ec37418a6ea9c4063534dcd8acfd47d677e761883d6761ba15dc2"
+    },
+    {
+      "file": "isolated-down-05.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "86e7b1451d0380f466b27a760b6aa33cbaea33964ff4302d2d57b142d2a02057"
+    },
+    {
+      "file": "isolated-down-06.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "4a9ca55ca5e327550e9418ae2f7abf965cc4ffedbafd0b0f063fecd81650c803"
+    },
+    {
+      "file": "isolated-down-07.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "24b18e15975e34d3ea5070efed2075ba239d6601ceb22ce747fe8f59dbf61621"
+    },
+    {
+      "file": "isolated-down-08.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "40ba8deba4f9836549fb4232d9df3d98974953eb62abfa470de1a3c8ffc0e1c2"
+    },
+    {
+      "file": "isolated-down-09.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "7200764af4bb918563b29fd736bea3ea64d6182ab19f2baab8aa3322df5ef9da"
+    },
+    {
+      "file": "isolated-down-10.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "2948a6d99c41a29c8f21b3a86700b6284618d1a156b36d04efccfb4de8855191"
+    },
+    {
+      "file": "isolated-down-11.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "fa4e6c70fc483dec19d705aa54c66a0ad3771d72deb984c698bc2d9d3331bfbd"
+    },
+    {
+      "file": "isolated-down-12.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "103eda0af1d882dcfdb9dc0225c80f2e6481d781d1de966f115712afc021f197"
+    },
+    {
+      "file": "isolated-down-13.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "6f9c086ed0aebf3e11ab143cca15272a202430b654b1931b4fb0a84aad0259c5"
+    },
+    {
+      "file": "isolated-down-14.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "b8bebcd0d34513b591a3490cff5ee31c54fbb7294f4b8c5a8bbd335215e69606"
+    },
+    {
+      "file": "isolated-down-15.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "23918122248cc9b252e8ff403893e78e2e1652bdc346425bd87170a7750814c5"
+    },
+    {
+      "file": "isolated-down-16.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "9d08d5be3740da69fcccc02927450b39de41356ed0177bc2f7dcf0ae78cf2405"
+    },
+    {
+      "file": "isolated-down-17.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "0756a0299c4ba39f3654ce0de3bdfd691d3feb8a0b2acc2baaa8215e51874565"
+    }
+  ]
+}

@@ -1,0 +1,8073 @@
+{
+  "sha": "a548c872ebfa973e3830418daf4f3b72a926647963350cb1993838ba2c8ed02b",
+  "map_sha256": "a548c872ebfa973e3830418daf4f3b72a926647963350cb1993838ba2c8ed02b",
+  "nodes": 727,
+  "points": 84,
+  "checked": [
+    {
+      "id": "spawn",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "spawn",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "spawn",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "spawn",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "spawn",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "spawn",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "spawn",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "spawn",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "landmark:station",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "landmark:station",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "landmark:station",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "landmark:station",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "landmark:station",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "landmark:station",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "landmark:station",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "landmark:station",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "landmark:welcome",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4800,
+        "y": 1530
+      }
+    },
+    {
+      "id": "landmark:welcome",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4800,
+        "y": 1530
+      }
+    },
+    {
+      "id": "landmark:welcome",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4800,
+        "y": 1530
+      }
+    },
+    {
+      "id": "landmark:welcome",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4800,
+        "y": 1530
+      }
+    },
+    {
+      "id": "landmark:welcome",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4800,
+        "y": 1530
+      }
+    },
+    {
+      "id": "landmark:welcome",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4800,
+        "y": 1530
+      }
+    },
+    {
+      "id": "landmark:welcome",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4800,
+        "y": 1530
+      }
+    },
+    {
+      "id": "landmark:welcome",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4800,
+        "y": 1530
+      }
+    },
+    {
+      "id": "landmark:plaza",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3610,
+        "y": 2160
+      }
+    },
+    {
+      "id": "landmark:plaza",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3610,
+        "y": 2160
+      }
+    },
+    {
+      "id": "landmark:plaza",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3610,
+        "y": 2160
+      }
+    },
+    {
+      "id": "landmark:plaza",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3610,
+        "y": 2160
+      }
+    },
+    {
+      "id": "landmark:plaza",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3610,
+        "y": 2160
+      }
+    },
+    {
+      "id": "landmark:plaza",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3610,
+        "y": 2160
+      }
+    },
+    {
+      "id": "landmark:plaza",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3610,
+        "y": 2160
+      }
+    },
+    {
+      "id": "landmark:plaza",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3610,
+        "y": 2160
+      }
+    },
+    {
+      "id": "landmark:district",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1340,
+        "y": 1550
+      }
+    },
+    {
+      "id": "landmark:district",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1340,
+        "y": 1550
+      }
+    },
+    {
+      "id": "landmark:district",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1340,
+        "y": 1550
+      }
+    },
+    {
+      "id": "landmark:district",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1340,
+        "y": 1550
+      }
+    },
+    {
+      "id": "landmark:district",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1340,
+        "y": 1550
+      }
+    },
+    {
+      "id": "landmark:district",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1340,
+        "y": 1550
+      }
+    },
+    {
+      "id": "landmark:district",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1340,
+        "y": 1550
+      }
+    },
+    {
+      "id": "landmark:district",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1340,
+        "y": 1550
+      }
+    },
+    {
+      "id": "landmark:park",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3480,
+        "y": 2075
+      }
+    },
+    {
+      "id": "landmark:park",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3480,
+        "y": 2075
+      }
+    },
+    {
+      "id": "landmark:park",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3480,
+        "y": 2075
+      }
+    },
+    {
+      "id": "landmark:park",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3480,
+        "y": 2075
+      }
+    },
+    {
+      "id": "landmark:park",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3480,
+        "y": 2075
+      }
+    },
+    {
+      "id": "landmark:park",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3480,
+        "y": 2075
+      }
+    },
+    {
+      "id": "landmark:park",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3480,
+        "y": 2075
+      }
+    },
+    {
+      "id": "landmark:park",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3480,
+        "y": 2075
+      }
+    },
+    {
+      "id": "landmark:dock",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5450,
+        "y": 1960
+      }
+    },
+    {
+      "id": "landmark:dock",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5450,
+        "y": 1960
+      }
+    },
+    {
+      "id": "landmark:dock",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5450,
+        "y": 1960
+      }
+    },
+    {
+      "id": "landmark:dock",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5450,
+        "y": 1960
+      }
+    },
+    {
+      "id": "landmark:dock",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5450,
+        "y": 1960
+      }
+    },
+    {
+      "id": "landmark:dock",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5450,
+        "y": 1960
+      }
+    },
+    {
+      "id": "landmark:dock",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5450,
+        "y": 1960
+      }
+    },
+    {
+      "id": "landmark:dock",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5450,
+        "y": 1960
+      }
+    },
+    {
+      "id": "landmark:archive",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3980,
+        "y": 2740
+      }
+    },
+    {
+      "id": "landmark:archive",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3980,
+        "y": 2740
+      }
+    },
+    {
+      "id": "landmark:archive",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3980,
+        "y": 2740
+      }
+    },
+    {
+      "id": "landmark:archive",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3980,
+        "y": 2740
+      }
+    },
+    {
+      "id": "landmark:archive",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3980,
+        "y": 2740
+      }
+    },
+    {
+      "id": "landmark:archive",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3980,
+        "y": 2740
+      }
+    },
+    {
+      "id": "landmark:archive",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3980,
+        "y": 2740
+      }
+    },
+    {
+      "id": "landmark:archive",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3980,
+        "y": 2740
+      }
+    },
+    {
+      "id": "landmark:smoking",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4200,
+        "y": 2440
+      }
+    },
+    {
+      "id": "landmark:smoking",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4200,
+        "y": 2440
+      }
+    },
+    {
+      "id": "landmark:smoking",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4200,
+        "y": 2440
+      }
+    },
+    {
+      "id": "landmark:smoking",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4200,
+        "y": 2440
+      }
+    },
+    {
+      "id": "landmark:smoking",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4200,
+        "y": 2440
+      }
+    },
+    {
+      "id": "landmark:smoking",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4200,
+        "y": 2440
+      }
+    },
+    {
+      "id": "landmark:smoking",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4200,
+        "y": 2440
+      }
+    },
+    {
+      "id": "landmark:smoking",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4200,
+        "y": 2440
+      }
+    },
+    {
+      "id": "landmark:fountain",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3570,
+        "y": 2040
+      }
+    },
+    {
+      "id": "landmark:fountain",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3570,
+        "y": 2040
+      }
+    },
+    {
+      "id": "landmark:fountain",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3570,
+        "y": 2040
+      }
+    },
+    {
+      "id": "landmark:fountain",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3570,
+        "y": 2040
+      }
+    },
+    {
+      "id": "landmark:fountain",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3570,
+        "y": 2040
+      }
+    },
+    {
+      "id": "landmark:fountain",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3570,
+        "y": 2040
+      }
+    },
+    {
+      "id": "landmark:fountain",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3570,
+        "y": 2040
+      }
+    },
+    {
+      "id": "landmark:fountain",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3570,
+        "y": 2040
+      }
+    },
+    {
+      "id": "landmark:gazebo",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3580,
+        "y": 1270
+      }
+    },
+    {
+      "id": "landmark:gazebo",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3580,
+        "y": 1270
+      }
+    },
+    {
+      "id": "landmark:gazebo",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3580,
+        "y": 1270
+      }
+    },
+    {
+      "id": "landmark:gazebo",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3580,
+        "y": 1270
+      }
+    },
+    {
+      "id": "landmark:gazebo",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3580,
+        "y": 1270
+      }
+    },
+    {
+      "id": "landmark:gazebo",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3580,
+        "y": 1270
+      }
+    },
+    {
+      "id": "landmark:gazebo",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3580,
+        "y": 1270
+      }
+    },
+    {
+      "id": "landmark:gazebo",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3580,
+        "y": 1270
+      }
+    },
+    {
+      "id": "travel:station",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "travel:station",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "travel:station",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "travel:station",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "travel:station",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "travel:station",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "travel:station",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "travel:station",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1530
+      }
+    },
+    {
+      "id": "travel:plaza",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3610,
+        "y": 2160
+      }
+    },
+    {
+      "id": "travel:plaza",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3610,
+        "y": 2160
+      }
+    },
+    {
+      "id": "travel:plaza",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3610,
+        "y": 2160
+      }
+    },
+    {
+      "id": "travel:plaza",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3610,
+        "y": 2160
+      }
+    },
+    {
+      "id": "travel:plaza",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3610,
+        "y": 2160
+      }
+    },
+    {
+      "id": "travel:plaza",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3610,
+        "y": 2160
+      }
+    },
+    {
+      "id": "travel:plaza",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3610,
+        "y": 2160
+      }
+    },
+    {
+      "id": "travel:plaza",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3610,
+        "y": 2160
+      }
+    },
+    {
+      "id": "travel:district",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1340,
+        "y": 1550
+      }
+    },
+    {
+      "id": "travel:district",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1340,
+        "y": 1550
+      }
+    },
+    {
+      "id": "travel:district",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1340,
+        "y": 1550
+      }
+    },
+    {
+      "id": "travel:district",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1340,
+        "y": 1550
+      }
+    },
+    {
+      "id": "travel:district",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1340,
+        "y": 1550
+      }
+    },
+    {
+      "id": "travel:district",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1340,
+        "y": 1550
+      }
+    },
+    {
+      "id": "travel:district",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1340,
+        "y": 1550
+      }
+    },
+    {
+      "id": "travel:district",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1340,
+        "y": 1550
+      }
+    },
+    {
+      "id": "travel:clans",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 884
+      }
+    },
+    {
+      "id": "travel:clans",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 884
+      }
+    },
+    {
+      "id": "travel:clans",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 884
+      }
+    },
+    {
+      "id": "travel:clans",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 884
+      }
+    },
+    {
+      "id": "travel:clans",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 884
+      }
+    },
+    {
+      "id": "travel:clans",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 884
+      }
+    },
+    {
+      "id": "travel:clans",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 884
+      }
+    },
+    {
+      "id": "travel:clans",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 884
+      }
+    },
+    {
+      "id": "travel:arena",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4664
+      }
+    },
+    {
+      "id": "travel:arena",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4664
+      }
+    },
+    {
+      "id": "travel:arena",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4664
+      }
+    },
+    {
+      "id": "travel:arena",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4664
+      }
+    },
+    {
+      "id": "travel:arena",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4664
+      }
+    },
+    {
+      "id": "travel:arena",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4664
+      }
+    },
+    {
+      "id": "travel:arena",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4664
+      }
+    },
+    {
+      "id": "travel:arena",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4664
+      }
+    },
+    {
+      "id": "travel:profile",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2834
+      }
+    },
+    {
+      "id": "travel:profile",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2834
+      }
+    },
+    {
+      "id": "travel:profile",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2834
+      }
+    },
+    {
+      "id": "travel:profile",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2834
+      }
+    },
+    {
+      "id": "travel:profile",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2834
+      }
+    },
+    {
+      "id": "travel:profile",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2834
+      }
+    },
+    {
+      "id": "travel:profile",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2834
+      }
+    },
+    {
+      "id": "travel:profile",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2834
+      }
+    },
+    {
+      "id": "travel:results",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1924
+      }
+    },
+    {
+      "id": "travel:results",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1924
+      }
+    },
+    {
+      "id": "travel:results",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1924
+      }
+    },
+    {
+      "id": "travel:results",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1924
+      }
+    },
+    {
+      "id": "travel:results",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1924
+      }
+    },
+    {
+      "id": "travel:results",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1924
+      }
+    },
+    {
+      "id": "travel:results",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1924
+      }
+    },
+    {
+      "id": "travel:results",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1924
+      }
+    },
+    {
+      "id": "travel:messages",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4684
+      }
+    },
+    {
+      "id": "travel:messages",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4684
+      }
+    },
+    {
+      "id": "travel:messages",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4684
+      }
+    },
+    {
+      "id": "travel:messages",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4684
+      }
+    },
+    {
+      "id": "travel:messages",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4684
+      }
+    },
+    {
+      "id": "travel:messages",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4684
+      }
+    },
+    {
+      "id": "travel:messages",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4684
+      }
+    },
+    {
+      "id": "travel:messages",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4684
+      }
+    },
+    {
+      "id": "travel:terrace",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1974
+      }
+    },
+    {
+      "id": "travel:terrace",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1974
+      }
+    },
+    {
+      "id": "travel:terrace",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1974
+      }
+    },
+    {
+      "id": "travel:terrace",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1974
+      }
+    },
+    {
+      "id": "travel:terrace",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1974
+      }
+    },
+    {
+      "id": "travel:terrace",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1974
+      }
+    },
+    {
+      "id": "travel:terrace",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1974
+      }
+    },
+    {
+      "id": "travel:terrace",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1974
+      }
+    },
+    {
+      "id": "travel:shop-food",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3454
+      }
+    },
+    {
+      "id": "travel:shop-food",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3454
+      }
+    },
+    {
+      "id": "travel:shop-food",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3454
+      }
+    },
+    {
+      "id": "travel:shop-food",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3454
+      }
+    },
+    {
+      "id": "travel:shop-food",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3454
+      }
+    },
+    {
+      "id": "travel:shop-food",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3454
+      }
+    },
+    {
+      "id": "travel:shop-food",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3454
+      }
+    },
+    {
+      "id": "travel:shop-food",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3454
+      }
+    },
+    {
+      "id": "travel:shop-clothes",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4164
+      }
+    },
+    {
+      "id": "travel:shop-clothes",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4164
+      }
+    },
+    {
+      "id": "travel:shop-clothes",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4164
+      }
+    },
+    {
+      "id": "travel:shop-clothes",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4164
+      }
+    },
+    {
+      "id": "travel:shop-clothes",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4164
+      }
+    },
+    {
+      "id": "travel:shop-clothes",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4164
+      }
+    },
+    {
+      "id": "travel:shop-clothes",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4164
+      }
+    },
+    {
+      "id": "travel:shop-clothes",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4164
+      }
+    },
+    {
+      "id": "travel:shop-furniture",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4344
+      }
+    },
+    {
+      "id": "travel:shop-furniture",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4344
+      }
+    },
+    {
+      "id": "travel:shop-furniture",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4344
+      }
+    },
+    {
+      "id": "travel:shop-furniture",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4344
+      }
+    },
+    {
+      "id": "travel:shop-furniture",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4344
+      }
+    },
+    {
+      "id": "travel:shop-furniture",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4344
+      }
+    },
+    {
+      "id": "travel:shop-furniture",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4344
+      }
+    },
+    {
+      "id": "travel:shop-furniture",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4344
+      }
+    },
+    {
+      "id": "travel:casino",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3164
+      }
+    },
+    {
+      "id": "travel:casino",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3164
+      }
+    },
+    {
+      "id": "travel:casino",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3164
+      }
+    },
+    {
+      "id": "travel:casino",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3164
+      }
+    },
+    {
+      "id": "travel:casino",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3164
+      }
+    },
+    {
+      "id": "travel:casino",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3164
+      }
+    },
+    {
+      "id": "travel:casino",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3164
+      }
+    },
+    {
+      "id": "travel:casino",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3164
+      }
+    },
+    {
+      "id": "travel:smoking",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4200,
+        "y": 2440
+      }
+    },
+    {
+      "id": "travel:smoking",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4200,
+        "y": 2440
+      }
+    },
+    {
+      "id": "travel:smoking",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4200,
+        "y": 2440
+      }
+    },
+    {
+      "id": "travel:smoking",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4200,
+        "y": 2440
+      }
+    },
+    {
+      "id": "travel:smoking",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4200,
+        "y": 2440
+      }
+    },
+    {
+      "id": "travel:smoking",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4200,
+        "y": 2440
+      }
+    },
+    {
+      "id": "travel:smoking",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4200,
+        "y": 2440
+      }
+    },
+    {
+      "id": "travel:smoking",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4200,
+        "y": 2440
+      }
+    },
+    {
+      "id": "travel:park",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3480,
+        "y": 2075
+      }
+    },
+    {
+      "id": "travel:park",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3480,
+        "y": 2075
+      }
+    },
+    {
+      "id": "travel:park",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3480,
+        "y": 2075
+      }
+    },
+    {
+      "id": "travel:park",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3480,
+        "y": 2075
+      }
+    },
+    {
+      "id": "travel:park",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3480,
+        "y": 2075
+      }
+    },
+    {
+      "id": "travel:park",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3480,
+        "y": 2075
+      }
+    },
+    {
+      "id": "travel:park",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3480,
+        "y": 2075
+      }
+    },
+    {
+      "id": "travel:park",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3480,
+        "y": 2075
+      }
+    },
+    {
+      "id": "travel:dock",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5450,
+        "y": 1960
+      }
+    },
+    {
+      "id": "travel:dock",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5450,
+        "y": 1960
+      }
+    },
+    {
+      "id": "travel:dock",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5450,
+        "y": 1960
+      }
+    },
+    {
+      "id": "travel:dock",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5450,
+        "y": 1960
+      }
+    },
+    {
+      "id": "travel:dock",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5450,
+        "y": 1960
+      }
+    },
+    {
+      "id": "travel:dock",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5450,
+        "y": 1960
+      }
+    },
+    {
+      "id": "travel:dock",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5450,
+        "y": 1960
+      }
+    },
+    {
+      "id": "travel:dock",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5450,
+        "y": 1960
+      }
+    },
+    {
+      "id": "railway+24",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1524
+      }
+    },
+    {
+      "id": "railway+24",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1524
+      }
+    },
+    {
+      "id": "railway+24",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1524
+      }
+    },
+    {
+      "id": "railway+24",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1524
+      }
+    },
+    {
+      "id": "railway+24",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1524
+      }
+    },
+    {
+      "id": "railway+24",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1524
+      }
+    },
+    {
+      "id": "railway+24",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1524
+      }
+    },
+    {
+      "id": "railway+24",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1524
+      }
+    },
+    {
+      "id": "railway+25",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1525
+      }
+    },
+    {
+      "id": "railway+25",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1525
+      }
+    },
+    {
+      "id": "railway+25",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1525
+      }
+    },
+    {
+      "id": "railway+25",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1525
+      }
+    },
+    {
+      "id": "railway+25",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1525
+      }
+    },
+    {
+      "id": "railway+25",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1525
+      }
+    },
+    {
+      "id": "railway+25",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1525
+      }
+    },
+    {
+      "id": "railway+25",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1525
+      }
+    },
+    {
+      "id": "railway+28",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1528
+      }
+    },
+    {
+      "id": "railway+28",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1528
+      }
+    },
+    {
+      "id": "railway+28",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1528
+      }
+    },
+    {
+      "id": "railway+28",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1528
+      }
+    },
+    {
+      "id": "railway+28",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1528
+      }
+    },
+    {
+      "id": "railway+28",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1528
+      }
+    },
+    {
+      "id": "railway+28",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1528
+      }
+    },
+    {
+      "id": "railway+28",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5060,
+        "y": 1528
+      }
+    },
+    {
+      "id": "clans+24",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 884
+      }
+    },
+    {
+      "id": "clans+24",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 884
+      }
+    },
+    {
+      "id": "clans+24",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 884
+      }
+    },
+    {
+      "id": "clans+24",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 884
+      }
+    },
+    {
+      "id": "clans+24",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 884
+      }
+    },
+    {
+      "id": "clans+24",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 884
+      }
+    },
+    {
+      "id": "clans+24",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 884
+      }
+    },
+    {
+      "id": "clans+24",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 884
+      }
+    },
+    {
+      "id": "clans+25",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 885
+      }
+    },
+    {
+      "id": "clans+25",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 885
+      }
+    },
+    {
+      "id": "clans+25",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 885
+      }
+    },
+    {
+      "id": "clans+25",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 885
+      }
+    },
+    {
+      "id": "clans+25",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 885
+      }
+    },
+    {
+      "id": "clans+25",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 885
+      }
+    },
+    {
+      "id": "clans+25",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 885
+      }
+    },
+    {
+      "id": "clans+25",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 885
+      }
+    },
+    {
+      "id": "clans+28",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 888
+      }
+    },
+    {
+      "id": "clans+28",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 888
+      }
+    },
+    {
+      "id": "clans+28",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 888
+      }
+    },
+    {
+      "id": "clans+28",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 888
+      }
+    },
+    {
+      "id": "clans+28",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 888
+      }
+    },
+    {
+      "id": "clans+28",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 888
+      }
+    },
+    {
+      "id": "clans+28",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 888
+      }
+    },
+    {
+      "id": "clans+28",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 980,
+        "y": 888
+      }
+    },
+    {
+      "id": "arena+24",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4664
+      }
+    },
+    {
+      "id": "arena+24",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4664
+      }
+    },
+    {
+      "id": "arena+24",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4664
+      }
+    },
+    {
+      "id": "arena+24",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4664
+      }
+    },
+    {
+      "id": "arena+24",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4664
+      }
+    },
+    {
+      "id": "arena+24",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4664
+      }
+    },
+    {
+      "id": "arena+24",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4664
+      }
+    },
+    {
+      "id": "arena+24",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4664
+      }
+    },
+    {
+      "id": "arena+25",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4665
+      }
+    },
+    {
+      "id": "arena+25",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4665
+      }
+    },
+    {
+      "id": "arena+25",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4665
+      }
+    },
+    {
+      "id": "arena+25",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4665
+      }
+    },
+    {
+      "id": "arena+25",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4665
+      }
+    },
+    {
+      "id": "arena+25",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4665
+      }
+    },
+    {
+      "id": "arena+25",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4665
+      }
+    },
+    {
+      "id": "arena+25",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4665
+      }
+    },
+    {
+      "id": "arena+28",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4668
+      }
+    },
+    {
+      "id": "arena+28",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4668
+      }
+    },
+    {
+      "id": "arena+28",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4668
+      }
+    },
+    {
+      "id": "arena+28",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4668
+      }
+    },
+    {
+      "id": "arena+28",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4668
+      }
+    },
+    {
+      "id": "arena+28",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4668
+      }
+    },
+    {
+      "id": "arena+28",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4668
+      }
+    },
+    {
+      "id": "arena+28",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 5430,
+        "y": 4668
+      }
+    },
+    {
+      "id": "profile+24",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2834
+      }
+    },
+    {
+      "id": "profile+24",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2834
+      }
+    },
+    {
+      "id": "profile+24",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2834
+      }
+    },
+    {
+      "id": "profile+24",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2834
+      }
+    },
+    {
+      "id": "profile+24",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2834
+      }
+    },
+    {
+      "id": "profile+24",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2834
+      }
+    },
+    {
+      "id": "profile+24",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2834
+      }
+    },
+    {
+      "id": "profile+24",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2834
+      }
+    },
+    {
+      "id": "profile+25",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2835
+      }
+    },
+    {
+      "id": "profile+25",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2835
+      }
+    },
+    {
+      "id": "profile+25",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2835
+      }
+    },
+    {
+      "id": "profile+25",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2835
+      }
+    },
+    {
+      "id": "profile+25",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2835
+      }
+    },
+    {
+      "id": "profile+25",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2835
+      }
+    },
+    {
+      "id": "profile+25",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2835
+      }
+    },
+    {
+      "id": "profile+25",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2835
+      }
+    },
+    {
+      "id": "profile+28",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2838
+      }
+    },
+    {
+      "id": "profile+28",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 1,
+      "visible": 0.9866666666666667,
+      "clamped": {
+        "x": 3590,
+        "y": 2838
+      }
+    },
+    {
+      "id": "profile+28",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2838
+      }
+    },
+    {
+      "id": "profile+28",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2838
+      }
+    },
+    {
+      "id": "profile+28",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2838
+      }
+    },
+    {
+      "id": "profile+28",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 1,
+      "visible": 0.9855072463768116,
+      "clamped": {
+        "x": 3590,
+        "y": 2838
+      }
+    },
+    {
+      "id": "profile+28",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2838
+      }
+    },
+    {
+      "id": "profile+28",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3590,
+        "y": 2838
+      }
+    },
+    {
+      "id": "results+24",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1924
+      }
+    },
+    {
+      "id": "results+24",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1924
+      }
+    },
+    {
+      "id": "results+24",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1924
+      }
+    },
+    {
+      "id": "results+24",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1924
+      }
+    },
+    {
+      "id": "results+24",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1924
+      }
+    },
+    {
+      "id": "results+24",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1924
+      }
+    },
+    {
+      "id": "results+24",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1924
+      }
+    },
+    {
+      "id": "results+24",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1924
+      }
+    },
+    {
+      "id": "results+25",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1925
+      }
+    },
+    {
+      "id": "results+25",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1925
+      }
+    },
+    {
+      "id": "results+25",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1925
+      }
+    },
+    {
+      "id": "results+25",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1925
+      }
+    },
+    {
+      "id": "results+25",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1925
+      }
+    },
+    {
+      "id": "results+25",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1925
+      }
+    },
+    {
+      "id": "results+25",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1925
+      }
+    },
+    {
+      "id": "results+25",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1925
+      }
+    },
+    {
+      "id": "results+28",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1928
+      }
+    },
+    {
+      "id": "results+28",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1928
+      }
+    },
+    {
+      "id": "results+28",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1928
+      }
+    },
+    {
+      "id": "results+28",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1928
+      }
+    },
+    {
+      "id": "results+28",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1928
+      }
+    },
+    {
+      "id": "results+28",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1928
+      }
+    },
+    {
+      "id": "results+28",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1928
+      }
+    },
+    {
+      "id": "results+28",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2380,
+        "y": 1928
+      }
+    },
+    {
+      "id": "messages+24",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4684
+      }
+    },
+    {
+      "id": "messages+24",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4684
+      }
+    },
+    {
+      "id": "messages+24",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4684
+      }
+    },
+    {
+      "id": "messages+24",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4684
+      }
+    },
+    {
+      "id": "messages+24",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4684
+      }
+    },
+    {
+      "id": "messages+24",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4684
+      }
+    },
+    {
+      "id": "messages+24",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4684
+      }
+    },
+    {
+      "id": "messages+24",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4684
+      }
+    },
+    {
+      "id": "messages+25",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4685
+      }
+    },
+    {
+      "id": "messages+25",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4685
+      }
+    },
+    {
+      "id": "messages+25",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4685
+      }
+    },
+    {
+      "id": "messages+25",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4685
+      }
+    },
+    {
+      "id": "messages+25",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4685
+      }
+    },
+    {
+      "id": "messages+25",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4685
+      }
+    },
+    {
+      "id": "messages+25",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4685
+      }
+    },
+    {
+      "id": "messages+25",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4685
+      }
+    },
+    {
+      "id": "messages+28",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4688
+      }
+    },
+    {
+      "id": "messages+28",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4688
+      }
+    },
+    {
+      "id": "messages+28",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4688
+      }
+    },
+    {
+      "id": "messages+28",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4688
+      }
+    },
+    {
+      "id": "messages+28",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4688
+      }
+    },
+    {
+      "id": "messages+28",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4688
+      }
+    },
+    {
+      "id": "messages+28",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4688
+      }
+    },
+    {
+      "id": "messages+28",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4370,
+        "y": 4688
+      }
+    },
+    {
+      "id": "terrace+24",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1974
+      }
+    },
+    {
+      "id": "terrace+24",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1974
+      }
+    },
+    {
+      "id": "terrace+24",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1974
+      }
+    },
+    {
+      "id": "terrace+24",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1974
+      }
+    },
+    {
+      "id": "terrace+24",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1974
+      }
+    },
+    {
+      "id": "terrace+24",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1974
+      }
+    },
+    {
+      "id": "terrace+24",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1974
+      }
+    },
+    {
+      "id": "terrace+24",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1974
+      }
+    },
+    {
+      "id": "terrace+25",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1975
+      }
+    },
+    {
+      "id": "terrace+25",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1975
+      }
+    },
+    {
+      "id": "terrace+25",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1975
+      }
+    },
+    {
+      "id": "terrace+25",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1975
+      }
+    },
+    {
+      "id": "terrace+25",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1975
+      }
+    },
+    {
+      "id": "terrace+25",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1975
+      }
+    },
+    {
+      "id": "terrace+25",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1975
+      }
+    },
+    {
+      "id": "terrace+25",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1975
+      }
+    },
+    {
+      "id": "terrace+28",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1978
+      }
+    },
+    {
+      "id": "terrace+28",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1978
+      }
+    },
+    {
+      "id": "terrace+28",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1978
+      }
+    },
+    {
+      "id": "terrace+28",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1978
+      }
+    },
+    {
+      "id": "terrace+28",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1978
+      }
+    },
+    {
+      "id": "terrace+28",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1978
+      }
+    },
+    {
+      "id": "terrace+28",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1978
+      }
+    },
+    {
+      "id": "terrace+28",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 6480,
+        "y": 1978
+      }
+    },
+    {
+      "id": "shop-food+24",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3454
+      }
+    },
+    {
+      "id": "shop-food+24",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3454
+      }
+    },
+    {
+      "id": "shop-food+24",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3454
+      }
+    },
+    {
+      "id": "shop-food+24",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3454
+      }
+    },
+    {
+      "id": "shop-food+24",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3454
+      }
+    },
+    {
+      "id": "shop-food+24",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3454
+      }
+    },
+    {
+      "id": "shop-food+24",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3454
+      }
+    },
+    {
+      "id": "shop-food+24",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3454
+      }
+    },
+    {
+      "id": "shop-food+25",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3455
+      }
+    },
+    {
+      "id": "shop-food+25",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3455
+      }
+    },
+    {
+      "id": "shop-food+25",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3455
+      }
+    },
+    {
+      "id": "shop-food+25",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3455
+      }
+    },
+    {
+      "id": "shop-food+25",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3455
+      }
+    },
+    {
+      "id": "shop-food+25",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3455
+      }
+    },
+    {
+      "id": "shop-food+25",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3455
+      }
+    },
+    {
+      "id": "shop-food+25",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3455
+      }
+    },
+    {
+      "id": "shop-food+28",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 1,
+      "visible": 0.9838709677419355,
+      "clamped": {
+        "x": 4210,
+        "y": 3458
+      }
+    },
+    {
+      "id": "shop-food+28",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 1,
+      "visible": 0.9866666666666667,
+      "clamped": {
+        "x": 4210,
+        "y": 3458
+      }
+    },
+    {
+      "id": "shop-food+28",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 1,
+      "visible": 0.9841269841269842,
+      "clamped": {
+        "x": 4210,
+        "y": 3458
+      }
+    },
+    {
+      "id": "shop-food+28",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 1,
+      "visible": 0.9848484848484849,
+      "clamped": {
+        "x": 4210,
+        "y": 3458
+      }
+    },
+    {
+      "id": "shop-food+28",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 1,
+      "visible": 0.9811320754716981,
+      "clamped": {
+        "x": 4210,
+        "y": 3458
+      }
+    },
+    {
+      "id": "shop-food+28",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 1,
+      "visible": 0.9855072463768116,
+      "clamped": {
+        "x": 4210,
+        "y": 3458
+      }
+    },
+    {
+      "id": "shop-food+28",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 1,
+      "visible": 0.9852941176470589,
+      "clamped": {
+        "x": 4210,
+        "y": 3458
+      }
+    },
+    {
+      "id": "shop-food+28",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 4210,
+        "y": 3458
+      }
+    },
+    {
+      "id": "shop-clothes+24",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4164
+      }
+    },
+    {
+      "id": "shop-clothes+24",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4164
+      }
+    },
+    {
+      "id": "shop-clothes+24",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4164
+      }
+    },
+    {
+      "id": "shop-clothes+24",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4164
+      }
+    },
+    {
+      "id": "shop-clothes+24",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4164
+      }
+    },
+    {
+      "id": "shop-clothes+24",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4164
+      }
+    },
+    {
+      "id": "shop-clothes+24",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4164
+      }
+    },
+    {
+      "id": "shop-clothes+24",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4164
+      }
+    },
+    {
+      "id": "shop-clothes+25",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4165
+      }
+    },
+    {
+      "id": "shop-clothes+25",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4165
+      }
+    },
+    {
+      "id": "shop-clothes+25",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4165
+      }
+    },
+    {
+      "id": "shop-clothes+25",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4165
+      }
+    },
+    {
+      "id": "shop-clothes+25",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4165
+      }
+    },
+    {
+      "id": "shop-clothes+25",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4165
+      }
+    },
+    {
+      "id": "shop-clothes+25",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4165
+      }
+    },
+    {
+      "id": "shop-clothes+25",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4165
+      }
+    },
+    {
+      "id": "shop-clothes+28",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4168
+      }
+    },
+    {
+      "id": "shop-clothes+28",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4168
+      }
+    },
+    {
+      "id": "shop-clothes+28",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4168
+      }
+    },
+    {
+      "id": "shop-clothes+28",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4168
+      }
+    },
+    {
+      "id": "shop-clothes+28",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4168
+      }
+    },
+    {
+      "id": "shop-clothes+28",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4168
+      }
+    },
+    {
+      "id": "shop-clothes+28",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4168
+      }
+    },
+    {
+      "id": "shop-clothes+28",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2400,
+        "y": 4168
+      }
+    },
+    {
+      "id": "shop-furniture+24",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4344
+      }
+    },
+    {
+      "id": "shop-furniture+24",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4344
+      }
+    },
+    {
+      "id": "shop-furniture+24",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4344
+      }
+    },
+    {
+      "id": "shop-furniture+24",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4344
+      }
+    },
+    {
+      "id": "shop-furniture+24",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4344
+      }
+    },
+    {
+      "id": "shop-furniture+24",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4344
+      }
+    },
+    {
+      "id": "shop-furniture+24",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4344
+      }
+    },
+    {
+      "id": "shop-furniture+24",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4344
+      }
+    },
+    {
+      "id": "shop-furniture+25",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4345
+      }
+    },
+    {
+      "id": "shop-furniture+25",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4345
+      }
+    },
+    {
+      "id": "shop-furniture+25",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4345
+      }
+    },
+    {
+      "id": "shop-furniture+25",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4345
+      }
+    },
+    {
+      "id": "shop-furniture+25",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4345
+      }
+    },
+    {
+      "id": "shop-furniture+25",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4345
+      }
+    },
+    {
+      "id": "shop-furniture+25",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4345
+      }
+    },
+    {
+      "id": "shop-furniture+25",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4345
+      }
+    },
+    {
+      "id": "shop-furniture+28",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4348
+      }
+    },
+    {
+      "id": "shop-furniture+28",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4348
+      }
+    },
+    {
+      "id": "shop-furniture+28",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4348
+      }
+    },
+    {
+      "id": "shop-furniture+28",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4348
+      }
+    },
+    {
+      "id": "shop-furniture+28",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4348
+      }
+    },
+    {
+      "id": "shop-furniture+28",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4348
+      }
+    },
+    {
+      "id": "shop-furniture+28",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4348
+      }
+    },
+    {
+      "id": "shop-furniture+28",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 3220,
+        "y": 4348
+      }
+    },
+    {
+      "id": "casino+24",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3164
+      }
+    },
+    {
+      "id": "casino+24",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3164
+      }
+    },
+    {
+      "id": "casino+24",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3164
+      }
+    },
+    {
+      "id": "casino+24",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3164
+      }
+    },
+    {
+      "id": "casino+24",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3164
+      }
+    },
+    {
+      "id": "casino+24",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3164
+      }
+    },
+    {
+      "id": "casino+24",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3164
+      }
+    },
+    {
+      "id": "casino+24",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3164
+      }
+    },
+    {
+      "id": "casino+25",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3165
+      }
+    },
+    {
+      "id": "casino+25",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3165
+      }
+    },
+    {
+      "id": "casino+25",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3165
+      }
+    },
+    {
+      "id": "casino+25",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3165
+      }
+    },
+    {
+      "id": "casino+25",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3165
+      }
+    },
+    {
+      "id": "casino+25",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3165
+      }
+    },
+    {
+      "id": "casino+25",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3165
+      }
+    },
+    {
+      "id": "casino+25",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3165
+      }
+    },
+    {
+      "id": "casino+28",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3168
+      }
+    },
+    {
+      "id": "casino+28",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3168
+      }
+    },
+    {
+      "id": "casino+28",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3168
+      }
+    },
+    {
+      "id": "casino+28",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3168
+      }
+    },
+    {
+      "id": "casino+28",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3168
+      }
+    },
+    {
+      "id": "casino+28",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3168
+      }
+    },
+    {
+      "id": "casino+28",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3168
+      }
+    },
+    {
+      "id": "casino+28",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2770,
+        "y": 3168
+      }
+    },
+    {
+      "id": "base-1+24",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1004
+      }
+    },
+    {
+      "id": "base-1+24",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1004
+      }
+    },
+    {
+      "id": "base-1+24",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1004
+      }
+    },
+    {
+      "id": "base-1+24",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1004
+      }
+    },
+    {
+      "id": "base-1+24",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1004
+      }
+    },
+    {
+      "id": "base-1+24",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1004
+      }
+    },
+    {
+      "id": "base-1+24",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1004
+      }
+    },
+    {
+      "id": "base-1+24",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1004
+      }
+    },
+    {
+      "id": "base-1+25",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1005
+      }
+    },
+    {
+      "id": "base-1+25",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1005
+      }
+    },
+    {
+      "id": "base-1+25",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1005
+      }
+    },
+    {
+      "id": "base-1+25",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1005
+      }
+    },
+    {
+      "id": "base-1+25",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1005
+      }
+    },
+    {
+      "id": "base-1+25",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1005
+      }
+    },
+    {
+      "id": "base-1+25",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1005
+      }
+    },
+    {
+      "id": "base-1+25",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1005
+      }
+    },
+    {
+      "id": "base-1+28",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1008
+      }
+    },
+    {
+      "id": "base-1+28",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1008
+      }
+    },
+    {
+      "id": "base-1+28",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1008
+      }
+    },
+    {
+      "id": "base-1+28",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1008
+      }
+    },
+    {
+      "id": "base-1+28",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1008
+      }
+    },
+    {
+      "id": "base-1+28",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1008
+      }
+    },
+    {
+      "id": "base-1+28",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1008
+      }
+    },
+    {
+      "id": "base-1+28",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1650,
+        "y": 1008
+      }
+    },
+    {
+      "id": "base-2+24",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1474
+      }
+    },
+    {
+      "id": "base-2+24",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1474
+      }
+    },
+    {
+      "id": "base-2+24",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1474
+      }
+    },
+    {
+      "id": "base-2+24",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1474
+      }
+    },
+    {
+      "id": "base-2+24",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1474
+      }
+    },
+    {
+      "id": "base-2+24",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1474
+      }
+    },
+    {
+      "id": "base-2+24",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1474
+      }
+    },
+    {
+      "id": "base-2+24",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1474
+      }
+    },
+    {
+      "id": "base-2+25",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1475
+      }
+    },
+    {
+      "id": "base-2+25",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1475
+      }
+    },
+    {
+      "id": "base-2+25",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1475
+      }
+    },
+    {
+      "id": "base-2+25",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1475
+      }
+    },
+    {
+      "id": "base-2+25",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1475
+      }
+    },
+    {
+      "id": "base-2+25",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1475
+      }
+    },
+    {
+      "id": "base-2+25",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1475
+      }
+    },
+    {
+      "id": "base-2+25",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1475
+      }
+    },
+    {
+      "id": "base-2+28",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1478
+      }
+    },
+    {
+      "id": "base-2+28",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1478
+      }
+    },
+    {
+      "id": "base-2+28",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1478
+      }
+    },
+    {
+      "id": "base-2+28",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1478
+      }
+    },
+    {
+      "id": "base-2+28",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1478
+      }
+    },
+    {
+      "id": "base-2+28",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1478
+      }
+    },
+    {
+      "id": "base-2+28",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1478
+      }
+    },
+    {
+      "id": "base-2+28",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 650,
+        "y": 1478
+      }
+    },
+    {
+      "id": "base-3+24",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1764
+      }
+    },
+    {
+      "id": "base-3+24",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1764
+      }
+    },
+    {
+      "id": "base-3+24",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1764
+      }
+    },
+    {
+      "id": "base-3+24",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1764
+      }
+    },
+    {
+      "id": "base-3+24",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1764
+      }
+    },
+    {
+      "id": "base-3+24",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1764
+      }
+    },
+    {
+      "id": "base-3+24",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1764
+      }
+    },
+    {
+      "id": "base-3+24",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1764
+      }
+    },
+    {
+      "id": "base-3+25",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1765
+      }
+    },
+    {
+      "id": "base-3+25",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1765
+      }
+    },
+    {
+      "id": "base-3+25",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1765
+      }
+    },
+    {
+      "id": "base-3+25",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1765
+      }
+    },
+    {
+      "id": "base-3+25",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1765
+      }
+    },
+    {
+      "id": "base-3+25",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1765
+      }
+    },
+    {
+      "id": "base-3+25",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1765
+      }
+    },
+    {
+      "id": "base-3+25",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1765
+      }
+    },
+    {
+      "id": "base-3+28",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1768
+      }
+    },
+    {
+      "id": "base-3+28",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1768
+      }
+    },
+    {
+      "id": "base-3+28",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1768
+      }
+    },
+    {
+      "id": "base-3+28",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1768
+      }
+    },
+    {
+      "id": "base-3+28",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1768
+      }
+    },
+    {
+      "id": "base-3+28",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1768
+      }
+    },
+    {
+      "id": "base-3+28",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1768
+      }
+    },
+    {
+      "id": "base-3+28",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1760,
+        "y": 1768
+      }
+    },
+    {
+      "id": "base-4+24",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 654
+      }
+    },
+    {
+      "id": "base-4+24",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 654
+      }
+    },
+    {
+      "id": "base-4+24",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 654
+      }
+    },
+    {
+      "id": "base-4+24",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 654
+      }
+    },
+    {
+      "id": "base-4+24",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 654
+      }
+    },
+    {
+      "id": "base-4+24",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 654
+      }
+    },
+    {
+      "id": "base-4+24",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 654
+      }
+    },
+    {
+      "id": "base-4+24",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 654
+      }
+    },
+    {
+      "id": "base-4+25",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 655
+      }
+    },
+    {
+      "id": "base-4+25",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 655
+      }
+    },
+    {
+      "id": "base-4+25",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 655
+      }
+    },
+    {
+      "id": "base-4+25",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 655
+      }
+    },
+    {
+      "id": "base-4+25",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 655
+      }
+    },
+    {
+      "id": "base-4+25",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 655
+      }
+    },
+    {
+      "id": "base-4+25",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 655
+      }
+    },
+    {
+      "id": "base-4+25",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 655
+      }
+    },
+    {
+      "id": "base-4+28",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 658
+      }
+    },
+    {
+      "id": "base-4+28",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 658
+      }
+    },
+    {
+      "id": "base-4+28",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 658
+      }
+    },
+    {
+      "id": "base-4+28",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 658
+      }
+    },
+    {
+      "id": "base-4+28",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 658
+      }
+    },
+    {
+      "id": "base-4+28",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 658
+      }
+    },
+    {
+      "id": "base-4+28",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 658
+      }
+    },
+    {
+      "id": "base-4+28",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 210,
+        "y": 658
+      }
+    },
+    {
+      "id": "base-5+24",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1124
+      }
+    },
+    {
+      "id": "base-5+24",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1124
+      }
+    },
+    {
+      "id": "base-5+24",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1124
+      }
+    },
+    {
+      "id": "base-5+24",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1124
+      }
+    },
+    {
+      "id": "base-5+24",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1124
+      }
+    },
+    {
+      "id": "base-5+24",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1124
+      }
+    },
+    {
+      "id": "base-5+24",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1124
+      }
+    },
+    {
+      "id": "base-5+24",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1124
+      }
+    },
+    {
+      "id": "base-5+25",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1125
+      }
+    },
+    {
+      "id": "base-5+25",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1125
+      }
+    },
+    {
+      "id": "base-5+25",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1125
+      }
+    },
+    {
+      "id": "base-5+25",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1125
+      }
+    },
+    {
+      "id": "base-5+25",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1125
+      }
+    },
+    {
+      "id": "base-5+25",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1125
+      }
+    },
+    {
+      "id": "base-5+25",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1125
+      }
+    },
+    {
+      "id": "base-5+25",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1125
+      }
+    },
+    {
+      "id": "base-5+28",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1128
+      }
+    },
+    {
+      "id": "base-5+28",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1128
+      }
+    },
+    {
+      "id": "base-5+28",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1128
+      }
+    },
+    {
+      "id": "base-5+28",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1128
+      }
+    },
+    {
+      "id": "base-5+28",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1128
+      }
+    },
+    {
+      "id": "base-5+28",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1128
+      }
+    },
+    {
+      "id": "base-5+28",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1128
+      }
+    },
+    {
+      "id": "base-5+28",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2520,
+        "y": 1128
+      }
+    },
+    {
+      "id": "base-6+24",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2744
+      }
+    },
+    {
+      "id": "base-6+24",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2744
+      }
+    },
+    {
+      "id": "base-6+24",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2744
+      }
+    },
+    {
+      "id": "base-6+24",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2744
+      }
+    },
+    {
+      "id": "base-6+24",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2744
+      }
+    },
+    {
+      "id": "base-6+24",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2744
+      }
+    },
+    {
+      "id": "base-6+24",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2744
+      }
+    },
+    {
+      "id": "base-6+24",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2744
+      }
+    },
+    {
+      "id": "base-6+25",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2745
+      }
+    },
+    {
+      "id": "base-6+25",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2745
+      }
+    },
+    {
+      "id": "base-6+25",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2745
+      }
+    },
+    {
+      "id": "base-6+25",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2745
+      }
+    },
+    {
+      "id": "base-6+25",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2745
+      }
+    },
+    {
+      "id": "base-6+25",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2745
+      }
+    },
+    {
+      "id": "base-6+25",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2745
+      }
+    },
+    {
+      "id": "base-6+25",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2745
+      }
+    },
+    {
+      "id": "base-6+28",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2748
+      }
+    },
+    {
+      "id": "base-6+28",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2748
+      }
+    },
+    {
+      "id": "base-6+28",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2748
+      }
+    },
+    {
+      "id": "base-6+28",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2748
+      }
+    },
+    {
+      "id": "base-6+28",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2748
+      }
+    },
+    {
+      "id": "base-6+28",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2748
+      }
+    },
+    {
+      "id": "base-6+28",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2748
+      }
+    },
+    {
+      "id": "base-6+28",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1530,
+        "y": 2748
+      }
+    },
+    {
+      "id": "base-7+24",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2994
+      }
+    },
+    {
+      "id": "base-7+24",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2994
+      }
+    },
+    {
+      "id": "base-7+24",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2994
+      }
+    },
+    {
+      "id": "base-7+24",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2994
+      }
+    },
+    {
+      "id": "base-7+24",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2994
+      }
+    },
+    {
+      "id": "base-7+24",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2994
+      }
+    },
+    {
+      "id": "base-7+24",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2994
+      }
+    },
+    {
+      "id": "base-7+24",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2994
+      }
+    },
+    {
+      "id": "base-7+25",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2995
+      }
+    },
+    {
+      "id": "base-7+25",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2995
+      }
+    },
+    {
+      "id": "base-7+25",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2995
+      }
+    },
+    {
+      "id": "base-7+25",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2995
+      }
+    },
+    {
+      "id": "base-7+25",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2995
+      }
+    },
+    {
+      "id": "base-7+25",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2995
+      }
+    },
+    {
+      "id": "base-7+25",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2995
+      }
+    },
+    {
+      "id": "base-7+25",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2995
+      }
+    },
+    {
+      "id": "base-7+28",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2998
+      }
+    },
+    {
+      "id": "base-7+28",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2998
+      }
+    },
+    {
+      "id": "base-7+28",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2998
+      }
+    },
+    {
+      "id": "base-7+28",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2998
+      }
+    },
+    {
+      "id": "base-7+28",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2998
+      }
+    },
+    {
+      "id": "base-7+28",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2998
+      }
+    },
+    {
+      "id": "base-7+28",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2998
+      }
+    },
+    {
+      "id": "base-7+28",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 2050,
+        "y": 2998
+      }
+    },
+    {
+      "id": "base-8+24",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3824
+      }
+    },
+    {
+      "id": "base-8+24",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3824
+      }
+    },
+    {
+      "id": "base-8+24",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3824
+      }
+    },
+    {
+      "id": "base-8+24",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3824
+      }
+    },
+    {
+      "id": "base-8+24",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3824
+      }
+    },
+    {
+      "id": "base-8+24",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3824
+      }
+    },
+    {
+      "id": "base-8+24",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3824
+      }
+    },
+    {
+      "id": "base-8+24",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3824
+      }
+    },
+    {
+      "id": "base-8+25",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3825
+      }
+    },
+    {
+      "id": "base-8+25",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3825
+      }
+    },
+    {
+      "id": "base-8+25",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3825
+      }
+    },
+    {
+      "id": "base-8+25",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3825
+      }
+    },
+    {
+      "id": "base-8+25",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3825
+      }
+    },
+    {
+      "id": "base-8+25",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3825
+      }
+    },
+    {
+      "id": "base-8+25",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3825
+      }
+    },
+    {
+      "id": "base-8+25",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3825
+      }
+    },
+    {
+      "id": "base-8+28",
+      "gender": 0,
+      "facing": "down",
+      "total": 62,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3828
+      }
+    },
+    {
+      "id": "base-8+28",
+      "gender": 0,
+      "facing": "up",
+      "total": 75,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3828
+      }
+    },
+    {
+      "id": "base-8+28",
+      "gender": 0,
+      "facing": "left",
+      "total": 63,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3828
+      }
+    },
+    {
+      "id": "base-8+28",
+      "gender": 0,
+      "facing": "right",
+      "total": 66,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3828
+      }
+    },
+    {
+      "id": "base-8+28",
+      "gender": 1,
+      "facing": "down",
+      "total": 53,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3828
+      }
+    },
+    {
+      "id": "base-8+28",
+      "gender": 1,
+      "facing": "up",
+      "total": 69,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3828
+      }
+    },
+    {
+      "id": "base-8+28",
+      "gender": 1,
+      "facing": "left",
+      "total": 68,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3828
+      }
+    },
+    {
+      "id": "base-8+28",
+      "gender": 1,
+      "facing": "right",
+      "total": 73,
+      "covered": 0,
+      "visible": 1,
+      "clamped": {
+        "x": 1570,
+        "y": 3828
+      }
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,28 @@
+{
+  "status": "draft",
+  "tool": "built-in image_gen",
+  "sourceToolPath": "/Users/sapp/.codex/generated_images/01a13c9a-2181-7ab2-8e08-dacd16b99b77/exec-25f9df40-6023-4212-aa3e-e037da5a9f8d.png",
+  "exactPrompt": "prompt.txt",
+  "reference": "reference-native-8x.png",
+  "original": "game/assets/canonical-idle-v2/female-up-fine.png",
+  "requestedDimensions": [
+    1536,
+    1024
+  ],
+  "requestedCells": [
+    768,
+    1024
+  ],
+  "poses": [
+    "bend-reach",
+    "deep-squat-reach"
+  ],
+  "review": "pending native body/head/alpha review",
+  "runtimeActivated": false,
+  "actualDimensions": [
+    1536,
+    1024
+  ],
+  "sourceSHA256": "b5f0bab01864453d4f6931c98bbedcf597df727acfadeca83d884b511c130776",
+  "referenceSHA256": "c3dd7255bf77fc90cd25e06649abcbaf30be0d9d49ba6efcc20d2a369ba164e3"
+}

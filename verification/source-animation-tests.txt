@@ -1,0 +1,30 @@
+✔ a real collision slide renders the direction actually travelled instead of running sideways into the wall (260.137333ms)
+✔ white hair recolours bright brown scalp pixels in every native direction and phase while preserving flesh and eyes (531.878083ms)
+✔ light hair retains every measured native mouth, chin and neck-outline pixel including dark flesh shadows (0.70375ms)
+✔ changing skin preserves the native dark eyes and neutral face details in both genders (135.283084ms)
+✔ skin edits preserve neutral native eye, sclera and outline colours across all running directions and phases (544.297125ms)
+✔ hair recolouring retains every measured native hand region, including raised dark-only fingertip rows, in all 32 running frames (540.750583ms)
+✔ following pet derives walking and facing from its own coordinates after its owner stops (1.615084ms)
+✔ pet gait resets on transfer, teleport, invalid duration and reduced motion (0.155166ms)
+✔ reduced motion freezes walking paws, tails and reaction decoration while animals remain visible (1.278042ms)
+✔ cats and dogs have their own tail and face reactions without lifting grounded paws (0.175459ms)
+✔ the imported actor catalog retains all 22 entities and 374 original base actions (32.795959ms)
+✔ whole walking frames advance by discrete source order without moving the feet anchor (35.487875ms)
+✔ phone and food select seated source cycles without dropping the sitting context (0.624667ms)
+✔ animals use deterministic actual breeds and source gait frames at the existing world coordinate (0.475458ms)
+✔ catching a fish uses the authored hand-to-pocket sequence and phone stays seated on a boat (0.304209ms)
+✔ every supplied scenario and every animal action is addressable instead of silently becoming idle (3.415125ms)
+✔ untrusted animation identifiers cannot select inherited object properties (0.49975ms)
+✔ source pages are compact PNG atlases with normalized transparent cell bounds (126.400417ms)
+✔ canvas source rendering retains custom hair, skin, clothes and costume identity (229.13725ms)
+✔ gait follows distance, including slow joystick movement and turns, instead of the page clock (0.553792ms)
+✔ stationary, phone, seats, scene transfers and teleports cannot continue a walking cycle (0.145708ms)
+✔ all eight contacts cycle without accumulating distance and results are frame-rate independent (0.8375ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2311.741792

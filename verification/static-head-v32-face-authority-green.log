@@ -1,0 +1,20 @@
+✔ changing hair never deletes the genuine fine skin hidden by a brown coarse sample (87.526375ms)
+✔ native eyes retain every bright eye pixel through all 12 hairstyles and motion directions (3335.255084ms)
+✔ native rear and side ear skin survives every hairstyle without turning into white hair (403.063291ms)
+✔ short rear styles preserve the genuine native lower nape until a reviewed hidden-neck layer exists (1312.915709ms)
+✔ all native hairstyle phases keep a transparent safety edge without resizing the head or actor (4432.204917ms)
+✔ all 12 hairstyles preserve every opaque native authored face pixel on current approved idle and running heads (6175.044208ms)
+✔ ONE H7 down: the actual C head/hair stays pixel-identical through four real L bodies (325.949875ms)
+✔ ONE H7 up: the actual C head/hair stays pixel-identical through four real L bodies (240.442ms)
+✔ ONE H7 left: the actual C head/hair stays pixel-identical through four real L bodies (278.665292ms)
+✔ ONE H7 right: the actual C head/hair stays pixel-identical through four real L bodies (210.653792ms)
+✔ female and other hairstyles retain their exact existing native locomotion output (1553.238125ms)
+✔ RIGHT collar seam uses only eight real customized C samples and keeps existing opaque body pixels (83.006334ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 16394.924875

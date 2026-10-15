@@ -1,0 +1,40 @@
+Browser tab: 3, Title: "Бзикер — город идей", URL: "http://127.0.0.1:8797/".
+1 AXWebArea Бзикер — город идей, URL: 127.0.0.1:8797/
+	2 container
+		3 pop up button (collapsed) Description: Открыть меню Бзикера, ID: game-menu-toggle, Secondary Actions: Expand
+		4 text Локальная версия
+	5 container
+		6 container Город Бзикер
+			7 image Город: стрелки или WASD; E — действие; P — телефон. Коснитесь двери или скамейки рядом.
+			8 container
+				9 button (collapsed) Description: Открыть карту Бзикера, Secondary Actions: Expand
+					10 text БЗИКЕР · КАРТА ↗
+				11 container Игроков онлайн
+					12 text 1
+				13 button Бзинге: открыть кошелёк и задания
+					14 text 0
+			15 container
+				16 container Джойстик перемещения
+				17 container
+					18 button Открыть инвентарь
+					19 checkbox Description: Открыть Телебзи, Value: 0
+		20 container Инвентарь 1 / 10, ID: inventory-drawer
+			21 container
+				22 heading Инвентарь 1 / 10, Value: 2, ID: inventory-title
+					23 text Инвентарь  1 / 10
+				24 button Закрыть инвентарь
+			25 container Десять слотов инвентаря
+				26 checkbox Description: Удочка, количество 1, Value: 0
+				27 checkbox (disabled) Description: Пустой слот 2, Value: 0
+				28 checkbox (disabled) Description: Пустой слот 3, Value: 0
+				29 checkbox (disabled) Description: Пустой слот 4, Value: 0
+				30 checkbox (disabled) Description: Пустой слот 5, Value: 0
+				31 checkbox (disabled) Description: Пустой слот 6, Value: 0
+				32 checkbox (disabled) Description: Пустой слот 7, Value: 0
+				33 checkbox (disabled) Description: Пустой слот 8, Value: 0
+				34 checkbox (disabled) Description: Пустой слот 9, Value: 0
+				35 checkbox (disabled) Description: Пустой слот 10, Value: 0
+			36 container
+				37 text Выберите предмет Коснитесь слота, затем нажмите действие.
+
+The focused UI element is 20 container Инвентарь 1 / 10, ID: inventory-drawer

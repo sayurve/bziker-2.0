@@ -1,0 +1,29 @@
+✔ native station framing uses the visible room at left and right instead of blank canvas padding (1.390625ms)
+✔ native station framing keeps the upper wall and lower cutaway with touch-control clearance (0.350916ms)
+✔ a viewport larger than the visible room centers that room in the usable frame without changing zoom (0.268375ms)
+✔ city and private-base camera values are identical when no interior framing is supplied (2.277416ms)
+✔ only modular public room surfaces supply framing bounds (1.167ms)
+✔ 121 half-pixel translations retain one native actor texture and refresh only changed poses (563.898833ms)
+✔ a real throw envelope resize replaces the texture without retaining old GPU capacity (191.721834ms)
+✔ fractional native paint preserves all body pixels, transparent padding and exact source origin (102.675542ms)
+✔ raster bounds include fractional edges without squeezing the underlying texture (1.197542ms)
+✔ visible bounds are independent of DPR and physical canvas dimensions (0.106417ms)
+✔ animation repaint key follows discrete authored samples instead of render FPS (0.090583ms)
+✔ an existing game canvas is booted with an explicit Phaser renderer (0.144083ms)
+✔ reduced motion still redraws changed actor poses while retaining unchanged textures (18.247667ms)
+✔ changed clan house art redraws despite an unchanged object id and dimensions (0.879167ms)
+✔ actual Phaser transform keeps a tracked foot fixed at odd/even viewport width at DPR1 (7.513125ms)
+✔ DPR2 limits rounded screen-foot drift without claiming identical fractional GPU vertices (5.265125ms)
+✔ fractional interior zoom retains horizontal tracking while a fitted room permits vertical movement (4.435916ms)
+✔ world edge clamps and device-grid scroll remain valid rather than forcing a centred actor (1.278667ms)
+✔ short landscape uses the available viewport height without extending below screen (1.781541ms)
+✔ a room entrance stays above action buttons even when the floor is shorter than the viewport (0.435083ms)
+✔ hero remains above touch controls and device pixel snapping stabilizes every frame (0.185ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1810.343125

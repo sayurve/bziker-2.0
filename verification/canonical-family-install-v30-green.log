@@ -1,0 +1,11 @@
+✔ all model/frame bytes and metadata are validated before any write; missing later fine image and invalid anchor leave existing artifacts exact (11.730125ms)
+✔ reviewed families preserve other models and sparse source compatibility, deduplicating exact shared whole PNGs without re-rasterizing bytes (9.728084ms)
+✔ failure in a later second-model master does not partly install the earlier valid model (6.04675ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 202.586916

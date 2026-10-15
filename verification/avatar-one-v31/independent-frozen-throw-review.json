@@ -1,0 +1,120 @@
+{
+  "status": "independently-viewed-current-bounded-UI",
+  "recordedAt": "2026-10-15T16:31:41.269236+00:00",
+  "worldSHA256": "66c1cb90f59470e85d2e756f5232cac0bd8bcbad3baa692f91fdaff43e4b8c18",
+  "onePreset": "male H7 white6 skin3 jacket2 lime8; no other appearance presets",
+  "contact": {
+    "path": "verification/avatar-one-v31/frozen-contact-throw.png",
+    "sha256": "4d7ea3ef642492580a9c546451ef89bb0fe229b3241123f2864e7a6016c4c827",
+    "viewedEntirely": true
+  },
+  "fullScreenshotViewed": {
+    "path": "verification/avatar-one-v31/frozen-throw-06.jpg",
+    "sha256": "07d51670f3d6a3abfe9009d6af48f4210831f652357ea53e1632e035a4024a9c",
+    "viewedEntirely": true
+  },
+  "sourceScreenshots": [
+    {
+      "path": "verification/avatar-one-v31/frozen-throw-00.jpg",
+      "sha256": "e61297b12b4cd6b653989d52c7aeb932dbe82e67c568b3bed934e1e45c26de82",
+      "captureMs": 363
+    },
+    {
+      "path": "verification/avatar-one-v31/frozen-throw-01.jpg",
+      "sha256": "53234f0ce6c8b306ea2c39c114b614f2ad89cadd24e9a2504b5176b0cd48ed0f",
+      "captureMs": 716
+    },
+    {
+      "path": "verification/avatar-one-v31/frozen-throw-02.jpg",
+      "sha256": "e5b713a47ec6c89d0bf22c221ca6680d6449a0bcf79bcc4342de0bc24392c993",
+      "captureMs": 1018
+    },
+    {
+      "path": "verification/avatar-one-v31/frozen-throw-03.jpg",
+      "sha256": "4f7fea510453eaefacd5fa9f8d6ef7df54e524e377eb01207c4f0c4fc994bcd8",
+      "captureMs": 1321
+    },
+    {
+      "path": "verification/avatar-one-v31/frozen-throw-04.jpg",
+      "sha256": "67f43ff302aa0264854a4c8d39fb53074c7411a16e072bbd74e4e889824b9dce",
+      "captureMs": 1596
+    },
+    {
+      "path": "verification/avatar-one-v31/frozen-throw-05.jpg",
+      "sha256": "2413a0a2720fc440adf85ccb2831a38bd0e9a2f6a37525b031cf2f3c25ab4de3",
+      "captureMs": 1931
+    },
+    {
+      "path": "verification/avatar-one-v31/frozen-throw-06.jpg",
+      "sha256": "07d51670f3d6a3abfe9009d6af48f4210831f652357ea53e1632e035a4024a9c",
+      "captureMs": 2234
+    },
+    {
+      "path": "verification/avatar-one-v31/frozen-throw-07.jpg",
+      "sha256": "e494a3e9b0d75d56b9606eab36d926f25fc5d8ea3277c4e5f08bf49698054c44",
+      "captureMs": 2539
+    },
+    {
+      "path": "verification/avatar-one-v31/frozen-throw-08.jpg",
+      "sha256": "7b96c6932af63eb3e5cf943dbc8d462dd5e3817f4af54fa787656c2e6fd793ca",
+      "captureMs": 2844
+    },
+    {
+      "path": "verification/avatar-one-v31/frozen-throw-09.jpg",
+      "sha256": "04db7d911ac8cad472447663538420c8375f34a6f442c2467169352d980a3eb9",
+      "captureMs": 3149
+    },
+    {
+      "path": "verification/avatar-one-v31/frozen-throw-10.jpg",
+      "sha256": "04db7d911ac8cad472447663538420c8375f34a6f442c2467169352d980a3eb9",
+      "captureMs": 3431
+    },
+    {
+      "path": "verification/avatar-one-v31/frozen-throw-11.jpg",
+      "sha256": "04db7d911ac8cad472447663538420c8375f34a6f442c2467169352d980a3eb9",
+      "captureMs": 3723
+    },
+    {
+      "path": "verification/avatar-one-v31/frozen-throw-12.jpg",
+      "sha256": "04db7d911ac8cad472447663538420c8375f34a6f442c2467169352d980a3eb9",
+      "captureMs": 4056
+    },
+    {
+      "path": "verification/avatar-one-v31/frozen-throw-13.jpg",
+      "sha256": "04db7d911ac8cad472447663538420c8375f34a6f442c2467169352d980a3eb9",
+      "captureMs": 4353
+    },
+    {
+      "path": "verification/avatar-one-v31/frozen-throw-14.jpg",
+      "sha256": "5e223d7b9c748e851f5fc5b2a61037d5d080ba245fe99e22b3c7681807fa4866",
+      "captureMs": 4665
+    },
+    {
+      "path": "verification/avatar-one-v31/frozen-throw-15.jpg",
+      "sha256": "8cdbfd31a734a44438c4ae07d5c12e83ab29b1b1cf3ac15834aa1cb6cd3ef947",
+      "captureMs": 4969
+    },
+    {
+      "path": "verification/avatar-one-v31/frozen-throw-16.jpg",
+      "sha256": "926c5d75c834cfae3f4d27250fd648b88252a82fd235024d2c9e59f49821e992",
+      "captureMs": 5273
+    },
+    {
+      "path": "verification/avatar-one-v31/frozen-throw-17.jpg",
+      "sha256": "42b15bdfb0a859d8eab313a733eb053229607367190e36a734a47db128ddc982",
+      "captureMs": 5546
+    }
+  ],
+  "observations": [
+    "The entire18frame contact and full06 were opened through view_image.",
+    "The arm releases the paper, a small bright paper cluster is visible moving toward the bin and in06 at the receiving opening/lower lip rather than disappearing below the slot.",
+    "The farther-below-bin actor position no longer causes the observed endpoint clipping in this UI recording.",
+    "White hair, up-facing head and collar remain consistent; after the throw the arm lowers to neutral idle."
+  ],
+  "limits": [
+    "18 actual UI screenshots of one throw, not72 UI trajectory scenarios.",
+    "The native72 sampled trajectorycentres belong to a separate finite-canvas geometry proof.",
+    "Only one avatar, bin approach and captured throw shown; inventory0 has not been reviewed here.",
+    "A still contact does not establish every intermediate trajectory frame or whole-game correctness."
+  ]
+}

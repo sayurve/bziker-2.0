@@ -1,0 +1,45 @@
+✔ approved female identity has four independently authored donor faces and retains each exact opaque face through idle and all run phases (59.6745ms)
+✔ female body materials, hands, boots and grounding survive new identity without geometry or alpha damage (152.599166ms)
+✔ female extraction discards faint background residues without discarding any actual opaque head pixel (8.874542ms)
+✔ canonical whole idle takes every male facing while absent female keeps source fallback (53.787875ms)
+✔ canonical loading decodes coarse and detail pages without removing original source resources (3.525708ms)
+✔ canonical idle never shadows walk, run, held litter, seated, phone or gesture clips (6.699208ms)
+✔ head-only and anonymous generic previews select the same canonical idle automatically (7.739958ms)
+✔ draft or unreviewed canonical artwork stays out of both idle selection and preload (17.18875ms)
+✔ real exported canonical PNGs preserve their declared canvases, alpha and frame metadata (172.511709ms)
+✔ real module approval status controls actual canonical preloads and selected idle (60.696541ms)
+✔ only reviewed per-frame whole-pose compatibility changes raster/head, retaining source timeline/hand/pelvis/prop semantics (1.376041ms)
+✔ empty, draft, unchecked, incomplete and malformed action compatibility cannot replace real source artwork (0.329583ms)
+✔ approved action resources preload at actor readiness while draft resources are never requested (0.905083ms)
+✔ empty, draft and unreviewed locomotion leave normal source run selection unchanged (2.484625ms)
+✔ approved whole poses keep all four native phases, logical canvas and feet anchor (1.037417ms)
+✔ missing directions, ordinary walk, explicit source clips, idle, seated and phone keep their existing adapters (0.378708ms)
+✔ approved locomotion uses the same accepted-distance clock and resets only at stop or scene transfer (5.384625ms)
+✔ actor preload ignores draft motion PNGs and decodes all approved coarse and detail pages (167.776208ms)
+✔ customization and fine native rendering retain their pixels and geometry under a reviewed motion override (142.730583ms)
+✔ the imported actor catalog retains all 22 entities and 374 original base actions (41.781458ms)
+✔ whole walking frames advance by discrete source order without moving the feet anchor (46.143833ms)
+✔ phone and food select seated source cycles without dropping the sitting context (0.654334ms)
+✔ animals use deterministic actual breeds and source gait frames at the existing world coordinate (0.491375ms)
+✔ catching a fish uses the authored hand-to-pocket sequence and phone stays seated on a boat (0.733209ms)
+✔ every supplied scenario and every animal action is addressable instead of silently becoming idle (4.37875ms)
+✔ untrusted animation identifiers cannot select inherited object properties (0.533ms)
+✔ source pages are compact PNG atlases with normalized transparent cell bounds (171.415917ms)
+✔ canvas source rendering retains custom hair, skin, clothes and costume identity (220.282917ms)
+✔ loaded head and headwear previews use the native source atlas rather than the retired reference renderer (28.739416ms)
+✔ native headwear hides the entire face while retaining the headwear, custom hair colour and hairstyle (51.593375ms)
+✔ native head-only canvas and SVG share exactly the same cropped pixels and jury remains anonymous (11.216541ms)
+✔ canonical portraits preserve complete native eyes and lower face while face-free previews remove those eyes (21.636416ms)
+✔ standing phone selects the exact approved idle model and facing, never the old narrow phone body (1.364541ms)
+✔ standing phone is static across action/page clocks and keeps customization pixels outside its separate item (241.562459ms)
+✔ standing phone attaches to the selected pose actual native palm and is preloaded without a lazy action sequence (0.748208ms)
+✔ seated phone and occupied boats retain the seated context and pelvis instead of selecting standing idle (0.37025ms)
+✔ seated phone retains the exact selected seated body/head/anchor across every phone clock and adds only the separate held phone (104.119375ms)
+ℹ tests 37
+ℹ suites 0
+ℹ pass 37
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 701.8315

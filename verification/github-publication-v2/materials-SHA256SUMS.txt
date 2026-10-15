@@ -1,0 +1,6 @@
+147fe7d451f78e202b9d709890970d8bce228623985280e8ecb50598c2528767  bziker-2.0-materials.tar.gz.part-001
+78d85f2322169a1d8b6003f65412cebcf7644a60ab9e9026159e1096a89df78d  bziker-2.0-materials.tar.gz.part-002
+05f8ea5fc88bc1ab9bbaf275c71b3ef61cbfc0da2fc2177fce05ac9a43687287  bziker-2.0-materials.tar.gz.part-003
+d794bce4d65f379fbb34dfacb1d4b75e55e6d691c8f018a4960ece4412d4f93f  bziker-2.0-materials.tar.gz.part-004
+e3cbec899c592f70ca4917bebb555c0072d9f97312266bb31c8ef10c022c4cb6  bziker-2.0-materials.tar.gz.part-005
+b33505f2a86e7a4a2528cc25a36989aee96e4f6e47968811b6ba998cdc2b7221  bziker-2.0-materials.tar.gz.part-006

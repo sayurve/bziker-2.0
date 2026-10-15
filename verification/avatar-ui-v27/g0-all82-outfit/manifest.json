@@ -1,0 +1,556 @@
+{
+  "createdAt": "2026-10-15T11:49:35.704Z",
+  "gender": 0,
+  "category": "outfit",
+  "source": "final",
+  "cases": 28,
+  "crop": {
+    "x": 535,
+    "y": 375,
+    "width": 135,
+    "height": 180
+  },
+  "qaOnly": true,
+  "productionArtChanged": false,
+  "realBrowserCaptures": true,
+  "renderedMockups": false,
+  "scale": 1.5,
+  "sheets": [
+    "page-1.png",
+    "page-2.png"
+  ],
+  "records": [
+    {
+      "value": 0,
+      "name": "Своя одежда",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-00-down.jpg",
+      "sourceSha256": "147978714a8e793e9aa427298ff09f6bd91823a81a2c3b75eb97c4e205df3dbc",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-00-down-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Своя одежда",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-00-left.jpg",
+      "sourceSha256": "0adc7b6b3ac30cc82e5cf9d0070dd6aaef49bc6415bb445fd5e359376311ad9f",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-00-left-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Своя одежда",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-00-up.jpg",
+      "sourceSha256": "53bcb695fb1b007fc477864ccddc2497217b309ace7a1960bf835052f2eedacc",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-00-up-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Своя одежда",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-00-right.jpg",
+      "sourceSha256": "2288718c02357abbadf6c3b0771a421cc445c907110d6448f8c695469a590e4e",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-00-right-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Хромовая куртка",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-01-down.jpg",
+      "sourceSha256": "4acc50c2e9f64231a0a7dce3fb9817f44a5a52284a246344f987d1ef52a1311f",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-01-down-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Хромовая куртка",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-01-left.jpg",
+      "sourceSha256": "3968d1760c7385cb0299ac92f102a847747f9c487615ffccf20d7088e89baaff",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-01-left-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Хромовая куртка",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-01-up.jpg",
+      "sourceSha256": "587bd8d13dab7195312db497e81c0ee6df87cc9d0a74a960b2c86c8d006cd2fb",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-01-up-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Хромовая куртка",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-01-right.jpg",
+      "sourceSha256": "a2700c179a4210194c61eea5bf6eccd3ada9b113326bd89390cf50c5bee0effa",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-01-right-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Неон-худи",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-02-down.jpg",
+      "sourceSha256": "aceadd2e7c805697b50810db31b517ad3ff2f428905c118158d39a405ba106d0",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-02-down-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Неон-худи",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-02-left.jpg",
+      "sourceSha256": "59753bc89ea5578681b44f33519071321e9977d26a6cbd90956190dcb6a77457",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-02-left-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Неон-худи",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-02-up.jpg",
+      "sourceSha256": "3e43901f44d3ff1ebf0333fc085d9b13a2746166ae52aaeb268eb03643528e54",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-02-up-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Неон-худи",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-02-right.jpg",
+      "sourceSha256": "677c608ea51239da8108c2c54248a1f0c95b063d8e786e215fab494541fd8943",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-02-right-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Креативное пальто",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-03-down.jpg",
+      "sourceSha256": "483b0700f49729de9eaf1426433cb758c1bf3f70792cf79a0a10992e66ebaf77",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-03-down-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Креативное пальто",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-03-left.jpg",
+      "sourceSha256": "022b224a48d084bc4788ef515488244cbdc157ce2591e3875307aa19f82e7c37",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-03-left-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Креативное пальто",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-03-up.jpg",
+      "sourceSha256": "c15f65c919cc9334a40b4cad21c1ac7e4de1f8aee3aeac2d8c8d170298863cb2",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-03-up-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Креативное пальто",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-03-right.jpg",
+      "sourceSha256": "2477185a5f59253f8d06c2d3d92aea2962c2aabda5b8ea0e29681de6404981a1",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-03-right-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Спортивный костюм",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-04-down.jpg",
+      "sourceSha256": "d69594981609235292f0d008e1397effb53c52ce4d15b15986cdf93a9262933c",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-04-down-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Спортивный костюм",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-04-left.jpg",
+      "sourceSha256": "c12f246d43cbda2a5840aca4daa6e7baa74a190162c5421c72386511aefba6c4",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-04-left-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Спортивный костюм",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-04-up.jpg",
+      "sourceSha256": "0dbc573d9a390ffebd615774b23518371ed4ab1fef1c7b538ad1d661b45b2e23",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-04-up-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Спортивный костюм",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-04-right.jpg",
+      "sourceSha256": "fdda830d12032ed2243fa2bd4e0b433f3dd0947461667a767462f3231d319a86",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-04-right-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Костюм зверя",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-05-down.jpg",
+      "sourceSha256": "9f54652f32cb74d019bb78b51987fd4b7b6352754633484742a2f8b04200805c",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-05-down-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Костюм зверя",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-05-left.jpg",
+      "sourceSha256": "06b45ef5f2282ff529ced94c35a7dd91490c3f0f99ce5d6948a0c1c449ca6a71",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-05-left-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Костюм зверя",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-05-up.jpg",
+      "sourceSha256": "07a0f0006d1d71ddb574f2a657eff8b705e782b700e38854ddc56282515f6fde",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-05-up-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Костюм зверя",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-05-right.jpg",
+      "sourceSha256": "8fb8e66da1c5682fe71ba9d0628e729a6b148d1f12ce11c1b7a2a276fda5eeee",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-05-right-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Дождевик",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-06-down.jpg",
+      "sourceSha256": "830f140b09c76ead72e3f0d06f59f8114427f80eae880f28f022e39f1af17f6c",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-06-down-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Дождевик",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-06-left.jpg",
+      "sourceSha256": "a47d9c6146849195e8f18594f094ace319126d40c4c25abd0cce9f2e71a0a9dc",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-06-left-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Дождевик",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-06-up.jpg",
+      "sourceSha256": "af6f2c1739babcdd867399c33d965b11ec77e439f4b54ef3e08f8b992d582839",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-06-up-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Дождевик",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-outfit-06-right.jpg",
+      "sourceSha256": "138b37fe246c7e15c817900c032243133875e8a08a14e154007a98cf5f6b377d",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-outfit-06-right-crop.png"
+    }
+  ]
+}

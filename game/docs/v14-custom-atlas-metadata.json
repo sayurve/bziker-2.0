@@ -1,0 +1,224 @@
+{
+  "sourceWidth": 1182,
+  "sourceHeight": 1330,
+  "alphaThreshold": 64,
+  "paletteCount": 5879,
+  "frames": [
+    {
+      "style": "short",
+      "direction": "down",
+      "source": {
+        "x": 70,
+        "y": 57,
+        "w": 181,
+        "h": 383
+      },
+      "bounds": {
+        "x": 6,
+        "y": 4,
+        "w": 28,
+        "h": 59
+      },
+      "headBodySplit": 30,
+      "scale": 0.1544502617801047
+    },
+    {
+      "style": "short",
+      "direction": "left",
+      "source": {
+        "x": 371,
+        "y": 57,
+        "w": 159,
+        "h": 383
+      },
+      "bounds": {
+        "x": 8,
+        "y": 4,
+        "w": 25,
+        "h": 59
+      },
+      "headBodySplit": 29,
+      "scale": 0.1544502617801047
+    },
+    {
+      "style": "short",
+      "direction": "up",
+      "source": {
+        "x": 642,
+        "y": 57,
+        "w": 179,
+        "h": 383
+      },
+      "bounds": {
+        "x": 6,
+        "y": 4,
+        "w": 28,
+        "h": 59
+      },
+      "headBodySplit": 28,
+      "scale": 0.1544502617801047
+    },
+    {
+      "style": "short",
+      "direction": "right",
+      "source": {
+        "x": 938,
+        "y": 57,
+        "w": 151,
+        "h": 383
+      },
+      "bounds": {
+        "x": 8,
+        "y": 4,
+        "w": 23,
+        "h": 59
+      },
+      "headBodySplit": 29,
+      "scale": 0.1544502617801047
+    },
+    {
+      "style": "bob",
+      "direction": "down",
+      "source": {
+        "x": 70,
+        "y": 473,
+        "w": 182,
+        "h": 386
+      },
+      "bounds": {
+        "x": 6,
+        "y": 4,
+        "w": 28,
+        "h": 59
+      },
+      "headBodySplit": 31,
+      "scale": 0.15324675324675324
+    },
+    {
+      "style": "bob",
+      "direction": "left",
+      "source": {
+        "x": 371,
+        "y": 477,
+        "w": 164,
+        "h": 382
+      },
+      "bounds": {
+        "x": 8,
+        "y": 4,
+        "w": 25,
+        "h": 59
+      },
+      "headBodySplit": 29,
+      "scale": 0.15485564304461943
+    },
+    {
+      "style": "bob",
+      "direction": "up",
+      "source": {
+        "x": 637,
+        "y": 477,
+        "w": 187,
+        "h": 382
+      },
+      "bounds": {
+        "x": 5,
+        "y": 4,
+        "w": 29,
+        "h": 59
+      },
+      "headBodySplit": 28,
+      "scale": 0.15485564304461943
+    },
+    {
+      "style": "bob",
+      "direction": "right",
+      "source": {
+        "x": 934,
+        "y": 477,
+        "w": 160,
+        "h": 382
+      },
+      "bounds": {
+        "x": 7,
+        "y": 4,
+        "w": 25,
+        "h": 59
+      },
+      "headBodySplit": 29,
+      "scale": 0.15485564304461943
+    },
+    {
+      "style": "wavy",
+      "direction": "down",
+      "source": {
+        "x": 59,
+        "y": 889,
+        "w": 203,
+        "h": 386
+      },
+      "bounds": {
+        "x": 4,
+        "y": 4,
+        "w": 32,
+        "h": 59
+      },
+      "headBodySplit": 31,
+      "scale": 0.15324675324675324
+    },
+    {
+      "style": "wavy",
+      "direction": "left",
+      "source": {
+        "x": 369,
+        "y": 889,
+        "w": 178,
+        "h": 386
+      },
+      "bounds": {
+        "x": 7,
+        "y": 4,
+        "w": 28,
+        "h": 59
+      },
+      "headBodySplit": 32,
+      "scale": 0.15324675324675324
+    },
+    {
+      "style": "wavy",
+      "direction": "up",
+      "source": {
+        "x": 627,
+        "y": 889,
+        "w": 208,
+        "h": 385
+      },
+      "bounds": {
+        "x": 4,
+        "y": 4,
+        "w": 32,
+        "h": 59
+      },
+      "headBodySplit": 32,
+      "scale": 0.15364583333333334
+    },
+    {
+      "style": "wavy",
+      "direction": "right",
+      "source": {
+        "x": 916,
+        "y": 889,
+        "w": 179,
+        "h": 386
+      },
+      "bounds": {
+        "x": 5,
+        "y": 4,
+        "w": 28,
+        "h": 59
+      },
+      "headBodySplit": 32,
+      "scale": 0.15324675324675324
+    }
+  ]
+}

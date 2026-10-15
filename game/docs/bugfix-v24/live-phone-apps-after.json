@@ -1,0 +1,211 @@
+[
+  {
+    "name": "Сообщения",
+    "content": {
+      "client": 235,
+      "rect": {
+        "bottom": 652.0859375,
+        "height": 336.3125,
+        "right": 312.7890625,
+        "width": 234.5859375,
+        "x": 78.203125,
+        "y": 315.7734375
+      },
+      "scroll": 235
+    },
+    "document": {
+      "client": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "name": "Друзья",
+    "content": {
+      "client": 235,
+      "rect": {
+        "bottom": 652.0859375,
+        "height": 336.3125,
+        "right": 312.7890625,
+        "width": 234.5859375,
+        "x": 78.203125,
+        "y": 315.7734375
+      },
+      "scroll": 235
+    },
+    "document": {
+      "client": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "name": "Поиск",
+    "content": {
+      "client": 235,
+      "rect": {
+        "bottom": 652.0859375,
+        "height": 336.3125,
+        "right": 312.7890625,
+        "width": 234.5859375,
+        "x": 78.203125,
+        "y": 315.7734375
+      },
+      "scroll": 235
+    },
+    "document": {
+      "client": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "name": "Клан",
+    "content": {
+      "client": 235,
+      "rect": {
+        "bottom": 652.0859375,
+        "height": 336.3125,
+        "right": 312.7890625,
+        "width": 234.5859375,
+        "x": 78.203125,
+        "y": 315.7734375
+      },
+      "scroll": 235
+    },
+    "document": {
+      "client": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "name": "Каталог",
+    "content": {
+      "client": 175,
+      "rect": {
+        "bottom": 689.890625,
+        "height": 226.8515625,
+        "right": 282.6875,
+        "width": 174.6328125,
+        "x": 108.0546875,
+        "y": 463.0390625
+      },
+      "scroll": 175
+    },
+    "document": {
+      "client": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "name": "Игры",
+    "content": {
+      "client": 235,
+      "rect": {
+        "bottom": 652.0859375,
+        "height": 336.3125,
+        "right": 312.7890625,
+        "width": 234.5859375,
+        "x": 78.203125,
+        "y": 315.7734375
+      },
+      "scroll": 235
+    },
+    "document": {
+      "client": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "name": "Карты",
+    "content": {
+      "client": 235,
+      "rect": {
+        "bottom": 652.0859375,
+        "height": 336.3125,
+        "right": 312.7890625,
+        "width": 234.5859375,
+        "x": 78.203125,
+        "y": 315.7734375
+      },
+      "scroll": 235
+    },
+    "document": {
+      "client": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "name": "Казино",
+    "content": {
+      "client": 235,
+      "rect": {
+        "bottom": 652.0859375,
+        "height": 336.3125,
+        "right": 312.7890625,
+        "width": 234.5859375,
+        "x": 78.203125,
+        "y": 315.7734375
+      },
+      "scroll": 235
+    },
+    "document": {
+      "client": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "name": "Карта",
+    "content": {
+      "client": 175,
+      "rect": {
+        "bottom": 689.890625,
+        "height": 226.8515625,
+        "right": 282.6875,
+        "width": 174.6328125,
+        "x": 108.0546875,
+        "y": 463.0390625
+      },
+      "scroll": 175
+    },
+    "document": {
+      "client": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "name": "Задания",
+    "content": {
+      "client": 175,
+      "rect": {
+        "bottom": 689.890625,
+        "height": 226.8515625,
+        "right": 282.6875,
+        "width": 174.6328125,
+        "x": 108.0546875,
+        "y": 463.0390625
+      },
+      "scroll": 175
+    },
+    "document": {
+      "client": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "name": "Результаты",
+    "content": {
+      "client": 175,
+      "rect": {
+        "bottom": 689.890625,
+        "height": 226.8515625,
+        "right": 282.6875,
+        "width": 174.6328125,
+        "x": 108.0546875,
+        "y": 463.0390625
+      },
+      "scroll": 175
+    },
+    "document": {
+      "client": 390,
+      "scroll": 390
+    }
+  }
+]

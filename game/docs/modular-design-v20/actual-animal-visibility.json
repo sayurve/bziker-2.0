@@ -1,0 +1,94 @@
+{
+  "map_sha256": "ff35fc0bdeda3f73a30ca5489eb55630c2fbbe356a5880a5cd9582b57508a177",
+  "collision_map_sha256": "ff35fc0bdeda3f73a30ca5489eb55630c2fbbe356a5880a5cd9582b57508a177",
+  "actual_animal_renders": 5760,
+  "minimum_visible_fraction": 1,
+  "minimum_initial_visible_fraction": 1,
+  "method": "Actual supplied animal opaque body alpha on every closed route sampled at12px, four native directions/four walking frames, cumulative independent native foreground alpha",
+  "results": [
+    {
+      "id": "park-dog",
+      "minimum_visible_fraction": 1,
+      "initial_visible_fraction": 1,
+      "minimumPoint": null,
+      "sampled_route_points": 30
+    },
+    {
+      "id": "park-cat",
+      "minimum_visible_fraction": 1,
+      "initial_visible_fraction": 1,
+      "minimumPoint": null,
+      "sampled_route_points": 30
+    },
+    {
+      "id": "station-dog",
+      "minimum_visible_fraction": 1,
+      "initial_visible_fraction": 1,
+      "minimumPoint": null,
+      "sampled_route_points": 30
+    },
+    {
+      "id": "station-cat",
+      "minimum_visible_fraction": 1,
+      "initial_visible_fraction": 1,
+      "minimumPoint": null,
+      "sampled_route_points": 30
+    },
+    {
+      "id": "park-north-dog",
+      "minimum_visible_fraction": 1,
+      "initial_visible_fraction": 1,
+      "minimumPoint": null,
+      "sampled_route_points": 30
+    },
+    {
+      "id": "park-lake-cat",
+      "minimum_visible_fraction": 1,
+      "initial_visible_fraction": 1,
+      "minimumPoint": null,
+      "sampled_route_points": 30
+    },
+    {
+      "id": "plaza-dog",
+      "minimum_visible_fraction": 1,
+      "initial_visible_fraction": 1,
+      "minimumPoint": null,
+      "sampled_route_points": 30
+    },
+    {
+      "id": "plaza-cat",
+      "minimum_visible_fraction": 1,
+      "initial_visible_fraction": 1,
+      "minimumPoint": null,
+      "sampled_route_points": 30
+    },
+    {
+      "id": "clan-dog",
+      "minimum_visible_fraction": 1,
+      "initial_visible_fraction": 1,
+      "minimumPoint": null,
+      "sampled_route_points": 30
+    },
+    {
+      "id": "clan-cat",
+      "minimum_visible_fraction": 1,
+      "initial_visible_fraction": 1,
+      "minimumPoint": null,
+      "sampled_route_points": 30
+    },
+    {
+      "id": "shop-dog",
+      "minimum_visible_fraction": 1,
+      "initial_visible_fraction": 1,
+      "minimumPoint": null,
+      "sampled_route_points": 30
+    },
+    {
+      "id": "cafe-cat",
+      "minimum_visible_fraction": 1,
+      "initial_visible_fraction": 1,
+      "minimumPoint": null,
+      "sampled_route_points": 30
+    }
+  ]
+}

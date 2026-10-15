@@ -1,0 +1,22 @@
+✔ the shadow, nickname, clan flag and sprite follow one stable physical pixel anchor (99.463ms)
+✔ fine running frames retain every native face and texture pixel at all four phases and directions (457.772041ms)
+✔ standing retains the run-canonical proportions and the pixels of its selected native idle (26.444542ms)
+✔ fine customization preserves the native eyes while changing clothes and retains the foot anchor (25.814875ms)
+✔ selected long hair keeps its added strands when the character stops running (69.072041ms)
+✔ the imported actor catalog retains all 22 entities and 374 original base actions (34.480792ms)
+✔ whole walking frames advance by discrete source order without moving the feet anchor (39.826666ms)
+✔ phone and food select seated source cycles without dropping the sitting context (0.565125ms)
+✔ animals use deterministic actual breeds and source gait frames at the existing world coordinate (0.421834ms)
+✔ catching a fish uses the authored hand-to-pocket sequence and phone stays seated on a boat (0.28375ms)
+✔ every supplied scenario and every animal action is addressable instead of silently becoming idle (4.905875ms)
+✔ untrusted animation identifiers cannot select inherited object properties (0.587667ms)
+✔ source pages are compact PNG atlases with normalized transparent cell bounds (170.201708ms)
+✔ canvas source rendering retains custom hair, skin, clothes and costume identity (200.836334ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 905.913167

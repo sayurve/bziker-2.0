@@ -1,0 +1,8 @@
+test_actual_http_lab_is_available_without_session_cookie (test_character_lab.CharacterLabTests.test_actual_http_lab_is_available_without_session_cookie) ... ok
+test_every_character_module_has_required_aliases (test_character_lab.CharacterLabTests.test_every_character_module_has_required_aliases) ... ok
+test_lab_entrypoint_and_styles_are_explicit (test_character_lab.CharacterLabTests.test_lab_entrypoint_and_styles_are_explicit) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.519s
+
+OK

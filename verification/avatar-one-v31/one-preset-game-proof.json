@@ -1,0 +1,73 @@
+{
+  "kind": "QA contact from actual game screenshots; no resource edits",
+  "reviewed": true,
+  "files": [
+    {
+      "file": "frozen-down-recheck-01.jpg",
+      "sha256": "c6ff08e37f377d65440749272d5160f9c6a4d31bbb63db6875c7c67f7fba0d38"
+    },
+    {
+      "file": "frozen-down-recheck-05.jpg",
+      "sha256": "51b86a91ca8e854937c17b78a91980505255f30cf73bd8dafd70a5b6f07bd7a1"
+    },
+    {
+      "file": "frozen-down-recheck-11.jpg",
+      "sha256": "3db427688274d6da67b028e61f91137dd90fe6389212247187bb69863845036b"
+    },
+    {
+      "file": "frozen-down-recheck-13.jpg",
+      "sha256": "2d7ae08e723d215382a7365d32d578f8c0c0d475b344bba1fe636b37324bde12"
+    },
+    {
+      "file": "frozen-run-right-01.jpg",
+      "sha256": "1c0949175c2acd0d9085d5a09edd7fcee328ac640747883e525b13818a3fa05c"
+    },
+    {
+      "file": "frozen-run-right-03.jpg",
+      "sha256": "7170517ec97a82648ea62eff66cbd22682099ccd500c2ab2979216c956a3aa98"
+    },
+    {
+      "file": "frozen-run-right-05.jpg",
+      "sha256": "30b8d0315e1d554d7a665f91fe37f063475ad3214e1510b6cdb20fa7670aa1d9"
+    },
+    {
+      "file": "frozen-run-right-08.jpg",
+      "sha256": "5aa74e2aa9b72dda23bfcdd566e0496f43e2bb963177068e4fb590e257f67774"
+    },
+    {
+      "file": "frozen-run-up-01.jpg",
+      "sha256": "5e56118278ccbb3ef6e47011c59379eb6ae3b074f826e9b4672528a9d27194bb"
+    },
+    {
+      "file": "frozen-run-up-04.jpg",
+      "sha256": "2a534cf390caebe3528723ba95e212bd4435a49555dee5937c847d6b968c66e2"
+    },
+    {
+      "file": "frozen-run-up-07.jpg",
+      "sha256": "676223ea7e64ab18b112cb18319e4e193944cd1e355dc632955cf88d98ba2fc8"
+    },
+    {
+      "file": "frozen-run-up-10.jpg",
+      "sha256": "b769075b91a71ee42e4f7f282a8d2047e42a22730a55c942933f84c16de6af4a"
+    },
+    {
+      "file": "frozen-run-left-01.jpg",
+      "sha256": "8787ec6279fc0c4b1f645c3ab74020f844e189b8f653b35694cff97874c55ff6"
+    },
+    {
+      "file": "frozen-run-left-03.jpg",
+      "sha256": "bd566dfdeea6775b60778ee49b775133ebbb556c7723ec14c514b7193e3e030d"
+    },
+    {
+      "file": "frozen-run-left-05.jpg",
+      "sha256": "394c68240ee9110d4771f7df4402eedd54549c5c6d78f4e2ebd9af3190faf00d"
+    },
+    {
+      "file": "frozen-run-left-07.jpg",
+      "sha256": "a061bb5c4f188ab6337c1908af210c2a887fa184074c138301729740c2fc5cad"
+    }
+  ],
+  "reviewedBy": "root actual view_image",
+  "reviewedAt": "2026-10-15T16:39:05.708017+00:00",
+  "scope": "Four directions of ONE H7 preset only; selection from actual game screenshots. Not a claim that every hair style or action was checked."
+}

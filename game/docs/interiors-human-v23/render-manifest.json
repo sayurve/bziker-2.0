@@ -1,0 +1,1314 @@
+{
+  "actorHeight": 80,
+  "rooms": [
+    {
+      "id": "railway",
+      "size": [
+        2496,
+        939
+      ],
+      "humans": [
+        {
+          "x": 1248,
+          "y": 764
+        },
+        {
+          "x": 837.018257,
+          "y": 660.6
+        }
+      ],
+      "props": [
+        {
+          "id": "service",
+          "height": 140,
+          "footprint": {
+            "x": 538.847525,
+            "y": 319,
+            "width": 201.914191,
+            "height": 45
+          }
+        },
+        {
+          "id": "ticket-window-2",
+          "height": 140,
+          "footprint": {
+            "x": 863.847525,
+            "y": 319,
+            "width": 201.914191,
+            "height": 45
+          }
+        },
+        {
+          "id": "terminal",
+          "height": 110,
+          "footprint": {
+            "x": 1927.152475,
+            "y": 324,
+            "width": 44.697885,
+            "height": 32
+          }
+        },
+        {
+          "id": "bench-1",
+          "height": 70,
+          "footprint": {
+            "x": 603.847525,
+            "y": 590.6,
+            "width": 168.170732,
+            "height": 35
+          }
+        },
+        {
+          "id": "bench-2",
+          "height": 70,
+          "footprint": {
+            "x": 1712.152475,
+            "y": 590.6,
+            "width": 168.170732,
+            "height": 35
+          }
+        },
+        {
+          "id": "plant-1",
+          "height": 70,
+          "footprint": {
+            "x": 488.847525,
+            "y": 439,
+            "width": 44.246196,
+            "height": 28
+          }
+        },
+        {
+          "id": "plant-2",
+          "height": 70,
+          "footprint": {
+            "x": 1972.152475,
+            "y": 439,
+            "width": 44.246196,
+            "height": 28
+          }
+        },
+        {
+          "id": "suitcase",
+          "height": 50,
+          "footprint": {
+            "x": 1912.152475,
+            "y": 616.6,
+            "width": 23.268072,
+            "height": 22
+          }
+        },
+        {
+          "id": "bin",
+          "height": 45,
+          "footprint": {
+            "x": 533.847525,
+            "y": 694.6,
+            "width": 31.276596,
+            "height": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "clans",
+      "size": [
+        1676,
+        906
+      ],
+      "humans": [
+        {
+          "x": 838,
+          "y": 731
+        },
+        {
+          "x": 585.856896,
+          "y": 376
+        }
+      ],
+      "props": [
+        {
+          "id": "service",
+          "height": 65,
+          "footprint": {
+            "x": 362.596026,
+            "y": 301,
+            "width": 158.26087,
+            "height": 40
+          }
+        },
+        {
+          "id": "management-screen",
+          "height": 150,
+          "footprint": {
+            "x": 1193.403974,
+            "y": 316,
+            "width": 100.310559,
+            "height": 40
+          }
+        },
+        {
+          "id": "archives",
+          "height": 140,
+          "footprint": {
+            "x": 367.596026,
+            "y": 506,
+            "width": 130.776471,
+            "height": 35
+          }
+        },
+        {
+          "id": "conference-table",
+          "height": 70,
+          "footprint": {
+            "x": 1063.403974,
+            "y": 496,
+            "width": 170.434783,
+            "height": 50
+          }
+        },
+        {
+          "id": "sofa-1",
+          "height": 70,
+          "footprint": {
+            "x": 362.596026,
+            "y": 641,
+            "width": 144.897119,
+            "height": 40
+          }
+        },
+        {
+          "id": "sofa-2",
+          "height": 70,
+          "footprint": {
+            "x": 1123.403974,
+            "y": 641,
+            "width": 144.897119,
+            "height": 40
+          }
+        },
+        {
+          "id": "plant-1",
+          "height": 75,
+          "footprint": {
+            "x": 342.596026,
+            "y": 411,
+            "width": 48.489933,
+            "height": 28
+          }
+        },
+        {
+          "id": "plant-2",
+          "height": 75,
+          "footprint": {
+            "x": 1283.403974,
+            "y": 411,
+            "width": 48.489933,
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "id": "arena",
+      "size": [
+        2285,
+        1630
+      ],
+      "humans": [
+        {
+          "x": 1142.5,
+          "y": 1435
+        },
+        {
+          "x": 764.029862,
+          "y": 1305
+        }
+      ],
+      "props": [
+        {
+          "id": "service",
+          "height": 130,
+          "footprint": {
+            "x": 1090.5,
+            "y": 980,
+            "width": 105.366528,
+            "height": 55
+          }
+        },
+        {
+          "id": "blue",
+          "height": 160,
+          "footprint": {
+            "x": 520.238843,
+            "y": 1210,
+            "width": 178.791019,
+            "height": 60
+          }
+        },
+        {
+          "id": "violet",
+          "height": 160,
+          "footprint": {
+            "x": 1584.761157,
+            "y": 1210,
+            "width": 190.859539,
+            "height": 60
+          }
+        },
+        {
+          "id": "plant-1",
+          "height": 75,
+          "footprint": {
+            "x": 455.238843,
+            "y": 1040,
+            "width": 40.537555,
+            "height": 28
+          }
+        },
+        {
+          "id": "plant-2",
+          "height": 75,
+          "footprint": {
+            "x": 1789.761157,
+            "y": 1040,
+            "width": 40.537555,
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "id": "profile",
+      "size": [
+        1851,
+        925
+      ],
+      "humans": [
+        {
+          "x": 925.5,
+          "y": 750
+        },
+        {
+          "x": 617.225508,
+          "y": 628
+        }
+      ],
+      "props": [
+        {
+          "id": "service",
+          "height": 110,
+          "footprint": {
+            "x": 410.659851,
+            "y": 320,
+            "width": 175.486381,
+            "height": 40
+          }
+        },
+        {
+          "id": "fitting-1",
+          "height": 125,
+          "footprint": {
+            "x": 1190.340149,
+            "y": 325,
+            "width": 110.180412,
+            "height": 55
+          }
+        },
+        {
+          "id": "rail-1",
+          "height": 120,
+          "footprint": {
+            "x": 415.659851,
+            "y": 555,
+            "width": 136.565657,
+            "height": 38
+          }
+        },
+        {
+          "id": "shoe-shelf-1",
+          "height": 120,
+          "footprint": {
+            "x": 1185.340149,
+            "y": 575,
+            "width": 108,
+            "height": 32
+          }
+        },
+        {
+          "id": "fitting-2",
+          "height": 125,
+          "footprint": {
+            "x": 1330.340149,
+            "y": 325,
+            "width": 110.180412,
+            "height": 55
+          }
+        },
+        {
+          "id": "rail-2",
+          "height": 120,
+          "footprint": {
+            "x": 615.659851,
+            "y": 555,
+            "width": 136.565657,
+            "height": 38
+          }
+        },
+        {
+          "id": "shoe-shelf-2",
+          "height": 120,
+          "footprint": {
+            "x": 1330.340149,
+            "y": 575,
+            "width": 108,
+            "height": 32
+          }
+        },
+        {
+          "id": "mirror",
+          "height": 110,
+          "footprint": {
+            "x": 1405.340149,
+            "y": 445,
+            "width": 62.362205,
+            "height": 22
+          }
+        },
+        {
+          "id": "plant",
+          "height": 75,
+          "footprint": {
+            "x": 375.659851,
+            "y": 435,
+            "width": 47.458506,
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "id": "results",
+      "size": [
+        2285,
+        1630
+      ],
+      "humans": [
+        {
+          "x": 1142.5,
+          "y": 1435
+        },
+        {
+          "x": 764.029862,
+          "y": 1305
+        }
+      ],
+      "props": [
+        {
+          "id": "service",
+          "height": 130,
+          "footprint": {
+            "x": 1090.5,
+            "y": 980,
+            "width": 105.366528,
+            "height": 55
+          }
+        },
+        {
+          "id": "blue",
+          "height": 160,
+          "footprint": {
+            "x": 520.238843,
+            "y": 1210,
+            "width": 178.791019,
+            "height": 60
+          }
+        },
+        {
+          "id": "violet",
+          "height": 160,
+          "footprint": {
+            "x": 1584.761157,
+            "y": 1210,
+            "width": 190.859539,
+            "height": 60
+          }
+        },
+        {
+          "id": "plant-1",
+          "height": 75,
+          "footprint": {
+            "x": 455.238843,
+            "y": 1040,
+            "width": 40.537555,
+            "height": 28
+          }
+        },
+        {
+          "id": "plant-2",
+          "height": 75,
+          "footprint": {
+            "x": 1789.761157,
+            "y": 1040,
+            "width": 40.537555,
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "id": "messages",
+      "size": [
+        1686,
+        910
+      ],
+      "humans": [
+        {
+          "x": 843,
+          "y": 735
+        },
+        {
+          "x": 1281.486849,
+          "y": 480
+        }
+      ],
+      "props": [
+        {
+          "id": "service",
+          "height": 96,
+          "footprint": {
+            "x": 369.414141,
+            "y": 305,
+            "width": 280,
+            "height": 50
+          }
+        },
+        {
+          "id": "bar-stool-1",
+          "height": 60,
+          "footprint": {
+            "x": 394.414141,
+            "y": 425,
+            "width": 42.137405,
+            "height": 28
+          }
+        },
+        {
+          "id": "bar-stool-2",
+          "height": 60,
+          "footprint": {
+            "x": 494.414141,
+            "y": 425,
+            "width": 42.137405,
+            "height": 28
+          }
+        },
+        {
+          "id": "bar-stool-3",
+          "height": 60,
+          "footprint": {
+            "x": 594.414141,
+            "y": 425,
+            "width": 42.137405,
+            "height": 28
+          }
+        },
+        {
+          "id": "table-1",
+          "height": 80,
+          "footprint": {
+            "x": 1126.585859,
+            "y": 400,
+            "width": 89.90099,
+            "height": 45
+          }
+        },
+        {
+          "id": "table-1:left",
+          "height": 70,
+          "footprint": {
+            "x": 1041.585859,
+            "y": 410,
+            "width": 38.992042,
+            "height": 30
+          }
+        },
+        {
+          "id": "table-1:right",
+          "height": 70,
+          "footprint": {
+            "x": 1251.585859,
+            "y": 410,
+            "width": 41.413613,
+            "height": 30
+          }
+        },
+        {
+          "id": "table-2",
+          "height": 80,
+          "footprint": {
+            "x": 474.414141,
+            "y": 615,
+            "width": 89.90099,
+            "height": 45
+          }
+        },
+        {
+          "id": "table-2:left",
+          "height": 70,
+          "footprint": {
+            "x": 389.414141,
+            "y": 625,
+            "width": 38.992042,
+            "height": 30
+          }
+        },
+        {
+          "id": "table-2:right",
+          "height": 70,
+          "footprint": {
+            "x": 599.414141,
+            "y": 625,
+            "width": 41.413613,
+            "height": 30
+          }
+        },
+        {
+          "id": "table-3",
+          "height": 80,
+          "footprint": {
+            "x": 1126.585859,
+            "y": 615,
+            "width": 89.90099,
+            "height": 45
+          }
+        },
+        {
+          "id": "table-3:left",
+          "height": 70,
+          "footprint": {
+            "x": 1041.585859,
+            "y": 625,
+            "width": 38.992042,
+            "height": 30
+          }
+        },
+        {
+          "id": "table-3:right",
+          "height": 70,
+          "footprint": {
+            "x": 1251.585859,
+            "y": 625,
+            "width": 41.413613,
+            "height": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "terrace",
+      "size": [
+        1647,
+        912
+      ],
+      "humans": [
+        {
+          "x": 823.5,
+          "y": 737
+        },
+        {
+          "x": 552.154994,
+          "y": 382
+        }
+      ],
+      "props": [
+        {
+          "id": "service",
+          "height": 65,
+          "footprint": {
+            "x": 358.166667,
+            "y": 307,
+            "width": 128.988327,
+            "height": 40
+          }
+        },
+        {
+          "id": "table-1",
+          "height": 75,
+          "footprint": {
+            "x": 418.166667,
+            "y": 517,
+            "width": 148.832685,
+            "height": 45
+          }
+        },
+        {
+          "id": "chair-1-1",
+          "height": 65,
+          "footprint": {
+            "x": 433.166667,
+            "y": 622,
+            "width": 49.189189,
+            "height": 30
+          }
+        },
+        {
+          "id": "chair-1-2",
+          "height": 65,
+          "footprint": {
+            "x": 523.166667,
+            "y": 622,
+            "width": 49.189189,
+            "height": 30
+          }
+        },
+        {
+          "id": "table-2",
+          "height": 75,
+          "footprint": {
+            "x": 1028.833333,
+            "y": 517,
+            "width": 148.832685,
+            "height": 45
+          }
+        },
+        {
+          "id": "chair-2-1",
+          "height": 65,
+          "footprint": {
+            "x": 1043.833333,
+            "y": 622,
+            "width": 49.189189,
+            "height": 30
+          }
+        },
+        {
+          "id": "chair-2-2",
+          "height": 65,
+          "footprint": {
+            "x": 1133.833333,
+            "y": 622,
+            "width": 49.189189,
+            "height": 30
+          }
+        },
+        {
+          "id": "sofa",
+          "height": 75,
+          "footprint": {
+            "x": 1088.833333,
+            "y": 322,
+            "width": 150.298805,
+            "height": 40
+          }
+        },
+        {
+          "id": "plant-1",
+          "height": 75,
+          "footprint": {
+            "x": 338.166667,
+            "y": 417,
+            "width": 51.627907,
+            "height": 28
+          }
+        },
+        {
+          "id": "plant-2",
+          "height": 75,
+          "footprint": {
+            "x": 1258.833333,
+            "y": 417,
+            "width": 51.627907,
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "id": "shop-food",
+      "size": [
+        1676,
+        906
+      ],
+      "humans": [
+        {
+          "x": 838,
+          "y": 731
+        },
+        {
+          "x": 665.856896,
+          "y": 581
+        }
+      ],
+      "props": [
+        {
+          "id": "service",
+          "height": 110,
+          "footprint": {
+            "x": 362.596026,
+            "y": 301,
+            "width": 175.486381,
+            "height": 40
+          }
+        },
+        {
+          "id": "shelf-1",
+          "height": 65,
+          "footprint": {
+            "x": 442.596026,
+            "y": 506,
+            "width": 158.26087,
+            "height": 40
+          }
+        },
+        {
+          "id": "shelf-1-vitrine",
+          "height": 65,
+          "footprint": {
+            "x": 604.856896,
+            "y": 506,
+            "width": 158.26087,
+            "height": 40
+          }
+        },
+        {
+          "id": "shelf-2",
+          "height": 65,
+          "footprint": {
+            "x": 912.882234,
+            "y": 506,
+            "width": 158.26087,
+            "height": 40
+          }
+        },
+        {
+          "id": "shelf-2-vitrine",
+          "height": 65,
+          "footprint": {
+            "x": 1075.143104,
+            "y": 506,
+            "width": 158.26087,
+            "height": 40
+          }
+        },
+        {
+          "id": "goods-table-1",
+          "height": 65,
+          "footprint": {
+            "x": 442.596026,
+            "y": 671,
+            "width": 158.26087,
+            "height": 40
+          }
+        },
+        {
+          "id": "goods-table-1-vitrine",
+          "height": 65,
+          "footprint": {
+            "x": 604.856896,
+            "y": 671,
+            "width": 158.26087,
+            "height": 40
+          }
+        },
+        {
+          "id": "goods-table-2",
+          "height": 65,
+          "footprint": {
+            "x": 912.882234,
+            "y": 671,
+            "width": 158.26087,
+            "height": 40
+          }
+        },
+        {
+          "id": "goods-table-2-vitrine",
+          "height": 65,
+          "footprint": {
+            "x": 1075.143104,
+            "y": 671,
+            "width": 158.26087,
+            "height": 40
+          }
+        },
+        {
+          "id": "plant-1",
+          "height": 75,
+          "footprint": {
+            "x": 342.596026,
+            "y": 411,
+            "width": 48.489933,
+            "height": 28
+          }
+        },
+        {
+          "id": "plant-2",
+          "height": 75,
+          "footprint": {
+            "x": 1283.403974,
+            "y": 411,
+            "width": 48.489933,
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "id": "shop-clothes",
+      "size": [
+        1851,
+        925
+      ],
+      "humans": [
+        {
+          "x": 925.5,
+          "y": 750
+        },
+        {
+          "x": 617.225508,
+          "y": 628
+        }
+      ],
+      "props": [
+        {
+          "id": "service",
+          "height": 110,
+          "footprint": {
+            "x": 410.659851,
+            "y": 320,
+            "width": 175.486381,
+            "height": 40
+          }
+        },
+        {
+          "id": "fitting-1",
+          "height": 125,
+          "footprint": {
+            "x": 1190.340149,
+            "y": 325,
+            "width": 110.180412,
+            "height": 55
+          }
+        },
+        {
+          "id": "rail-1",
+          "height": 120,
+          "footprint": {
+            "x": 415.659851,
+            "y": 555,
+            "width": 136.565657,
+            "height": 38
+          }
+        },
+        {
+          "id": "shoe-shelf-1",
+          "height": 120,
+          "footprint": {
+            "x": 1185.340149,
+            "y": 575,
+            "width": 108,
+            "height": 32
+          }
+        },
+        {
+          "id": "fitting-2",
+          "height": 125,
+          "footprint": {
+            "x": 1330.340149,
+            "y": 325,
+            "width": 110.180412,
+            "height": 55
+          }
+        },
+        {
+          "id": "rail-2",
+          "height": 120,
+          "footprint": {
+            "x": 615.659851,
+            "y": 555,
+            "width": 136.565657,
+            "height": 38
+          }
+        },
+        {
+          "id": "shoe-shelf-2",
+          "height": 120,
+          "footprint": {
+            "x": 1330.340149,
+            "y": 575,
+            "width": 108,
+            "height": 32
+          }
+        },
+        {
+          "id": "mirror",
+          "height": 110,
+          "footprint": {
+            "x": 1405.340149,
+            "y": 445,
+            "width": 62.362205,
+            "height": 22
+          }
+        },
+        {
+          "id": "plant",
+          "height": 75,
+          "footprint": {
+            "x": 375.659851,
+            "y": 435,
+            "width": 47.458506,
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "id": "shop-furniture",
+      "size": [
+        1684,
+        907
+      ],
+      "humans": [
+        {
+          "x": 842,
+          "y": 732
+        },
+        {
+          "x": 587.3618799999999,
+          "y": 377
+        }
+      ],
+      "props": [
+        {
+          "id": "service",
+          "height": 65,
+          "footprint": {
+            "x": 364.10101,
+            "y": 302,
+            "width": 158.26087,
+            "height": 40
+          }
+        },
+        {
+          "id": "showroom-1",
+          "height": 70,
+          "footprint": {
+            "x": 364.10101,
+            "y": 487,
+            "width": 190.769231,
+            "height": 40
+          }
+        },
+        {
+          "id": "showroom-2",
+          "height": 75,
+          "footprint": {
+            "x": 1069.89899,
+            "y": 322,
+            "width": 141.509434,
+            "height": 45
+          }
+        },
+        {
+          "id": "showroom-3",
+          "height": 140,
+          "footprint": {
+            "x": 1144.89899,
+            "y": 507,
+            "width": 159.526316,
+            "height": 35
+          }
+        },
+        {
+          "id": "showroom-4",
+          "height": 65,
+          "footprint": {
+            "x": 389.10101,
+            "y": 642,
+            "width": 171.979167,
+            "height": 45
+          }
+        },
+        {
+          "id": "showroom-5",
+          "height": 65,
+          "footprint": {
+            "x": 1189.89899,
+            "y": 647,
+            "width": 41.539278,
+            "height": 30
+          }
+        },
+        {
+          "id": "plant-1",
+          "height": 75,
+          "footprint": {
+            "x": 344.10101,
+            "y": 412,
+            "width": 48.489933,
+            "height": 28
+          }
+        },
+        {
+          "id": "plant-2",
+          "height": 75,
+          "footprint": {
+            "x": 1289.89899,
+            "y": 412,
+            "width": 48.489933,
+            "height": 28
+          }
+        }
+      ]
+    },
+    {
+      "id": "casino",
+      "size": [
+        2043,
+        966
+      ],
+      "humans": [
+        {
+          "x": 1021.5,
+          "y": 791
+        },
+        {
+          "x": 1602.2006420000002,
+          "y": 696
+        }
+      ],
+      "props": [
+        {
+          "id": "service",
+          "height": 140,
+          "footprint": {
+            "x": 416.302317,
+            "y": 316,
+            "width": 178.181818,
+            "height": 45
+          }
+        },
+        {
+          "id": "slot-1",
+          "height": 135,
+          "footprint": {
+            "x": 841.5,
+            "y": 316,
+            "width": 73.075221,
+            "height": 38
+          }
+        },
+        {
+          "id": "slot-seat-1",
+          "height": 60,
+          "footprint": {
+            "x": 859.5,
+            "y": 416,
+            "width": 40.049261,
+            "height": 30
+          }
+        },
+        {
+          "id": "slot-2",
+          "height": 135,
+          "footprint": {
+            "x": 996.5,
+            "y": 316,
+            "width": 73.075221,
+            "height": 38
+          }
+        },
+        {
+          "id": "slot-seat-2",
+          "height": 60,
+          "footprint": {
+            "x": 1014.5,
+            "y": 416,
+            "width": 40.049261,
+            "height": 30
+          }
+        },
+        {
+          "id": "bar",
+          "height": 95,
+          "footprint": {
+            "x": 1376.697683,
+            "y": 326,
+            "width": 275.172414,
+            "height": 45
+          }
+        },
+        {
+          "id": "bar-seat-1",
+          "height": 55,
+          "footprint": {
+            "x": 1411.697683,
+            "y": 416,
+            "width": 40.783898,
+            "height": 30
+          }
+        },
+        {
+          "id": "bar-seat-2",
+          "height": 55,
+          "footprint": {
+            "x": 1531.697683,
+            "y": 416,
+            "width": 40.783898,
+            "height": 30
+          }
+        },
+        {
+          "id": "roulette",
+          "height": 90,
+          "footprint": {
+            "x": 491.302317,
+            "y": 596,
+            "width": 241.2,
+            "height": 65
+          }
+        },
+        {
+          "id": "roulette:north-1",
+          "height": 60,
+          "footprint": {
+            "x": 507.302317,
+            "y": 526,
+            "width": 38.894472,
+            "height": 25
+          }
+        },
+        {
+          "id": "roulette:south-1",
+          "height": 60,
+          "footprint": {
+            "x": 507.302317,
+            "y": 691,
+            "width": 40.049261,
+            "height": 30
+          }
+        },
+        {
+          "id": "roulette:north-2",
+          "height": 60,
+          "footprint": {
+            "x": 593.902317,
+            "y": 526,
+            "width": 38.894472,
+            "height": 25
+          }
+        },
+        {
+          "id": "roulette:south-2",
+          "height": 60,
+          "footprint": {
+            "x": 593.902317,
+            "y": 691,
+            "width": 40.049261,
+            "height": 30
+          }
+        },
+        {
+          "id": "roulette:north-3",
+          "height": 60,
+          "footprint": {
+            "x": 680.502317,
+            "y": 526,
+            "width": 38.894472,
+            "height": 25
+          }
+        },
+        {
+          "id": "roulette:south-3",
+          "height": 60,
+          "footprint": {
+            "x": 680.502317,
+            "y": 691,
+            "width": 40.049261,
+            "height": 30
+          }
+        },
+        {
+          "id": "poker-one",
+          "height": 90,
+          "footprint": {
+            "x": 1291.697683,
+            "y": 596,
+            "width": 245.502959,
+            "height": 65
+          }
+        },
+        {
+          "id": "poker-one:north-1",
+          "height": 60,
+          "footprint": {
+            "x": 1307.697683,
+            "y": 526,
+            "width": 38.894472,
+            "height": 25
+          }
+        },
+        {
+          "id": "poker-one:south-1",
+          "height": 60,
+          "footprint": {
+            "x": 1307.697683,
+            "y": 691,
+            "width": 40.049261,
+            "height": 30
+          }
+        },
+        {
+          "id": "poker-one:north-2",
+          "height": 60,
+          "footprint": {
+            "x": 1396.449163,
+            "y": 526,
+            "width": 38.894472,
+            "height": 25
+          }
+        },
+        {
+          "id": "poker-one:south-2",
+          "height": 60,
+          "footprint": {
+            "x": 1396.449163,
+            "y": 691,
+            "width": 40.049261,
+            "height": 30
+          }
+        },
+        {
+          "id": "poker-one:north-3",
+          "height": 60,
+          "footprint": {
+            "x": 1485.200642,
+            "y": 526,
+            "width": 38.894472,
+            "height": 25
+          }
+        },
+        {
+          "id": "poker-one:south-3",
+          "height": 60,
+          "footprint": {
+            "x": 1485.200642,
+            "y": 691,
+            "width": 40.049261,
+            "height": 30
+          }
+        },
+        {
+          "id": "plant",
+          "height": 75,
+          "footprint": {
+            "x": 416.302317,
+            "y": 766,
+            "width": 51.070901,
+            "height": 28
+          }
+        }
+      ]
+    }
+  ]
+}

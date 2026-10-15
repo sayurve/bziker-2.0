@@ -1,0 +1,223 @@
+/* Approved 09 interface artwork. Numbers and map content remain live HTML/canvas. */
+@font-face{font-family:BzikPixel;src:url('/assets/design-ui-font.ttf') format('truetype');font-display:swap}
+body{--source-ink:#111;--source-paper:#fff;--source-muted:#696960}
+body[data-screen=account] .topbar,body[data-screen=loading] .topbar,body[data-screen=splash] .topbar{display:none}
+body:is([data-screen=account],[data-screen=loading],[data-screen=splash]) #app{padding:0;max-width:none;min-height:100svh}
+.source-entry{position:relative;min-height:100svh;display:flex;align-items:center;justify-content:center;padding:max(28px,env(safe-area-inset-top)) max(24px,env(safe-area-inset-right)) max(32px,env(safe-area-inset-bottom)) max(24px,env(safe-area-inset-left));color:#111;font-family:BzikPixel,monospace}
+.source-entry-backdrop{position:fixed;inset:0;background:linear-gradient(#f8f9f2c9,#f8f9f2c9),url('/assets/design-ui-city.png') center/cover;z-index:-1}
+.source-auth-layout{display:grid;grid-template-columns:1fr 410px;align-items:center;gap:65px;width:min(100%,930px);animation:source-entry-arrive 180ms ease-out}
+.source-welcome{text-align:center}
+.source-welcome h1{font:400 clamp(24px,2.8vw,34px)/1.5 BzikPixel,monospace;letter-spacing:-.03em;margin:0}
+.source-welcome img{height:290px;max-width:100%;width:auto;object-fit:contain;image-rendering:pixelated;margin:28px auto 0}
+.source-welcome p{font:10px/1.9 BzikPixel,monospace;max-width:350px;margin:20px auto 0}
+.source-form.panel{padding:25px 27px 24px;border:3px solid #151515;border-radius:18px;background:#fff;box-shadow:0 6px 0 #111;color:#111;font-family:BzikPixel,monospace;min-width:0}
+.source-form-tabs{display:grid;grid-template-columns:.85fr 1.15fr;gap:5px;border:1px solid #d9d9d2;padding:4px;border-radius:8px;margin-bottom:26px;background:#f5f5f2}
+.source-form-tabs button{font:9px/1.4 BzikPixel,monospace;min-height:44px;border:0;border-radius:4px;background:transparent;color:#6b6b63;box-shadow:none;padding:8px 4px}
+.source-form-tabs button[aria-pressed=true]{background:#111;color:#fff}
+.source-form h2{font:400 17px/1.65 BzikPixel,monospace;margin:0;text-transform:none;letter-spacing:0}
+.source-form-subtitle{font:8px/1.8 BzikPixel,monospace;color:#696960;margin:9px 0 25px}
+.source-form .source-field{display:block;font:9px/1.6 BzikPixel,monospace;margin-top:19px;letter-spacing:0}
+.source-input-wrap{margin-top:8px;position:relative;display:flex;align-items:center;min-height:51px;border:2px solid #c5c5bd;border-radius:7px;background:#fcfcfa}
+.source-input-wrap:focus-within{border-color:#111;background:#fff}
+.source-field-icon{flex:0 0 34px;display:grid;place-items:center;color:#73736c}
+.source-field-icon svg{width:16px;height:16px}
+.source-form .source-input-wrap input{width:100%;min-width:0;height:49px;color:#111;font:16px/1.4 BzikPixel,monospace;border:0;outline:none;background:transparent;padding:10px 8px 10px 0;margin:0;border-radius:4px}
+.source-input-wrap input::placeholder{font-size:11px;color:#8a8a80;opacity:1}
+.source-form .source-eye{flex:0 0 44px;width:44px;min-height:49px;align-self:stretch;border:0;background:transparent;box-shadow:none;color:#222;border-radius:4px;display:grid;place-items:center;padding:0}
+.source-eye svg{width:17px;height:17px}.source-eye[aria-pressed=true]{background:#ededE8}
+.source-form .field-hint{font:7px/1.8 BzikPixel,monospace;margin:8px 0 0;color:#696960}
+.source-form .form-error{font:8px/1.8 BzikPixel,monospace;padding:10px;border:1px solid #111;color:#111}
+.source-form .primary,.source-loading-card .primary{display:block;width:100%;min-height:52px;margin-top:27px;padding:12px 10px;border:2px solid #111;border-radius:7px;background:#111;color:#fff;font:10px/1.8 BzikPixel,monospace;box-shadow:0 3px 0 #b6b6ab}
+.source-form .primary:active{transform:translateY(2px);box-shadow:0 1px 0 #b6b6ab}
+.source-form-switch{font:7px/1.9 BzikPixel,monospace;text-align:center;margin-top:22px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:9px;color:#696960}
+.source-form-switch .quiet{font:8px/1.8 BzikPixel,monospace;color:#111;padding:8px 0;min-width:44px;min-height:44px;border:0;background:transparent;text-decoration:underline;text-underline-offset:4px;box-shadow:none}
+.source-loading-card{width:min(100%,430px);padding:34px 30px 25px;border:3px solid #151515;border-radius:18px;background:#fff;box-shadow:0 6px 0 #111;text-align:center}
+.source-loading-card h1{font:400 28px/1.4 BzikPixel,monospace;margin:0}.source-loading-card p{font:9px/1.8 BzikPixel,monospace;color:#696960}
+.source-loading-card img{display:block;height:226px;max-width:100%;width:auto;object-fit:contain;image-rendering:pixelated;margin:28px auto}
+.source-progress{height:24px;border:2px solid #111;padding:3px;border-radius:3px;overflow:hidden}
+.source-progress span{display:block;width:50%;height:100%;background:repeating-linear-gradient(to right,#111 0,#111 9px,transparent 9px,transparent 12px);animation:source-loading 1.2s ease-in-out infinite alternate}
+.source-loading-card .quiet{font:9px/1.8 BzikPixel,monospace;min-height:44px;margin-top:12px}
+@keyframes source-loading{from{transform:translateX(0)}to{transform:translateX(100%)}}
+@keyframes source-entry-arrive{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
+
+/* The imported transparent hands include a phone shell. A live white screen
+ * covers the baked mockup menu; only real player data are displayed on top. */
+#phone-dialog,#phone-dialog.expanded{position:fixed;inset:auto auto 0 50%;margin:0;transform:translateX(-50%);width:min(500px,124vw,calc((100dvh - 136px)*.80917));height:auto;aspect-ratio:971/1200;max-width:none;max-height:none;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;overflow:visible;color:#111;font-family:Arial,Helvetica,sans-serif;animation:source-phone-arrive 340ms cubic-bezier(.22,.72,.18,1)}
+#phone-dialog[open]{display:block;transform:translateX(-50%);animation:source-phone-arrive 340ms cubic-bezier(.22,.72,.18,1);transition:none;opacity:1}.source-phone-hands{position:absolute;inset:0;display:block;width:100%;height:100%;pointer-events:none;image-rendering:pixelated}
+#phone-dialog.closing{animation:source-phone-depart 180ms ease-in forwards}
+/* Live content sits inside x251..722/y43..903 of the immutable 971×1200 PNG.
+ * The former y39..911 rectangle painted over its top/right/bottom frame. */
+#phone-dialog .phone-screen{position:absolute;left:25.84964%;right:25.64367%;top:3.58333%;bottom:24.75%;display:flex;flex-direction:column;border:0;border-radius:7.45% / 4.07%;background:white;overflow:hidden;min-height:0;min-width:0;padding:0}
+/* Keep the authored inner contour readable even when its 3–4 source pixels
+ * land between samples in a small phone. The 1px line follows x246..728/y37..910. */
+#phone-dialog::after{content:'';position:absolute;left:25.33471%;right:25.02575%;top:3.08333%;bottom:24.16667%;border:1px solid #111;border-radius:7.05% / 3.9%;pointer-events:none;z-index:2}
+#phone-dialog .phone-status,#phone-dialog .phone-speaker{display:none}
+#phone-dialog .dialog-heading{display:flex;align-items:center;gap:0;padding:2px 4px 2px 8px;min-height:48px;flex:none;border:0;background:#fff;color:#111}
+#phone-dialog .dialog-heading>div{min-width:0;flex:1}.phone-brand{font:800 17px/1.15 Arial,Helvetica,sans-serif;letter-spacing:-.025em;display:block}
+#phone-title{font:600 10px/1.3 Arial,Helvetica,sans-serif;margin:3px 0 0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#phone-dialog #expand-phone,#phone-dialog #close-phone{width:44px;min-width:44px;height:44px;padding:0;box-shadow:none;border:0;background:#fff;border-radius:0;font:26px Arial,Helvetica,sans-serif;color:#111}
+#phone-dialog #expand-phone{display:none}
+#phone-content{flex:1;min-height:0;overflow:auto;padding:8px 10px 10px;overscroll-behavior:contain;background:#fff;color:#111}
+#phone-content h3{font:700 15px/1.4 Arial,Helvetica,sans-serif;margin:0 0 8px;letter-spacing:0;text-transform:none}
+#phone-content .phone-owner{font:11px/1.4 Arial,Helvetica,sans-serif;margin:0 0 8px;color:#666;overflow-wrap:anywhere}
+#phone-content .phone-app-group+.phone-app-group{margin-top:12px;padding-top:10px;border-top:1px solid #c6c6c6}
+#phone-content .phone-app-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 5px}
+#phone-content .phone-app-grid button{padding:0;min-height:58px;min-width:0;border:0;box-shadow:none;background:transparent;color:#111;display:flex;flex-direction:column;gap:4px;font:10px/1.25 Arial,Helvetica,sans-serif;overflow-wrap:anywhere;border-radius:0}
+#phone-content .phone-app-grid .app-icon{display:grid;place-items:center;width:44px;height:44px;background:#fff;color:#111;border:2px solid #111;border-radius:9px}
+#phone-content .app-icon .pixel-icon{width:28px;height:28px}
+#phone-content .phone-app-grid button:active .app-icon{background:#ddd}
+#phone-content button:not(.phone-app-grid button){font:600 12px/1.4 Arial,Helvetica,sans-serif;min-height:44px;box-shadow:none;border:1.5px solid #111;border-radius:8px;background:#fff;color:#111;max-width:100%}
+#phone-content button.primary{background:#111;color:#fff}
+#phone-content :is(input,select,textarea){font:16px/1.4 Arial,Helvetica,sans-serif;border:1px solid #aaa;border-radius:7px;background:#fff;color:#111;padding:9px;max-width:100%}
+#phone-content label{font:12px/1.4 Arial,Helvetica,sans-serif;color:#111;letter-spacing:0;text-transform:none}
+#phone-content :is(.hint,.meta){font:11px/1.5 Arial,Helvetica,sans-serif;letter-spacing:0;color:#666}
+#phone-content .phone-section{padding-top:12px;margin-top:12px;border-top:1px solid #ddd}
+#phone-dialog .phone-back{position:static;display:grid;place-items:center;flex:0 0 44px;align-self:center;width:44px;height:44px;min-height:44px;margin:0;padding:0;border:1px solid #ccc;border-radius:5px;box-shadow:none;color:#111;background:#f1f1ed;font-size:0;line-height:1}
+#phone-dialog .phone-back svg{display:block;width:20px;height:20px;pointer-events:none}
+#phone-dialog .phone-back:hover:not(:disabled){background:#e4e4dc;color:#111}
+#phone-unread:not(:empty){right:0;top:-2px;background:#111;color:#fff;border-color:#fff}
+body[data-phone-open="true"] .world-controls{visibility:hidden;pointer-events:none}
+body[data-phone-open="true"] .world-actions,body[data-phone-open="true"] .world-hint{visibility:hidden;pointer-events:none}
+@keyframes source-phone-arrive{from{transform:translate(-50%,105%)}to{transform:translate(-50%,0)}}
+@keyframes source-phone-depart{to{transform:translate(-50%,105%)}}
+
+/* Actual minimap and server values inside approved raster frames. */
+.world-shell .source-hud{left:12px;right:12px;top:max(12px,env(safe-area-inset-top));gap:0;justify-content:space-between}
+.world-shell .source-hud .world-map-toggle{position:relative;display:block;width:108px;height:145px;padding:0;min-height:0;background:none;border:0;border-radius:0;box-shadow:none}
+.source-hud .world-minimap{position:absolute;left:10px;top:10px;width:88px;height:88px;border:0;background:#c3d3ab;image-rendering:pixelated}
+.source-map-frame{position:absolute;top:0;left:0;width:108px;height:108px;background:url('/assets/design-ui-minimap.png') center/contain no-repeat}
+.source-hud .world-scene-label{position:absolute;top:108px;left:0;width:108px;min-height:37px;padding:8px 8px;display:grid;place-items:center;background:url('/assets/design-ui-location.png') center/100% 100% no-repeat;color:white;font:700 10px/1.25 Arial,Helvetica,sans-serif;letter-spacing:0;text-align:center;white-space:normal}
+.source-hud .world-hud-meta{align-items:end;gap:2px}
+.source-hud .world-presence{position:relative;display:flex;justify-content:flex-end;align-items:center;width:90px;height:44px;padding:8px 12px 8px 42px;border:0;background:url('/assets/design-ui-online.png') center/100% 100% no-repeat;color:white;font:700 15px Arial,Helvetica,sans-serif;box-shadow:none;border-radius:0}
+.source-hud .world-presence small{display:none}
+.world-shell .source-hud .world-wallet{width:90px;min-width:0;height:44px;padding:4px 10px;gap:4px;border:0;border-radius:0;box-shadow:none;background:url('/assets/design-ui-counter.png') center/100% 100% no-repeat;color:white;justify-content:space-between}
+.source-hud .world-wallet small{display:none}.source-hud .world-balance{font:700 13px Arial,Helvetica,sans-serif}.source-hud .world-coin,.source-hud .world-coin img{width:27px;height:27px;display:block;image-rendering:pixelated}
+.world-shell .source-controls{left:12px;right:12px;bottom:max(14px,env(safe-area-inset-bottom),var(--tg-content-safe-area-inset-bottom,0px));gap:16px}
+.source-controls .world-stick{width:128px;height:128px;max-width:34vw;max-height:34vw;background:transparent;border:0;box-shadow:none;border-radius:0;overflow:visible}
+.source-controls .world-knob{width:100%;height:100%;image-rendering:pixelated}
+.source-controls .world-control-buttons{position:relative;width:140px;height:140px;gap:0;display:block;max-width:42vw}
+.world-shell .source-controls .world-enter,.world-shell .source-controls .world-inventory,.world-shell .source-controls .world-phone{width:64px;height:64px;min-width:44px;min-height:44px;padding:0;border:0;border-radius:0;box-shadow:none;background-color:transparent;background-position:center;background-size:contain;background-repeat:no-repeat;font-size:0;color:transparent;opacity:1}
+.world-shell .source-controls .world-enter{position:absolute;top:0;left:38px;background-image:url('/assets/design-ui-hand-normal.png')}
+.world-shell .source-controls .world-enter:active{background-image:url('/assets/design-ui-hand-pressed.png')}.world-shell .source-controls .world-enter:disabled{background-image:url('/assets/design-ui-hand-disabled.png')}
+.source-controls .world-quick-tools{position:absolute;left:0;right:0;bottom:0;display:flex;justify-content:space-between;gap:10px}
+.world-shell .source-controls .world-inventory{background-image:url('/assets/design-ui-inventory-normal.png')}.world-shell .source-controls .world-inventory:active{background-image:url('/assets/design-ui-inventory-pressed.png')}
+.world-shell .source-controls .world-phone{background-image:url('/assets/design-ui-phone-button-normal.png')}.world-shell .source-controls .world-phone:active{background-image:url('/assets/design-ui-phone-button-pressed.png')}
+.world-shell .source-controls .world-enter:focus-visible{background-image:url('/assets/design-ui-hand-selected.png');outline:2px solid white;outline-offset:2px}
+.world-shell .source-controls .world-inventory:focus-visible,.world-shell .source-controls .world-inventory[aria-pressed=true]{background-image:url('/assets/design-ui-inventory-selected.png')}
+.world-shell .source-controls .world-phone:focus-visible,.world-shell .source-controls .world-phone[aria-pressed=true]{background-image:url('/assets/design-ui-phone-button-selected.png')}
+.world-shell .source-controls .world-inventory:disabled{background-image:url('/assets/design-ui-inventory-disabled.png')}.world-shell .source-controls .world-phone:disabled{background-image:url('/assets/design-ui-phone-button-disabled.png')}
+.world-shell:not(.world-base) .world-actions{top:112px;right:12px;max-width:144px;flex-direction:row;gap:6px}
+.world-shell .world-actions button{background:#fff;color:#111;box-shadow:none;border:2px solid #111}
+body[data-control-layout="right"] .source-controls{flex-direction:row-reverse}
+body[data-control-layout="right"] .source-controls .world-quick-tools{flex-direction:row-reverse}
+body[data-control-layout="right"] .source-controls .world-control-buttons{margin-right:auto}
+body[data-control-layout="left"] .source-controls .world-control-buttons{margin-left:auto}
+
+/* Working catalogue uses the same quiet panel language and its real previews. */
+.profile-builder-screen .profile-builder{background:#fff;border:3px solid #111;border-radius:18px;box-shadow:0 5px 0 #111}
+.profile-builder-screen .profile-builder-top{background:#f7f7f2;border-color:#d2d2cc}
+.profile-builder-screen .profile-builder-caption h1{font:700 23px Arial,Helvetica,sans-serif;letter-spacing:-.025em}
+.profile-builder-screen .catalog-tabs button{box-shadow:none;border:1px solid #aaa;border-radius:7px;background:white;color:#111}
+.profile-builder-screen .catalog-tabs button[aria-pressed=true]{background:#111;color:white;border-color:#111}
+.profile-builder-screen .avatar-miniature{box-shadow:none;border:1px solid #d2d2cc;border-radius:8px;background:#fafaf8;color:#111}
+.profile-builder-screen .avatar-miniature[aria-pressed=true]{border:2px solid #111;background:#ecece5}
+.profile-builder-screen .profile-part summary{border-color:#d2d2cc}.profile-builder-screen .profile-builder-footer .primary{background:#111;color:white;box-shadow:none;border-radius:8px}
+@media(max-width:850px){.source-auth-layout{max-width:378px;grid-template-columns:1fr;gap:20px}.source-welcome{display:grid;grid-template-columns:1fr 67px;align-items:center;gap:12px;text-align:left;padding:0 20px}.source-welcome h1{font-size:23px}.source-welcome img{height:105px;width:67px;margin:0}.source-welcome p{display:none}.source-form.panel{padding:23px}.source-form h2{font-size:16px}}
+@media(max-width:850px){.world-shell .world-hint{display:none}}
+@media(max-width:380px){.source-entry{padding-left:14px;padding-right:14px}.source-form.panel{padding:20px 18px 17px}.source-form h2{font-size:14px}.source-form-tabs button{font-size:8px}.source-form-subtitle{font-size:7px}.source-loading-card{padding:25px 20px}.source-loading-card h1{font-size:24px}.source-hud .world-map-toggle{transform:scale(.9);transform-origin:top left}.world-shell .source-controls{left:8px;right:8px;gap:12px}.source-controls .world-control-buttons{width:130px;height:130px}.world-shell .source-controls .world-enter,.world-shell .source-controls .world-inventory,.world-shell .source-controls .world-phone{width:59px;height:59px}.source-controls .world-enter{left:35px}.phone-brand{font-size:14px}#phone-content{padding:6px 7px}#phone-content .phone-app-group h3{font-size:12px}#phone-content .phone-app-grid button{font-size:9px;min-height:57px}#phone-content .phone-app-group+.phone-app-group{margin-top:8px;padding-top:6px}}
+@media(max-height:700px) and (max-width:850px){.source-entry{align-items:flex-start;padding-top:max(17px,env(safe-area-inset-top));padding-bottom:26px}.source-welcome img{height:65px;width:43px}.source-welcome{grid-template-columns:1fr 43px}.source-auth-layout{gap:13px}.source-welcome h1{font-size:20px}.source-form-tabs{margin-bottom:16px}.source-form-subtitle{margin-bottom:17px}.source-form .source-field{margin-top:14px}.source-loading-card img{height:180px;margin:20px auto}}
+@media(max-height:600px){#phone-dialog,#phone-dialog.expanded{width:min(500px,124vw,calc((100dvh - 72px)*.80917))}#phone-content .phone-app-group+.phone-app-group{margin-top:6px;padding-top:5px}#phone-content .phone-owner{margin-bottom:5px}#phone-content .phone-app-group h3{font-size:12px;margin-bottom:6px}.source-controls .world-stick{width:100px;height:100px}.source-controls .world-control-buttons{height:115px}.world-shell .source-controls .world-enter,.world-shell .source-controls .world-inventory,.world-shell .source-controls .world-phone{width:52px;height:52px}.source-controls .world-enter{left:44px}}
+@media(prefers-reduced-motion:reduce){#phone-dialog[open],#phone-dialog.closing{animation:none;transform:translateX(-50%)}.source-auth-layout,.source-progress span{animation:none}}
+
+/* Keep all twelve application targets visible on a tall portrait phone. */
+#phone-content .phone-app-group h3{font:700 10px/1.2 Arial,Helvetica,sans-serif;margin:0 0 4px}
+#phone-content .phone-app-group+.phone-app-group{margin-top:6px;padding-top:4px}
+#phone-content .phone-owner{margin-bottom:4px}
+@media(max-width:450px){#phone-content .phone-app-grid button{min-height:54px;gap:3px}#phone-content .phone-app-grid .app-icon{width:40px;height:40px}#phone-content{padding-top:6px;padding-bottom:6px}}
+
+/* v23: fixed circular controls and compact HUD. Match the flex basis to the
+ * square canvas: the older 96px basis squeezed a 128px joystick into an oval. */
+.world-shell .source-controls{left:10px;right:10px;gap:12px;bottom:max(10px,env(safe-area-inset-bottom),var(--tg-content-safe-area-inset-bottom,0px))}
+.world-shell .source-controls .world-stick{width:136px;height:136px;flex:0 0 136px;max-width:none;max-height:none;aspect-ratio:1;background:transparent}
+.world-shell .source-controls .world-stick:before,.world-shell .source-controls .world-stick:after{display:none}
+.world-shell .source-controls .world-knob{inset:0;width:100%;height:100%;aspect-ratio:1}
+.world-shell .source-controls .world-control-buttons{width:104px;height:104px;flex:0 0 104px;max-width:none}
+.world-shell .source-controls :is(.world-enter,.world-inventory,.world-phone){width:48px;height:48px;min-width:48px;min-height:48px}
+.world-shell .source-controls .world-enter{top:0;left:56px}
+.world-shell .source-controls .world-quick-tools{gap:8px}
+.world-shell .source-controls .world-enter[hidden]{display:none!important}
+.world-shell .source-hud{left:10px;right:10px;top:8px}
+.world-shell .source-hud .world-map-toggle{width:84px;height:108px;transform:none}
+.world-shell .source-hud .world-minimap{left:8px;top:8px;width:68px;height:68px;max-height:none;aspect-ratio:1}
+.world-shell .source-hud .source-map-frame{width:84px;height:84px}
+.world-shell .source-hud .world-scene-label{top:84px;width:84px;min-height:24px;padding:5px 4px;font-size:9px;line-height:1.15}
+.world-shell .source-hud .world-presence{width:74px;height:32px;min-height:32px;padding:4px 9px 4px 32px;font-size:12px}
+.world-shell .source-hud .world-wallet{width:80px;height:44px;min-height:44px;padding:5px 8px;gap:3px}
+.world-shell .source-hud .world-coin{flex:0 0 24px}
+.world-shell .source-hud :is(.world-coin,.world-coin img){width:24px;height:24px}
+.world-shell .source-hud .world-balance{font-size:12px}
+.world-shell:not(.world-base) .world-actions{top:94px;right:10px;max-width:100px}
+.world-shell .world-actions button{width:44px;height:44px;min-width:44px;min-height:44px}
+.world-shell .world-actions:has(>button:not([hidden])){z-index:2}
+.world-shell .world-actions:not(:has(>button:not([hidden]))){display:none}
+.world-shell .world-map-panel{width:min(600px,calc(100% - 16px));padding:8px;box-shadow:0 4px 12px #1112}
+.world-shell .world-map-heading{font-size:11px;line-height:1.25}
+.world-shell .world-map-destinations button{font-size:11px;min-height:44px;padding:6px 8px}
+.world-shell .world-hint{bottom:150px}
+#phone-dialog{width:min(360px,100vw,calc((100dvh - 96px)*.80917))}
+#phone-dialog.expanded{width:min(500px,124vw,calc((100dvh - 96px)*.80917))}
+#phone-dialog #expand-phone{display:grid;place-items:center}
+#phone-dialog .dialog-heading{padding:2px 0 2px 6px}
+#phone-dialog .phone-brand{font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#phone-dialog #phone-title{font-size:9px}
+#phone-dialog #phone-content{padding:6px}
+@media(max-width:360px){
+ .world-shell .source-controls .world-stick{width:128px;height:128px;flex-basis:128px}
+ .world-shell .source-controls{left:6px;right:8px}
+}
+@media(max-height:420px) and (orientation:landscape){
+ .world-shell .source-controls .world-stick{width:112px;height:112px;flex-basis:112px}
+ .world-shell .source-controls .world-control-buttons{width:160px;height:48px;flex-basis:160px}
+ .world-shell .source-controls .world-enter{left:0}
+ .world-shell .source-controls .world-quick-tools{left:56px;width:104px}
+ .world-shell .source-hud .world-map-toggle{width:72px;height:96px}
+ .world-shell .source-hud .world-minimap{left:7px;top:7px;width:58px;height:58px}
+ .world-shell .source-hud .source-map-frame{width:72px;height:72px}
+ .world-shell .source-hud .world-scene-label{top:72px;width:72px}
+ #phone-dialog{width:min(360px,100vw,calc((100dvh - 54px)*.80917))}
+ #phone-dialog.expanded{width:min(500px,124vw,calc((100dvh - 54px)*.80917))}
+}
+
+/* The native screen is less than half the phone artwork's width. Layout these
+ * applications against that screen, including short landscape phones. */
+#phone-content{container:telebzi / inline-size;overflow-wrap:anywhere}
+#phone-content .phone-app-grid button{min-width:44px;min-height:54px}
+#phone-content .phone-app-grid .app-icon{width:44px;height:44px;flex:none}
+#phone-content :is(.card-room-row strong,.room-entry strong,.shop-product p,.quest-entry strong,.quest-entry p){overflow-wrap:anywhere}
+#phone-content .slots-reels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}
+#phone-content .slot-reel{width:auto;min-width:0;padding:8px 3px;font-size:clamp(12px,13cqi,24px)}
+#phone-content .travel-list{grid-template-columns:minmax(0,1fr);min-width:0}
+#phone-content .travel-list button{min-width:0;max-width:100%;white-space:normal}
+#phone-content .card-room-row .badge{white-space:normal;max-width:100%}
+@container telebzi (max-width:230px){
+ #phone-content .social-row{display:grid;grid-template-columns:30px minmax(0,1fr)}
+ #phone-content .social-row .social-actions{grid-column:1/-1;display:flex;flex-direction:row;flex-wrap:wrap;gap:6px}
+ #phone-content .social-row .social-actions button{min-width:0;overflow-wrap:anywhere}
+ #phone-content .shop-product{display:grid;grid-template-columns:36px minmax(0,1fr)}
+ #phone-content .shop-product>button{grid-column:1/-1;justify-self:start}
+ #phone-content .card-room-row,#phone-content .room-entry{flex-wrap:wrap}
+ #phone-content .card-room-row>div:first-child,#phone-content .room-entry>div:first-child{flex:1 1 100%;min-width:0}
+ #phone-content .card-room-row .card-actions{flex-wrap:wrap;min-width:0;gap:6px}
+ #phone-content .phone-identity{flex-wrap:wrap;gap:8px}
+ #phone-content .phone-identity h3{min-width:0;max-width:100%}
+ #phone-content .wallet-balance{flex-wrap:wrap}
+ #phone-content .building-choices{grid-template-columns:1fr}
+}
+@container telebzi (max-width:180px){
+ #phone-content .phone-app-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@container telebzi (max-width:100px){
+ #phone-content .phone-app-grid{grid-template-columns:repeat(1,minmax(0,1fr))}
+ #phone-content .shop-product{grid-template-columns:minmax(0,1fr)}
+ #phone-content .social-row{grid-template-columns:minmax(0,1fr)}
+}

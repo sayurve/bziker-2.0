@@ -1,0 +1,3341 @@
+{
+  "createdAt": "2026-10-15T13:03:46.858Z",
+  "sourceHashes": {
+    "game/web/avatar.js": "2ba445c67ed7cef5a8cdea6ade353ec32bfae18e72d87b7029c23b6ea0e86d7c",
+    "game/web/actor-sprite.js": "685e6d9a77feb1d746b689c3072b5373dbe33667d3d0108b6e0773bcc9100531",
+    "game/web/actor-atlas-data.js": "be7043781e5c68465d0af1747a8c7f256dd0a4efa648a07dab90f98d2b569a06",
+    "game/web/actor-custom-data.js": "6c32b6b014e44b69ba06969e367ee1a02662b3b6ab5092f91fea37423fe43fcf",
+    "game/web/actor-hair-data.js": "a36efd9c23ae568d2cd5224ebe9feb274866e16d8a0fa8fb55becf7bb0f0bea2",
+    "game/web/action-effects.js": "fe09cc7eb2ac342403ed201cb2f74030b5881dba4bcc0738c3ec042a54c83dbd",
+    "game/web/design-assets.js": "0aea8e1eaf3d9dda00d42e2918710b510b61d181d623266343e448dec69de592",
+    "game/web/design-data.js": "43c14cf28df7415ff1b34885a10116c4bfb3007819ba93698c68a3178857fd03",
+    "game/web/source-actors.js": "184cbb74577342b0044436d4bf9b14c5e86eb7830888d24c60563a4473afd4d8",
+    "game/web/source-actors-data.js": "2753bf062e500cc18cc65751c94ad95e57cedb77fa1298327320d330809c92a1",
+    "game/web/canonical-actors-data.js": "9744e32229dd06b998aeb5811871c812188cdc6e7002c97f9ca3632435cfe415",
+    "game/web/locomotion-actors-data.js": "3736a50b9fc041baf97137212d3ab486bc7f134e7aaf1c6cc22437ab2f2d3007"
+  },
+  "historicSourceHash": "e335bd0224fc2cc01f6dd8f1c646c55bf98252066854cddcab018e46b0f3bdb8",
+  "changedSources": [],
+  "nativeResources": [
+    {
+      "path": "assets/canonical-idle-v2/male-down.png",
+      "sha256": "a6110949e26e8d57e1dd81776f6b871991fbcaff9feb3b82657512f1e7115a5d",
+      "bytes": 3192,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-left.png",
+      "sha256": "67b65dfc7689711577bdacf2fd3711117e9733f3cd2514595f680b0b779d3976",
+      "bytes": 2937,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-up.png",
+      "sha256": "0320d7c0f189e75f406973dbeee6ffb26ee36225f2f506d2be56f2b4dcf17e70",
+      "bytes": 2992,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-right.png",
+      "sha256": "18f727c93c8fe59e71bbedcec217f202f952467319f1044ef81b152ccf456fd8",
+      "bytes": 3031,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-right-fine.png",
+      "sha256": "9eee484ea8fd0f10833772726be630c1d1af73ce9a1c892bc6947283094759c3",
+      "bytes": 8879,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-left-fine.png",
+      "sha256": "55bc69a685ddb506eca21576b633d8e881f5a5eeae770c739ff100d43266f73a",
+      "bytes": 8438,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-down-fine.png",
+      "sha256": "478a8d42240000771dbb1f9ab5a1d0f3dcee43f2ba91b3a13867a70021f7b5f3",
+      "bytes": 9222,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-0.png",
+      "sha256": "031739f1d5be5aa68dc18a03a51c75dfb0c417d6597f12445eeb3e733fb22535",
+      "bytes": 3740,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-1.png",
+      "sha256": "cf0313ebbff463231f42f3af9163d283241d1395a1ff8895948756eb9d5153dc",
+      "bytes": 3236,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-up-fine.png",
+      "sha256": "5fbddf29e28bcd7f5f56af45ee091fab4edfd813f43defc59395f0c4d6f1b1ba",
+      "bytes": 8676,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-2.png",
+      "sha256": "44da03d392b92cfd898f6ae09dd867bbf1fd5629c31c3be04354b586c2262981",
+      "bytes": 3685,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-3.png",
+      "sha256": "68955760f0a54afac1e5be59fc44ea0fa3baae789d4998af70cf9d9852be2e65",
+      "bytes": 3150,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-0.png",
+      "sha256": "3e5cc78b74b3a19701b46402900e1b382204af58d4a9d5a576ec8e6963940667",
+      "bytes": 3692,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-0.png",
+      "sha256": "fe66da19e2d9731147209c3fe2f38bde4c8064fde435680669f76c4c39b80ff2",
+      "bytes": 3482,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-3.png",
+      "sha256": "9ee13b82b0da520ac11336b79c7713448274e87092c4617c403c0dc3bd4a4fbc",
+      "bytes": 3304,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-1.png",
+      "sha256": "1e47da8a662580a995a61fe51177f668c0a885110667179198e6cc3ea4625e15",
+      "bytes": 3175,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-2.png",
+      "sha256": "12680c672b2a65cfc349355771f7a3e94dfeb4760db0397e0b90f848fdedc2f5",
+      "bytes": 3467,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-3.png",
+      "sha256": "11c1890f5974d4554ae13ca7d464c82b8f1683d2481c33e05b97771a1522d3f8",
+      "bytes": 3462,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-1.png",
+      "sha256": "45cf1a81a13f967c49a2f6ed77b645f5c853e8c07a61e53ebcde5bdee7c754ed",
+      "bytes": 3060,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-2.png",
+      "sha256": "152cbf3bb874af3e3337c4d91e93ae9cc404b3d1a1e39c7d5ca7a0e5870a4aa1",
+      "bytes": 3514,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-2.png",
+      "sha256": "f662e0a47b9aaaf70ac757f5591210ebaddef48bcbc6d69fc2a47db5d0f63b28",
+      "bytes": 3184,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-1.png",
+      "sha256": "da838cc6cf698eab202e428e30cb32d3e3bd25c5fbe386ac0a8ffdb2b79c4faa",
+      "bytes": 3484,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-0.png",
+      "sha256": "0e6de53ed24028358a1fd12ef8865e37ef29b4efa3e4166a5fbb0095630d4b99",
+      "bytes": 3080,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-1-fine.png",
+      "sha256": "8181f5d51becf23eea067648b96bbcd091af00adf6195c5acd8c548044c77227",
+      "bytes": 9640,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-2-fine.png",
+      "sha256": "40370b26ba99bca63c102acbf220a6061357855159d71e4941f1af34017211fd",
+      "bytes": 11161,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-3.png",
+      "sha256": "4d3584cd4c885058170e9b5c6c77c1cd8554fea507e93b3c49d70285a84ce946",
+      "bytes": 3108,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-3-fine.png",
+      "sha256": "42f0591a11fd4504f1b0e3ae3a7288703a344890c284f0e7e0c2df086a0026cf",
+      "bytes": 9513,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-0-fine.png",
+      "sha256": "f0092be95db63f919e7648ee7c203c9e8bbdd29b962e80287ffd1423ee5b67e6",
+      "bytes": 11353,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-0-fine.png",
+      "sha256": "36bd295e69a1cc46fcabfc5157f00f3d6c70b7c0f8189f953617c675151c57d7",
+      "bytes": 11128,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-2-fine.png",
+      "sha256": "a2192d6f51828d58b55eda80ab4df8850ae5feb11b3d050a50f091661630d632",
+      "bytes": 10537,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-3-fine.png",
+      "sha256": "bc5e152b2121b42af09971f47d52c48ada00d295ed3a5b90442a8383519ce6e8",
+      "bytes": 9746,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-3-fine.png",
+      "sha256": "97f0ae1ec2912aa95ae7c289e33b07d7ebd31d222bde83f2b3780d980a9cf91c",
+      "bytes": 9805,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-0-fine.png",
+      "sha256": "0c867393fee9b6663c11ac90ea3460157e4fd578a6b1852ded936b17619177d6",
+      "bytes": 9868,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-2-fine.png",
+      "sha256": "0276624b0a7877ff8529c9304554008aafa198ca9c38a21ec5ae8d7a092aef2d",
+      "bytes": 9843,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-1-fine.png",
+      "sha256": "1fcf63c0047a3a89a5d91d22bac18f27851cc8d6f54b79451ab32f786d8ba94d",
+      "bytes": 9344,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-1-fine.png",
+      "sha256": "12c0758954086c94416c3c3a7da3a67b514a153d7e898ed297e857bbb5b08ac2",
+      "bytes": 9865,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-1-fine.png",
+      "sha256": "6f0b78f7da840c2c3d5ced42789277ac27bd9c319423db8499d6d862d0c53c35",
+      "bytes": 8440,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-0-fine.png",
+      "sha256": "3fa536529800896232856452a7273049c75a67ee018323869af5d12545973fea",
+      "bytes": 8443,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-2-fine.png",
+      "sha256": "ccc45141b1f05d65126b82da02f29823bf7e8b7d587008f2270b1cb214bf3959",
+      "bytes": 8708,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-3-fine.png",
+      "sha256": "04e42e3911952ea4332cd7fd61d49f6fe79bcdc126ebeeec6a9e87c90174bb0e",
+      "bytes": 8528,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-base-human-male-1.png",
+      "sha256": "5b458252ecd9133478ab42b1c44d0cab9c3b3a91019aa46bd75f04044c81afa3",
+      "bytes": 214145,
+      "width": 384,
+      "height": 576
+    },
+    {
+      "path": "assets/design-actor-detail-base-human-male-1.png",
+      "sha256": "663ad18e9a90e507beed9c85351713ee95e268b4c9c99eca0895aaca14de8b66",
+      "bytes": 615307,
+      "width": 768,
+      "height": 1152
+    },
+    {
+      "path": "assets/design-actor-daily-male-phone-standing-front-1.png",
+      "sha256": "dc90aa79e99733d2b8056e1aba61f2b3221ddabae4b5a280b8ac460e66f349e2",
+      "bytes": 27673,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-phone-standing-front-1.png",
+      "sha256": "aba2c5506f87cda8220853bf2e9587de18a01496e3d6d30462a7af52ac15a655",
+      "bytes": 81385,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-male-phone-standing-front-1.png",
+      "sha256": "16feaff2d53d73716360644d74dfb4bf612f896fa98b00e4159c60e892dc9fa4",
+      "bytes": 3988,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-prop-water-bowl.png",
+      "sha256": "c2a22fedbb079554e036636c011ce6a5859d616e50c1919d9658b79995f2f4b8",
+      "bytes": 346,
+      "width": 11,
+      "height": 8
+    },
+    {
+      "path": "assets/design-actor-prop-food-bowl.png",
+      "sha256": "981b0e0c938509464e8495214e3100078b76d8f52bd77e27e78ff276b99c2456",
+      "bytes": 392,
+      "width": 11,
+      "height": 8
+    },
+    {
+      "path": "assets/design-actor-prop-ball.png",
+      "sha256": "6aac54fe115f3f648aff53d701f4172c3a44200a923331d157744f43c19a1d36",
+      "bytes": 389,
+      "width": 11,
+      "height": 11
+    },
+    {
+      "path": "assets/design-actor-prop-food-packet.png",
+      "sha256": "8d80dbf9b403bdb7288a7957efa6eb0def5f87609183b8a8bf3d9d5747151217",
+      "bytes": 380,
+      "width": 9,
+      "height": 11
+    },
+    {
+      "path": "assets/design-actor-prop-leash.png",
+      "sha256": "e3aa33cb625b78c6ac42bf3fed6bc62b3e7f678e1b93395ef41dd8ef2f29a7db",
+      "bytes": 311,
+      "width": 11,
+      "height": 8
+    },
+    {
+      "path": "assets/design-actor-prop-wallet.png",
+      "sha256": "2483045edde7056965b0400d9282d46a113186d1a09e1c4fa3e8621b179a08fb",
+      "bytes": 351,
+      "width": 11,
+      "height": 9
+    },
+    {
+      "path": "assets/design-actor-prop-bag.png",
+      "sha256": "a3352df4fffcff979dde90d6e5c7e6179560654f2dcbc959bc8d1e945c3a3a33",
+      "bytes": 348,
+      "width": 9,
+      "height": 11
+    },
+    {
+      "path": "assets/design-actor-prop-parcel.png",
+      "sha256": "4596f96f92f63190b4de51fbf72259db0ada0d3c611ea4cc84c557cfeee7ec67",
+      "bytes": 435,
+      "width": 11,
+      "height": 11
+    },
+    {
+      "path": "assets/design-actor-prop-watering-can.png",
+      "sha256": "fe707c3854c67e5ae6788dd4f3709720cf4288df8956a55199c21b2dbd7381e9",
+      "bytes": 349,
+      "width": 11,
+      "height": 8
+    },
+    {
+      "path": "assets/design-actor-prop-cigarette.png",
+      "sha256": "ed8836ba0efdf32033bd0a7898c5411d6cb3cf5041708383b8fa50924341b1ec",
+      "bytes": 106,
+      "width": 4,
+      "height": 3
+    },
+    {
+      "path": "assets/design-actor-prop-mug.png",
+      "sha256": "65e17cb2bf88c9b93529f1d91fdf412e839d59216c67db760eaa3f4f0abaa35e",
+      "bytes": 247,
+      "width": 7,
+      "height": 7
+    },
+    {
+      "path": "assets/design-actor-prop-sandwich.png",
+      "sha256": "4111a3bf5edcee70c02ab0ca3b1746c495f5c9b695411ac8bf7245baed284332",
+      "bytes": 239,
+      "width": 8,
+      "height": 6
+    },
+    {
+      "path": "assets/design-actor-prop-ticket.png",
+      "sha256": "e34c1b61981b06d27383483085b1efbc11851d5c5edaf386fbb7849682673ec2",
+      "bytes": 298,
+      "width": 11,
+      "height": 7
+    },
+    {
+      "path": "assets/design-actor-prop-shirt.png",
+      "sha256": "ac41be8f610e6c4237d74fb1876e22fbcd2aafdb7ff694b978df780b4387148f",
+      "bytes": 388,
+      "width": 11,
+      "height": 10
+    },
+    {
+      "path": "assets/design-actor-prop-phone.png",
+      "sha256": "4a3f9aa90bcc08e13732b6d732c3cb468c49a6e05d562fd3337539d79f720d76",
+      "bytes": 238,
+      "width": 7,
+      "height": 9
+    },
+    {
+      "path": "assets/design-actor-prop-trash.png",
+      "sha256": "b90b379c423b0cc8c0d4929e3ce21e1864c0c5f2756d96f13590f4f82974d0a6",
+      "bytes": 240,
+      "width": 7,
+      "height": 7
+    },
+    {
+      "path": "assets/design-actor-daily-male-phone-standing-right-1.png",
+      "sha256": "7c5c89bf62422e2b94c6dce7c136012f30a45b8845511639728db8be6af3523f",
+      "bytes": 21368,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-phone-standing-right-1.png",
+      "sha256": "74490ef4b01bd69872e6db3bbf884a02b74ab4dd329af371cfe48eb1b41a4bae",
+      "bytes": 63917,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-male-phone-standing-right-1.png",
+      "sha256": "46858e1f8769cc12b74341704848bae77a9386bf62822976f8205f7a7f4ae82a",
+      "bytes": 3059,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-male-phone-standing-back-1.png",
+      "sha256": "674d7b614cec05b761d920bcf9b9c6904a01a7bc29dcc60c5c26f4764a1169b7",
+      "bytes": 24306,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-phone-standing-back-1.png",
+      "sha256": "a4a22a1549b8ca4e24722129d20693cd6c63b18744e2351fe2907683261bd3ae",
+      "bytes": 71262,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-male-phone-standing-back-1.png",
+      "sha256": "011ed633922479560d33a74c34041c956989886da1b92df140062e7f3c01b93a",
+      "bytes": 2605,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-male-phone-standing-left-1.png",
+      "sha256": "b664a557d19206f4d886ec7774eda2e0cda7600dfebeca9ecb2cf8992a376709",
+      "bytes": 15654,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-phone-standing-left-1.png",
+      "sha256": "b7735399978532c25cbf6a0297f832a8a3b087b7949676252ee3c6dad5703910",
+      "bytes": 46637,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-effect-male-phone-standing-left-1.png",
+      "sha256": "1b4c99341baf655a7e86649d58bbb99dea2bb0a73fc7721da1f9769a010c8e50",
+      "bytes": 2591,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-up.png",
+      "sha256": "22937072f5b4e108a4c649f4c665c23dd36c38b9a82e8c7ca658d5a656b3cfe5",
+      "bytes": 2769,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-down.png",
+      "sha256": "26673c5a2b95148e7ebdc13c35f3a9e2a9c4748fc0c026da8104a52fdce21519",
+      "bytes": 2939,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-right.png",
+      "sha256": "94f2a5b7e4e6e6eee20506a5c85aa06a2eb4617bbc0db94f3d329397e709dc80",
+      "bytes": 2779,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-left.png",
+      "sha256": "876692180993fd68adff0728982e114d7f39de16f49ff873d88a8b96dacd03dd",
+      "bytes": 2632,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-0.png",
+      "sha256": "abae649deb1aaa9872b7ede119d60c0997b80c51d003483708205edc49cc02ab",
+      "bytes": 3432,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-left-fine.png",
+      "sha256": "9f6391711572b9e79164d15c615aec0cae469ab3251a219bec7232c1348cf732",
+      "bytes": 7773,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-right-fine.png",
+      "sha256": "d203084ab966846b1c6355651733f8b0a067328ce475080c6887b966e213a7c3",
+      "bytes": 8191,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-down-fine.png",
+      "sha256": "0944f75c6143b572390896e18297c5b2ba1c79d98303bcbf6513b5c01fc7aedd",
+      "bytes": 8490,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-1.png",
+      "sha256": "64a152bc36197d5fdb5b3582ce0e09cd140cf7c40c95dba5c54a079cf932041b",
+      "bytes": 2992,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-up-fine.png",
+      "sha256": "9fa40972d5b92b7f78b79032d2c3a458ffa5ba5b08ef9de1f1b4beeab93b0c82",
+      "bytes": 8057,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-3.png",
+      "sha256": "abb722e2b38c9d8358443d11b2b438efbeb898459892ca6904571e49b750a6df",
+      "bytes": 3009,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-1.png",
+      "sha256": "a50ee848aae17d23a0bf5aad2a4b066ad5e84b8ec2ec645e99e939b5e3c697b9",
+      "bytes": 3015,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-2.png",
+      "sha256": "d8d59702dc47d9b2076e1028dba17435d0e394fbb73b8a401b3df8bdbedfba5b",
+      "bytes": 3294,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-0.png",
+      "sha256": "78692bcc3fbf50c957747e8e4bb2b0f7b9a1038f40ad7fc2703360ced5cd1aa9",
+      "bytes": 3419,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-2.png",
+      "sha256": "473c6940114e6b6a6c69d3704bee942972e8c8627df97098c4ba592c7a674f46",
+      "bytes": 3463,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-3.png",
+      "sha256": "ec7b9cc4e6595a6843fe4241ac5970e20f01cc0a4126d1db13f6485df379adaf",
+      "bytes": 3118,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-0.png",
+      "sha256": "445dd377233b2ebdf346910aae331b47109c124148e8987ea63944ccd4a29b8e",
+      "bytes": 3282,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-3.png",
+      "sha256": "456c645d38de33997f0d26fc66dd703190a890b46799f1933b801de26b42e933",
+      "bytes": 2879,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-3.png",
+      "sha256": "152fb5664f4156e13d123ad954b7b282e7d276d0c21833316052c65aae9492dd",
+      "bytes": 3347,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-2.png",
+      "sha256": "fd629cfbed4eaffea0c989b3cc04533d695e7feca50d0bedbf006b94cfad6652",
+      "bytes": 3240,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-1.png",
+      "sha256": "55e566c9bfd8684fed58351625262809fbea4b91e6958d949c171ad5ae656c94",
+      "bytes": 2864,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-0.png",
+      "sha256": "f0399ed60f88a6b87c6872981562f515ff2a2fe3ab6a093ae0e81acebbb4f62c",
+      "bytes": 2924,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-2.png",
+      "sha256": "603ea78caf596a8b07fbd2ae8eb99b5665e9e58d0090ed050dbaa6c9787ea41d",
+      "bytes": 2973,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-1.png",
+      "sha256": "f6a3a90561e86b2858ab3d41170582255f96faac8c40d6059bf82c1499974008",
+      "bytes": 3272,
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-1-fine.png",
+      "sha256": "b5909b115327b93fda4e62bb0fac6cbe83a37d09f2feb32ad070504461a840eb",
+      "bytes": 9005,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-0-fine.png",
+      "sha256": "51c49adc3a918e2874428f23b24f1f1c5f9ae8b569780d0da69dc9a93b89b93f",
+      "bytes": 10479,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-3-fine.png",
+      "sha256": "cbc10efac9336ef2905852eefa891a3409ec96bb849ef7f5effd0f090a6786b8",
+      "bytes": 8986,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-2-fine.png",
+      "sha256": "0e2a507d0712d01c0a8b40d3b18f13b8de818c7842de99962067cb2718f93fbd",
+      "bytes": 10028,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-2-fine.png",
+      "sha256": "41f21a187fbc6c8ccd26aa29c255b678908db13fab591f3753521335081a4660",
+      "bytes": 10448,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-0-fine.png",
+      "sha256": "929363acfd70cc0cbdbeba1ad2fa24e52ae67372699b2f55dfc88a3ed8247c1b",
+      "bytes": 10425,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-3-fine.png",
+      "sha256": "ff68dab45779c3b4a046366081f29246bb56065c303769b43b557f9a0eff37a1",
+      "bytes": 9329,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-0-fine.png",
+      "sha256": "d8d363141c47138fc26b05736f79d911ef75bb74cd1a366aea92e1f6dfb49db2",
+      "bytes": 9411,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-1-fine.png",
+      "sha256": "8429cd5d267a444c4ee2b36a0c89d32d7bf9b4a9af85f9bc044d379f5f4985ae",
+      "bytes": 8900,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-2-fine.png",
+      "sha256": "0a5bc2ade1f0b7c4738ccba54903876453b65018f75213a2598f727c9e233e6e",
+      "bytes": 9173,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-1-fine.png",
+      "sha256": "63aeb8f22a4c0413c06b0e3b43f2675bec46a23bb9b552b0374cf6112225c420",
+      "bytes": 9375,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-3-fine.png",
+      "sha256": "0338093a0aa3217a1a0893c2e79be718d563b4ecf107ce7d09d316a626873469",
+      "bytes": 9621,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-0-fine.png",
+      "sha256": "ba5d6a4ee8cf72a88aed75ca991b5e51004be917d3b937d39fd7607a84923f1c",
+      "bytes": 8350,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-1-fine.png",
+      "sha256": "7a7a26800508f505ced375e6fbf9830edf1835f0f79d204f247432fa95d4059e",
+      "bytes": 8266,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-2-fine.png",
+      "sha256": "6c3f3f26fba8d893eb6531e80acfff20acf62286e8ef11555577dc30cfbe6aa0",
+      "bytes": 8478,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-3-fine.png",
+      "sha256": "0df33119d676f7f035d8a457aed9444e064df697c7632378dfe38bdfab5f2254",
+      "bytes": 8303,
+      "width": 96,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-base-human-female-1.png",
+      "sha256": "f02b262e0df2d4ae0c4c16bf33ff6c838e97efe0a4e38d208bd4d19bba412182",
+      "bytes": 218933,
+      "width": 384,
+      "height": 576
+    },
+    {
+      "path": "assets/design-actor-detail-base-human-female-1.png",
+      "sha256": "b720684638e56c8795b0c33d9d9bf4170922145364ab49174d1d6df75217e351",
+      "bytes": 669283,
+      "width": 768,
+      "height": 1152
+    },
+    {
+      "path": "assets/design-actor-daily-female-phone-standing-front-1.png",
+      "sha256": "c46612eff0bbd2dce7b4be09b57047b1c27e780c8d919fb9b8034fe865b9f02d",
+      "bytes": 22694,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-phone-standing-front-1.png",
+      "sha256": "b7192a09f706b68b2545ba2acdc3194b1369cf88882a362b7738cdcb80de564a",
+      "bytes": 66663,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-female-phone-standing-front-1.png",
+      "sha256": "437dda387773d271f7c99aa84eea1c8f3c3356c1a62896a470870a55861b0929",
+      "bytes": 4257,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-female-phone-standing-right-1.png",
+      "sha256": "41a853f21aef093a513e68e8678324f7a76db494b3dadacb0b25ab85c400ec34",
+      "bytes": 18516,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-phone-standing-right-1.png",
+      "sha256": "2cd8d9cc780f553ccc8279cc6b15492c46a994fafa4fd19dd07b0a24f108b9e2",
+      "bytes": 55806,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-female-phone-standing-right-1.png",
+      "sha256": "090c84ed626fb7f891776a8b4278720d77b0a9d522c4288369d9983699045c08",
+      "bytes": 2370,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-female-phone-standing-back-1.png",
+      "sha256": "7d6c7ea59f3d57d4c17e5dd3eb5470a307ff0bc53eb1c963c8b1110d375bc5a7",
+      "bytes": 16141,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-phone-standing-back-1.png",
+      "sha256": "1894dcb6a595abd74c2dcfe277722a00c3d62cc6c3f6a136c3de93849282a661",
+      "bytes": 46381,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-effect-female-phone-standing-back-1.png",
+      "sha256": "fa8b6accb51458454824bf21bde0a562545afaffa940165a3796eaea244e091a",
+      "bytes": 175,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-female-phone-standing-left-1.png",
+      "sha256": "9bdcf2bc7869772161af91860052c2691acd101c7d6000168e31c5af61167765",
+      "bytes": 17688,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-phone-standing-left-1.png",
+      "sha256": "7a6ca57a241daca5ef427108e39c6c6b1b1d7b3a2a6db799214f6434004f33a9",
+      "bytes": 53446,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-female-phone-standing-left-1.png",
+      "sha256": "6f2b7300ad4f8e10c5f32b4c701b05062a472cfd46b5de338e0e1647870f2a61",
+      "bytes": 1969,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-male-phone-seated-front-1.png",
+      "sha256": "481e7c28a31442d4cfa91ecbaab972a01e7fee29f03c5006e512a48d6d88d886",
+      "bytes": 23080,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-phone-seated-front-1.png",
+      "sha256": "41e37e00f58734052164d34f76f475ddedfce81c495d7d49c9a27c50a73eac00",
+      "bytes": 67915,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-male-phone-seated-front-1.png",
+      "sha256": "412c99dc4d2b955d7a6ccbfa7ff2535c0546040e7d43ecc1889ea43df468fefa",
+      "bytes": 3999,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-male-phone-seated-right-1.png",
+      "sha256": "7ecd02513a50aec579db81e16ac2a1e4a5af8b09db7db61684599f8831035b0e",
+      "bytes": 17689,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-phone-seated-right-1.png",
+      "sha256": "b5b340708aee9e533d513f820c61edc405c346ea59640c690b80e3c48a0a3605",
+      "bytes": 52791,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-male-phone-seated-right-1.png",
+      "sha256": "057345930425454d9ebe430859de956d85211e84c19d87d17f43d4b985ba9e9a",
+      "bytes": 3026,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-male-phone-seated-back-1.png",
+      "sha256": "462c46777ec5266e66281e4d173fd61e4c50ce49a68d807cb89465494038ac0e",
+      "bytes": 19832,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-phone-seated-back-1.png",
+      "sha256": "47b806d5f53e4dc9359465e47de0c86290717925d11f4cc305c6065e0a45e960",
+      "bytes": 58768,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-male-phone-seated-back-1.png",
+      "sha256": "5fe735d2150c20f6b46c635a3e3d748aa3a6e7d0fc0f6648ab2d2544fc8566c5",
+      "bytes": 2683,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-male-phone-seated-left-1.png",
+      "sha256": "52566fc3d479643654e2963a29de5529eb4cf292c5ec6dd50e77bf74145e8274",
+      "bytes": 13010,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-phone-seated-left-1.png",
+      "sha256": "e294ef83f7e273b472de1de4dc571ba30b317771708fb754a8df47fd5f05947b",
+      "bytes": 38675,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-effect-male-phone-seated-left-1.png",
+      "sha256": "cc630b347221a764d4948c2bf6704a4227d00ef86cc218935ab80099fbf333d6",
+      "bytes": 2524,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-male-call-standing-front-1.png",
+      "sha256": "2fcf1975f51b8adc8ac59795ef4205c11c5e4bcee6054d21bafeadb0fce35b85",
+      "bytes": 43407,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-call-standing-front-1.png",
+      "sha256": "9a36e4df13490cd2a61e7a30dc4daea81d2a96c9a6217b36798f196874b91ec0",
+      "bytes": 127178,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-male-call-standing-front-1.png",
+      "sha256": "48f83080c0999d9794e967fa49d6bc96fef9be346b7c74d39d1e2a9482e48bd5",
+      "bytes": 6845,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-male-call-standing-right-1.png",
+      "sha256": "5b7f99bfe486afbce64c85d10bb4778cccfb9b01734119fc4bf2828d508901c2",
+      "bytes": 32689,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-call-standing-right-1.png",
+      "sha256": "43f9f67cb50e0c5fe41bb94e2d976713ee727b20ee773ab79aa8b9686c1cf883",
+      "bytes": 98307,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-male-call-standing-right-1.png",
+      "sha256": "32e129dd7b295b0d5dabf9b72f3d233d142453def0af903ca6d716e2c285b5be",
+      "bytes": 4657,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-male-call-standing-back-1.png",
+      "sha256": "8ea27b614543de210cdb9fbd233e0cf1f935b6382480e8f2fc09da412d89a21a",
+      "bytes": 34864,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-call-standing-back-1.png",
+      "sha256": "daa41c1d0b5e48f93cf91fa6b16ad53ffc6113011cdf3d69b61dab29fadf67ff",
+      "bytes": 102939,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-male-call-standing-back-1.png",
+      "sha256": "0b822ca3fee8451ae2c909c1c950a3dae2e8939695540ff1a9378067133b1b3f",
+      "bytes": 2329,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-male-call-standing-left-1.png",
+      "sha256": "83128455a86ab52b5a7eac85021e2438546d0fda9deb1df66d2a3bfb98a25c7b",
+      "bytes": 30590,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-call-standing-left-1.png",
+      "sha256": "cdfb2b93bb3e3df37a9e7f60eb550af75d4535726b977dd87db5bd60dc8c1e3f",
+      "bytes": 91133,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-male-call-standing-left-1.png",
+      "sha256": "54daa71fe0b774ab7362bbfb4e76d729b1c2da25b48b46f314f3b007663e8d76",
+      "bytes": 3482,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-male-call-seated-front-1.png",
+      "sha256": "47f22a3d14cf0d870dc25242460a781feab6c42941a43f64cdf5f243c98074af",
+      "bytes": 36070,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-call-seated-front-1.png",
+      "sha256": "8ad8107044b13a648173d525c9fa424ef4a8ba7eaec321846a988ec13cc8a31c",
+      "bytes": 106578,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-male-call-seated-front-1.png",
+      "sha256": "bb0622acc1f5bb9198909022f3c204256315f736c6d70e927683896ed6fd8d29",
+      "bytes": 6775,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-male-call-seated-right-1.png",
+      "sha256": "e0a77e2fde2768047430ab40573ccc315463ee58e91e289b69e8d00d27b1142b",
+      "bytes": 26910,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-call-seated-right-1.png",
+      "sha256": "ca48f59f97c61d1964656502ad0dd7baf2af8e24f870cf6994ceeb28606e4898",
+      "bytes": 79968,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-male-call-seated-right-1.png",
+      "sha256": "3ef9cd41f46fcfad031973cb39df380453b990b414ab11e72c95255c840d4102",
+      "bytes": 4661,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-male-call-seated-back-1.png",
+      "sha256": "ba55847bf96a5b0e85adc8caa2900bdf781f33e80334fb58f5b70bfaa40cd246",
+      "bytes": 27922,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-call-seated-back-1.png",
+      "sha256": "c011007e52a733a1402fee16e8069de7ba715a82277c45a972e403f5668f7adc",
+      "bytes": 83088,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-male-call-seated-back-1.png",
+      "sha256": "98df1923836b427654b8070049dc73a7bf20f1fb52fc61865e3735a692472088",
+      "bytes": 2253,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-male-call-seated-left-1.png",
+      "sha256": "2eddf6984a0f73d5de09343d6dbedd8c4717a44c7fb2120b9d13ec70cc479a66",
+      "bytes": 24843,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-call-seated-left-1.png",
+      "sha256": "db766391c66ff75ccc8b2b21f2ad3e96d4331b6608530268f13b553e9588e44a",
+      "bytes": 74410,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-male-call-seated-left-1.png",
+      "sha256": "fec060ed857ab6bc28412d1b2728ae3dfb2768d01a8a5fdb8be905c75e839974",
+      "bytes": 3425,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-male-inventory-standing-front-1.png",
+      "sha256": "5ba9dab78c3d71de2d8cbd1f98a11f289e8a59b662b07985470d615f684eba99",
+      "bytes": 35747,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-inventory-standing-front-1.png",
+      "sha256": "4ac0b18ac22e9ea50f973510e729e184d63718c5dcd7a534676583901ee45cdb",
+      "bytes": 101551,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-inventory-standing-right-1.png",
+      "sha256": "0b1911b970be5334fdbda8a3410c91094da527b4ce8c5cf563c174ca21565e88",
+      "bytes": 31166,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-inventory-standing-right-1.png",
+      "sha256": "195419b66865390a02c60850c1c1cc039bdc7d0785b1ca220ec630324bedd726",
+      "bytes": 87366,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-inventory-standing-back-1.png",
+      "sha256": "90be3d7ab7cea6a55cfb1409f5e513ef4b8e071ca833f8c56d054dc302a0a12c",
+      "bytes": 30910,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-inventory-standing-back-1.png",
+      "sha256": "8f21b2782658d236c63b8301a8f3b53f589ea2d7be4f2cbe04f21b2189e3c576",
+      "bytes": 87277,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-inventory-standing-left-1.png",
+      "sha256": "395cdf183a3469cbe0b68f614b936df3c05bb9dc941c1ced15a71f94e82b1039",
+      "bytes": 29605,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-inventory-standing-left-1.png",
+      "sha256": "4740045ff2c9bd4f3ec9e28bc4e4cc4b3331f4f79fed5a2e5eaf1fdb585e4e3d",
+      "bytes": 84365,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-inventory-seated-front-1.png",
+      "sha256": "45f17680df96a58248f3317805b4c2594ab0a4131be21991fe552a5e31e084d3",
+      "bytes": 29158,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-inventory-seated-front-1.png",
+      "sha256": "3578d7ea1dc883380994ae9474876eaf1e82bdaad24654dc47b9923afe491765",
+      "bytes": 81955,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-inventory-seated-right-1.png",
+      "sha256": "a473fb3802f2846fc65f5a3ecbdf7b7e99e690b854076743fbbb71a01479567b",
+      "bytes": 24386,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-inventory-seated-right-1.png",
+      "sha256": "573ef57d062d9ae3da44ceb7591f155dc3a150fc34fb35a8fbf624fb8f28ecdf",
+      "bytes": 70107,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-inventory-seated-back-1.png",
+      "sha256": "243ab1fd5e391c0ae954f2f5a172a119910ab8bcf83317926136d8d9e22136a7",
+      "bytes": 24273,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-inventory-seated-back-1.png",
+      "sha256": "3dc70d4f54bcec97aa816b524a3ef598478784508600f0e9b4b5381c36810a2f",
+      "bytes": 69639,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-inventory-seated-left-1.png",
+      "sha256": "33026464524ea6b9e3e19c48f807636e94adffcdcaf09c866b08d6c49b0181a0",
+      "bytes": 22901,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-inventory-seated-left-1.png",
+      "sha256": "6c12da93ef94a7fb85b8c5076a8a3ed87919bf9cffa45254f339f51b4c8b75f8",
+      "bytes": 65430,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-equip-standing-front-1.png",
+      "sha256": "cabb1eff8d0fd86b6aaad22ab047e00635e21b1fbeb4d5bea534b04332832b62",
+      "bytes": 45280,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-equip-standing-front-1.png",
+      "sha256": "1c2f21393a184fb27d7706dd252f0d6e6757789a186e2b6cfa36c9b94042e3b9",
+      "bytes": 127982,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-equip-standing-right-1.png",
+      "sha256": "85690c1f1a871a59ea029ac1fe947db59602b3bf5cdc6ba4d22875c60869b20d",
+      "bytes": 39503,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-equip-standing-right-1.png",
+      "sha256": "7776d2cfcc44bef13335280fdb9cb22c071b11ffb2d54ccd5f6be7057672f7f5",
+      "bytes": 110777,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-equip-standing-back-1.png",
+      "sha256": "69c0b381506c40b212123c458399e07a1007a94e4938658cda64a1baad2d7d9a",
+      "bytes": 38995,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-equip-standing-back-1.png",
+      "sha256": "683b0977cf55eb7810e7656c64b65195818fd0038501b4fce6cfa527b5696937",
+      "bytes": 109548,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-equip-standing-left-1.png",
+      "sha256": "28699910636d16059c2e64dbfcec1620775fb1ff4a72d91155b949eb669b9a05",
+      "bytes": 37558,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-equip-standing-left-1.png",
+      "sha256": "2d991b0e4e7647ec0d74177deb02b7e2b286a24ce12f65779049864215cc7925",
+      "bytes": 106503,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-equip-seated-front-1.png",
+      "sha256": "8f4a13bb166fc6be0bef45c29a0b5865c20bf4b26dbd44f7e69d386771308271",
+      "bytes": 36596,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-equip-seated-front-1.png",
+      "sha256": "32fc7e8e458ef0be00457c4f5d8cee88df385e40d05131407b20192aa4608936",
+      "bytes": 103275,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-equip-seated-right-1.png",
+      "sha256": "9278ae443515f0942dec1009111e3624bdc014daad09b3def5fb24383c31435d",
+      "bytes": 30830,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-equip-seated-right-1.png",
+      "sha256": "08fbe54c0b505a193b917c07209d8a650004b60f2bb46f568c356af37e70419e",
+      "bytes": 88114,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-equip-seated-back-1.png",
+      "sha256": "11acda235ee93a4f1e165f3d501af012c74dc33d3cb4446b989b659f85dbff61",
+      "bytes": 30269,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-equip-seated-back-1.png",
+      "sha256": "0778667e917a7a1dd38527df34242f990f27861ffc622c2efe784fe265356c3f",
+      "bytes": 86033,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-equip-seated-left-1.png",
+      "sha256": "92ea1e1768cb74a86d7431131c6b456e36e950e2bf830d7644936cbbcfa231de",
+      "bytes": 28858,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-equip-seated-left-1.png",
+      "sha256": "bfae47772f2dd849432a7b8efea73f4d0d0c00d64b41ffa85bb833d67910518e",
+      "bytes": 82320,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-water-standing-front-1.png",
+      "sha256": "0ef2f4e6426fca053667f186256c905b36bb079ab5db8f5c10c424bf30dcdf5b",
+      "bytes": 39983,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-water-standing-front-1.png",
+      "sha256": "758814c919a5abd2ed87bd8a4664fca26db7ca67235fa49ac05768fc09283eb1",
+      "bytes": 112152,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-water-standing-right-1.png",
+      "sha256": "bcee20999fad9d97abe17490974bde3f63508ce498636d68a89a51ccde4f8ad7",
+      "bytes": 31230,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-water-standing-right-1.png",
+      "sha256": "74e04fc282f15b7807c578a8ec76e65abbff6d8d48ed37119218e12487f394ac",
+      "bytes": 88343,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-water-standing-back-1.png",
+      "sha256": "e306804a8856805c6422ae8e1dcbb77e343358612dde5b6aa79c24512debb2a2",
+      "bytes": 32927,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-water-standing-back-1.png",
+      "sha256": "45f12a54935ab98ccb869158433aad075013c6b9c70bc599be8b73887d30b46d",
+      "bytes": 92116,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-water-standing-left-1.png",
+      "sha256": "5139293075c444bf371b70b9f04ac64391d8cf341a23924e2f70ccd65e0cd1bb",
+      "bytes": 31351,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-water-standing-left-1.png",
+      "sha256": "6f641fbfe077227ea06115b3f62c0a0a249edda6d1b98ac269d798ed690e337c",
+      "bytes": 89764,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-water-seated-front-1.png",
+      "sha256": "0dd63a96d9c891e0c2807c9d3c838b55833f623d8eb5fff67646f1da01b22900",
+      "bytes": 32858,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-water-seated-front-1.png",
+      "sha256": "f7bfc87ca6598fad25093af60895ec3b76271ebc150f9ca56acde473adf06825",
+      "bytes": 93271,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-water-seated-right-1.png",
+      "sha256": "03d40336fbc5377c9b775d79f216401fcac1d0f7abb7a4208fc1616bd690316e",
+      "bytes": 25195,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-water-seated-right-1.png",
+      "sha256": "0460995916e3c7003343752c87a48b52fed5b33b1c201e4b6c0270c8b513e67c",
+      "bytes": 72757,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-water-seated-back-1.png",
+      "sha256": "a6551c0e19c2d60e01068857c6fbc5b70d00b791bfe06cbb494aee1661237ef7",
+      "bytes": 27995,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-water-seated-back-1.png",
+      "sha256": "5aaca44754ab652e4bc65b2847b11be307fe67ac6ddbfe10526c652448b7c57c",
+      "bytes": 78175,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-water-seated-left-1.png",
+      "sha256": "fb1afb717daea83e52c3d30515950f7158086e39c9300ada72e966dcb4f24a8e",
+      "bytes": 25348,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-water-seated-left-1.png",
+      "sha256": "00f8af797a750e0af9f78042ab2f1ebddd75d4023ef595fd4e802fa745eafc19",
+      "bytes": 73477,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-soda-standing-front-1.png",
+      "sha256": "e2226f3ed77e6c4e499e1b9f7ac5b64e45b1fffd7c0295979ed14406260ec623",
+      "bytes": 39929,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-soda-standing-front-1.png",
+      "sha256": "cc47cdbb17d41c56eb43662ce56ff4a89abec8191cc413d543e88de011af755f",
+      "bytes": 112118,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-soda-standing-right-1.png",
+      "sha256": "b6d0c7b13e8a644bfeed6672c4243a72b11d207d2a29c124e9fd16f871d9d6b3",
+      "bytes": 31153,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-soda-standing-right-1.png",
+      "sha256": "4186c2edd3d8963ca9b3287f69d1b97aec8a8500157a9c5e2712f287dedefacc",
+      "bytes": 88335,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-soda-standing-back-1.png",
+      "sha256": "ad4e1375dce0657ed7248fa37cf2b5f57ae2c23e28d1f8d00bf1da866208450e",
+      "bytes": 32821,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-soda-standing-back-1.png",
+      "sha256": "5ee8ebb30f7ddb42a9e791981a3602e29b74f9553ea17a1ed264f4e0322cb50d",
+      "bytes": 91820,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-soda-standing-left-1.png",
+      "sha256": "75971da0c6abf68f2ac351730bc4b357a283d7ed1aebf5d0101b19102801cf4a",
+      "bytes": 31241,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-soda-standing-left-1.png",
+      "sha256": "9795f7d55a297bd0e9cad41a6b1a14e5e69ef4e4817c1bf0414fc3a1d319683f",
+      "bytes": 89572,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-soda-seated-front-1.png",
+      "sha256": "12071f2a6268c0e8a9515b443e0827ad16fb837e3d770e87abcc3929c723d112",
+      "bytes": 32796,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-soda-seated-front-1.png",
+      "sha256": "90334dd40941464286db74d700aa93cfd352ab01cf9c412259c9d5cc50ec1392",
+      "bytes": 93187,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-soda-seated-right-1.png",
+      "sha256": "94783873b6f2ea21929e070fc8179ceb5b9428d105132ff8c62c1ebcd7a75729",
+      "bytes": 25193,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-soda-seated-right-1.png",
+      "sha256": "f6b16fe9ac87854238374e851dac9bbd85e8fe29b21890ce1535fc5b07406cfe",
+      "bytes": 72671,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-soda-seated-back-1.png",
+      "sha256": "e46a77eab8677f8c1add1cc6d2493f4c0f7520b912c7863f1ed6b695338fd1f8",
+      "bytes": 27895,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-soda-seated-back-1.png",
+      "sha256": "841fd10ff111e3b0b30b6d9550e83adb1208673e8ff72f1bd384e0afe17f80b5",
+      "bytes": 77845,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-soda-seated-left-1.png",
+      "sha256": "f98cb1a3e495e1efbc3f2c55d1ab6eb6a4355fae19b89c7f19e231f6ac005ecd",
+      "bytes": 25271,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-soda-seated-left-1.png",
+      "sha256": "e758fd8335107602cd9107bac891f4de3e8a98ff29a3647930f62e60a540e75e",
+      "bytes": 73348,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-beer-standing-front-1.png",
+      "sha256": "7d64042355793aeea0c45f58de0b33d54d60a1ea8388b82e0760e1e89b195b8f",
+      "bytes": 39847,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-beer-standing-front-1.png",
+      "sha256": "e0c78e5210f477ff5dc16dd763e60b44996485902656866a75a04773909b391a",
+      "bytes": 111672,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-beer-standing-right-1.png",
+      "sha256": "05ea91fb0400ecf74fb408d4c5a7f3e211d3ede021b9a106632e3e9b7e472e4a",
+      "bytes": 30980,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-beer-standing-right-1.png",
+      "sha256": "85ae30ec476baa197daf59c8182aef6a9b23d65f14d66bd80995703d0242c918",
+      "bytes": 87706,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-beer-standing-back-1.png",
+      "sha256": "b49d7bbaf2c28f97e714bf8aedcaea46134d62f0d3dfa3c15a5f67c39920a2d9",
+      "bytes": 32739,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-beer-standing-back-1.png",
+      "sha256": "2ac3b93877a0c05a85e3da988cd0212360217e3e5a3402f3b3c5c48a996a32a4",
+      "bytes": 91572,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-beer-standing-left-1.png",
+      "sha256": "fd50252ee1b24cfc97e99911d6ad895e6aa31638920424a673f8df22d968a6bd",
+      "bytes": 31067,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-beer-standing-left-1.png",
+      "sha256": "f2065e77f93c9fe758c3ea07df83c3e62f7c73d68a74b5ed92d6397be12200dd",
+      "bytes": 88991,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-beer-seated-front-1.png",
+      "sha256": "fff536d52a2d67ae881d7db32297da0c78d8dfc948adfdf1072ae2593e8fa50e",
+      "bytes": 32763,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-beer-seated-front-1.png",
+      "sha256": "c58abd5d97599558b38ec7bcbfc3c394c62720abcb11a48e5fd1988cc392be25",
+      "bytes": 92894,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-beer-seated-right-1.png",
+      "sha256": "2e0725c5e78c29f5b22c806da6123b1e6aa41815c55aeada28d31245e4766ce8",
+      "bytes": 25029,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-beer-seated-right-1.png",
+      "sha256": "7a8d7770c9c63052c6f2d4dd5f5ce2df06f46d644d8a5df7d8fda6cef27ed36d",
+      "bytes": 72047,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-beer-seated-back-1.png",
+      "sha256": "a20ab0eb6742ee98b9ec458cb5c7b61084f95c6cc41c4cf48dff19a9dfe333b5",
+      "bytes": 27815,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-beer-seated-back-1.png",
+      "sha256": "90f28c82fc46d1fe60efd367e1b0f037a3857d8c7a11dafd51b6ce3726d85b3b",
+      "bytes": 77593,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-beer-seated-left-1.png",
+      "sha256": "f63af7f9acac235a906ba21be3572c02d346b403f52864c2fc3aff459b02c729",
+      "bytes": 25086,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-beer-seated-left-1.png",
+      "sha256": "c5a79f754a254d30e7957a4683c876746d1d23e7ec0cc1a3a438ee747675722a",
+      "bytes": 72846,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-male-mug-standing-front-1.png",
+      "sha256": "db802a43729a10a7a6e81c5751ba305d62f8610070857d59ee1968b821c6f305",
+      "bytes": 20357,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-mug-standing-front-1.png",
+      "sha256": "c8fa368893547d10305ed78e73ebbab534cb2c2dd008cbbed5552ccfe54cede2",
+      "bytes": 56789,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-male-mug-standing-right-1.png",
+      "sha256": "6b0bac32a9721cd0ad214399a7850e83f7d10b191134d40cf60e8e911171ce7c",
+      "bytes": 16395,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-mug-standing-right-1.png",
+      "sha256": "3877e5067cc404ad84536e0b9aaf3bdd3e1e228c393c986b3ccb958cab77b4e8",
+      "bytes": 45430,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-male-mug-standing-back-1.png",
+      "sha256": "8dca33fb001f80342ef98d85cb824e932150dc1381a7da0c96f8fe91e1fdd2c4",
+      "bytes": 18550,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-mug-standing-back-1.png",
+      "sha256": "bc6a540bf7b82fd880c3717ef06b1265d83b418f15128c30d6827bb174fdd279",
+      "bytes": 50828,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-male-mug-standing-left-1.png",
+      "sha256": "2339af334e9d82cd8cc61f0e70004e752ee46c72e4ba959f9fdd58a043672160",
+      "bytes": 16818,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-mug-standing-left-1.png",
+      "sha256": "1779b52876d9d344406b619a501df952f935b27aae530304dd8872bbbe2560b9",
+      "bytes": 47333,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-male-mug-seated-front-1.png",
+      "sha256": "bafed9776f27056f6a38d843d1d9b0d937b160d62566de52099b0951713cb334",
+      "bytes": 16417,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-mug-seated-front-1.png",
+      "sha256": "d4b3d441375e1ed3e9842b15e775e458520304996b0dfb45396ee9ac32df4fc0",
+      "bytes": 45203,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-male-mug-seated-right-1.png",
+      "sha256": "9417f68070bd08d3509175090684273bafb76b48a08a5d32dd86d233a7e1cc60",
+      "bytes": 13124,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-mug-seated-right-1.png",
+      "sha256": "1ae3567cfd5e750aed77cb4d46b0e503a5c17000bef124919cd93e4329145046",
+      "bytes": 36858,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-male-mug-seated-back-1.png",
+      "sha256": "e506f72a6a29fdc5f665c6a3a2dd600fbda3a7c81cde929279f3663c5e46cd50",
+      "bytes": 16070,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-mug-seated-back-1.png",
+      "sha256": "c9efccfcb89b3f329335c5cdd7ef8596cc20053e69830766a70af02264a56137",
+      "bytes": 43818,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-male-mug-seated-left-1.png",
+      "sha256": "9c232aed602519b7b9ebd387e0083e246c886e1140327697ec6f4ac1afc9bbca",
+      "bytes": 13628,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-mug-seated-left-1.png",
+      "sha256": "c66e1ddfc80876d9e5a98c336f256884c95ac21d799df8cedc47c6eb60ce8fe8",
+      "bytes": 38971,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-male-smoke-standing-front-1.png",
+      "sha256": "9b85145c6a14cc811a21411407ac228610a66e3cac20c0653e97ea3440e4d2c5",
+      "bytes": 79286,
+      "width": 384,
+      "height": 640
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-smoke-standing-front-1.png",
+      "sha256": "da6dd843086935e642c62e969a83682cef6e6d16f6dc0e64537dfac175e4aa80",
+      "bytes": 225000,
+      "width": 768,
+      "height": 1280
+    },
+    {
+      "path": "assets/design-actor-effect-male-smoke-standing-front-1.png",
+      "sha256": "758cbaf060377aca61521e899702abec4fe0dbe68c19fed1a3b242c2a24b8d43",
+      "bytes": 1890,
+      "width": 384,
+      "height": 576
+    },
+    {
+      "path": "assets/design-actor-daily-male-smoke-standing-right-1.png",
+      "sha256": "e6f8af3628fce42175bd652136c4161a3cf1fbef393ea225b01a071f6a92005a",
+      "bytes": 68627,
+      "width": 384,
+      "height": 640
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-smoke-standing-right-1.png",
+      "sha256": "f265997a6e5eb8b8de8f72f8d46ac4a32ed6bd2dae695eba759f94ce598f04ef",
+      "bytes": 199700,
+      "width": 768,
+      "height": 1280
+    },
+    {
+      "path": "assets/design-actor-effect-male-smoke-standing-right-1.png",
+      "sha256": "515d70ebb1be9b8d0436f9042789a17a14a552e5533a2412c91607aeff344bfe",
+      "bytes": 1821,
+      "width": 384,
+      "height": 576
+    },
+    {
+      "path": "assets/design-actor-daily-male-smoke-standing-back-1.png",
+      "sha256": "287f770d3dca48a4cd9ab5b4c453329f3af8b4c2899bf9fd3aedce784622baed",
+      "bytes": 63442,
+      "width": 384,
+      "height": 512
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-smoke-standing-back-1.png",
+      "sha256": "9733c96d31785253dade5a08e660477533e672f7664ce3a9d0658b6dc91f048c",
+      "bytes": 180864,
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "path": "assets/design-actor-effect-male-smoke-standing-back-1.png",
+      "sha256": "1e7028568ccb62a99223be123d894efcf82edbb57127e30219406c561267a2fc",
+      "bytes": 1063,
+      "width": 384,
+      "height": 384
+    },
+    {
+      "path": "assets/design-actor-daily-male-smoke-standing-left-1.png",
+      "sha256": "cb0948a65c6934d733de32dac9a4f9aaf8bf955357c2f6eeafa4939c83d0744f",
+      "bytes": 66050,
+      "width": 384,
+      "height": 640
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-smoke-standing-left-1.png",
+      "sha256": "e22e7ccf6a9010aafe2a7e0759fb68eac9e6e3484b5be0642158afa1ebe31571",
+      "bytes": 187630,
+      "width": 768,
+      "height": 1280
+    },
+    {
+      "path": "assets/design-actor-effect-male-smoke-standing-left-1.png",
+      "sha256": "e9bb4c6cae26fee7489fb23444ee6eb16c610773a21d61e539edf14e9feaf480",
+      "bytes": 1805,
+      "width": 384,
+      "height": 512
+    },
+    {
+      "path": "assets/design-actor-daily-male-smoke-seated-front-1.png",
+      "sha256": "34a2f5716581898253feb8c9c169e7d79679cd0cf98bba704dfe27a2cdb61bb8",
+      "bytes": 63238,
+      "width": 384,
+      "height": 576
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-smoke-seated-front-1.png",
+      "sha256": "df3506becceec6d3f756b657483dd9411e07bb5d4a9c20aa1efccfc2d7fcad58",
+      "bytes": 182018,
+      "width": 768,
+      "height": 1152
+    },
+    {
+      "path": "assets/design-actor-effect-male-smoke-seated-front-1.png",
+      "sha256": "84331f754e6820ffefc3d306a6b7522a37c56cf4bdf9fa2bf20be34d52062ee4",
+      "bytes": 1911,
+      "width": 384,
+      "height": 576
+    },
+    {
+      "path": "assets/design-actor-daily-male-smoke-seated-right-1.png",
+      "sha256": "b0f487cd07ba6d7e408824e17e855f955b0f6508d2603c56760ecd87cadc1171",
+      "bytes": 50757,
+      "width": 384,
+      "height": 640
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-smoke-seated-right-1.png",
+      "sha256": "cc5995ebb723c65335f25015476fb3fe200d4842c2ca9a903f585fce11aa4fd7",
+      "bytes": 148704,
+      "width": 768,
+      "height": 1280
+    },
+    {
+      "path": "assets/design-actor-effect-male-smoke-seated-right-1.png",
+      "sha256": "b7d9bd145083a50983de78dcbdc32441d16c4e44c1c03136188ba0262e144346",
+      "bytes": 1832,
+      "width": 384,
+      "height": 576
+    },
+    {
+      "path": "assets/design-actor-daily-male-smoke-seated-back-1.png",
+      "sha256": "fdd49b901f31a2956da65f4254103be484d7e0fd7c9b287dbc516e15deeeb50f",
+      "bytes": 49099,
+      "width": 384,
+      "height": 448
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-smoke-seated-back-1.png",
+      "sha256": "2192050bcb112d79b3c7c089cdf5d5d7241581e32d42de82979dc595a87aba21",
+      "bytes": 137465,
+      "width": 768,
+      "height": 896
+    },
+    {
+      "path": "assets/design-actor-effect-male-smoke-seated-back-1.png",
+      "sha256": "e2d553e82d5824677d8ce981cdc38e1c74018e68e122a8d06767136df5ee8655",
+      "bytes": 1051,
+      "width": 384,
+      "height": 384
+    },
+    {
+      "path": "assets/design-actor-daily-male-smoke-seated-left-1.png",
+      "sha256": "c2111efbdac97c6c90ba97784d3bb9dffe1f4ca6e746df6add38259eac8ffc32",
+      "bytes": 49325,
+      "width": 384,
+      "height": 576
+    },
+    {
+      "path": "assets/design-actor-detail-daily-male-smoke-seated-left-1.png",
+      "sha256": "3c9d1cdf31443c32ba5a672bd856e4ea3dfa62e663a94cda446fe491ace5511c",
+      "bytes": 142847,
+      "width": 768,
+      "height": 1152
+    },
+    {
+      "path": "assets/design-actor-effect-male-smoke-seated-left-1.png",
+      "sha256": "f00ae90bfccfeeaaf163848c9136797cad7c80c06df0d6f5aab56f1f29dbd39f",
+      "bytes": 1779,
+      "width": 384,
+      "height": 512
+    },
+    {
+      "path": "assets/design-actor-daily-female-phone-seated-front-1.png",
+      "sha256": "25c43adb03c640be55e0ab3b27ad626137d816d6d86dba347e2fba5165048511",
+      "bytes": 19678,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-phone-seated-front-1.png",
+      "sha256": "e2f9e126e57e0099a0973386088f4f1862d35dcf7a2f0bab1295b5dcc404932c",
+      "bytes": 59161,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-female-phone-seated-front-1.png",
+      "sha256": "f4f07273e50ced63938ed3361ea39be0dd5403167b91d4ca0394557ec520894b",
+      "bytes": 4303,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-female-phone-seated-right-1.png",
+      "sha256": "bc86a91c733f5c80de4b5565db3a579bef994e71562ee8cdef0c5912c25da46d",
+      "bytes": 16258,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-phone-seated-right-1.png",
+      "sha256": "e7efcc139e24e17113cce363c5feb476ceabdc87721b22e4041081616f6c79fb",
+      "bytes": 48831,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-female-phone-seated-right-1.png",
+      "sha256": "8d0342652ec4b8cf4c52236969e202fe8f88c9896a179d202afc5f88aae2df80",
+      "bytes": 2406,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-female-phone-seated-back-1.png",
+      "sha256": "62efdffed16beed5273899550b91a8f32652de3636bac0442975ad1151522491",
+      "bytes": 13686,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-phone-seated-back-1.png",
+      "sha256": "52cbe076e169e2fb3808404032d274ab803909478ab5e0e07a4cc366ad95ca68",
+      "bytes": 39376,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-effect-female-phone-seated-back-1.png",
+      "sha256": "fa8b6accb51458454824bf21bde0a562545afaffa940165a3796eaea244e091a",
+      "bytes": 175,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-female-phone-seated-left-1.png",
+      "sha256": "c6464ad77075a56e20be595e5ce2b41e11daae6fa61e819e17993bfd9e8e5159",
+      "bytes": 15778,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-phone-seated-left-1.png",
+      "sha256": "e6208da70455b4b8f128e5fa28196a9006012f834dc256cd6ed5798b6feeec30",
+      "bytes": 47878,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-female-phone-seated-left-1.png",
+      "sha256": "c2cdb3e3c384421d0416839593efc4a97783128158873f707142c6c8d2c4d021",
+      "bytes": 2067,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-female-call-standing-front-1.png",
+      "sha256": "7ea549dfa4d46f6959f0d8b22989819046b1a4981c6461c76b7feea09b4fc191",
+      "bytes": 35795,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-call-standing-front-1.png",
+      "sha256": "85486f276ffea3b24507c0eca0eb891712d93567694180ed10bdbdbb960c2b1b",
+      "bytes": 105797,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-female-call-standing-front-1.png",
+      "sha256": "a6f19b393458064782a5dfec5c3448b51f1e059432b6e01bb6400d4c3b85fc43",
+      "bytes": 6428,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-female-call-standing-right-1.png",
+      "sha256": "714ac8d5aba7a89e24f5574bf31f6a3f33af6277924c064a97a17db00f89b284",
+      "bytes": 28306,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-call-standing-right-1.png",
+      "sha256": "2b43d8f9c3201afb5cb384876cc708e31f3ca8ef1b3463bc2e73a6e9023288d8",
+      "bytes": 84637,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-female-call-standing-right-1.png",
+      "sha256": "d57af3625feb919d0096b13432cfd8af69d92999c54a199eebb135fa0de2e2f9",
+      "bytes": 4314,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-female-call-standing-back-1.png",
+      "sha256": "7618e95f151fa6dab9b6b1d63ce8dd759fc8c995b13b3dc9ccbcd9828e6e58af",
+      "bytes": 28067,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-call-standing-back-1.png",
+      "sha256": "f9547bd60b4764404b7beecbdfe5f44e78cbbae65774f6fece0d91c1e33318ad",
+      "bytes": 81497,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-female-call-standing-back-1.png",
+      "sha256": "fa8b6accb51458454824bf21bde0a562545afaffa940165a3796eaea244e091a",
+      "bytes": 175,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-female-call-standing-left-1.png",
+      "sha256": "9a1cfc5f6e5ffca4d9f84d2954da38cd7a1886a295ea48f9d9c2115beef829b1",
+      "bytes": 27145,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-call-standing-left-1.png",
+      "sha256": "0bfda4235995fa94558d7d0a9aa005220ad8ac76c507adbdd5d2f6ca6b83d82f",
+      "bytes": 81216,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-female-call-standing-left-1.png",
+      "sha256": "b71830a1ff1429fbe9d9030ecb7164f98735f2385890880b23e78f6e3b326e01",
+      "bytes": 4011,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-female-call-seated-front-1.png",
+      "sha256": "50dfff8036b9cc732daf2d378487397560f05e67b2d69c0df5bce0f82b006538",
+      "bytes": 31003,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-call-seated-front-1.png",
+      "sha256": "bb1e8724859064d43e1a6fae6af484e23e9263d53bdc3837cfacec750f616877",
+      "bytes": 93853,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-female-call-seated-front-1.png",
+      "sha256": "906e15f9db5c772bad68d7bb19c4dabfe5c2d3205a71175d737e75fe0d74be7a",
+      "bytes": 6426,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-female-call-seated-right-1.png",
+      "sha256": "99f63687c05a8bb360838e23ddf7ca7bbc257b202914e20b8a0c8bf781ce4e6f",
+      "bytes": 24676,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-call-seated-right-1.png",
+      "sha256": "f08fc46c3ff202978f488df1a49764cbcd5da6d2bfeada2e54a027ab00ac81ce",
+      "bytes": 75050,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-female-call-seated-right-1.png",
+      "sha256": "de25f9fe0b9007e3d6f6319977b8f42164010fcad479ce77012f437efd3a22d7",
+      "bytes": 4348,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-female-call-seated-back-1.png",
+      "sha256": "37e5b4e6dba82aedbc7c694d7461aefc486510334f5a504bf6a7995ae0122c82",
+      "bytes": 23711,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-call-seated-back-1.png",
+      "sha256": "174041c14316646afc14087fd0150198099ee6972874ff5a7eaf4a9e2ed29ffb",
+      "bytes": 69924,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-female-call-seated-back-1.png",
+      "sha256": "fa8b6accb51458454824bf21bde0a562545afaffa940165a3796eaea244e091a",
+      "bytes": 175,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-daily-female-call-seated-left-1.png",
+      "sha256": "830cbe3c93a1a9da996cc6b21b93e5a84f1f61fcc812d1baf4d2b580a4bb7071",
+      "bytes": 23720,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-call-seated-left-1.png",
+      "sha256": "e781df87970d5038f889901318e62c5838dbf7e52d992f884863274e84594783",
+      "bytes": 72635,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-effect-female-call-seated-left-1.png",
+      "sha256": "018965f2ac664bd553f8bb35334a1d33ba1d53845ee9dcb13ac2c5192c60c523",
+      "bytes": 4056,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-female-inventory-standing-front-1.png",
+      "sha256": "9916d1f2d785a646b32607abe5b47d93c42c31506bddd3f1a1939d6e15311661",
+      "bytes": 36240,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-inventory-standing-front-1.png",
+      "sha256": "f2cb56496120233653711157d95f2bbae7a18060959e277fe1d16e1170d1d92d",
+      "bytes": 108385,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-inventory-standing-right-1.png",
+      "sha256": "e2d927fa21856bb5d9681e768678a080e9a6ed568b25224063983c4b7ffa7e61",
+      "bytes": 29204,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-inventory-standing-right-1.png",
+      "sha256": "bf7ea3e62d4811d5f2e52d1cbad4c5a98b314e09c739c4197316ebf09e66a119",
+      "bytes": 88336,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-inventory-standing-back-1.png",
+      "sha256": "b2f032db78c2f189516b3e1b2e57bda5e4926a2e9a67c4b15be3934fe1823c21",
+      "bytes": 32003,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-inventory-standing-back-1.png",
+      "sha256": "176430331208c8fbd4ce25895bf79ba494120751086866441ca5e87a3dc3334f",
+      "bytes": 95469,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-inventory-standing-left-1.png",
+      "sha256": "795237c457e41a6c3d1abd528f2cafe39b669926bfa35630738a55dcbe16fe7c",
+      "bytes": 28808,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-inventory-standing-left-1.png",
+      "sha256": "ff1090aa2b0dd2ff4ed9b199e0885162edfa8f8fa254dc4f03641712064fc5f5",
+      "bytes": 87454,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-inventory-seated-front-1.png",
+      "sha256": "e1945aaa8591ebf674bd2505ed38d5448ab9cb8155cd9a8fda94ba6788c05936",
+      "bytes": 30762,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-inventory-seated-front-1.png",
+      "sha256": "13598ba6198ce98e594ac1b7ef9c515326f900e1c52ee3c18239753182519014",
+      "bytes": 91271,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-inventory-seated-right-1.png",
+      "sha256": "578eb5ebd0e951e8849948b2a3a2c09d5cd2228c55d21ac318c17cb83a8a1f45",
+      "bytes": 23784,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-inventory-seated-right-1.png",
+      "sha256": "6682433b1a4bdd473704431e7131c82f10ccfce2a2a4907d80481a637f47beab",
+      "bytes": 72929,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-inventory-seated-back-1.png",
+      "sha256": "20f251b522179e4abc51d5c86699425d374ec17c399460e467c322d1d1b548d9",
+      "bytes": 25672,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-inventory-seated-back-1.png",
+      "sha256": "d03e0e4fed9a453728800199f0354942bcde0c426bf5dc90afa926d917f3db27",
+      "bytes": 78306,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-inventory-seated-left-1.png",
+      "sha256": "59c99827c2d1f1923afd54ac234a0f6acbdcd1bf82ccc0590376dba2ebb0e8db",
+      "bytes": 23258,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-inventory-seated-left-1.png",
+      "sha256": "1b882f87f0f018231ceb42da9affb6d8f56c46e9f2580ee4c3813445affec139",
+      "bytes": 71204,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-equip-standing-front-1.png",
+      "sha256": "e58f9879034a3100c83be7ed968785292b6f7b70bb489dbf5e481f5bd8a9e356",
+      "bytes": 46034,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-equip-standing-front-1.png",
+      "sha256": "952845ab732bc3e4b54bae83c5765e310edd93e9818ea3e3e3ff41f0fddc3084",
+      "bytes": 137429,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-equip-standing-right-1.png",
+      "sha256": "0a703607e178a27251d69a26a061cc8f33392fece8f478cb3317e9edcbb97473",
+      "bytes": 36911,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-equip-standing-right-1.png",
+      "sha256": "ea215519b826aa481a917815b6e2b07ad5a32fba58b59dbaca2860e2603a7065",
+      "bytes": 111331,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-equip-standing-back-1.png",
+      "sha256": "205ab4841b4ea3228d74d026b47df8b9ae416170c52e600639a19122f9101f02",
+      "bytes": 40090,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-equip-standing-back-1.png",
+      "sha256": "f98056dea58ec9498f26d8dd94de076c973924963cb7feb7e3de1d12ce1f57d9",
+      "bytes": 119585,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-equip-standing-left-1.png",
+      "sha256": "d4344952fd925369761b83db324f1a645e94c3117f284c52fc15ebd60df4d43d",
+      "bytes": 36501,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-equip-standing-left-1.png",
+      "sha256": "ee13e08ad754625198c66a389b35b5422fa72e0d02a5bfc7c93562015164434d",
+      "bytes": 110790,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-equip-seated-front-1.png",
+      "sha256": "cd0acc2c076af8168e6ce0ce3a5b8fe38765ec05b5fdc3564cd1a96389d0ce22",
+      "bytes": 38782,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-equip-seated-front-1.png",
+      "sha256": "af84c6f52fb74dc4420fb616256bf7c2d3fe5a1528ad45c716573f97ca95d7e3",
+      "bytes": 115579,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-equip-seated-right-1.png",
+      "sha256": "3a2b17a1b577c701e66508443fc486e32f58e544d9afbce4cef2f40dfdefe06e",
+      "bytes": 29890,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-equip-seated-right-1.png",
+      "sha256": "15272e00ad4b56cbdb8bb323c2007a001898b02cccea5dcff37b4d8176ffcc3e",
+      "bytes": 90510,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-equip-seated-back-1.png",
+      "sha256": "97869bc585e41a95bdc278bc0379d894fbfda350924eb71791bee14e97368b5c",
+      "bytes": 31901,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-equip-seated-back-1.png",
+      "sha256": "f5f50ddc89218231f0d0c1674a21d2a207847bb80345f4cc597e6efcf0f7ba1c",
+      "bytes": 96953,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-equip-seated-left-1.png",
+      "sha256": "0eb7809f1746bb76a8eef3cf8fb261ec5a44e2045ef362abf3c0ac58cadb8d08",
+      "bytes": 29323,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-equip-seated-left-1.png",
+      "sha256": "efd8bff7a683e268d9e0ea7a5cfd5d6ea3ff9bd82c8c106bbc51c590251bfc2d",
+      "bytes": 89630,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-water-standing-front-1.png",
+      "sha256": "24f7ebb8899caddac02fe9a6ecfc02bad50cca27cd810ad7d11d71501d2c5523",
+      "bytes": 36860,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-water-standing-front-1.png",
+      "sha256": "e28855bda4d41796829f55e08aab285c2b0513bc346c3aeee6f238e882e75d71",
+      "bytes": 109960,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-water-standing-right-1.png",
+      "sha256": "e3688713471867f565ce8cc17ba965aa5dede27daa50c82f4fb6f17434de1eb0",
+      "bytes": 29537,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-water-standing-right-1.png",
+      "sha256": "72dab46f18f1105209e7b5744aa351c03bc61c161c93d36b15d18bb05b428a8f",
+      "bytes": 89938,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-water-standing-back-1.png",
+      "sha256": "56f3891784dc5998385991288ada0c38d947bc79716ae9a3b45aef41751ee63a",
+      "bytes": 28887,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-water-standing-back-1.png",
+      "sha256": "feb89363e55225ede8fca3e469e39318061e7d14476674bcdf18f0ab54982c9a",
+      "bytes": 85001,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-water-standing-left-1.png",
+      "sha256": "b99990e760873cfabe91f38b182bbb5fe3fb29aab19241f28ba13229fc17f4dc",
+      "bytes": 29158,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-water-standing-left-1.png",
+      "sha256": "ac1c38bb50a14fdc6cbdfe35e085fad57b3f48a628990c9b0fe0a67a5cc27d8e",
+      "bytes": 87886,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-water-seated-front-1.png",
+      "sha256": "3155b467a8d369fc43a66b94721a13ca97e6c5b29767377a1b7ec96bb5d8a1e6",
+      "bytes": 30274,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-water-seated-front-1.png",
+      "sha256": "534f6fc622300c3154d47533e36672d0a09af9992a5f1e661dc8c71240fdf3b5",
+      "bytes": 91518,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-water-seated-right-1.png",
+      "sha256": "47e347a746e5238198d9a460a16255d539cbb3f54fc3b33c16d717455a00f367",
+      "bytes": 24102,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-water-seated-right-1.png",
+      "sha256": "736fb8060a80101432d175e4bf9fb6a7586d1e987d3dd76c84608dd6455d6c09",
+      "bytes": 73877,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-water-seated-back-1.png",
+      "sha256": "7682c970ac382308c7c988d1c60a661dc6a0473ef22ff768a07dbf378194fabe",
+      "bytes": 24176,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-water-seated-back-1.png",
+      "sha256": "8142305bbf354f78998e679558a27eba2105646079cdcd73804b1e29f26ed410",
+      "bytes": 73205,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-water-seated-left-1.png",
+      "sha256": "3cec9226ffb7b12201fede5aa1b7553c1372baf5f9dd474bfca11a9d7278726d",
+      "bytes": 23951,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-water-seated-left-1.png",
+      "sha256": "1e70debf3ceceb07b8a770902fae0c3a28298e459f7838245a58eb9eeba169df",
+      "bytes": 73489,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-soda-standing-front-1.png",
+      "sha256": "3c77fd26d0f8db8ad17b92d4ed0f2f238af17443e38426366a87d8dd2a1477d1",
+      "bytes": 36776,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-soda-standing-front-1.png",
+      "sha256": "c56fa3bc68208882c6ebfde6a5b831ece66eceeeaa2b13c019f3d629e41a2989",
+      "bytes": 109833,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-soda-standing-right-1.png",
+      "sha256": "a9339234fcbe5dfd8951037945bddb4b8a46244b44a72fb1e0a25ec457e9fcc1",
+      "bytes": 29474,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-soda-standing-right-1.png",
+      "sha256": "ab97c8239466358e08d7e008810dd953073bcd68e357d87f377a3b3e5b13684f",
+      "bytes": 89695,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-soda-standing-back-1.png",
+      "sha256": "34646c22ca3bcfcfb88e3b3ae588f8c9b34a510cf64b0f4c7614cc4a05c15ccc",
+      "bytes": 28831,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-soda-standing-back-1.png",
+      "sha256": "2d0d75c921ace5ef56dc8b26c6b43284d5accf41d75954e46cf609660d4f7879",
+      "bytes": 84946,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-soda-standing-left-1.png",
+      "sha256": "835e1fd94366c53ef22bb104d46238151a3807a5ea5869412da9e05bc8a7516a",
+      "bytes": 29093,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-soda-standing-left-1.png",
+      "sha256": "6b0cb3c03579148627f68118323f4b8ca0d190021b691803466782247204098e",
+      "bytes": 87712,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-soda-seated-front-1.png",
+      "sha256": "8c8c44cd56ce58231506a2994356b0325c71f130a00fd7e1f33a18fabbe69984",
+      "bytes": 30215,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-soda-seated-front-1.png",
+      "sha256": "7ad23c8910e9bf111f80079244ce205a12cbe4cf18501169bc7d9c18798cef5a",
+      "bytes": 91475,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-soda-seated-right-1.png",
+      "sha256": "610e69abcbeea591ac668ef4ffbe6cc96f0018e92eead8f64f81090933370bb6",
+      "bytes": 24040,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-soda-seated-right-1.png",
+      "sha256": "b8f6eaeb4e384c5c73b1b105ee7edb3ee8ea7994413241422ca3cbaec93f1e86",
+      "bytes": 73563,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-soda-seated-back-1.png",
+      "sha256": "c44091e63d224a3405dbcb33552f9f43e9f9ae2cf6742f2feb38d3c8d06c228b",
+      "bytes": 24154,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-soda-seated-back-1.png",
+      "sha256": "5acbc9b997fd55db5fc8303e2211271ee89edb6f4dd3ae74a74caf9271c78f93",
+      "bytes": 73104,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-soda-seated-left-1.png",
+      "sha256": "266d6bb55d86798ea03f46283e8abab9c278739b09e5b6346af805e3c7648cf8",
+      "bytes": 23913,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-soda-seated-left-1.png",
+      "sha256": "5b2d07a990314aef1d5e43dc2b71160d5cae49f21bf91cea04b4b8ee507a56ce",
+      "bytes": 73205,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-beer-standing-front-1.png",
+      "sha256": "01fbfd299ed791f3717329d80730865ac36c7fc748f23b1f108d494374b02d30",
+      "bytes": 36726,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-beer-standing-front-1.png",
+      "sha256": "ee7471117354089d1a8327514cf4999c7b89f81f8482854a5771e22945547cf7",
+      "bytes": 109436,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-beer-standing-right-1.png",
+      "sha256": "6535db0336e9e1986a2ba9711662ac5f5ab3a70e4a9697eeabbc459ed360fb6a",
+      "bytes": 29344,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-beer-standing-right-1.png",
+      "sha256": "ae8cd95b39835c207f3150fd4c69f870c1617d0272233d1cf584c68d64cadf59",
+      "bytes": 89318,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-beer-standing-back-1.png",
+      "sha256": "d1bcea5e3c46b15578ce372dfbb486b6e5a1afabaf7ed625447b2a898c3f5dc4",
+      "bytes": 28826,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-beer-standing-back-1.png",
+      "sha256": "bc3199a7a56ee4a39628edae1caff454312dec44eb8b9bb59c1def7b622a1eb0",
+      "bytes": 84925,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-beer-standing-left-1.png",
+      "sha256": "c0f37f1709425d060a459561d5872b8db6584005a24d71921fd62eb29ce0bcf4",
+      "bytes": 29013,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-beer-standing-left-1.png",
+      "sha256": "5aa567de6f6fb68e6fd8e940d02f05013ff4e1a5c8fa9d836a8ce777be24a953",
+      "bytes": 87372,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-beer-seated-front-1.png",
+      "sha256": "6ff93ff4060857e63bcb78010f47d2a596a22e5c2427f25d20200bb87c1d9944",
+      "bytes": 30121,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-beer-seated-front-1.png",
+      "sha256": "ba4e51a7cb52948999e9b7b68d278b2764ceaf72840db7b5983a5b65097dc6ae",
+      "bytes": 91160,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-beer-seated-right-1.png",
+      "sha256": "aec008eef73bb5f9d0acaefa3cb7e4ab7716a965893778000dc2d6e7aea325c0",
+      "bytes": 23919,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-beer-seated-right-1.png",
+      "sha256": "3205b7631c7b26cd6bd0d69cb52167d76ea8aef372aee25540443ea8a232a754",
+      "bytes": 73190,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-beer-seated-back-1.png",
+      "sha256": "1614480e4d5b7f9cb1c5f8e1baa2f0cc65a4f8bc37a0d86f17f9a698b36e7e9c",
+      "bytes": 24139,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-beer-seated-back-1.png",
+      "sha256": "cd7035782babb1b340b32fe82c3eed6cc28e25d848c15eb10a6b412de4c44c80",
+      "bytes": 73097,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-beer-seated-left-1.png",
+      "sha256": "4aa0a41af47645e3bb3deeb332a055002f7bb0fad72a664793669d0f2a13b58d",
+      "bytes": 23781,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-beer-seated-left-1.png",
+      "sha256": "7487becb5da1e8459fa740dc2503f710cb980763c0aa9fec5fe1e53041ded26e",
+      "bytes": 72907,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-daily-female-mug-standing-front-1.png",
+      "sha256": "00f630b0e5f31943fe8a45d93b0c66710b517e6dd555edf8590f6e6e6a2f9e19",
+      "bytes": 19353,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-mug-standing-front-1.png",
+      "sha256": "e8019febd8234d6ee57db8f5801f890ca17b406fdec7fa2a69ba94615527c790",
+      "bytes": 56812,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-female-mug-standing-right-1.png",
+      "sha256": "59603dc6d694b5a89cad504dfb35e1a0e61c649463d7c4154b31d938878f9261",
+      "bytes": 15662,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-mug-standing-right-1.png",
+      "sha256": "e83970adba4868dd53296ab095577541224c28be582c6e972e774aa40d73403b",
+      "bytes": 46186,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-female-mug-standing-back-1.png",
+      "sha256": "b3ea01aa7b39a5634a455bbdeafea6c94f7b68d714b82beec8b0bdd4dd971656",
+      "bytes": 16850,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-mug-standing-back-1.png",
+      "sha256": "4b8a7da6ecda90832a8d5bde4ad2bddf54dc0161b462e57a7641ee3a2ce6f214",
+      "bytes": 48771,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-female-mug-standing-left-1.png",
+      "sha256": "ba32ad69c06f986c0281614181e47d6b133f4c3f4d5d00854622e330f7142e37",
+      "bytes": 15615,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-mug-standing-left-1.png",
+      "sha256": "531d43e35e6f1511aabeaf51573035da9cc81de72e260681480040ca1b959b02",
+      "bytes": 45643,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-female-mug-seated-front-1.png",
+      "sha256": "b3cea65e33d523675e3bbc5536a38cc60dcda17953705bdcc7950609b9ea3893",
+      "bytes": 15556,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-mug-seated-front-1.png",
+      "sha256": "1035b6d60a23418178e7526135a39b2f5574dbd614f3e1ba516e8f1a37f68cd1",
+      "bytes": 46965,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-female-mug-seated-right-1.png",
+      "sha256": "066ec4459e8465a05a26ed3ac825b4a5fef3604d3d97ba2eeac41b8bef0a9c79",
+      "bytes": 12940,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-mug-seated-right-1.png",
+      "sha256": "2dec86a927eb58ce78e487cc81a216daf8e0e143f47ba851453791f2791ceece",
+      "bytes": 38339,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-female-mug-seated-back-1.png",
+      "sha256": "dbb79c84cda8cc81b0386ec33588cd7da9beecb625e640a9de8b0fae8d839079",
+      "bytes": 14494,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-mug-seated-back-1.png",
+      "sha256": "b3e6a6510c0cf4b2c0e78c74e65d8d9549d15f0b468cb87c484405dcffd20685",
+      "bytes": 42356,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-female-mug-seated-left-1.png",
+      "sha256": "4c1fc84b31392a902f7936075bc2edac21d7321d21ab7ae0c4e35ea00d1ed99c",
+      "bytes": 12974,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-mug-seated-left-1.png",
+      "sha256": "ffed1d681436dbd6f14c6faa90e72a762569ee8616e9be8b32f857e2bffafc18",
+      "bytes": 38578,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-female-smoke-standing-front-1.png",
+      "sha256": "8e45506656566a5c777eded820c16ffc72ab2a8e310c988b42a8ce606a13f869",
+      "bytes": 79456,
+      "width": 384,
+      "height": 640
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-smoke-standing-front-1.png",
+      "sha256": "a8ab3301a12fbabd5b63b4754613f545a0f9be3b2799edcf779ade6da9f872f7",
+      "bytes": 237493,
+      "width": 768,
+      "height": 1280
+    },
+    {
+      "path": "assets/design-actor-effect-female-smoke-standing-front-1.png",
+      "sha256": "922260c01e2841d9249240e1e580e108896d430decf4895fd89ec3e4b959ce36",
+      "bytes": 1737,
+      "width": 384,
+      "height": 576
+    },
+    {
+      "path": "assets/design-actor-daily-female-smoke-standing-right-1.png",
+      "sha256": "87b3f42622f4f2aed608b159c91fd0efb8600b03e329023307277f4c61f940f6",
+      "bytes": 67499,
+      "width": 384,
+      "height": 640
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-smoke-standing-right-1.png",
+      "sha256": "f4106663da7ef64be89cdd3ba46e6819597ba6fbcd98bf0cf95149cca3e2a530",
+      "bytes": 205464,
+      "width": 768,
+      "height": 1280
+    },
+    {
+      "path": "assets/design-actor-effect-female-smoke-standing-right-1.png",
+      "sha256": "316a4e0fcfec58ef11138d44c4af1c01e95c94e45627fddc7e41ea6f86a9e3c9",
+      "bytes": 1939,
+      "width": 384,
+      "height": 576
+    },
+    {
+      "path": "assets/design-actor-daily-female-smoke-standing-back-1.png",
+      "sha256": "f97a9cc3d9928e9b9c187ee9edc6ee57976f5ea3cabfc56dec690ecc45e1b2ad",
+      "bytes": 43962,
+      "width": 384,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-smoke-standing-back-1.png",
+      "sha256": "b0322d57d1ccbae05c9b88de2a30edc9cad272bdefa23728fb65ccd4dd92a4e4",
+      "bytes": 130558,
+      "width": 768,
+      "height": 512
+    },
+    {
+      "path": "assets/design-actor-effect-female-smoke-standing-back-1.png",
+      "sha256": "ac4503412f3f57dd2d70bf315ec6ec3a7a8716a3ae141611f9275a9fffdfb057",
+      "bytes": 362,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-female-smoke-standing-left-1.png",
+      "sha256": "39fcfe1de0e8b9ec24e4e0237c34097f7af8ae5e68a0775fe4359da98ea1ed3a",
+      "bytes": 66695,
+      "width": 384,
+      "height": 640
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-smoke-standing-left-1.png",
+      "sha256": "02796e86ba66b1d388272e5216a4ca1413891e6bb6b7b184e92fd9a5e0e267ea",
+      "bytes": 199910,
+      "width": 768,
+      "height": 1280
+    },
+    {
+      "path": "assets/design-actor-effect-female-smoke-standing-left-1.png",
+      "sha256": "ea07379b79a8d9632ea6d97e5de55dce6f4ae74ea47f514146ea6f0f87a3b496",
+      "bytes": 1841,
+      "width": 384,
+      "height": 576
+    },
+    {
+      "path": "assets/design-actor-daily-female-smoke-seated-front-1.png",
+      "sha256": "b2abdf958e90d47574571b4eb567229011f184008f3a4ea702dce62c50a7a2bf",
+      "bytes": 57857,
+      "width": 384,
+      "height": 576
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-smoke-seated-front-1.png",
+      "sha256": "b1ddf24e4b1d05867632f7907b60dd3e977771e10e62abe82393bd6973d08615",
+      "bytes": 177818,
+      "width": 768,
+      "height": 1152
+    },
+    {
+      "path": "assets/design-actor-effect-female-smoke-seated-front-1.png",
+      "sha256": "a450b12a3807d6dd7e33ed2395c30907f48915e1d4cf2da59d326b20e0bb9b03",
+      "bytes": 1783,
+      "width": 384,
+      "height": 576
+    },
+    {
+      "path": "assets/design-actor-daily-female-smoke-seated-right-1.png",
+      "sha256": "a3e1c6579becf7c6aa7ba526d39ab748f20317e987d8b3449ccc8378d27296c7",
+      "bytes": 50853,
+      "width": 384,
+      "height": 640
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-smoke-seated-right-1.png",
+      "sha256": "cea43ca69c0ff14d3bcbc3ba81e364c8e30b6a44766fc6beacd23f969015d629",
+      "bytes": 155032,
+      "width": 768,
+      "height": 1280
+    },
+    {
+      "path": "assets/design-actor-effect-female-smoke-seated-right-1.png",
+      "sha256": "5b3ba2d4021cf934df339e63af8fec8d950e16f455615d15cf3e13375b23c080",
+      "bytes": 1918,
+      "width": 384,
+      "height": 576
+    },
+    {
+      "path": "assets/design-actor-daily-female-smoke-seated-back-1.png",
+      "sha256": "4b5386ec4879a39d5b2a6d30be8261418ac06b6ce5c537ef0b6a13bae85fac34",
+      "bytes": 31226,
+      "width": 384,
+      "height": 192
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-smoke-seated-back-1.png",
+      "sha256": "36b0dda910b7bcd61b662664cc7eedf5f0395dce485770b87e6892b7948fe770",
+      "bytes": 94421,
+      "width": 768,
+      "height": 384
+    },
+    {
+      "path": "assets/design-actor-effect-female-smoke-seated-back-1.png",
+      "sha256": "460d6018861a004dd1a11201662b260ea6bdf1086fc94ad4be3cfb9483aaceab",
+      "bytes": 339,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-daily-female-smoke-seated-left-1.png",
+      "sha256": "8d31fb11b9f02dc981a332adba0c97603c2e1430de4541d7a244eb9bc1ab7dec",
+      "bytes": 47760,
+      "width": 384,
+      "height": 576
+    },
+    {
+      "path": "assets/design-actor-detail-daily-female-smoke-seated-left-1.png",
+      "sha256": "0892af0ef078d65f2f31d2d3c7efd61b831c059ee14606aefc3e165c4055d1ac",
+      "bytes": 145806,
+      "width": 768,
+      "height": 1152
+    },
+    {
+      "path": "assets/design-actor-effect-female-smoke-seated-left-1.png",
+      "sha256": "5a2333b0ccf17aa3740788865675da46f2316a242ae502422b0d253ea340b7ff",
+      "bytes": 1859,
+      "width": 384,
+      "height": 576
+    },
+    {
+      "path": "assets/design-actor-gestures-male-3.png",
+      "sha256": "c14b31931cc5f349d692385eede3f6ba51d824aea05b9157699cfbe9c49c23de",
+      "bytes": 197105,
+      "width": 384,
+      "height": 512
+    },
+    {
+      "path": "assets/design-actor-gestures-male-2.png",
+      "sha256": "f77ca003a2614d995bc14d8981f720f75fcee52a0abeca597727ac3a18040dbe",
+      "bytes": 357050,
+      "width": 384,
+      "height": 1024
+    },
+    {
+      "path": "assets/design-actor-gestures-male-1.png",
+      "sha256": "21f4def3926fbd1af69d7ddd5213061437f34a7e66c2c90d7ffeab69056ed7a5",
+      "bytes": 376353,
+      "width": 384,
+      "height": 1024
+    },
+    {
+      "path": "assets/design-actor-detail-gestures-male-1.png",
+      "sha256": "a1fd6f0731cc1aec900d2843353000809c1999a20e1382ade83810afe2e8059b",
+      "bytes": 1055986,
+      "width": 768,
+      "height": 2048
+    },
+    {
+      "path": "assets/design-actor-detail-gestures-male-2.png",
+      "sha256": "884aca47803b7866a8519e8238e66239a2ba3fac59988857092189e48ef5c861",
+      "bytes": 1000169,
+      "width": 768,
+      "height": 2048
+    },
+    {
+      "path": "assets/design-actor-detail-gestures-male-3.png",
+      "sha256": "c5ae961565067f8de59d6d011f6e3eb9f8073a81f5adc7fdf25d3ea7dae7ea08",
+      "bytes": 555633,
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "path": "assets/design-actor-gestures-female-3.png",
+      "sha256": "a8fadd43edee579b4438e744543b82d02d90319c5ed4eda9a9105162bc932120",
+      "bytes": 169815,
+      "width": 384,
+      "height": 512
+    },
+    {
+      "path": "assets/design-actor-gestures-female-1.png",
+      "sha256": "4dbe371ac7efc0f1b88c39903ba8bb5094b3da20497c43f5de97d41ee9ceeb49",
+      "bytes": 344712,
+      "width": 384,
+      "height": 1024
+    },
+    {
+      "path": "assets/design-actor-gestures-female-2.png",
+      "sha256": "06bfd77fed9b4844f0ad44a742336367108e74317a238ba27653d2f5d3965e1d",
+      "bytes": 349104,
+      "width": 384,
+      "height": 1024
+    },
+    {
+      "path": "assets/design-actor-detail-gestures-female-1.png",
+      "sha256": "455255a112edd532f58b21ec89ca25b59b4e051a92869ce3af7f1d6a9a44a960",
+      "bytes": 994406,
+      "width": 768,
+      "height": 2048
+    },
+    {
+      "path": "assets/design-actor-detail-gestures-female-2.png",
+      "sha256": "2f44b9fb94d1c18763c0f53bdff8b23a325b5982e3ac3dfb76e691405c23799c",
+      "bytes": 999142,
+      "width": 768,
+      "height": 2048
+    },
+    {
+      "path": "assets/design-actor-detail-gestures-female-3.png",
+      "sha256": "a60d7b1e10325fe0d4a98fd15215fd50e89ee630c86f5edaa34dbee174832f5d",
+      "bytes": 495963,
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "path": "assets/design-actor-water-female-1.png",
+      "sha256": "4b51a5762d48290f4451b98e387aa9e6fea69fd9eeebaa71b8e7c8f219846fb1",
+      "bytes": 42619,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-water-female-1.png",
+      "sha256": "6d6de051e3f83d6076ef4dbc99e6d01cb19ccd1459ee23fb150139edaf2cc506",
+      "bytes": 131169,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-water-male-fishing-1.png",
+      "sha256": "ff41ff184d5a461d7f2573df90a341c1ae37c4d763b860c27a7359742d8402a2",
+      "bytes": 50008,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-water-male-fishing-1.png",
+      "sha256": "0c3a16b28709addb0e84b4d2b5efe7686d1391102bbb72b37b881f5f95f2a2aa",
+      "bytes": 157386,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-water-male-boat-1.png",
+      "sha256": "c5a30449284d5984f950e3c351fd4a7f44660b260313b8c051b066ccc2920bae",
+      "bytes": 49938,
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-detail-water-male-boat-1.png",
+      "sha256": "e982c9095b4096117773f86e9dba0e07f193da918db5656022d5f12b80081791",
+      "bytes": 155763,
+      "width": 768,
+      "height": 256
+    },
+    {
+      "path": "assets/design-actor-water-male-fish-pocket-1.png",
+      "sha256": "4d7b539f9fcf1db1eef73af953e951680b6eee9107bdc5dd4feecf0a9cc51885",
+      "bytes": 28035,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-water-male-fish-pocket-1.png",
+      "sha256": "25413093ef4137f02585dc9c959e7c672addf50eb5675c2cec3677da1ec21964",
+      "bytes": 89590,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-composite-male-eat-seated-front-1.png",
+      "sha256": "ff15df40ef879050ba92bd6e4be427ac7178878195cae0bc4873cbd04340766c",
+      "bytes": 13205,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-composite-male-eat-seated-front-1.png",
+      "sha256": "9e6a7302fd15c4ea485464309b25ed6b7b884fa1dae0e5e8ca5fe329831a6054",
+      "bytes": 38431,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-composite-male-eat-seated-right-1.png",
+      "sha256": "c51d6a117b3f38e8c0bf092ce2afb6637634d611a6e1b3c31ade91404aff2df3",
+      "bytes": 10891,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-composite-male-eat-seated-right-1.png",
+      "sha256": "1440f0b4e5434c0bf02f110a180a9ff0d83ea9e2330a46384c584ef34cf8893c",
+      "bytes": 31186,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-composite-male-eat-seated-back-1.png",
+      "sha256": "80a1f22182c43d811dc5e82632cf8121d9848a809e0f856c88829e11f98fde7f",
+      "bytes": 11821,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-composite-male-eat-seated-back-1.png",
+      "sha256": "82448df6dafd0cdca40dd14031d6d4fda7c42773b12eb327455cef39a686bed6",
+      "bytes": 34107,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-composite-male-eat-seated-left-1.png",
+      "sha256": "66897e7f8686ebe3ad802b6b3d3b0367a5c150467ade7254859a188d236cfc71",
+      "bytes": 10828,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-composite-male-eat-seated-left-1.png",
+      "sha256": "21d913082e639a2b552aad1ca7dbc8ed99e44ede03b92649d8f3c236687bff7b",
+      "bytes": 31139,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-composite-female-eat-seated-front-1.png",
+      "sha256": "56cbf7d55fa7a5bba93bbf4e14bcaf12373f03b45813c8c4ca53ec418bd360b4",
+      "bytes": 11042,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-composite-female-eat-seated-front-1.png",
+      "sha256": "d16589ab3fd527d64c0b85631c825b3422b1f15a1d8c5225bf561be7624c01c3",
+      "bytes": 32946,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-composite-female-eat-seated-right-1.png",
+      "sha256": "ef5bdbed5f0951f6a64dd986fdab56b7219f76efc5891d450a20d7d8daf5f242",
+      "bytes": 9027,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-composite-female-eat-seated-right-1.png",
+      "sha256": "127bea03b031bf999560636a64477d63b561a29ef8cf82d7ff1e73924073e338",
+      "bytes": 25847,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-composite-female-eat-seated-back-1.png",
+      "sha256": "30ff741f70a2f91c56dea385f1477e6c687e4a034dd56a5744c943f9588d3971",
+      "bytes": 8644,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-composite-female-eat-seated-back-1.png",
+      "sha256": "9a30ec89ad5e188d55461782385ef61dd5ecba7626189580f4dfb335627cd715",
+      "bytes": 25660,
+      "width": 768,
+      "height": 128
+    },
+    {
+      "path": "assets/design-actor-composite-female-eat-seated-left-1.png",
+      "sha256": "f57a4104ea8ad31cac63e344eecd29932fc242cd91683b56460b6490b6314f0b",
+      "bytes": 8897,
+      "width": 384,
+      "height": 64
+    },
+    {
+      "path": "assets/design-actor-detail-composite-female-eat-seated-left-1.png",
+      "sha256": "3906c5bae8f9215faca0dd022cf16d8b501b8be3292b22fa7ee4eb46faa86e03",
+      "bytes": 26713,
+      "width": 768,
+      "height": 128
+    }
+  ],
+  "resourceChanges": [],
+  "phoneCases": 576,
+  "phoneComparisons": 384,
+  "phoneChangedByVersion": {
+    "before": 192,
+    "current": 192
+  },
+  "nonmovingSequences": 316,
+  "authoredFramesInInventory": 3281,
+  "limits": [
+    "Face/body region split atY72 is a diagnostic, not semantic segmentation",
+    "Enclosed alpha holes include intentional eye/limb openings until reviewed",
+    "Four representative frames per source sequence only, not all authored frames",
+    "Frozen exact-code copies are actual implementations, with historical source SHA checked; native resource bytes hashed",
+    "Physical phone not checked"
+  ]
+}

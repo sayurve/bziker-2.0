@@ -1,0 +1,163 @@
+{
+  "source_root": "source-reference/09_Интерфейс_игры",
+  "approved_only": true,
+  "operation": "byte-for-byte copy",
+  "files": [
+    {
+      "path": "assets/design-ui-font.ttf",
+      "source": "12_Загрузка_и_вход/assets/Пиксельный_шрифт.ttf",
+      "bytes": 118204,
+      "sha256": "034c77f1f05ec89421e4a63f0e3a4ca1ecf852cc6d2bf611f126f275728e017d"
+    },
+    {
+      "path": "assets/design-ui-font-license.txt",
+      "source": "12_Загрузка_и_вход/assets/Лицензия_шрифта.txt",
+      "bytes": 4413,
+      "sha256": "705960c3281a5765ecc0b59bd4ed7ca59eed165748076bc2fc3e8fdbfeb944b0"
+    },
+    {
+      "path": "assets/design-ui-city.png",
+      "source": "12_Загрузка_и_вход/assets/Город.png",
+      "bytes": 4162669,
+      "sha256": "70dd7a15e86a16f486c7a181200607cb4b96ab5e63a3914b6af57d5864beb179"
+    },
+    {
+      "path": "assets/design-ui-mascot.png",
+      "source": "12_Загрузка_и_вход/assets/Бзик_приветствие.png",
+      "bytes": 585467,
+      "sha256": "846d3c03c5b9d9af05b7f5f3c3f9d6fbc7f1cdc97df5daa87b65bac6f6bc3114"
+    },
+    {
+      "path": "assets/design-ui-hands-male.png",
+      "source": "10_Телебзи/Телебзи_Мужские_руки.png",
+      "bytes": 777360,
+      "sha256": "b7854be30a5182873a1a5fca7a840d499e35bd187d35281a38beef884a06c869"
+    },
+    {
+      "path": "assets/design-ui-hands-female.png",
+      "source": "10_Телебзи/Телебзи_Женские_руки.png",
+      "bytes": 739652,
+      "sha256": "cf682ed6f32093872f13e495c11f5a78f8a1d7d973be21353f2eaa204e86e60e"
+    },
+    {
+      "path": "assets/design-ui-phone.png",
+      "source": "10_Телебзи/Телебзи_без_рук.png",
+      "bytes": 689390,
+      "sha256": "bb2ecb532c9790c84ae0d4d5c1288a27f93a7c4d8cb5f778badc6e9583d78669"
+    },
+    {
+      "path": "assets/design-ui-minimap.png",
+      "source": "03_Миникарта/01_Рамка.png",
+      "bytes": 97186,
+      "sha256": "84544c24377880765ee5261e1a313887f9b19ed5f856d86d4395c33e759df817"
+    },
+    {
+      "path": "assets/design-ui-location.png",
+      "source": "04_Локация/01_Подложка_без_текста.png",
+      "bytes": 94070,
+      "sha256": "1573fb26560ab3e9bf6b52f2abad7cb4919fa4c69117943716cadfc265c71429"
+    },
+    {
+      "path": "assets/design-ui-online.png",
+      "source": "01_Кнопки/Онлайн/01_Обычная.png",
+      "bytes": 128657,
+      "sha256": "75c5cce0c1c0478a3d8c88d34389fa7a727198581724b6bd17b6bc5f8a551580"
+    },
+    {
+      "path": "assets/design-ui-counter.png",
+      "source": "08_Монеты_и_счётчики/03_Подложка_счётчика.png",
+      "bytes": 94070,
+      "sha256": "1573fb26560ab3e9bf6b52f2abad7cb4919fa4c69117943716cadfc265c71429"
+    },
+    {
+      "path": "assets/design-ui-coin.png",
+      "source": "08_Монеты_и_счётчики/01_Монета_золотая.png",
+      "bytes": 990313,
+      "sha256": "756b26152be6bcd8e6b0bc06204de1de65bf602ac3b7d9efca53edac61aeabfe"
+    },
+    {
+      "path": "assets/design-ui-joystick-base.png",
+      "source": "02_Джойстик/01_Основание.png",
+      "bytes": 214491,
+      "sha256": "4d89b0d7b670351e1d34913732371422e66bbbee847ec9d84474306b47acedb9"
+    },
+    {
+      "path": "assets/design-ui-joystick-knob.png",
+      "source": "02_Джойстик/02_Ручка.png",
+      "bytes": 47034,
+      "sha256": "471981fdd7d6dc89453b644efc80eccf948ddf1720ceac050d85daae5a1e5f0e"
+    },
+    {
+      "path": "assets/design-ui-hand-normal.png",
+      "source": "01_Кнопки/Взаимодействие/01_Обычная.png",
+      "bytes": 134924,
+      "sha256": "c97cb93e16edf7154106a9fd4855d31ec75c015d55f7af4917da5f00955a4fde"
+    },
+    {
+      "path": "assets/design-ui-hand-pressed.png",
+      "source": "01_Кнопки/Взаимодействие/02_Нажатая.png",
+      "bytes": 186187,
+      "sha256": "73f135758497cae0295bd1b12acf833bf23f669d2dbe6897b9dc0b4d0f7ab0fe"
+    },
+    {
+      "path": "assets/design-ui-hand-selected.png",
+      "source": "01_Кнопки/Взаимодействие/03_Выбранная.png",
+      "bytes": 166866,
+      "sha256": "de44cb3ace8790223d999cc7281c0cc356c0e7eed5a627ff48ea55e9785ca057"
+    },
+    {
+      "path": "assets/design-ui-hand-disabled.png",
+      "source": "01_Кнопки/Взаимодействие/04_Недоступная.png",
+      "bytes": 199469,
+      "sha256": "c866bc3a879767cf496d1f7ee412ad24f490874c8f858b57b6f62c75a47f9fbd"
+    },
+    {
+      "path": "assets/design-ui-inventory-normal.png",
+      "source": "01_Кнопки/Инвентарь/01_Обычная.png",
+      "bytes": 134426,
+      "sha256": "dab3c6661a7b0ec5909e2d64ab0ce5d31516f6a5d83180d578f041e22c982fdc"
+    },
+    {
+      "path": "assets/design-ui-inventory-pressed.png",
+      "source": "01_Кнопки/Инвентарь/02_Нажатая.png",
+      "bytes": 181659,
+      "sha256": "124a3a8153e8f73a4eea1b6ba54cac538a229c39931f0aa006299b9ee9dc1e54"
+    },
+    {
+      "path": "assets/design-ui-inventory-selected.png",
+      "source": "01_Кнопки/Инвентарь/03_Выбранная.png",
+      "bytes": 164853,
+      "sha256": "1433e27c78e286d5a01c00d1ce38ee418cbfb554436f457629369a17d5de5542"
+    },
+    {
+      "path": "assets/design-ui-inventory-disabled.png",
+      "source": "01_Кнопки/Инвентарь/04_Недоступная.png",
+      "bytes": 196661,
+      "sha256": "baf9aeb2d9bb09a578c5c432eeccc90a1b5b4671011561b5fd16c085bdd922ef"
+    },
+    {
+      "path": "assets/design-ui-phone-button-normal.png",
+      "source": "01_Кнопки/Телефон/01_Обычная.png",
+      "bytes": 175095,
+      "sha256": "98902d9da6b35ba0a7c2847c89e7841cf8a0fc90b288df811543371b78265e06"
+    },
+    {
+      "path": "assets/design-ui-phone-button-pressed.png",
+      "source": "01_Кнопки/Телефон/02_Нажатая.png",
+      "bytes": 189276,
+      "sha256": "afdc29b51509c25d58ba0118efd88025a455db28d5c339f565578bd4db7e7b85"
+    },
+    {
+      "path": "assets/design-ui-phone-button-selected.png",
+      "source": "01_Кнопки/Телефон/03_Выбранная.png",
+      "bytes": 150896,
+      "sha256": "2236ea8f302f80651f840ae70e6a71a1def0bb6348e5f10bfa311d414f4b0048"
+    },
+    {
+      "path": "assets/design-ui-phone-button-disabled.png",
+      "source": "01_Кнопки/Телефон/04_Недоступная.png",
+      "bytes": 190922,
+      "sha256": "c7cd8dda32bcc4ebd40779bd281b1dd3cc4e24bea767e633acc8ee6b0f4a3f40"
+    }
+  ]
+}

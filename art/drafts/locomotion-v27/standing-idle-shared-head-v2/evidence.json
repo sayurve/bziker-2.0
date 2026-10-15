@@ -1,0 +1,238 @@
+{
+  "status": "draft",
+  "headResize": false,
+  "poses": [
+    {
+      "gender": "male",
+      "dir": "down",
+      "rawSourcePath": "art/drafts/canonical-idle-v2/male-idle-down.png",
+      "rawSHA256": "83bc50819e8529a041b0e63718c0b2c45fa434301a7bff611f1b37f6d56ed3f3",
+      "rawDimensions": [
+        1150,
+        1367
+      ],
+      "uniformFineScale": 0.10625,
+      "sourceRoot": [
+        575,
+        1243
+      ],
+      "sourceNeck": [
+        575,
+        669
+      ],
+      "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-down-native-run0-head-fine.png",
+      "headTranslation": [
+        0,
+        4
+      ],
+      "top": 15,
+      "bottom": 125,
+      "height": 111,
+      "bodyChangesBelowCollar": 0,
+      "removed": 1904
+    },
+    {
+      "gender": "male",
+      "dir": "right",
+      "rawSourcePath": "art/drafts/canonical-idle-v2/male-idle-right.png",
+      "rawSHA256": "bcc8c713d308c151886d52d20573899552e10d8f21876dc58819c85aec24d854",
+      "rawDimensions": [
+        1150,
+        1367
+      ],
+      "uniformFineScale": 0.10625,
+      "sourceRoot": [
+        575,
+        1253
+      ],
+      "sourceNeck": [
+        603,
+        660
+      ],
+      "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-right-native-run0-head-fine.png",
+      "headTranslation": [
+        -4,
+        3
+      ],
+      "top": 14,
+      "bottom": 125,
+      "height": 112,
+      "bodyChangesBelowCollar": 0,
+      "removed": 1900
+    },
+    {
+      "gender": "male",
+      "dir": "up",
+      "rawSourcePath": "art/drafts/canonical-idle-v2/male-idle-up.png",
+      "rawSHA256": "449a31c5e8b80412e0fe8b711fed301d955d31aa742f8fe9f2c5629024c22580",
+      "rawDimensions": [
+        1085,
+        1449
+      ],
+      "uniformFineScale": 0.10625,
+      "sourceRoot": [
+        542,
+        1299
+      ],
+      "sourceNeck": [
+        542,
+        687
+      ],
+      "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-up-native-run0-head-fine.png",
+      "headTranslation": [
+        0,
+        3
+      ],
+      "top": 14,
+      "bottom": 125,
+      "height": 112,
+      "bodyChangesBelowCollar": 0,
+      "removed": 1680
+    },
+    {
+      "gender": "male",
+      "dir": "left",
+      "rawSourcePath": "art/drafts/canonical-idle-v2/male-idle-left.png",
+      "rawSHA256": "42ddae0c87d99e1aa14f7d094473f985ef86a304589f09bce9d1eae275cde14f",
+      "rawDimensions": [
+        1150,
+        1367
+      ],
+      "uniformFineScale": 0.10625,
+      "sourceRoot": [
+        575,
+        1235
+      ],
+      "sourceNeck": [
+        509,
+        651
+      ],
+      "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-left-native-run0-head-fine.png",
+      "headTranslation": [
+        1,
+        3
+      ],
+      "top": 15,
+      "bottom": 125,
+      "height": 111,
+      "bodyChangesBelowCollar": 0,
+      "removed": 1772
+    },
+    {
+      "gender": "female",
+      "dir": "down",
+      "rawSourcePath": "art/drafts/canonical-idle-v27/female-idle-down.png",
+      "rawSHA256": "a16f39a241d0956401d4eb2dfb0451fbe61e00a72cd467528bd1b63ba8faefbd",
+      "rawDimensions": [
+        1151,
+        1367
+      ],
+      "uniformFineScale": 0.1,
+      "sourceRoot": [
+        575,
+        1243
+      ],
+      "sourceNeck": [
+        575,
+        669
+      ],
+      "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-down-native-run0-head-fine.png",
+      "headTranslation": [
+        0,
+        8
+      ],
+      "top": 19,
+      "bottom": 125,
+      "height": 107,
+      "bodyChangesBelowCollar": 0,
+      "removed": 1704
+    },
+    {
+      "gender": "female",
+      "dir": "right",
+      "rawSourcePath": "art/drafts/canonical-idle-v27/female-idle-right.png",
+      "rawSHA256": "50a2f944077b9edb3629ae252acdbe38f771c756c078f7e106841d8e837805ff",
+      "rawDimensions": [
+        1151,
+        1367
+      ],
+      "uniformFineScale": 0.1,
+      "sourceRoot": [
+        575,
+        1253
+      ],
+      "sourceNeck": [
+        603,
+        660
+      ],
+      "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-right-native-run0-head-fine.png",
+      "headTranslation": [
+        -4,
+        7
+      ],
+      "top": 18,
+      "bottom": 125,
+      "height": 108,
+      "bodyChangesBelowCollar": 0,
+      "removed": 1715
+    },
+    {
+      "gender": "female",
+      "dir": "up",
+      "rawSourcePath": "art/drafts/canonical-idle-v27/female-idle-up.png",
+      "rawSHA256": "5b08b2f912a3c4e303e5a1ec682bd32320979fc19225577ab9a50b9598710702",
+      "rawDimensions": [
+        1085,
+        1450
+      ],
+      "uniformFineScale": 0.1,
+      "sourceRoot": [
+        542,
+        1299
+      ],
+      "sourceNeck": [
+        542,
+        687
+      ],
+      "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-up-native-run0-head-fine.png",
+      "headTranslation": [
+        0,
+        7
+      ],
+      "top": 18,
+      "bottom": 125,
+      "height": 108,
+      "bodyChangesBelowCollar": 0,
+      "removed": 1506
+    },
+    {
+      "gender": "female",
+      "dir": "left",
+      "rawSourcePath": "art/drafts/canonical-idle-v27/female-idle-left.png",
+      "rawSHA256": "6dbac045d0a11e0c33cbe4f9ecefc7436ba718de27cb4cb5fbea046fc07321a1",
+      "rawDimensions": [
+        1150,
+        1367
+      ],
+      "uniformFineScale": 0.1,
+      "sourceRoot": [
+        575,
+        1229
+      ],
+      "sourceNeck": [
+        509,
+        651
+      ],
+      "headFile": "art/drafts/locomotion-v27/shared-head-style-proposal/male-left-native-run0-head-fine.png",
+      "headTranslation": [
+        1,
+        7
+      ],
+      "top": 19,
+      "bottom": 125,
+      "height": 107,
+      "bodyChangesBelowCollar": 0,
+      "removed": 1542
+    }
+  ]
+}

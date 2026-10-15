@@ -1,0 +1,190 @@
+[
+  {
+    "gender": 0,
+    "facing": "left",
+    "stats": [
+      {
+        "phase": 0,
+        "eyeWhiteBounds": {
+          "left": 29,
+          "right": 34,
+          "top": 49,
+          "bottom": 53
+        },
+        "eyeCenterX": 31.5
+      },
+      {
+        "phase": 1,
+        "eyeWhiteBounds": {
+          "left": 31,
+          "right": 33,
+          "top": 46,
+          "bottom": 51
+        },
+        "eyeCenterX": 32
+      },
+      {
+        "phase": 2,
+        "eyeWhiteBounds": {
+          "left": 29,
+          "right": 31,
+          "top": 47,
+          "bottom": 51
+        },
+        "eyeCenterX": 30
+      },
+      {
+        "phase": 3,
+        "eyeWhiteBounds": {
+          "left": 32,
+          "right": 36,
+          "top": 46,
+          "bottom": 51
+        },
+        "eyeCenterX": 34
+      }
+    ],
+    "eyeHorizontalRangeFinePixels": 4
+  },
+  {
+    "gender": 0,
+    "facing": "right",
+    "stats": [
+      {
+        "phase": 0,
+        "eyeWhiteBounds": {
+          "left": 61,
+          "right": 64,
+          "top": 46,
+          "bottom": 51
+        },
+        "eyeCenterX": 62.5
+      },
+      {
+        "phase": 1,
+        "eyeWhiteBounds": {
+          "left": 60,
+          "right": 62,
+          "top": 46,
+          "bottom": 51
+        },
+        "eyeCenterX": 61
+      },
+      {
+        "phase": 2,
+        "eyeWhiteBounds": {
+          "left": 63,
+          "right": 67,
+          "top": 46,
+          "bottom": 51
+        },
+        "eyeCenterX": 65
+      },
+      {
+        "phase": 3,
+        "eyeWhiteBounds": {
+          "left": 61,
+          "right": 63,
+          "top": 46,
+          "bottom": 51
+        },
+        "eyeCenterX": 62
+      }
+    ],
+    "eyeHorizontalRangeFinePixels": 4
+  },
+  {
+    "gender": 1,
+    "facing": "left",
+    "stats": [
+      {
+        "phase": 0,
+        "eyeWhiteBounds": {
+          "left": 26,
+          "right": 26,
+          "top": 55,
+          "bottom": 59
+        },
+        "eyeCenterX": 26
+      },
+      {
+        "phase": 1,
+        "eyeWhiteBounds": {
+          "left": 25,
+          "right": 27,
+          "top": 57,
+          "bottom": 59
+        },
+        "eyeCenterX": 26
+      },
+      {
+        "phase": 2,
+        "eyeWhiteBounds": {
+          "left": 22,
+          "right": 23,
+          "top": 56,
+          "bottom": 59
+        },
+        "eyeCenterX": 22.5
+      },
+      {
+        "phase": 3,
+        "eyeWhiteBounds": {
+          "left": 27,
+          "right": 28,
+          "top": 56,
+          "bottom": 59
+        },
+        "eyeCenterX": 27.5
+      }
+    ],
+    "eyeHorizontalRangeFinePixels": 5
+  },
+  {
+    "gender": 1,
+    "facing": "right",
+    "stats": [
+      {
+        "phase": 0,
+        "eyeWhiteBounds": {
+          "left": 68,
+          "right": 68,
+          "top": 56,
+          "bottom": 59
+        },
+        "eyeCenterX": 68
+      },
+      {
+        "phase": 1,
+        "eyeWhiteBounds": {
+          "left": 68,
+          "right": 70,
+          "top": 57,
+          "bottom": 59
+        },
+        "eyeCenterX": 69
+      },
+      {
+        "phase": 2,
+        "eyeWhiteBounds": {
+          "left": 72,
+          "right": 72,
+          "top": 56,
+          "bottom": 59
+        },
+        "eyeCenterX": 72
+      },
+      {
+        "phase": 3,
+        "eyeWhiteBounds": {
+          "left": 66,
+          "right": 68,
+          "top": 56,
+          "bottom": 59
+        },
+        "eyeCenterX": 67
+      }
+    ],
+    "eyeHorizontalRangeFinePixels": 5
+  }
+]

@@ -1,0 +1,101 @@
+{
+  "description": "Explicit manifests whose contact sheets were actually visually reviewed by the independent subagent, in overlay precedence order. Source JPEGs never changed.",
+  "g0": [
+    "g0-all82-hairStyle/manifest.json",
+    "g0-all82-hairColor/manifest.json",
+    "g0-all82-skin/manifest.json",
+    "g0-all82-shirtStyle/manifest.json",
+    "g0-all82-shirtColor/manifest.json",
+    "g0-all82-pantsStyle/manifest.json",
+    "g0-all82-pantsColor/manifest.json",
+    "g0-all82-headwear/manifest.json",
+    "g0-all82-accessory/manifest.json",
+    "g0-all82-outfit/manifest.json",
+    "g0-all82-shoesColor/manifest.json",
+    "g0-retake-hairColor/manifest.json",
+    "g0-retake-outfit/manifest.json",
+    "g0-retake-skin/manifest.json",
+    "g0-retake-shirtStyle/manifest.json",
+    "g0-retake-shirtColor/manifest.json",
+    "g0-retake-pantsColor/manifest.json",
+    "g0-retake-headwear/manifest.json",
+    "g0-retake-accessory/manifest.json",
+    "g0-retake-shoesColor/manifest.json"
+  ],
+  "g1": [
+    "g1-hair-ready/manifest.json",
+    "g1-ready-headwear/manifest.json",
+    "g1-ready-shirtStyle/manifest.json",
+    "g1-ready-pantsStyle/manifest.json",
+    "g1-ready-accessory/manifest.json",
+    "g1-ready-outfit/manifest.json"
+  ],
+  "expectedValues": {
+    "g0": 82,
+    "g1": 38
+  },
+  "fullTargetValuesPerGender": 82,
+  "invalidLegacyCaptures": [
+    {
+      "category": "skin",
+      "value": 4,
+      "directions": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "category": "shirtStyle",
+      "value": 3,
+      "directions": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "category": "shirtColor",
+      "value": 0,
+      "directions": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "category": "shirtColor",
+      "value": 6,
+      "directions": [
+        "up"
+      ]
+    },
+    {
+      "category": "pantsColor",
+      "value": 6,
+      "directions": [
+        "left",
+        "up"
+      ]
+    },
+    {
+      "category": "headwear",
+      "value": 0,
+      "directions": [
+        "up"
+      ]
+    },
+    {
+      "category": "accessory",
+      "value": 0,
+      "directions": [
+        "up"
+      ]
+    },
+    {
+      "category": "shoesColor",
+      "value": 2,
+      "directions": [
+        "left",
+        "up"
+      ]
+    }
+  ]
+}

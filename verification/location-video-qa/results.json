@@ -1,0 +1,114 @@
+[
+  {
+    "id": "male-basic",
+    "source": "materials/Bziker/02_Персонажи/Мужчина/Видео_основных_движений.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_type": "video",
+          "width": 640,
+          "height": 480,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "34.000000"
+      }
+    },
+    "decode_exit_code": 0,
+    "decode_error": "",
+    "decoded_video_frames": 816,
+    "storyboard_interval_seconds": 0.5,
+    "storyboard_pages": [
+      "verification/location-video-qa/male-basic-01.png",
+      "verification/location-video-qa/male-basic-02.png",
+      "verification/location-video-qa/male-basic-03.png"
+    ],
+    "visual_inspection": "all complete storyboard pages viewed with view_image",
+    "visual_notes": "All 3 full sheets inspected: idle; walk/run in four directions; sit/crouch/sleep/eat/drink/jump/wave/pick-up. Archive idle is not the approved animation identity canon.",
+    "storyboard_sample_count": 68,
+    "storyboard_timeline_coverage_seconds": [
+      0,
+      33.5
+    ],
+    "audio_reviewed": false
+  },
+  {
+    "id": "female-basic",
+    "source": "materials/Bziker/02_Персонажи/Женщина/Видео_основных_движений.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_type": "video",
+          "width": 640,
+          "height": 480,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "34.000000"
+      }
+    },
+    "decode_exit_code": 0,
+    "decode_error": "",
+    "decoded_video_frames": 816,
+    "storyboard_interval_seconds": 0.5,
+    "storyboard_pages": [
+      "verification/location-video-qa/female-basic-01.png",
+      "verification/location-video-qa/female-basic-02.png",
+      "verification/location-video-qa/female-basic-03.png"
+    ],
+    "visual_inspection": "all complete storyboard pages viewed with view_image",
+    "visual_notes": "All 3 full sheets inspected: same 17 two-second categories as male; shoulder-length wavy brown hair visible in side/back movement.",
+    "storyboard_sample_count": 68,
+    "storyboard_timeline_coverage_seconds": [
+      0,
+      33.5
+    ],
+    "audio_reviewed": false
+  },
+  {
+    "id": "water-overview",
+    "source": "materials/Bziker/01_Окружение/Водоём/08_Анимации/03_Общий_ролик/Водоём_рыбалка_и_лодка.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_type": "video",
+          "width": 960,
+          "height": 640,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "38.000000"
+      }
+    },
+    "decode_exit_code": 0,
+    "decode_error": "",
+    "decoded_video_frames": 912,
+    "storyboard_interval_seconds": 0.5,
+    "storyboard_pages": [
+      "verification/location-video-qa/water-overview-01.png",
+      "verification/location-video-qa/water-overview-02.png",
+      "verification/location-video-qa/water-overview-03.png",
+      "verification/location-video-qa/water-overview-04.png"
+    ],
+    "visual_inspection": "all complete storyboard pages viewed with view_image",
+    "visual_notes": "All 4 full sheets inspected: approx 0–7s fishing in boat, 7–16s dock approach/boarding/control, 16–32s boat movement/return, 32–38s exit/departure. No city/interior tour.",
+    "storyboard_sample_count": 76,
+    "storyboard_timeline_coverage_seconds": [
+      0,
+      37.5
+    ],
+    "audio_reviewed": false
+  }
+]

@@ -1,0 +1,46 @@
+✖ railway arrival is a short distinct walk from the town rather than a wide empty gap (0.786083ms)
+✖ newcomers, map travel and the railway interior share the relocated doorway (0.12075ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 0
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 79.766167
+
+✖ failing tests:
+
+test at tests/station-arrival-v11.test.mjs:7:1
+✖ railway arrival is a short distinct walk from the town rather than a wide empty gap (0.786083ms)
+  AssertionError [ERR_ASSERTION]: Arrival takes 23.03 seconds
+      at TestContext.<anonymous> (file://$LOCAL_WORKSPACE/.codex/worktrees/bziker-game/%D0%9A%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82/output/bziker/tests/station-arrival-v11.test.mjs:9:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/station-arrival-v11.test.mjs:15:1
+✖ newcomers, map travel and the railway interior share the relocated doorway (0.12075ms)
+  AssertionError [ERR_ASSERTION]: Station should remain outside the town but be closer
+      at TestContext.<anonymous> (file://$LOCAL_WORKSPACE/.codex/worktrees/bziker-game/%D0%9A%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82/output/bziker/tests/station-arrival-v11.test.mjs:17:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

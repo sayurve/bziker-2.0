@@ -1,0 +1,1342 @@
+{
+  "status": "current-final-runtime-technical-check-passed-one-H7-reviewed-limited-UI",
+  "scope": "Visual acceptance is limited to ONE selected male H7 tail, white6, skin3, shirt8, shirtStyle2, outfit0, headwear0. No new hairstyle or gender review. Existing multi-model inventory is structural history, not expanded visual acceptance.",
+  "hashes": {
+    "game/web/source-actors.js": "a101e25573dd30747c40477e738ce5eb40857f7881cff9a7c48338f4795cb071",
+    "game/web/actor-sprite.js": "be8e935642374699951146083fbef4ec1ad690a7de8a06ae2153f34dc9b4271b",
+    "game/web/avatar.js": "d95537f37d3e2e4404a233f5a4c3f5c555a90b6e7c8153323d53559f09220422",
+    "game/web/canonical-actors-data.js": "d24ca352e05bf07c32b21ffe6775a53be6feebe3c047b61069245fccfef3a7eb",
+    "game/web/locomotion-actors-data.js": "ca80688f968f0fa059d584e5eac3a6bd035bec515498e4d06bfbd6176a7e8b73",
+    "game/web/interaction-actors-data.js": "34a771f62dc4ad38f5efd79788dd681b2ffe1a79751f4d4ce27faa23657cffa6",
+    "game/web/action-effects.js": "a0b50650eb50dc71e63ffd55ecd9f764045fed2689de546736d65bf95de3861b",
+    "game/web/world.js": "a94b566cde2bede8e931bfcbfd10886312d96f1bfb7cd9bd9cb96dde403a692b",
+    "game/web/source-city.js": "c62fab72533f4cde0492e4b23ac2d4b70e357ec4470d1c3dfde47f8b25199520"
+  },
+  "inventory": {
+    "idle": {
+      "sequences": 8,
+      "frameReferences": 8,
+      "uniquePNG": 16,
+      "assets": [
+        {
+          "path": "assets/canonical-idle-v2/female-down-fine.png",
+          "sha256": "808f1250b8afd557e70952ce2251e6f06ae2659c8f989e21f85fee8c9c9fb148"
+        },
+        {
+          "path": "assets/canonical-idle-v2/female-down.png",
+          "sha256": "c2697cd6e762c1a3dbb1b56a9ef2d20d5d07623432828419333ebdf140132639"
+        },
+        {
+          "path": "assets/canonical-idle-v2/female-left-fine.png",
+          "sha256": "6bf9fc9b1cceaefdff2c7aac1373ebd4799e24fd0e6c650fc5f2c9dd28727070"
+        },
+        {
+          "path": "assets/canonical-idle-v2/female-left.png",
+          "sha256": "2585a5f892071c9a46cfdf37cb86f1e99b3013bce55ced47c0b2b8014be4db97"
+        },
+        {
+          "path": "assets/canonical-idle-v2/female-right-fine.png",
+          "sha256": "a4910d4e3ac96f6ddf7e6aef15db762feb8b4abc4b356fe30d9163f1257b4cb5"
+        },
+        {
+          "path": "assets/canonical-idle-v2/female-right.png",
+          "sha256": "a686ebbe0620b095c0e9d8e78255317c37818530fc0e98a945130fa9fc5b1c98"
+        },
+        {
+          "path": "assets/canonical-idle-v2/female-up-fine.png",
+          "sha256": "0c070e07cc71a626ed41bc4207b5d5122989c434bbf1abc8f8259b2dcae1d99d"
+        },
+        {
+          "path": "assets/canonical-idle-v2/female-up.png",
+          "sha256": "5c7db4506f4274eb957c83026304b0d5b90a170a4aa3934fe1d481f2d1a91ab0"
+        },
+        {
+          "path": "assets/canonical-idle-v2/male-down-fine.png",
+          "sha256": "478a8d42240000771dbb1f9ab5a1d0f3dcee43f2ba91b3a13867a70021f7b5f3"
+        },
+        {
+          "path": "assets/canonical-idle-v2/male-down.png",
+          "sha256": "a6110949e26e8d57e1dd81776f6b871991fbcaff9feb3b82657512f1e7115a5d"
+        },
+        {
+          "path": "assets/canonical-idle-v2/male-left-fine.png",
+          "sha256": "ca0b4b93601c86a18ee0fcee56639bf58cb1550975f96b207be25d875a73c8a0"
+        },
+        {
+          "path": "assets/canonical-idle-v2/male-left.png",
+          "sha256": "43fbfd221f0a066e34a9294cba22a53cd5420a667725e0a30cbaf697203367f9"
+        },
+        {
+          "path": "assets/canonical-idle-v2/male-right-fine.png",
+          "sha256": "9eee484ea8fd0f10833772726be630c1d1af73ce9a1c892bc6947283094759c3"
+        },
+        {
+          "path": "assets/canonical-idle-v2/male-right.png",
+          "sha256": "18f727c93c8fe59e71bbedcec217f202f952467319f1044ef81b152ccf456fd8"
+        },
+        {
+          "path": "assets/canonical-idle-v2/male-up-fine.png",
+          "sha256": "5f2c2c2d0fa0e3858ec27dae7e9ef2d9b30c11f19a51bd7ab4e4637aa3acd640"
+        },
+        {
+          "path": "assets/canonical-idle-v2/male-up.png",
+          "sha256": "0320d7c0f189e75f406973dbeee6ffb26ee36225f2f506d2be56f2b4dcf17e70"
+        }
+      ]
+    },
+    "run": {
+      "sequences": 8,
+      "frameReferences": 32,
+      "uniquePNG": 64,
+      "assets": [
+        {
+          "path": "assets/locomotion-v27/female-down-0-fine.png",
+          "sha256": "a8128c72e0340823a888a9606c3c1e4e53909afa731bbf094b42d8ca11d76b3c"
+        },
+        {
+          "path": "assets/locomotion-v27/female-down-0.png",
+          "sha256": "087b6336d6ed17d23de9d6d856322a163d185d1095fff26ab73825c8e3662b71"
+        },
+        {
+          "path": "assets/locomotion-v27/female-down-1-fine.png",
+          "sha256": "5fda038f4fbdad41a97af907b51079d480ee6972a5ac32d77b7144e317e3b461"
+        },
+        {
+          "path": "assets/locomotion-v27/female-down-1.png",
+          "sha256": "777f44f9d3305f02d5ef87ebf604385b2c3ec2ea07763cb4b10ad6dad8e6bf98"
+        },
+        {
+          "path": "assets/locomotion-v27/female-down-2-fine.png",
+          "sha256": "4c0a72282c66fee83289df54e3c6a44a01e4981c849c9d2306ff1af6e2f387ed"
+        },
+        {
+          "path": "assets/locomotion-v27/female-down-2.png",
+          "sha256": "335e89048e4e9fc87bdcacaa200a4da8a05b520e4ebadeba65fd9994989bc949"
+        },
+        {
+          "path": "assets/locomotion-v27/female-down-3-fine.png",
+          "sha256": "125918a96c577ebf035d85fb3c0460eaab1c22493d3c743933a97fb6083ae8e3"
+        },
+        {
+          "path": "assets/locomotion-v27/female-down-3.png",
+          "sha256": "307dc7e963e80d4c93b37ea004faa65a5027009afbae895457a5e4fde1ea204a"
+        },
+        {
+          "path": "assets/locomotion-v27/female-left-0-fine.png",
+          "sha256": "ded3729167f5a2305f3202d889036ce63928fec8c6d44cfa34b816e5ebd9ac38"
+        },
+        {
+          "path": "assets/locomotion-v27/female-left-0.png",
+          "sha256": "c2ce79baf7808ffa0abe17f7f43beb6989efa293bb303c72615f522dcce42e9a"
+        },
+        {
+          "path": "assets/locomotion-v27/female-left-1-fine.png",
+          "sha256": "0c85be8bd72319faca2cd3f2000d372ed6f00267ccb4c611f25e47aec7b89512"
+        },
+        {
+          "path": "assets/locomotion-v27/female-left-1.png",
+          "sha256": "da7a977ddebdee298e8ac6bf14f698715260d84570fbdaee73a85ec76a4a1111"
+        },
+        {
+          "path": "assets/locomotion-v27/female-left-2-fine.png",
+          "sha256": "20a55cca4245d6ff3fc251d8981d40e2351ccb63199fb13d7bac2e443405fbf6"
+        },
+        {
+          "path": "assets/locomotion-v27/female-left-2.png",
+          "sha256": "7d80e3bf3f8b9778f03a848ee13f5f703ded704338203eb144c102c79063ead7"
+        },
+        {
+          "path": "assets/locomotion-v27/female-left-3-fine.png",
+          "sha256": "7c80546a5a34f1474d342e30ad1040c2c2d07d2843b6acee8244c635beff19d3"
+        },
+        {
+          "path": "assets/locomotion-v27/female-left-3.png",
+          "sha256": "a1eda5d2906aa63b0b8ffac3d0a12b0ad59b4a658a75b52bb2613245fe209b48"
+        },
+        {
+          "path": "assets/locomotion-v27/female-right-0-fine.png",
+          "sha256": "278c555590b2625dcbf234109a044ba1b37227344408d7069928ee4c3c80fef0"
+        },
+        {
+          "path": "assets/locomotion-v27/female-right-0.png",
+          "sha256": "ba9685207c0f6812f3bbb312d7103546a2bccfefe6011d5c36cc5c56ff37fd18"
+        },
+        {
+          "path": "assets/locomotion-v27/female-right-1-fine.png",
+          "sha256": "7eed75cb034e61ffa437192fe88d4f05394de44f1470374b58dc93c2e653a4bb"
+        },
+        {
+          "path": "assets/locomotion-v27/female-right-1.png",
+          "sha256": "5b9a2c34aac4f3471b187c8a458099092b967ad1d22670781db53120ee801dbd"
+        },
+        {
+          "path": "assets/locomotion-v27/female-right-2-fine.png",
+          "sha256": "6169a7852ec772826febf8298735ed4df46a6519f296d839ba00e0d4d3c57f5c"
+        },
+        {
+          "path": "assets/locomotion-v27/female-right-2.png",
+          "sha256": "e84e03d533cdd9c8b8867828c51ab3832b0616980229e147e1cd4085ca7b061b"
+        },
+        {
+          "path": "assets/locomotion-v27/female-right-3-fine.png",
+          "sha256": "71f1accc5e2a178b2e76f4454575c2d5c37108dce55a2f4043fa8b1163bbddc6"
+        },
+        {
+          "path": "assets/locomotion-v27/female-right-3.png",
+          "sha256": "1590557caa0bd4b97c2d099f3e36c97b28b0393f1826763d10598bbce90f0900"
+        },
+        {
+          "path": "assets/locomotion-v27/female-up-0-fine.png",
+          "sha256": "d9d973256df625b5cccd0a8e959297bbfbd3665c23d6e6fbf43b9e9587bb48b5"
+        },
+        {
+          "path": "assets/locomotion-v27/female-up-0.png",
+          "sha256": "40470b4deb373053e254a405adf85992b22c346884c13d9c18d0d1b94e51067a"
+        },
+        {
+          "path": "assets/locomotion-v27/female-up-1-fine.png",
+          "sha256": "74ae538bffa0ec9f807c9dbcfcb003afc0bc659fe8f07936b804c78175cabd55"
+        },
+        {
+          "path": "assets/locomotion-v27/female-up-1.png",
+          "sha256": "b963a65050121e229bb5ff904bfb275518de92aa395a5c3710c73ad733cd8dcc"
+        },
+        {
+          "path": "assets/locomotion-v27/female-up-2-fine.png",
+          "sha256": "3f13e28048866284da0afd6a86c304cd7b8e4ee40e154acf5126862364814cd6"
+        },
+        {
+          "path": "assets/locomotion-v27/female-up-2.png",
+          "sha256": "370a315fad63bae443d72b84ee8c6fef79bf0436788cb4fbfaeec1915eae07ef"
+        },
+        {
+          "path": "assets/locomotion-v27/female-up-3-fine.png",
+          "sha256": "055391dba7a07713b8c0de021a8109cc63e17573caddb233d6dcd6a9b91310d9"
+        },
+        {
+          "path": "assets/locomotion-v27/female-up-3.png",
+          "sha256": "4e48a9451e64ef2c546bc645d596ab8a4837bc27fbf742f136af0f2669b5f4fc"
+        },
+        {
+          "path": "assets/locomotion-v27/male-down-0-fine.png",
+          "sha256": "0c867393fee9b6663c11ac90ea3460157e4fd578a6b1852ded936b17619177d6"
+        },
+        {
+          "path": "assets/locomotion-v27/male-down-0.png",
+          "sha256": "fe66da19e2d9731147209c3fe2f38bde4c8064fde435680669f76c4c39b80ff2"
+        },
+        {
+          "path": "assets/locomotion-v27/male-down-1-fine.png",
+          "sha256": "12c0758954086c94416c3c3a7da3a67b514a153d7e898ed297e857bbb5b08ac2"
+        },
+        {
+          "path": "assets/locomotion-v27/male-down-1.png",
+          "sha256": "da838cc6cf698eab202e428e30cb32d3e3bd25c5fbe386ac0a8ffdb2b79c4faa"
+        },
+        {
+          "path": "assets/locomotion-v27/male-down-2-fine.png",
+          "sha256": "0276624b0a7877ff8529c9304554008aafa198ca9c38a21ec5ae8d7a092aef2d"
+        },
+        {
+          "path": "assets/locomotion-v27/male-down-2.png",
+          "sha256": "152cbf3bb874af3e3337c4d91e93ae9cc404b3d1a1e39c7d5ca7a0e5870a4aa1"
+        },
+        {
+          "path": "assets/locomotion-v27/male-down-3-fine.png",
+          "sha256": "bc5e152b2121b42af09971f47d52c48ada00d295ed3a5b90442a8383519ce6e8"
+        },
+        {
+          "path": "assets/locomotion-v27/male-down-3.png",
+          "sha256": "11c1890f5974d4554ae13ca7d464c82b8f1683d2481c33e05b97771a1522d3f8"
+        },
+        {
+          "path": "assets/locomotion-v27/male-left-0-fine.png",
+          "sha256": "36bd295e69a1cc46fcabfc5157f00f3d6c70b7c0f8189f953617c675151c57d7"
+        },
+        {
+          "path": "assets/locomotion-v27/male-left-0.png",
+          "sha256": "3e5cc78b74b3a19701b46402900e1b382204af58d4a9d5a576ec8e6963940667"
+        },
+        {
+          "path": "assets/locomotion-v27/male-left-1-fine.png",
+          "sha256": "1fcf63c0047a3a89a5d91d22bac18f27851cc8d6f54b79451ab32f786d8ba94d"
+        },
+        {
+          "path": "assets/locomotion-v27/male-left-1.png",
+          "sha256": "1e47da8a662580a995a61fe51177f668c0a885110667179198e6cc3ea4625e15"
+        },
+        {
+          "path": "assets/locomotion-v27/male-left-2-fine.png",
+          "sha256": "a2192d6f51828d58b55eda80ab4df8850ae5feb11b3d050a50f091661630d632"
+        },
+        {
+          "path": "assets/locomotion-v27/male-left-2.png",
+          "sha256": "12680c672b2a65cfc349355771f7a3e94dfeb4760db0397e0b90f848fdedc2f5"
+        },
+        {
+          "path": "assets/locomotion-v27/male-left-3-fine.png",
+          "sha256": "97f0ae1ec2912aa95ae7c289e33b07d7ebd31d222bde83f2b3780d980a9cf91c"
+        },
+        {
+          "path": "assets/locomotion-v27/male-left-3.png",
+          "sha256": "9ee13b82b0da520ac11336b79c7713448274e87092c4617c403c0dc3bd4a4fbc"
+        },
+        {
+          "path": "assets/locomotion-v27/male-right-0-fine.png",
+          "sha256": "f0092be95db63f919e7648ee7c203c9e8bbdd29b962e80287ffd1423ee5b67e6"
+        },
+        {
+          "path": "assets/locomotion-v27/male-right-0.png",
+          "sha256": "031739f1d5be5aa68dc18a03a51c75dfb0c417d6597f12445eeb3e733fb22535"
+        },
+        {
+          "path": "assets/locomotion-v27/male-right-1-fine.png",
+          "sha256": "8181f5d51becf23eea067648b96bbcd091af00adf6195c5acd8c548044c77227"
+        },
+        {
+          "path": "assets/locomotion-v27/male-right-1.png",
+          "sha256": "cf0313ebbff463231f42f3af9163d283241d1395a1ff8895948756eb9d5153dc"
+        },
+        {
+          "path": "assets/locomotion-v27/male-right-2-fine.png",
+          "sha256": "40370b26ba99bca63c102acbf220a6061357855159d71e4941f1af34017211fd"
+        },
+        {
+          "path": "assets/locomotion-v27/male-right-2.png",
+          "sha256": "44da03d392b92cfd898f6ae09dd867bbf1fd5629c31c3be04354b586c2262981"
+        },
+        {
+          "path": "assets/locomotion-v27/male-right-3-fine.png",
+          "sha256": "42f0591a11fd4504f1b0e3ae3a7288703a344890c284f0e7e0c2df086a0026cf"
+        },
+        {
+          "path": "assets/locomotion-v27/male-right-3.png",
+          "sha256": "68955760f0a54afac1e5be59fc44ea0fa3baae789d4998af70cf9d9852be2e65"
+        },
+        {
+          "path": "assets/locomotion-v27/male-up-0-fine.png",
+          "sha256": "3fa536529800896232856452a7273049c75a67ee018323869af5d12545973fea"
+        },
+        {
+          "path": "assets/locomotion-v27/male-up-0.png",
+          "sha256": "0e6de53ed24028358a1fd12ef8865e37ef29b4efa3e4166a5fbb0095630d4b99"
+        },
+        {
+          "path": "assets/locomotion-v27/male-up-1-fine.png",
+          "sha256": "6f0b78f7da840c2c3d5ced42789277ac27bd9c319423db8499d6d862d0c53c35"
+        },
+        {
+          "path": "assets/locomotion-v27/male-up-1.png",
+          "sha256": "45cf1a81a13f967c49a2f6ed77b645f5c853e8c07a61e53ebcde5bdee7c754ed"
+        },
+        {
+          "path": "assets/locomotion-v27/male-up-2-fine.png",
+          "sha256": "ccc45141b1f05d65126b82da02f29823bf7e8b7d587008f2270b1cb214bf3959"
+        },
+        {
+          "path": "assets/locomotion-v27/male-up-2.png",
+          "sha256": "f662e0a47b9aaaf70ac757f5591210ebaddef48bcbc6d69fc2a47db5d0f63b28"
+        },
+        {
+          "path": "assets/locomotion-v27/male-up-3-fine.png",
+          "sha256": "04e42e3911952ea4332cd7fd61d49f6fe79bcdc126ebeeec6a9e87c90174bb0e"
+        },
+        {
+          "path": "assets/locomotion-v27/male-up-3.png",
+          "sha256": "4d3584cd4c885058170e9b5c6c77c1cd8554fea507e93b3c49d70285a84ce946"
+        }
+      ]
+    },
+    "families": {
+      "sequences": 26,
+      "frameReferences": 104,
+      "uniquePNG": 176,
+      "assets": [
+        {
+          "path": "assets/interaction-v29/female-hand-down-0-fine.png",
+          "sha256": "ac4561391ec30861e06d4a4ca476d6945bb99b25db623f7eb20bbd0b16514777"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-down-0.png",
+          "sha256": "17b2703f6502628d0db5ecade7aa7e736bc1ab261353dfe441137b69afaed065"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-down-1-fine.png",
+          "sha256": "e6d79da0309a16457491b04069d6c7b45ae57d8e23aa5575c11d19c632ed693c"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-down-1.png",
+          "sha256": "c4bff065bf9cc1c929b3da91a8309f9131c774051611895575ab67ed5c2adfd4"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-down-2-fine.png",
+          "sha256": "76b5b069d48b34dce4a7314b807d19d82e572e905b4ded16010b54a70131b808"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-down-2.png",
+          "sha256": "6bdb7c95f1f8152ffed5b4fec233ff76ef87609972449d714e049493a0394fa7"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-down-3-fine.png",
+          "sha256": "687b6d3f7db52bbb1e2aed0ba015dd1fd0dd73fcb355be86f1e25aa889204b90"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-down-3.png",
+          "sha256": "cdcf0996fef5fd4535a7cd92d78b624f95609957fc22cde3787336d0a92d238b"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-left-0-fine.png",
+          "sha256": "94b21d7e70048d1ca7164eb336cf76935b96bf3227838e7c9092fee166fda2f7"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-left-0.png",
+          "sha256": "80e0caba2ad587295830c99657ebc7daa4a98eeca9d08df293ecf21a6a4f6450"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-left-1-fine.png",
+          "sha256": "623e559a2db33e9a3f738ae3b963f16989a42620c99d320c5b118a5bbe74d696"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-left-1.png",
+          "sha256": "867447d59cf3177af336711df235651af6fe37e4fef814824c375005149b18cb"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-left-2-fine.png",
+          "sha256": "926f03c6c4243fecaa2b834c0cd9f93b47e592b003658d3228b39c1730d4e8d6"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-left-2.png",
+          "sha256": "346b79b53c40a3a98ebbb5468139e575336be093017c145fb632f5b1a48df4e2"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-left-3-fine.png",
+          "sha256": "43886b3d719df5fadef5caae1641d62c9dff532a16e33dfc06f6254729b65f22"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-left-3.png",
+          "sha256": "8627d3ca3cbfe71b0dd5f7ab7c5f750ada0ac9e2451bcc64c3b08b82719ecd41"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-right-0-fine.png",
+          "sha256": "ad7302217c2fe9ddbe259a1fe875a2452bb2e43354f13fad25a58a03c5deae12"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-right-0.png",
+          "sha256": "e44ad305275a84ae5e8b9f941af0ac3938b256a031b5f51e15f16294b3f740ca"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-right-1-fine.png",
+          "sha256": "f80827ec604ab0cb833b6566cf8653abee243c5935d3796e48c31b92a3f08294"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-right-1.png",
+          "sha256": "b21aacff0d0c0bbcfb377224aa5f9776a8cc8738e74e1375b66b7df0a345cf87"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-right-2-fine.png",
+          "sha256": "b951d8d5bf0f788f132e16e97ab6cce7f790c15d0b08c00889ea4249912d02d7"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-right-2.png",
+          "sha256": "ada1f2d3787b9a93d59683e342cc8076793283026840ea580eaf387903ff7723"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-right-3-fine.png",
+          "sha256": "23d8a14acc1f9e9627eaf4c27499c14bc0abaffde3bc684ff9b5425cafe88c21"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-right-3.png",
+          "sha256": "622e9a6bc0045baf9b15eb2d77e1f6d3ac8b61e0161d29d55f60a9e2d15d2fee"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-up-0-fine.png",
+          "sha256": "c40f0aa5ddd943c613281869c073226744457d4f4a6a62c8a4672eff1cc90e3e"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-up-0.png",
+          "sha256": "8d6a3c019f82c4eb25edc478a00450da5e695f64e1b842b5027798ec9a0ac7cb"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-up-1-fine.png",
+          "sha256": "df461cbd61b8668b2e6eaa846cad80827b567e8e36ff09bbec5fe45eb87a410b"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-up-1.png",
+          "sha256": "b2a5d5c5bb3e3f1bd08c99a6df0826b045ea2cb40b0c861cf2dbc41270106c04"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-up-2-fine.png",
+          "sha256": "e049824667bf1231027fdfeab212da5d84c76500dce8887729fcfc466d57428b"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-up-2.png",
+          "sha256": "53ec367a61b15e781dc4ddf560bd044e6c4d1e50ef2a4a9f69c5c6a4bce3b7a5"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-up-3-fine.png",
+          "sha256": "d2da831f3eb19f315b9aa8b42bc495a71f89da6600382ffcc9a04be13f187d50"
+        },
+        {
+          "path": "assets/interaction-v29/female-hand-up-3.png",
+          "sha256": "50468005f13d78720d8897a417a802a23abb1abdacbe8891d241eb4cbfc36a19"
+        },
+        {
+          "path": "assets/interaction-v29/female-lowerReach-down-1-fine.png",
+          "sha256": "b4aea05f62ad47006b00a882d9f6658b21acad09c848e5d8256f4b842ae8e6fd"
+        },
+        {
+          "path": "assets/interaction-v29/female-lowerReach-down-1.png",
+          "sha256": "7f33b9787bed43415287097d1b3865c8e9d26aa1a5899c23a56cabdc5a3bea44"
+        },
+        {
+          "path": "assets/interaction-v29/female-lowerReach-down-2-fine.png",
+          "sha256": "cb4302ccf6f3e6f1e2fab1c6480d9f01ef2325b6fef7a91fc959eeb3ce1f7ce5"
+        },
+        {
+          "path": "assets/interaction-v29/female-lowerReach-down-2.png",
+          "sha256": "cb114a8b0610ff279a30e8b8a6d9b52152ca5a1e9f80cb4700dc59d4802efce4"
+        },
+        {
+          "path": "assets/interaction-v29/female-lowerReach-left-1-fine.png",
+          "sha256": "05f8a7b976dacac05999e9f766a602e9d16c23351b055f4e0d03b1232c9e3a3e"
+        },
+        {
+          "path": "assets/interaction-v29/female-lowerReach-left-1.png",
+          "sha256": "f9d14d8aa26be80d34603164cad47e70aeaebde78d71b551010e8544cd0e0d2d"
+        },
+        {
+          "path": "assets/interaction-v29/female-lowerReach-left-2-fine.png",
+          "sha256": "1b3c623ed9c6c1c6ee9b06dc26c3f06b27606ae3c360fdfd10b37b147c8b9516"
+        },
+        {
+          "path": "assets/interaction-v29/female-lowerReach-left-2.png",
+          "sha256": "3d8723aafc2b3c37df279072400b31bc694cf6755c2872f234def7a0f26fbf55"
+        },
+        {
+          "path": "assets/interaction-v29/female-lowerReach-right-1-fine.png",
+          "sha256": "c837e1daa465deefdd158729730970f7e9e7bfea3c9c7d1a5f5cb7f0235118b4"
+        },
+        {
+          "path": "assets/interaction-v29/female-lowerReach-right-1.png",
+          "sha256": "0d73cce89eec72e1f9c25dd25b274a2872793df3b1fb31956ec36b93a1680fe7"
+        },
+        {
+          "path": "assets/interaction-v29/female-lowerReach-right-2-fine.png",
+          "sha256": "90a3ced74bdf4954dd98fb3356a918b9e0b14271642a716de513d95b70b26c20"
+        },
+        {
+          "path": "assets/interaction-v29/female-lowerReach-right-2.png",
+          "sha256": "05dc2099353b0d1b7707f6a33c12b3b2c0b5c4e2ffe32aa50466965f366ef99f"
+        },
+        {
+          "path": "assets/interaction-v29/female-lowerReach-up-1-fine.png",
+          "sha256": "60ddbf6ebdb1df3fab9c32994715d89c945ea9d1b5ff12c2f56ca27000f24d6b"
+        },
+        {
+          "path": "assets/interaction-v29/female-lowerReach-up-1.png",
+          "sha256": "56d636b34347c0782c98befc5ff5d0fe780694b9212758b63431cdebde5bd0ea"
+        },
+        {
+          "path": "assets/interaction-v29/female-lowerReach-up-2-fine.png",
+          "sha256": "ac05634675bf85754cfbe73a5dc5a5ad06d3c34c24a49a76b0417b9221b1963a"
+        },
+        {
+          "path": "assets/interaction-v29/female-lowerReach-up-2.png",
+          "sha256": "589921cec7d4f8b217b03de0671ecc547b2b31bc265f926ebc7a02651799bcee"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-down-0-fine.png",
+          "sha256": "79b090af849de03d6d2ceeadaadb86c46efd224699757f550c48fd8f2a0b87a9"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-down-0.png",
+          "sha256": "14553ff8962ca0be444b4456d28716d9f50f4f953b976be60ae4502e1bc87fe6"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-down-1-fine.png",
+          "sha256": "a95438575f581d171bc59eeb74e44d929cda6f68ce63de14a5882158b4abd523"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-down-1.png",
+          "sha256": "ea94dc986f48a8011bc057b5c56b9cea12d8fcb85a1f254f6bf402826a871b73"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-down-2-fine.png",
+          "sha256": "f59d3e670993cfdacdc1c7175156e163c53fb71552cc81e3e95961978e8b237a"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-down-2.png",
+          "sha256": "41a11197f6fc5e5f6286024949f108a34ee3b1ab767ba75d698d7459dcbe107b"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-down-3-fine.png",
+          "sha256": "4caceddb69f9b57676279849f3c4b4b9c53be1d464c82cfd3b4e826fb7183e39"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-down-3.png",
+          "sha256": "a2ce186e48cf0f17b82df1d33547deda352dfa3bb7a9d33b774d1d73ccfef95d"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-left-0-fine.png",
+          "sha256": "26250789beebf157902ec9c063e36f8166be96b08bc4fc2809bbc9ee251dc3f7"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-left-0.png",
+          "sha256": "b0ee51493b1a80f1ea480959efeab18cc70b222e8c5557df9c6e5cfdc14ec445"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-left-1-fine.png",
+          "sha256": "9eb24b9ba44cf4a833a03a58cea8f988a18dd176cc5084353061ac23e9efe92e"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-left-1.png",
+          "sha256": "fea0dbf250be03f1c522c033f0bf7a531876eadeddf23d873aa2ff916620d94f"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-left-2-fine.png",
+          "sha256": "a356c86b06ac041159ffcb267d05be81897e3c1b0022d3d28d1dd372d25c7fb6"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-left-2.png",
+          "sha256": "636492502faccdcb8a00a35cd33e9e9b3e9723d4be513d06bf65130dde38ff18"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-left-3-fine.png",
+          "sha256": "50b61b25d2e6eacaf8dd3c97eacb1253de314ce860d0e6fd51e8f1ed4e4b5858"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-left-3.png",
+          "sha256": "d437f78b6dbb144069679a9c12fece53940e525314a65353924b61ccf5d241f7"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-right-0-fine.png",
+          "sha256": "f4be48da5636505834399f642a8c9e73f405a8115707ce6f972760ad0744e72c"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-right-0.png",
+          "sha256": "6f1267bd979d6c15d4a8abf012513c9b515c9db231e0653377fc25dada670902"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-right-1-fine.png",
+          "sha256": "007167b5a8041e75795d5ded67d7670af84410ecfbafe55bf67de1a4724bbf75"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-right-1.png",
+          "sha256": "13c5b378456d8816602d5f26b0268036c24ef957593b54363082c1c952e464a7"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-right-2-fine.png",
+          "sha256": "2da2851d83833ed8323dd58bd1247b486de0688df8104abbddfd066cfddacfd9"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-right-2.png",
+          "sha256": "b458bf93deecb8e752c63e71649daba3b812f1387bf6945bcfd23560e00657dd"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-right-3-fine.png",
+          "sha256": "4f21d1f4bb59bc6048b8bba44386ca48d5f9aed532975adeccd59d54c4657e90"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-right-3.png",
+          "sha256": "0844ae2b48e58dd1ff51e964946a1acb44d8845a1b36832afc757a1be706fbcd"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-up-0-fine.png",
+          "sha256": "eb47b3b8dd09e01f60e38713d7b1bbdf4863fd782433bdffcad7335332205cce"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-up-0.png",
+          "sha256": "47f1d33187812758c06c421b4bdd842e0099dd00d226b9e2d4fafbe3b4e7975c"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-up-1-fine.png",
+          "sha256": "62294437eb978686dc5b938ddada85f2aca22cd5e172e5a1ca81260f51c9ef45"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-up-1.png",
+          "sha256": "df9f23b7b1351c08d2265c2b9ed068602ae7fe8daab69f80c9b1eb03543cf071"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-up-2-fine.png",
+          "sha256": "01cdd7ec43970f52d9cd7d5eadf2e448c99712411fbb436721780bada65a1027"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-up-2.png",
+          "sha256": "3ac9d17abf7ab7b908dc984cf6408be7f24cf712f8e6c75716aad79fa7b06ba7"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-up-3-fine.png",
+          "sha256": "7207530550541039b7ef52f5ed5e894a07070b88579d835cbe53e1b8f349727a"
+        },
+        {
+          "path": "assets/interaction-v29/female-seated-up-3.png",
+          "sha256": "91c98bc2c729c2f0d582a4306faf15ed846e73df93b3c621e6b75989f7af9f43"
+        },
+        {
+          "path": "assets/interaction-v29/female-water-right-0-fine.png",
+          "sha256": "ce273822e1cd2d51e8f6b1703d3f81ed5c8bbeb208077c1ef8f53f02eecd8e43"
+        },
+        {
+          "path": "assets/interaction-v29/female-water-right-0.png",
+          "sha256": "ae4550558c21869b3631e7609860fdfd4fc0cf35f52145aed9773ce079e2c29f"
+        },
+        {
+          "path": "assets/interaction-v29/female-water-right-1-fine.png",
+          "sha256": "a293613d6382196de53a701e2aebd08365371349d9ab826bfd191804f3db2d96"
+        },
+        {
+          "path": "assets/interaction-v29/female-water-right-1.png",
+          "sha256": "6d670815df758f4e6e24029c0f28b75e6c12755d916d19a2c4ced8239df61f30"
+        },
+        {
+          "path": "assets/interaction-v29/female-water-right-2-fine.png",
+          "sha256": "9f7853c484a2c8fd16474c7e840ba37e1d05b093615de271977196a4981eb802"
+        },
+        {
+          "path": "assets/interaction-v29/female-water-right-2.png",
+          "sha256": "b72972cacc62e1f031d37b69b12513a8e4588ed694cf798fcd89bbab06f2fce9"
+        },
+        {
+          "path": "assets/interaction-v29/female-water-right-3-fine.png",
+          "sha256": "cc721d66bd04aeddedc8a4b70c92f22ad785df650c9b57b431a72fdd97a35802"
+        },
+        {
+          "path": "assets/interaction-v29/female-water-right-3.png",
+          "sha256": "4a38d287953664f047f26ea0d0e2c896a7613a959b4352c955769fa8bfb9b90d"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-down-0-fine.png",
+          "sha256": "4024f414fd4edc1f1daea13dd9bfeb1759826161c55196363861cc26c5063d7c"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-down-0.png",
+          "sha256": "cde6b66ae62d484ab5865563e544807c671c52e17ddf0649d109e7ab7a29ea66"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-down-1-fine.png",
+          "sha256": "27c91bf1bcf69a64785e343f48d14799ad0cb25efea48ca2bed8927ea2323f14"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-down-1.png",
+          "sha256": "c430ce7ce786de0897c38649e1abdff4ff7646f6670a4a293bebb6efc3d18a71"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-down-2-fine.png",
+          "sha256": "9a87c17fce64e603d786e6c8e4d3c92939784c149d9dc7c9c9372bc2b5f330c4"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-down-2.png",
+          "sha256": "d7c282afd4640af81c40da165ce49c00ad1403266da3cfe9853c8331d2963671"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-down-3-fine.png",
+          "sha256": "27db6b7cacc07f7c885de54480f489165679528261510a758f2e2f4f5f7fda2f"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-down-3.png",
+          "sha256": "54dbb9947ab4d3a157eb1652ad003ce04655ab3263defc7123f9211512139891"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-left-0-fine.png",
+          "sha256": "a51e9c06334e80d95cee6321e7e1d96e17530b763a6c41f91153b1ce8f8a9980"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-left-0.png",
+          "sha256": "17a915f490788647eb004a618d070a762219d0129fc32795fc2643b6be3b527d"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-left-1-fine.png",
+          "sha256": "32a7bdae188c94bbb5f5926f6e14e02f9f3952e517775df67bb5d144ead88221"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-left-1.png",
+          "sha256": "30b9e41570bbaf7f3996f970f3c6188870703c430d75ea8e4e075bc879047473"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-left-2-fine.png",
+          "sha256": "2d8f3faa05f688f8ab5b90af8efb1ff353ca4f584bf8fb496f2f2a58e02b8b64"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-left-2.png",
+          "sha256": "da20ab2d1a7a8ca48d7b586f34c247a5931bb23cc608f3e9d44d0a873ea30293"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-left-3-fine.png",
+          "sha256": "35a6825de17d5931e4918290ae50a7527b3e5e036371ef295f01311997e4f1d0"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-left-3.png",
+          "sha256": "b9b47e479abdc1b1581b67f4589764d196a2f54050cfd81413b8bb85a90a4bb8"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-right-0-fine.png",
+          "sha256": "f0afea5fc13ea968e54b27cca5166e4b611392a043b6c52e0e0a9dbf6f3b525b"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-right-0.png",
+          "sha256": "e6e019cb92195082882ba672b39522b3b7051eb1c89b772bfd387cd94a6405cb"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-right-1-fine.png",
+          "sha256": "3588dfa85db55c00bb3e0a2c69031e3c1eb329efe94a5364c9e3fc7d3a33fe81"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-right-1.png",
+          "sha256": "55f903750031848d02e1fe301896eb0bd894b23098a2cfdb0c14998825da6b03"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-right-2-fine.png",
+          "sha256": "633638c6b0faa2a70abf1cb7132ccc2280f0f22eaca524e5892f446ce312c51e"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-right-2.png",
+          "sha256": "75c96051c9c344b339892bd4cd87220ed1ff8ccbcb4786441f155ea2e3a7530e"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-right-3-fine.png",
+          "sha256": "4f6471f77c5effc74cc13591fd70530777538a8610bea0d6351e4a83b934c375"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-right-3.png",
+          "sha256": "a8f262248bb44fca738bdb069d9e9179e923c6c475f1a691afeba940c6d1c3f6"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-up-0-fine.png",
+          "sha256": "2046ed390f721ae130d6fb7df41ac3e5b982da9e90eef7a03a516bdba409d595"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-up-0.png",
+          "sha256": "ac6d0faf125ead2d4ae362576ca0851f54e59e478ee284a87a119b66619ce8a9"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-up-1-fine.png",
+          "sha256": "fd7a2892c251ad5b087b1d1d4507647e2ed25e49998fc43536c49a48e96192be"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-up-1.png",
+          "sha256": "be8a4f5ba12973db5b858e482311f03156956bef697abe16e83c54fabebb1cc8"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-up-2-fine.png",
+          "sha256": "bcd8d0f1f40576a3a4b6dde674579251187b8f504bdceb61c48b880dcd63bc00"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-up-2.png",
+          "sha256": "c2f9593c01ffb9efe782ba27f82dd98543609256b270735dea871c1b1fdec133"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-up-3-fine.png",
+          "sha256": "e61ca948d539e1089b7d5f26f03aeb22bbbbb13350edfa1a6556dc173056f849"
+        },
+        {
+          "path": "assets/interaction-v29/male-hand-up-3.png",
+          "sha256": "f99415ebbb9ad9ce6571d97f79ea5b860ce7ca6045c2b917548009dd79c70718"
+        },
+        {
+          "path": "assets/interaction-v29/male-lowerReach-down-1-fine.png",
+          "sha256": "74e97056180c57cfe98504dcd5687e8c9b609f398dd1d1529865549d5b096ab3"
+        },
+        {
+          "path": "assets/interaction-v29/male-lowerReach-down-1.png",
+          "sha256": "c51a4525e67beb6520110205c76c763f17996c7d56d57c724fe0dc56a5dc8d55"
+        },
+        {
+          "path": "assets/interaction-v29/male-lowerReach-down-2-fine.png",
+          "sha256": "2b4bb0cac31f726fe243ce23c542d9d5c0bed9bd84b5f5bd9889ecb285051673"
+        },
+        {
+          "path": "assets/interaction-v29/male-lowerReach-down-2.png",
+          "sha256": "88cc8836dfaa55a2681b30c6be6de23df9d559aceab3acbf7cc8933c0f5cdff7"
+        },
+        {
+          "path": "assets/interaction-v29/male-lowerReach-left-1-fine.png",
+          "sha256": "2404a7b07d8eaa0b4e4be3148951d81415785d2966429ac340163d1d3dfbbef9"
+        },
+        {
+          "path": "assets/interaction-v29/male-lowerReach-left-1.png",
+          "sha256": "3d9168b32bab424038abe4ed346497f621f4618365076f75ac5acf77813f28d2"
+        },
+        {
+          "path": "assets/interaction-v29/male-lowerReach-left-2-fine.png",
+          "sha256": "facc1cf00abbe671837aad1dcf0d077f61a6b38c66af8711b5de47f12fe85752"
+        },
+        {
+          "path": "assets/interaction-v29/male-lowerReach-left-2.png",
+          "sha256": "b26e34b961bfacab0d42d5164797972b19a40e4fafde28bb71a7dd8078bbd09e"
+        },
+        {
+          "path": "assets/interaction-v29/male-lowerReach-right-1-fine.png",
+          "sha256": "6ebe7459707db3804b8c88086dd755dc22afac59189bc1c4721aafeb3fd09053"
+        },
+        {
+          "path": "assets/interaction-v29/male-lowerReach-right-1.png",
+          "sha256": "356e21d3894eeefe6a2e7bcf5075e02cf4d127728f59ab11ecd780643430d26f"
+        },
+        {
+          "path": "assets/interaction-v29/male-lowerReach-right-2-fine.png",
+          "sha256": "2776fb8b6f9ed90f3c914b2243dcae33b70f2a36ba4f6b16273086a3e8c3971f"
+        },
+        {
+          "path": "assets/interaction-v29/male-lowerReach-right-2.png",
+          "sha256": "17b3b96ca08aa5b0db4ac67332dcee52cc7e0499b3fdd724b0d7002995f24ae7"
+        },
+        {
+          "path": "assets/interaction-v29/male-lowerReach-up-1-fine.png",
+          "sha256": "89537acc50f78f640ede77306928b276a34c98bd85a2d3151c2d05fd512d34ea"
+        },
+        {
+          "path": "assets/interaction-v29/male-lowerReach-up-1.png",
+          "sha256": "1549abdccbc26c1b2594e9085e8f9aab2099abc4a9fd63fa1219f37cb0bd97f0"
+        },
+        {
+          "path": "assets/interaction-v29/male-lowerReach-up-2-fine.png",
+          "sha256": "64019a0cd07e161c1e27df3c4cc135136b5d2840f84611ff814120ed796bcc77"
+        },
+        {
+          "path": "assets/interaction-v29/male-lowerReach-up-2.png",
+          "sha256": "10baa542ca51a787fcaa9e86df2b1906cb670bad29ff3207d282074491765d17"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-down-0-fine.png",
+          "sha256": "dcc833ab14218c9c132f549d443a802c447b106edf0c0829506e1b749c703d6b"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-down-0.png",
+          "sha256": "b8bc567968c7f523fed8b30247cbd74100e282b01005a4b2ae2a97274163e88c"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-down-1-fine.png",
+          "sha256": "b84dd0af5beb294b0a54fc1a66e3b68fe9c7e1ae2311272574cbdb902fa803e7"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-down-1.png",
+          "sha256": "aa9d2cfde61972301b2d86f2349f504638a5d79601c4c04af509d5921bde7224"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-down-2-fine.png",
+          "sha256": "95b936625667e99855b16c7181e0aabe98fcd0873a76ed7769522e684a8b57d6"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-down-2.png",
+          "sha256": "1b809e3bc9d30a5c5948ed346c1f01fd70c4eff7df3f0495d4ce4e0dea2b6f2d"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-down-3-fine.png",
+          "sha256": "edd3805659cac9c83fbd6a5fbea4410bebdd5c3c533a7e6640cb9a5f478e5e15"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-down-3.png",
+          "sha256": "a505934890f777836e9c414a3ccddad84391679f3e6f40cc3c29b20fa07e42ec"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-left-0-fine.png",
+          "sha256": "9c2391a70325f4d58d1c456a41372a8a59b1ad093e21014f13569d795316eb77"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-left-0.png",
+          "sha256": "95bb3c63a665acec0fa7fdeff778de170ed2c3191f18aab9121110a3eaf72af6"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-left-1-fine.png",
+          "sha256": "a17ee8eb262dac5cea3c4f96a0166b1004c30de626d2238d78e493ce75fa79e7"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-left-1.png",
+          "sha256": "31d84d7f3b7f92a7642450b9d29a061353b2413740468822aff31a53fc40cd87"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-left-2-fine.png",
+          "sha256": "91c387234b46d57ad3dac84d506be45fd325d817f9fb3413ca654bc1271c4b01"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-left-2.png",
+          "sha256": "b9a13a3b987a3f6b80260c477d139a54a287f3007f8e0c5907811a90dfdfd0c4"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-left-3-fine.png",
+          "sha256": "8caafcc6d4153353e74b62e8b52d81e720c4ddd808d0e6586c5172264442734b"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-left-3.png",
+          "sha256": "a89398a418d1a4af7df753a0883f907e23f72e16b4860a2530bacfe956072b19"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-right-0-fine.png",
+          "sha256": "fc2d52fd29e015dbb40a326b62b72dd5236df296258302178800e3cf17953076"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-right-0.png",
+          "sha256": "c20d51573b16801f6267bd722ddda884d7d5c58c521a63a75fdb15216b4e933f"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-right-1-fine.png",
+          "sha256": "135153529eca350bb5c27d5b88dd5cda8623b34570c32b757acc340a25bd7f3a"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-right-1.png",
+          "sha256": "02e59a612909151d9d132779394fe078ce2a2079d561acaf400e13d9b1dfaa3a"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-right-2-fine.png",
+          "sha256": "fd2c01b442e48878b3ba77ad14c4d75bcfb44a314daf497bbfc951595fde8880"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-right-2.png",
+          "sha256": "ef65f7182d5924199c4268eeea34252d35374746639415eb2b6c3c7ab9fac9f4"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-right-3-fine.png",
+          "sha256": "4a99b83765375eb4b4b0e036927300da14038a30eb99db3ac50aee3886974da3"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-right-3.png",
+          "sha256": "c7e2920bda4fdf388157cac5826500166703359793590a9365cecb680d6462a2"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-up-0-fine.png",
+          "sha256": "62d2aa80fdd56188beb0a1b0b7d1d528d9408d12cb06a5531f7084eb73be9694"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-up-0.png",
+          "sha256": "5c3fb4bbfb4e25c84dcdcc6a2c33a04479ea73cc15b417ef9d13ba4d34894574"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-up-1-fine.png",
+          "sha256": "0ab4e785ced20e414065e667d1e1785740cc8f07edf8687fb1a8cf4dd05d060f"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-up-1.png",
+          "sha256": "770bab4b2aa795c1f5c4e2d6db22c7201f14e2e6ea7f8fdd484ae0e879f52496"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-up-2-fine.png",
+          "sha256": "2d60e4ca71cd28e463292a343f9a2cf2da2f97170350d2111ec3b6cf284332f6"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-up-2.png",
+          "sha256": "12d4ec427daafbdbc9cd6d683aa13c99b5a2e3f7dcae64a13e499ce1c0ecb6d3"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-up-3-fine.png",
+          "sha256": "bd634fbbd794a0aefb1bc9395a71a56eca6d4d65bc381addbc35fd02dd7664a8"
+        },
+        {
+          "path": "assets/interaction-v29/male-seated-up-3.png",
+          "sha256": "d9350904a2723efb0a9dec8afecd9f64679cde191f795a07c660e053713199c8"
+        },
+        {
+          "path": "assets/interaction-v29/male-water-right-0-fine.png",
+          "sha256": "81d483e07a59d1dfec5dd7f70d685f5cf63b086d8ff7674bcace525a18baf381"
+        },
+        {
+          "path": "assets/interaction-v29/male-water-right-0.png",
+          "sha256": "6d5d7ac69440b89ddccf81f8bf7787cac35a15cbe3d7cff3756ffa8cb28ffe05"
+        },
+        {
+          "path": "assets/interaction-v29/male-water-right-1-fine.png",
+          "sha256": "940ac11da55c334a20d472222f0aa787d1f37ec1b7f0577b3cc9511e91361e69"
+        },
+        {
+          "path": "assets/interaction-v29/male-water-right-1.png",
+          "sha256": "d75b65f5680ffe69af193484b1bdd29986e5510d080cb7340b7aa5e85b158590"
+        },
+        {
+          "path": "assets/interaction-v29/male-water-right-2-fine.png",
+          "sha256": "db53e583c3e87ce49f71de3fe139a658d7b25bcba3e2c93aa584005845cbbfa6"
+        },
+        {
+          "path": "assets/interaction-v29/male-water-right-2.png",
+          "sha256": "a05587599ce69569ec81f937037fc202ad43e39f67a99605ca046f0abe7e91d1"
+        },
+        {
+          "path": "assets/interaction-v29/male-water-right-3-fine.png",
+          "sha256": "809c36296fc053d5094d9e8f7a4b777f0aa99d4ca5c6d758c4613037e1876062"
+        },
+        {
+          "path": "assets/interaction-v29/male-water-right-3.png",
+          "sha256": "3d5c855e0c5a85a4b599acf26e11f7218326041010d664a317c81fd8ff0e4bde"
+        }
+      ]
+    }
+  },
+  "focusedTests": {
+    "scope": "Existing 53-test targeted evidence from c73 source / be8 actor freeze; not rerun on subsequent finite-pet/throw-bounds changes in this read-only pass",
+    "log": "verification/hair-tint-v30/h7-targeted-green.log",
+    "passed": 53,
+    "failed": 0,
+    "h7ExactRasterRegression": "verification/hair-tint-v30/h7-island-green.log",
+    "h7TestsPassed": 2,
+    "h7TestsFailed": 0,
+    "exactRasterChangedPixels": 5,
+    "exactRasterUnchangedPixels": 12283
+  },
+  "receipts": [
+    "verification/c-left-neck-v30/root-approval-receipt.json",
+    "verification/c-extra-neck-v30/root-approval-receipt.json",
+    "verification/neck-retention-v30/combined-root-approval-receipt.json",
+    "verification/run-neck-repair-art-review-v30.md"
+  ],
+  "previousSourceFocusedTests": {
+    "scope": "Historical technical tests from the earlier source/actor freeze; not rerun in this read-only reconciliation",
+    "hashes": {
+      "game/web/source-actors.js": "70b695789ee0db8f8ebb0632287cff265d9e86b7d7aa77b2283cdca478ba0335",
+      "game/web/avatar.js": "d95537f37d3e2e4404a233f5a4c3f5c555a90b6e7c8153323d53559f09220422",
+      "game/web/actor-sprite.js": "add1cec1dcc067c3720aa465a1442b12a6ce0913eb8b2e44539903acc14f2670",
+      "game/web/canonical-actors-data.js": "d24ca352e05bf07c32b21ffe6775a53be6feebe3c047b61069245fccfef3a7eb",
+      "game/web/locomotion-actors-data.js": "ca80688f968f0fa059d584e5eac3a6bd035bec515498e4d06bfbd6176a7e8b73",
+      "game/web/interaction-actors-data.js": "34a771f62dc4ad38f5efd79788dd681b2ffe1a79751f4d4ce27faa23657cffa6"
+    },
+    "evidence": {
+      "log": "verification/canonical-final-source-focused-v30.log",
+      "passed": 74,
+      "failed": 0,
+      "additionalFinalCollarTest": "verification/c-idle-neck-final-v30-green.log",
+      "additionalPassed": 2
+    }
+  },
+  "selectedAvatar": {
+    "gender": 0,
+    "skin": 3,
+    "hairStyle": 7,
+    "hairColor": 6,
+    "shirtStyle": 2,
+    "shirtColor": 8,
+    "pantsStyle": 0,
+    "pantsColor": 1,
+    "accessory": 0,
+    "shoesColor": 0,
+    "headwear": 0,
+    "outfit": 0
+  },
+  "readOnlyReconciliation": {
+    "verifiedAtUTC": "2026-10-15T16:56:24.157976+00:00",
+    "method": "SHA256 of nine current local runtime files before/after report-only writes; existing logs/receipts read, no test or raster rerun",
+    "runtimeEdits": false,
+    "testEdits": false,
+    "testsRerun": false,
+    "newRasterOrBrowserChecks": false,
+    "inventoryModuleSHAUnchanged": true,
+    "inventoryAssetsRehashedInThisPass": false,
+    "inventoryNote": "Existing PNG inventory retained; C/L/A module SHA unchanged. This pass does not present an asset recount or new multi-model art review.",
+    "beforeAfterRuntimeSHAEqual": true
+  },
+  "ordinaryWalk": {
+    "uses": "same approved locomotion sequence as run; speed/distance cadence remains caller-owned",
+    "newWalkArtwork": false,
+    "archivePolicy": "Explicit animationId/sourceAction still preserve original source archive."
+  },
+  "unapprovedArchivedActions": [
+    "sleep",
+    "jump",
+    "wave"
+  ],
+  "archiveLimit": "Historical sleep/jump/wave bodies remain visually inconsistent/unapproved; sleep selected hair can float. Do not claim every archived human action complete.",
+  "oneAvatarAudit": {
+    "report": "verification/h7-focused-v30/review.md",
+    "data": "verification/h7-focused-v30/audit.json",
+    "contactHashes": "verification/h7-focused-v30/contact-hashes.json",
+    "requestedStates": 1164,
+    "uniqueSnapshots": 292,
+    "canonicalSnapshots": 256,
+    "historicalSnapshots": 36,
+    "canonicalCounters": {
+      "uiDiff": 0,
+      "scalpResidual": 0,
+      "edge": 0,
+      "faceChanged": 0,
+      "bodyAlphaLoss": 0
+    },
+    "detachedCanonicalCases": 0,
+    "evidenceHashesMatchCurrentRuntime": false,
+    "limitation": "Pixel/alpha comparisons plus viewed complete native figures for the single preset. Equipment drawn separately by action-effects and current actual browser/physical phone acceptance remain root-owned.",
+    "materialAndCanonicalDataHashesMatchCurrentRuntime": true,
+    "sourceSnapshot": "c73e4d0fa823d8d4f72bcb1625cfff902e2bdb8ee3c86b14abe7ed1ac1b2c5ba",
+    "scopeNote": "Earlier selected-H7 256-pose material/body audit is retained, not relabelled a rerun on later source/world consumer fixes. Actor/C/L/A unchanged; pet registration and throw effect/bounds have separate newer evidence."
+  },
+  "browserAcceptance": {
+    "status": "limited same-H7 recorded UI paths reviewed; not all actions/presets/game or physical phone",
+    "claimedByThisReport": "Attributed root actual UI and independent screenshot receipts only; no browser run by this writer",
+    "remaining": [
+      "unapproved archived sleep/jump/wave",
+      "editable layered master",
+      "unreviewed hairstyles/models/configurations",
+      "unconfirmed current boat/physical phone scope"
+    ]
+  },
+  "laterProductionFixes": {
+    "pet": {
+      "report": "verification/pet-contact-v31-report.md",
+      "regression": "verification/pet-contact-v31-regression.log",
+      "passed": 95,
+      "description": "Shared finite human/pet contact frame and whole-animal translation to authored palm; no new style/art/body warp"
+    },
+    "throwBounds": {
+      "report": "verification/throw-bounds-v31-report.md",
+      "red": "verification/throw-bounds-v31-red.log",
+      "green": "verification/throw-bounds-v31-green.log",
+      "passed": 11,
+      "description": "Stable action-flight envelope prevents paper clipping above actor texture, preserving current bin slot and pose"
+    },
+    "independentThrowNativeReview": {
+      "path": "verification/bin-slot-independent-v31-after-bounds-fix/review.json",
+      "scope": "ONE male H7 selected preset, both current bins; actual native callback expanded and bounded canvases",
+      "paperPixelsPerBinExpanded": 25,
+      "paperPixelsPerBinBounded": 25
+    },
+    "litterResult": {
+      "report": "verification/litter-result-v30-report.md",
+      "economySHA256": "83863aa8f5f923af58c83264350cdc75a907446686bf295de3dd30b7947f9e5d",
+      "appSHA256": "f94b38c718279f8246571d3da51396298d967b58099d6053f56d72ee44186db8"
+    },
+    "pickupStance": {
+      "report": "verification/pickup-stance-v31-report.md",
+      "independentReport": "verification/pickup-independent-review-v31.md",
+      "resolution": "verification/pickup-independent-resolution-v31.json",
+      "targetedPassed": 105,
+      "independentMountPassed": 7,
+      "independentServerPassed": 5,
+      "description": "Collision-checked normal L approach; accepted server arrival before action; contact.43 ground/held synchronization; own-account/day collected filter and common late-action/snapshot clock guard; no new artwork"
+    }
+  },
+  "rootRetakes": {
+    "scope": "Same ONE H7, root VIEWED these actual-game contacts, before final throw-bounds update",
+    "pet": {
+      "contact": "verification/avatar-one-v31/retake-contact-pet.png",
+      "frames": 14
+    },
+    "pick": {
+      "contact": "verification/avatar-one-v31/retake-contact-pick.png",
+      "frames": 24
+    },
+    "throw": {
+      "contact": "verification/avatar-one-v31/retake-contact-throw.png",
+      "frames": 16
+    },
+    "postBoundsActualThrowRetake": {
+      "status": "root and independent reviewer viewed all contact",
+      "frames": 18,
+      "receipt": "verification/avatar-one-v31/independent-frozen-throw-review.json",
+      "contact": "verification/avatar-one-v31/frozen-contact-throw.png"
+    }
+  },
+  "finalFullRegression": {
+    "status": "passed; root-confirmed current a94/a101 frozen runtime",
+    "checkedAt": "2026-10-15T16:51:37.520373+00:00",
+    "counts": {
+      "tools": 13,
+      "python": 353,
+      "node": 941,
+      "failed": 0,
+      "skipped": 0
+    },
+    "commandLog": "verification/avatar-one-v31-final-current-command.log",
+    "result": "verification/project-full.json",
+    "resultSHA256": "9e16fe56468f1a0e410863ae91f3fd687c97a3f959927e499b76e1d33c8dcb62",
+    "logs": {
+      "verification/tools-tests-latest.log": "a46e27b0670fa87271f5d8f66283f5842135dc04135bb1c2350a7e11aa3285c1",
+      "verification/game-python-latest.log": "4b0e5123c425050a29b9aec9e2162093b8edf7d7bd458fc0730cdbeeaf84353e",
+      "verification/game-node-latest.log": "ac5e11a1dfb43c31f6a58d5286bd6c11bdb3346a73e256dec974adff8c194210"
+    },
+    "runtimeHashes": {
+      "game/web/source-actors.js": "a101e25573dd30747c40477e738ce5eb40857f7881cff9a7c48338f4795cb071",
+      "game/web/actor-sprite.js": "be8e935642374699951146083fbef4ec1ad690a7de8a06ae2153f34dc9b4271b",
+      "game/web/avatar.js": "d95537f37d3e2e4404a233f5a4c3f5c555a90b6e7c8153323d53559f09220422",
+      "game/web/canonical-actors-data.js": "d24ca352e05bf07c32b21ffe6775a53be6feebe3c047b61069245fccfef3a7eb",
+      "game/web/locomotion-actors-data.js": "ca80688f968f0fa059d584e5eac3a6bd035bec515498e4d06bfbd6176a7e8b73",
+      "game/web/interaction-actors-data.js": "34a771f62dc4ad38f5efd79788dd681b2ffe1a79751f4d4ce27faa23657cffa6",
+      "game/web/action-effects.js": "a0b50650eb50dc71e63ffd55ecd9f764045fed2689de546736d65bf95de3861b",
+      "game/web/world.js": "a94b566cde2bede8e931bfcbfd10886312d96f1bfb7cd9bd9cb96dde403a692b",
+      "game/web/source-city.js": "c62fab72533f4cde0492e4b23ac2d4b70e357ec4470d1c3dfde47f8b25199520"
+    },
+    "artisticApprovalOfAllPresets": false,
+    "physicalPhoneAcceptance": false
+  },
+  "handoff": {
+    "log": "verification/avatar-one-v31-latest-handoff.log",
+    "result": "passed",
+    "staticRoutes": 156,
+    "temporaryDatabase": true,
+    "externalRequests": false,
+    "liveDatabaseTouched": false
+  },
+  "historicalFullRegressions": [
+    {
+      "status": "passed; root-confirmed final frozen runtime",
+      "checkedAt": "2026-10-15T16:24:04.635269+00:00",
+      "counts": {
+        "tools": 13,
+        "python": 348,
+        "node": 934,
+        "failed": 0,
+        "skipped": 0
+      },
+      "commandLog": "verification/avatar-one-v31-final-frozen-command.log",
+      "result": "verification/project-full.json",
+      "resultSHA256": "c54a4e148b5f212733cfc1b21dc0ae869fe512e177ec79b67de3c63db6ffd752",
+      "logs": {
+        "verification/tools-tests-latest.log": "5e2888c8cd8792b2c8a8a2b5117bd69e579f50ad65f5b5cfc2382660859fe474",
+        "verification/game-python-latest.log": "22ae4cce9a960fef307c0c19133e67b3e09b3b7e74b4a39fd24f40820ca00f57",
+        "verification/game-node-latest.log": "0b06e0b6f333058b1ea83fd506df11449b67d0e9124bd5de8e0cc5eed74b5676"
+      },
+      "runtimeHashes": {
+        "game/web/source-actors.js": "e8b28698806865f0e1a298c00148fffe2115fc818efc799936ff8bd40afc1a8e",
+        "game/web/actor-sprite.js": "be8e935642374699951146083fbef4ec1ad690a7de8a06ae2153f34dc9b4271b",
+        "game/web/avatar.js": "d95537f37d3e2e4404a233f5a4c3f5c555a90b6e7c8153323d53559f09220422",
+        "game/web/canonical-actors-data.js": "d24ca352e05bf07c32b21ffe6775a53be6feebe3c047b61069245fccfef3a7eb",
+        "game/web/locomotion-actors-data.js": "ca80688f968f0fa059d584e5eac3a6bd035bec515498e4d06bfbd6176a7e8b73",
+        "game/web/interaction-actors-data.js": "34a771f62dc4ad38f5efd79788dd681b2ffe1a79751f4d4ce27faa23657cffa6",
+        "game/web/action-effects.js": "a0b50650eb50dc71e63ffd55ecd9f764045fed2689de546736d65bf95de3861b",
+        "game/web/world.js": "66c1cb90f59470e85d2e756f5232cac0bd8bcbad3baa692f91fdaff43e4b8c18",
+        "game/web/source-city.js": "c62fab72533f4cde0492e4b23ac2d4b70e357ec4470d1c3dfde47f8b25199520"
+      },
+      "artisticApproval": false,
+      "physicalPhoneAcceptance": false
+    }
+  ],
+  "currentUIEvidence": {
+    "scope": "same ONE maleH7white6skin3shirt8 only; root/browser and independent file reviews remain attributed separately",
+    "gait": {
+      "receipt": "verification/avatar-one-v31/independent-frozen-gait-inventory-review.json",
+      "screenshots": 61,
+      "movingScreenshots": 54,
+      "directions": 4,
+      "extraDownRecheck": true,
+      "captureWorld": "66c1cb90f59470e85d2e756f5232cac0bd8bcbad3baa692f91fdaff43e4b8c18"
+    },
+    "pickup": {
+      "receipt": "verification/avatar-one-v31/independent-pickup-stance-review.json",
+      "frames": 12,
+      "followupThrowFrames": 11,
+      "note": "Actual visual ordinary-path clip precedes final ordering-only guard; resolved independently on a94"
+    },
+    "latestReload": {
+      "screenshot": "verification/avatar-one-v31/latest-game-one-preset.jpg",
+      "rootViewed": true,
+      "world": "a94b566cde2bede8e931bfcbfd10886312d96f1bfb7cd9bd9cb96dde403a692b",
+      "source": "a101e25573dd30747c40477e738ce5eb40857f7881cff9a7c48338f4795cb071",
+      "url": "http://127.0.0.1:8797/",
+      "browserTab": 3,
+      "tabMarkedDeliverable": true,
+      "daylight": true
+    },
+    "proofContact": "verification/avatar-one-v31/one-preset-game-proof.png",
+    "finalInventory": {
+      "rod": 1,
+      "trash": 0,
+      "screenshot": "verification/avatar-one-v31/pickup-stance-final-inventory.jpg",
+      "text": "verification/avatar-one-v31/pickup-stance-final-inventory.txt",
+      "rootViewedAndConfirmed": true
+    }
+  },
+  "rootFinalResult": {
+    "report": "verification/avatar-one-v31/FINAL-RESULT.md",
+    "data": "verification/avatar-one-v31/FINAL-RESULT.json",
+    "scope": "same ONE preset only",
+    "latestWarnErrorConsole": {
+      "path": "verification/avatar-one-v31/latest-game-console.json",
+      "returnedEntries": 0,
+      "requestedLimit": 30,
+      "scope": "latest actual-page retrieval only"
+    }
+  }
+}

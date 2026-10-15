@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-15T18:53:43.107450+00:00",
+  "steps": [
+    {
+      "name": "tools-tests",
+      "exitCode": 0,
+      "log": "verification/tools-tests-latest.log"
+    },
+    {
+      "name": "game-python",
+      "exitCode": 0,
+      "log": "verification/game-python-latest.log"
+    },
+    {
+      "name": "game-node",
+      "exitCode": 0,
+      "log": "verification/game-node-latest.log"
+    }
+  ],
+  "passed": true,
+  "scope": "technical validation; not an artistic approval",
+  "skills": [
+    "bziker-build-game",
+    "bziker-character-pipeline",
+    "bziker-game-qa"
+  ],
+  "art": {
+    "approvedDefinitionFiles": 0,
+    "draftPngFiles": 1655,
+    "ready": false,
+    "note": "Artwork needs editable layered masters and visual approval; copied legacy-composite art is compatibility only."
+  }
+}

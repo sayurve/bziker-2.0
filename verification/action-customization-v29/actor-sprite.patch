@@ -1,0 +1,148 @@
+--- actor-sprite-before-685e6.js
++++ game/web/actor-sprite.js
+@@ -325,7 +325,7 @@
+   while(q.length){const n=q.pop(),x=n%width;points.push(n);for(const v of [x>0?n-1:-1,x<width-1?n+1:-1,n-width,n+width])if(candidates.delete(v))q.push(v);}
+   const xs=points.map(n=>n%width),ys=points.map(n=>Math.floor(n/width)),a={points,left:Math.min(...xs),right:Math.max(...xs),top:Math.min(...ys),bottom:Math.max(...ys)};
+   a.x=xs.reduce((n,x)=>n+x,0)/xs.length;a.y=ys.reduce((n,y)=>n+y,0)/ys.length;
+-  if(points.length>=f&&a.right-a.left<(right-left)*.3&&a.bottom-a.top<(bottom-top)*.4)whites.push(a);
++  if(a.x>=head.left*f&&a.x<=head.right*f&&points.length>=f&&a.right-a.left<(right-left)*.3&&a.bottom-a.top<(bottom-top)*.4)whites.push(a);
+  }
+  const expectedY=(head.top+(head.bottom-head.top+1)*.8)*f;
+  const expectedX=(facing==='right'?head.left+(head.right-head.left)*.75:facing==='left'?head.left+(head.right-head.left)*.25:(head.left+head.right)/2)*f;
+@@ -337,7 +337,7 @@
+  // registration may request a smaller hair layer. Never resize the face.
+  const scale=Number.isFinite(head.hairScale)?Math.min(1,Math.max(.5,head.hairScale)):1;
+  const eyeY=eyes.length?eyes.reduce((n,a)=>n+a.y,0)/eyes.length:(head.bottom-(21-16.5)*scale)*f;
+- const explicit=head.eyeAnchor,anchor=Array.isArray(explicit)?{x:explicit[0]*f,y:explicit[1]*f}:{x:eyes.length?eyes.reduce((n,a)=>n+a.x,0)/eyes.length:(head.left+head.right)/2*f,y:eyeY};
++ const explicit=head.eyeAnchor,anchor=Array.isArray(explicit)?{x:explicit[0]*f,y:explicit[1]*f}:{x:eyes.length?eyes.reduce((n,a)=>n+a.x,0)/eyes.length:expectedX,y:eyeY};
+  if(Number.isFinite(head.eyeLine))anchor.y=head.eyeLine*f;
+  const mark=(x,y,r=f)=>{for(let yy=Math.max(0,Math.floor(y-r));yy<=Math.min(height-1,y+r);yy++)for(let xx=Math.max(0,Math.floor(x-r));xx<=Math.min(width-1,x+r);xx++)face[yy*width+xx]=true;};
+  const polygon=(p,x,y)=>{let inside=false;for(let i=0,j=p.length-1;i<p.length;j=i++){const a=p[i],b=p[j];if((a[1]>y)!==(b[1]>y)&&x<(b[0]-a[0])*(y-a[1])/(b[1]-a[1])+a[0])inside=!inside;}return inside;};
+@@ -377,6 +377,21 @@
+   }
+   for(const eye of eyes)for(const n of eye.points)mark(n%width,Math.floor(n/width),2*f);
+  }
++ // Closed / black eyes are valid source art too. Prop highlights can also
++ // be mistaken for an eye. Without an authored polygon, independently
++ // derive a conservative face region from genuine
++ // lower-head flesh, retaining the intervening source eye/lip/outline rows.
++ // This never draws replacement skin or guesses a different head bitmap.
++ if(!Array.isArray(head.facePolygon)&&facing!=='up'){
++  const from=Math.max(0,Math.floor((head.top+(head.bottom-head.top)*.35)*f)),rows=new Map();
++  for(let y=from;y<=Math.min(bottom,(head.bottom+1)*f);y++)for(let x=left;x<=right;x++){
++   const c=colour(y*width+x);if(c&&c[0]>=210&&c[0]-c[1]>75&&c[1]-c[2]>20){const span=rows.get(y)||[x,x];span[0]=Math.min(span[0],x);span[1]=Math.max(span[1],x);rows.set(y,span);}
++  }
++  for(let y=from;y<=bottom;y++){
++   const spans=[...rows].filter(([yy])=>Math.abs(yy-y)<=3*f).map(([,s])=>s);
++   if(spans.length)for(let x=Math.max(left,Math.min(...spans.map(s=>s[0]))-f);x<=Math.min(right,Math.max(...spans.map(s=>s[1]))+f);x++)if(source[y*width+x])face[y*width+x]=true;
++  }
++ }
+  // Ears on the rear view have no eye seeds. Retain the source's bright ear
+  // components only at the lateral lower head, together with their contour.
+  for(let y=Math.floor((head.top+(head.bottom-head.top)*.5)*f);y<=bottom;y++)for(let x=left;x<=right;x++){
+@@ -385,7 +400,18 @@
+  }
+  const hairBottom=Number.isFinite(head.neckAnchor?.[1])?Math.min(bottom,head.neckAnchor[1]*f):bottom;
+  const hairMask=source.map((c,n)=>!!c&&Math.floor(n/width)>=top&&Math.floor(n/width)<=hairBottom&&n%width>=left&&n%width<=right&&!face[n]&&hair(c));
+- const result={face,hair:hairMask,anchor,scale:scale*f,top,bottom,left,right};cache.set(key,result);return result;
++ // Identify retained garment texture by connectivity to real source cloth
++ // below the head. Loose legacy head boxes overlap bent sleeves: position
++ // alone cannot make those existing gray body pixels removable scalp.
++ const cloth=Array(width*height).fill(false),neutral=new Set();
++ for(let n=0;n<source.length;n++)if(source[n]&&gray(source[n])&&rgb(source[n])[0]>=45)neutral.add(n);
++ while(neutral.size){const start=neutral.values().next().value,q=[start],component=[];neutral.delete(start);let body=false;
++  while(q.length){const n=q.pop(),x=n%width,y=Math.floor(n/width);component.push(n);body||=y>(head.bottom+1)*f;
++   for(const v of[x>0?n-1:-1,x<width-1?n+1:-1,n-width,n+width])if(neutral.delete(v))q.push(v);
++  }
++  if(body)for(const n of component){cloth[n]=true;const x=n%width,y=Math.floor(n/width);for(let yy=Math.max(0,y-1);yy<=Math.min(height-1,y+1);yy++)for(let xx=Math.max(0,x-1);xx<=Math.min(width-1,x+1);xx++){const k=yy*width+xx;if(source[k]&&gray(source[k])&&rgb(source[k])[0]<45)cloth[k]=true;}}
++ }
++ const result={face,cloth,hair:hairMask.map((v,n)=>v&&!cloth[n]),anchor,scale:scale*f,top,bottom,left,right,registered:Array.isArray(head.eyeAnchor)||eyes.length>0||Array.isArray(head.facePolygon)};cache.set(key,result);return result;
+ }
+ const hairLayerCache=new WeakMap();
+ function nativeHairLayer(frame,style,facing){
+@@ -407,17 +433,21 @@
+  const style=['short','bob','curly','bun','crew','part','long','tail','pixie','mohawk','twobuns','wavy'][a.hairStyle],frame=hairstyles.frames[style]?.[facing];
+  if(!frame)return anatomy.hair;
+  const eye=frame.targetEyeAnchor||{x:20,y:16.5},pixels=nativeHairLayer(frame,style,facing),selected=Array(width*height).fill(false);
++ const protectedPixel=n=>anatomy.face[n]||materials.face[n];
++ // A legacy black-eye pose without registration has no known replacement
++ // scalp boundary. Keep its existing alpha until authored head export;
++ // clearing that unknown region can delete the genuine face / hidden neck.
+  for(let y=anatomy.top;y<=anatomy.bottom;y++)for(let x=anatomy.left;x<=anatomy.right;x++){
+-  const n=y*width+x,retainedNape=facing==='up'&&y>=(head.bottom-3)*width/W;
+-  if(source[n]&&!anatomy.face[n]&&!retainedNape&&(y<anatomy.anchor.y||anatomy.hair[n]))g[n]=null;
++  const n=y*width+x,retainedNape=facing==='up'&&y>=((head.neckAnchor?.[1]??head.bottom)-3)*width/W;
++  if(anatomy.registered&&source[n]&&!protectedPixel(n)&&!retainedNape&&!anatomy.cloth[n]&&(y<anatomy.anchor.y||anatomy.hair[n]))g[n]=null;
+  }
+  for(let y=0;y<height;y++)for(let x=0;x<width;x++){
+   const sx=Math.round(eye.x+(x-anatomy.anchor.x)/anatomy.scale),sy=Math.round(eye.y+(y-anatomy.anchor.y)/anatomy.scale),n=y*width+x;
+-  if(sx<0||sx>=40||sy<0||sy>=40||anatomy.face[n]&&source[n])continue;
++  if(sx<0||sx>=40||sy<0||sy>=40||protectedPixel(n)&&source[n])continue;
+   const pixel=pixels[sy*40+sx];if(pixel){g[n]=hairstyles.palette[pixel];selected[n]=true;}
+  }
+  // A selected wig cannot delete or recolour any authoritative native face.
+- for(let n=0;n<g.length;n++)if(anatomy.face[n]&&source[n])g[n]=source[n];
++ for(let n=0;n<g.length;n++)if(protectedPixel(n)&&source[n])g[n]=source[n];
+  return selected;
+ }
+ 
+@@ -425,7 +455,7 @@
+ // authored face/ears first so a hair tint retains every native highlight;
+ // treating those highlights as flesh left brown flecks in white hairstyles.
+ function sourceHairMaterial(source,width,height,head,facing){
+- const factor=width/W,limit=Math.min(height,Math.ceil(Math.max(36,head.bottom+3)*factor)),face=Array(width*height).fill(false);
++ const factor=width/W,limit=Math.min(height,Math.ceil(Math.max(36,head.bottom+3)*factor)),face=Array(width*height).fill(false),fleshComponents=Array(width*height).fill(false);
+  const fleshRows=[];
+  for(let y=Math.max(0,Math.floor((head.top+6)*factor));y<limit;y++){
+   const strong=[];
+@@ -446,24 +476,27 @@
+  // Raised hands can begin with a dark-only row. Preserve complete flesh
+  // components outside the crown, not just their bright seed pixels. These
+  // are source anatomical regions; their RGB shadows never become hair.
+- const pending=new Set();
++ const pending=new Set(),bodyCut=(head.bottom+1)*factor;
+  for(let n=0;n<source.length;n++){const c=source[n];if(!c)continue;const [r,g,b]=rgb(c);if(r>=70&&r-g>12&&g-b>5)pending.add(n);}
+  while(pending.size){
+   const start=pending.values().next().value,queue=[start],cluster=[];pending.delete(start);let flesh=false,crown=false;
+   while(queue.length){
+    const n=queue.pop(),x=n%width,y=Math.floor(n/width),[r,g,b]=rgb(source[n]);cluster.push(n);
+-   flesh||=r>=210&&r-g>75&&g-b>20;crown||=y<(head.top+6)*factor;
+-   for(const next of [x>0?n-1:-1,x<width-1?n+1:-1,n-width,n+width])if(pending.delete(next))queue.push(next);
++   flesh||=r>=210&&r-g>75&&g-b>20||y>bodyCut&&r>=160&&r-g>40&&g-b>16;crown||=y<(head.top+6)*factor;
++   // A crouched hand can touch the head's warm pixels. Split the
++   // existing source component at the body boundary so its real dark
++   // flesh cannot inherit the crown/hair classification.
++   for(const next of [x>0?n-1:-1,x<width-1?n+1:-1,n-width,n+width])if((y>bodyCut)===(Math.floor(next/width)>bodyCut)&&pending.delete(next))queue.push(next);
+   }
+   if(flesh&&!crown)for(const n of cluster){
+    const x=n%width,y=Math.floor(n/width);
+    // Include the native dark contour around a flesh component, whose
+    // darkest pixels deliberately fall below the flesh colour threshold.
+-   for(let yy=Math.max(0,y-factor);yy<=Math.min(height-1,y+factor);yy++)for(let xx=Math.max(0,x-factor);xx<=Math.min(width-1,x+factor);xx++)face[yy*width+xx]=true;
++   for(let yy=Math.max(0,y-factor);yy<=Math.min(height-1,y+factor);yy++)for(let xx=Math.max(0,x-factor);xx<=Math.min(width-1,x+factor);xx++){face[yy*width+xx]=true;fleshComponents[yy*width+xx]=true;}
+   }
+  }
+  const anatomy=nativeHeadAnatomy(source,width,height,head,facing);
+- for(let y=anatomy.top;y<=anatomy.bottom;y++)for(let x=anatomy.left;x<=anatomy.right;x++)face[y*width+x]=anatomy.face[y*width+x]||(y>(head.bottom+1)*factor&&face[y*width+x]);
++ for(let y=anatomy.top;y<=anatomy.bottom;y++)for(let x=anatomy.left;x<=anatomy.right;x++)face[y*width+x]=anatomy.face[y*width+x]||fleshComponents[y*width+x]||(y>(head.bottom+1)*factor&&face[y*width+x]);
+  return {hair:anatomy.hair.map((v,n)=>v&&!face[n]),face};
+ }
+ 
+@@ -478,11 +511,14 @@
+  const selectedHair=applyNativeHair(g,source,width,height,a,head,facing,materials);
+  for(let y=0;y<height;y++)for(let x=0;x<width;x++){
+   const n=y*width+x,c=source[n],cx=Math.floor(x/factor),cy=Math.floor(y/factor),k=cy*W+cx;
++  // Independent strands are in front of clothing but behind real source
++  // face/hands (already excluded by applyNativeHair). Coarse wardrobe cells
++  // cannot cut them off or recolour only their lower half.
++  if(selectedHair[n]){if(a.hairColor!==0&&g[n])g[n]=shade(g[n],catalog.hairColor.colors[a.hairColor],'hair');continue;}
++  if(materials.hair[n]){if(a.hairColor!==0&&g[n])g[n]=shade(g[n],catalog.hairColor.colors[a.hairColor],'hair');continue;}
+   if(geometry[k]!==coarse[k]&&!(materials.face[n]&&source[n])){g[n]=custom[k];continue;}
+-  if(selectedHair[n]){if(a.hairColor!==0&&g[n])g[n]=shade(g[n],catalog.hairColor.colors[a.hairColor],'hair');continue;}
+   if(!c||g[n]!==c)continue;let kind=null,value=null;
+-  if(materials.hair[n]){kind='hair';value=a.hairColor===0?null:catalog.hairColor.colors[a.hairColor];}
+-  else if(skin(c)){kind='skin';value=a.skin===0?null:catalog.skin.colors[a.skin];}
++  if(skin(c)){kind='skin';value=a.skin===0?null:catalog.skin.colors[a.skin];}
+   else if(materials.face[n]){kind=null;}
+   else if(cy>=bodyTop&&cy<44){kind='cloth';value=a.shirtColor===6?null:catalog.shirtColor.colors[a.shirtColor];if(gray(c)&&rgb(c)[0]>145&&cx-PAD>=17&&cx-PAD<=23&&a.shirtStyle===2&&a.outfit===0)value=null;}
+   else if(cy>=44&&cy<59){kind='pants';value=a.pantsColor===1?null:catalog.pantsColor.colors[a.pantsColor];}

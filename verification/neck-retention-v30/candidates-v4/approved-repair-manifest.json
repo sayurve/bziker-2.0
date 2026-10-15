@@ -1,0 +1,2510 @@
+{
+  "schema": "bziker-literal-neck-repair/v1",
+  "status": "approved",
+  "productionWrites": false,
+  "scope": "7 female A source frames; source-backed transparent collar pixels only; no floodfill",
+  "repairs": [
+    {
+      "actorId": "human-female",
+      "family": "hand",
+      "direction": "left",
+      "frameIndex": 2,
+      "status": "draft",
+      "fine": {
+        "target": "game/assets/interaction-v29/female-hand-left-2-fine.png",
+        "beforeSHA256": "6665075f0988d8e83bd55bc9ad5674865b2cace3beef9f008e56217fd61d39b2",
+        "candidate": "verification/neck-retention-v30/candidates-v4/female-hand-left-2-fine.png",
+        "candidateSHA256": "926f03c6c4243fecaa2b834c0cd9f93b47e592b003658d3228b39c1730d4e8d6",
+        "restoredPixels": [
+          {
+            "x": 38,
+            "y": 63,
+            "sourceRGBA": [
+              26,
+              8,
+              7,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 38,
+            "y": 64,
+            "sourceRGBA": [
+              28,
+              8,
+              8,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 38,
+            "y": 65,
+            "sourceRGBA": [
+              76,
+              36,
+              24,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 38,
+            "y": 66,
+            "sourceRGBA": [
+              255,
+              161,
+              115,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 39,
+            "y": 66,
+            "sourceRGBA": [
+              234,
+              129,
+              78,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 40,
+            "y": 66,
+            "sourceRGBA": [
+              236,
+              135,
+              88,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 41,
+            "y": 66,
+            "sourceRGBA": [
+              239,
+              149,
+              104,
+              254
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 39,
+            "y": 65,
+            "sourceRGBA": [
+              49,
+              22,
+              16,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 37,
+            "y": 65,
+            "sourceRGBA": [
+              34,
+              11,
+              10,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 36,
+            "y": 65,
+            "sourceRGBA": [
+              33,
+              13,
+              12,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 36,
+            "y": 66,
+            "sourceRGBA": [
+              55,
+              48,
+              52,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 35,
+            "y": 66,
+            "sourceRGBA": [
+              0,
+              0,
+              0,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 35,
+            "y": 67,
+            "sourceRGBA": [
+              0,
+              0,
+              0,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 35,
+            "y": 68,
+            "sourceRGBA": [
+              0,
+              0,
+              0,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 35,
+            "y": 65,
+            "sourceRGBA": [
+              22,
+              5,
+              4,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 39,
+            "y": 64,
+            "sourceRGBA": [
+              29,
+              7,
+              7,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 39,
+            "y": 63,
+            "sourceRGBA": [
+              28,
+              8,
+              7,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          }
+        ],
+        "existingNonzeroPixelsPreserved": []
+      },
+      "coarse": {
+        "target": "game/assets/interaction-v29/female-hand-left-2.png",
+        "beforeSHA256": "a6172ba7eb271a54fd51cb92ec5b2d8e52cd3f50d501601dad48693d517bdca9",
+        "candidate": "verification/neck-retention-v30/candidates-v4/female-hand-left-2.png",
+        "candidateSHA256": "346b79b53c40a3a98ebbb5468139e575336be093017c145fb632f5b1a48df4e2",
+        "restoredPixels": [
+          {
+            "x": 19,
+            "y": 31,
+            "sourceFine": [
+              39,
+              63
+            ],
+            "sourceRGBA": [
+              28,
+              8,
+              7,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 17,
+            "y": 32,
+            "sourceFine": [
+              35,
+              65
+            ],
+            "sourceRGBA": [
+              22,
+              5,
+              4,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 18,
+            "y": 32,
+            "sourceFine": [
+              37,
+              65
+            ],
+            "sourceRGBA": [
+              34,
+              11,
+              10,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 19,
+            "y": 32,
+            "sourceFine": [
+              39,
+              65
+            ],
+            "sourceRGBA": [
+              49,
+              22,
+              16,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 17,
+            "y": 33,
+            "sourceFine": [
+              35,
+              67
+            ],
+            "sourceRGBA": [
+              0,
+              0,
+              0,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          }
+        ],
+        "existingNonzeroSamplesPreserved": []
+      },
+      "sourceRegistered": "verification/phone-action-audit/source-c8-a104-v30/registered-source-hand-female-left-2.png",
+      "sourceRegisteredSHA256": "8d8bc7d4a979afea2745957e100256ca0ec2ead97d3a7d1d700d0d3a8019a308",
+      "canonicalDonor": "art/drafts/canonical-face-v29/female-heads-v1/left-fine.png",
+      "canonicalDonorSHA256": "65fb9ba6df23d7e1bf5555240d44d14fcd5e35f86cbf2a2074cd170f2128df74",
+      "invariants": {
+        "originalVisibleFineRGBAChanges": 0,
+        "originalVisibleCoarseRGBAChanges": 0,
+        "canonicalDonorOpaqueRGBAChanges": 0,
+        "allRestoredSourceAlphaAbove127": true,
+        "allTargetsOriginallyRuntimeTransparent": true,
+        "noAddedNonSourceRGBA": true,
+        "noChangeOutsideAuthoredPoints": true,
+        "rootAndFrameMetadataUnchanged": true
+      }
+    },
+    {
+      "actorId": "human-female",
+      "family": "hand",
+      "direction": "left",
+      "frameIndex": 3,
+      "status": "draft",
+      "fine": {
+        "target": "game/assets/interaction-v29/female-hand-left-3-fine.png",
+        "beforeSHA256": "245d438aafcdf49f469f6b52274d913db4c13f1ebe8e61c554cca13a1f27bf8d",
+        "candidate": "verification/neck-retention-v30/candidates-v4/female-hand-left-3-fine.png",
+        "candidateSHA256": "43886b3d719df5fadef5caae1641d62c9dff532a16e33dfc06f6254729b65f22",
+        "restoredPixels": [
+          {
+            "x": 38,
+            "y": 63,
+            "sourceRGBA": [
+              26,
+              9,
+              8,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 38,
+            "y": 64,
+            "sourceRGBA": [
+              28,
+              8,
+              7,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 38,
+            "y": 65,
+            "sourceRGBA": [
+              63,
+              27,
+              19,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 38,
+            "y": 66,
+            "sourceRGBA": [
+              251,
+              154,
+              109,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 39,
+            "y": 66,
+            "sourceRGBA": [
+              237,
+              132,
+              81,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 40,
+            "y": 66,
+            "sourceRGBA": [
+              240,
+              141,
+              95,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 41,
+            "y": 66,
+            "sourceRGBA": [
+              240,
+              145,
+              96,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 39,
+            "y": 65,
+            "sourceRGBA": [
+              46,
+              20,
+              15,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 37,
+            "y": 65,
+            "sourceRGBA": [
+              32,
+              11,
+              11,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 36,
+            "y": 65,
+            "sourceRGBA": [
+              28,
+              11,
+              10,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 36,
+            "y": 66,
+            "sourceRGBA": [
+              50,
+              43,
+              47,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 35,
+            "y": 66,
+            "sourceRGBA": [
+              2,
+              0,
+              0,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 35,
+            "y": 67,
+            "sourceRGBA": [
+              4,
+              0,
+              0,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 35,
+            "y": 68,
+            "sourceRGBA": [
+              2,
+              0,
+              0,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 35,
+            "y": 69,
+            "sourceRGBA": [
+              7,
+              1,
+              1,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 35,
+            "y": 65,
+            "sourceRGBA": [
+              21,
+              5,
+              5,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 39,
+            "y": 64,
+            "sourceRGBA": [
+              25,
+              6,
+              6,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 39,
+            "y": 63,
+            "sourceRGBA": [
+              28,
+              8,
+              8,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          }
+        ],
+        "existingNonzeroPixelsPreserved": []
+      },
+      "coarse": {
+        "target": "game/assets/interaction-v29/female-hand-left-3.png",
+        "beforeSHA256": "76eb17e9d1dca3eac204efa0f0c7267678dc41187e05f9fe2edea4a9dcc5d129",
+        "candidate": "verification/neck-retention-v30/candidates-v4/female-hand-left-3.png",
+        "candidateSHA256": "8627d3ca3cbfe71b0dd5f7ab7c5f750ada0ac9e2451bcc64c3b08b82719ecd41",
+        "restoredPixels": [
+          {
+            "x": 19,
+            "y": 31,
+            "sourceFine": [
+              39,
+              63
+            ],
+            "sourceRGBA": [
+              28,
+              8,
+              8,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 17,
+            "y": 32,
+            "sourceFine": [
+              35,
+              65
+            ],
+            "sourceRGBA": [
+              21,
+              5,
+              5,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 18,
+            "y": 32,
+            "sourceFine": [
+              37,
+              65
+            ],
+            "sourceRGBA": [
+              32,
+              11,
+              11,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 19,
+            "y": 32,
+            "sourceFine": [
+              39,
+              65
+            ],
+            "sourceRGBA": [
+              46,
+              20,
+              15,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 17,
+            "y": 33,
+            "sourceFine": [
+              35,
+              67
+            ],
+            "sourceRGBA": [
+              4,
+              0,
+              0,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 17,
+            "y": 34,
+            "sourceFine": [
+              35,
+              69
+            ],
+            "sourceRGBA": [
+              7,
+              1,
+              1,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          }
+        ],
+        "existingNonzeroSamplesPreserved": []
+      },
+      "sourceRegistered": "verification/phone-action-audit/source-c8-a104-v30/registered-source-hand-female-left-3.png",
+      "sourceRegisteredSHA256": "afa21fc41bba77984add3ad89a6fd03705b9c93d635fb99f14d6cf86b4508fa7",
+      "canonicalDonor": "art/drafts/canonical-face-v29/female-heads-v1/left-fine.png",
+      "canonicalDonorSHA256": "65fb9ba6df23d7e1bf5555240d44d14fcd5e35f86cbf2a2074cd170f2128df74",
+      "invariants": {
+        "originalVisibleFineRGBAChanges": 0,
+        "originalVisibleCoarseRGBAChanges": 0,
+        "canonicalDonorOpaqueRGBAChanges": 0,
+        "allRestoredSourceAlphaAbove127": true,
+        "allTargetsOriginallyRuntimeTransparent": true,
+        "noAddedNonSourceRGBA": true,
+        "noChangeOutsideAuthoredPoints": true,
+        "rootAndFrameMetadataUnchanged": true
+      }
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "direction": "down",
+      "frameIndex": 1,
+      "status": "draft",
+      "fine": {
+        "target": "game/assets/interaction-v29/female-lowerReach-down-1-fine.png",
+        "beforeSHA256": "b66942d23ee847a9e5caf1557d158eb74fcbddabe10e243c043a7f577bea40a7",
+        "candidate": "verification/neck-retention-v30/candidates-v4/female-lowerReach-down-1-fine.png",
+        "candidateSHA256": "b4aea05f62ad47006b00a882d9f6658b21acad09c848e5d8256f4b842ae8e6fd",
+        "restoredPixels": [
+          {
+            "x": 50,
+            "y": 74,
+            "sourceRGBA": [
+              252,
+              141,
+              91,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 50,
+            "y": 75,
+            "sourceRGBA": [
+              253,
+              149,
+              101,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 49,
+            "y": 75,
+            "sourceRGBA": [
+              253,
+              143,
+              94,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 49,
+            "y": 76,
+            "sourceRGBA": [
+              251,
+              147,
+              98,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 48,
+            "y": 76,
+            "sourceRGBA": [
+              253,
+              147,
+              97,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 47,
+            "y": 76,
+            "sourceRGBA": [
+              254,
+              146,
+              96,
+              254
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 46,
+            "y": 76,
+            "sourceRGBA": [
+              253,
+              144,
+              97,
+              254
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 45,
+            "y": 76,
+            "sourceRGBA": [
+              252,
+              145,
+              98,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 44,
+            "y": 76,
+            "sourceRGBA": [
+              79,
+              29,
+              18,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 44,
+            "y": 75,
+            "sourceRGBA": [
+              251,
+              130,
+              82,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 43,
+            "y": 75,
+            "sourceRGBA": [
+              248,
+              133,
+              88,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 42,
+            "y": 75,
+            "sourceRGBA": [
+              85,
+              30,
+              16,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 45,
+            "y": 75,
+            "sourceRGBA": [
+              254,
+              146,
+              97,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 46,
+            "y": 75,
+            "sourceRGBA": [
+              253,
+              147,
+              97,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 47,
+            "y": 75,
+            "sourceRGBA": [
+              253,
+              146,
+              97,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 48,
+            "y": 75,
+            "sourceRGBA": [
+              252,
+              143,
+              94,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          }
+        ],
+        "existingNonzeroPixelsPreserved": []
+      },
+      "coarse": {
+        "target": "game/assets/interaction-v29/female-lowerReach-down-1.png",
+        "beforeSHA256": "92ca711582c34d31c82961f776736548dfe61f7ddcffaad41f39c64571289dda",
+        "candidate": "verification/neck-retention-v30/candidates-v4/female-lowerReach-down-1.png",
+        "candidateSHA256": "7f33b9787bed43415287097d1b3865c8e9d26aa1a5899c23a56cabdc5a3bea44",
+        "restoredPixels": [],
+        "existingNonzeroSamplesPreserved": [
+          {
+            "point": [
+              21,
+              37
+            ],
+            "originalRGBA": [
+              27,
+              5,
+              8,
+              247
+            ],
+            "fineSample": [
+              43,
+              75
+            ]
+          },
+          {
+            "point": [
+              22,
+              37
+            ],
+            "originalRGBA": [
+              24,
+              6,
+              7,
+              253
+            ],
+            "fineSample": [
+              45,
+              75
+            ]
+          },
+          {
+            "point": [
+              23,
+              37
+            ],
+            "originalRGBA": [
+              26,
+              7,
+              9,
+              253
+            ],
+            "fineSample": [
+              47,
+              75
+            ]
+          },
+          {
+            "point": [
+              24,
+              37
+            ],
+            "originalRGBA": [
+              24,
+              7,
+              7,
+              252
+            ],
+            "fineSample": [
+              49,
+              75
+            ]
+          }
+        ]
+      },
+      "sourceRegistered": "verification/phone-action-audit/source-c8-a104-v30/registered-source-lower-female-down-1.png",
+      "sourceRegisteredSHA256": "34b7943ec982e50ac388e6ed6450321dc5fe12df3bd254ffdbc0c872139282e6",
+      "canonicalDonor": "art/drafts/canonical-face-v29/female-heads-v1/down-fine.png",
+      "canonicalDonorSHA256": "2c3febc479296cd800d7497141191b43c076aaf6610e756aab4deba2e7f7cb33",
+      "invariants": {
+        "originalVisibleFineRGBAChanges": 0,
+        "originalVisibleCoarseRGBAChanges": 0,
+        "canonicalDonorOpaqueRGBAChanges": 0,
+        "allRestoredSourceAlphaAbove127": true,
+        "allTargetsOriginallyRuntimeTransparent": true,
+        "noAddedNonSourceRGBA": true,
+        "noChangeOutsideAuthoredPoints": true,
+        "rootAndFrameMetadataUnchanged": true
+      }
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "direction": "right",
+      "frameIndex": 1,
+      "status": "draft",
+      "fine": {
+        "target": "game/assets/interaction-v29/female-lowerReach-right-1-fine.png",
+        "beforeSHA256": "c8f5a7ea82f904b02b493b4103e8cf78bbb1ef5798bd6a2d9325e8fbdc277e06",
+        "candidate": "verification/neck-retention-v30/candidates-v4/female-lowerReach-right-1-fine.png",
+        "candidateSHA256": "c837e1daa465deefdd158729730970f7e9e7bfea3c9c7d1a5f5cb7f0235118b4",
+        "restoredPixels": [
+          {
+            "x": 52,
+            "y": 70,
+            "sourceRGBA": [
+              251,
+              145,
+              94,
+              254
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 52,
+            "y": 71,
+            "sourceRGBA": [
+              247,
+              144,
+              98,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 52,
+            "y": 72,
+            "sourceRGBA": [
+              247,
+              128,
+              80,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 53,
+            "y": 71,
+            "sourceRGBA": [
+              251,
+              145,
+              96,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 54,
+            "y": 71,
+            "sourceRGBA": [
+              247,
+              141,
+              92,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 54,
+            "y": 70,
+            "sourceRGBA": [
+              249,
+              148,
+              101,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 53,
+            "y": 70,
+            "sourceRGBA": [
+              251,
+              147,
+              96,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          }
+        ],
+        "existingNonzeroPixelsPreserved": []
+      },
+      "coarse": {
+        "target": "game/assets/interaction-v29/female-lowerReach-right-1.png",
+        "beforeSHA256": "3720f397b2e82eb0a0651269dee52c68b5705c9cca80393f42aae9cfb42d4897",
+        "candidate": "verification/neck-retention-v30/candidates-v4/female-lowerReach-right-1.png",
+        "candidateSHA256": "0d73cce89eec72e1f9c25dd25b274a2872793df3b1fb31956ec36b93a1680fe7",
+        "restoredPixels": [
+          {
+            "x": 26,
+            "y": 35,
+            "sourceFine": [
+              53,
+              71
+            ],
+            "sourceRGBA": [
+              251,
+              145,
+              96,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          }
+        ],
+        "existingNonzeroSamplesPreserved": []
+      },
+      "sourceRegistered": "verification/phone-action-audit/source-c8-a104-v30/registered-source-lower-female-right-1.png",
+      "sourceRegisteredSHA256": "abaf8f0adcd52d26a9a77f4d3fe6c2cf00cf636a1e5792ad969365fe96111ff6",
+      "canonicalDonor": "art/drafts/canonical-face-v29/female-heads-v1/right-fine.png",
+      "canonicalDonorSHA256": "4329eb109b40d0d47de048b8256d681df95c711f11abc48b9f6be4a32b09dd77",
+      "invariants": {
+        "originalVisibleFineRGBAChanges": 0,
+        "originalVisibleCoarseRGBAChanges": 0,
+        "canonicalDonorOpaqueRGBAChanges": 0,
+        "allRestoredSourceAlphaAbove127": true,
+        "allTargetsOriginallyRuntimeTransparent": true,
+        "noAddedNonSourceRGBA": true,
+        "noChangeOutsideAuthoredPoints": true,
+        "rootAndFrameMetadataUnchanged": true
+      }
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "direction": "right",
+      "frameIndex": 2,
+      "status": "draft",
+      "fine": {
+        "target": "game/assets/interaction-v29/female-lowerReach-right-2-fine.png",
+        "beforeSHA256": "2b8ed49da215bbc8653c289bb985f0dd0e91a0b3f8bade7497cb5dfe053b817f",
+        "candidate": "verification/neck-retention-v30/candidates-v4/female-lowerReach-right-2-fine.png",
+        "candidateSHA256": "90a3ced74bdf4954dd98fb3356a918b9e0b14271642a716de513d95b70b26c20",
+        "restoredPixels": [
+          {
+            "x": 57,
+            "y": 82,
+            "sourceRGBA": [
+              251,
+              145,
+              96,
+              253
+            ],
+            "previousRGBA": [
+              85,
+              28,
+              28,
+              9
+            ],
+            "restoredLowAlpha": true
+          },
+          {
+            "x": 57,
+            "y": 83,
+            "sourceRGBA": [
+              252,
+              150,
+              98,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 57,
+            "y": 84,
+            "sourceRGBA": [
+              249,
+              145,
+              94,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 58,
+            "y": 84,
+            "sourceRGBA": [
+              246,
+              138,
+              83,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 56,
+            "y": 84,
+            "sourceRGBA": [
+              247,
+              147,
+              100,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 56,
+            "y": 85,
+            "sourceRGBA": [
+              248,
+              154,
+              110,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 56,
+            "y": 86,
+            "sourceRGBA": [
+              241,
+              136,
+              97,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 56,
+            "y": 87,
+            "sourceRGBA": [
+              195,
+              180,
+              176,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 58,
+            "y": 83,
+            "sourceRGBA": [
+              253,
+              155,
+              103,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "restoredLowAlpha": true
+          },
+          {
+            "x": 58,
+            "y": 82,
+            "sourceRGBA": [
+              252,
+              143,
+              94,
+              253
+            ],
+            "previousRGBA": [
+              109,
+              36,
+              36,
+              7
+            ],
+            "restoredLowAlpha": true
+          }
+        ],
+        "existingNonzeroPixelsPreserved": []
+      },
+      "coarse": {
+        "target": "game/assets/interaction-v29/female-lowerReach-right-2.png",
+        "beforeSHA256": "1f415cbcd5b4e60a6e00ea1005b74b9067df352fc6120f7538ca900f30c0f71e",
+        "candidate": "verification/neck-retention-v30/candidates-v4/female-lowerReach-right-2.png",
+        "candidateSHA256": "05dc2099353b0d1b7707f6a33c12b3b2c0b5c4e2ffe32aa50466965f366ef99f",
+        "restoredPixels": [],
+        "existingNonzeroSamplesPreserved": [
+          {
+            "point": [
+              28,
+              41
+            ],
+            "originalRGBA": [
+              30,
+              9,
+              9,
+              252
+            ],
+            "fineSample": [
+              57,
+              83
+            ]
+          }
+        ]
+      },
+      "sourceRegistered": "verification/phone-action-audit/source-c8-a104-v30/registered-source-lower-female-right-2.png",
+      "sourceRegisteredSHA256": "707f4dbb25cb7e1ba5f57588de8a5cd92137890207a62166f84ebac1ac2aea20",
+      "canonicalDonor": "art/drafts/canonical-face-v29/female-heads-v1/right-fine.png",
+      "canonicalDonorSHA256": "4329eb109b40d0d47de048b8256d681df95c711f11abc48b9f6be4a32b09dd77",
+      "invariants": {
+        "originalVisibleFineRGBAChanges": 0,
+        "originalVisibleCoarseRGBAChanges": 0,
+        "canonicalDonorOpaqueRGBAChanges": 0,
+        "allRestoredSourceAlphaAbove127": true,
+        "allTargetsOriginallyRuntimeTransparent": true,
+        "noAddedNonSourceRGBA": true,
+        "noChangeOutsideAuthoredPoints": true,
+        "rootAndFrameMetadataUnchanged": true
+      }
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "direction": "left",
+      "frameIndex": 1,
+      "status": "draft",
+      "fine": {
+        "target": "game/assets/interaction-v29/female-lowerReach-left-1-fine.png",
+        "beforeSHA256": "63edb00acc8147c9f7e14f2944d1b53da00a2a92a51d6ef0a8b0c27a9650b1c8",
+        "candidate": "verification/neck-retention-v30/candidates-v4/female-lowerReach-left-1-fine.png",
+        "candidateSHA256": "05f8a7b976dacac05999e9f766a602e9d16c23351b055f4e0d03b1232c9e3a3e",
+        "restoredPixels": [
+          {
+            "x": 32,
+            "y": 72,
+            "sourceRGBA": [
+              35,
+              16,
+              13,
+              253
+            ],
+            "previousRGBA": [
+              38,
+              14,
+              10,
+              53
+            ],
+            "restoredLowAlpha": true
+          },
+          {
+            "x": 32,
+            "y": 73,
+            "sourceRGBA": [
+              27,
+              6,
+              6,
+              253
+            ],
+            "previousRGBA": [
+              51,
+              23,
+              17,
+              45
+            ],
+            "restoredLowAlpha": true
+          },
+          {
+            "x": 32,
+            "y": 74,
+            "sourceRGBA": [
+              209,
+              104,
+              76,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 33,
+            "y": 74,
+            "sourceRGBA": [
+              208,
+              99,
+              71,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "restoredLowAlpha": true
+          },
+          {
+            "x": 33,
+            "y": 75,
+            "sourceRGBA": [
+              197,
+              102,
+              71,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 34,
+            "y": 75,
+            "sourceRGBA": [
+              216,
+              102,
+              74,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 34,
+            "y": 76,
+            "sourceRGBA": [
+              78,
+              34,
+              22,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 34,
+            "y": 77,
+            "sourceRGBA": [
+              84,
+              42,
+              29,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 34,
+            "y": 78,
+            "sourceRGBA": [
+              79,
+              59,
+              53,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 35,
+            "y": 78,
+            "sourceRGBA": [
+              238,
+              157,
+              125,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 36,
+            "y": 78,
+            "sourceRGBA": [
+              248,
+              141,
+              98,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 37,
+            "y": 78,
+            "sourceRGBA": [
+              245,
+              137,
+              93,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 37,
+            "y": 77,
+            "sourceRGBA": [
+              221,
+              102,
+              69,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 36,
+            "y": 77,
+            "sourceRGBA": [
+              232,
+              113,
+              78,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 36,
+            "y": 76,
+            "sourceRGBA": [
+              75,
+              33,
+              27,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 36,
+            "y": 75,
+            "sourceRGBA": [
+              61,
+              22,
+              19,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 35,
+            "y": 77,
+            "sourceRGBA": [
+              233,
+              114,
+              80,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 35,
+            "y": 76,
+            "sourceRGBA": [
+              233,
+              118,
+              84,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 35,
+            "y": 75,
+            "sourceRGBA": [
+              208,
+              96,
+              68,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 33,
+            "y": 73,
+            "sourceRGBA": [
+              26,
+              5,
+              7,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              2
+            ],
+            "restoredLowAlpha": true
+          },
+          {
+            "x": 33,
+            "y": 72,
+            "sourceRGBA": [
+              26,
+              8,
+              8,
+              253
+            ],
+            "previousRGBA": [
+              85,
+              0,
+              0,
+              3
+            ],
+            "restoredLowAlpha": true
+          }
+        ],
+        "existingNonzeroPixelsPreserved": []
+      },
+      "coarse": {
+        "target": "game/assets/interaction-v29/female-lowerReach-left-1.png",
+        "beforeSHA256": "2a49c096956af47908f05e0e0f06aabdabdafbf3bfe6b54f9880154b9a0cdb4b",
+        "candidate": "verification/neck-retention-v30/candidates-v4/female-lowerReach-left-1.png",
+        "candidateSHA256": "f9d14d8aa26be80d34603164cad47e70aeaebde78d71b551010e8544cd0e0d2d",
+        "restoredPixels": [
+          {
+            "x": 16,
+            "y": 36,
+            "sourceFine": [
+              33,
+              73
+            ],
+            "sourceRGBA": [
+              26,
+              5,
+              7,
+              253
+            ],
+            "previousRGBA": [
+              38,
+              14,
+              10,
+              53
+            ],
+            "restoredLowAlpha": true
+          },
+          {
+            "x": 16,
+            "y": 37,
+            "sourceFine": [
+              33,
+              75
+            ],
+            "sourceRGBA": [
+              197,
+              102,
+              71,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 17,
+            "y": 38,
+            "sourceFine": [
+              35,
+              77
+            ],
+            "sourceRGBA": [
+              233,
+              114,
+              80,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 18,
+            "y": 38,
+            "sourceFine": [
+              37,
+              77
+            ],
+            "sourceRGBA": [
+              221,
+              102,
+              69,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          }
+        ],
+        "existingNonzeroSamplesPreserved": [
+          {
+            "point": [
+              17,
+              37
+            ],
+            "originalRGBA": [
+              27,
+              7,
+              7,
+              242
+            ],
+            "fineSample": [
+              35,
+              75
+            ]
+          }
+        ]
+      },
+      "sourceRegistered": "verification/phone-action-audit/source-c8-a104-v30/registered-source-lower-female-left-1.png",
+      "sourceRegisteredSHA256": "d3ec5c9dc6ff74bb29d3d88ed6e598d22c27ac8c175e9ee64363909db4c5d46f",
+      "canonicalDonor": "art/drafts/canonical-face-v29/female-heads-v1/left-fine.png",
+      "canonicalDonorSHA256": "65fb9ba6df23d7e1bf5555240d44d14fcd5e35f86cbf2a2074cd170f2128df74",
+      "invariants": {
+        "originalVisibleFineRGBAChanges": 0,
+        "originalVisibleCoarseRGBAChanges": 0,
+        "canonicalDonorOpaqueRGBAChanges": 0,
+        "allRestoredSourceAlphaAbove127": true,
+        "allTargetsOriginallyRuntimeTransparent": true,
+        "noAddedNonSourceRGBA": true,
+        "noChangeOutsideAuthoredPoints": true,
+        "rootAndFrameMetadataUnchanged": true
+      }
+    },
+    {
+      "actorId": "human-female",
+      "family": "lowerReach",
+      "direction": "left",
+      "frameIndex": 2,
+      "status": "draft",
+      "fine": {
+        "target": "game/assets/interaction-v29/female-lowerReach-left-2-fine.png",
+        "beforeSHA256": "d0eda3168c11abc4470a55a7fb55a8c9a9324c9112997011a4dcfe84f3e3d998",
+        "candidate": "verification/neck-retention-v30/candidates-v4/female-lowerReach-left-2-fine.png",
+        "candidateSHA256": "1b3c623ed9c6c1c6ee9b06dc26c3f06b27606ae3c360fdfd10b37b147c8b9516",
+        "restoredPixels": [
+          {
+            "x": 35,
+            "y": 85,
+            "sourceRGBA": [
+              22,
+              5,
+              4,
+              253
+            ],
+            "previousRGBA": [
+              38,
+              14,
+              10,
+              53
+            ],
+            "restoredLowAlpha": true
+          },
+          {
+            "x": 35,
+            "y": 86,
+            "sourceRGBA": [
+              237,
+              114,
+              78,
+              253
+            ],
+            "previousRGBA": [
+              51,
+              23,
+              17,
+              45
+            ],
+            "restoredLowAlpha": true
+          },
+          {
+            "x": 36,
+            "y": 86,
+            "sourceRGBA": [
+              237,
+              119,
+              88,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              2
+            ],
+            "restoredLowAlpha": true
+          },
+          {
+            "x": 36,
+            "y": 87,
+            "sourceRGBA": [
+              233,
+              113,
+              80,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "restoredLowAlpha": true
+          },
+          {
+            "x": 36,
+            "y": 88,
+            "sourceRGBA": [
+              232,
+              115,
+              80,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 36,
+            "y": 89,
+            "sourceRGBA": [
+              235,
+              125,
+              86,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 37,
+            "y": 89,
+            "sourceRGBA": [
+              247,
+              135,
+              95,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 38,
+            "y": 89,
+            "sourceRGBA": [
+              248,
+              137,
+              98,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 39,
+            "y": 89,
+            "sourceRGBA": [
+              239,
+              143,
+              106,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 38,
+            "y": 88,
+            "sourceRGBA": [
+              234,
+              112,
+              78,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 37,
+            "y": 88,
+            "sourceRGBA": [
+              232,
+              116,
+              80,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 36,
+            "y": 85,
+            "sourceRGBA": [
+              21,
+              5,
+              6,
+              253
+            ],
+            "previousRGBA": [
+              85,
+              0,
+              0,
+              3
+            ],
+            "restoredLowAlpha": true
+          }
+        ],
+        "existingNonzeroPixelsPreserved": []
+      },
+      "coarse": {
+        "target": "game/assets/interaction-v29/female-lowerReach-left-2.png",
+        "beforeSHA256": "ce935b300352760934f3a36cf65f41a457461eed6899b2bc756c7b642baf89b7",
+        "candidate": "verification/neck-retention-v30/candidates-v4/female-lowerReach-left-2.png",
+        "candidateSHA256": "3d8723aafc2b3c37df279072400b31bc694cf6755c2872f234def7a0f26fbf55",
+        "restoredPixels": [
+          {
+            "x": 18,
+            "y": 44,
+            "sourceFine": [
+              37,
+              89
+            ],
+            "sourceRGBA": [
+              247,
+              135,
+              95,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          },
+          {
+            "x": 19,
+            "y": 44,
+            "sourceFine": [
+              39,
+              89
+            ],
+            "sourceRGBA": [
+              239,
+              143,
+              106,
+              253
+            ],
+            "previousRGBA": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "restoredLowAlpha": false
+          }
+        ],
+        "existingNonzeroSamplesPreserved": [
+          {
+            "point": [
+              17,
+              42
+            ],
+            "originalRGBA": [
+              229,
+              123,
+              85,
+              253
+            ],
+            "fineSample": [
+              35,
+              85
+            ]
+          }
+        ]
+      },
+      "sourceRegistered": "verification/phone-action-audit/source-c8-a104-v30/registered-source-lower-female-left-2.png",
+      "sourceRegisteredSHA256": "b43a6cdbd21f43956a69507b9bde2298d89d69e5c7eac0350b97220a23d1b58a",
+      "canonicalDonor": "art/drafts/canonical-face-v29/female-heads-v1/left-fine.png",
+      "canonicalDonorSHA256": "65fb9ba6df23d7e1bf5555240d44d14fcd5e35f86cbf2a2074cd170f2128df74",
+      "invariants": {
+        "originalVisibleFineRGBAChanges": 0,
+        "originalVisibleCoarseRGBAChanges": 0,
+        "canonicalDonorOpaqueRGBAChanges": 0,
+        "allRestoredSourceAlphaAbove127": true,
+        "allTargetsOriginallyRuntimeTransparent": true,
+        "noAddedNonSourceRGBA": true,
+        "noChangeOutsideAuthoredPoints": true,
+        "rootAndFrameMetadataUnchanged": true
+      }
+    }
+  ],
+  "totals": {
+    "frames": 7,
+    "restoredFinePixels": 101,
+    "restoredLowAlphaFinePixels": 13,
+    "restoredLowAlphaCoarsePixels": 1,
+    "preservedNonzeroFineCandidates": 0,
+    "restoredCoarsePixels": 18,
+    "donorOpaqueRGBAChanges": 0,
+    "originalVisibleRGBAChanges": 0,
+    "productionWrites": 0
+  },
+  "artReview": {
+    "checked": true,
+    "scope": "Limited literal-source7A collar repair101fine/18coarse; existing visible RGBA/donor unchanged; runtime assembly separate",
+    "evidence": [
+      "verification/neck-retention-v30/candidates-v4/before-after-contact.png",
+      "verification/neck-retention-v30/root-approval-receipt.json"
+    ]
+  },
+  "rootReceiptSHA256": "6ec51d13b946636cf495b6d73bdc01df355fde0fe66bd6f4b1252295d0683b87"
+}

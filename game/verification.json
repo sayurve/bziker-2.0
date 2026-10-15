@@ -1,0 +1,2609 @@
+{
+  "date": "2026-10-11",
+  "timezone": "Europe/Moscow",
+  "version": "19",
+  "status": "PASS within exact provided city and five public interior scenes, native depth/collision geometry, source asset integration, browser responsive checks and preserved progress scope",
+  "scope": "Whole original city PNG and five whole original public interiors; native silhouette foreground, original-pixel physical geometry, current source actor atlases and UI; private base editor retained.",
+  "map_sha256": "a548c872ebfa973e3830418daf4f3b72a926647963350cb1993838ba2c8ed02b",
+  "collision_file_sha256": "c4491dfd3163a5f3f916b3977f3e3002e37d982474fdc858db30ad69d4224a3f",
+  "collision_count": 887,
+  "automated": {
+    "javascript": {
+      "tests": 562,
+      "passed": 562,
+      "failed": 0,
+      "skipped": 0,
+      "log": "docs/source-design-v19/javascript-tests.log"
+    },
+    "python": {
+      "tests": 280,
+      "passed": 280,
+      "failed": 0,
+      "log": "docs/source-design-v19/python-tests.log"
+    }
+  },
+  "visual": {
+    "city": {
+      "source_file": "source-reference/01_Окружение/Карта_города/Квадраты_карты/Карта_исходная.png",
+      "import_file": "assets/design-70dd7a15e86a16f486c7-1536.png",
+      "render_file": "docs/source-design-v19/city-overview.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "decoded_pixels_equal": true,
+      "source_png_sha256": "70dd7a15e86a16f486c7a181200607cb4b96ab5e63a3914b6af57d5864beb179",
+      "source_rgba_sha256": "6ce93aec115c07e555d9d9e56786b8dab7a85b7f940e544835049aa360d11436",
+      "render_rgba_sha256": "6ce93aec115c07e555d9d9e56786b8dab7a85b7f940e544835049aa360d11436",
+      "viewport_and_minimap_regressions": "tests/exact-city-scene-v19.test.mjs",
+      "import_png_sha256": "204425b2679c2a9ba10b3553d34ef574849af43a7bc01c40247f576e099047bb",
+      "import_decoded_pixels_equal": true,
+      "map_sha256": "a548c872ebfa973e3830418daf4f3b72a926647963350cb1993838ba2c8ed02b",
+      "foreground_nodes": 727
+    },
+    "public_interiors": {
+      "comparison": "Native Canvas 1536x1024 rasterization, standard alpha premultiplication; hidden RGB in transparent PNG pixels is not a visual pixel.",
+      "all_five_equal": true,
+      "scenes": [
+        {
+          "scene": "station",
+          "source_file": "01_Окружение/Здания/ЖД_вокзал/Интерьер/основной.png",
+          "runtime_file": "/assets/design-exact-interior-9480a82f7561631ef0c2.png",
+          "render_file": "docs/source-design-v19/railway.png",
+          "native_canvas_pixels_equal": true,
+          "runtime_byte_identical": true,
+          "source_canvas_rgba_sha256": "df462a256c6bb68dd84b27806b51d40ded6bdfeaae9f5785daf3c47a31a66b1b",
+          "render_canvas_rgba_sha256": "df462a256c6bb68dd84b27806b51d40ded6bdfeaae9f5785daf3c47a31a66b1b"
+        },
+        {
+          "scene": "casino",
+          "source_file": "01_Окружение/Здания/Казино/Интерьер/основной.png",
+          "runtime_file": "/assets/design-exact-interior-2287fd0d4da617483bbb.png",
+          "render_file": "docs/source-design-v19/casino.png",
+          "native_canvas_pixels_equal": true,
+          "runtime_byte_identical": true,
+          "source_canvas_rgba_sha256": "b6a09feaf48f6630453dce1ba98142c0b289d6ec4015c811bdb64eac21acead6",
+          "render_canvas_rgba_sha256": "b6a09feaf48f6630453dce1ba98142c0b289d6ec4015c811bdb64eac21acead6"
+        },
+        {
+          "scene": "clothing",
+          "source_file": "01_Окружение/Здания/Магазин_одежды/Интерьер/основной.png",
+          "runtime_file": "/assets/design-exact-interior-323285bfc425b841137b.png",
+          "render_file": "docs/source-design-v19/profile.png",
+          "native_canvas_pixels_equal": true,
+          "runtime_byte_identical": true,
+          "source_canvas_rgba_sha256": "ca35e28e6749bf040aeac369455dd08df4b341addd242f2c37817597c919d75d",
+          "render_canvas_rgba_sha256": "ca35e28e6749bf040aeac369455dd08df4b341addd242f2c37817597c919d75d"
+        },
+        {
+          "scene": "bar",
+          "source_file": "01_Окружение/Здания/Бар_Пивковый_туз/Интерьер/основной.png",
+          "runtime_file": "/assets/design-exact-interior-c396520e0f9f6862a2ec.png",
+          "render_file": "docs/source-design-v19/messages.png",
+          "native_canvas_pixels_equal": true,
+          "runtime_byte_identical": true,
+          "source_canvas_rgba_sha256": "23252656d1e5d178ef078ff9cc707d0a39a0c079e0408cbb13c4334ac37554ff",
+          "render_canvas_rgba_sha256": "23252656d1e5d178ef078ff9cc707d0a39a0c079e0408cbb13c4334ac37554ff"
+        },
+        {
+          "scene": "hub",
+          "source_file": "01_Окружение/Здания/ТЦ_Бзик_хаб/Интерьер/основной.png",
+          "runtime_file": "/assets/design-exact-interior-eca02e09e5dc4b19dc66.png",
+          "render_file": "docs/source-design-v19/arena.png",
+          "native_canvas_pixels_equal": true,
+          "runtime_byte_identical": true,
+          "source_canvas_rgba_sha256": "19b5916e7822b490d0cb8d8227ae442f7c96fa86e6d3130d17fe75e2687070a8",
+          "render_canvas_rgba_sha256": "19b5916e7822b490d0cb8d8227ae442f7c96fa86e6d3130d17fe75e2687070a8"
+        }
+      ]
+    },
+    "actor_visibility": "docs/source-design-v19/actor-visibility.json"
+  },
+  "http": {
+    "routes": 111,
+    "unique_files": 55,
+    "art_files": 994,
+    "failed": 0
+  },
+  "browser": {
+    "date": "2026-10-11",
+    "oneExistingTab": true,
+    "newTabsOpened": 0,
+    "desktop": {
+      "width": 1365,
+      "height": 900,
+      "keyboardMovementObserved": true
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "horizontalOverflow": false,
+      "joystickMovementObserved": true,
+      "inventorySlots": 10,
+      "phonePositionPreserved": true,
+      "phonePose": "phone",
+      "telephoneDecorationClippedToViewport": true
+    },
+    "actualPhysicalPhoneTest": false,
+    "hundredPlayersLoadTest": false,
+    "screenshots": [
+      "desktop-city.png",
+      "desktop-interior.png",
+      "desktop-map.png",
+      "mobile-city.png",
+      "mobile-map.png",
+      "mobile-phone.png",
+      "mobile-inventory.png"
+    ],
+    "final_geometry_sha256": "a548c872ebfa973e3830418daf4f3b72a926647963350cb1993838ba2c8ed02b",
+    "final_reload_utc": "2026-10-11T01:09:35.311Z",
+    "fresh_console_errors": [],
+    "viewport_override_reset": true,
+    "final_url": "http://127.0.0.1:8791/",
+    "lighting_mode_restored": "auto"
+  },
+  "preserved_state": {
+    "clone_business_tables": 33,
+    "clone_business_rows": 159,
+    "all_clone_business_rows_unchanged": true,
+    "source_backup_bytes_unchanged": true,
+    "live_identical_tables": 31,
+    "live_tables": 37,
+    "integrity": "ok",
+    "report": "docs/source-design-v19/progress-preservation.json"
+  },
+  "limitations": [
+    "Only five distinct complete public interior scenes were provided; eleven room IDs reuse them as explicitly mapped in exact-interior-scenes.json.",
+    "The whole source city fixes its facade artwork; house model and color choices are retained in the catalog/profile, not redrawn over the original city.",
+    "Static people, vehicles and details included in the city PNG remain source artwork; imported images do not alone implement new game mechanics.",
+    "No actual physical phone or 100-player load test; responsive UI was checked at 390x844 and 1365x900 in the existing browser tab.",
+    "Live Telegram and HTTPS deployment have not been performed."
+  ],
+  "report": "docs/source-design-v19/verification.md",
+  "historical_v16": {
+    "date": "2026-10-10",
+    "timezone": "Europe/Moscow",
+    "version": "16",
+    "status": "PASS within automated four-direction furniture, rendering and server scope; live browser validation unavailable",
+    "scope": "Four independently drawn furniture views, editor touch handlers and R, placement/collision validation, rotated seating layers, persistence and legacy compatibility",
+    "telegram_live": false,
+    "https_deployed": false,
+    "automated": {
+      "javascript": {
+        "tests": 420,
+        "passed": 420,
+        "failed": 0,
+        "skipped": 0,
+        "log": "docs/furniture-rotation-v16-js.log"
+      },
+      "python": {
+        "tests": 244,
+        "passed": 244,
+        "failed": 0,
+        "log": "docs/furniture-rotation-v16-python.log"
+      },
+      "independent_review": {
+        "focused_tests": 82,
+        "passed": 82,
+        "open_confirmed_issues": 0,
+        "corrected": [
+          "preview clipping",
+          "seated avatar occlusion and rear-facing visual anchor",
+          "legacy foreground mismatch"
+        ]
+      },
+      "live_static_smoke": {
+        "linked_modules": 33,
+        "catalog_directions": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "url": "http://127.0.0.1:8791/"
+      }
+    },
+    "art": {
+      "furniture_types": 15,
+      "facings_per_type": 4,
+      "upright_pixel_art": true,
+      "seated_head_cases": 48,
+      "head_samples": 64,
+      "seated_composition_avatars": 32,
+      "sheets": [
+        "assets/furniture-rotation-v16-1.png",
+        "assets/furniture-rotation-v16-2.png",
+        "assets/furniture-rotation-v16-3.png"
+      ],
+      "seated": "assets/furniture-seated-v16.png",
+      "independent_world_render": "assets/furniture-rotation-world-v16.png"
+    },
+    "browser": {
+      "new_tabs_opened": 0,
+      "live_ui_checked": false,
+      "limitation": "Existing in-app browser tabs could not attach for control; no actual touch, live layout or browser screenshot verification this turn.",
+      "viewport_override_set": false
+    },
+    "saved_state": {
+      "database_integrity": "ok",
+      "business_tables_checked": 6,
+      "unchanged_after_restart": true,
+      "main_database": "data/first-prototype.db",
+      "private_fingerprints": "data/before-furniture-v16.json"
+    },
+    "report": "docs/furniture-rotation-v16.md",
+    "historical_v15": {
+      "date": "2026-10-10",
+      "timezone": "Europe/Moscow",
+      "version": "15",
+      "status": "PASS within whole-frame run slideshow, source preservation, customization and movement scope",
+      "scope": "Four complete supplied movement frames per direction, shared uniform scale, unclipped stride and existing customization/action behavior",
+      "telegram_live": false,
+      "https_deployed": false,
+      "automated": {
+        "javascript": {
+          "tests": 404,
+          "passed": 404,
+          "failed": 0,
+          "skipped": 0,
+          "log": "docs/run-slideshow-v15-tests.txt"
+        },
+        "source_builder": {
+          "byteExactOriginalCopies": 2,
+          "normalizedFrames": 20,
+          "pointSamples": 61440,
+          "walkingBodyPointSamples": 0,
+          "allPaletteEntriesUsed": true,
+          "alphaThreshold": 64
+        },
+        "independent_review": {
+          "focused_tests": 25,
+          "passed": 25,
+          "found_issue": "Old SVG CSS aspect ratio5:8 did not match48:64. Corrected to3:4; browser computed dimensions checked.",
+          "open_confirmed_issues": 0
+        },
+        "backend": "Not rerun for this rendering-only change; previous backend checks are historical below."
+      },
+      "art": {
+        "original_assets_byte_preserved": 2,
+        "sources": {
+          "idle": {
+            "url": "/assets/actor-reference-idle-v14.png",
+            "width": 1881,
+            "height": 836,
+            "sha256": "ac03cc8f6ed7bceeedafabb1eb365c1e69b389df1855537fad1da7c2265addbe",
+            "alpha": {
+              "transparent": 965175,
+              "lowFringe": 32634,
+              "visible": 574707,
+              "distinctValues": 256
+            }
+          },
+          "walk": {
+            "url": "/assets/actor-reference-walk-v14.png",
+            "width": 1254,
+            "height": 1254,
+            "sha256": "a4f3bd65e1aebbe2529fa198c0e30fcd8d92c0cc9276ca54c4c7037b5d18543d",
+            "alpha": {
+              "transparent": 1023610,
+              "lowFringe": 90976,
+              "visible": 457930,
+              "distinctValues": 256
+            }
+          }
+        },
+        "provided_walk_frames": 16,
+        "geometry": {
+          "width": 48,
+          "height": 64,
+          "anchorX": 24,
+          "anchorY": 63,
+          "walkFrames": 8,
+          "sourceWalkFrames": 4
+        },
+        "palette_colors": 8493,
+        "whole_frame_rendering": true,
+        "uniform_scale_shared_across_all_walk_frames": true,
+        "head_body_assembly_removed": true,
+        "neighbour_source_cell_clipped": true,
+        "source_frame_order": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "internal_held_samples": [
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ],
+        "female_run": "Whole source pose, uniformly shortened3px with narrower waist and shared ground contact",
+        "contact": "docs/run-slideshow-v15.png",
+        "animation": "docs/run-slideshow-v15.gif",
+        "customization": "docs/run-customization-v15.png"
+      },
+      "browser": {
+        "one_existing_tab": true,
+        "new_tabs_opened": 0,
+        "dimensions": [
+          [
+            390,
+            844
+          ],
+          [
+            1280,
+            900
+          ]
+        ],
+        "actual_key_movement": [
+          "right",
+          "down",
+          "left",
+          "up"
+        ],
+        "screen_joystick": "Held rightward input moved the character; nearby interaction changed",
+        "console_errors_and_warnings": [],
+        "portrait": {
+          "viewBox": "0 0 48 64",
+          "computed_aspect_ratio": "3 / 4",
+          "width": 58,
+          "height": 77.328125
+        },
+        "mobile": "screenshots/v15-running-mobile.png",
+        "desktop": "screenshots/v15-running-desktop.png",
+        "motion_capture": "screenshots/v15-running-closeup.gif",
+        "all_directions": "docs/run-browser-directions-v15.png",
+        "temporary_viewport_override": "reset after testing"
+      },
+      "report": "docs/run-slideshow-v15.md",
+      "historical_v14": {
+        "date": "2026-10-10",
+        "timezone": "Europe/Moscow",
+        "version": "14",
+        "status": "PASS within documented source atlas, customization, action pose, responsive UI and saved-state scope",
+        "scope": "Canonical supplied male idle and movement sprites; slightly shorter/narrower female; hair-only atlases; shared source-textured gameplay poses",
+        "telegram_live": false,
+        "https_deployed": false,
+        "automated": {
+          "javascript": {
+            "tests": 400,
+            "passed": 400,
+            "failed": 0,
+            "skipped": 0,
+            "log": "docs/character-source-v14-node.txt"
+          },
+          "backend_inventory_regression": {
+            "tests": 2,
+            "passed": 2,
+            "failed": 0,
+            "log": "docs/character-source-v14-backend.txt"
+          },
+          "syntax": {
+            "js_syntax": 32,
+            "json_syntax": 10,
+            "diff_whitespace": "PASS"
+          },
+          "independent_review": {
+            "focused_tests": 117,
+            "passed": 117,
+            "seated_phone_action_cases": 384,
+            "held_item_walking_cases": 64,
+            "report": "docs/v14-review.md",
+            "open_confirmed_p1_p2": 0
+          }
+        },
+        "art": {
+          "original_assets_byte_preserved": 2,
+          "male_directions": 4,
+          "provided_walk_frames": 16,
+          "normalized_source_samples": 51200,
+          "walk_body_samples": 40960,
+          "grid": [
+            40,
+            64
+          ],
+          "ground_anchor": [
+            20,
+            63
+          ],
+          "male_opaque_idle_height": 62,
+          "female_opaque_idle_height": 59,
+          "female_waist_scale": 0.88,
+          "female_moving_body_scale": 0.86,
+          "hair_style_ids": 12,
+          "new_hair_direction_masks": 44,
+          "source_audit": "docs/v14-source-atlas-audit.md",
+          "generation_provenance": "docs/v14-art-prompts.md",
+          "full_contact": "docs/v14-character-contact-sheet.png",
+          "pose_contact": "docs/v14-poses-contact.png",
+          "female_provenance": "generated from supplied reference, then normalized; not pixel-identical male source"
+        },
+        "browser": {
+          "one_existing_tab": true,
+          "new_tabs_opened": 0,
+          "dimensions": [
+            [
+              320,
+              740
+            ],
+            [
+              390,
+              844
+            ],
+            [
+              1280,
+              900
+            ]
+          ],
+          "horizontal_overflow": false,
+          "catalog_body_viewbox": "0 0 40 64",
+          "nickname_read_only": true,
+          "seated_phone_retains_stand_action": true,
+          "desktop_keyboard_movement_observed": true,
+          "main_game_returned_to": "http://127.0.0.1:8791/",
+          "temporary_viewport_reset": true,
+          "console_errors_or_warnings_at_final_observation": 0,
+          "screenshots": [
+            "docs/v14-mobile-female.png",
+            "docs/v14-mobile-320.png",
+            "docs/v14-desktop-catalog.png",
+            "docs/v14-seated-phone-browser.png",
+            "docs/v14-main-game.png"
+          ],
+          "limits": "Responsive browser dimensions are emulated windows, not a physical-device performance measurement; no claim that every game bug is absent."
+        },
+        "saved_state": {
+          "database_integrity": "ok",
+          "business_tables_checked": 10,
+          "unchanged": true,
+          "before_snapshot": "private runtime state under data/; excluded from delivery",
+          "fixture_game_used_for_actions": true,
+          "main_balance_preserved": 35,
+          "main_inventory_preserved": true
+        },
+        "report": "docs/character-source-v14.md",
+        "delivery_archive": {
+          "file": "bziker-city-v14.zip",
+          "crc": "PASS",
+          "included_source_byte_matches": "PASS",
+          "excluded_private_runtime_state": "PASS",
+          "fresh_extracted_server": "PASS",
+          "authenticated_construction_persistence_checks": 56,
+          "water_boat_pet_http_checks": 143,
+          "smoke_routes": [
+            "bootstrap",
+            "profile",
+            "railway world spawn",
+            "zero wallet",
+            "quest claim",
+            "shop purchase and shared drink action",
+            "12 roaming animals",
+            "friends",
+            "phone",
+            "card room start and settlement",
+            "all11 public interiors entry/seat/exit",
+            "all52 shared room seats in geometry",
+            "static modules/assets"
+          ]
+        },
+        "previous_iteration": {
+          "date": "2026-10-10",
+          "timezone": "Europe/Moscow",
+          "version": "13",
+          "status": "PASS within documented character redraw, pose, icon and responsive browser scope",
+          "scope": "Shared reference-directed character redraw and colorful separate ten-slot inventory",
+          "telegram_live": false,
+          "https_deployed": false,
+          "automated": {
+            "javascript": {
+              "tests": 389,
+              "passed": 389,
+              "failed": 0,
+              "skipped": 0,
+              "log": "docs/character-inventory-v13-node.txt"
+            },
+            "backend_inventory_regression": {
+              "tests": 2,
+              "passed": 2,
+              "failed": 0,
+              "log": "docs/character-inventory-v13-backend.txt"
+            },
+            "syntax": {
+              "javascript": 28,
+              "json": 9
+            }
+          },
+          "art": {
+            "reference_comparison": "docs/v13-reference-candidate.png",
+            "all_saved_hair_gender_direction_skin_contact": "docs/v13-character-catalog-audit.png",
+            "walk_contact": "docs/character-walk-v13-contact.png",
+            "action_contact": "docs/actor-actions-v13-contact.png",
+            "icons": "docs/inventory-v13-icons.png",
+            "art_review": "docs/v13-reference-art-direction.md",
+            "reference_input": "Two supplied screenshots; observed visual qualities reproduced in authored native pixels. No complete source sprite atlas was supplied."
+          },
+          "browser": {
+            "one_existing_tab": true,
+            "dimensions": [
+              [
+                320,
+                740
+              ],
+              [
+                390,
+                844
+              ],
+              [
+                568,
+                320
+              ],
+              [
+                1280,
+                800
+              ]
+            ],
+            "minimum_measured_slot_touch_target": [
+              49,
+              48
+            ],
+            "layout_measurements": "docs/character-inventory-v13-browser/layouts.json",
+            "phone_open_during_inventory": false,
+            "fixture_item_use": "Snack4 -> snack3 only after separate Eat button",
+            "fixture_catalog": "front and right preview, hairstyle tiles",
+            "screenshots": "docs/character-inventory-v13-browser/",
+            "main_console_warnings_errors": [],
+            "fixture_console_warnings_errors": [],
+            "original_local_entry_restored": true,
+            "final_runtime_address": "http://127.0.0.1:8791/",
+            "viewport_override_restored": true
+          },
+          "live_database": {
+            "integrity": "ok",
+            "business_tables_unchanged": 10,
+            "balance": 35,
+            "coffee_quantity": 1,
+            "backup": "data/before-city-v13-20261010.db"
+          },
+          "review": "docs/v13-review.md",
+          "geometry": {
+            "unchanged_from_version": 12,
+            "map_sha256": "fad366ab9a314ce510d0af6d03d5f81d9f71efcbcdfaf156834aebbb6b9efd8f",
+            "prior_spatial_checks": "docs/city-v12-spatial.json"
+          },
+          "limits": [
+            "Visual equivalence is assessed against supplied screenshots, not a full reference sprite atlas.",
+            "Physical-phone FPS, Telegram keyboard and 100 real concurrent devices were not measured in this iteration.",
+            "Live Telegram and HTTPS deployment pending."
+          ],
+          "previous_iteration": {
+            "date": "2026-10-10",
+            "timezone": "Europe/Moscow",
+            "version": "12",
+            "status": "PASS within documented regression, geometry and browser scope",
+            "scope": "Approved city polish, physical prop collisions, staged actions and separate ten-slot inventory",
+            "telegram_live": false,
+            "https_deployed": false,
+            "automated": {
+              "javascript": {
+                "tests": 381,
+                "passed": 381,
+                "failed": 0,
+                "log": "docs/city-v12-node-final.txt"
+              },
+              "python": {
+                "tests": 232,
+                "passed": 232,
+                "failed": 0,
+                "log": "docs/city-v12-python-final.txt"
+              },
+              "syntax": {
+                "javascript": 28,
+                "python": 11,
+                "json": 7
+              }
+            },
+            "geometry": {
+              "map_sha256": "fad366ab9a314ce510d0af6d03d5f81d9f71efcbcdfaf156834aebbb6b9efd8f",
+              "shared_footprints": 671,
+              "connected_frontages": 27,
+              "parking_pockets": 27,
+              "spatial_report": "docs/city-v12-spatial.json",
+              "curb_samples_per_mode": 21216,
+              "native_curb_failures": 0,
+              "native_curb_report": "docs/curb-v12-native.json"
+            },
+            "browser": {
+              "one_existing_tab": true,
+              "fixture_database_only_for_mutations": true,
+              "dimensions": [
+                [
+                  390,
+                  844
+                ],
+                [
+                  320,
+                  740
+                ],
+                [
+                  568,
+                  320
+                ],
+                [
+                  1280,
+                  800
+                ]
+              ],
+              "actions": [
+                "select/use food",
+                "ten slots separate from phone",
+                "seated inventory retains sit",
+                "phone while seated",
+                "four-view avatar preview (back selected)",
+                "main game restored; balance35; coffee selected without consumption"
+              ],
+              "minimum_measured_slot_touch_target": [
+                48.59,
+                48
+              ],
+              "screenshots": "docs/city-v12-browser/",
+              "main_console_warnings_errors": [],
+              "final_runtime_address": "http://127.0.0.1:8791/",
+              "viewport_override_restored": true
+            },
+            "live_database": {
+              "integrity": "ok",
+              "business_tables_unchanged": 10,
+              "backup": "data/before-city-v12-20261010.db"
+            },
+            "limitations": [
+              "Physical phone and Telegram keyboard not tested",
+              "100 simultaneous browser clients and FPS not measured",
+              "No new full multiplayer browser match in this iteration; existing game server and UI regression tests passed"
+            ],
+            "previous_iteration": {
+              "date": "2026-10-09",
+              "timezone": "Europe/Moscow",
+              "version": "11",
+              "status": "PASS within documented whole-map pavement, placement and arrival scope",
+              "scope": "All-map pavement joins, six landscaped sectors, shorter railway arrival and station animal routes. Existing gameplay regression suites remain passing.",
+              "telegram_live": false,
+              "https_deployed": false,
+              "automated": {
+                "python": {
+                  "command": "python3 -m unittest discover -s tests",
+                  "passed": 223,
+                  "failed": 0,
+                  "log": "docs/city-v11-python.txt"
+                },
+                "javascript": {
+                  "command": "node --test tests/*.test.mjs",
+                  "passed": 328,
+                  "failed": 0,
+                  "skipped": 0,
+                  "log": "docs/city-v11-node.txt"
+                },
+                "total_passed": 551,
+                "module_syntax": {
+                  "javascript_modules": 22,
+                  "python_modules": 11,
+                  "json_files": 7,
+                  "syntax": "PASS"
+                },
+                "git_diff_check": "PASS",
+                "regression_reproduction": [
+                  "docs/curb-v11-before-tests.txt",
+                  "docs/station-v11-before.txt",
+                  "docs/fields-v11-before-tests.txt",
+                  "docs/fields-v11-animal-before-tests.txt"
+                ]
+              },
+              "geometry": {
+                "map": [
+                  8400,
+                  5200
+                ],
+                "authored_routes": 27,
+                "door_approaches": 19,
+                "road_junctions": 6,
+                "public_path_vertices": 21,
+                "square_corners": 8,
+                "join_comparison_views_per_renderer": 35,
+                "complete_map_sector_images": 6,
+                "previous_affected_surfaces": 12,
+                "native_after_samples": 84864,
+                "native_after_inner_curbs": 0,
+                "independent_asphalt_samples": 5904,
+                "independent_asphalt_overpaint": 0,
+                "trees": 420,
+                "new_trees": 330,
+                "existing_trees_retained": 90,
+                "existing_trees_relocated": 8,
+                "lamps": 105,
+                "interactive_bins": 20,
+                "street_details": 68,
+                "new_flower_planters": 10,
+                "benches": 11,
+                "bench_seats": 22,
+                "facade_plantings": 32,
+                "bike_racks": 9,
+                "new_prop_collision": "Decorative props use authored depth and visible bounds; no new movement solids.",
+                "source_sha256": {
+                  "web/city-ground.js": "57c2e26792f8fba43d138092834e013d9f1293922db80fe09a2de479ecc6faab",
+                  "web/road-topology.js": "f13ccdf92f6d092ee7fdcc0c931626c157041aafafcb961204bab4d0c81a4b45",
+                  "web/world-map.json": "29d42c3c05d02e065373433a336d88a98de409228058751b292d738904d08899"
+                },
+                "source_unchanged_during_native_audit": true,
+                "reports": [
+                  "docs/curb-v11.md",
+                  "docs/fields-v11.md",
+                  "docs/city-v11.md"
+                ]
+              },
+              "arrival": {
+                "station_building_x": 3100,
+                "station_door": [
+                  3360,
+                  2575
+                ],
+                "spawn": [
+                  3360,
+                  2610
+                ],
+                "points": [
+                  [
+                    3360,
+                    2610
+                  ],
+                  [
+                    3650,
+                    2610
+                  ],
+                  [
+                    4050,
+                    2650
+                  ],
+                  [
+                    4700,
+                    2610
+                  ]
+                ],
+                "walking_seconds": 7.81,
+                "distance_world_units": 1343.224631,
+                "speed_world_units_per_second": 172,
+                "previous_walking_seconds": 23.0,
+                "world_schema_version": 5,
+                "valid_existing_saved_positions_preserved": true,
+                "animals": 12,
+                "continuous_animal_segments_checked": 48,
+                "station_routes_moved": 2
+              },
+              "browser": {
+                "reused_tabs": 1,
+                "new_tabs_created": 0,
+                "fixture": "Temporary profile and SQLite; original account then restored on 127.0.0.1:8791.",
+                "viewport_cases": [
+                  [
+                    1280,
+                    800
+                  ],
+                  [
+                    390,
+                    844
+                  ],
+                  [
+                    320,
+                    740
+                  ]
+                ],
+                "checks": [
+                  "day smoking platform and path",
+                  "keyboard movement near smoking path",
+                  "new railway spawn via map",
+                  "walk from railway to welcome sign",
+                  "320px width without horizontal overflow"
+                ],
+                "console_warnings_errors": 0,
+                "log": "docs/city-v11-browser-log.json",
+                "viewport_reset": true,
+                "original_account_restored": true,
+                "original_wallet_balance": 35,
+                "screenshots": [
+                  "docs/city-v11-smoking-desktop.png",
+                  "docs/city-v11-station-mobile.png",
+                  "docs/city-v11-arrival-walk-mobile.png",
+                  "docs/city-v11-welcome-mobile.png",
+                  "docs/city-v11-smoking-320.png",
+                  "docs/city-v11-main-restored.png"
+                ]
+              },
+              "persistence": {
+                "integrity": "ok",
+                "business_tables_unchanged": 10,
+                "live_business_mutations_for_test": 0,
+                "private_runtime_state_excluded_from_archive": true
+              },
+              "independent_review": {
+                "mandatory_findings": 0,
+                "targeted_javascript_passed": 30,
+                "targeted_python_passed": 1
+              },
+              "running": {
+                "url": "http://127.0.0.1:8791/",
+                "host": "127.0.0.1",
+                "temporary_preview_stopped": true
+              },
+              "limits": [
+                "Physical phones were not tested.",
+                "No measured FPS or 100 simultaneous browser clients.",
+                "Sector images use native renderer and synthetic built clan houses; not saved live clans.",
+                "The audit covers current authored routes and geometry, not every possible future state."
+              ],
+              "previous_version": {
+                "date": "2026-10-09",
+                "timezone": "Europe/Moscow",
+                "version": "10",
+                "status": "PASS within documented motion and environment scope",
+                "scope": "Stable shared actor rendering, grounded walking, ordinary peer interpolation, denser authored street props, whole-map sector review and three browser viewport sizes.",
+                "telegram_live": false,
+                "https_deployed": false,
+                "automated": {
+                  "python": {
+                    "command": "python3 -m unittest discover -s tests",
+                    "passed": 222,
+                    "failed": 0,
+                    "log": "docs/city-v10-python.txt"
+                  },
+                  "javascript": {
+                    "command": "node --test tests/*.test.mjs",
+                    "passed": 315,
+                    "failed": 0,
+                    "skipped": 0,
+                    "log": "docs/city-v10-node.txt"
+                  },
+                  "total_passed": 537,
+                  "module_syntax": {
+                    "javascript_modules": 22,
+                    "python_modules": 11,
+                    "json_files": 7,
+                    "syntax": "PASS"
+                  },
+                  "git_diff_check": "PASS",
+                  "regression_reproduction": [
+                    "docs/motion-v10-before-tests.txt",
+                    "docs/walk-v10-before-tests.txt",
+                    "docs/peer-v10-before-tests.txt",
+                    "docs/actor-v10-before-tests.txt"
+                  ]
+                },
+                "motion": {
+                  "native_pixel_comparison": "docs/motion-v10-after.json",
+                  "source_sha256": {
+                    "avatar.js": "e47e882a539acb1f1b24e611a878a40d1e69e5f818e75cff0234efce6ae4e158",
+                    "world.js": "1ea51a4af510a9c3f6eaf9b22236b5a4f5c805a6350b1407699f41018d78a8dc",
+                    "walk-cycle.js": "d315d51cebb8ffd39c29bb139fd2e1afbd349e6d9068b574c6d15fb7cdf88ec0"
+                  },
+                  "stable_sprite_groups": 96,
+                  "stable_full_actor_groups": 192,
+                  "fractional_positions_per_group": 60,
+                  "physical_scales": [
+                    1,
+                    2,
+                    3
+                  ],
+                  "directions": 4,
+                  "walk_phases": 8,
+                  "walk_cycle_world_units": 128,
+                  "native_renders_including_baseline": 34785,
+                  "failures": 0,
+                  "report": "docs/motion-v10-audit.md"
+                },
+                "geometry": {
+                  "map": [
+                    8400,
+                    5200
+                  ],
+                  "authored_routes": 27,
+                  "door_approaches": 19,
+                  "complete_map_sector_images": 6,
+                  "lamps": 116,
+                  "interactive_bins": 20,
+                  "new_street_planters": 41,
+                  "new_bollards": 23,
+                  "new_guide_signs": 5,
+                  "added_objects": 188,
+                  "preserved_trees": 90,
+                  "preserved_benches": 11,
+                  "preserved_bench_seats": 22,
+                  "preserved_facade_plantings": 32,
+                  "preserved_bike_racks": 9,
+                  "new_prop_collision": "Decorative props use authored depth and visible bounds; no new movement solids.",
+                  "report": "docs/environment-v10.md"
+                },
+                "browser": {
+                  "reused_tabs": 1,
+                  "new_tabs_created": 0,
+                  "fixture": "temporary profile and SQLite; then original account restored",
+                  "viewports": [
+                    [
+                      390,
+                      844
+                    ],
+                    [
+                      320,
+                      740
+                    ],
+                    [
+                      1280,
+                      800
+                    ]
+                  ],
+                  "checked": [
+                    "canonical railway route right walking",
+                    "slow joystick actual UI input",
+                    "park walking",
+                    "sit then open phone without relocation",
+                    "320px controls in viewport without document overflow",
+                    "day centre and night park",
+                    "original game restored and temporary viewport reset"
+                  ],
+                  "console_errors": 0,
+                  "console_warnings": 0,
+                  "console_log": "docs/city-v10-browser-log.json",
+                  "screenshots": [
+                    "docs/city-v10-station-mobile.png",
+                    "docs/city-v10-joystick-mobile.png",
+                    "docs/city-v10-park-320.png",
+                    "docs/city-v10-phone-seat-320.png",
+                    "docs/city-v10-park-night-320.png",
+                    "docs/city-v10-centre-desktop.png",
+                    "docs/city-v10-main-restored.png"
+                  ]
+                },
+                "live_database": {
+                  "integrity": "ok",
+                  "business_tables_unchanged": 10,
+                  "backup_file": "data/before-city-v10-20261009.db",
+                  "runtime_address": "http://127.0.0.1:8791/",
+                  "position_policy": "Ordinary walking can change positions; account and progress tables remain unchanged."
+                },
+                "independent_review": {
+                  "status": "no mandatory findings",
+                  "targeted_tests_passed": 77,
+                  "scope": "actor rendering, gait, peer motion, phone/sit, props/cache/depth, static routes and saved native images"
+                },
+                "limits": [
+                  "Browser viewport simulation, not physical phone hardware.",
+                  "No test of 100 concurrent browser clients in this version.",
+                  "Six renderer sector images use synthetic built clan house examples; actual browser proof uses temporary test profile.",
+                  "Network updates may still be delayed by connection quality.",
+                  "New decorative props do not add physical collision obstacles."
+                ],
+                "report": "docs/city-v10.md",
+                "plan": "docs/city-v10-plan.md",
+                "previous_version": {
+                  "date": "2026-10-09",
+                  "timezone": "Europe/Moscow",
+                  "version": "9",
+                  "status": "PASS within documented city-map scope",
+                  "scope": "Whole current city road network, ground materials, junctions, frontage geometry and normal walking paths. Local prototype, temporary test data.",
+                  "telegram_live": false,
+                  "https_deployed": false,
+                  "automated": {
+                    "python": {
+                      "command": "python3 -m unittest discover -s tests -v",
+                      "passed": 222,
+                      "failed": 0,
+                      "log": "docs/roads-v9-python.txt"
+                    },
+                    "javascript": {
+                      "command": "node --test tests/*.test.mjs",
+                      "passed": 301,
+                      "failed": 0,
+                      "log": "docs/roads-v9-node.txt"
+                    },
+                    "total_passed": 523,
+                    "module_syntax": {
+                      "javascript_modules": 20,
+                      "python_modules": 11,
+                      "json_files": 7,
+                      "syntax": "PASS"
+                    },
+                    "git_diff_check": "PASS",
+                    "regression_reproduction": [
+                      "docs/roads-v9-rendering-before.txt",
+                      "docs/roads-v9-routes-before.txt",
+                      "docs/roads-v9-approach-before.txt"
+                    ]
+                  },
+                  "geometry": {
+                    "map": [
+                      8400,
+                      5200
+                    ],
+                    "authored_routes": 27,
+                    "authored_segments": 86,
+                    "street_segments": 27,
+                    "road_junctions": 6,
+                    "outdoor_door_approaches": 19,
+                    "outdoor_bench_seats": 22,
+                    "buildings": 27,
+                    "trees": 90,
+                    "lamps": 15,
+                    "front_planters": 32,
+                    "front_bike_racks": 9,
+                    "zebras": 3,
+                    "client_forward_walk_points": 4482,
+                    "backend_forward_walk_steps": 3910,
+                    "point_legality_agreement": 27641,
+                    "normal_step_clearance": 14,
+                    "straight_approach_pavement_clearance": 32,
+                    "complete_map_sector_images": 6
+                  },
+                  "browser": {
+                    "reused_tabs": 1,
+                    "new_tabs_created": 0,
+                    "fixture": "temporary SQLite with synthetic test profile; original account not used for test actions",
+                    "viewports": [
+                      [
+                        390,
+                        844
+                      ],
+                      [
+                        320,
+                        740
+                      ],
+                      [
+                        1280,
+                        800
+                      ]
+                    ],
+                    "checked": [
+                      "west crossroads left walking",
+                      "northern T-junction right walking",
+                      "overview labels and known-destination travel",
+                      "walk to eastern fishing target on dry path",
+                      "railway approach walking",
+                      "320px no horizontal page overflow",
+                      "original account restored in same tab"
+                    ],
+                    "console_errors": 0,
+                    "actual_renderer_junctions": "docs/roads-v9-after-junctions.png",
+                    "actual_renderer_all_sectors": "docs/roads-v9-after/",
+                    "screenshots": [
+                      "docs/roads-v9-north-desktop.png",
+                      "docs/roads-v9-north-walk-desktop.png",
+                      "docs/roads-v9-park-mobile.png",
+                      "docs/roads-v9-park-320.png",
+                      "docs/roads-v9-overview-320.png",
+                      "docs/roads-v9-railway-walk-320.png",
+                      "docs/roads-v9-live-game.png",
+                      "docs/roads-v9-overview-desktop.png"
+                    ],
+                    "intermediate_screenshot": "docs/roads-v9-before/west-mobile-intermediate.png"
+                  },
+                  "live_database": {
+                    "integrity": "ok",
+                    "business_tables_unchanged": 10,
+                    "backup_file": "data/before-roads-v9-20261009.db",
+                    "runtime_address": "http://127.0.0.1:8791/",
+                    "position_policy": "building IDs, doors and saved player positions retained; map roads corrected around them"
+                  },
+                  "limits": [
+                    "Normal current UI routes tested; artificial long server move segments are endpoint-validated for buildings. See route audit.",
+                    "Three browser viewport sizes; physical devices and 100 simultaneous browser clients were not tested."
+                  ],
+                  "independent_review": "Road topology, placement, native canvas road samples and client/server walking reviewed independently. See attached audits.",
+                  "report": "docs/roads-v9.md",
+                  "previous_version": {
+                    "date": "2026-10-09",
+                    "timezone": "Europe/Moscow",
+                    "version": "8",
+                    "status": "passed",
+                    "scope": "11 shared purpose-specific public room layouts and detailed modern pixel props; physical circulation, store catalogs, casino seating, room minimap and layout-safe presence restoration",
+                    "telegram_live": false,
+                    "https_deployed": false,
+                    "automated": {
+                      "python": {
+                        "command": "python3 -m unittest discover -s tests",
+                        "passed": 221,
+                        "failed": 0,
+                        "log": "docs/interiors-v8-python.txt"
+                      },
+                      "javascript": {
+                        "command": "node --test tests/*.test.mjs",
+                        "passed": 275,
+                        "failed": 0,
+                        "log": "docs/interiors-v8-node.txt"
+                      },
+                      "total_passed": 496,
+                      "module_syntax": {
+                        "javascript_modules": 19,
+                        "python_modules": 11,
+                        "json_files": 8,
+                        "syntax": "PASS"
+                      },
+                      "git_diff_check": "PASS"
+                    },
+                    "geometry": {
+                      "rooms": 11,
+                      "props": 142,
+                      "shared_seats": 52,
+                      "legacy_seat_ids_retained": 44,
+                      "casino_card_seats_added": 8,
+                      "player_clearance_radius": 14,
+                      "reachable_targets": "exit, service and every seat approach",
+                      "solid_projection": "exact visible physical prop footprint",
+                      "suspended_panels": "no floor legs or floor shadow"
+                    },
+                    "browser": {
+                      "reused_tabs": 1,
+                      "viewports": [
+                        [
+                          320,
+                          740
+                        ],
+                        [
+                          390,
+                          844
+                        ],
+                        [
+                          1280,
+                          800
+                        ]
+                      ],
+                      "fixture": "synthetic profiles in temporary SQLite, no real purchases",
+                      "checked": [
+                        "three store catalogs via room action",
+                        "keyboard walk through checkout approach",
+                        "casino seated phone pose",
+                        "seat restoration after reload",
+                        "room-specific minimap",
+                        "compact room HUD",
+                        "no horizontal overflow"
+                      ],
+                      "geometry_log": "docs/interiors-v8-browser-checks.json",
+                      "console_errors": 0,
+                      "screenshots": [
+                        "docs/interior-v8-food-mobile.png",
+                        "docs/interior-v8-food-checkout-mobile.png",
+                        "docs/interior-v8-food-catalog-mobile.png",
+                        "docs/interior-v8-food-walk-mobile.png",
+                        "docs/interior-v8-clothes-320.png",
+                        "docs/interior-v8-clothes-catalog-320.png",
+                        "docs/interior-v8-furniture-desktop.png",
+                        "docs/interior-v8-furniture-catalog-desktop.png",
+                        "docs/interior-v8-casino-seat-mobile.png",
+                        "docs/interior-v8-casino-phone-mobile.png",
+                        "docs/interior-v8-casino-desktop.png",
+                        "docs/interior-v8-casino-restored-desktop.png"
+                      ],
+                      "actual_renderer_atlas": "docs/interiors-v8-all-plans.png"
+                    },
+                    "independent_review": {
+                      "confirmed_findings": 2,
+                      "fixed": [
+                        "occupied chair orientation for self/peers/legacy phone pose",
+                        "suspended information panel mistakenly drew floor supports"
+                      ],
+                      "further_confirmed_findings": 0
+                    },
+                    "report": "docs/interiors-v8.md",
+                    "previous_version": {
+                      "date": "2026-10-09",
+                      "timezone": "Europe/Moscow",
+                      "version": "7",
+                      "status": "passed",
+                      "scope": "Detailed shared pixel avatars, grass/asphalt approaches, complete crossings, room/prop materials, roaming animals and shared inventory-action animations",
+                      "telegram_live": false,
+                      "https_deployed": false,
+                      "automated": {
+                        "python": {
+                          "command": "python3 -m unittest discover -s tests",
+                          "passed": 209,
+                          "failed": 0,
+                          "elapsed_seconds": 19.375,
+                          "log": "docs/living-city-v7-python.txt"
+                        },
+                        "javascript": {
+                          "command": "node --test tests/*.test.mjs",
+                          "passed": 256,
+                          "failed": 0,
+                          "elapsed_seconds": 1.946861416,
+                          "log": "docs/living-city-v7-node.txt"
+                        },
+                        "total_passed": 465,
+                        "module_syntax": {
+                          "javascript_modules": 18,
+                          "python_modules": 11,
+                          "json_files": 9,
+                          "status": "passed"
+                        },
+                        "whitespace": "git diff --check passed"
+                      },
+                      "features": {
+                        "shared_avatar": {
+                          "pixels": [
+                            32,
+                            48
+                          ],
+                          "walk_frames": 8,
+                          "saved_catalog_indices_preserved": true,
+                          "same_renderer_in_city_catalog_clouds_cards": true
+                        },
+                        "item_actions": {
+                          "types": [
+                            "eat",
+                            "drink",
+                            "pick-litter",
+                            "throw-litter"
+                          ],
+                          "duration_seconds": 3,
+                          "phases": 4,
+                          "inventory_authoritative": true,
+                          "holding_litter_until_real_inventory_empty": true,
+                          "seat_phone_position_preserved": true,
+                          "visible_to_authorized_peers": true,
+                          "anonymous_curator_hidden": true
+                        },
+                        "outdoors": {
+                          "full_grass_base": true,
+                          "connected_approaches": 19,
+                          "side_plantings": 32,
+                          "full_crossings": 3,
+                          "one_ground_plan_with_minimap": true,
+                          "fixture_road_overlap_corrected": [
+                            "city-bench-1",
+                            "lamp-7",
+                            "lamp-13",
+                            "bin-plaza",
+                            "archive"
+                          ],
+                          "stable_fixture_ids": true,
+                          "old_occupied_bench_sync_preserves_phone_pose_timer": true
+                        },
+                        "roaming_animals": {
+                          "count": 12,
+                          "shared_routes_server_time": true,
+                          "pause_when_pet": true,
+                          "owned_companions_retained": true,
+                          "no_pet_confirmation_text": true
+                        },
+                        "interiors": {
+                          "public_rooms": 11,
+                          "existing_real_seats": 44,
+                          "materials_details": true,
+                          "negative_sofa_cushion_bug_fixed": true
+                        },
+                        "audio": {
+                          "step_raw_noise_removed": true,
+                          "single_cue_per_action": true
+                        },
+                        "casino_room": {
+                          "actual_table_members_seated": true,
+                          "private_cards_not_used_by_room": true,
+                          "deck_rooms_unchanged": true
+                        },
+                        "phone": {
+                          "opening_refreshes_wallet_without_inventory_loss": true,
+                          "newer_purchase_protected_from_stale_opening": true
+                        }
+                      },
+                      "bounded_performance": {
+                        "measurement": {
+                          "profiles": 100,
+                          "concurrent_workers": 8,
+                          "requests": 200,
+                          "success": 200,
+                          "errors": [],
+                          "elapsed_s": 1.216,
+                          "requests_per_s": 164.45,
+                          "mean_ms": 45.7,
+                          "p50_ms": 10.98,
+                          "p95_ms": 221.73,
+                          "p99_ms": 684.34,
+                          "max_ms": 942.59,
+                          "online_count": 100,
+                          "visible_players": 100,
+                          "service_snapshot_sql_statements": 30,
+                          "service_snapshot_position_writes": 1,
+                          "top_service_sql": [
+                            {
+                              "count": 1,
+                              "statement": "SELECT profile FROM accounts WHERE id=?"
+                            },
+                            {
+                              "count": 1,
+                              "statement": "DELETE FROM active_accounts WHERE updated<=?"
+                            },
+                            {
+                              "count": 1,
+                              "statement": "SELECT ? FROM active_accounts WHERE account_id=?"
+                            },
+                            {
+                              "count": 1,
+                              "statement": "INSERT OR REPLACE INTO active_accounts VALUES (?,?)"
+                            },
+                            {
+                              "count": 1,
+                              "statement": "SELECT data FROM lobbies"
+                            },
+                            {
+                              "count": 1,
+                              "statement": "SELECT data FROM lobbies ORDER BY rowid DESC"
+                            },
+                            {
+                              "count": 1,
+                              "statement": "SELECT ? FROM sqlite_master WHERE type=? AND name=?"
+                            },
+                            {
+                              "count": 1,
+                              "statement": "SELECT data FROM card_tables ORDER BY rowid DESC"
+                            },
+                            {
+                              "count": 1,
+                              "statement": "SELECT * FROM world_boats WHERE occupant_id IS NOT NULL"
+                            },
+                            {
+                              "count": 1,
+                              "statement": "SELECT occupant_id FROM world_boats WHERE occupant_id IS NOT NULL"
+                            },
+                            {
+                              "count": 1,
+                              "statement": "SELECT * FROM presence WHERE sit_since IS NOT NULL AND updated>? AND sit_since<=?"
+                            },
+                            {
+                              "count": 1,
+                              "statement": "SELECT presence.* FROM presence LEFT JOIN world_positions saved ON saved.account_id=presence.account_id WHERE presence.scene IN (?,?,?) AND (saved.account_id IS NULL OR saved.x!=presence.x OR saved.y!=presence.y OR saved.scene!=presence.scene OR saved.scene_id IS NOT presence.scene_id)"
+                            },
+                            {
+                              "count": 1,
+                              "statement": "DELETE FROM presence WHERE updated<=?"
+                            },
+                            {
+                              "count": 1,
+                              "statement": "UPDATE presence SET pose=?,pose_until=NULL WHERE pose_until IS NOT NULL AND pose_until<=?"
+                            },
+                            {
+                              "count": 1,
+                              "statement": "SELECT * FROM presence"
+                            }
+                          ],
+                          "uses_live_db": false,
+                          "opens_browser": false
+                        },
+                        "file": "docs/living-city-v7-load-final.json",
+                        "hundred_concurrent_browser_test": false,
+                        "physical_mobile_test": false
+                      },
+                      "browser": {
+                        "reused_tabs": 1,
+                        "fixture_db": "disposable synthetic profiles; no live wallet spend",
+                        "viewports": [
+                          [
+                            390,
+                            844
+                          ],
+                          [
+                            320,
+                            740
+                          ],
+                          [
+                            1280,
+                            800
+                          ]
+                        ],
+                        "verified": [
+                          "city bench on pedestrian area",
+                          "phone while seated",
+                          "real food use animation",
+                          "real coffee use while seated",
+                          "petting reaction",
+                          "map and mobile overflow",
+                          "entry forecourt and room",
+                          "four-player poker room with hidden peer cards",
+                          "main saved profile loaded after restart"
+                        ],
+                        "overflow": {
+                          "mobile_390_document_width": 390,
+                          "mobile_320_document_width": 320,
+                          "full_map_320_width": 280,
+                          "phone_320_bounds": [
+                            90,
+                            370,
+                            220,
+                            360
+                          ]
+                        },
+                        "console_warnings_errors_observed": [],
+                        "delivered_url": "http://127.0.0.1:8791/",
+                        "viewport_override_reset": true,
+                        "screenshots": [
+                          "docs/live-city-v7.png",
+                          "docs/city-v7-mobile.png",
+                          "docs/city-v7-desktop.png",
+                          "docs/drink-seat-v7-mobile.png",
+                          "docs/eat-v7-mobile.png",
+                          "docs/phone-seat-v7-320.png",
+                          "docs/map-v7-320.png",
+                          "docs/interior-v7-desktop.png",
+                          "docs/casino-v7-mobile.png",
+                          "docs/casino-v7-320.png",
+                          "docs/casino-v7-desktop.png"
+                        ]
+                      },
+                      "independent_review": {
+                        "scope": "Final action/animation integration read-only review; four reported defects corrected",
+                        "javascript_checks_passed": 122,
+                        "python_checks_passed": 13,
+                        "remaining_confirmed_defects_in_reviewed_scenarios": []
+                      },
+                      "data_preservation": {
+                        "current_integrity": "ok",
+                        "backup_file": "data/before-living-city-v7-geometry-restart-20261009.db",
+                        "backup_created_before_restart": true,
+                        "business_mutations_by_tests": "temporary databases only",
+                        "retained_ids": {
+                          "accounts": {
+                            "all_previous_ids_retained": true
+                          },
+                          "clans": {
+                            "all_previous_ids_retained": true
+                          },
+                          "lobbies": {
+                            "all_previous_ids_retained": true
+                          },
+                          "card_tables": {
+                            "all_previous_ids_retained": true
+                          }
+                        },
+                        "backup_integrity": "ok"
+                      },
+                      "report": "docs/living-city-v7.md",
+                      "limits": [
+                        "No physical iOS/Android device or device listening test",
+                        "No 100 simultaneous browser/device test",
+                        "No live Telegram/HTTPS deployment",
+                        "No claim of exact pixel reproduction or absence of every possible bug"
+                      ],
+                      "previous_version": {
+                        "date": "2026-10-09",
+                        "timezone": "Europe/Moscow",
+                        "version": "6.1",
+                        "status": "passed",
+                        "scope": "Проверка и исправление существующей игры: сервер, приватность, движение, телефон, мини-игры, звук и производительность",
+                        "telegram_live": false,
+                        "https_deployed": false,
+                        "automated": {
+                          "python": {
+                            "command": "python3 -m unittest discover -s tests -v",
+                            "passed": 193,
+                            "failed": 0,
+                            "elapsed_seconds": 18.452,
+                            "log": "docs/audit-final-python-v6-1.txt"
+                          },
+                          "javascript": {
+                            "command": "node --test tests/*.test.mjs",
+                            "passed": 213,
+                            "failed": 0,
+                            "elapsed_seconds": 0.586150667,
+                            "log": "docs/audit-final-node-v6-1.txt"
+                          },
+                          "total_passed": 406,
+                          "module_syntax": {
+                            "javascript_modules": 14,
+                            "status": "passed"
+                          },
+                          "source_json_files": 6,
+                          "whitespace": "git diff --check passed"
+                        },
+                        "independent_reviews": {
+                          "areas": [
+                            "backend/game rules",
+                            "world/motion",
+                            "phone/minigames/audio"
+                          ],
+                          "batching_semantic_review": true,
+                          "reports": [
+                            "docs/audit-backend-games.md",
+                            "docs/audit-world-motion.md",
+                            "docs/audit-minigame-ui.md"
+                          ]
+                        },
+                        "performance": {
+                          "bounded_http": {
+                            "profiles": 100,
+                            "concurrent_workers": 8,
+                            "requests": 200,
+                            "success": 200,
+                            "errors": [],
+                            "elapsed_s": 1.036,
+                            "requests_per_s": 192.98,
+                            "mean_ms": 38.35,
+                            "p50_ms": 9.26,
+                            "p95_ms": 257.21,
+                            "p99_ms": 465.95,
+                            "max_ms": 687.77,
+                            "online_count": 100,
+                            "visible_players": 100,
+                            "service_snapshot_sql_statements": 29,
+                            "service_snapshot_position_writes": 1,
+                            "top_service_sql": [
+                              {
+                                "count": 1,
+                                "statement": "SELECT profile FROM accounts WHERE id=?"
+                              },
+                              {
+                                "count": 1,
+                                "statement": "DELETE FROM active_accounts WHERE updated<=?"
+                              },
+                              {
+                                "count": 1,
+                                "statement": "SELECT ? FROM active_accounts WHERE account_id=?"
+                              },
+                              {
+                                "count": 1,
+                                "statement": "INSERT OR REPLACE INTO active_accounts VALUES (?,?)"
+                              },
+                              {
+                                "count": 1,
+                                "statement": "SELECT data FROM lobbies"
+                              },
+                              {
+                                "count": 1,
+                                "statement": "SELECT data FROM lobbies ORDER BY rowid DESC"
+                              },
+                              {
+                                "count": 1,
+                                "statement": "SELECT ? FROM sqlite_master WHERE type=? AND name=?"
+                              },
+                              {
+                                "count": 1,
+                                "statement": "SELECT data FROM card_tables ORDER BY rowid DESC"
+                              },
+                              {
+                                "count": 1,
+                                "statement": "SELECT * FROM world_boats WHERE occupant_id IS NOT NULL"
+                              },
+                              {
+                                "count": 1,
+                                "statement": "SELECT occupant_id FROM world_boats WHERE occupant_id IS NOT NULL"
+                              },
+                              {
+                                "count": 1,
+                                "statement": "SELECT * FROM presence WHERE sit_since IS NOT NULL AND updated>? AND sit_since<=?"
+                              },
+                              {
+                                "count": 1,
+                                "statement": "SELECT presence.* FROM presence LEFT JOIN world_positions saved ON saved.account_id=presence.account_id WHERE presence.scene IN (?,?,?) AND (saved.account_id IS NULL OR saved.x!=presence.x OR saved.y!=presence.y OR saved.scene!=presence.scene OR saved.scene_id IS NOT presence.scene_id)"
+                              },
+                              {
+                                "count": 1,
+                                "statement": "DELETE FROM presence WHERE updated<=?"
+                              },
+                              {
+                                "count": 1,
+                                "statement": "UPDATE presence SET pose=?,pose_until=NULL WHERE pose_until IS NOT NULL AND pose_until<=?"
+                              },
+                              {
+                                "count": 1,
+                                "statement": "SELECT * FROM presence"
+                              }
+                            ],
+                            "uses_live_db": false,
+                            "opens_browser": false
+                          },
+                          "before_batching": {
+                            "profiles": 100,
+                            "concurrent_workers": 8,
+                            "requests": 200,
+                            "success": 200,
+                            "errors": [],
+                            "elapsed_s": 1.444,
+                            "requests_per_s": 138.52,
+                            "mean_ms": 54.19,
+                            "p50_ms": 6.86,
+                            "p95_ms": 282.93,
+                            "p99_ms": 714.05,
+                            "max_ms": 1357.01,
+                            "online_count": 100,
+                            "visible_players": 100,
+                            "service_snapshot_sql_statements": 1139,
+                            "service_snapshot_position_writes": 1,
+                            "top_service_sql": [
+                              {
+                                "count": 202,
+                                "statement": "SELECT * FROM world_boats WHERE occupant_id=?"
+                              },
+                              {
+                                "count": 202,
+                                "statement": "SELECT ? FROM sqlite_master WHERE type=? AND name=?"
+                              },
+                              {
+                                "count": 101,
+                                "statement": "SELECT profile FROM accounts WHERE id=?"
+                              },
+                              {
+                                "count": 101,
+                                "statement": "SELECT data FROM lobbies"
+                              },
+                              {
+                                "count": 101,
+                                "statement": "SELECT data FROM lobbies ORDER BY rowid DESC"
+                              },
+                              {
+                                "count": 101,
+                                "statement": "SELECT data FROM card_tables ORDER BY rowid DESC"
+                              },
+                              {
+                                "count": 101,
+                                "statement": "SELECT item_id FROM account_pets WHERE account_id=?"
+                              },
+                              {
+                                "count": 101,
+                                "statement": "SELECT * FROM world_pet_effects WHERE account_id=?"
+                              },
+                              {
+                                "count": 101,
+                                "statement": "SELECT clan_id FROM clan_members WHERE account_id=?"
+                              },
+                              {
+                                "count": 8,
+                                "statement": "SELECT id FROM clans WHERE status=? AND building_id=?"
+                              },
+                              {
+                                "count": 1,
+                                "statement": "DELETE FROM active_accounts WHERE updated<=?"
+                              },
+                              {
+                                "count": 1,
+                                "statement": "SELECT ? FROM active_accounts WHERE account_id=?"
+                              },
+                              {
+                                "count": 1,
+                                "statement": "INSERT OR REPLACE INTO active_accounts VALUES (?,?)"
+                              },
+                              {
+                                "count": 1,
+                                "statement": "SELECT * FROM world_boats WHERE occupant_id IS NOT NULL"
+                              },
+                              {
+                                "count": 1,
+                                "statement": "SELECT * FROM presence WHERE sit_since IS NOT NULL AND updated>? AND sit_since<=?"
+                              }
+                            ],
+                            "uses_live_db": false,
+                            "opens_browser": false
+                          },
+                          "browser_render": "docs/audit-browser-performance-v6-1.json",
+                          "hundred_browser_load_test": false,
+                          "physical_mobile_devices_tested": false
+                        },
+                        "browser_root": {
+                          "engine": "CUA, original in-app browser tab 1",
+                          "new_tabs_or_windows_created": 0,
+                          "viewports": [
+                            [
+                              320,
+                              568
+                            ],
+                            [
+                              390,
+                              844
+                            ],
+                            [
+                              1280,
+                              800
+                            ]
+                          ],
+                          "horizontal_document_overflow_observed": false,
+                          "console_errors_or_warnings_observed": 0,
+                          "diagnostics_url_removed": true,
+                          "temporary_viewport_reset": true,
+                          "report": "docs/quality-audit-v6-1.md"
+                        },
+                        "database": {
+                          "preserved": true,
+                          "backup": "data/before-quality-audit-v6-1-20261009.db",
+                          "restart_backup": "data/before-quality-audit-v6-1-restart-20261009.db",
+                          "comparison": {
+                            "live_integrity": "ok",
+                            "backup_integrity": "ok",
+                            "durable_tables_unchanged": {
+                              "accounts": true,
+                              "account_credentials": true,
+                              "clans": true,
+                              "clan_members": true,
+                              "clan_requests": true,
+                              "clan_results": true,
+                              "lobbies": true,
+                              "nickname_reservations": true,
+                              "wallets": true,
+                              "inventory": true,
+                              "direct_messages": true
+                            },
+                            "private_rows_exported": false
+                          },
+                          "excluded_from_archive": true
+                        },
+                        "screenshots": [
+                          "screenshots/audit-v6-1-base-320-collapsed.png",
+                          "screenshots/audit-v6-1-base-320-editor.png",
+                          "screenshots/audit-v6-1-base-phone-320.png"
+                        ],
+                        "limits": [
+                          "No physical iOS/Android device test",
+                          "No 100 concurrent browser test",
+                          "No sustained unstable-network or production Telegram/HTTPS test",
+                          "No claim of all possible bugs eliminated"
+                        ],
+                        "previous_version_evidence": {
+                          "version": 6,
+                          "protocol": {
+                            "date": "2026-10-09",
+                            "timezone": "Europe/Moscow",
+                            "version": 6,
+                            "status": "passed",
+                            "scope": "Бзикер v6: анимации и звуки животных, расширенная палитра домов, вода, общие лодки и рыбалка",
+                            "telegram_live": false,
+                            "https_deployed": false,
+                            "automated": {
+                              "python": {
+                                "command": "python3 -m unittest discover -s tests",
+                                "passed": 185,
+                                "failed": 0,
+                                "elapsed_seconds": 16.38
+                              },
+                              "javascript": {
+                                "command": "node --test tests/*.test.mjs",
+                                "passed": 177,
+                                "failed": 0,
+                                "elapsed_seconds": 0.5988467500000001
+                              },
+                              "total_passed": 362,
+                              "authenticated_http_source": {
+                                "script": "temporary-database construction/account HTTP smoke",
+                                "passed": 56,
+                                "failed": 0,
+                                "uses_live_database": false
+                              },
+                              "water_boat_pet_http_source": {
+                                "script": "temporary-database HTTP smoke with controlled clock",
+                                "passed": 143,
+                                "failed": 0,
+                                "uses_live_database": false
+                              },
+                              "module_syntax": "14 web JavaScript modules checked; exit 0",
+                              "json": "6 source JSON files parsed",
+                              "whitespace": "git diff --check passed"
+                            },
+                            "browser_root": {
+                              "engine": "CUA, same existing Codex in-app browser tab 1",
+                              "new_tabs_or_windows_created": 0,
+                              "viewports": [
+                                {
+                                  "width": 390,
+                                  "height": 844
+                                },
+                                {
+                                  "width": 1280,
+                                  "height": 800
+                                }
+                              ],
+                              "temporary_viewport_reset": true,
+                              "actual_checks": [
+                                "Existing Михаил account, balance 90 and legacy clan house 01 preserved after additive migration and restarts",
+                                "Dog and cat action confirmations, visible leaning gesture, animal reactions and hearts captured in portrait",
+                                "Dog remains beside park landing; cat is visible outside tree crowns",
+                                "Three docked boats visible; boarding, keyboard sailing and returning to own dock, then disembarking tested",
+                                "Opening boat fishing keeps character aboard at the same lake location; rod requirement shown for existing account without rod",
+                                "Separate bark and meow preview buttons clicked with saved sound enabled at 65 percent",
+                                "32 palette samples, native custom colour and custom HEX #3ac891 shown; six previews update",
+                                "Pipette preview sample produces confirmation; pending browser picker no longer prevents catalogue close",
+                                "Portrait construction window 354x816 fits 390x844; exact build label Построить",
+                                "Legacy built house remains immutable; live house not rebuilt",
+                                "Portrait and desktop document dimensions equal viewport; no extra horizontal or vertical scrollbar",
+                                "Lighting preference returned to previous auto mode; viewport override reset; original tab retained"
+                              ],
+                              "horizontal_overflow_observed": false,
+                              "resolved_observations": [
+                                "Three-second refresh could miss two-second pet events: changed to 1000 ms with regression test",
+                                "Leaving boat while fishing blocked next shore cast: waiting cast cancelled on release",
+                                "Pending native screen picker held gameplay mutation lock: optional picker runs outside it",
+                                "Colour sampling could activate a different house model, including alpha highlights: label default prevented",
+                                "Park landing overlapped dog and cat stood under a tree: positions corrected with geometry/depth tests"
+                              ],
+                              "test_limits": [
+                                "Actual physical mobile devices, device listening and 100 concurrent browser load were not tested",
+                                "Live catch not purchased on preserved account; successful catch, cancellation and settlement tested in temporary DB/HTTP",
+                                "No claim of exact commercial game or Apple Pay audio equivalence"
+                              ]
+                            },
+                            "construction": {
+                              "accepted_members_required": 4,
+                              "leader_only": true,
+                              "models": 6,
+                              "palette_colors": 32,
+                              "maximum_door_distance": 58,
+                              "distance_59_rejected": true,
+                              "construction_cost": 0,
+                              "exterior_immutable_after_build": true,
+                              "interior_editable": true,
+                              "legacy_assigned_houses_preserved": true,
+                              "checked_by": "Python construction tests, Node UI/colour/pipette regressions and temporary HTTP smoke",
+                              "custom_hex_rgb": true,
+                              "native_colour_input": true,
+                              "screen_pipette_when_supported": true,
+                              "local_preview_pipette": true,
+                              "build_button": "Построить"
+                            },
+                            "animals": {
+                              "kinds": [
+                                "dog",
+                                "cat"
+                              ],
+                              "gesture_seconds": 2,
+                              "phone_and_bench_preserved": true,
+                              "own_pet_scenes": [
+                                "city",
+                                "interior",
+                                "base"
+                              ],
+                              "own_pet_hidden_aboard_boat": true,
+                              "remote_sound_same_scene_max_distance": 320,
+                              "deduplicated_by_effect_id": true,
+                              "world_refresh_ms": 1000
+                            },
+                            "water": {
+                              "foot_endpoint_and_segment_blocked": true,
+                              "boats": 3,
+                              "one_occupant_per_boat": true,
+                              "boarding_distance": 65,
+                              "disembark_distance": 85,
+                              "boat_position_persistent": true,
+                              "occupancy_ttl_seconds": 45,
+                              "phone_retains_boat": true,
+                              "fishing_requires_owned_boat_and_rod": true,
+                              "catch_ready_seconds": 2,
+                              "catch_idempotent": true,
+                              "release_cancels_waiting_cast": true
+                            },
+                            "audio": {
+                              "original_synthesized_cues": 20,
+                              "default_enabled_after_gesture": true,
+                              "saved_mute_and_volume_respected": true,
+                              "maximum_simultaneous_effects": 4,
+                              "step_min_interval_ms": 220,
+                              "hidden_tab_stops_effects": true,
+                              "payment_after_successful_virtual_purchase": true,
+                              "brand_or_game_recordings_used": false,
+                              "checked_by": "Node WebAudio tests and enabled UI preview controls; no claim of physical listening",
+                              "boat_row_min_interval_ms": 650,
+                              "animal_preview_buttons": 2
+                            },
+                            "pdf": {
+                              "file": "docs/bziker-project-v6.pdf",
+                              "pages": 12,
+                              "text_only": true,
+                              "rendered_pages_reviewed": 12,
+                              "delivery_copy_matches": true
+                            },
+                            "capacity": {
+                              "enforced_active_account_limit": 100,
+                              "includes_curators": true,
+                              "ttl_seconds": 45,
+                              "hundred_simultaneous_browser_load_test": false
+                            },
+                            "database": {
+                              "existing_file": "data/first-prototype.db",
+                              "preserved": true,
+                              "migration": "additive",
+                              "backup": "data/before-water-v6-20261009.db",
+                              "backup_integrity_check": "ok",
+                              "excluded_from_archive": true
+                            },
+                            "screenshots": [
+                              ".-v6-previews/mobile-pet-dog-day.png",
+                              ".-v6-previews/mobile-pet-cat.png",
+                              ".-v6-previews/mobile-boat-day.png",
+                              ".-v6-previews/mobile-boat-phone.png",
+                              ".-v6-previews/mobile-house-colors.png",
+                              ".-v6-previews/desktop-house-colors.png"
+                            ],
+                            "delivery_excludes": [
+                              "data/",
+                              ".env",
+                              "cache",
+                              "browser cookies",
+                              "browser sessions",
+                              "temporary runtime logs",
+                              "private tokens"
+                            ],
+                            "future_work": [
+                              "Live Telegram and HTTPS hosting",
+                              "Invite-only city admission",
+                              "Leader-only participation/victory cosmetic unlocks",
+                              "Land vehicles, public transport and mounts",
+                              "Expanded creative minigames and duels",
+                              "Wall building"
+                            ],
+                            "previous_version_evidence": {
+                              "version": 5,
+                              "protocol": {
+                                "date": "2026-10-09",
+                                "timezone": "Europe/Moscow",
+                                "version": 5,
+                                "status": "passed",
+                                "scope": "Бзикер v5: мобильный город, постоянные аккаунты, интерьеры, клановая стройка и оригинальные 8-битные эффекты",
+                                "telegram_live": false,
+                                "https_deployed": false,
+                                "automated": {
+                                  "python": {
+                                    "command": "python3 -m unittest discover -s tests",
+                                    "passed": 167,
+                                    "failed": 0,
+                                    "elapsed_seconds": 15.654
+                                  },
+                                  "javascript": {
+                                    "command": "node --test tests/*.test.mjs",
+                                    "passed": 144,
+                                    "failed": 0,
+                                    "elapsed_seconds": 0.386990375
+                                  },
+                                  "total_passed": 311,
+                                  "authenticated_http_source": {
+                                    "script": "temporary-database HTTP smoke",
+                                    "passed": 56,
+                                    "failed": 0,
+                                    "uses_live_database": false
+                                  },
+                                  "module_syntax": "11 web JavaScript modules checked; exit 0",
+                                  "json": "6 source JSON files parsed",
+                                  "whitespace": "git diff --check passed"
+                                },
+                                "browser_root": {
+                                  "engine": "CUA, same existing Codex in-app browser tab 1",
+                                  "new_tabs_or_windows_created": 0,
+                                  "viewports": [
+                                    {
+                                      "width": 390,
+                                      "height": 844
+                                    },
+                                    {
+                                      "width": 1280,
+                                      "height": 800
+                                    }
+                                  ],
+                                  "temporary_viewport_reset": true,
+                                  "actual_checks": [
+                                    "Existing Михаил account, balance 90 and legacy clan house 01 preserved after restart",
+                                    "External settings: lighting, sound checkbox and payment preview button",
+                                    "Portrait phone 220x360 keeps city visible",
+                                    "Portrait city has no extra vertical scrollbar after phone width fix",
+                                    "Profile preview and fixed nickname remain above internally scrolling choices",
+                                    "Keyboard movement moves the current sprite and camera",
+                                    "Map has 16 destinations including public clan management building",
+                                    "Food shop entered through real city action; merchant room, counter and furniture visible",
+                                    "Six distinct house previews and eight visible palette samples; selected duplex turns violet",
+                                    "Portrait construction window 354x816 fits 390x844 viewport",
+                                    "Existing house remains locked and construction button is disabled; live house was not rebuilt",
+                                    "Only the original browser tab remains; viewport override reset"
+                                  ],
+                                  "horizontal_overflow_observed": false,
+                                  "resolved_observations": [
+                                    "Palette SVG samples replace inline styles blocked by browser CSP",
+                                    "Extra city scrollbar/camera width shift removed",
+                                    "World interaction API errors handled by app notice wrapper"
+                                  ],
+                                  "test_limits": [
+                                    "Not every game flow was manually repeated in the live browser",
+                                    "Hair miniature obstruction fix verified by regression test after catalog observation",
+                                    "Actual device listening and 100 concurrent browsers were not tested",
+                                    "No claim of exact Romestead animation or Apple Pay audio equivalence"
+                                  ]
+                                },
+                                "construction": {
+                                  "accepted_members_required": 4,
+                                  "leader_only": true,
+                                  "models": 6,
+                                  "palette_colors": 8,
+                                  "maximum_door_distance": 58,
+                                  "distance_59_rejected": true,
+                                  "construction_cost": 0,
+                                  "exterior_immutable_after_build": true,
+                                  "interior_editable": true,
+                                  "legacy_assigned_houses_preserved": true,
+                                  "checked_by": "16 dedicated Python construction tests, Node UI tests and temporary HTTP smoke"
+                                },
+                                "audio": {
+                                  "original_synthesized_cues": 15,
+                                  "default_enabled_after_gesture": true,
+                                  "saved_mute_and_volume_respected": true,
+                                  "maximum_simultaneous_effects": 4,
+                                  "step_min_interval_ms": 220,
+                                  "hidden_tab_stops_effects": true,
+                                  "payment_after_successful_virtual_purchase": true,
+                                  "brand_or_game_recordings_used": false,
+                                  "checked_by": "6 Node audio tests, UI preview button clicked with enabled sound"
+                                },
+                                "pdf": {
+                                  "file": "docs/bziker-project-v5.pdf",
+                                  "pages": 12,
+                                  "text_only": true,
+                                  "rendered_pages_reviewed": 12,
+                                  "delivery_copy_matches": true
+                                },
+                                "capacity": {
+                                  "enforced_active_account_limit": 100,
+                                  "includes_curators": true,
+                                  "ttl_seconds": 45,
+                                  "hundred_simultaneous_browser_load_test": false
+                                },
+                                "database": {
+                                  "existing_file": "data/first-prototype.db",
+                                  "preserved": true,
+                                  "migration": "additive",
+                                  "backup": "data/before-construction-v5-20261009.db",
+                                  "backup_integrity_check": "ok",
+                                  "excluded_from_archive": true
+                                },
+                                "screenshots": [
+                                  ".-v5-previews/desktop-house-catalog.png",
+                                  ".-v5-previews/mobile-house-catalog.png",
+                                  ".-v5-previews/desktop-shop.png",
+                                  ".-v5-previews/mobile-shop.png"
+                                ],
+                                "delivery_excludes": [
+                                  "data/",
+                                  ".env",
+                                  "cache",
+                                  "browser cookies",
+                                  "browser sessions",
+                                  "temporary runtime logs",
+                                  "private tokens"
+                                ],
+                                "future_work": [
+                                  "Live Telegram and HTTPS hosting",
+                                  "Invite-only city admission",
+                                  "Leader-only participation/victory cosmetic unlocks",
+                                  "Transport",
+                                  "Expanded creative minigames and duels",
+                                  "Wall building"
+                                ],
+                                "previous_version_evidence": {
+                                  "version": "city_v3",
+                                  "protocol": {
+                                    "date": "2026-10-09",
+                                    "status": "passed",
+                                    "scope": "Бзикер: единый город версии 3, вокзал, карта, телефон, задания, друзья, магазины, базы и виртуальные карточные игры",
+                                    "telegram_live": false,
+                                    "https_deployed": false,
+                                    "automated": {
+                                      "python": {
+                                        "command": "python3 -m unittest discover -s tests -v",
+                                        "passed": 103,
+                                        "failed": 0,
+                                        "elapsed_seconds": 12.099
+                                      },
+                                      "javascript": {
+                                        "command": "node --test tests/*.test.mjs",
+                                        "passed": 61,
+                                        "failed": 0
+                                      },
+                                      "total_passed": 164,
+                                      "module_syntax": "all web/*.js checked through node --input-type=module --check: exit0",
+                                      "json": "requirements.json,question-bank.demo.json,world-map.json parsed",
+                                      "whitespace": "git diff --check: exit0"
+                                    },
+                                    "browser_root": {
+                                      "engine": "CUA, one already existing Codex in-app browser tab 7",
+                                      "new_tabs_or_windows_created": 0,
+                                      "actual_checks": [
+                                        "desktop map travel to food store and E opens real shop phone panel",
+                                        "profile quest claimed:30 visible in HUD/phone and claim then disabled",
+                                        "portrait city/railway exact welcome sign",
+                                        "compact phone shows actual apps and keeps city visible",
+                                        "catalog: readonly nickname and five square 52x52 headgear previews",
+                                        "full city map and station fast travel",
+                                        "same-tab viewport reset at end"
+                                      ],
+                                      "viewports": [
+                                        {
+                                          "width": 320,
+                                          "height": 640
+                                        },
+                                        {
+                                          "width": 390,
+                                          "height": 844
+                                        },
+                                        {
+                                          "width": 390,
+                                          "height": 500
+                                        },
+                                        {
+                                          "width": 1454,
+                                          "height": 1344
+                                        }
+                                      ],
+                                      "portrait_phone_dimensions": [
+                                        220,
+                                        360
+                                      ],
+                                      "horizontal_overflow_observed": false,
+                                      "console_errors_or_warnings_observed": 0,
+                                      "test_limit": "New purchase, friendship, private hands, slots, room start and transfer behavior verified in temporary DB/API and Node state checks; not claimed as all UI flows in the live demo."
+                                    },
+                                    "independent_review": {
+                                      "world_frontend": "reviewed by world owner",
+                                      "cards_frontend": "reviewed by cards owner",
+                                      "backend_frontend_contracts": "reviewed by backend owner",
+                                      "fixed_findings": [
+                                        "offline last position lost after presence TTL",
+                                        "owned premium furniture locked after reload",
+                                        "phone close lost on world teardown",
+                                        "phone reopening during close did not restore pose",
+                                        "phone close canceled smoke pose",
+                                        "cached card room identities retained after jury restriction/403",
+                                        "unknown slots response nonce lost on rerender/reload and zero-balance replay blocked",
+                                        "mobile compact cascade and square hat preview aspect ratio"
+                                      ],
+                                      "confirmed_findings_remaining": 0,
+                                      "regression_tests": "temporary SQLite, world lifecycle stubs and actual app.js VM tests"
+                                    },
+                                    "capacity": {
+                                      "enforced_active_account_limit": 100,
+                                      "includes_curators": true,
+                                      "ttl_seconds": 45,
+                                      "hundred_simultaneous_browser_load_test": false
+                                    },
+                                    "database": "Existing first-prototype.db preserved, additive migration; online SQLite backup before cityv3 verified PRAGMA integrity_check=ok. User data and backup excluded from archive.",
+                                    "screenshots": [
+                                      "screenshots/bziker-v3-mobile-phone.jpg",
+                                      "screenshots/bziker-v3-railway-desktop.jpg",
+                                      "screenshots/bziker-v3-full-map-desktop.jpg"
+                                    ],
+                                    "delivery_excludes": [
+                                      "data/",
+                                      ".env",
+                                      "cache",
+                                      "browser cookies",
+                                      "browser sessions",
+                                      "temporary runtime logs",
+                                      "private tokens"
+                                    ],
+                                    "not_implemented": [
+                                      "live Telegram/HTTPS",
+                                      "invite-only city admission in public launch",
+                                      "leader-specific participation/victory cosmetic rewards",
+                                      "wall building/resources/crafting",
+                                      "duels and special rounds",
+                                      "automatic timer",
+                                      "question editor"
+                                    ],
+                                    "previous_version_evidence": {
+                                      "version": "mobile_v2",
+                                      "commit": "0259df5",
+                                      "protocol": {
+                                        "date": "2026-10-09",
+                                        "status": "passed",
+                                        "scope": "Бзикер: городской прототип, мобильная версия 2 и отдельный район баз",
+                                        "telegram_live": false,
+                                        "https_deployed": false,
+                                        "automated": {
+                                          "python": {
+                                            "command": "python3 -m unittest discover -s tests -v",
+                                            "passed": 56,
+                                            "failed": 0,
+                                            "includes": "45 retained plus 11 new nickname/avatar/district/social/HTTP checks"
+                                          },
+                                          "javascript": {
+                                            "command": "node --test tests/*.test.mjs",
+                                            "passed": 29,
+                                            "failed": 0,
+                                            "includes": "5 avatar catalog,13 frontend,11 world helper/lifecycle"
+                                          },
+                                          "module_syntax": "node --check app.js/avatar.js/world.js: exit0",
+                                          "json": "requirements.json/question-bank.demo.json/world-map.json parsed",
+                                          "whitespace": "git diff --check passed"
+                                        },
+                                        "browser_root": {
+                                          "engine": "Playwright Chromium independent cookie contexts",
+                                          "viewports": [
+                                            320,
+                                            390,
+                                            768,
+                                            1280
+                                          ],
+                                          "no_horizontal_overflow": true,
+                                          "nickname_ui_readonly": true,
+                                          "nickname_server_rename_status": 409,
+                                          "hair_thumbnails": 12,
+                                          "message_exact_delivery": true,
+                                          "third_party_conversation_empty": true,
+                                          "chat_draft_preserved_3_4s": true,
+                                          "phone_invitation_accepted_into_captain_team": true,
+                                          "district_reload_preserved": true,
+                                          "automatic_district_to_sky": true,
+                                          "cloud_participants": 2,
+                                          "jury_phone_status": 403,
+                                          "jury_payload_excludes_teams_and_players": true,
+                                          "question_value": 100,
+                                          "grade": 8,
+                                          "score": 80,
+                                          "results_and_city_return": true,
+                                          "unexpected_errors_or_warnings": 0
+                                        },
+                                        "browser_implementers": {
+                                          "phone_bounds": {
+                                            "320x568": [
+                                              10,
+                                              8,
+                                              300,
+                                              552
+                                            ],
+                                            "390x844": [
+                                              30,
+                                              134,
+                                              350,
+                                              700
+                                            ],
+                                            "1280x800": [
+                                              908,
+                                              88,
+                                              350,
+                                              700
+                                            ]
+                                          },
+                                          "catalog": "readonly nickname,2body,6presets,12hair,4top,4bottom and visible colour swatches; portrait/desktop screenshots",
+                                          "settings": "UI zoom0.8,nameson,soundoff update immediately and persist afterreload",
+                                          "social_cleanup": "4GETs over8.5s open with draft/focus/caret retained;0GETs over6.5s closed",
+                                          "clan_building": "actual UI chooses base-8,8occupied/free/current states; district/base reload; base-7 sofa grid2,5 saved and returned to its house",
+                                          "reports": [
+                                            "docs/superpowers/plans/mobile-v2-backend-report.md",
+                                            "docs/superpowers/plans/mobile-v2-world-report.md",
+                                            "docs/superpowers/plans/mobile-v2-frontend-report.md",
+                                            "docs/superpowers/plans/mobile-v2-avatar-report.md"
+                                          ]
+                                        },
+                                        "independent_review": {
+                                          "backend_spec": "PASS",
+                                          "backend_quality": "PASS",
+                                          "world_spec": "PASS",
+                                          "world_quality": "PASS",
+                                          "frontend_spec": "PASS",
+                                          "frontend_quality": "PASS",
+                                          "avatar_spec": "PASS",
+                                          "avatar_quality": "PASS",
+                                          "integration_spec": "PASS",
+                                          "integration_quality": "PASS",
+                                          "important_findings_remaining": 0,
+                                          "report": ".superpowers/sdd/mobile-v2-task-review.md"
+                                        },
+                                        "previous_version_regression_evidence": {
+                                          "commit": "2c7e21b",
+                                          "scope": "prior prototype browser verification; automated coverage retained in current suites",
+                                          "two_team_all_answer": "3players,2captains,grades8/6→80/60; noncaptain403; resultreload",
+                                          "first_buzz_and_individual": "prior frontend browser flows plus retained server/client state tests"
+                                        },
+                                        "capacity": {
+                                          "enforced_active_account_limit": 100,
+                                          "includes_curators": true,
+                                          "ttl_seconds": 45,
+                                          "hundred_simultaneous_browser_load_test": false
+                                        },
+                                        "database": "Existing first-prototype.db preserved; additive migration; local backup excluded from archive",
+                                        "screenshots": [
+                                          "screenshots/bziker-v2-city-mobile.png",
+                                          "screenshots/bziker-v2-city-desktop.png",
+                                          "screenshots/bziker-v2-map-mobile.png",
+                                          "screenshots/bziker-v2-phone-mobile.png",
+                                          "screenshots/bziker-v2-phone-desktop.png",
+                                          "screenshots/bziker-v2-catalog-desktop.png",
+                                          "screenshots/bziker-v2-hair-catalog-mobile.png",
+                                          "screenshots/bziker-v2-district-mobile.png",
+                                          "screenshots/bziker-v2-district-desktop.png",
+                                          "screenshots/mobile-v2-clan-choice-320.png",
+                                          "screenshots/mobile-v2-base-390.png"
+                                        ],
+                                        "delivery_excludes": [
+                                          "data/",
+                                          ".env",
+                                          "cache",
+                                          "browser cookies",
+                                          "browser sessions",
+                                          "temporary runtime logs",
+                                          "private tokens"
+                                        ],
+                                        "not_implemented": [
+                                          "live Telegram/HTTPS",
+                                          "private admission to city",
+                                          "leader reward unlocks",
+                                          "wall building",
+                                          "additional mini-games",
+                                          "duels",
+                                          "timer",
+                                          "question editor"
+                                        ],
+                                        "delivery_archive": {
+                                          "file": "bziker-mobile-v2.zip",
+                                          "crc": "PASS",
+                                          "included_source_byte_matches": "PASS",
+                                          "excluded_private_runtime_state": "PASS",
+                                          "fresh_extracted_server": "PASS",
+                                          "smoke_routes": [
+                                            "bootstrap",
+                                            "profile",
+                                            "phone",
+                                            "world",
+                                            "static"
+                                          ]
+                                        }
+                                      }
+                                    },
+                                    "delivery_archive": {
+                                      "file": "bziker-city-v3.zip",
+                                      "crc": "PASS",
+                                      "included_source_byte_matches": "PASS",
+                                      "excluded_private_runtime_state": "PASS",
+                                      "fresh_extracted_server": "PASS",
+                                      "smoke_routes": [
+                                        "bootstrap",
+                                        "profile",
+                                        "railway world spawn",
+                                        "zero wallet",
+                                        "quest claim",
+                                        "shop purchase",
+                                        "friends",
+                                        "phone",
+                                        "card room start and settlement",
+                                        "static modules/assets"
+                                      ]
+                                    }
+                                  }
+                                },
+                                "delivery_archive": {
+                                  "file": "bziker-mobile-v5.zip",
+                                  "crc": "PASS",
+                                  "included_source_byte_matches": "PASS",
+                                  "excluded_private_runtime_state": "PASS",
+                                  "fresh_extracted_server": "PASS",
+                                  "authenticated_construction_persistence_checks": 56,
+                                  "smoke_routes": [
+                                    "bootstrap",
+                                    "profile",
+                                    "railway world spawn",
+                                    "zero wallet",
+                                    "quest claim",
+                                    "shop purchase",
+                                    "friends",
+                                    "phone",
+                                    "card room start and settlement",
+                                    "all11 public interiors entry/seat/exit",
+                                    "all44 shared room seats in geometry",
+                                    "static modules/assets"
+                                  ]
+                                }
+                              }
+                            },
+                            "delivery_archive": {
+                              "file": "bziker-city-v6.zip",
+                              "crc": "PASS",
+                              "included_source_byte_matches": "PASS",
+                              "excluded_private_runtime_state": "PASS",
+                              "fresh_extracted_server": "PASS",
+                              "authenticated_construction_persistence_checks": 56,
+                              "water_boat_pet_http_checks": 143,
+                              "smoke_routes": [
+                                "bootstrap",
+                                "profile",
+                                "railway world spawn",
+                                "zero wallet",
+                                "quest claim",
+                                "shop purchase",
+                                "friends",
+                                "phone",
+                                "card room start and settlement",
+                                "all11 public interiors entry/seat/exit",
+                                "all44 shared room seats in geometry",
+                                "static modules/assets"
+                              ]
+                            }
+                          }
+                        },
+                        "delivery_archive": {
+                          "file": "bziker-city-v6-1-audit.zip",
+                          "crc": "PASS",
+                          "included_source_byte_matches": "PASS",
+                          "excluded_private_runtime_state": "PASS",
+                          "fresh_extracted_server": "PASS",
+                          "authenticated_construction_persistence_checks": 56,
+                          "water_boat_pet_http_checks": 143,
+                          "smoke_routes": [
+                            "bootstrap",
+                            "profile",
+                            "railway world spawn",
+                            "zero wallet",
+                            "quest claim",
+                            "shop purchase",
+                            "friends",
+                            "phone",
+                            "card room start and settlement",
+                            "all11 public interiors entry/seat/exit",
+                            "all44 shared room seats in geometry",
+                            "static modules/assets"
+                          ]
+                        }
+                      },
+                      "delivery_archive": {
+                        "file": "bziker-city-v7.zip",
+                        "crc": "PASS",
+                        "included_source_byte_matches": "PASS",
+                        "excluded_private_runtime_state": "PASS",
+                        "fresh_extracted_server": "PASS",
+                        "authenticated_construction_persistence_checks": 56,
+                        "water_boat_pet_http_checks": 143,
+                        "smoke_routes": [
+                          "bootstrap",
+                          "profile",
+                          "railway world spawn",
+                          "zero wallet",
+                          "quest claim",
+                          "shop purchase and shared drink action",
+                          "12 roaming animals",
+                          "friends",
+                          "phone",
+                          "card room start and settlement",
+                          "all11 public interiors entry/seat/exit",
+                          "all44 shared room seats in geometry",
+                          "static modules/assets"
+                        ]
+                      }
+                    },
+                    "live_database": {
+                      "integrity": "ok",
+                      "business_tables_unchanged": 10,
+                      "backup_file": "data/before-interiors-v8-restart-20261009.db",
+                      "runtime_address": "http://127.0.0.1:8791/",
+                      "migration": "valid saved seats and positions retained; blocked positions repaired locally"
+                    },
+                    "delivery_archive": {
+                      "file": "bziker-city-v8.zip",
+                      "crc": "PASS",
+                      "included_source_byte_matches": "PASS",
+                      "excluded_private_runtime_state": "PASS",
+                      "fresh_extracted_server": "PASS",
+                      "authenticated_construction_persistence_checks": 56,
+                      "water_boat_pet_http_checks": 143,
+                      "smoke_routes": [
+                        "bootstrap",
+                        "profile",
+                        "railway world spawn",
+                        "zero wallet",
+                        "quest claim",
+                        "shop purchase and shared drink action",
+                        "12 roaming animals",
+                        "friends",
+                        "phone",
+                        "card room start and settlement",
+                        "all11 public interiors entry/seat/exit",
+                        "all52 shared room seats in geometry",
+                        "static modules/assets"
+                      ]
+                    }
+                  },
+                  "native_canvas_audit": {
+                    "street_interior_samples_per_renderer": 24160,
+                    "bad_overview_pixels": 0,
+                    "bad_ground_and_planter_pixels": 0,
+                    "crossing_obstacle_conflicts": 0,
+                    "source_hashes": "docs/final-approaches-v9.json"
+                  },
+                  "delivery_archive": {
+                    "file": "bziker-city-v9.zip",
+                    "crc": "PASS",
+                    "included_source_byte_matches": "PASS",
+                    "excluded_private_runtime_state": "PASS",
+                    "fresh_extracted_server": "PASS",
+                    "authenticated_construction_persistence_checks": 56,
+                    "water_boat_pet_http_checks": 143,
+                    "smoke_routes": [
+                      "bootstrap",
+                      "profile",
+                      "railway world spawn",
+                      "zero wallet",
+                      "quest claim",
+                      "shop purchase and shared drink action",
+                      "12 roaming animals",
+                      "friends",
+                      "phone",
+                      "card room start and settlement",
+                      "all11 public interiors entry/seat/exit",
+                      "all52 shared room seats in geometry",
+                      "static modules/assets"
+                    ]
+                  }
+                },
+                "delivery_archive": {
+                  "file": "bziker-city-v10.zip",
+                  "crc": "PASS",
+                  "included_source_byte_matches": "PASS",
+                  "excluded_private_runtime_state": "PASS",
+                  "fresh_extracted_server": "PASS",
+                  "authenticated_construction_persistence_checks": 56,
+                  "water_boat_pet_http_checks": 143,
+                  "smoke_routes": [
+                    "bootstrap",
+                    "profile",
+                    "railway world spawn",
+                    "zero wallet",
+                    "quest claim",
+                    "shop purchase and shared drink action",
+                    "12 roaming animals",
+                    "friends",
+                    "phone",
+                    "card room start and settlement",
+                    "all11 public interiors entry/seat/exit",
+                    "all52 shared room seats in geometry",
+                    "static modules/assets"
+                  ]
+                }
+              }
+            },
+            "delivery_archive": {
+              "file": "bziker-city-v12.zip",
+              "crc": "PASS",
+              "included_source_byte_matches": "PASS",
+              "excluded_private_runtime_state": "PASS",
+              "fresh_extracted_server": "PASS",
+              "authenticated_construction_persistence_checks": 56,
+              "water_boat_pet_http_checks": 143,
+              "smoke_routes": [
+                "bootstrap",
+                "profile",
+                "railway world spawn",
+                "zero wallet",
+                "quest claim",
+                "shop purchase and shared drink action",
+                "12 roaming animals",
+                "friends",
+                "phone",
+                "card room start and settlement",
+                "all11 public interiors entry/seat/exit",
+                "all52 shared room seats in geometry",
+                "static modules/assets"
+              ]
+            }
+          },
+          "delivery_archive": {
+            "file": "bziker-city-v13.zip",
+            "crc": "PASS",
+            "included_source_byte_matches": "PASS",
+            "excluded_private_runtime_state": "PASS",
+            "fresh_extracted_server": "PASS",
+            "authenticated_construction_persistence_checks": 56,
+            "water_boat_pet_http_checks": 143,
+            "smoke_routes": [
+              "bootstrap",
+              "profile",
+              "railway world spawn",
+              "zero wallet",
+              "quest claim",
+              "shop purchase and shared drink action",
+              "12 roaming animals",
+              "friends",
+              "phone",
+              "card room start and settlement",
+              "all11 public interiors entry/seat/exit",
+              "all52 shared room seats in geometry",
+              "static modules/assets"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

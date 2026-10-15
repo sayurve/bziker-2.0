@@ -1,0 +1,75 @@
+{
+  "status": "draft",
+  "art_approved": false,
+  "tool": "built-in image_gen",
+  "imagegen_calls_for_this_png": 1,
+  "character": "canonical woman from actual female run",
+  "direction": "right",
+  "pose": "neutral idle, relaxed lowered arms, both feet planted",
+  "actual_size": [
+    1150,
+    1367
+  ],
+  "sourcepath": "/Users/sapp/.codex/generated_images/01a13c9a-ae7d-7bc2-83f6-88b8b5a5e67b/exec-def8b0d9-0d6b-465e-8273-f38fbfc2ed2e.png",
+  "savedpath": "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/drafts/canonical-idle-v2/female-idle-right.png",
+  "source_sha256": "6170b8f87fd4bfcbe63e72ab389ee4ab758f60a53ed3507d8a6b38f4dd76cd55",
+  "saved_sha256": "6170b8f87fd4bfcbe63e72ab389ee4ab758f60a53ed3507d8a6b38f4dd76cd55",
+  "byte_identical_copy": true,
+  "postprocessing": {
+    "crop": false,
+    "resize": false,
+    "mirror": false,
+    "pixel_edits": false
+  },
+  "true_alpha": true,
+  "alpha_range": [
+    0,
+    255
+  ],
+  "fully_transparent_pixels": 1296057,
+  "alpha_bbox_threshold_128": [
+    360,
+    315,
+    785,
+    1275
+  ],
+  "bbox_use": "Inspection only; never used for per-frame normalization or fitting.",
+  "requested_composition": {
+    "canvas": [
+      1150,
+      1367
+    ],
+    "crown_y_approx": 250,
+    "feet_baseline_y": 1250,
+    "center_x": 575,
+    "relative_female_height": "about7 percent shorter than male at shared scale"
+  },
+  "composition_note": "Original imagegen output preserved. Authored ground registration and shared uniform scale remain a separate integration step; no automatic bbox fit was performed.",
+  "authored_ground_point_proposal": {
+    "x": 615,
+    "y": 1270,
+    "method": "Manually selected by visual inspection of the boot contact area; not computed from the alpha bbox.",
+    "status": "draft, review before registration"
+  },
+  "references": {
+    "primary_identity": "art/references/canonical-run/female-run-right-native.png",
+    "supporting_identity": "art/references/canonical-run/female-run-left-native.png",
+    "style_only": "art/drafts/canonical-idle-v2/male-idle-right.png",
+    "old_idle_used": false
+  },
+  "visual_inspection": {
+    "performed": true,
+    "female_wavy_chestnut_shoulder_length_hair": true,
+    "correct_direction": true,
+    "arms_relaxed_down": true,
+    "two_boots_planted_in_neutral_stance": true,
+    "grey_jacket_light_shirt_black_trousers_dark_boots": true,
+    "no_floor_shadow_grid_cross_caption_observed": true,
+    "exact_identity_and_cross_view_consistency": "Requires artistic approval; not established by successful generation."
+  },
+  "alignment_observations": {
+    "visible_crown_y_alpha128": 315,
+    "visible_bottom_exclusive_y_alpha128": 1275,
+    "feet_have_small_perspective_depth_difference": true
+  }
+}

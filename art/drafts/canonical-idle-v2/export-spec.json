@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "actorId": "human-male",
+  "gender": "male",
+  "status": "approved",
+  "mode": "legacy-composite",
+  "uniformScale": 0.10625,
+  "canvas": [48, 64],
+  "anchor": [24, 63],
+  "artReview": {"checked": true, "scope": "human-male idle compatibility exports only; not layered masters", "evidence": ["verification/canonical-idle-art-review.md", "verification/canonical-idle-contact.png", "art/references/canonical-run/reference-01.png", "art/references/canonical-run/reference-02.png"]},
+  "registrationPolicy": "Authored ground/root landmarks, translated to a shared anchor. One fixed scale for every direction; no silhouette fitting, limb rearrangement, or nonuniform resize.",
+  "poses": {
+    "down": {"file": "male-idle-down.png", "sourceAnchor": [575, 1243], "portraitChin": 31},
+    "left": {"file": "male-idle-left.png", "sourceAnchor": [575, 1235], "portraitChin": 30},
+    "right": {"file": "male-idle-right.png", "sourceAnchor": [575, 1253], "portraitChin": 29},
+    "up": {"file": "male-idle-up.png", "sourceAnchor": [542, 1299], "portraitChin": 30}
+  }
+}

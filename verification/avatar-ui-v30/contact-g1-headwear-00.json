@@ -1,0 +1,246 @@
+{
+  "status": "awaiting-visual-review",
+  "contact": "contact-g1-headwear-00.png",
+  "records": [
+    {
+      "source": "g1-headwear-00-up.jpg",
+      "sha256": "e6be6619fb3b22488924da6ac141dd9a335d640476a56e0c53255e47e6568de8",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 0
+    },
+    {
+      "source": "g1-headwear-00-left.jpg",
+      "sha256": "2e50b1479f905d02e02310bcb410217a7622866cb79043eb1033490f89374816",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 0
+    },
+    {
+      "source": "g1-headwear-00-down.jpg",
+      "sha256": "ac177985bf42deafff167ce310575ae6e1b02242dffabb9acbaea1b387b473a1",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 0
+    },
+    {
+      "source": "g1-headwear-00-right.jpg",
+      "sha256": "0928422ab1bb362413843c79dd16d789d3b5814151f6a689b16947b04c11aaba",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 0
+    },
+    {
+      "source": "g1-headwear-01-up.jpg",
+      "sha256": "5e7985cb7f4a4f854e0b4dfeb68f85b826b471d989d8a16bbb9fad221acc5633",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 1
+    },
+    {
+      "source": "g1-headwear-01-left.jpg",
+      "sha256": "713524b3d6d6aeb9375ade4f87ae46c446bd380483b9e74e099955eecb2c6f26",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 1
+    },
+    {
+      "source": "g1-headwear-01-down.jpg",
+      "sha256": "a6ebc35b5ced4ebe83db9ef9cb636e72ee9f6b21122de048f466571452bc9679",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 1
+    },
+    {
+      "source": "g1-headwear-01-right.jpg",
+      "sha256": "ea854b5e3d258ef40cdbe81d866456ee136cfbe8cf54195460403baebe4ea51a",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 1
+    },
+    {
+      "source": "g1-headwear-02-up.jpg",
+      "sha256": "66c810ae5505f1682590eeb7682bbfbf13e22fa95e80ebbca2c10ef15090d351",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 2
+    },
+    {
+      "source": "g1-headwear-02-left.jpg",
+      "sha256": "f6e478023ce268fe3ecdd06a67d12829c5b6bee7c736f7b978265b2c1040b783",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 2
+    },
+    {
+      "source": "g1-headwear-02-down.jpg",
+      "sha256": "300e73b9232b568ea19a07f7dfae5fb67a2c587b3972757763a7bc446ed8cc64",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 2
+    },
+    {
+      "source": "g1-headwear-02-right.jpg",
+      "sha256": "bf5eb9e72aeacafc70e3a563ea3d9fecc100d79203835c1eb57100c3b4f8d5a5",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 2
+    },
+    {
+      "source": "g1-headwear-03-up.jpg",
+      "sha256": "58c2957486d348fd1dd6fadffbebf1f6fbfc89514687f7e3846c49bde7ed6b5d",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 3
+    },
+    {
+      "source": "g1-headwear-03-left.jpg",
+      "sha256": "47306fd65527354c1ce998218a1071c8dab558c4fe60d5c521d8a228da270722",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 3
+    },
+    {
+      "source": "g1-headwear-03-down.jpg",
+      "sha256": "c98c35ce9044cdc283ea5ed46730574002d814dac80c7fbf24f7bcd407875134",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 3
+    },
+    {
+      "source": "g1-headwear-03-right.jpg",
+      "sha256": "c3d71b35c782441286e602331ebc0feeaaef496fad4c10490ecc19a06bb8d1b9",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 3
+    },
+    {
+      "source": "g1-headwear-04-up.jpg",
+      "sha256": "9375a36f4456705276d5b11d9032ff0a52ebeb07a695a4785cf459d00551546a",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 4
+    },
+    {
+      "source": "g1-headwear-04-left.jpg",
+      "sha256": "6a122f84b23a8a221576d188e5eb6925ff8508f1fe825b09686d9fda3b9f21ef",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 4
+    },
+    {
+      "source": "g1-headwear-04-down.jpg",
+      "sha256": "4892057fbe944b1124454685d7829527fb4548636f6c0da75b7ba9f2bb4a9bf7",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 4
+    },
+    {
+      "source": "g1-headwear-04-right.jpg",
+      "sha256": "43afacfb3b480ca247f708e9ccc5ef993518b901b7e9cb9261c69095c16f95a3",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 4
+    }
+  ]
+}

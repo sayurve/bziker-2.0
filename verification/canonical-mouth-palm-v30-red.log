@@ -1,0 +1,39 @@
+✖ the real selected-skin mouth palm remains in front of a visible cup using only its authored source pixel mask (33.412125ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 315.58175
+
+✖ failing tests:
+
+test at game/tests/canonical-mouth-palm-v30.test.mjs:2:1
+✖ the real selected-skin mouth palm remains in front of a visible cup using only its authored source pixel mask (33.412125ms)
+  AssertionError [ERR_ASSERTION]: 0/down/skin0: actual palm 36,60 disappeared under cup
+  + actual - expected
+  
+    Uint8ClampedArray(4) [
+  +   221,
+  +   202,
+  +   180,
+  -   4,
+  -   2,
+  -   1,
+      255
+    ]
+  
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/canonical-mouth-palm-v30.test.mjs:2:617)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: Uint8ClampedArray(4) [ 221, 202, 180, 255 ],
+    expected: Uint8ClampedArray(4) [ 4, 2, 1, 255 ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

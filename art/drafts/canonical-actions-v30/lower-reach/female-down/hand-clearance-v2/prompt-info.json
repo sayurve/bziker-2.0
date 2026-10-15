@@ -1,0 +1,9 @@
+{
+  "status": "draft",
+  "tool": "built-in image_gen",
+  "sourceToolPath": "/Users/sapp/.codex/generated_images/01a13c9a-2181-7ab2-8e08-dacd16b99b77/exec-43a21785-3218-4fe4-b262-dd9b02434515.png",
+  "editTarget": "../sheet.png",
+  "exactPrompt": "prompt.txt",
+  "scope": "right-cell lowered palm/forearm clearance repair; retain original left-cell B as authoritative source",
+  "runtimeActivated": false
+}

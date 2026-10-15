@@ -1,0 +1,68 @@
+{
+  "status": "draft",
+  "approved": false,
+  "action": "idle",
+  "direction": "down",
+  "gender": "female",
+  "generator": "built-in image_gen",
+  "call_count_for_this_output": 1,
+  "source_path": "/Users/sapp/.codex/generated_images/01a13c9a-6df1-7e23-9234-eccad2b4ad49/exec-1cbd9398-2537-48bf-a302-c1b76bb89532.png",
+  "identity_reference": "art/references/canonical-run/female-run-down-native.png",
+  "style_reference": "art/drafts/canonical-idle-v2/male-idle-down.png",
+  "excluded_reference": "third user idle screenshot — not included",
+  "prompt_path": "female-idle-down.prompt.txt",
+  "actual_size": [
+    1150,
+    1367
+  ],
+  "requested_size": [
+    1150,
+    1367
+  ],
+  "requested_figure_extent": {
+    "center_x": 575,
+    "crown_y": 250,
+    "soles_y": 1250,
+    "intent": "approximately 7 percent shorter than male at a common world scale"
+  },
+  "size_matches_request": true,
+  "pixel_mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "alpha_bbox": [
+    66,
+    63,
+    1095,
+    1319
+  ],
+  "alpha_bbox_ge_128": [
+    327,
+    286,
+    825,
+    1247
+  ],
+  "unmodified_generated_bytes": true,
+  "sha256": "9d4c84dfbbed28d4d11ef92fdd3182cba250264d52168b8c42e936eede607eda",
+  "postprocess": "none — original generated PNG copied byte-for-byte, no crop/resize/repaint",
+  "registration_status": "unregistered; authored root-point/common-scale registration belongs to the integration stage",
+  "visual_inspection": {
+    "view_image_performed": true,
+    "observations": [
+      "One full female idle figure, shoulder-length wavy chestnut hair",
+      "Grey jacket, light T-shirt (front only), black trousers and dark boots",
+      "Arms lowered and hands relaxed beside the compact body",
+      "Both feet visibly planted; no running pose",
+      "True RGBA alpha; no painted grid, crosshair, floor or text observed",
+      "Front face with large eyes"
+    ],
+    "limitations": [
+      "Not pixel-identical identity proof",
+      "Exact relative height and shared root registration not yet validated",
+      "Requested canvas size matches; crown/root coordinates remain approximate"
+    ],
+    "status": "draft — not approved"
+  },
+  "art_review": "draft; not approved; no pixel-identical identity claim"
+}

@@ -1,0 +1,19 @@
+✔ approved female identity has four independently authored donor faces and retains each exact opaque face through idle and all run phases (56.201ms)
+✔ female body materials, hands, boots and grounding survive new identity without geometry or alpha damage (76.044625ms)
+✔ female extraction discards faint background residues without discarding any actual opaque head pixel (2.237541ms)
+✔ only reviewed per-frame whole-pose compatibility changes raster/head, retaining source timeline/hand/pelvis/prop semantics (1.184916ms)
+✔ empty, draft, unchecked, incomplete and malformed action compatibility cannot replace real source artwork (0.302083ms)
+✔ approved action resources preload at actor readiness while draft resources are never requested (0.979875ms)
+✔ standing phone selects the exact approved idle model and facing, never the old narrow phone body (1.587125ms)
+✔ standing phone is static across action/page clocks and keeps customization pixels outside its separate item (218.840625ms)
+✔ standing phone attaches to the selected pose actual native palm and is preloaded without a lazy action sequence (0.625709ms)
+✔ seated phone and occupied boats retain the seated context and pelvis instead of selecting standing idle (0.282125ms)
+✔ seated phone retains the exact selected seated body/head/anchor across every phone clock and adds only the separate held phone (133.525625ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 625.660417

@@ -1,0 +1,359 @@
+{
+  "hashes": {
+    "game/web/source-actors.js": "70b695789ee0db8f8ebb0632287cff265d9e86b7d7aa77b2283cdca478ba0335",
+    "game/web/actor-sprite.js": "add1cec1dcc067c3720aa465a1442b12a6ce0913eb8b2e44539903acc14f2670",
+    "game/web/interaction-actors-data.js": "34a771f62dc4ad38f5efd79788dd681b2ffe1a79751f4d4ce27faa23657cffa6",
+    "game/web/canonical-actors-data.js": "bc28b93435c6816a2fe7cff46ad218c59217262e878fc6b6cc81f243d2e9469f",
+    "game/web/locomotion-actors-data.js": "ca80688f968f0fa059d584e5eac3a6bd035bec515498e4d06bfbd6176a7e8b73"
+  },
+  "rows": [
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "eat",
+      "visibleProp": 28,
+      "hand": [
+        21,
+        30
+      ],
+      "foregroundPalmPixels": 126,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "drink",
+      "visibleProp": 37,
+      "hand": [
+        21,
+        30
+      ],
+      "foregroundPalmPixels": 126,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "action": "smoke",
+      "visibleProp": 12,
+      "hand": [
+        21,
+        30
+      ],
+      "foregroundPalmPixels": 126,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "eat",
+      "visibleProp": 51,
+      "hand": [
+        33,
+        30
+      ],
+      "foregroundPalmPixels": 92,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "drink",
+      "visibleProp": 60,
+      "hand": [
+        33,
+        30
+      ],
+      "foregroundPalmPixels": 92,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "action": "smoke",
+      "visibleProp": 12,
+      "hand": [
+        33,
+        30
+      ],
+      "foregroundPalmPixels": 92,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "eat",
+      "visibleProp": 2,
+      "hand": [
+        17.5,
+        27.5
+      ],
+      "propLayer": "behind-body",
+      "handVisibility": "occluded-by-head",
+      "foregroundPalmPixels": 0,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "drink",
+      "visibleProp": 2,
+      "hand": [
+        17.5,
+        27.5
+      ],
+      "propLayer": "behind-body",
+      "handVisibility": "occluded-by-head",
+      "foregroundPalmPixels": 0,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "action": "smoke",
+      "visibleProp": 0,
+      "hand": [
+        17.5,
+        27.5
+      ],
+      "propLayer": "behind-body",
+      "handVisibility": "occluded-by-head",
+      "foregroundPalmPixels": 0,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "eat",
+      "visibleProp": 62,
+      "hand": [
+        11,
+        32.5
+      ],
+      "foregroundPalmPixels": 80,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "drink",
+      "visibleProp": 72,
+      "hand": [
+        11,
+        32.5
+      ],
+      "foregroundPalmPixels": 80,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "action": "smoke",
+      "visibleProp": 11,
+      "hand": [
+        11,
+        32.5
+      ],
+      "foregroundPalmPixels": 80,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "eat",
+      "visibleProp": 69,
+      "hand": [
+        21,
+        35
+      ],
+      "foregroundPalmPixels": 73,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "drink",
+      "visibleProp": 79,
+      "hand": [
+        21,
+        35
+      ],
+      "foregroundPalmPixels": 73,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "action": "smoke",
+      "visibleProp": 10,
+      "hand": [
+        21,
+        35
+      ],
+      "foregroundPalmPixels": 73,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "eat",
+      "visibleProp": 58,
+      "hand": [
+        32,
+        32.5
+      ],
+      "foregroundPalmPixels": 90,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "drink",
+      "visibleProp": 60,
+      "hand": [
+        32,
+        32.5
+      ],
+      "foregroundPalmPixels": 90,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "action": "smoke",
+      "visibleProp": 12,
+      "hand": [
+        32,
+        32.5
+      ],
+      "foregroundPalmPixels": 90,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "eat",
+      "visibleProp": 21,
+      "hand": [
+        18.5,
+        31
+      ],
+      "propLayer": "behind-body",
+      "handVisibility": "occluded-by-head",
+      "foregroundPalmPixels": 0,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "drink",
+      "visibleProp": 22,
+      "hand": [
+        18.5,
+        31
+      ],
+      "propLayer": "behind-body",
+      "handVisibility": "occluded-by-head",
+      "foregroundPalmPixels": 0,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "action": "smoke",
+      "visibleProp": 2,
+      "hand": [
+        18.5,
+        31
+      ],
+      "propLayer": "behind-body",
+      "handVisibility": "occluded-by-head",
+      "foregroundPalmPixels": 0,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "eat",
+      "visibleProp": 72,
+      "hand": [
+        11.5,
+        31.5
+      ],
+      "foregroundPalmPixels": 70,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "drink",
+      "visibleProp": 79,
+      "hand": [
+        11.5,
+        31.5
+      ],
+      "foregroundPalmPixels": 70,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "action": "smoke",
+      "visibleProp": 14,
+      "hand": [
+        11.5,
+        31.5
+      ],
+      "foregroundPalmPixels": 70,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    }
+  ]
+}

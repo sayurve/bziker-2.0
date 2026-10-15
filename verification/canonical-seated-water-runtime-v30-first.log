@@ -1,0 +1,119 @@
+✔ approved HAND and LOWER production resources really decode, preload, and retain individual whole PNG bytes and per-pose metadata (65.642458ms)
+✔ LOWER endpoint bodies, heads and attachments are literal HAND master reuse, not separate nearly matching figures (1.028208ms)
+✔ ordinary finite world gestures now render these canonical whole bodies with actual prop attachments and selected hair/clothes (867.213792ms)
+✔ new water equipment uses the reviewed pose palm, separate supporting grip and authored angle (1.768209ms)
+✔ water body states select finite authored cast/hold/reel/row poses, preserve real coordinates and expose the same frame equipment metadata (1.751125ms)
+✔ a boat retains the one real seated row body for idle, travel, phone and water actions; shore phone freezes hold without a competing item (0.422834ms)
+✔ unreviewed or invalid water attachments retain actual legacy water rather than partly activating a new body (0.274ms)
+✔ the imported actor catalog retains all 22 entities and 374 original base actions (40.700333ms)
+✔ whole walking frames advance by discrete source order without moving the feet anchor (47.446625ms)
+✖ phone and food select seated source cycles without dropping the sitting context (0.935042ms)
+✔ animals use deterministic actual breeds and source gait frames at the existing world coordinate (0.51475ms)
+✖ catching a fish uses the authored hand-to-pocket sequence and phone stays seated on a boat (0.415208ms)
+✔ every supplied scenario and every animal action is addressable instead of silently becoming idle (8.530834ms)
+✔ untrusted animation identifiers cannot select inherited object properties (0.5065ms)
+✔ source pages are compact PNG atlases with normalized transparent cell bounds (155.7775ms)
+✔ canvas source rendering retains custom hair, skin, clothes and costume identity (271.340208ms)
+✖ native water equipment follows the authored hand without moving or mirroring the actor (2.036292ms)
+✔ an uncaught cast cannot show a fish; the successful catch is pocketed once (0.579291ms)
+✖ male actor-only frames use their measured hands without duplicating the embedded catch (0.882334ms)
+✔ only the three independent native equipment PNGs are decoded and drawn (159.391834ms)
+✔ standing phone selects the exact approved idle model and facing, never the old narrow phone body (1.441042ms)
+✔ standing phone is static across action/page clocks and keeps customization pixels outside its separate item (259.020417ms)
+✔ standing phone attaches to the selected pose actual native palm and is preloaded without a lazy action sequence (0.755416ms)
+✔ seated phone and occupied boats retain the seated context and pelvis instead of selecting standing idle (0.413958ms)
+✔ seated phone retains the exact selected seated body/head/anchor across every phone clock and adds only the separate held phone (160.504167ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 21
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1294.765375
+
+✖ failing tests:
+
+test at game/tests/source-actors-v17.test.mjs:33:1
+✖ phone and food select seated source cycles without dropping the sitting context (0.935042ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/source-actors-v17.test.mjs:36:153)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at game/tests/source-actors-v17.test.mjs:51:1
+✖ catching a fish uses the authored hand-to-pocket sequence and phone stays seated on a boat (0.415208ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'canonical-male-water-right-v30'
+  - 'male-fish-pocket'
+  
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/source-actors-v17.test.mjs:55:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'canonical-male-water-right-v30',
+    expected: 'male-fish-pocket',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at game/tests/source-water-actions-v17.test.mjs:13:1
+✖ native water equipment follows the authored hand without moving or mirroring the actor (2.036292ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 5316.875
+  - 5291.875
+  
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/source-water-actions-v17.test.mjs:20:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 5316.875,
+    expected: 5291.875,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at game/tests/source-water-actions-v17.test.mjs:40:1
+✖ male actor-only frames use their measured hands without duplicating the embedded catch (0.882334ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   x: 5316.875,
+  +   y: 1968.75
+  -   x: 5291.25,
+  -   y: 1952.5
+    }
+  
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/source-water-actions-v17.test.mjs:44:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { x: 5316.875, y: 1968.75 },
+    expected: { x: 5291.25, y: 1952.5 },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

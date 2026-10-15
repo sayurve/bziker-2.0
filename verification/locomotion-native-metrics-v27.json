@@ -1,0 +1,3062 @@
+{
+  "metrics": [
+    {
+      "gender": "male",
+      "action": "02_Ходьба_Спереди",
+      "n": 0,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      },
+      "bbox": [
+        19,
+        11,
+        75,
+        125
+      ],
+      "lower": {
+        "left": 32,
+        "right": 63,
+        "centroid": 48.349794238683124,
+        "count": 486
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 124,
+          "cx": 39.725806451612904,
+          "count": 310
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 54.60497237569061,
+          "count": 362
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#02_Ходьба_Спереди"
+    },
+    {
+      "gender": "male",
+      "action": "02_Ходьба_Спереди",
+      "n": 1,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 13,
+        "right": 36
+      },
+      "bbox": [
+        18,
+        11,
+        77,
+        125
+      ],
+      "lower": {
+        "left": 31,
+        "right": 60,
+        "centroid": 43.27845036319613,
+        "count": 413
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 39.50387596899225,
+          "count": 387
+        },
+        {
+          "label": "right",
+          "bottom": 117,
+          "cx": 53.67857142857143,
+          "count": 196
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#02_Ходьба_Спереди"
+    },
+    {
+      "gender": "male",
+      "action": "02_Ходьба_Спереди",
+      "n": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      },
+      "bbox": [
+        19,
+        12,
+        76,
+        125
+      ],
+      "lower": {
+        "left": 35,
+        "right": 61,
+        "centroid": 47.05134474327628,
+        "count": 409
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 41.529411764705884,
+          "count": 306
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 53.564575645756456,
+          "count": 271
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#02_Ходьба_Спереди"
+    },
+    {
+      "gender": "male",
+      "action": "02_Ходьба_Спереди",
+      "n": 3,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 35
+      },
+      "bbox": [
+        19,
+        12,
+        75,
+        125
+      ],
+      "lower": {
+        "left": 31,
+        "right": 62,
+        "centroid": 48.264900662251655,
+        "count": 453
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 124,
+          "cx": 39.81443298969072,
+          "count": 291
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 54.56090651558074,
+          "count": 353
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#02_Ходьба_Спереди"
+    },
+    {
+      "gender": "male",
+      "action": "03_Ходьба_Справа",
+      "n": 0,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      },
+      "bbox": [
+        22,
+        11,
+        73,
+        125
+      ],
+      "lower": {
+        "left": 22,
+        "right": 73,
+        "centroid": 46.88391376451078,
+        "count": 603
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 33.697435897435895,
+          "count": 390
+        },
+        {
+          "label": "right",
+          "bottom": 124,
+          "cx": 59.49363867684478,
+          "count": 393
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#03_Ходьба_Справа"
+    },
+    {
+      "gender": "male",
+      "action": "03_Ходьба_Справа",
+      "n": 1,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      },
+      "bbox": [
+        22,
+        12,
+        73,
+        125
+      ],
+      "lower": {
+        "left": 22,
+        "right": 73,
+        "centroid": 46.63291139240506,
+        "count": 632
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 33.56038647342995,
+          "count": 414
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 59.04668304668305,
+          "count": 407
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#03_Ходьба_Справа"
+    },
+    {
+      "gender": "male",
+      "action": "03_Ходьба_Справа",
+      "n": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 13,
+        "right": 37
+      },
+      "bbox": [
+        20,
+        11,
+        75,
+        125
+      ],
+      "lower": {
+        "left": 20,
+        "right": 75,
+        "centroid": 47.04705882352941,
+        "count": 595
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 32.379746835443036,
+          "count": 395
+        },
+        {
+          "label": "right",
+          "bottom": 124,
+          "cx": 60.90151515151515,
+          "count": 396
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#03_Ходьба_Справа"
+    },
+    {
+      "gender": "male",
+      "action": "03_Ходьба_Справа",
+      "n": 3,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 37
+      },
+      "bbox": [
+        22,
+        11,
+        75,
+        125
+      ],
+      "lower": {
+        "left": 22,
+        "right": 74,
+        "centroid": 47.76547231270359,
+        "count": 614
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 33.42857142857143,
+          "count": 385
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 59.90220048899756,
+          "count": 409
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#03_Ходьба_Справа"
+    },
+    {
+      "gender": "male",
+      "action": "04_Ходьба_Сзади",
+      "n": 0,
+      "head": {
+        "top": 4,
+        "bottom": 26,
+        "left": 12,
+        "right": 36
+      },
+      "bbox": [
+        18,
+        9,
+        77,
+        125
+      ],
+      "lower": {
+        "left": 33,
+        "right": 61,
+        "centroid": 49.99753694581281,
+        "count": 406
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 124,
+          "cx": 40.700892857142854,
+          "count": 224
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 54.44225352112676,
+          "count": 355
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#04_Ходьба_Сзади"
+    },
+    {
+      "gender": "male",
+      "action": "04_Ходьба_Сзади",
+      "n": 1,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 35
+      },
+      "bbox": [
+        17,
+        11,
+        78,
+        125
+      ],
+      "lower": {
+        "left": 33,
+        "right": 60,
+        "centroid": 44.34553775743707,
+        "count": 437
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 40.054545454545455,
+          "count": 385
+        },
+        {
+          "label": "right",
+          "bottom": 124,
+          "cx": 53.379629629629626,
+          "count": 216
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#04_Ходьба_Сзади"
+    },
+    {
+      "gender": "male",
+      "action": "04_Ходьба_Сзади",
+      "n": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 36
+      },
+      "bbox": [
+        17,
+        11,
+        78,
+        125
+      ],
+      "lower": {
+        "left": 33,
+        "right": 64,
+        "centroid": 46.4936974789916,
+        "count": 476
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 39.75401069518717,
+          "count": 374
+        },
+        {
+          "label": "right",
+          "bottom": 119,
+          "cx": 55.47222222222222,
+          "count": 288
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#04_Ходьба_Сзади"
+    },
+    {
+      "gender": "male",
+      "action": "04_Ходьба_Сзади",
+      "n": 3,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      },
+      "bbox": [
+        20,
+        11,
+        76,
+        125
+      ],
+      "lower": {
+        "left": 35,
+        "right": 60,
+        "centroid": 49.297872340425535,
+        "count": 423
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 41.710743801652896,
+          "count": 242
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 54.20172910662824,
+          "count": 347
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#04_Ходьба_Сзади"
+    },
+    {
+      "gender": "male",
+      "action": "05_Ходьба_Слева",
+      "n": 0,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 35
+      },
+      "bbox": [
+        22,
+        11,
+        73,
+        125
+      ],
+      "lower": {
+        "left": 22,
+        "right": 73,
+        "centroid": 48.01495016611295,
+        "count": 602
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 124,
+          "cx": 35.484771573604064,
+          "count": 394
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 61.2680412371134,
+          "count": 388
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#05_Ходьба_Слева"
+    },
+    {
+      "gender": "male",
+      "action": "05_Ходьба_Слева",
+      "n": 1,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 35
+      },
+      "bbox": [
+        22,
+        12,
+        73,
+        125
+      ],
+      "lower": {
+        "left": 22,
+        "right": 73,
+        "centroid": 47.710144927536234,
+        "count": 621
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 35.541666666666664,
+          "count": 408
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 60.99498746867168,
+          "count": 399
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#05_Ходьба_Слева"
+    },
+    {
+      "gender": "male",
+      "action": "05_Ходьба_Слева",
+      "n": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 10,
+        "right": 34
+      },
+      "bbox": [
+        20,
+        11,
+        75,
+        125
+      ],
+      "lower": {
+        "left": 20,
+        "right": 75,
+        "centroid": 47.25291181364393,
+        "count": 601
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 124,
+          "cx": 33.6395061728395,
+          "count": 405
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 62.16279069767442,
+          "count": 387
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#05_Ходьба_Слева"
+    },
+    {
+      "gender": "male",
+      "action": "05_Ходьба_Слева",
+      "n": 3,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 10,
+        "right": 35
+      },
+      "bbox": [
+        20,
+        11,
+        73,
+        125
+      ],
+      "lower": {
+        "left": 21,
+        "right": 73,
+        "centroid": 47.23452768729641,
+        "count": 614
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 35.09779951100244,
+          "count": 409
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 61.57142857142857,
+          "count": 385
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#05_Ходьба_Слева"
+    },
+    {
+      "gender": "male",
+      "action": "06_Бег_Спереди",
+      "n": 0,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 36
+      },
+      "bbox": [
+        17,
+        11,
+        78,
+        125
+      ],
+      "lower": {
+        "left": 35,
+        "right": 59,
+        "centroid": 43.521875,
+        "count": 320
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 41.11854103343465,
+          "count": 329
+        },
+        {
+          "label": "right",
+          "bottom": 123,
+          "cx": 52.80132450331126,
+          "count": 151
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#06_Бег_Спереди"
+    },
+    {
+      "gender": "male",
+      "action": "06_Бег_Спереди",
+      "n": 1,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      },
+      "bbox": [
+        17,
+        11,
+        78,
+        125
+      ],
+      "lower": {
+        "left": 35,
+        "right": 61,
+        "centroid": 50.67987804878049,
+        "count": 328
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 123,
+          "cx": 41.08620689655172,
+          "count": 174
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 54.14067278287462,
+          "count": 327
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#06_Бег_Спереди"
+    },
+    {
+      "gender": "male",
+      "action": "06_Бег_Спереди",
+      "n": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 35
+      },
+      "bbox": [
+        18,
+        11,
+        78,
+        125
+      ],
+      "lower": {
+        "left": 36,
+        "right": 59,
+        "centroid": 49.05421686746988,
+        "count": 332
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 42.02403846153846,
+          "count": 208
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 52.96797153024911,
+          "count": 281
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#06_Бег_Спереди"
+    },
+    {
+      "gender": "male",
+      "action": "06_Бег_Спереди",
+      "n": 3,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      },
+      "bbox": [
+        18,
+        11,
+        76,
+        125
+      ],
+      "lower": {
+        "left": 34,
+        "right": 58,
+        "centroid": 42.580071174377224,
+        "count": 281
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 41.135802469135804,
+          "count": 324
+        },
+        {
+          "label": "right",
+          "bottom": 123,
+          "cx": 52.641666666666666,
+          "count": 120
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#06_Бег_Спереди"
+    },
+    {
+      "gender": "male",
+      "action": "07_Бег_Справа",
+      "n": 0,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 14,
+        "right": 37
+      },
+      "bbox": [
+        13,
+        11,
+        82,
+        125
+      ],
+      "lower": {
+        "left": 13,
+        "right": 82,
+        "centroid": 50.523316062176164,
+        "count": 579
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 121,
+          "cx": 24.956521739130434,
+          "count": 368
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 66.22345132743362,
+          "count": 452
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#07_Бег_Справа"
+    },
+    {
+      "gender": "male",
+      "action": "07_Бег_Справа",
+      "n": 1,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 14,
+        "right": 37
+      },
+      "bbox": [
+        19,
+        11,
+        75,
+        125
+      ],
+      "lower": {
+        "left": 19,
+        "right": 57,
+        "centroid": 34.3974358974359,
+        "count": 390
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 31.072115384615383,
+          "count": 416
+        },
+        {
+          "label": "right",
+          "bottom": 116,
+          "cx": 52.445205479452056,
+          "count": 146
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#07_Бег_Справа"
+    },
+    {
+      "gender": "male",
+      "action": "07_Бег_Справа",
+      "n": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 16,
+        "right": 39
+      },
+      "bbox": [
+        11,
+        11,
+        82,
+        125
+      ],
+      "lower": {
+        "left": 11,
+        "right": 81,
+        "centroid": 57.71783295711061,
+        "count": 443
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 113,
+          "cx": 24.664335664335663,
+          "count": 286
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 66.98831775700934,
+          "count": 428
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#07_Бег_Справа"
+    },
+    {
+      "gender": "male",
+      "action": "07_Бег_Справа",
+      "n": 3,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 13,
+        "right": 37
+      },
+      "bbox": [
+        19,
+        11,
+        76,
+        125
+      ],
+      "lower": {
+        "left": 19,
+        "right": 59,
+        "centroid": 36.08971553610503,
+        "count": 457
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 30.490825688073393,
+          "count": 436
+        },
+        {
+          "label": "right",
+          "bottom": 119,
+          "cx": 53.46568627450981,
+          "count": 204
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#07_Бег_Справа"
+    },
+    {
+      "gender": "male",
+      "action": "08_Бег_Сзади",
+      "n": 0,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 36
+      },
+      "bbox": [
+        18,
+        11,
+        76,
+        125
+      ],
+      "lower": {
+        "left": 36,
+        "right": 60,
+        "centroid": 45.29738562091503,
+        "count": 306
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 42.03225806451613,
+          "count": 279
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 53.29100529100529,
+          "count": 189
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#08_Бег_Сзади"
+    },
+    {
+      "gender": "male",
+      "action": "08_Бег_Сзади",
+      "n": 1,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 35
+      },
+      "bbox": [
+        19,
+        12,
+        75,
+        125
+      ],
+      "lower": {
+        "left": 34,
+        "right": 57,
+        "centroid": 41.90559440559441,
+        "count": 286
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 40.50148367952522,
+          "count": 337
+        },
+        {
+          "label": "right",
+          "bottom": 123,
+          "cx": 52.53465346534654,
+          "count": 101
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#08_Бег_Сзади"
+    },
+    {
+      "gender": "male",
+      "action": "08_Бег_Сзади",
+      "n": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 12,
+        "right": 37
+      },
+      "bbox": [
+        17,
+        11,
+        78,
+        125
+      ],
+      "lower": {
+        "left": 36,
+        "right": 62,
+        "centroid": 52.67261904761905,
+        "count": 336
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 123,
+          "cx": 42.4453125,
+          "count": 128
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 54.70108695652174,
+          "count": 368
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#08_Бег_Сзади"
+    },
+    {
+      "gender": "male",
+      "action": "08_Бег_Сзади",
+      "n": 3,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 11,
+        "right": 36
+      },
+      "bbox": [
+        19,
+        11,
+        76,
+        125
+      ],
+      "lower": {
+        "left": 38,
+        "right": 63,
+        "centroid": 53.707903780068726,
+        "count": 291
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 110,
+          "cx": 41.74545454545454,
+          "count": 110
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 55.45977011494253,
+          "count": 348
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#08_Бег_Сзади"
+    },
+    {
+      "gender": "male",
+      "action": "09_Бег_Слева",
+      "n": 0,
+      "head": {
+        "top": 6,
+        "bottom": 28,
+        "left": 10,
+        "right": 31
+      },
+      "bbox": [
+        13,
+        12,
+        81,
+        125
+      ],
+      "lower": {
+        "left": 14,
+        "right": 81,
+        "centroid": 47.45894428152493,
+        "count": 682
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 30.704255319148935,
+          "count": 470
+        },
+        {
+          "label": "right",
+          "bottom": 123,
+          "cx": 67.84501061571125,
+          "count": 471
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#09_Бег_Слева"
+    },
+    {
+      "gender": "male",
+      "action": "09_Бег_Слева",
+      "n": 1,
+      "head": {
+        "top": 4,
+        "bottom": 26,
+        "left": 10,
+        "right": 33
+      },
+      "bbox": [
+        20,
+        9,
+        75,
+        125
+      ],
+      "lower": {
+        "left": 29,
+        "right": 75,
+        "centroid": 55.82629107981221,
+        "count": 426
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 117,
+          "cx": 36.64055299539171,
+          "count": 217
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 64.24031007751938,
+          "count": 387
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#09_Бег_Слева"
+    },
+    {
+      "gender": "male",
+      "action": "09_Бег_Слева",
+      "n": 2,
+      "head": {
+        "top": 5,
+        "bottom": 27,
+        "left": 8,
+        "right": 31
+      },
+      "bbox": [
+        13,
+        11,
+        82,
+        124
+      ],
+      "lower": {
+        "left": 13,
+        "right": 82,
+        "centroid": 40.02874743326489,
+        "count": 487
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 124,
+          "cx": 27.59718969555035,
+          "count": 427
+        },
+        {
+          "label": "right",
+          "bottom": 115,
+          "cx": 68.4840579710145,
+          "count": 345
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#09_Бег_Слева"
+    },
+    {
+      "gender": "male",
+      "action": "09_Бег_Слева",
+      "n": 3,
+      "head": {
+        "top": 4,
+        "bottom": 26,
+        "left": 10,
+        "right": 34
+      },
+      "bbox": [
+        20,
+        10,
+        74,
+        125
+      ],
+      "lower": {
+        "left": 35,
+        "right": 74,
+        "centroid": 57.522041763341065,
+        "count": 431
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 117,
+          "cx": 40.71573604060914,
+          "count": 197
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 63.5575,
+          "count": 400
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.32,
+      "sourceKey": "02_Персонажи/Мужчина/Анимации/каталог_анимаций.json#09_Бег_Слева"
+    },
+    {
+      "gender": "female",
+      "action": "02_Ходьба_Спереди",
+      "n": 0,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 10,
+        "right": 37
+      },
+      "bbox": [
+        18,
+        16,
+        77,
+        125
+      ],
+      "lower": {
+        "left": 38,
+        "right": 62,
+        "centroid": 50.20975609756098,
+        "count": 410
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 123,
+          "cx": 42.54716981132076,
+          "count": 212
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 54.456647398843934,
+          "count": 346
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#02_Ходьба_Спереди"
+    },
+    {
+      "gender": "female",
+      "action": "02_Ходьба_Спереди",
+      "n": 1,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 11,
+        "right": 37
+      },
+      "bbox": [
+        19,
+        16,
+        76,
+        125
+      ],
+      "lower": {
+        "left": 36,
+        "right": 62,
+        "centroid": 45.92559523809524,
+        "count": 336
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 41.54333333333334,
+          "count": 300
+        },
+        {
+          "label": "right",
+          "bottom": 123,
+          "cx": 55.30882352941177,
+          "count": 204
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#02_Ходьба_Спереди"
+    },
+    {
+      "gender": "female",
+      "action": "02_Ходьба_Спереди",
+      "n": 2,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 10,
+        "right": 37
+      },
+      "bbox": [
+        19,
+        16,
+        76,
+        125
+      ],
+      "lower": {
+        "left": 37,
+        "right": 61,
+        "centroid": 50.31891891891892,
+        "count": 370
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 123,
+          "cx": 42.56923076923077,
+          "count": 195
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 54.06382978723404,
+          "count": 329
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#02_Ходьба_Спереди"
+    },
+    {
+      "gender": "female",
+      "action": "02_Ходьба_Спереди",
+      "n": 3,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 10,
+        "right": 36
+      },
+      "bbox": [
+        18,
+        16,
+        76,
+        125
+      ],
+      "lower": {
+        "left": 33,
+        "right": 58,
+        "centroid": 41.97142857142857,
+        "count": 315
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 39.475218658892125,
+          "count": 343
+        },
+        {
+          "label": "right",
+          "bottom": 112,
+          "cx": 52.92913385826772,
+          "count": 127
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#02_Ходьба_Спереди"
+    },
+    {
+      "gender": "female",
+      "action": "03_Ходьба_Справа",
+      "n": 0,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 10,
+        "right": 37
+      },
+      "bbox": [
+        19,
+        15,
+        76,
+        125
+      ],
+      "lower": {
+        "left": 19,
+        "right": 74,
+        "centroid": 45.832451499118164,
+        "count": 567
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 31.397877984084882,
+          "count": 377
+        },
+        {
+          "label": "right",
+          "bottom": 124,
+          "cx": 60.26063829787234,
+          "count": 376
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#03_Ходьба_Справа"
+    },
+    {
+      "gender": "female",
+      "action": "03_Ходьба_Справа",
+      "n": 1,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 11,
+        "right": 38
+      },
+      "bbox": [
+        18,
+        15,
+        77,
+        125
+      ],
+      "lower": {
+        "left": 18,
+        "right": 77,
+        "centroid": 46.8513986013986,
+        "count": 572
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 30.21657754010695,
+          "count": 374
+        },
+        {
+          "label": "right",
+          "bottom": 123,
+          "cx": 62.89922480620155,
+          "count": 387
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#03_Ходьба_Справа"
+    },
+    {
+      "gender": "female",
+      "action": "03_Ходьба_Справа",
+      "n": 2,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 11,
+        "right": 37
+      },
+      "bbox": [
+        18,
+        15,
+        77,
+        125
+      ],
+      "lower": {
+        "left": 18,
+        "right": 77,
+        "centroid": 47.11186440677966,
+        "count": 590
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 31.611979166666668,
+          "count": 384
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 62.665822784810125,
+          "count": 395
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#03_Ходьба_Справа"
+    },
+    {
+      "gender": "female",
+      "action": "03_Ходьба_Справа",
+      "n": 3,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 10,
+        "right": 37
+      },
+      "bbox": [
+        18,
+        15,
+        76,
+        125
+      ],
+      "lower": {
+        "left": 23,
+        "right": 76,
+        "centroid": 48.78260869565217,
+        "count": 598
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 124,
+          "cx": 34.50765306122449,
+          "count": 392
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 62.56818181818182,
+          "count": 396
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#03_Ходьба_Справа"
+    },
+    {
+      "gender": "female",
+      "action": "04_Ходьба_Сзади",
+      "n": 0,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 9,
+        "right": 37
+      },
+      "bbox": [
+        18,
+        15,
+        77,
+        125
+      ],
+      "lower": {
+        "left": 35,
+        "right": 61,
+        "centroid": 48.40045248868778,
+        "count": 442
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 123,
+          "cx": 41.16605166051661,
+          "count": 271
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 54.146268656716416,
+          "count": 335
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#04_Ходьба_Сзади"
+    },
+    {
+      "gender": "female",
+      "action": "04_Ходьба_Сзади",
+      "n": 1,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 10,
+        "right": 37
+      },
+      "bbox": [
+        19,
+        15,
+        75,
+        125
+      ],
+      "lower": {
+        "left": 33,
+        "right": 60,
+        "centroid": 48.94910941475827,
+        "count": 393
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 123,
+          "cx": 40.73029045643153,
+          "count": 241
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 53.95061728395062,
+          "count": 324
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#04_Ходьба_Сзади"
+    },
+    {
+      "gender": "female",
+      "action": "04_Ходьба_Сзади",
+      "n": 2,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 9,
+        "right": 37
+      },
+      "bbox": [
+        18,
+        15,
+        76,
+        125
+      ],
+      "lower": {
+        "left": 35,
+        "right": 60,
+        "centroid": 48.695550351288055,
+        "count": 427
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 41.58203125,
+          "count": 256
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 53.80923076923077,
+          "count": 325
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#04_Ходьба_Сзади"
+    },
+    {
+      "gender": "female",
+      "action": "04_Ходьба_Сзади",
+      "n": 3,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 9,
+        "right": 37
+      },
+      "bbox": [
+        18,
+        15,
+        76,
+        125
+      ],
+      "lower": {
+        "left": 34,
+        "right": 60,
+        "centroid": 47.912359550561796,
+        "count": 445
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 120,
+          "cx": 40.59722222222222,
+          "count": 288
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 54.024844720496894,
+          "count": 322
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#04_Ходьба_Сзади"
+    },
+    {
+      "gender": "female",
+      "action": "05_Ходьба_Слева",
+      "n": 0,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 9,
+        "right": 37
+      },
+      "bbox": [
+        19,
+        15,
+        76,
+        125
+      ],
+      "lower": {
+        "left": 20,
+        "right": 76,
+        "centroid": 48.931458699472756,
+        "count": 569
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 124,
+          "cx": 34.21293800539083,
+          "count": 371
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 63.22251308900523,
+          "count": 382
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#05_Ходьба_Слева"
+    },
+    {
+      "gender": "female",
+      "action": "05_Ходьба_Слева",
+      "n": 1,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 9,
+        "right": 37
+      },
+      "bbox": [
+        18,
+        15,
+        77,
+        125
+      ],
+      "lower": {
+        "left": 18,
+        "right": 77,
+        "centroid": 47.59233449477352,
+        "count": 574
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 123,
+          "cx": 31.566666666666666,
+          "count": 390
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 64.3288770053476,
+          "count": 374
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#05_Ходьба_Слева"
+    },
+    {
+      "gender": "female",
+      "action": "05_Ходьба_Слева",
+      "n": 2,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 10,
+        "right": 36
+      },
+      "bbox": [
+        18,
+        15,
+        77,
+        125
+      ],
+      "lower": {
+        "left": 18,
+        "right": 77,
+        "centroid": 47.954237288135594,
+        "count": 590
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 32.35623409669211,
+          "count": 393
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 63.40673575129534,
+          "count": 386
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#05_Ходьба_Слева"
+    },
+    {
+      "gender": "female",
+      "action": "05_Ходьба_Слева",
+      "n": 3,
+      "head": {
+        "top": 8,
+        "bottom": 30,
+        "left": 10,
+        "right": 37
+      },
+      "bbox": [
+        18,
+        15,
+        76,
+        125
+      ],
+      "lower": {
+        "left": 18,
+        "right": 71,
+        "centroid": 45.484848484848484,
+        "count": 594
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 31.891959798994975,
+          "count": 398
+        },
+        {
+          "label": "right",
+          "bottom": 124,
+          "cx": 59.91450777202073,
+          "count": 386
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#05_Ходьба_Слева"
+    },
+    {
+      "gender": "female",
+      "action": "06_Бег_Спереди",
+      "n": 0,
+      "head": {
+        "top": 11,
+        "bottom": 33,
+        "left": 8,
+        "right": 37
+      },
+      "bbox": [
+        15,
+        21,
+        80,
+        125
+      ],
+      "lower": {
+        "left": 36,
+        "right": 60,
+        "centroid": 51.27878787878788,
+        "count": 330
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 124,
+          "cx": 42.422077922077925,
+          "count": 154
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 53.99395770392749,
+          "count": 331
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#06_Бег_Спереди"
+    },
+    {
+      "gender": "female",
+      "action": "06_Бег_Спереди",
+      "n": 1,
+      "head": {
+        "top": 11,
+        "bottom": 33,
+        "left": 10,
+        "right": 37
+      },
+      "bbox": [
+        18,
+        21,
+        77,
+        125
+      ],
+      "lower": {
+        "left": 35,
+        "right": 59,
+        "centroid": 44.71954674220963,
+        "count": 353
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 41.02446483180428,
+          "count": 327
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 52.4375,
+          "count": 192
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#06_Бег_Спереди"
+    },
+    {
+      "gender": "female",
+      "action": "06_Бег_Спереди",
+      "n": 2,
+      "head": {
+        "top": 11,
+        "bottom": 33,
+        "left": 9,
+        "right": 38
+      },
+      "bbox": [
+        18,
+        21,
+        77,
+        125
+      ],
+      "lower": {
+        "left": 34,
+        "right": 56,
+        "centroid": 41.604166666666664,
+        "count": 288
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 40.472622478386164,
+          "count": 347
+        },
+        {
+          "label": "right",
+          "bottom": 124,
+          "cx": 52.175257731958766,
+          "count": 97
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#06_Бег_Спереди"
+    },
+    {
+      "gender": "female",
+      "action": "06_Бег_Спереди",
+      "n": 3,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 9,
+        "right": 37
+      },
+      "bbox": [
+        17,
+        19,
+        77,
+        125
+      ],
+      "lower": {
+        "left": 34,
+        "right": 57,
+        "centroid": 43.43987341772152,
+        "count": 316
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 40.76307692307692,
+          "count": 325
+        },
+        {
+          "label": "right",
+          "bottom": 123,
+          "cx": 52.128571428571426,
+          "count": 140
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#06_Бег_Спереди"
+    },
+    {
+      "gender": "female",
+      "action": "07_Бег_Справа",
+      "n": 0,
+      "head": {
+        "top": 11,
+        "bottom": 33,
+        "left": 14,
+        "right": 42
+      },
+      "bbox": [
+        10,
+        20,
+        84,
+        125
+      ],
+      "lower": {
+        "left": 10,
+        "right": 84,
+        "centroid": 49.75992779783393,
+        "count": 554
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 118,
+          "cx": 25.264150943396228,
+          "count": 424
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 66.89170506912443,
+          "count": 434
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#07_Бег_Справа"
+    },
+    {
+      "gender": "female",
+      "action": "07_Бег_Справа",
+      "n": 1,
+      "head": {
+        "top": 12,
+        "bottom": 34,
+        "left": 14,
+        "right": 42
+      },
+      "bbox": [
+        9,
+        21,
+        86,
+        125
+      ],
+      "lower": {
+        "left": 9,
+        "right": 85,
+        "centroid": 55.328125,
+        "count": 512
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 116,
+          "cx": 23.476315789473684,
+          "count": 380
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 69.47121535181236,
+          "count": 469
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#07_Бег_Справа"
+    },
+    {
+      "gender": "female",
+      "action": "07_Бег_Справа",
+      "n": 2,
+      "head": {
+        "top": 11,
+        "bottom": 33,
+        "left": 17,
+        "right": 44
+      },
+      "bbox": [
+        6,
+        20,
+        88,
+        125
+      ],
+      "lower": {
+        "left": 6,
+        "right": 88,
+        "centroid": 59.156398104265406,
+        "count": 422
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 112,
+          "cx": 23.264044943820224,
+          "count": 356
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 72.04761904761905,
+          "count": 420
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#07_Бег_Справа"
+    },
+    {
+      "gender": "female",
+      "action": "07_Бег_Справа",
+      "n": 3,
+      "head": {
+        "top": 11,
+        "bottom": 33,
+        "left": 14,
+        "right": 41
+      },
+      "bbox": [
+        11,
+        20,
+        83,
+        125
+      ],
+      "lower": {
+        "left": 11,
+        "right": 83,
+        "centroid": 49.348214285714285,
+        "count": 560
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 119,
+          "cx": 25.169934640522875,
+          "count": 459
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 68.76699029126213,
+          "count": 412
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#07_Бег_Справа"
+    },
+    {
+      "gender": "female",
+      "action": "08_Бег_Сзади",
+      "n": 0,
+      "head": {
+        "top": 9,
+        "bottom": 31,
+        "left": 9,
+        "right": 38
+      },
+      "bbox": [
+        18,
+        16,
+        77,
+        124
+      ],
+      "lower": {
+        "left": 34,
+        "right": 60,
+        "centroid": 44.00632911392405,
+        "count": 316
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 124,
+          "cx": 40.44375,
+          "count": 320
+        },
+        {
+          "label": "right",
+          "bottom": 113,
+          "cx": 53.41139240506329,
+          "count": 158
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#08_Бег_Сзади"
+    },
+    {
+      "gender": "female",
+      "action": "08_Бег_Сзади",
+      "n": 1,
+      "head": {
+        "top": 9,
+        "bottom": 31,
+        "left": 10,
+        "right": 39
+      },
+      "bbox": [
+        16,
+        17,
+        78,
+        125
+      ],
+      "lower": {
+        "left": 38,
+        "right": 63,
+        "centroid": 53.61946902654867,
+        "count": 339
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 121,
+          "cx": 42.467289719626166,
+          "count": 107
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 55.244897959183675,
+          "count": 392
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#08_Бег_Сзади"
+    },
+    {
+      "gender": "female",
+      "action": "08_Бег_Сзади",
+      "n": 2,
+      "head": {
+        "top": 9,
+        "bottom": 31,
+        "left": 10,
+        "right": 37
+      },
+      "bbox": [
+        18,
+        17,
+        76,
+        125
+      ],
+      "lower": {
+        "left": 36,
+        "right": 61,
+        "centroid": 50.85755813953488,
+        "count": 344
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 42.01156069364162,
+          "count": 173
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 54.09171597633136,
+          "count": 338
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#08_Бег_Сзади"
+    },
+    {
+      "gender": "female",
+      "action": "08_Бег_Сзади",
+      "n": 3,
+      "head": {
+        "top": 10,
+        "bottom": 32,
+        "left": 9,
+        "right": 37
+      },
+      "bbox": [
+        18,
+        18,
+        76,
+        125
+      ],
+      "lower": {
+        "left": 33,
+        "right": 60,
+        "centroid": 49.51470588235294,
+        "count": 340
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 41.52403846153846,
+          "count": 208
+        },
+        {
+          "label": "right",
+          "bottom": 125,
+          "cx": 53.36666666666667,
+          "count": 300
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#08_Бег_Сзади"
+    },
+    {
+      "gender": "female",
+      "action": "09_Бег_Слева",
+      "n": 0,
+      "head": {
+        "top": 11,
+        "bottom": 33,
+        "left": 5,
+        "right": 33
+      },
+      "bbox": [
+        10,
+        20,
+        84,
+        125
+      ],
+      "lower": {
+        "left": 11,
+        "right": 84,
+        "centroid": 44.35294117647059,
+        "count": 544
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 27.4292343387471,
+          "count": 431
+        },
+        {
+          "label": "right",
+          "bottom": 118,
+          "cx": 69.07801418439716,
+          "count": 423
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#09_Бег_Слева"
+    },
+    {
+      "gender": "female",
+      "action": "09_Бег_Слева",
+      "n": 1,
+      "head": {
+        "top": 12,
+        "bottom": 34,
+        "left": 5,
+        "right": 33
+      },
+      "bbox": [
+        9,
+        21,
+        86,
+        125
+      ],
+      "lower": {
+        "left": 10,
+        "right": 86,
+        "centroid": 39.62645914396887,
+        "count": 514
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 25.53927813163482,
+          "count": 471
+        },
+        {
+          "label": "right",
+          "bottom": 116,
+          "cx": 71.52368421052631,
+          "count": 380
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#09_Бег_Слева"
+    },
+    {
+      "gender": "female",
+      "action": "09_Бег_Слева",
+      "n": 2,
+      "head": {
+        "top": 11,
+        "bottom": 33,
+        "left": 3,
+        "right": 30
+      },
+      "bbox": [
+        6,
+        20,
+        88,
+        125
+      ],
+      "lower": {
+        "left": 6,
+        "right": 88,
+        "centroid": 34.41843971631206,
+        "count": 423
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 22.169811320754718,
+          "count": 424
+        },
+        {
+          "label": "right",
+          "bottom": 112,
+          "cx": 71.01719197707736,
+          "count": 349
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#09_Бег_Слева"
+    },
+    {
+      "gender": "female",
+      "action": "09_Бег_Слева",
+      "n": 3,
+      "head": {
+        "top": 11,
+        "bottom": 33,
+        "left": 6,
+        "right": 32
+      },
+      "bbox": [
+        11,
+        20,
+        83,
+        125
+      ],
+      "lower": {
+        "left": 11,
+        "right": 83,
+        "centroid": 44.245960502692995,
+        "count": 557
+      },
+      "feet": [
+        {
+          "label": "left",
+          "bottom": 125,
+          "cx": 25.675417661097853,
+          "count": 419
+        },
+        {
+          "label": "right",
+          "bottom": 119,
+          "cx": 69.12780269058295,
+          "count": 446
+        }
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceScale": 0.305,
+      "sourceKey": "02_Персонажи/Женщина/Анимации/каталог_анимаций.json#09_Бег_Слева"
+    }
+  ],
+  "worldSelection": [
+    {
+      "gender": 0,
+      "facing": "down",
+      "frames": [
+        [
+          "06_Бег_Спереди",
+          0
+        ],
+        [
+          "06_Бег_Спереди",
+          0
+        ],
+        [
+          "06_Бег_Спереди",
+          1
+        ],
+        [
+          "06_Бег_Спереди",
+          1
+        ],
+        [
+          "06_Бег_Спереди",
+          2
+        ],
+        [
+          "06_Бег_Спереди",
+          2
+        ],
+        [
+          "06_Бег_Спереди",
+          3
+        ],
+        [
+          "06_Бег_Спереди",
+          3
+        ]
+      ]
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "frames": [
+        [
+          "07_Бег_Справа",
+          0
+        ],
+        [
+          "07_Бег_Справа",
+          0
+        ],
+        [
+          "07_Бег_Справа",
+          1
+        ],
+        [
+          "07_Бег_Справа",
+          1
+        ],
+        [
+          "07_Бег_Справа",
+          2
+        ],
+        [
+          "07_Бег_Справа",
+          2
+        ],
+        [
+          "07_Бег_Справа",
+          3
+        ],
+        [
+          "07_Бег_Справа",
+          3
+        ]
+      ]
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "frames": [
+        [
+          "08_Бег_Сзади",
+          0
+        ],
+        [
+          "08_Бег_Сзади",
+          0
+        ],
+        [
+          "08_Бег_Сзади",
+          1
+        ],
+        [
+          "08_Бег_Сзади",
+          1
+        ],
+        [
+          "08_Бег_Сзади",
+          2
+        ],
+        [
+          "08_Бег_Сзади",
+          2
+        ],
+        [
+          "08_Бег_Сзади",
+          3
+        ],
+        [
+          "08_Бег_Сзади",
+          3
+        ]
+      ]
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "frames": [
+        [
+          "09_Бег_Слева",
+          0
+        ],
+        [
+          "09_Бег_Слева",
+          0
+        ],
+        [
+          "09_Бег_Слева",
+          1
+        ],
+        [
+          "09_Бег_Слева",
+          1
+        ],
+        [
+          "09_Бег_Слева",
+          2
+        ],
+        [
+          "09_Бег_Слева",
+          2
+        ],
+        [
+          "09_Бег_Слева",
+          3
+        ],
+        [
+          "09_Бег_Слева",
+          3
+        ]
+      ]
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "frames": [
+        [
+          "06_Бег_Спереди",
+          0
+        ],
+        [
+          "06_Бег_Спереди",
+          0
+        ],
+        [
+          "06_Бег_Спереди",
+          1
+        ],
+        [
+          "06_Бег_Спереди",
+          1
+        ],
+        [
+          "06_Бег_Спереди",
+          2
+        ],
+        [
+          "06_Бег_Спереди",
+          2
+        ],
+        [
+          "06_Бег_Спереди",
+          3
+        ],
+        [
+          "06_Бег_Спереди",
+          3
+        ]
+      ]
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "frames": [
+        [
+          "07_Бег_Справа",
+          0
+        ],
+        [
+          "07_Бег_Справа",
+          0
+        ],
+        [
+          "07_Бег_Справа",
+          1
+        ],
+        [
+          "07_Бег_Справа",
+          1
+        ],
+        [
+          "07_Бег_Справа",
+          2
+        ],
+        [
+          "07_Бег_Справа",
+          2
+        ],
+        [
+          "07_Бег_Справа",
+          3
+        ],
+        [
+          "07_Бег_Справа",
+          3
+        ]
+      ]
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "frames": [
+        [
+          "08_Бег_Сзади",
+          0
+        ],
+        [
+          "08_Бег_Сзади",
+          0
+        ],
+        [
+          "08_Бег_Сзади",
+          1
+        ],
+        [
+          "08_Бег_Сзади",
+          1
+        ],
+        [
+          "08_Бег_Сзади",
+          2
+        ],
+        [
+          "08_Бег_Сзади",
+          2
+        ],
+        [
+          "08_Бег_Сзади",
+          3
+        ],
+        [
+          "08_Бег_Сзади",
+          3
+        ]
+      ]
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "frames": [
+        [
+          "09_Бег_Слева",
+          0
+        ],
+        [
+          "09_Бег_Слева",
+          0
+        ],
+        [
+          "09_Бег_Слева",
+          1
+        ],
+        [
+          "09_Бег_Слева",
+          1
+        ],
+        [
+          "09_Бег_Слева",
+          2
+        ],
+        [
+          "09_Бег_Слева",
+          2
+        ],
+        [
+          "09_Бег_Слева",
+          3
+        ],
+        [
+          "09_Бег_Слева",
+          3
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-10-15T18:52:51.293753+00:00",
+  "steps": [
+    {
+      "name": "tools-tests",
+      "exitCode": 0,
+      "log": "verification/tools-tests-latest.log"
+    },
+    {
+      "name": "character-system",
+      "exitCode": 0,
+      "log": "verification/character-system-latest.log"
+    }
+  ],
+  "passed": true,
+  "scope": "technical validation; not an artistic approval",
+  "skills": [
+    "bziker-build-game",
+    "bziker-character-pipeline",
+    "bziker-game-qa"
+  ],
+  "art": {
+    "approvedDefinitionFiles": 0,
+    "draftPngFiles": 1655,
+    "ready": false,
+    "note": "Artwork needs editable layered masters and visual approval; copied legacy-composite art is compatibility only."
+  }
+}

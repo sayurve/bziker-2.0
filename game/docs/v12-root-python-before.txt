@@ -1,0 +1,18 @@
+E
+======================================================================
+ERROR: test_city_collision_v12 (unittest.loader._FailedTest.test_city_collision_v12)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_city_collision_v12
+Traceback (most recent call last):
+  File "$LOCAL_WORKSPACE/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "./tests/test_city_collision_v12.py", line 5, in <module>
+    from world import WorldService,WORLD_MAP,valid_position,nearest_city_position
+ImportError: cannot import name 'nearest_city_position' from 'world' (./world.py). Did you mean: 'nearest_interior_position'?
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

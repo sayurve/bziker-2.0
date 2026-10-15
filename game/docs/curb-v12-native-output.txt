@@ -1,0 +1,125 @@
+{
+  "baselineRevision": "c774387",
+  "mapWidth": 8400,
+  "mapHeight": 5200,
+  "approaches": 19,
+  "roadJunctions": 6,
+  "publicPathVertices": 21,
+  "squareCorners": 8,
+  "totalJoinImages": 35,
+  "checks": [
+    {
+      "stage": "before",
+      "render": "city",
+      "scale": 1,
+      "samples": 21216,
+      "interiorCurbFailures": 0,
+      "affectedSurfaces": [],
+      "firstFailures": []
+    },
+    {
+      "stage": "before",
+      "render": "city",
+      "scale": 0.5,
+      "samples": 21216,
+      "interiorCurbFailures": 0,
+      "affectedSurfaces": [],
+      "firstFailures": []
+    },
+    {
+      "stage": "before",
+      "render": "minimap",
+      "scale": 1,
+      "samples": 21216,
+      "interiorCurbFailures": 0,
+      "affectedSurfaces": [],
+      "firstFailures": []
+    },
+    {
+      "stage": "before",
+      "render": "minimap",
+      "scale": 0.5,
+      "samples": 21216,
+      "interiorCurbFailures": 0,
+      "affectedSurfaces": [],
+      "firstFailures": []
+    },
+    {
+      "stage": "after",
+      "render": "city",
+      "scale": 1,
+      "samples": 21216,
+      "interiorCurbFailures": 4,
+      "affectedSurfaces": [
+        "west-street",
+        "park-promenade"
+      ],
+      "firstFailures": [
+        {
+          "id": "west-street",
+          "x": 4692,
+          "y": 3896
+        },
+        {
+          "id": "park-promenade",
+          "x": 8010,
+          "y": 3796
+        },
+        {
+          "id": "park-promenade",
+          "x": 7962,
+          "y": 3821
+        },
+        {
+          "id": "park-promenade",
+          "x": 7954,
+          "y": 3797
+        }
+      ]
+    },
+    {
+      "stage": "after",
+      "render": "city",
+      "scale": 0.5,
+      "samples": 21216,
+      "interiorCurbFailures": 0,
+      "affectedSurfaces": [],
+      "firstFailures": []
+    },
+    {
+      "stage": "after",
+      "render": "minimap",
+      "scale": 1,
+      "samples": 21216,
+      "interiorCurbFailures": 0,
+      "affectedSurfaces": [],
+      "firstFailures": []
+    },
+    {
+      "stage": "after",
+      "render": "minimap",
+      "scale": 0.5,
+      "samples": 21216,
+      "interiorCurbFailures": 0,
+      "affectedSurfaces": [],
+      "firstFailures": []
+    }
+  ],
+  "images": [
+    "curb-v12-approaches-before.png",
+    "curb-v12-joins-before.png",
+    "curb-v12-approaches-before-minimap.png",
+    "curb-v12-joins-before-minimap.png",
+    "curb-v12-approaches-after.png",
+    "curb-v12-joins-after.png",
+    "curb-v12-approaches-after-minimap.png",
+    "curb-v12-joins-after-minimap.png"
+  ],
+  "sourceUnchangedDuringRun": true,
+  "sourceHashes": {
+    "web/city-ground.js": "2ca4154764e3cf5dab12198b7eef827a4bd091d513fe2d2999632206e66907bb",
+    "web/road-topology.js": "f13ccdf92f6d092ee7fdcc0c931626c157041aafafcb961204bab4d0c81a4b45",
+    "web/city-architecture.js": "7afb8216871bb57b7a17da1d6d33f1b1b49f760266c4ea1d2eee9793746b7d4d",
+    "web/world-map.json": "fad366ab9a314ce510d0af6d03d5f81d9f71efcbcdfaf156834aebbb6b9efd8f"
+  }
+}

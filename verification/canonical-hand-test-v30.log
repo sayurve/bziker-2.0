@@ -1,0 +1,12 @@
+test_all_32_resources_and_unchanged_source_hashes (__main__.HandExport.test_all_32_resources_and_unchanged_source_hashes) ... ok
+test_body_and_head_are_physically_connected (__main__.HandExport.test_body_and_head_are_physically_connected) ... ok
+test_coarse_is_whole_uniform_native_derivative (__main__.HandExport.test_coarse_is_whole_uniform_native_derivative) ... ok
+test_exact_canonical_head_except_actual_foreground_palm (__main__.HandExport.test_exact_canonical_head_except_actual_foreground_palm) ... ok
+test_foreground_contains_only_original_pose_rgba (__main__.HandExport.test_foreground_contains_only_original_pose_rgba) ... ok
+test_one_uniform_scalar_and_fixed_canvas_authored_root (__main__.HandExport.test_one_uniform_scalar_and_fixed_canvas_authored_root) ... ok
+test_safety_edge_same_ground_and_canonical_height (__main__.HandExport.test_safety_edge_same_ground_and_canonical_height) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.954s
+
+OK

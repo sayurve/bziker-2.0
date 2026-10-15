@@ -1,0 +1,59 @@
+{
+  "deduplication": "idle phase0 only; walk/run all4phases; one brown colour for defect incidence",
+  "groups": [
+    {
+      "gender": 0,
+      "state": "idle",
+      "cases": 44,
+      "deleteStrongCases": 32,
+      "interiorHoleCases": 44,
+      "maxStrongDeleted": 22,
+      "maxNewHolePixels": 168
+    },
+    {
+      "gender": 0,
+      "state": "walk",
+      "cases": 176,
+      "deleteStrongCases": 71,
+      "interiorHoleCases": 147,
+      "maxStrongDeleted": 8,
+      "maxNewHolePixels": 208
+    },
+    {
+      "gender": 0,
+      "state": "run",
+      "cases": 176,
+      "deleteStrongCases": 78,
+      "interiorHoleCases": 167,
+      "maxStrongDeleted": 9,
+      "maxNewHolePixels": 242
+    },
+    {
+      "gender": 1,
+      "state": "idle",
+      "cases": 44,
+      "deleteStrongCases": 33,
+      "interiorHoleCases": 44,
+      "maxStrongDeleted": 4,
+      "maxNewHolePixels": 212
+    },
+    {
+      "gender": 1,
+      "state": "walk",
+      "cases": 176,
+      "deleteStrongCases": 130,
+      "interiorHoleCases": 166,
+      "maxStrongDeleted": 17,
+      "maxNewHolePixels": 252
+    },
+    {
+      "gender": 1,
+      "state": "run",
+      "cases": 176,
+      "deleteStrongCases": 133,
+      "interiorHoleCases": 163,
+      "maxStrongDeleted": 13,
+      "maxNewHolePixels": 380
+    }
+  ]
+}

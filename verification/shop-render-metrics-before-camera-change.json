@@ -1,0 +1,456 @@
+[
+  {
+    "stage": "before",
+    "id": "profile",
+    "viewport": {
+      "width": 1204,
+      "height": 880,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.5,
+      "width": 802.6666666666666,
+      "height": 586.6666666666666,
+      "x": 524.3333333333334,
+      "y": 328.3333333333333
+    },
+    "visible": [
+      "service",
+      "fitting-1",
+      "rail-1",
+      "shoe-shelf-1",
+      "rail-2"
+    ],
+    "props": 9,
+    "seats": 0,
+    "playable": [
+      1149.6802980000002,
+      500
+    ]
+  },
+  {
+    "stage": "before",
+    "id": "profile",
+    "viewport": {
+      "width": 390,
+      "height": 800,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.5,
+      "width": 260,
+      "height": 533.3333333333334,
+      "x": 795.6666666666666,
+      "y": 381.6666666666667
+    },
+    "visible": [],
+    "props": 9,
+    "seats": 0,
+    "playable": [
+      1149.6802980000002,
+      500
+    ]
+  },
+  {
+    "stage": "before",
+    "id": "shop-food",
+    "viewport": {
+      "width": 1204,
+      "height": 880,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.5,
+      "width": 802.6666666666666,
+      "height": 586.6666666666666,
+      "x": 436.6666666666667,
+      "y": 309.3333333333333
+    },
+    "visible": [
+      "service",
+      "shelf-1",
+      "shelf-1-vitrine",
+      "shelf-2",
+      "shelf-2-vitrine",
+      "goods-table-1",
+      "goods-table-1-vitrine",
+      "goods-table-2",
+      "goods-table-2-vitrine"
+    ],
+    "props": 11,
+    "seats": 0,
+    "playable": [
+      1030.8079480000001,
+      500
+    ]
+  },
+  {
+    "stage": "before",
+    "id": "shop-food",
+    "viewport": {
+      "width": 390,
+      "height": 800,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.5,
+      "width": 260,
+      "height": 533.3333333333334,
+      "x": 708,
+      "y": 362.6666666666667
+    },
+    "visible": [
+      "shelf-1-vitrine",
+      "shelf-2",
+      "goods-table-1-vitrine",
+      "goods-table-2"
+    ],
+    "props": 11,
+    "seats": 0,
+    "playable": [
+      1030.8079480000001,
+      500
+    ]
+  },
+  {
+    "stage": "before",
+    "id": "shop-clothes",
+    "viewport": {
+      "width": 1204,
+      "height": 880,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.5,
+      "width": 802.6666666666666,
+      "height": 586.6666666666666,
+      "x": 524.3333333333334,
+      "y": 328.3333333333333
+    },
+    "visible": [
+      "service",
+      "fitting-1",
+      "rail-1",
+      "shoe-shelf-1",
+      "rail-2"
+    ],
+    "props": 9,
+    "seats": 0,
+    "playable": [
+      1149.6802980000002,
+      500
+    ]
+  },
+  {
+    "stage": "before",
+    "id": "shop-clothes",
+    "viewport": {
+      "width": 390,
+      "height": 800,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.5,
+      "width": 260,
+      "height": 533.3333333333334,
+      "x": 795.6666666666666,
+      "y": 381.6666666666667
+    },
+    "visible": [],
+    "props": 9,
+    "seats": 0,
+    "playable": [
+      1149.6802980000002,
+      500
+    ]
+  },
+  {
+    "stage": "before",
+    "id": "shop-furniture",
+    "viewport": {
+      "width": 1204,
+      "height": 880,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.5,
+      "width": 802.6666666666666,
+      "height": 586.6666666666666,
+      "x": 440.6666666666667,
+      "y": 310.3333333333333
+    },
+    "visible": [
+      "service",
+      "showroom-1",
+      "showroom-2",
+      "showroom-3",
+      "showroom-4",
+      "showroom-5"
+    ],
+    "props": 8,
+    "seats": 3,
+    "playable": [
+      1035.7979799999998,
+      500
+    ]
+  },
+  {
+    "stage": "before",
+    "id": "shop-furniture",
+    "viewport": {
+      "width": 390,
+      "height": 800,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.5,
+      "width": 260,
+      "height": 533.3333333333334,
+      "x": 712,
+      "y": 363.6666666666667
+    },
+    "visible": [],
+    "props": 8,
+    "seats": 3,
+    "playable": [
+      1035.7979799999998,
+      500
+    ]
+  },
+  {
+    "stage": "after",
+    "id": "profile",
+    "viewport": {
+      "width": 1204,
+      "height": 880,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.5,
+      "width": 802.6666666666666,
+      "height": 586.6666666666666,
+      "x": 186.33333333333334,
+      "y": 75.66666666666667
+    },
+    "visible": [
+      "service",
+      "fitting-1",
+      "mirror",
+      "waiting-sofa",
+      "consultation-archive",
+      "plant"
+    ],
+    "props": 6,
+    "seats": 3,
+    "playable": [
+      689.808178,
+      260
+    ]
+  },
+  {
+    "stage": "after",
+    "id": "profile",
+    "viewport": {
+      "width": 390,
+      "height": 800,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.5,
+      "width": 260,
+      "height": 533.3333333333334,
+      "x": 457.6666666666667,
+      "y": 124.66666666666667
+    },
+    "visible": [
+      "waiting-sofa",
+      "consultation-archive"
+    ],
+    "props": 6,
+    "seats": 3,
+    "playable": [
+      689.808178,
+      260
+    ]
+  },
+  {
+    "stage": "after",
+    "id": "shop-clothes",
+    "viewport": {
+      "width": 1204,
+      "height": 880,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.5,
+      "width": 802.6666666666666,
+      "height": 586.6666666666666,
+      "x": 298.6666666666667,
+      "y": 186.33333333333334
+    },
+    "visible": [
+      "service",
+      "fitting-1",
+      "fitting-2",
+      "rail-1",
+      "rail-2",
+      "shoe-shelf-1",
+      "shoe-shelf-2",
+      "mirror",
+      "plant"
+    ],
+    "props": 9,
+    "seats": 0,
+    "playable": [
+      843.098884,
+      340
+    ]
+  },
+  {
+    "stage": "after",
+    "id": "shop-clothes",
+    "viewport": {
+      "width": 390,
+      "height": 800,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.5,
+      "width": 260,
+      "height": 533.3333333333334,
+      "x": 570,
+      "y": 239.66666666666666
+    },
+    "visible": [
+      "rail-2",
+      "shoe-shelf-1"
+    ],
+    "props": 9,
+    "seats": 0,
+    "playable": [
+      843.098884,
+      340
+    ]
+  },
+  {
+    "stage": "after",
+    "id": "shop-food",
+    "viewport": {
+      "width": 1204,
+      "height": 880,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.5,
+      "width": 802.6666666666666,
+      "height": 586.6666666666666,
+      "x": 234.66666666666666,
+      "y": 108.33333333333333
+    },
+    "visible": [
+      "service",
+      "food-row-1-left",
+      "food-row-1-right",
+      "food-row-2-left",
+      "food-row-2-right",
+      "plant"
+    ],
+    "props": 6,
+    "seats": 0,
+    "playable": [
+      755.9258279999999,
+      340
+    ]
+  },
+  {
+    "stage": "after",
+    "id": "shop-food",
+    "viewport": {
+      "width": 390,
+      "height": 800,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.5,
+      "width": 260,
+      "height": 533.3333333333334,
+      "x": 506,
+      "y": 161.66666666666666
+    },
+    "visible": [
+      "food-row-1-left",
+      "food-row-1-right",
+      "food-row-2-left",
+      "food-row-2-right"
+    ],
+    "props": 6,
+    "seats": 0,
+    "playable": [
+      755.9258279999999,
+      340
+    ]
+  },
+  {
+    "stage": "after",
+    "id": "shop-furniture",
+    "viewport": {
+      "width": 1204,
+      "height": 880,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.5,
+      "width": 802.6666666666666,
+      "height": 586.6666666666666,
+      "x": 288.3333333333333,
+      "y": 159.33333333333334
+    },
+    "visible": [
+      "service",
+      "showroom-desk",
+      "showroom-bookcase",
+      "showroom-sofa",
+      "showroom-coffee-table",
+      "showroom-dining-table",
+      "dining-chair-north",
+      "dining-chair-south",
+      "plant"
+    ],
+    "props": 9,
+    "seats": 5,
+    "playable": [
+      828.6383839999999,
+      380
+    ]
+  },
+  {
+    "stage": "after",
+    "id": "shop-furniture",
+    "viewport": {
+      "width": 390,
+      "height": 800,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.5,
+      "width": 260,
+      "height": 533.3333333333334,
+      "x": 559.6666666666666,
+      "y": 212.66666666666666
+    },
+    "visible": [
+      "showroom-bookcase",
+      "showroom-sofa",
+      "showroom-coffee-table",
+      "showroom-dining-table",
+      "dining-chair-north",
+      "dining-chair-south"
+    ],
+    "props": 9,
+    "seats": 5,
+    "playable": [
+      828.6383839999999,
+      380
+    ]
+  }
+]

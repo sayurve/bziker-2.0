@@ -1,0 +1,294 @@
+{
+  "status": "awaiting-visual-review",
+  "contact": "contact-g1-outfit-00.png",
+  "records": [
+    {
+      "source": "g1-outfit-00-up.jpg",
+      "sha256": "895cb90e2970ccc4b8413e4e07ec2c33a6f69521bdd6cca84ffb763cc8860930",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 0
+    },
+    {
+      "source": "g1-outfit-00-left.jpg",
+      "sha256": "774e90a14fb67695410808a65fa488c714beacf89a06e5f0f700fd0c5ded975f",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 0
+    },
+    {
+      "source": "g1-outfit-00-down.jpg",
+      "sha256": "d38b79f47936cf06af503671f1faa2fabaf8cb492c109702543a16ec5d613ea3",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 0
+    },
+    {
+      "source": "g1-outfit-00-right.jpg",
+      "sha256": "6b553360ac0a096e4467eabfa2ccecb0ee77d7932df508df52026e39942ea42b",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 0
+    },
+    {
+      "source": "g1-outfit-01-up.jpg",
+      "sha256": "7ab99fb3f61739aa388db5733ced8add38b2ef46d71ddcfe9455b8d3ccbb3850",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 1
+    },
+    {
+      "source": "g1-outfit-01-left.jpg",
+      "sha256": "691f263c537c65ad76b273f7a464508f2e2031ad9292d1234a10efbf49c6c504",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 1
+    },
+    {
+      "source": "g1-outfit-01-down.jpg",
+      "sha256": "fcd576df85f216e5add556bdadff9a26983237de2d7afe172f099e1eed28b911",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 1
+    },
+    {
+      "source": "g1-outfit-01-right.jpg",
+      "sha256": "5a9debc8468bc057bacbac1fb90cfcecb2748c1ce5e0c81f6080ea715bfb3ac8",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 1
+    },
+    {
+      "source": "g1-outfit-02-up.jpg",
+      "sha256": "02b8c32dcd088e82331030e8d3a09a6ebcd562d2aecc76edc9b1ebc9503dd5b2",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 2
+    },
+    {
+      "source": "g1-outfit-02-left.jpg",
+      "sha256": "4ed1bd05e86b79e1e6873e01b00c2faf4b4555d642573012f0280bfffbbf2e8e",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 2
+    },
+    {
+      "source": "g1-outfit-02-down.jpg",
+      "sha256": "da75ce322dcbe207916d78a8000bee4355e9c9cb58a2977152cfb82eefc72b9b",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 2
+    },
+    {
+      "source": "g1-outfit-02-right.jpg",
+      "sha256": "dd1efa112db2a7215f83b092b741640334264d12ce7765981767f7f73acba588",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 2
+    },
+    {
+      "source": "g1-outfit-03-up.jpg",
+      "sha256": "5ea9842c61eb14d9d7e02b4e45a3d90a6aebf7686037c6de6fc2c8a5cd8c9eb7",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 3
+    },
+    {
+      "source": "g1-outfit-03-left.jpg",
+      "sha256": "5c1d570e88478c4ae8d20d3013bcdc1049c1f8e088764e5d4ef3701429cbdb96",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 3
+    },
+    {
+      "source": "g1-outfit-03-down.jpg",
+      "sha256": "82a3559a3c54fcffcce6c62979a4f18dd97258170bb1235826c84c9b6977bd0e",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 3
+    },
+    {
+      "source": "g1-outfit-03-right.jpg",
+      "sha256": "3302cecbccc4fdb056772f983243202e0493b3d51af302c7ac0ea0200068dbc5",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 3
+    },
+    {
+      "source": "g1-outfit-04-up.jpg",
+      "sha256": "4fb223ee1819ecf4af8d1776ffaad6d59c7e99a6e0512cdac1ebabc0b464a2cc",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 4
+    },
+    {
+      "source": "g1-outfit-04-left.jpg",
+      "sha256": "52598c6f76093a1bcf712a6d3544dc9e1dd415bc99d9daa090e82889d4a43671",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 4
+    },
+    {
+      "source": "g1-outfit-04-down.jpg",
+      "sha256": "0790f2692e907b70c580c24a74ac8651b4d0e7f2305fd5ee9340758cae74a70e",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 4
+    },
+    {
+      "source": "g1-outfit-04-right.jpg",
+      "sha256": "121d88a7732269f2b7f50cdf87532e971c471f67f4cfcd8629c05d9dd96e35a7",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 4
+    },
+    {
+      "source": "g1-outfit-05-up.jpg",
+      "sha256": "aea7b073a90722e6e3a5e6afacf3cf86550ef5737c60a37e398126f062862ba1",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 5
+    },
+    {
+      "source": "g1-outfit-05-left.jpg",
+      "sha256": "5a83a4b5744959ad26f6e7a285b7112b3daeea16f10fab8201579207af2feb19",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 5
+    },
+    {
+      "source": "g1-outfit-05-down.jpg",
+      "sha256": "9f07e274854be23504bbc776656d8e62d6291c46af961478f5d7b762030fc857",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 5
+    },
+    {
+      "source": "g1-outfit-05-right.jpg",
+      "sha256": "432b26c6b7e5b2b28345a9f0f9c59086090059612188117a54466e5912173713",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 5
+    }
+  ]
+}

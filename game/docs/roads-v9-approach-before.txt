@@ -1,0 +1,35 @@
+✔ city preserves both arms of all real intersections (1401.54125ms)
+✔ overview preserves both arms of all real intersections (26.237417ms)
+✔ footpaths and forecourts cannot erase an asphalt lane anywhere along the network (999.392417ms)
+✔ street asphalt ownership is independent of road list order (13.751584ms)
+✔ all visible front planters remain outside asphalt and clear of entrances (24.380791ms)
+✔ zebras keep their complete paint and landings clear of every branch (0.268834ms)
+✖ short front approaches reach the sidewalk without overshooting and doubling back (0.48975ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 6
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2543.609666
+
+✖ failing tests:
+
+test at tests/road-rendering-v9.test.mjs:34:1
+✖ short front approaches reach the sidewalk without overshooting and doubling back (0.48975ms)
+  AssertionError [ERR_ASSERTION]: base-5 doubles back from 2332 to 2331.3569918217786
+      at TestContext.<anonymous> (file://$LOCAL_WORKSPACE/.codex/worktrees/bziker-game/%D0%9A%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82/output/bziker/tests/road-rendering-v9.test.mjs:35:145)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

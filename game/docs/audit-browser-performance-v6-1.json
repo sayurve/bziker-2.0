@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-09",
+  "engine": "Codex in-app browser, existing tab 1",
+  "fixture": "One actual browser, 99 stationary disposable peers at railway spawn; 100 visible actor nodes; frozen fixture TTL",
+  "physical_mobile_device": false,
+  "hundred_concurrent_browsers": false,
+  "live_database_used": false,
+  "samples": [
+    {
+      "metrics": {
+        "worldFps": "144.0",
+        "worldFrameMs": "6.94",
+        "worldRenderMs": "1.38",
+        "worldVisibleActorNodes": "100"
+      },
+      "online": "100",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "metrics": {
+        "worldFps": "144.0",
+        "worldFrameMs": "6.95",
+        "worldRenderMs": "1.46",
+        "worldVisibleActorNodes": "100"
+      },
+      "online": "100",
+      "phase": "walking",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "metrics": {
+        "worldFps": "144.0",
+        "worldFrameMs": "6.95",
+        "worldRenderMs": "1.46",
+        "worldVisibleActorNodes": "100"
+      },
+      "online": "100",
+      "phase": "phone-open",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "document": [
+        1280,
+        800
+      ],
+      "metrics": {
+        "worldFps": "144.0",
+        "worldFrameMs": "6.94",
+        "worldRenderMs": "1.48",
+        "worldVisibleActorNodes": "100"
+      },
+      "online": "100",
+      "phase": "desktop",
+      "viewport": [
+        1280,
+        800
+      ]
+    }
+  ]
+}

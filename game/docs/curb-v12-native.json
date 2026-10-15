@@ -1,0 +1,101 @@
+{
+  "baselineRevision": "c774387",
+  "mapWidth": 8400,
+  "mapHeight": 5200,
+  "approaches": 19,
+  "roadJunctions": 6,
+  "publicPathVertices": 21,
+  "squareCorners": 8,
+  "totalJoinImages": 35,
+  "checks": [
+    {
+      "stage": "before",
+      "render": "city",
+      "scale": 1,
+      "samples": 21216,
+      "interiorCurbFailures": 0,
+      "affectedSurfaces": [],
+      "firstFailures": []
+    },
+    {
+      "stage": "before",
+      "render": "city",
+      "scale": 0.5,
+      "samples": 21216,
+      "interiorCurbFailures": 0,
+      "affectedSurfaces": [],
+      "firstFailures": []
+    },
+    {
+      "stage": "before",
+      "render": "minimap",
+      "scale": 1,
+      "samples": 21216,
+      "interiorCurbFailures": 0,
+      "affectedSurfaces": [],
+      "firstFailures": []
+    },
+    {
+      "stage": "before",
+      "render": "minimap",
+      "scale": 0.5,
+      "samples": 21216,
+      "interiorCurbFailures": 0,
+      "affectedSurfaces": [],
+      "firstFailures": []
+    },
+    {
+      "stage": "after",
+      "render": "city",
+      "scale": 1,
+      "samples": 21216,
+      "interiorCurbFailures": 0,
+      "affectedSurfaces": [],
+      "firstFailures": []
+    },
+    {
+      "stage": "after",
+      "render": "city",
+      "scale": 0.5,
+      "samples": 21216,
+      "interiorCurbFailures": 0,
+      "affectedSurfaces": [],
+      "firstFailures": []
+    },
+    {
+      "stage": "after",
+      "render": "minimap",
+      "scale": 1,
+      "samples": 21216,
+      "interiorCurbFailures": 0,
+      "affectedSurfaces": [],
+      "firstFailures": []
+    },
+    {
+      "stage": "after",
+      "render": "minimap",
+      "scale": 0.5,
+      "samples": 21216,
+      "interiorCurbFailures": 0,
+      "affectedSurfaces": [],
+      "firstFailures": []
+    }
+  ],
+  "images": [
+    "curb-v12-approaches-before.png",
+    "curb-v12-joins-before.png",
+    "curb-v12-approaches-before-minimap.png",
+    "curb-v12-joins-before-minimap.png",
+    "curb-v12-approaches-after.png",
+    "curb-v12-joins-after.png",
+    "curb-v12-approaches-after-minimap.png",
+    "curb-v12-joins-after-minimap.png"
+  ],
+  "sourceUnchangedDuringRun": true,
+  "sourceHashes": {
+    "web/city-ground.js": "2ca4154764e3cf5dab12198b7eef827a4bd091d513fe2d2999632206e66907bb",
+    "web/road-topology.js": "f13ccdf92f6d092ee7fdcc0c931626c157041aafafcb961204bab4d0c81a4b45",
+    "web/city-architecture.js": "470fbd2e1af877f88bef307c22f33053248d72dc24ad41f3fd7e9486c5891ee2",
+    "web/world-map.json": "fad366ab9a314ce510d0af6d03d5f81d9f71efcbcdfaf156834aebbb6b9efd8f"
+  }
+}

@@ -1,0 +1,14 @@
+✔ stance uses actual opaque trash centre and the final squat prop socket for both models/all facings (26.003292ms)
+✔ pickup begins only at contact pose; ground and interaction disappear at contact, and return with a new day snapshot (0.509167ms)
+✔ actual mountWorld walks a bounded collision-checked path and awaits accepted server position before one pickup (351.713584ms)
+✔ server rejection, manual movement, phone opening, and cancellation during move await never pick remotely (732.935292ms)
+✔ actual native ground paper pixels and mount floor node disappear at contact, survive stale GET, and return next day (149.243208ms)
+✔ a late previous-day movement response cannot restore yesterday collected IDs after a fresh empty day (104.532834ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1705.624875

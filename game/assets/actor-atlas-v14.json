@@ -1,0 +1,1193 @@
+{
+  "schemaVersion": 2,
+  "sourceVerification": {
+    "byteExactOriginalCopies": 2,
+    "normalizedFrames": 20,
+    "pointSamples": 61440,
+    "walkingBodyPointSamples": 0,
+    "allPaletteEntriesUsed": true,
+    "alphaThreshold": 64
+  },
+  "geometry": {
+    "width": 48,
+    "height": 64,
+    "anchorX": 24,
+    "anchorY": 63,
+    "walkFrames": 8,
+    "sourceWalkFrames": 4
+  },
+  "directions": [
+    "down",
+    "left",
+    "up",
+    "right"
+  ],
+  "alphaThreshold": 64,
+  "normalization": "Nearest point sampling of unchanged supplied sources; source RGB retained, occupied runtime pixels opaque. The sixteen complete walking frames share one uniform scale and a common ground baseline. Runtime displays whole frames in source order without head/body assembly.",
+  "sources": {
+    "idle": {
+      "url": "/assets/actor-reference-idle-v14.png",
+      "width": 1881,
+      "height": 836,
+      "sha256": "ac03cc8f6ed7bceeedafabb1eb365c1e69b389df1855537fad1da7c2265addbe",
+      "alpha": {
+        "transparent": 965175,
+        "lowFringe": 32634,
+        "visible": 574707,
+        "distinctValues": 256
+      }
+    },
+    "walk": {
+      "url": "/assets/actor-reference-walk-v14.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a4f3bd65e1aebbe2529fa198c0e30fcd8d92c0cc9276ca54c4c7037b5d18543d",
+      "alpha": {
+        "transparent": 1023610,
+        "lowFringe": 90976,
+        "visible": 457930,
+        "distinctValues": 256
+      }
+    }
+  },
+  "frames": {
+    "idle": {
+      "down": {
+        "id": "idle-down",
+        "sourceCell": {
+          "x": 0,
+          "y": 0,
+          "w": 470,
+          "h": 836
+        },
+        "source": {
+          "x": 85,
+          "y": 50,
+          "w": 356,
+          "h": 761
+        },
+        "opaqueBounds": {
+          "x": 87,
+          "y": 52,
+          "w": 352,
+          "h": 757,
+          "count": 169625
+        },
+        "headBounds": {
+          "x": 140,
+          "y": 52,
+          "w": 246,
+          "h": 289,
+          "count": 56707
+        },
+        "bodyBounds": {
+          "x": 87,
+          "y": 341,
+          "w": 352,
+          "h": 468,
+          "count": 112918
+        },
+        "sourceAnchor": {
+          "x": 263,
+          "y": 809
+        },
+        "sourceSplit": 341,
+        "headBodySplit": 25,
+        "neck": {
+          "x": 24,
+          "y": 25
+        },
+        "scale": {
+          "x": 0.082010582010582,
+          "y": 0.082010582010582
+        },
+        "atlas": {
+          "x": 0,
+          "y": 0,
+          "w": 48,
+          "h": 64
+        }
+      },
+      "left": {
+        "id": "idle-left",
+        "sourceCell": {
+          "x": 470,
+          "y": 0,
+          "w": 470,
+          "h": 836
+        },
+        "source": {
+          "x": 598,
+          "y": 49,
+          "w": 247,
+          "h": 762
+        },
+        "opaqueBounds": {
+          "x": 600,
+          "y": 51,
+          "w": 243,
+          "h": 758,
+          "count": 118467
+        },
+        "headBounds": {
+          "x": 600,
+          "y": 51,
+          "w": 243,
+          "h": 278,
+          "count": 52723
+        },
+        "bodyBounds": {
+          "x": 627,
+          "y": 329,
+          "w": 177,
+          "h": 480,
+          "count": 65744
+        },
+        "sourceAnchor": {
+          "x": 715,
+          "y": 809
+        },
+        "sourceSplit": 329,
+        "headBodySplit": 24,
+        "neck": {
+          "x": 24,
+          "y": 24
+        },
+        "scale": {
+          "x": 0.08190224570673713,
+          "y": 0.08190224570673713
+        },
+        "atlas": {
+          "x": 0,
+          "y": 64,
+          "w": 48,
+          "h": 64
+        }
+      },
+      "up": {
+        "id": "idle-up",
+        "sourceCell": {
+          "x": 940,
+          "y": 0,
+          "w": 470,
+          "h": 836
+        },
+        "source": {
+          "x": 984,
+          "y": 51,
+          "w": 356,
+          "h": 760
+        },
+        "opaqueBounds": {
+          "x": 986,
+          "y": 53,
+          "w": 352,
+          "h": 756,
+          "count": 170583
+        },
+        "headBounds": {
+          "x": 1038,
+          "y": 53,
+          "w": 249,
+          "h": 272,
+          "count": 52864
+        },
+        "bodyBounds": {
+          "x": 986,
+          "y": 325,
+          "w": 352,
+          "h": 484,
+          "count": 117719
+        },
+        "sourceAnchor": {
+          "x": 1162,
+          "y": 809
+        },
+        "sourceSplit": 325,
+        "headBodySplit": 23,
+        "neck": {
+          "x": 24,
+          "y": 23
+        },
+        "scale": {
+          "x": 0.08211920529801324,
+          "y": 0.08211920529801324
+        },
+        "atlas": {
+          "x": 0,
+          "y": 128,
+          "w": 48,
+          "h": 64
+        }
+      },
+      "right": {
+        "id": "idle-right",
+        "sourceCell": {
+          "x": 1410,
+          "y": 0,
+          "w": 471,
+          "h": 836
+        },
+        "source": {
+          "x": 1484,
+          "y": 50,
+          "w": 236,
+          "h": 761
+        },
+        "opaqueBounds": {
+          "x": 1486,
+          "y": 52,
+          "w": 232,
+          "h": 757,
+          "count": 116032
+        },
+        "headBounds": {
+          "x": 1486,
+          "y": 52,
+          "w": 232,
+          "h": 278,
+          "count": 50393
+        },
+        "bodyBounds": {
+          "x": 1513,
+          "y": 330,
+          "w": 178,
+          "h": 479,
+          "count": 65639
+        },
+        "sourceAnchor": {
+          "x": 1606,
+          "y": 809
+        },
+        "sourceSplit": 330,
+        "headBodySplit": 24,
+        "neck": {
+          "x": 24,
+          "y": 24
+        },
+        "scale": {
+          "x": 0.082010582010582,
+          "y": 0.082010582010582
+        },
+        "atlas": {
+          "x": 0,
+          "y": 192,
+          "w": 48,
+          "h": 64
+        }
+      }
+    },
+    "walk": {
+      "down": [
+        {
+          "id": "walk-down-0",
+          "sourceCell": {
+            "x": 0,
+            "y": 0,
+            "w": 313,
+            "h": 313
+          },
+          "source": {
+            "x": 93,
+            "y": 17,
+            "w": 162,
+            "h": 293
+          },
+          "opaqueBounds": {
+            "x": 95,
+            "y": 19,
+            "w": 158,
+            "h": 289,
+            "count": 29462
+          },
+          "headBounds": {
+            "x": 109,
+            "y": 19,
+            "w": 131,
+            "h": 132,
+            "count": 14331
+          },
+          "bodyBounds": {
+            "x": 95,
+            "y": 151,
+            "w": 158,
+            "h": 157,
+            "count": 15131
+          },
+          "sourceAnchor": {
+            "x": 174,
+            "y": 308
+          },
+          "sourceSplit": 151,
+          "headBodySplit": 30,
+          "neck": {
+            "x": 24,
+            "y": 30
+          },
+          "scale": {
+            "x": 0.2072072072072072,
+            "y": 0.2072072072072072
+          },
+          "atlas": {
+            "x": 48,
+            "y": 0,
+            "w": 48,
+            "h": 64
+          }
+        },
+        {
+          "id": "walk-down-1",
+          "sourceCell": {
+            "x": 313,
+            "y": 0,
+            "w": 314,
+            "h": 313
+          },
+          "source": {
+            "x": 391,
+            "y": 17,
+            "w": 158,
+            "h": 293
+          },
+          "opaqueBounds": {
+            "x": 393,
+            "y": 19,
+            "w": 154,
+            "h": 289,
+            "count": 29208
+          },
+          "headBounds": {
+            "x": 405,
+            "y": 19,
+            "w": 131,
+            "h": 132,
+            "count": 14211
+          },
+          "bodyBounds": {
+            "x": 393,
+            "y": 151,
+            "w": 154,
+            "h": 157,
+            "count": 14997
+          },
+          "sourceAnchor": {
+            "x": 470,
+            "y": 308
+          },
+          "sourceSplit": 151,
+          "headBodySplit": 30,
+          "neck": {
+            "x": 24,
+            "y": 30
+          },
+          "scale": {
+            "x": 0.2072072072072072,
+            "y": 0.2072072072072072
+          },
+          "atlas": {
+            "x": 96,
+            "y": 0,
+            "w": 48,
+            "h": 64
+          }
+        },
+        {
+          "id": "walk-down-2",
+          "sourceCell": {
+            "x": 627,
+            "y": 0,
+            "w": 313,
+            "h": 313
+          },
+          "source": {
+            "x": 700,
+            "y": 17,
+            "w": 159,
+            "h": 294
+          },
+          "opaqueBounds": {
+            "x": 702,
+            "y": 19,
+            "w": 155,
+            "h": 290,
+            "count": 29133
+          },
+          "headBounds": {
+            "x": 714,
+            "y": 19,
+            "w": 130,
+            "h": 132,
+            "count": 14265
+          },
+          "bodyBounds": {
+            "x": 702,
+            "y": 151,
+            "w": 155,
+            "h": 158,
+            "count": 14868
+          },
+          "sourceAnchor": {
+            "x": 779,
+            "y": 309
+          },
+          "sourceSplit": 151,
+          "headBodySplit": 30,
+          "neck": {
+            "x": 24,
+            "y": 30
+          },
+          "scale": {
+            "x": 0.2072072072072072,
+            "y": 0.2072072072072072
+          },
+          "atlas": {
+            "x": 144,
+            "y": 0,
+            "w": 48,
+            "h": 64
+          }
+        },
+        {
+          "id": "walk-down-3",
+          "sourceCell": {
+            "x": 940,
+            "y": 0,
+            "w": 314,
+            "h": 313
+          },
+          "source": {
+            "x": 1007,
+            "y": 17,
+            "w": 153,
+            "h": 293
+          },
+          "opaqueBounds": {
+            "x": 1009,
+            "y": 19,
+            "w": 149,
+            "h": 289,
+            "count": 28390
+          },
+          "headBounds": {
+            "x": 1024,
+            "y": 19,
+            "w": 124,
+            "h": 132,
+            "count": 13756
+          },
+          "bodyBounds": {
+            "x": 1009,
+            "y": 151,
+            "w": 149,
+            "h": 157,
+            "count": 14634
+          },
+          "sourceAnchor": {
+            "x": 1086,
+            "y": 308
+          },
+          "sourceSplit": 151,
+          "headBodySplit": 30,
+          "neck": {
+            "x": 24,
+            "y": 30
+          },
+          "scale": {
+            "x": 0.2072072072072072,
+            "y": 0.2072072072072072
+          },
+          "atlas": {
+            "x": 192,
+            "y": 0,
+            "w": 48,
+            "h": 64
+          }
+        }
+      ],
+      "left": [
+        {
+          "id": "walk-left-0",
+          "sourceCell": {
+            "x": 0,
+            "y": 313,
+            "w": 313,
+            "h": 314
+          },
+          "source": {
+            "x": 92,
+            "y": 327,
+            "w": 176,
+            "h": 291
+          },
+          "opaqueBounds": {
+            "x": 94,
+            "y": 329,
+            "w": 172,
+            "h": 287,
+            "count": 29640
+          },
+          "headBounds": {
+            "x": 104,
+            "y": 329,
+            "w": 125,
+            "h": 136,
+            "count": 13688
+          },
+          "bodyBounds": {
+            "x": 94,
+            "y": 465,
+            "w": 172,
+            "h": 151,
+            "count": 15952
+          },
+          "sourceAnchor": {
+            "x": 164,
+            "y": 616
+          },
+          "sourceSplit": 465,
+          "headBodySplit": 32,
+          "neck": {
+            "x": 24,
+            "y": 32
+          },
+          "scale": {
+            "x": 0.2072072072072072,
+            "y": 0.2072072072072072
+          },
+          "atlas": {
+            "x": 48,
+            "y": 64,
+            "w": 48,
+            "h": 64
+          }
+        },
+        {
+          "id": "walk-left-1",
+          "sourceCell": {
+            "x": 313,
+            "y": 313,
+            "w": 314,
+            "h": 314
+          },
+          "source": {
+            "x": 396,
+            "y": 326,
+            "w": 147,
+            "h": 297
+          },
+          "opaqueBounds": {
+            "x": 398,
+            "y": 328,
+            "w": 143,
+            "h": 293,
+            "count": 28234
+          },
+          "headBounds": {
+            "x": 398,
+            "y": 328,
+            "w": 125,
+            "h": 137,
+            "count": 13962
+          },
+          "bodyBounds": {
+            "x": 401,
+            "y": 465,
+            "w": 140,
+            "h": 156,
+            "count": 14272
+          },
+          "sourceAnchor": {
+            "x": 459,
+            "y": 621
+          },
+          "sourceSplit": 465,
+          "headBodySplit": 31,
+          "neck": {
+            "x": 24,
+            "y": 31
+          },
+          "scale": {
+            "x": 0.2072072072072072,
+            "y": 0.2072072072072072
+          },
+          "atlas": {
+            "x": 96,
+            "y": 64,
+            "w": 48,
+            "h": 64
+          }
+        },
+        {
+          "id": "walk-left-2",
+          "sourceCell": {
+            "x": 627,
+            "y": 313,
+            "w": 313,
+            "h": 314
+          },
+          "source": {
+            "x": 693,
+            "y": 327,
+            "w": 181,
+            "h": 295
+          },
+          "opaqueBounds": {
+            "x": 695,
+            "y": 329,
+            "w": 177,
+            "h": 291,
+            "count": 30029
+          },
+          "headBounds": {
+            "x": 703,
+            "y": 329,
+            "w": 126,
+            "h": 136,
+            "count": 13747
+          },
+          "bodyBounds": {
+            "x": 695,
+            "y": 465,
+            "w": 177,
+            "h": 155,
+            "count": 16282
+          },
+          "sourceAnchor": {
+            "x": 763,
+            "y": 620
+          },
+          "sourceSplit": 465,
+          "headBodySplit": 31,
+          "neck": {
+            "x": 24,
+            "y": 31
+          },
+          "scale": {
+            "x": 0.2072072072072072,
+            "y": 0.2072072072072072
+          },
+          "atlas": {
+            "x": 144,
+            "y": 64,
+            "w": 48,
+            "h": 64
+          }
+        },
+        {
+          "id": "walk-left-3",
+          "sourceCell": {
+            "x": 940,
+            "y": 313,
+            "w": 314,
+            "h": 314
+          },
+          "source": {
+            "x": 1016,
+            "y": 326,
+            "w": 143,
+            "h": 295
+          },
+          "opaqueBounds": {
+            "x": 1018,
+            "y": 328,
+            "w": 139,
+            "h": 291,
+            "count": 26609
+          },
+          "headBounds": {
+            "x": 1018,
+            "y": 328,
+            "w": 125,
+            "h": 137,
+            "count": 13652
+          },
+          "bodyBounds": {
+            "x": 1027,
+            "y": 465,
+            "w": 130,
+            "h": 154,
+            "count": 12957
+          },
+          "sourceAnchor": {
+            "x": 1077,
+            "y": 619
+          },
+          "sourceSplit": 465,
+          "headBodySplit": 31,
+          "neck": {
+            "x": 24,
+            "y": 31
+          },
+          "scale": {
+            "x": 0.2072072072072072,
+            "y": 0.2072072072072072
+          },
+          "atlas": {
+            "x": 192,
+            "y": 64,
+            "w": 48,
+            "h": 64
+          }
+        }
+      ],
+      "up": [
+        {
+          "id": "walk-up-0",
+          "sourceCell": {
+            "x": 0,
+            "y": 627,
+            "w": 313,
+            "h": 313
+          },
+          "source": {
+            "x": 92,
+            "y": 633,
+            "w": 155,
+            "h": 293
+          },
+          "opaqueBounds": {
+            "x": 94,
+            "y": 635,
+            "w": 151,
+            "h": 289,
+            "count": 28072
+          },
+          "headBounds": {
+            "x": 105,
+            "y": 635,
+            "w": 134,
+            "h": 139,
+            "count": 14913
+          },
+          "bodyBounds": {
+            "x": 94,
+            "y": 774,
+            "w": 151,
+            "h": 150,
+            "count": 13159
+          },
+          "sourceAnchor": {
+            "x": 172,
+            "y": 924
+          },
+          "sourceSplit": 774,
+          "headBodySplit": 32,
+          "neck": {
+            "x": 24,
+            "y": 32
+          },
+          "scale": {
+            "x": 0.2072072072072072,
+            "y": 0.2072072072072072
+          },
+          "atlas": {
+            "x": 48,
+            "y": 128,
+            "w": 48,
+            "h": 64
+          }
+        },
+        {
+          "id": "walk-up-1",
+          "sourceCell": {
+            "x": 313,
+            "y": 627,
+            "w": 314,
+            "h": 313
+          },
+          "source": {
+            "x": 396,
+            "y": 633,
+            "w": 150,
+            "h": 293
+          },
+          "opaqueBounds": {
+            "x": 398,
+            "y": 635,
+            "w": 146,
+            "h": 289,
+            "count": 27715
+          },
+          "headBounds": {
+            "x": 405,
+            "y": 635,
+            "w": 133,
+            "h": 139,
+            "count": 14791
+          },
+          "bodyBounds": {
+            "x": 398,
+            "y": 774,
+            "w": 146,
+            "h": 150,
+            "count": 12924
+          },
+          "sourceAnchor": {
+            "x": 470,
+            "y": 924
+          },
+          "sourceSplit": 774,
+          "headBodySplit": 32,
+          "neck": {
+            "x": 24,
+            "y": 32
+          },
+          "scale": {
+            "x": 0.2072072072072072,
+            "y": 0.2072072072072072
+          },
+          "atlas": {
+            "x": 96,
+            "y": 128,
+            "w": 48,
+            "h": 64
+          }
+        },
+        {
+          "id": "walk-up-2",
+          "sourceCell": {
+            "x": 627,
+            "y": 627,
+            "w": 313,
+            "h": 313
+          },
+          "source": {
+            "x": 695,
+            "y": 633,
+            "w": 157,
+            "h": 293
+          },
+          "opaqueBounds": {
+            "x": 697,
+            "y": 635,
+            "w": 153,
+            "h": 289,
+            "count": 28695
+          },
+          "headBounds": {
+            "x": 709,
+            "y": 635,
+            "w": 134,
+            "h": 139,
+            "count": 14849
+          },
+          "bodyBounds": {
+            "x": 697,
+            "y": 774,
+            "w": 153,
+            "h": 150,
+            "count": 13846
+          },
+          "sourceAnchor": {
+            "x": 777,
+            "y": 924
+          },
+          "sourceSplit": 774,
+          "headBodySplit": 32,
+          "neck": {
+            "x": 24,
+            "y": 32
+          },
+          "scale": {
+            "x": 0.2072072072072072,
+            "y": 0.2072072072072072
+          },
+          "atlas": {
+            "x": 144,
+            "y": 128,
+            "w": 48,
+            "h": 64
+          }
+        },
+        {
+          "id": "walk-up-3",
+          "sourceCell": {
+            "x": 940,
+            "y": 627,
+            "w": 314,
+            "h": 313
+          },
+          "source": {
+            "x": 1006,
+            "y": 633,
+            "w": 154,
+            "h": 293
+          },
+          "opaqueBounds": {
+            "x": 1008,
+            "y": 635,
+            "w": 150,
+            "h": 289,
+            "count": 28279
+          },
+          "headBounds": {
+            "x": 1017,
+            "y": 635,
+            "w": 130,
+            "h": 139,
+            "count": 14896
+          },
+          "bodyBounds": {
+            "x": 1008,
+            "y": 774,
+            "w": 150,
+            "h": 150,
+            "count": 13383
+          },
+          "sourceAnchor": {
+            "x": 1082,
+            "y": 924
+          },
+          "sourceSplit": 774,
+          "headBodySplit": 32,
+          "neck": {
+            "x": 24,
+            "y": 32
+          },
+          "scale": {
+            "x": 0.2072072072072072,
+            "y": 0.2072072072072072
+          },
+          "atlas": {
+            "x": 192,
+            "y": 128,
+            "w": 48,
+            "h": 64
+          }
+        }
+      ],
+      "right": [
+        {
+          "id": "walk-right-0",
+          "sourceCell": {
+            "x": 0,
+            "y": 940,
+            "w": 313,
+            "h": 314
+          },
+          "source": {
+            "x": 82,
+            "y": 942,
+            "w": 178,
+            "h": 293
+          },
+          "opaqueBounds": {
+            "x": 84,
+            "y": 944,
+            "w": 174,
+            "h": 289,
+            "count": 30467
+          },
+          "headBounds": {
+            "x": 112,
+            "y": 944,
+            "w": 134,
+            "h": 139,
+            "count": 14343
+          },
+          "bodyBounds": {
+            "x": 84,
+            "y": 1083,
+            "w": 174,
+            "h": 150,
+            "count": 16124
+          },
+          "sourceAnchor": {
+            "x": 184,
+            "y": 1233
+          },
+          "sourceSplit": 1083,
+          "headBodySplit": 32,
+          "neck": {
+            "x": 24,
+            "y": 32
+          },
+          "scale": {
+            "x": 0.2072072072072072,
+            "y": 0.2072072072072072
+          },
+          "atlas": {
+            "x": 48,
+            "y": 192,
+            "w": 48,
+            "h": 64
+          }
+        },
+        {
+          "id": "walk-right-1",
+          "sourceCell": {
+            "x": 313,
+            "y": 940,
+            "w": 314,
+            "h": 314
+          },
+          "source": {
+            "x": 404,
+            "y": 942,
+            "w": 148,
+            "h": 294
+          },
+          "opaqueBounds": {
+            "x": 406,
+            "y": 944,
+            "w": 144,
+            "h": 290,
+            "count": 27574
+          },
+          "headBounds": {
+            "x": 417,
+            "y": 944,
+            "w": 133,
+            "h": 139,
+            "count": 14208
+          },
+          "bodyBounds": {
+            "x": 406,
+            "y": 1083,
+            "w": 139,
+            "h": 151,
+            "count": 13366
+          },
+          "sourceAnchor": {
+            "x": 487,
+            "y": 1234
+          },
+          "sourceSplit": 1083,
+          "headBodySplit": 32,
+          "neck": {
+            "x": 24,
+            "y": 32
+          },
+          "scale": {
+            "x": 0.2072072072072072,
+            "y": 0.2072072072072072
+          },
+          "atlas": {
+            "x": 96,
+            "y": 192,
+            "w": 48,
+            "h": 64
+          }
+        },
+        {
+          "id": "walk-right-2",
+          "sourceCell": {
+            "x": 627,
+            "y": 940,
+            "w": 313,
+            "h": 314
+          },
+          "source": {
+            "x": 678,
+            "y": 942,
+            "w": 185,
+            "h": 293
+          },
+          "opaqueBounds": {
+            "x": 680,
+            "y": 944,
+            "w": 181,
+            "h": 289,
+            "count": 29831
+          },
+          "headBounds": {
+            "x": 716,
+            "y": 944,
+            "w": 137,
+            "h": 139,
+            "count": 14341
+          },
+          "bodyBounds": {
+            "x": 680,
+            "y": 1083,
+            "w": 181,
+            "h": 150,
+            "count": 15490
+          },
+          "sourceAnchor": {
+            "x": 791,
+            "y": 1233
+          },
+          "sourceSplit": 1083,
+          "headBodySplit": 32,
+          "neck": {
+            "x": 24,
+            "y": 32
+          },
+          "scale": {
+            "x": 0.2072072072072072,
+            "y": 0.2072072072072072
+          },
+          "atlas": {
+            "x": 144,
+            "y": 192,
+            "w": 48,
+            "h": 64
+          }
+        },
+        {
+          "id": "walk-right-3",
+          "sourceCell": {
+            "x": 940,
+            "y": 940,
+            "w": 314,
+            "h": 314
+          },
+          "source": {
+            "x": 1008,
+            "y": 942,
+            "w": 150,
+            "h": 293
+          },
+          "opaqueBounds": {
+            "x": 1010,
+            "y": 944,
+            "w": 146,
+            "h": 289,
+            "count": 26592
+          },
+          "headBounds": {
+            "x": 1029,
+            "y": 944,
+            "w": 127,
+            "h": 139,
+            "count": 14029
+          },
+          "bodyBounds": {
+            "x": 1010,
+            "y": 1083,
+            "w": 133,
+            "h": 150,
+            "count": 12563
+          },
+          "sourceAnchor": {
+            "x": 1094,
+            "y": 1233
+          },
+          "sourceSplit": 1083,
+          "headBodySplit": 32,
+          "neck": {
+            "x": 24,
+            "y": 32
+          },
+          "scale": {
+            "x": 0.2072072072072072,
+            "y": 0.2072072072072072
+          },
+          "atlas": {
+            "x": 192,
+            "y": 192,
+            "w": 48,
+            "h": 64
+          }
+        }
+      ]
+    }
+  },
+  "atlas": {
+    "url": "/assets/actor-atlas-v14.png",
+    "width": 240,
+    "height": 256,
+    "layout": "rows down,left,up,right; column0 idle; columns1..4 walk"
+  }
+}

@@ -1,0 +1,16 @@
+✔ the real selected-skin mouth palm remains in front of a visible cup using only its authored source pixel mask (250.903208ms)
+✔ profile/catalog raster is the exact customized96x128 fine world bitmap, including real user H7 white skin3 (259.505083ms)
+✔ head catalogue crops the same fine face/hair pixels without torso or a second coarse hairstyle conversion (373.960583ms)
+✔ standing phone selects the exact approved idle model and facing, never the old narrow phone body (2.234917ms)
+✔ standing phone is static across action/page clocks and keeps customization pixels outside its separate item (276.283291ms)
+✔ standing phone attaches to the selected pose actual native palm and is preloaded without a lazy action sequence (0.760541ms)
+✔ seated phone and occupied boats retain the seated context and pelvis instead of selecting standing idle (0.416625ms)
+✔ seated phone retains the exact selected seated body/head/anchor across every phone clock and adds only the separate held phone (143.132667ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 959.317875

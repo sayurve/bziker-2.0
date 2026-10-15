@@ -1,0 +1,150 @@
+{
+  "cases": 2304,
+  "selectedCases": 2112,
+  "lostStrongCases": 178,
+  "newInteriorHoleCases": 1438,
+  "worst": [
+    {
+      "gender": 0,
+      "state": "walk",
+      "hairColor": 0,
+      "style": "tail",
+      "facing": "left",
+      "phase": 0,
+      "strongFleshDeleted": 5,
+      "headOpaqueDeleted": 620,
+      "firstDeletedStrongPixels": [
+        [
+          54,
+          50,
+          245,
+          150,
+          99
+        ],
+        [
+          54,
+          51,
+          245,
+          151,
+          98
+        ],
+        [
+          54,
+          52,
+          246,
+          154,
+          101
+        ],
+        [
+          54,
+          53,
+          247,
+          166,
+          109
+        ],
+        [
+          54,
+          54,
+          244,
+          164,
+          112
+        ]
+      ]
+    },
+    {
+      "gender": 0,
+      "state": "walk",
+      "hairColor": 0,
+      "style": "twobuns",
+      "facing": "left",
+      "phase": 0,
+      "strongFleshDeleted": 5,
+      "headOpaqueDeleted": 704,
+      "firstDeletedStrongPixels": [
+        [
+          54,
+          50,
+          245,
+          150,
+          99
+        ],
+        [
+          54,
+          51,
+          245,
+          151,
+          98
+        ],
+        [
+          54,
+          52,
+          246,
+          154,
+          101
+        ],
+        [
+          54,
+          53,
+          247,
+          166,
+          109
+        ],
+        [
+          54,
+          54,
+          244,
+          164,
+          112
+        ]
+      ]
+    },
+    {
+      "gender": 0,
+      "state": "walk",
+      "hairColor": 6,
+      "style": "tail",
+      "facing": "left",
+      "phase": 0,
+      "strongFleshDeleted": 5,
+      "headOpaqueDeleted": 620,
+      "firstDeletedStrongPixels": [
+        [
+          54,
+          50,
+          245,
+          150,
+          99
+        ],
+        [
+          54,
+          51,
+          245,
+          151,
+          98
+        ],
+        [
+          54,
+          52,
+          246,
+          154,
+          101
+        ],
+        [
+          54,
+          53,
+          247,
+          166,
+          109
+        ],
+        [
+          54,
+          54,
+          244,
+          164,
+          112
+        ]
+      ]
+    }
+  ],
+  "output": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/hairstyle-approved-v28/"
+}

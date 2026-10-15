@@ -1,0 +1,28 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {canonicalActorsData as C} from '../web/canonical-actors-data.js';import {locomotionActorsData as L} from '../web/locomotion-actors-data.js';
+import {avatarRaster,profileAvatar,parts} from '../web/avatar.js';import {sourceActorFrame,drawSourceAvatarCanvas} from '../web/source-actors.js';import {sourcePortraitMask} from '../web/actor-sprite.js';
+import {pngGrid,customizedPose,largeComponents,render,createCanvas} from './helpers/character-core-native-fixture-v30.mjs';
+const preset=profileAvatar({gender:0,hairStyle:7,hairColor:6,skin:3,shirtColor:8,outfit:0,headwear:0});
+for(const gender of [0,1])for(const facing of ['down','up','left','right'])test(`ONE H7 gender${gender} ${facing}: the actual C head/hair stays pixel-identical through four real L bodies`,async()=>{
+ const actor=profileAvatar({...preset,gender,skin:gender?7:3}),actorId=gender?'human-female':'human-male';
+ const idle=C.actors[actorId].idle[facing],frame=idle.frames[0],raw=await pngGrid(frame.detail.path,frame.detail),mask=sourcePortraitMask(raw,96,128,actor,parts,{head:frame.head,facing,pelvis:frame.pelvis}).head,expected=avatarRaster(actor,{facing}).grid;
+ const headPixels=mask.flatMap((yes,n)=>yes&&expected[n]?[n]:[]);assert.ok(headPixels.length>1000);
+ const bodies=[];for(let phase=0;phase<4;phase++){const actual=render(actor,{facing,walking:true,running:true,walkFrame:phase*2}).raster.grid;for(const n of headPixels)assert.equal(actual[n],expected[n],`phase${phase} actual static head pixel${n%96},${Math.floor(n/96)}`);
+  const original=await customizedPose(L.actors[actorId].run[facing],phase,actor,facing),sourceFrame=L.actors[actorId].run[facing].frames[phase],source=await pngGrid(sourceFrame.detail.path,sourceFrame.detail);let hands=0;for(let n=74*96;n<100*96;n++){const color=source[n];if(!color)continue;const [r,g,b]=[1,3,5].map(k=>parseInt(color.slice(k,k+2),16));if(r>g*1.15&&g>b*1.06){hands++;assert.equal(actual[n],original[n],'actual exposed hands below head retain source alpha and selected skin');}}assert.ok(hands>10,'positive real hand pixels, not an empty guard');assert.deepEqual(actual.slice(82*96),original.slice(82*96),'hips, feet and lower sleeves keep every original customized pixel');bodies.push(JSON.stringify(actual.slice(82*96)));
+  assert.deepEqual(sourceActorFrame(actor,{facing,walking:true,walkFrame:phase*2}).head,frame.head,'returned rendered-head authority matches the actual bitmap');
+  const components=largeComponents(Array.from({length:128},(_,y)=>actual.slice(y*96,(y+1)*96)),1),originalSmall=new Set(largeComponents(Array.from({length:128},(_,y)=>original.slice(y*96,(y+1)*96)),1).filter(c=>c.length<40).flat());assert.equal(components.filter(c=>c.length>=40).length,1,'head and real body must remain connected');assert.ok(components.filter(c=>c.length<40).flat().every(n=>originalSmall.has(n)),'no new residual old-head islands; existing lower-body source dots are unchanged');
+ }
+ assert.equal(new Set(bodies).size,4,'all four authored arm/leg phases remain different');
+});
+test('both models retain exact existing native locomotion for other hairstyles',async()=>{for(const gender of[0,1])for(const hairStyle of [0,6]){const a=profileAvatar({...preset,gender,hairStyle});for(const facing of['down','up','left','right'])for(let phase=0;phase<4;phase++){const seq=L.actors[gender?'human-female':'human-male'].run[facing],expected=await customizedPose(seq,phase,a,facing);assert.deepEqual(avatarRaster(a,{facing,walking:true,running:true,walkFrame:phase*2}).grid,expected)}}});
+
+test('RIGHT collar seam uses only eight real customized C samples and keeps existing opaque body pixels',async()=>{const facing='right',seq=C.actors['human-male'].idle.right,c=seq.frames[0],raw=await pngGrid(c.detail.path,c.detail),donor=avatarRaster(preset,{facing}).grid,points=[[39,58],[40,58],[38,59],[39,59],[40,59],[38,60],[39,60],[40,60]];for(let phase=0;phase<4;phase++){const s=L.actors['human-male'].run.right.frames[phase],source=await pngGrid(s.detail.path,s.detail),mask=sourcePortraitMask(source,96,128,preset,parts,{head:s.head,facing}).head,original=await customizedPose(L.actors['human-male'].run.right,phase,preset,facing),actual=avatarRaster(preset,{facing,walking:true,running:true,walkFrame:phase*2}).grid;for(const [x,y]of points){const n=y*96+x;assert.ok(raw[n]&&donor[n],'collar sample is actual opaque canonical source');assert.ok(actual[n]===donor[n]||actual[n]===original[n],'only existing donor/body RGBA is legal');if(original[n]&&!mask[n])assert.equal(actual[n],original[n],'opaque actual torso/collar remains unchanged');}}});
+
+test('static H7 heads preserve every original native moving trash palm for both models and all16 body phases',()=>{
+ const socket=(a,options)=>{const q=createCanvas(96,128).getContext('2d'),calls=[],draw=q.drawImage.bind(q);q.drawImage=(image,...args)=>{if(image.width===7&&image.height===7)calls.push(args);draw(image,...args)};assert.equal(drawSourceAvatarCanvas(q,a,parts,0,0,{...options,scale:2,holding:'litter'}),true);assert.equal(calls.length,1,'positive actual native trash texture painter');return calls[0]};
+ for(const gender of[0,1])for(const facing of['down','up','left','right'])for(let phase=0;phase<4;phase++){
+  const a=profileAvatar({...preset,gender,skin:gender?7:3}),o={facing,walking:true,running:true,walkFrame:phase*2},old=socket({...a,hairStyle:0},o),actual=socket(a,o);
+  assert.deepEqual(actual,old,`${gender}/${facing}/${phase}: static head cannot change the actual body palm/prop translation`);
+  if(gender===1&&facing==='down'&&phase===1)assert.deepEqual(actual,[63,81,14,14],'measured native right-palm witness remains at coarse35,44');
+ }
+});

@@ -1,0 +1,294 @@
+{
+  "status": "awaiting-visual-review",
+  "contact": "contact-g1-skin-00.png",
+  "records": [
+    {
+      "source": "g1-skin-00-up.jpg",
+      "sha256": "43e079c6171b0d3cf7a70b19d9771fcb1f93b55cb8ac7978a1c078bd06a73ce9",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 0
+    },
+    {
+      "source": "g1-skin-00-left.jpg",
+      "sha256": "6111046efa67afc03afd88a560eeb4932ae666b04b88297c16f8a50c3435fbd9",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 0
+    },
+    {
+      "source": "g1-skin-00-down.jpg",
+      "sha256": "79e693f54b46a60c107aa1dd89523650a7df6f3775ca2e55ba2dd3bba99129f6",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 0
+    },
+    {
+      "source": "g1-skin-00-right.jpg",
+      "sha256": "60dceaa51045b704b38a7210bfb4743334a58d0af48492e2f6c54ebb2cfc8e0b",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 0
+    },
+    {
+      "source": "g1-skin-01-up.jpg",
+      "sha256": "8058b992bec1cf309b7b68211e6e4b12d3136a9caf973088925e00b1cb70fd99",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 1
+    },
+    {
+      "source": "g1-skin-01-left.jpg",
+      "sha256": "711cb4cb92e687b1eed97f641f741f37b9f79ccaaff98b1493fea0b7134be984",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 1
+    },
+    {
+      "source": "g1-skin-01-down.jpg",
+      "sha256": "1071fff22a2df0e94b2748c80d0826f864bbd76fd2b4622954292bfc464d97ed",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 1
+    },
+    {
+      "source": "g1-skin-01-right.jpg",
+      "sha256": "d9c051b6d6f718d04b3cd6268f1785a1b1e45d4b590605cd9ce7aa843a216ed6",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 1
+    },
+    {
+      "source": "g1-skin-02-up.jpg",
+      "sha256": "0f4fb83df4d107d4a58d6a471a53f5497ae83b5c4016d2f7cbe4fd401005ebef",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 2
+    },
+    {
+      "source": "g1-skin-02-left.jpg",
+      "sha256": "73a0eb4c882cbec50f07fc0f275bf04b9e3999152119e085f6f24e992be490a2",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 2
+    },
+    {
+      "source": "g1-skin-02-down.jpg",
+      "sha256": "934809c5606aa2110a445432676936e1558ee00468ffc84d0e61785f4831bec4",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 2
+    },
+    {
+      "source": "g1-skin-02-right.jpg",
+      "sha256": "34d3b7cf4263d5b909055344d12013f4f3cdb163c984d652b59fb0785a32b036",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 2
+    },
+    {
+      "source": "g1-skin-03-up.jpg",
+      "sha256": "777d0fd56ce0a74cb99c9833408ab08c4de8825007a4604509e40a9a9d24ef87",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 3
+    },
+    {
+      "source": "g1-skin-03-left.jpg",
+      "sha256": "2cdba177bc97166414cde08a30c77041437fde435e9f227f3a04435e679d4b31",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 3
+    },
+    {
+      "source": "g1-skin-03-down.jpg",
+      "sha256": "2ecd0978c9aa807d1322a7a856c560e8dc369bce295162b818e2c1678a6b2ec1",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 3
+    },
+    {
+      "source": "g1-skin-03-right.jpg",
+      "sha256": "29057989fa59afc06f2addda050d49aac61bb942b6c774751ad07d2f36d17149",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 3
+    },
+    {
+      "source": "g1-skin-04-up.jpg",
+      "sha256": "05d39823a1b958831346b24b8bc67ac1953600433b7a65d8508e70e2c1883b5a",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 4
+    },
+    {
+      "source": "g1-skin-04-left.jpg",
+      "sha256": "ae1f61eda3f31cac58cec82750745c080dc35754bf309a651eb0c71499150720",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 4
+    },
+    {
+      "source": "g1-skin-04-down.jpg",
+      "sha256": "e991671fb81cfad1c3b81cebf45d80263c77391075350cd98083f29301c2c471",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 4
+    },
+    {
+      "source": "g1-skin-04-right.jpg",
+      "sha256": "d14d975f7d4ae15910ff858b8051acff43b804c03638952afd3fe1db13905a8d",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 4
+    },
+    {
+      "source": "g1-skin-05-up.jpg",
+      "sha256": "87bd62829744b2102df39ed75280c07f78de9779291b2b941f3b2d22a6cb1f5b",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 5
+    },
+    {
+      "source": "g1-skin-05-left.jpg",
+      "sha256": "1cf7ea31eda475f124b6f89342f46b592f0c4c006b1a3aa2fd1eeb38ed468447",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 5
+    },
+    {
+      "source": "g1-skin-05-down.jpg",
+      "sha256": "83c8a5988134fd3455761334fa4a7a70065a805fc798d0e3a93c4426181e51be",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 5
+    },
+    {
+      "source": "g1-skin-05-right.jpg",
+      "sha256": "e634a7327a2cdcf00d43a75925954efb26ce871e876f8a5d3c7c3c7a1ffaa1e3",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 5
+    }
+  ]
+}

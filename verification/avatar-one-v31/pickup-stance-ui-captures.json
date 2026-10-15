@@ -1,0 +1,55 @@
+{
+  "preset": "same ONE H7",
+  "lighting": "day",
+  "worldSha": "eaa923f3e71bf75a4fb545601fdd480af25d0943647e87a4cb87942b81144ab8",
+  "captures": [
+    {
+      "file": "pickup-stance-ui-00.jpg",
+      "elapsedMs": 52
+    },
+    {
+      "file": "pickup-stance-ui-01.jpg",
+      "elapsedMs": 110
+    },
+    {
+      "file": "pickup-stance-ui-02.jpg",
+      "elapsedMs": 431
+    },
+    {
+      "file": "pickup-stance-ui-03.jpg",
+      "elapsedMs": 926
+    },
+    {
+      "file": "pickup-stance-ui-04.jpg",
+      "elapsedMs": 1321
+    },
+    {
+      "file": "pickup-stance-ui-05.jpg",
+      "elapsedMs": 1664
+    },
+    {
+      "file": "pickup-stance-ui-06.jpg",
+      "elapsedMs": 1962
+    },
+    {
+      "file": "pickup-stance-ui-07.jpg",
+      "elapsedMs": 2323
+    },
+    {
+      "file": "pickup-stance-ui-08.jpg",
+      "elapsedMs": 2673
+    },
+    {
+      "file": "pickup-stance-ui-09.jpg",
+      "elapsedMs": 2975
+    },
+    {
+      "file": "pickup-stance-ui-10.jpg",
+      "elapsedMs": 3280
+    },
+    {
+      "file": "pickup-stance-ui-11.jpg",
+      "elapsedMs": 3576
+    }
+  ]
+}

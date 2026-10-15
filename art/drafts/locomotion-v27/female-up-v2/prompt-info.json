@@ -1,0 +1,8 @@
+{
+  "source": "/Users/sapp/.codex/generated_images/01a11cc3-6744-72b3-ad8a-81b59ea9f091/exec-80149a3d-7726-412f-818e-e22d0bbbcff3.png",
+  "prompt": "Use case: identity-preserve. EDIT the provided transparent 2x2 sprite sheet, exactly four rear-facing run frames. Preserve exact sheet dimensions 768x1024, cell positions 384x512, every pose, limb positions, alternating left/right support foot and opposite arm swing, the original grounded boot baseline, charcoal open jacket, black pants, dark shoes, brown hairstyle, color shading, pixel art technique and rear camera. Make ONLY a very subtle matching female body variant: waist about 6% narrower and shoulders about 3% narrower. Keep body height, collar position, head size, face/hair and all frame anchors unchanged, since uniform smaller model scale is applied during export. The four cells are different animation phases, never duplicate or mirror one phase into another. Render all four clean full silhouettes, exact transparent background; no labels/grid/shadows/props. Do not make a short squat body, change the camera, or invent new clothing. This must look like exactly the same artist as the input, with subtle narrower silhouette only.",
+  "reference": "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/drafts/locomotion-v27/female-frontback-body-edit-source/male-up-run-2x2-4x.png",
+  "status": "draft",
+  "sourceTool": "image_gen",
+  "sha256": "28376c89ace1ed15f499379b8aaebd6d302e264a3687ca85ea55df38ee33aac7"
+}

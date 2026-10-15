@@ -1,0 +1,784 @@
+{
+  "createdAt": "2026-10-15T11:49:35.831Z",
+  "gender": 0,
+  "category": "hairColor",
+  "source": "final",
+  "cases": 40,
+  "crop": {
+    "x": 535,
+    "y": 375,
+    "width": 135,
+    "height": 180
+  },
+  "qaOnly": true,
+  "productionArtChanged": false,
+  "realBrowserCaptures": true,
+  "renderedMockups": false,
+  "scale": 1.5,
+  "sheets": [
+    "page-1.png",
+    "page-2.png"
+  ],
+  "records": [
+    {
+      "value": 0,
+      "name": "Каштановый",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-00-down.jpg",
+      "sourceSha256": "1c60e225b724c2e5fc781e3f7941971f524a5d87ffcda2955c364705e782431b",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-00-down-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Каштановый",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-00-left.jpg",
+      "sourceSha256": "f4ec24ea99a8e3d029d81d3fd721a210dbfffafaee081e3c5db26727db24c5a5",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-00-left-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Каштановый",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-00-up.jpg",
+      "sourceSha256": "a4473b1e53a0e6d6b38651788b764fc8b28ca9851ca3533defb957f48a924941",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-00-up-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Каштановый",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-00-right.jpg",
+      "sourceSha256": "3633f6739fb96a01783cf093c0c0c25a24eb3d088cd12635b8b83049dd3b73ba",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-00-right-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Чёрный",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-01-down.jpg",
+      "sourceSha256": "fdbc2cde2d0cb6a82288ac9582662f538c69fb530c0e6b08e8a4b5f662991e10",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-01-down-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Чёрный",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-01-left.jpg",
+      "sourceSha256": "1dd029c94773341d4eab43c855855056ceed91feb919888904d44dfc5184e3e1",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-01-left-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Чёрный",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-01-up.jpg",
+      "sourceSha256": "ac1a74e6f1300869e225e5476b4f2ff27c5a427ccc4ff9f28d3896caab6d665b",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-01-up-crop.png"
+    },
+    {
+      "value": 1,
+      "name": "Чёрный",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-01-right.jpg",
+      "sourceSha256": "fef83ee78d8db906b0f7ae88f72d06dc29ec535b0d34420c2931bfdfc61d45f2",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-01-right-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Русый",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-02-down.jpg",
+      "sourceSha256": "573a4264bf5b4ac4834027e9a5436c00424ae6441e2b85a06ebe980e7fce10ce",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-02-down-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Русый",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-02-left.jpg",
+      "sourceSha256": "37fc7d65c781d424f8ca11d4a70befb7beed92cdbf4d2c7256c737da0a3cf6d8",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-02-left-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Русый",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-02-up.jpg",
+      "sourceSha256": "378057f4ef325433aefada166d92a413ad34d436f08a489e3712562aab60ac28",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-02-up-crop.png"
+    },
+    {
+      "value": 2,
+      "name": "Русый",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-02-right.jpg",
+      "sourceSha256": "8db0cb39785c11f2f470ccb1dd3660a1d6c38deee49c5c793978f9de81e6dee7",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-02-right-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Рыжий",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-03-down.jpg",
+      "sourceSha256": "5252b0ed8c43c537890667975897fc9f2535afb01e26afb10652e99c1ed8cdf3",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-03-down-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Рыжий",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-03-left.jpg",
+      "sourceSha256": "ede05fc825939ea3d6a550fdb44f1da9f488d31b7b43cf7468d6772e79c8f6f7",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-03-left-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Рыжий",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-03-up.jpg",
+      "sourceSha256": "ea2d62e7147a1016dd3534031d0d247b6109df117f5a27e9e8b736d381f0fcdc",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-03-up-crop.png"
+    },
+    {
+      "value": 3,
+      "name": "Рыжий",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-03-right.jpg",
+      "sourceSha256": "9105879c9e0eeaf821370e80070448bef231dd4432cbb517293a9fbc04686731",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-03-right-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Фиолетовый",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-04-down.jpg",
+      "sourceSha256": "7fe5ede9792c3e5108922b0732401cb099769bb623b662d6ff881960a1458e08",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-04-down-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Фиолетовый",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-04-left.jpg",
+      "sourceSha256": "6f489a0ca16a4978cd2c3bbf10948f942f8459e057f73ec48aac2bec04658f74",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-04-left-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Фиолетовый",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-04-up.jpg",
+      "sourceSha256": "d591abb97096ea6dd7898848a0191b452b89ddd4ba0161ce7b091e45ce519aa3",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-04-up-crop.png"
+    },
+    {
+      "value": 4,
+      "name": "Фиолетовый",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-04-right.jpg",
+      "sourceSha256": "c1eaf4ca163a0059c5152ad4a8a310e309e796206add12ccc6a3bf4f6f302356",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-04-right-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Седой",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-05-down.jpg",
+      "sourceSha256": "adc837722b071572afe6b4e2096110398d1320de79f0cf6fea9eeaa533c74a88",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-05-down-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Седой",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-05-left.jpg",
+      "sourceSha256": "3b0c3d183d99c35e6e5d9918c0316459deb0dbf2ae07f3feab58721f89f0807d",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-05-left-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Седой",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-05-up.jpg",
+      "sourceSha256": "29e7de97490212ef627fe5218def9332bc5915660c913cef0917e791137d6cd6",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-05-up-crop.png"
+    },
+    {
+      "value": 5,
+      "name": "Седой",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-05-right.jpg",
+      "sourceSha256": "b3a8fffb3eed06e09fd0f531bc3f09867266a223705eaa9288b81925f641986e",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-05-right-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Белый",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-06-down.jpg",
+      "sourceSha256": "0e87b1b93d3f07c24acbd1d6258aa65ac3c3ca5c8f32c2661ef1a12b9b179f54",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-06-down-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Белый",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-06-left.jpg",
+      "sourceSha256": "977676ba512a407de11cde859ac7d22ab4f53734479aa062ad5c3ccef95e2dca",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-06-left-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Белый",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-06-up.jpg",
+      "sourceSha256": "82ef2043c31a227f83ed0085033c1a38bf6701d11c75ba0dede966bf2bfb9d5b",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-06-up-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Белый",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-06-right.jpg",
+      "sourceSha256": "4722ea5c84aef993e0d90f68a259b54be71ef52ab74a2974190183666cab1c76",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-06-right-crop.png"
+    },
+    {
+      "value": 7,
+      "name": "Розовый",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-07-down.jpg",
+      "sourceSha256": "051c3f4f7dcb88fab70af0ca664a34aab68c954b66e5aa3d3f64f1f08a20c68e",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-07-down-crop.png"
+    },
+    {
+      "value": 7,
+      "name": "Розовый",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-07-left.jpg",
+      "sourceSha256": "b92893c9eca0466227189ab0199f321cb6452c5ad27f60cc8fbf9bad53025746",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-07-left-crop.png"
+    },
+    {
+      "value": 7,
+      "name": "Розовый",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-07-up.jpg",
+      "sourceSha256": "e596068729980cc8bd031c8f534608752941423c841a1362433f9386937cb357",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-07-up-crop.png"
+    },
+    {
+      "value": 7,
+      "name": "Розовый",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-07-right.jpg",
+      "sourceSha256": "2880c56d3c5ad8985fd11f0863f36e2d7758e89cc541e294d009aa78fa947e1c",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-07-right-crop.png"
+    },
+    {
+      "value": 8,
+      "name": "Бирюзовый",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-08-down.jpg",
+      "sourceSha256": "724ede39d47cffc256e84b00fa4317f985ff171c355a0f4f062d4570a4d96562",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-08-down-crop.png"
+    },
+    {
+      "value": 8,
+      "name": "Бирюзовый",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-08-left.jpg",
+      "sourceSha256": "3bc785e2cd22c1f7426c69f6894c74234a3f3815895c9a953e5cbee1f20fdb82",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-08-left-crop.png"
+    },
+    {
+      "value": 8,
+      "name": "Бирюзовый",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-08-up.jpg",
+      "sourceSha256": "101b34248f42f85215ec066550383e6682e8482a1e45a722c5d57d18a8e66b81",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-08-up-crop.png"
+    },
+    {
+      "value": 8,
+      "name": "Бирюзовый",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-08-right.jpg",
+      "sourceSha256": "15dfd082330f451510191d5de6a3068ace701aedfa99aab23ea42418fb2eb5c6",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-08-right-crop.png"
+    },
+    {
+      "value": 9,
+      "name": "Шоколадный",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-09-down.jpg",
+      "sourceSha256": "41b09e01a948029e4767faf04b09ba7c4b3278a57ddbd38e0e303f44c9015fb6",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-09-down-crop.png"
+    },
+    {
+      "value": 9,
+      "name": "Шоколадный",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-09-left.jpg",
+      "sourceSha256": "0a216236fd4631fd53c81c61eab184635b3f138a96a0f2df081301904da81378",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-09-left-crop.png"
+    },
+    {
+      "value": 9,
+      "name": "Шоколадный",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-09-up.jpg",
+      "sourceSha256": "444b385afe8b317aed0a3a8ff55c6d783524bb6d32397206ba440e9976f602ca",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-09-up-crop.png"
+    },
+    {
+      "value": 9,
+      "name": "Шоколадный",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final/g0-hairColor-09-right.jpg",
+      "sourceSha256": "a0cdada4b73ab66ad02b33c7be369a0553bdcf323cc31391f0680407e9a72158",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-09-right-crop.png"
+    }
+  ]
+}

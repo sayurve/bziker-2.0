@@ -1,0 +1,14 @@
+✔ ONE H7 down: the actual C head/hair stays pixel-identical through four real L bodies (339.763958ms)
+✔ ONE H7 up: the actual C head/hair stays pixel-identical through four real L bodies (251.310625ms)
+✔ ONE H7 left: the actual C head/hair stays pixel-identical through four real L bodies (304.719875ms)
+✔ ONE H7 right: the actual C head/hair stays pixel-identical through four real L bodies (222.44925ms)
+✔ female and other hairstyles retain their exact existing native locomotion output (1664.272333ms)
+✔ RIGHT collar seam uses only eight real customized C samples and keeps existing opaque body pixels (101.243167ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3208.685209

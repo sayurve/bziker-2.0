@@ -1,0 +1,257 @@
+{
+  "purpose": "actual UI QA montage only; no game raster edited",
+  "files": [
+    {
+      "file": "final-female-up-00.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "382ddf793efacb550d20f24df2af1f12966b3d15b2eb3953ba0f45529cdf4fbf"
+    },
+    {
+      "file": "final-female-up-01.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "c31af1d48b5cd80cfb2e65a9ffd057b787e4be82d4dc579b8c3ddcadeb2bad91"
+    },
+    {
+      "file": "final-female-up-02.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "d72d40c7187baa640a070fa1408d994b6b582478c95aee4badf4fb0fa1608c2c"
+    },
+    {
+      "file": "final-female-up-03.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "0f21a35eed59843788d9a3bc4089c4372dd55d1efd7c2569a112bcb709b86173"
+    },
+    {
+      "file": "final-female-up-04.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "1912fb5691f8987bb23a179d0dca8115b2f29dcdd1d275cb697ad1b0530a3814"
+    },
+    {
+      "file": "final-female-up-05.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "71fef91f9aa915f6e56071b31c88f9460bfb9aa6f99e655b5f6d7b4f5565861c"
+    },
+    {
+      "file": "final-female-up-06.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "2bfbee2c21be20349f632dede585c059f2f05a1557a45dc70a8e4b7bc0f7414d"
+    },
+    {
+      "file": "final-female-up-07.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "2fc92f1a0a9670c3922697d6e94cc5ff7c1368db7a4844d15a13d349b29741a3"
+    },
+    {
+      "file": "final-female-up-08.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "b1acc29f9a90c88ca72f3dd1208e42d6643245a167b023a4829149b16d9068a9"
+    },
+    {
+      "file": "final-female-up-09.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "2b5dd3a296fd2b25f4c0dfb17d9dc99b5ae2a658ab34de0a3aa603e9e3ef2d3d"
+    },
+    {
+      "file": "final-female-up-10.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "8956296a642ac2c77cab5f8206862d13cda1a06c6cac5189c91e5e8cf0281829"
+    },
+    {
+      "file": "final-female-up-11.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "43ff238bfc21d78b390e475f9195b26b1d135a9c51a6b48b2af46cf4f2e59478"
+    },
+    {
+      "file": "final-female-up-12.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "7b1976b2f14818b5aef312605632152725954927e6b93ee37d22f16f1878278a"
+    },
+    {
+      "file": "final-female-up-13.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "9d0042072749b65514adb245dd02c293f708cc50c1677ae5df71ceb4e169f8f0"
+    },
+    {
+      "file": "final-female-up-14.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "8437e1802be8786f2988a1990d01b8762ac079eb1f099d7b05f9eacbd73c0640"
+    },
+    {
+      "file": "final-female-up-15.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "b62cbc9b13f97bbc31a195dedf29ceaf67d1cd0f051767606bdacb02ab126ef5"
+    },
+    {
+      "file": "final-female-up-16.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "aab24c9d86a227a206308ec03ed3cb6eaa9ec4a4da10b387f4966f8c4ee2afd0"
+    },
+    {
+      "file": "final-female-up-17.jpg",
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sha256": "4a94753cb577231287a600c9bb3098a609e82d953c7aaafffc5fb6031e945f71"
+    }
+  ]
+}

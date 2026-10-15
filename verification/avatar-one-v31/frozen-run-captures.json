@@ -1,0 +1,256 @@
+{
+  "preset": "H7 white skin3 male shirt2 lime8",
+  "route": "clear 220x220 square from Plaza, down/right/up/left 1000ms each",
+  "captures": [
+    {
+      "direction": "down",
+      "file": "frozen-run-down-00.jpg",
+      "elapsedMs": 79
+    },
+    {
+      "direction": "down",
+      "file": "frozen-run-down-01.jpg",
+      "elapsedMs": 120
+    },
+    {
+      "direction": "down",
+      "file": "frozen-run-down-02.jpg",
+      "elapsedMs": 224
+    },
+    {
+      "direction": "down",
+      "file": "frozen-run-down-03.jpg",
+      "elapsedMs": 326
+    },
+    {
+      "direction": "down",
+      "file": "frozen-run-down-04.jpg",
+      "elapsedMs": 427
+    },
+    {
+      "direction": "right",
+      "file": "frozen-run-right-00.jpg",
+      "elapsedMs": 105
+    },
+    {
+      "direction": "right",
+      "file": "frozen-run-right-01.jpg",
+      "elapsedMs": 165
+    },
+    {
+      "direction": "right",
+      "file": "frozen-run-right-02.jpg",
+      "elapsedMs": 220
+    },
+    {
+      "direction": "right",
+      "file": "frozen-run-right-03.jpg",
+      "elapsedMs": 323
+    },
+    {
+      "direction": "right",
+      "file": "frozen-run-right-04.jpg",
+      "elapsedMs": 417
+    },
+    {
+      "direction": "right",
+      "file": "frozen-run-right-05.jpg",
+      "elapsedMs": 509
+    },
+    {
+      "direction": "right",
+      "file": "frozen-run-right-06.jpg",
+      "elapsedMs": 623
+    },
+    {
+      "direction": "right",
+      "file": "frozen-run-right-07.jpg",
+      "elapsedMs": 649
+    },
+    {
+      "direction": "right",
+      "file": "frozen-run-right-08.jpg",
+      "elapsedMs": 724
+    },
+    {
+      "direction": "right",
+      "file": "frozen-run-right-09.jpg",
+      "elapsedMs": 825
+    },
+    {
+      "direction": "right",
+      "file": "frozen-run-right-10.jpg",
+      "elapsedMs": 917
+    },
+    {
+      "direction": "right",
+      "file": "frozen-run-right-11.jpg",
+      "elapsedMs": 982
+    },
+    {
+      "direction": "right",
+      "file": "frozen-run-right-12.jpg",
+      "elapsedMs": 1026
+    },
+    {
+      "direction": "right",
+      "file": "frozen-run-right-13.jpg",
+      "elapsedMs": 1329
+    },
+    {
+      "direction": "up",
+      "file": "frozen-run-up-00.jpg",
+      "elapsedMs": 75
+    },
+    {
+      "direction": "up",
+      "file": "frozen-run-up-01.jpg",
+      "elapsedMs": 117
+    },
+    {
+      "direction": "up",
+      "file": "frozen-run-up-02.jpg",
+      "elapsedMs": 177
+    },
+    {
+      "direction": "up",
+      "file": "frozen-run-up-03.jpg",
+      "elapsedMs": 236
+    },
+    {
+      "direction": "up",
+      "file": "frozen-run-up-04.jpg",
+      "elapsedMs": 278
+    },
+    {
+      "direction": "up",
+      "file": "frozen-run-up-05.jpg",
+      "elapsedMs": 368
+    },
+    {
+      "direction": "up",
+      "file": "frozen-run-up-06.jpg",
+      "elapsedMs": 479
+    },
+    {
+      "direction": "up",
+      "file": "frozen-run-up-07.jpg",
+      "elapsedMs": 506
+    },
+    {
+      "direction": "up",
+      "file": "frozen-run-up-08.jpg",
+      "elapsedMs": 583
+    },
+    {
+      "direction": "up",
+      "file": "frozen-run-up-09.jpg",
+      "elapsedMs": 619
+    },
+    {
+      "direction": "up",
+      "file": "frozen-run-up-10.jpg",
+      "elapsedMs": 683
+    },
+    {
+      "direction": "up",
+      "file": "frozen-run-up-11.jpg",
+      "elapsedMs": 720
+    },
+    {
+      "direction": "up",
+      "file": "frozen-run-up-12.jpg",
+      "elapsedMs": 786
+    },
+    {
+      "direction": "up",
+      "file": "frozen-run-up-13.jpg",
+      "elapsedMs": 872
+    },
+    {
+      "direction": "up",
+      "file": "frozen-run-up-14.jpg",
+      "elapsedMs": 894
+    },
+    {
+      "direction": "up",
+      "file": "frozen-run-up-15.jpg",
+      "elapsedMs": 978
+    },
+    {
+      "direction": "up",
+      "file": "frozen-run-up-16.jpg",
+      "elapsedMs": 1018
+    },
+    {
+      "direction": "up",
+      "file": "frozen-run-up-17.jpg",
+      "elapsedMs": 1377
+    },
+    {
+      "direction": "left",
+      "file": "frozen-run-left-00.jpg",
+      "elapsedMs": 64
+    },
+    {
+      "direction": "left",
+      "file": "frozen-run-left-01.jpg",
+      "elapsedMs": 166
+    },
+    {
+      "direction": "left",
+      "file": "frozen-run-left-02.jpg",
+      "elapsedMs": 248
+    },
+    {
+      "direction": "left",
+      "file": "frozen-run-left-03.jpg",
+      "elapsedMs": 369
+    },
+    {
+      "direction": "left",
+      "file": "frozen-run-left-04.jpg",
+      "elapsedMs": 470
+    },
+    {
+      "direction": "left",
+      "file": "frozen-run-left-05.jpg",
+      "elapsedMs": 498
+    },
+    {
+      "direction": "left",
+      "file": "frozen-run-left-06.jpg",
+      "elapsedMs": 570
+    },
+    {
+      "direction": "left",
+      "file": "frozen-run-left-07.jpg",
+      "elapsedMs": 672
+    },
+    {
+      "direction": "left",
+      "file": "frozen-run-left-08.jpg",
+      "elapsedMs": 751
+    },
+    {
+      "direction": "left",
+      "file": "frozen-run-left-09.jpg",
+      "elapsedMs": 874
+    },
+    {
+      "direction": "left",
+      "file": "frozen-run-left-10.jpg",
+      "elapsedMs": 966
+    },
+    {
+      "direction": "left",
+      "file": "frozen-run-left-11.jpg",
+      "elapsedMs": 1003
+    },
+    {
+      "direction": "left",
+      "file": "frozen-run-left-12.jpg",
+      "elapsedMs": 1074
+    }
+  ]
+}

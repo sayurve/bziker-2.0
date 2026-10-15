@@ -1,0 +1,549 @@
+{
+  "checked_at_utc": "2026-10-14T23:46:57.634924+00:00",
+  "profile": "В — Владислав",
+  "scope": "source/interior/object integration audit; no browser; one authorized armchair binding fix and regression test; no bulk image hashing",
+  "source_folder": "materials/Bziker (independent project copy); selected small documents compared with read-only original",
+  "viewed_source_images": [
+    "01_Окружение/Здания/Казино/Интерьер/основной.png",
+    "01_Окружение/Здания/Бар_Пивковый_туз/Интерьер/основной.png",
+    "01_Окружение/Здания/Магазин_одежды/Интерьер/основной.png",
+    "01_Окружение/Здания/Клановые_базы/Мебель/01_Компьютерные_столы/01_Современный/Ракурсы/01_Спереди/основной.png",
+    "01_Окружение/Здания/Клановые_базы/Мебель/01_Компьютерные_столы/01_Современный/Ракурсы/02_Справа/основной.png",
+    "01_Окружение/Здания/Клановые_базы/Мебель/01_Компьютерные_столы/01_Современный/Ракурсы/03_Сзади/основной.png",
+    "01_Окружение/Здания/Клановые_базы/Мебель/01_Компьютерные_столы/01_Современный/Ракурсы/04_Слева/основной.png",
+    "01_Окружение/Здания/Казино/Интерьер/Элементы/Игровое_кресло_Спереди/Ракурсы/01_Спереди/основной.png",
+    "01_Окружение/Здания/Казино/Интерьер/Элементы/Игровое_кресло_Спереди/Ракурсы/02_Справа/основной.png",
+    "01_Окружение/Здания/Казино/Интерьер/Элементы/Игровое_кресло_Спереди/Ракурсы/03_Сзади/основной.png",
+    "01_Окружение/Здания/Казино/Интерьер/Элементы/Игровое_кресло_Спереди/Ракурсы/04_Слева/основной.png"
+  ],
+  "furniture": {
+    "source_items": 56,
+    "declared_source_views": 224,
+    "runtime_entries": 56,
+    "complete_runtime_views": 56,
+    "binding_path_and_saved_sha_metadata_errors": [],
+    "public_bound_furniture_ids": [
+      "bar-pivkovy-tuz-interior-bar-stool",
+      "bar-pivkovy-tuz-interior-bottle-shelf",
+      "bar-pivkovy-tuz-interior-chair",
+      "bar-pivkovy-tuz-interior-counter",
+      "bar-pivkovy-tuz-interior-pub-table",
+      "casino-interior-bar-counter",
+      "casino-interior-bar-stool",
+      "casino-interior-card-table",
+      "casino-interior-cash-module",
+      "casino-interior-chair-front",
+      "casino-interior-roulette",
+      "casino-interior-shelf",
+      "clan-furniture-bookcase-modern",
+      "clan-furniture-bookcase-wood",
+      "clan-furniture-chair-modern",
+      "clan-furniture-chair-wood",
+      "clan-furniture-computer-desk-tech",
+      "clan-furniture-hologram-tech",
+      "clan-furniture-plant-modern",
+      "clan-furniture-plant-wood",
+      "clan-furniture-sofa-loft",
+      "clan-furniture-sofa-modern",
+      "clan-furniture-sofa-wood",
+      "clan-furniture-table-modern",
+      "clan-furniture-table-stone",
+      "clan-furniture-table-wood",
+      "clothing-interior-counter",
+      "clothing-interior-fitting-booth",
+      "clothing-interior-mirror",
+      "clothing-interior-plant",
+      "clothing-interior-rail",
+      "clothing-interior-shoe-shelf",
+      "station-interior-bench",
+      "station-interior-ticket-module"
+    ],
+    "source_statuses": {
+      "draft": 56
+    },
+    "runtime_statuses": {
+      "draft": 56
+    },
+    "byte_hashing_performed": false,
+    "all_art_approved": false
+  },
+  "rooms": [
+    {
+      "id": "railway",
+      "modular_source": true,
+      "props": 9,
+      "seats": 6,
+      "actor_height": 80,
+      "action": {
+        "id": "travel",
+        "label": "Карта города",
+        "prop_id": "service",
+        "x": 639.8046205,
+        "y": 404,
+        "radius": 110
+      },
+      "spawn": {
+        "x": 1248.0,
+        "y": 764
+      },
+      "exit": {
+        "x": 1248.0,
+        "y": 789
+      }
+    },
+    {
+      "id": "clans",
+      "modular_source": true,
+      "props": 8,
+      "seats": 4,
+      "actor_height": 80,
+      "action": {
+        "id": "clans",
+        "label": "Управление кланом",
+        "prop_id": "service",
+        "x": 441.726461,
+        "y": 381,
+        "radius": 110
+      },
+      "spawn": {
+        "x": 838.0,
+        "y": 731
+      },
+      "exit": {
+        "x": 838.0,
+        "y": 756
+      }
+    },
+    {
+      "id": "arena",
+      "modular_source": true,
+      "props": 5,
+      "seats": 0,
+      "actor_height": 80,
+      "action": {
+        "id": "games",
+        "label": "Выбрать или создать матч",
+        "prop_id": "service",
+        "x": 1143.183264,
+        "y": 1075,
+        "radius": 110
+      },
+      "spawn": {
+        "x": 1142.5,
+        "y": 1435
+      },
+      "exit": {
+        "x": 1142.5,
+        "y": 1460
+      }
+    },
+    {
+      "id": "profile",
+      "modular_source": true,
+      "props": 9,
+      "seats": 0,
+      "actor_height": 80,
+      "action": {
+        "id": "profile",
+        "label": "Каталог персонажа",
+        "prop_id": "service",
+        "x": 498.4030415,
+        "y": 400,
+        "radius": 110
+      },
+      "spawn": {
+        "x": 925.5,
+        "y": 750
+      },
+      "exit": {
+        "x": 925.5,
+        "y": 775
+      }
+    },
+    {
+      "id": "results",
+      "modular_source": true,
+      "props": 5,
+      "seats": 0,
+      "actor_height": 80,
+      "action": {
+        "id": "results",
+        "label": "Рейтинг и результаты",
+        "prop_id": "service",
+        "x": 1143.183264,
+        "y": 1075,
+        "radius": 110
+      },
+      "spawn": {
+        "x": 1142.5,
+        "y": 1435
+      },
+      "exit": {
+        "x": 1142.5,
+        "y": 1460
+      }
+    },
+    {
+      "id": "messages",
+      "modular_source": true,
+      "props": 13,
+      "seats": 9,
+      "actor_height": 80,
+      "action": {
+        "id": "messages",
+        "label": "Сообщения и знакомства",
+        "prop_id": "service",
+        "x": 509.414141,
+        "y": 395,
+        "radius": 110
+      },
+      "spawn": {
+        "x": 843.0,
+        "y": 735
+      },
+      "exit": {
+        "x": 843.0,
+        "y": 760
+      }
+    },
+    {
+      "id": "terrace",
+      "modular_source": true,
+      "props": 10,
+      "seats": 6,
+      "actor_height": 80,
+      "action": {
+        "id": "messages",
+        "label": "Открыть сообщения",
+        "prop_id": "service",
+        "x": 422.66083050000003,
+        "y": 387,
+        "radius": 110
+      },
+      "spawn": {
+        "x": 823.5,
+        "y": 737
+      },
+      "exit": {
+        "x": 823.5,
+        "y": 762
+      }
+    },
+    {
+      "id": "shop-food",
+      "modular_source": true,
+      "props": 11,
+      "seats": 0,
+      "actor_height": 80,
+      "action": {
+        "id": "shop-food",
+        "label": "Продуктовый магазин",
+        "prop_id": "service",
+        "x": 450.3392165,
+        "y": 381,
+        "radius": 110
+      },
+      "spawn": {
+        "x": 838.0,
+        "y": 731
+      },
+      "exit": {
+        "x": 838.0,
+        "y": 756
+      }
+    },
+    {
+      "id": "shop-clothes",
+      "modular_source": true,
+      "props": 9,
+      "seats": 0,
+      "actor_height": 80,
+      "action": {
+        "id": "shop-clothes",
+        "label": "Магазин одежды",
+        "prop_id": "service",
+        "x": 498.4030415,
+        "y": 400,
+        "radius": 110
+      },
+      "spawn": {
+        "x": 925.5,
+        "y": 750
+      },
+      "exit": {
+        "x": 925.5,
+        "y": 775
+      }
+    },
+    {
+      "id": "shop-furniture",
+      "modular_source": true,
+      "props": 8,
+      "seats": 3,
+      "actor_height": 80,
+      "action": {
+        "id": "shop-furniture",
+        "label": "Магазин мебели",
+        "prop_id": "service",
+        "x": 443.231445,
+        "y": 382,
+        "radius": 110
+      },
+      "spawn": {
+        "x": 842.0,
+        "y": 732
+      },
+      "exit": {
+        "x": 842.0,
+        "y": 757
+      }
+    },
+    {
+      "id": "casino",
+      "modular_source": true,
+      "props": 23,
+      "seats": 16,
+      "actor_height": 80,
+      "action": {
+        "id": "casino",
+        "label": "Карточные комнаты и слоты",
+        "prop_id": "service",
+        "x": 505.393226,
+        "y": 401,
+        "radius": 110
+      },
+      "spawn": {
+        "x": 1021.5,
+        "y": 791
+      },
+      "exit": {
+        "x": 1021.5,
+        "y": 816
+      }
+    }
+  ],
+  "prop_solid_alignment_errors": [],
+  "sampled_reachability": {
+    "grid_step": 16,
+    "algorithm": "4-neighbour reachable valid_position nodes from room.spawn; target within configured interaction radius",
+    "room_count": 11,
+    "invalid_spawn_count": 0,
+    "invalid_action_point_count": 0,
+    "unapproachable_target_count": 0,
+    "browser_movement_claimed": false
+  },
+  "tests": {
+    "runtime": "bundled Node, project game/node_modules",
+    "files": [
+      "game/tests/source-armchair-binding.test.mjs",
+      "game/tests/furniture-facing-scale-v24.test.mjs",
+      "game/tests/furniture-rotation-v16.test.mjs",
+      "game/tests/interior-human-scale-v23.test.mjs",
+      "game/tests/furniture-render-v16.test.mjs",
+      "game/tests/furniture-preview-v24.test.mjs"
+    ],
+    "exit_code": 0,
+    "tests": 30,
+    "passed": 30,
+    "failed": 0,
+    "red_green": {
+      "initial_regression_exit_code": 1,
+      "initial_actual": "clan-furniture-chair-modern",
+      "expected": "casino-interior-chair-front",
+      "final_targeted_exit_code": 0
+    },
+    "batches": [
+      {
+        "tests": 20,
+        "passed": 20,
+        "exit_code": 0
+      },
+      {
+        "tests": 10,
+        "passed": 10,
+        "exit_code": 0
+      }
+    ]
+  },
+  "findings": [
+    {
+      "id": "INT-01",
+      "kind": "confirmed_semantic_substitution",
+      "title": "TV and cabinet semantic substitutions remain; armchair mapping corrected from supplied real asset",
+      "source": "game/web/source-interiors.js:7",
+      "repro": [
+        {
+          "call": "sourceFurnitureAssetId({type:'tv'},'modern')",
+          "actual": "clan-furniture-hologram-modern"
+        },
+        {
+          "call": "sourceFurnitureAssetId({type:'armchair'},'modern')",
+          "actual": "casino-interior-chair-front",
+          "before": "clan-furniture-chair-modern",
+          "fixed": true
+        },
+        {
+          "call": "sourceFurnitureAssetId({type:'cabinet'},'modern')",
+          "actual": "clan-furniture-bookcase-modern"
+        }
+      ],
+      "scope": "Base editor labels and source-art mapping; gameplay inventory preserved",
+      "recommended_action": "Armchair now uses actual four-view gaming armchair. TV and cabinet remain explicit unresolved art gaps; do not fake them with hologram/bookcase approval.",
+      "status": "partially_fixed"
+    },
+    {
+      "id": "INT-02",
+      "kind": "confirmed_unwired_object_actions",
+      "title": "Casino game furniture has seats but no local game action bindings",
+      "sources": [
+        "game/web/interiors.js:39",
+        "game/web/interiors-map.json",
+        "game/web/world.js:638"
+      ],
+      "room": "casino",
+      "repro": [
+        {
+          "prop": "slot-1",
+          "point": [
+            878.0376105,
+            394
+          ],
+          "actual_kind": "bench",
+          "actual_id": "interior:casino:slots:seat-1"
+        },
+        {
+          "prop": "roulette",
+          "point": [
+            611.902317,
+            701
+          ],
+          "actual_kind": "bench",
+          "actual_id": "interior:casino:roulette:south-2"
+        },
+        {
+          "prop": "poker-one",
+          "point": [
+            1414.4491625,
+            701
+          ],
+          "actual_kind": "bench",
+          "actual_id": "interior:casino:poker-one:south-2"
+        }
+      ],
+      "existing_action": {
+        "point": [
+          505.393226,
+          401
+        ],
+        "kind": "counter",
+        "id": "casino"
+      },
+      "scope": "Cards/slots exist through phone UI; roulette artwork is not proof of a roulette game",
+      "recommended_action": "Add deliberate object-to-existing-game bindings where authorized; preserve server validation and seating. Mark unavailable roulette as decoration until a real implementation exists."
+    },
+    {
+      "id": "INT-03",
+      "kind": "confirmed_review_status_gap",
+      "title": "All source furniture bundles remain draft while legacy asset resolver renders them",
+      "sources": [
+        "materials/Bziker/КАТАЛОГ_МЕБЕЛИ_С_РАКУРСАМИ.json",
+        "game/web/design-data.js",
+        "game/web/design-assets.js:4"
+      ],
+      "source_draft_count": 56,
+      "runtime_draft_count": 56,
+      "scope": "Legacy furniture art provenance; new character bundle artReview rules do not apply to this resolver",
+      "recommended_action": "Retain explicit compatibility status, record actual art review evidence before promoting any item. No blanket artistic approval from this audit."
+    },
+    {
+      "id": "INT-04",
+      "kind": "confirmed_visual_adaptation",
+      "title": "Casino walking carpet is replaced by tinted concrete texture",
+      "sources": [
+        "game/web/interiors-map.json:casino.floor_material",
+        "game/web/source-interiors.js:282",
+        "materials/Bziker/01_Окружение/Здания/Казино/Интерьер/ОПИСАНИЕ.md"
+      ],
+      "room": "casino",
+      "region": [
+        [
+          381.302317,
+          296
+        ],
+        [
+          1661.697683,
+          296
+        ],
+        [
+          1661.697683,
+          836
+        ],
+        [
+          381.302317,
+          836
+        ]
+      ],
+      "actual_asset": "clan-surface-floor-concrete-texture",
+      "actual_color": "#8b2447",
+      "scope": "Original burgundy carpet with gold perimeter is not independently reconstructed on walkable floor; floor support remains collision-aligned",
+      "recommended_action": "If retaining the reference design, create a separate flat carpet/border treatment tied to room bounds; keep modular objects and clear movement geometry."
+    }
+  ],
+  "source_backed_gaps": [
+    {
+      "types": [
+        "bed",
+        "lamp",
+        "rug"
+      ],
+      "actual": "sourceFurnitureAssetId returns null; procedural drawFacingFurniture fallback, not four authored PNGs"
+    }
+  ],
+  "not_performed": [
+    "browser interactions (owned by root)",
+    "physical phone",
+    "full visual review of 224 furniture PNGs",
+    "new artwork generation",
+    "repeat hashing of materials/archives"
+  ],
+  "overall": "Integration exists. One wrong armchair binding fixed using original four-view art; 30 targeted tests pass in two runs (20 + 10). Remaining actions, art gaps, draft review status and floor adaptation are explicitly unresolved. No overall visual approval.",
+  "authorized_changes": [
+    "game/web/source-interiors.js",
+    "game/tests/source-armchair-binding.test.mjs"
+  ],
+  "not_changed": [
+    "original source folder",
+    "game/web/world.js",
+    "world renderer",
+    "game/server.py",
+    "game/web/design-data.js",
+    "wallets/permissions",
+    "new mini-games"
+  ],
+  "original_asset_search": {
+    "read_only_original": true,
+    "current_catalog_assets": 358,
+    "furniture_four_view_items": 56,
+    "searched_primary_tree": "01_Окружение directory/file names and current catalogs; archives not unpacked",
+    "matching_real_asset": {
+      "type": "armchair",
+      "asset_id": "casino-interior-chair-front",
+      "directions": [
+        "front",
+        "right",
+        "back",
+        "left"
+      ],
+      "all_four_visually_inspected": true,
+      "already_in_design_data": true,
+      "no_new_drawing": true
+    },
+    "missing_distinct_four_view_assets": [
+      "tv",
+      "cabinet",
+      "bed",
+      "lamp (floor lamp, not wall sconce)",
+      "rug (standalone, not floor/carpet baked into an interior)"
+    ]
+  }
+}

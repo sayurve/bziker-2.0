@@ -1,0 +1,331 @@
+{
+  "version": 1,
+  "status": "draft",
+  "mode": "legacy-composite",
+  "artReview": {
+    "checked": false,
+    "evidence": []
+  },
+  "sourcePath": "/Users/sapp/.codex/generated_images/01a11cc3-6744-72b3-ad8a-81b59ea9f091/exec-1631a5a5-a87d-475d-aef1-8b098b09d907.png",
+  "sourceSHA256": "3aa37af4e8c93f085ef9a4f6709cab49cf9495d432af6a28f71325f16079854e",
+  "sourceDimensions": [
+    1254,
+    1254
+  ],
+  "sourceCellDimensions": [
+    627,
+    627
+  ],
+  "uniformFineScale": 0.2,
+  "fineCanvas": [
+    96,
+    128
+  ],
+  "fineAnchor": [
+    48,
+    126
+  ],
+  "coarseCanvas": [
+    48,
+    64
+  ],
+  "coarseAnchor": [
+    24,
+    63
+  ],
+  "promptText": "Edit the target sprite sheet ONLY to make the fully clothed female counterpart of this same game character. This is a matching game model, NOT a new illustration style. Preserve all FOUR exact limb poses, hand positions, shoe ground contacts, pixel clusters, charcoal jacket/pale Tshirt, trousers/shoes and shading from the target. ALL sprites still face LEFT. Change ONLY the body build very subtly: waist 6 percent narrower, shoulders 3 percent narrower. Keep the exact same face, eyes, brown short hair and head size as source; these are a shared avatar face template, no new makeup/eyelashes or identity changes. No new chest details or accessories. Keep stature and root at the same source coordinates in every cell; overall female height is set by uniform scale in the game exporter later. No stretching the image, no changing the camera into a back three-quarter view; maintain the source strict side camera with the pale Tshirt visible at front. Preserve the existing readable alternating limb ownership A/B/C/D and one grounded shoe every frame. Do NOT turn it into four copies of one pose. Same 2x2 layout, true transparent background, no text/shadows. The result must look authored by exactly the same pixel artist as the source male, with only a subtly narrower clothed body.",
+  "promptNote": "Exact root generation prompt preserved in prompt-info.json",
+  "headReview": "not accepted: generated head identity/shape drift; no head replacement performed",
+  "anatomyReview": "candidate: opposite near-arm contact and passing ownership now visible; leg depth material tags remain to review",
+  "precision": "source root/eye/neck points manually authored, not measured anatomical ground truth",
+  "poses": [
+    {
+      "phase": 0,
+      "sourceRoot": [
+        350,
+        613
+      ],
+      "sourceEyeAnchor": [
+        276,
+        259
+      ],
+      "sourceNeckAnchor": [
+        329,
+        316
+      ],
+      "sourceHeadBounds": [
+        214,
+        85,
+        450,
+        325
+      ],
+      "head": {
+        "top": 10,
+        "bottom": 35,
+        "left": 10,
+        "right": 34,
+        "eyeAnchor": [
+          16.6,
+          27.6
+        ],
+        "eyeLine": 27.6,
+        "neckAnchor": [
+          21.9,
+          33.3
+        ]
+      },
+      "sourceAlphaBounds": [
+        184,
+        84,
+        505,
+        612
+      ],
+      "exports": [
+        {
+          "file": "art/drafts/locomotion-v27/female-left-v3/phase-0-coarse.png",
+          "size": [
+            48,
+            64
+          ],
+          "sha256": "62402982e6252e7141c81155226003b344ce6d3310d2acc3960e6710addfa0a3",
+          "alphaBounds": [
+            7,
+            10,
+            39,
+            62
+          ]
+        },
+        {
+          "file": "art/drafts/locomotion-v27/female-left-v3/phase-0-fine.png",
+          "size": [
+            96,
+            128
+          ],
+          "sha256": "1a11b149fa4c2612e36fecbc6f8627da4ec7e43d1d25dee4d425892b54ae30fc",
+          "alphaBounds": [
+            15,
+            20,
+            78,
+            125
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "sourceRoot": [
+        310,
+        613
+      ],
+      "sourceEyeAnchor": [
+        218,
+        259
+      ],
+      "sourceNeckAnchor": [
+        273,
+        316
+      ],
+      "sourceHeadBounds": [
+        168,
+        83,
+        414,
+        325
+      ],
+      "head": {
+        "top": 10,
+        "bottom": 35,
+        "left": 9,
+        "right": 35,
+        "eyeAnchor": [
+          14.799999999999999,
+          27.6
+        ],
+        "eyeLine": 27.6,
+        "neckAnchor": [
+          20.3,
+          33.3
+        ]
+      },
+      "sourceAlphaBounds": [
+        167,
+        84,
+        418,
+        612
+      ],
+      "exports": [
+        {
+          "file": "art/drafts/locomotion-v27/female-left-v3/phase-1-coarse.png",
+          "size": [
+            48,
+            64
+          ],
+          "sha256": "06550a50727c205ff1173582cc74472efdfd665348efd72bf0b7b04e2a562033",
+          "alphaBounds": [
+            10,
+            10,
+            34,
+            62
+          ]
+        },
+        {
+          "file": "art/drafts/locomotion-v27/female-left-v3/phase-1-fine.png",
+          "size": [
+            96,
+            128
+          ],
+          "sha256": "d4f29f3e9d79880edb332aaa55378baa623a99063c4d9b1e40de012c7e3caed7",
+          "alphaBounds": [
+            19,
+            20,
+            69,
+            125
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "sourceRoot": [
+        352,
+        567
+      ],
+      "sourceEyeAnchor": [
+        276,
+        213
+      ],
+      "sourceNeckAnchor": [
+        329,
+        270
+      ],
+      "sourceHeadBounds": [
+        214,
+        39,
+        450,
+        280
+      ],
+      "head": {
+        "top": 10,
+        "bottom": 35,
+        "left": 10,
+        "right": 34,
+        "eyeAnchor": [
+          16.4,
+          27.6
+        ],
+        "eyeLine": 27.6,
+        "neckAnchor": [
+          21.7,
+          33.3
+        ]
+      },
+      "sourceAlphaBounds": [
+        180,
+        38,
+        505,
+        566
+      ],
+      "exports": [
+        {
+          "file": "art/drafts/locomotion-v27/female-left-v3/phase-2-coarse.png",
+          "size": [
+            48,
+            64
+          ],
+          "sha256": "31db0e7f4773c8fc12851ca5cc31b06ffca4bfcceb249f6527cbc8c8da07af42",
+          "alphaBounds": [
+            7,
+            10,
+            38,
+            62
+          ]
+        },
+        {
+          "file": "art/drafts/locomotion-v27/female-left-v3/phase-2-fine.png",
+          "size": [
+            96,
+            128
+          ],
+          "sha256": "d6c2829785159a3719260fedd3f8056f467111f2a9ddf2d49a0dc3f3caa637f5",
+          "alphaBounds": [
+            14,
+            20,
+            78,
+            125
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "sourceRoot": [
+        310,
+        567
+      ],
+      "sourceEyeAnchor": [
+        218,
+        213
+      ],
+      "sourceNeckAnchor": [
+        273,
+        270
+      ],
+      "sourceHeadBounds": [
+        168,
+        37,
+        414,
+        280
+      ],
+      "head": {
+        "top": 10,
+        "bottom": 35,
+        "left": 9,
+        "right": 35,
+        "eyeAnchor": [
+          14.799999999999999,
+          27.6
+        ],
+        "eyeLine": 27.6,
+        "neckAnchor": [
+          20.3,
+          33.3
+        ]
+      },
+      "sourceAlphaBounds": [
+        167,
+        37,
+        437,
+        566
+      ],
+      "exports": [
+        {
+          "file": "art/drafts/locomotion-v27/female-left-v3/phase-3-coarse.png",
+          "size": [
+            48,
+            64
+          ],
+          "sha256": "b4462f7023e9e66681e7354ce7078807ae9d13bcb4d477ceb99174b443a0b7e1",
+          "alphaBounds": [
+            10,
+            10,
+            36,
+            62
+          ]
+        },
+        {
+          "file": "art/drafts/locomotion-v27/female-left-v3/phase-3-fine.png",
+          "size": [
+            96,
+            128
+          ],
+          "sha256": "00a1d78f42e6bf0ccc36ada8e0133d495652119c4033d7078f4ceff8d256b65b",
+          "alphaBounds": [
+            19,
+            20,
+            73,
+            125
+          ]
+        }
+      ]
+    }
+  ]
+}

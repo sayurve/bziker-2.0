@@ -1,0 +1,12 @@
+test_all_exact_approaches_and_actions_reached_without_crossing_solids (__main__.CasinoBarPlanTests.test_all_exact_approaches_and_actions_reached_without_crossing_solids) ... ok
+test_feature_action_and_seat_identity_survive (__main__.CasinoBarPlanTests.test_feature_action_and_seat_identity_survive) ... ok
+test_native_aspect_and_central_aisle_remain (__main__.CasinoBarPlanTests.test_native_aspect_and_central_aisle_remain) ... ok
+test_pub_wall_lamps_use_separate_clear_wall_sections (__main__.CasinoBarPlanTests.test_pub_wall_lamps_use_separate_clear_wall_sections) ... ok
+test_side_chairs_use_matching_native_views_and_outer_approaches (__main__.CasinoBarPlanTests.test_side_chairs_use_matching_native_views_and_outer_approaches) ... ok
+test_unknown_room_unchanged (__main__.CasinoBarPlanTests.test_unknown_room_unchanged) ... ok
+test_wall_signs_shelves_and_lights_do_not_cover_each_other (__main__.CasinoBarPlanTests.test_wall_signs_shelves_and_lights_do_not_cover_each_other) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.475s
+
+OK

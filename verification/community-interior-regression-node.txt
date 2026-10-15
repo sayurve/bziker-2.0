@@ -1,0 +1,206 @@
+✔ all community service points invoke their existing feature and the exit remains usable (0.638458ms)
+✔ every newly placed community seat is a selectable real directional furnishing and an occupied seat is excluded (1.230583ms)
+✔ all community seats retain their actual ground, facing and seated source clip when the phone opens (5.0515ms)
+✔ rotating native furniture retains its visible height and aligns its feet to the ground (1.732833ms)
+✔ native editor previews keep the same zoom and ground anchor while rotating (2.413542ms)
+✔ the actual editor preview keeps all 240 native furnishing views within its canvas (3.501ms)
+✔ fallback furnishing projection retains its existing scale and ground anchor (0.228333ms)
+✔ furniture has four independently drawn facing views rather than a turned flat picture (11.627416ms)
+✔ all orientation art uses valid pixel rectangles at any world position (11.938042ms)
+✔ furniture texture and geometry remain unchanged when moved to another grid cell (9.175958ms)
+✔ every facing keeps the selected palette and premium distinction (11.141083ms)
+✔ sideways screens stay connected to their supports instead of hovering above the floor (0.232791ms)
+✔ the square dining table keeps the same full-depth tabletop in every facing (0.15975ms)
+✔ the seated furniture exports separate foreground art and visual anchors (0.36875ms)
+✔ the foreground preserves every seated head for male, female and phone poses (391.856ms)
+✔ each furnishing offers four saved directions (0.850459ms)
+✔ four directions use the whole rotated floor footprint and reject unsupported values (0.27725ms)
+✔ seats turn with furniture and keep stable identifiers and matching facing (0.272375ms)
+✔ legacy furniture stays compact and the R shortcut follows physical keyboard layout (0.107ms)
+✔ seated local and neighboring avatars face the rotated seat while keeping their phone (0.16275ms)
+✔ seated drawing is placed between the furniture body and its front edge without changing physical presence (0.155417ms)
+✖ public furnishings share the 80-unit human scale rather than sizing height from a huge width (1.060125ms)
+✔ all eleven walking floors use an existing flat material at a fixed tile size (0.161291ms)
+✔ food displays contain native food props and do not show books as groceries (0.552958ms)
+✖ grocery displays form paired sales rows with human-sized passages and real native glass cabinets (0.344958ms)
+✔ all room entrances retain a clear 120-unit central approach to the service area (0.143ms)
+✔ ordinary rear wall modules have a human-sized height without stretching their source aspect (0.146375ms)
+✔ native standing doors are taller than the person and retain their floor support and source aspect (0.122291ms)
+✔ wall lamps leave the native signs and other mounted details readable (0.5545ms)
+✔ the rendered walking plane repeats a native 320-unit sheet instead of enlarged perspective lines (595.619ms)
+✔ native displayed groceries actually paint above their low display support (1.696625ms)
+✔ glass displays reuse the exact cabinet pixels without drawing the source facade or roof (6.2385ms)
+✖ modular layouts retain all physical city doors, room identities and existing feature actions (5.327958ms)
+✔ every modular source furnishing and seller has exactly its authoritative physical support (10.853792ms)
+✔ service bindings belong to authored counters or the native hub statue, with clear exits (0.25275ms)
+✔ all seats bind actual source chairs, stools or three-seat sections with clear approaches (0.442167ms)
+✔ casino modular scene preserves six roulette chairs, six card chairs, two slots and two bar stools (0.142667ms)
+✔ body-radius navigation reaches every authored entry, service, exit and seat approach (123.420042ms)
+✖ missing dedicated scenes compose documented native modules instead of reusing a whole bar (1.062208ms)
+✔ base armchairs select the supplied real armchair in all four authored views (0.8795ms)
+✔ room preload fetches only the native sides that its props actually display (155.398709ms)
+✔ all fallback themes preserve native prop supports (2.699042ms)
+✔ clan furniture selects four distinct native views without rotating a flat picture (0.88975ms)
+✔ loaded source props and surfaces paint native assets on a clipped room plane (279.417916ms)
+✔ native room details are attached to walls or existing supports, preserving every passage and interaction (2.120292ms)
+✔ room preload includes its real side walls and details without downloading unrelated rooms (0.870667ms)
+✔ full HEX palette reaches neutral native surfaces and black furniture while preserving alpha and shading (199.622209ms)
+✔ native props fit the room ceiling and detail renderer never rotates or mirrors their artwork (2.247458ms)
+ℹ tests 48
+ℹ suites 0
+ℹ pass 44
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 768.877083
+
+✖ failing tests:
+
+test at game/tests/interior-human-scale-v23.test.mjs:12:1
+✖ public furnishings share the 80-unit human scale rather than sizing height from a huge width (1.060125ms)
+  AssertionError [ERR_ASSERTION]: profile:consultation-archive is 110 high beside an 80-high person; expected 125,150
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/interior-human-scale-v23.test.mjs:16:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at game/tests/interior-human-scale-v23.test.mjs:32:1
+✖ grocery displays form paired sales rows with human-sized passages and real native glass cabinets (0.344958ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  4 !== 8
+  
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/interior-human-scale-v23.test.mjs:33:113)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 4,
+    expected: 8,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at game/tests/interior-layout-v8.test.mjs:14:1
+✖ modular layouts retain all physical city doors, room identities and existing feature actions (5.327958ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(room.bounds.bottom-room.bounds.top>=500)
+  
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/interior-layout-v8.test.mjs:16:324)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at game/tests/interior-layout-v8.test.mjs:43:1
+✖ missing dedicated scenes compose documented native modules instead of reusing a whole bar (1.062208ms)
+  AssertionError [ERR_ASSERTION]: source hub has no chairs to fabricate
+  + actual - expected
+  
+  + [
+  +   {
+  +     approach: {
+  +       x: 461.1915775,
+  +       y: 1027
+  +     },
+  +     facing: 'up',
+  +     height: 38,
+  +     id: 'interior:arena:spectator-blue:seat-1',
+  +     prop_id: 'spectator-blue',
+  +     seat: {
+  +       x: 461.1915775,
+  +       y: 991
+  +     },
+  +     width: 145.06383,
+  +     x: 424.92562,
+  +     y: 953
+  +   },
+  +   {
+  +     approach: {
+  +       x: 533.7234925,
+  +       y: 1027
+  +     },
+  +     facing: 'up',
+  +     height: 38,
+  +     id: 'interior:arena:spectator-blue:seat-2',
+  +     prop_id: 'spectator-blue',
+  +     seat: {
+  +       x: 533.7234925,
+  +       y: 991
+  +     },
+  +     width: 145.06383,
+  +     x: 424.92562,
+  +     y: 953
+  +   },
+  +   {
+  +     approach: {
+  +       x: 1168.3403375,
+  +       y: 1027
+  +     },
+  +     facing: 'up',
+  +     height: 38,
+  +     id: 'interior:arena:spectator-violet:seat-1',
+  +     prop_id: 'spectator-violet',
+  +     seat: {
+  +       x: 1168.3403375,
+  +       y: 991
+  +     },
+  +     width: 145.06383,
+  +     x: 1132.07438,
+  +     y: 953
+  +   },
+  +   {
+  +     approach: {
+  +       x: 1240.8722525,
+  +       y: 1027
+  +     },
+  +     facing: 'up',
+  +     height: 38,
+  +     id: 'interior:arena:spectator-violet:seat-2',
+  +     prop_id: 'spectator-violet',
+  +     seat: {
+  +       x: 1240.8722525,
+  +       y: 991
+  +     },
+  +     width: 145.06383,
+  +     x: 1132.07438,
+  +     y: 953
+  +   }
+  + ]
+  - []
+  
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/interior-layout-v8.test.mjs:47:366)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: [ { id: 'interior:arena:spectator-blue:seat-1', prop_id: 'spectator-blue', x: 424.92562, y: 953, width: 145.06383, height: 38, seat: [Object], approach: [Object], facing: 'up' }, { id: 'interior:arena:spectator-blue:seat-2', prop_id: 'spectator-blue', x: 424.92562, y: 953, width: 145.06383, height: 38, seat: [Object], approach: [Object], facing: 'up' }, { id: 'interior:arena:spectator-violet:seat-1', prop_id: 'spectator-violet', x: 1132.07438, y: 953, width: 145.06383, height: 38, seat: [Object], approach: [Object], facing: 'up' }, { id: 'interior:arena:spectator-violet:seat-2', prop_id: 'spectator-violet', x: 1132.07438, y: 953, width: 145.06383, height: 38, seat: [Object], approach: [Object], facing: 'up' } ],
+    expected: [],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

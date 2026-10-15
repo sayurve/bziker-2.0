@@ -1,0 +1,72 @@
+[
+  {
+    "actorId": "human-male",
+    "family": "seated",
+    "dir": "right",
+    "id": "canonical-male-seated-right-v30",
+    "frames": 4
+  },
+  {
+    "actorId": "human-male",
+    "family": "seated",
+    "dir": "left",
+    "id": "canonical-male-seated-left-v30",
+    "frames": 4
+  },
+  {
+    "actorId": "human-male",
+    "family": "seated",
+    "dir": "down",
+    "id": "canonical-male-seated-down-v30",
+    "frames": 4
+  },
+  {
+    "actorId": "human-male",
+    "family": "seated",
+    "dir": "up",
+    "id": "canonical-male-seated-up-v30",
+    "frames": 4
+  },
+  {
+    "actorId": "human-male",
+    "family": "water",
+    "dir": "right",
+    "id": "canonical-male-water-right-v30",
+    "frames": 4
+  },
+  {
+    "actorId": "human-female",
+    "family": "seated",
+    "dir": "right",
+    "id": "canonical-female-seated-right-v30",
+    "frames": 4
+  },
+  {
+    "actorId": "human-female",
+    "family": "seated",
+    "dir": "left",
+    "id": "canonical-female-seated-left-v30",
+    "frames": 4
+  },
+  {
+    "actorId": "human-female",
+    "family": "seated",
+    "dir": "down",
+    "id": "canonical-female-seated-down-v30",
+    "frames": 4
+  },
+  {
+    "actorId": "human-female",
+    "family": "seated",
+    "dir": "up",
+    "id": "canonical-female-seated-up-v30",
+    "frames": 4
+  },
+  {
+    "actorId": "human-female",
+    "family": "water",
+    "dir": "right",
+    "id": "canonical-female-water-right-v30",
+    "frames": 4
+  }
+]

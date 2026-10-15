@@ -1,0 +1,504 @@
+[
+  {
+    "stage": "before",
+    "id": "profile",
+    "viewport": {
+      "width": 1204,
+      "height": 880,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 0.875,
+      "width": 1376,
+      "height": 1005.7142857142857,
+      "x": 237.71428571428572,
+      "y": -15.428571428571429
+    },
+    "visible": [
+      "service",
+      "fitting-1",
+      "rail-1",
+      "shoe-shelf-1",
+      "fitting-2",
+      "rail-2",
+      "shoe-shelf-2",
+      "mirror",
+      "plant"
+    ],
+    "props": 9,
+    "seats": 0,
+    "playable": [
+      1149.6802980000002,
+      500
+    ],
+    "cameraSha256": "c76b48e237d64806cc90e2156cb3e7e4d7e0549e808dd60dd938e5ff20fd5efb",
+    "sourceDocumentSha256": "e80165834e5a5cdcb79c4bbe765f0dd4e76bc117035b0cb915e4b287c95b93a4"
+  },
+  {
+    "stage": "before",
+    "id": "profile",
+    "viewport": {
+      "width": 390,
+      "height": 800,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 0.8125,
+      "width": 480,
+      "height": 984.6153846153846,
+      "x": 685.5384615384615,
+      "y": 0
+    },
+    "visible": [
+      "rail-2"
+    ],
+    "props": 9,
+    "seats": 0,
+    "playable": [
+      1149.6802980000002,
+      500
+    ],
+    "cameraSha256": "c76b48e237d64806cc90e2156cb3e7e4d7e0549e808dd60dd938e5ff20fd5efb",
+    "sourceDocumentSha256": "e80165834e5a5cdcb79c4bbe765f0dd4e76bc117035b0cb915e4b287c95b93a4"
+  },
+  {
+    "stage": "before",
+    "id": "shop-food",
+    "viewport": {
+      "width": 1204,
+      "height": 880,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 0.9375,
+      "width": 1284.2666666666667,
+      "height": 938.6666666666666,
+      "x": 195.73333333333332,
+      "y": 17.066666666666666
+    },
+    "visible": [
+      "service",
+      "shelf-1",
+      "shelf-1-vitrine",
+      "shelf-2",
+      "shelf-2-vitrine",
+      "goods-table-1",
+      "goods-table-1-vitrine",
+      "goods-table-2",
+      "goods-table-2-vitrine",
+      "plant-1",
+      "plant-2"
+    ],
+    "props": 11,
+    "seats": 0,
+    "playable": [
+      1030.8079480000001,
+      500
+    ],
+    "cameraSha256": "c76b48e237d64806cc90e2156cb3e7e4d7e0549e808dd60dd938e5ff20fd5efb",
+    "sourceDocumentSha256": "e80165834e5a5cdcb79c4bbe765f0dd4e76bc117035b0cb915e4b287c95b93a4"
+  },
+  {
+    "stage": "before",
+    "id": "shop-food",
+    "viewport": {
+      "width": 390,
+      "height": 800,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 0.8125,
+      "width": 480,
+      "height": 984.6153846153846,
+      "x": 598.1538461538462,
+      "y": 3.6923076923076925
+    },
+    "visible": [
+      "shelf-1-vitrine",
+      "shelf-2",
+      "goods-table-1-vitrine",
+      "goods-table-2"
+    ],
+    "props": 11,
+    "seats": 0,
+    "playable": [
+      1030.8079480000001,
+      500
+    ],
+    "cameraSha256": "c76b48e237d64806cc90e2156cb3e7e4d7e0549e808dd60dd938e5ff20fd5efb",
+    "sourceDocumentSha256": "e80165834e5a5cdcb79c4bbe765f0dd4e76bc117035b0cb915e4b287c95b93a4"
+  },
+  {
+    "stage": "before",
+    "id": "shop-clothes",
+    "viewport": {
+      "width": 1204,
+      "height": 880,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 0.875,
+      "width": 1376,
+      "height": 1005.7142857142857,
+      "x": 237.71428571428572,
+      "y": -15.428571428571429
+    },
+    "visible": [
+      "service",
+      "fitting-1",
+      "rail-1",
+      "shoe-shelf-1",
+      "fitting-2",
+      "rail-2",
+      "shoe-shelf-2",
+      "mirror",
+      "plant"
+    ],
+    "props": 9,
+    "seats": 0,
+    "playable": [
+      1149.6802980000002,
+      500
+    ],
+    "cameraSha256": "c76b48e237d64806cc90e2156cb3e7e4d7e0549e808dd60dd938e5ff20fd5efb",
+    "sourceDocumentSha256": "e80165834e5a5cdcb79c4bbe765f0dd4e76bc117035b0cb915e4b287c95b93a4"
+  },
+  {
+    "stage": "before",
+    "id": "shop-clothes",
+    "viewport": {
+      "width": 390,
+      "height": 800,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 0.8125,
+      "width": 480,
+      "height": 984.6153846153846,
+      "x": 685.5384615384615,
+      "y": 0
+    },
+    "visible": [
+      "rail-2"
+    ],
+    "props": 9,
+    "seats": 0,
+    "playable": [
+      1149.6802980000002,
+      500
+    ],
+    "cameraSha256": "c76b48e237d64806cc90e2156cb3e7e4d7e0549e808dd60dd938e5ff20fd5efb",
+    "sourceDocumentSha256": "e80165834e5a5cdcb79c4bbe765f0dd4e76bc117035b0cb915e4b287c95b93a4"
+  },
+  {
+    "stage": "before",
+    "id": "shop-furniture",
+    "viewport": {
+      "width": 1204,
+      "height": 880,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 0.9375,
+      "width": 1284.2666666666667,
+      "height": 938.6666666666666,
+      "x": 200,
+      "y": 18.133333333333333
+    },
+    "visible": [
+      "service",
+      "showroom-1",
+      "showroom-2",
+      "showroom-3",
+      "showroom-4",
+      "showroom-5",
+      "plant-1",
+      "plant-2"
+    ],
+    "props": 8,
+    "seats": 3,
+    "playable": [
+      1035.7979799999998,
+      500
+    ],
+    "cameraSha256": "c76b48e237d64806cc90e2156cb3e7e4d7e0549e808dd60dd938e5ff20fd5efb",
+    "sourceDocumentSha256": "e80165834e5a5cdcb79c4bbe765f0dd4e76bc117035b0cb915e4b287c95b93a4"
+  },
+  {
+    "stage": "before",
+    "id": "shop-furniture",
+    "viewport": {
+      "width": 390,
+      "height": 800,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 0.8125,
+      "width": 480,
+      "height": 984.6153846153846,
+      "x": 601.8461538461538,
+      "y": 4.3076923076923075
+    },
+    "visible": [],
+    "props": 8,
+    "seats": 3,
+    "playable": [
+      1035.7979799999998,
+      500
+    ],
+    "cameraSha256": "c76b48e237d64806cc90e2156cb3e7e4d7e0549e808dd60dd938e5ff20fd5efb",
+    "sourceDocumentSha256": "e80165834e5a5cdcb79c4bbe765f0dd4e76bc117035b0cb915e4b287c95b93a4"
+  },
+  {
+    "stage": "after",
+    "id": "profile",
+    "viewport": {
+      "width": 1204,
+      "height": 880,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.5,
+      "width": 802.6666666666666,
+      "height": 586.6666666666666,
+      "x": 186.33333333333334,
+      "y": 75.66666666666667
+    },
+    "visible": [
+      "service",
+      "fitting-1",
+      "mirror",
+      "waiting-sofa",
+      "consultation-archive",
+      "plant"
+    ],
+    "props": 6,
+    "seats": 3,
+    "playable": [
+      689.808178,
+      260
+    ],
+    "cameraSha256": "c76b48e237d64806cc90e2156cb3e7e4d7e0549e808dd60dd938e5ff20fd5efb",
+    "sourceDocumentSha256": "0e4da5e3d9ea54fa8039eddfa0ff99983a55da99da94baa216849f7231314547"
+  },
+  {
+    "stage": "after",
+    "id": "profile",
+    "viewport": {
+      "width": 390,
+      "height": 800,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.3125,
+      "width": 297.14285714285717,
+      "height": 609.5238095238095,
+      "x": 438.85714285714283,
+      "y": 69.71428571428571
+    },
+    "visible": [
+      "waiting-sofa",
+      "consultation-archive"
+    ],
+    "props": 6,
+    "seats": 3,
+    "playable": [
+      689.808178,
+      260
+    ],
+    "cameraSha256": "c76b48e237d64806cc90e2156cb3e7e4d7e0549e808dd60dd938e5ff20fd5efb",
+    "sourceDocumentSha256": "0e4da5e3d9ea54fa8039eddfa0ff99983a55da99da94baa216849f7231314547"
+  },
+  {
+    "stage": "after",
+    "id": "shop-food",
+    "viewport": {
+      "width": 1204,
+      "height": 880,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.3125,
+      "width": 917.3333333333334,
+      "height": 670.4761904761905,
+      "x": 177.14285714285714,
+      "y": 36.19047619047619
+    },
+    "visible": [
+      "service",
+      "food-row-1-left",
+      "food-row-1-right",
+      "food-row-2-left",
+      "food-row-2-right",
+      "plant"
+    ],
+    "props": 6,
+    "seats": 0,
+    "playable": [
+      755.9258279999999,
+      340
+    ],
+    "cameraSha256": "c76b48e237d64806cc90e2156cb3e7e4d7e0549e808dd60dd938e5ff20fd5efb",
+    "sourceDocumentSha256": "0e4da5e3d9ea54fa8039eddfa0ff99983a55da99da94baa216849f7231314547"
+  },
+  {
+    "stage": "after",
+    "id": "shop-food",
+    "viewport": {
+      "width": 390,
+      "height": 800,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.125,
+      "width": 346.6666666666667,
+      "height": 711.1111111111111,
+      "x": 462.6666666666667,
+      "y": 23.11111111111111
+    },
+    "visible": [
+      "food-row-1-left",
+      "food-row-1-right",
+      "food-row-2-left",
+      "food-row-2-right"
+    ],
+    "props": 6,
+    "seats": 0,
+    "playable": [
+      755.9258279999999,
+      340
+    ],
+    "cameraSha256": "c76b48e237d64806cc90e2156cb3e7e4d7e0549e808dd60dd938e5ff20fd5efb",
+    "sourceDocumentSha256": "0e4da5e3d9ea54fa8039eddfa0ff99983a55da99da94baa216849f7231314547"
+  },
+  {
+    "stage": "after",
+    "id": "shop-clothes",
+    "viewport": {
+      "width": 1204,
+      "height": 880,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.3125,
+      "width": 917.3333333333334,
+      "height": 670.4761904761905,
+      "x": 241.52380952380952,
+      "y": 114.28571428571429
+    },
+    "visible": [
+      "service",
+      "fitting-1",
+      "fitting-2",
+      "rail-1",
+      "rail-2",
+      "shoe-shelf-1",
+      "shoe-shelf-2",
+      "mirror",
+      "plant"
+    ],
+    "props": 9,
+    "seats": 0,
+    "playable": [
+      843.098884,
+      340
+    ],
+    "cameraSha256": "c76b48e237d64806cc90e2156cb3e7e4d7e0549e808dd60dd938e5ff20fd5efb",
+    "sourceDocumentSha256": "0e4da5e3d9ea54fa8039eddfa0ff99983a55da99da94baa216849f7231314547"
+  },
+  {
+    "stage": "after",
+    "id": "shop-clothes",
+    "viewport": {
+      "width": 390,
+      "height": 800,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.125,
+      "width": 346.6666666666667,
+      "height": 711.1111111111111,
+      "x": 526.6666666666666,
+      "y": 101.33333333333333
+    },
+    "visible": [
+      "rail-2",
+      "shoe-shelf-1"
+    ],
+    "props": 9,
+    "seats": 0,
+    "playable": [
+      843.098884,
+      340
+    ],
+    "cameraSha256": "c76b48e237d64806cc90e2156cb3e7e4d7e0549e808dd60dd938e5ff20fd5efb",
+    "sourceDocumentSha256": "0e4da5e3d9ea54fa8039eddfa0ff99983a55da99da94baa216849f7231314547"
+  },
+  {
+    "stage": "after",
+    "id": "shop-furniture",
+    "viewport": {
+      "width": 1204,
+      "height": 880,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.1875,
+      "width": 1013.8947368421053,
+      "height": 741.0526315789474,
+      "x": 182.73684210526315,
+      "y": 36.63157894736842
+    },
+    "visible": [
+      "service",
+      "showroom-desk",
+      "showroom-bookcase",
+      "showroom-sofa",
+      "showroom-coffee-table",
+      "showroom-dining-table",
+      "dining-chair-north",
+      "dining-chair-south",
+      "plant"
+    ],
+    "props": 9,
+    "seats": 5,
+    "playable": [
+      828.6383839999999,
+      380
+    ],
+    "cameraSha256": "c76b48e237d64806cc90e2156cb3e7e4d7e0549e808dd60dd938e5ff20fd5efb",
+    "sourceDocumentSha256": "0e4da5e3d9ea54fa8039eddfa0ff99983a55da99da94baa216849f7231314547"
+  },
+  {
+    "stage": "after",
+    "id": "shop-furniture",
+    "viewport": {
+      "width": 390,
+      "height": 800,
+      "dpr": 2
+    },
+    "view": {
+      "scale": 1.0625,
+      "width": 367.05882352941177,
+      "height": 752.9411764705883,
+      "x": 505.88235294117646,
+      "y": 36.23529411764706
+    },
+    "visible": [
+      "showroom-bookcase",
+      "showroom-sofa",
+      "showroom-coffee-table",
+      "showroom-dining-table",
+      "dining-chair-north",
+      "dining-chair-south"
+    ],
+    "props": 9,
+    "seats": 5,
+    "playable": [
+      828.6383839999999,
+      380
+    ],
+    "cameraSha256": "c76b48e237d64806cc90e2156cb3e7e4d7e0549e808dd60dd938e5ff20fd5efb",
+    "sourceDocumentSha256": "0e4da5e3d9ea54fa8039eddfa0ff99983a55da99da94baa216849f7231314547"
+  }
+]

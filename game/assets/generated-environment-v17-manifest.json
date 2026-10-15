@@ -1,0 +1,237 @@
+{
+  "version": 17,
+  "createdAt": "2026-10-10T22:21:02.227565+00:00",
+  "generator": "image_gen built-in",
+  "transparentBackgroundRequested": true,
+  "generatedOriginal": "$LOCAL_WORKSPACE/.codex/generated_images/01a1279c-9289-7bb3-8ddb-db7a349a758c/exec-fba72262-3984-45ee-9396-b5adc03bb7d4.png",
+  "sheet": "docs/source-design-v17/generated-environment/missing-environment-v17-sheet.png",
+  "sheetSize": [
+    1536,
+    1024
+  ],
+  "sheetSha256": "fe3cb5bd2054beb0807cbf1f808a6d95b485cb52a85a5763c39ef2abc5b505c8",
+  "references": [
+    "source-reference/01_Окружение/Карта_города/Квадраты_карты/Карта_исходная.png",
+    "source-reference/05_Взаимодействия/00_Исходники/Подготовленные_объекты/clan-base-modern-clubhouse.png"
+  ],
+  "status": "new generated supplemental environment; separate from native source registry",
+  "extraction": "RGBA rectangular cropping only; no painting, recoloring, background removal or alpha thresholding. contentBounds measured on alpha>127; original alpha preserved.",
+  "assets": [
+    {
+      "id": "generated-environment-fountain",
+      "name": "Круглый парковый фонтан",
+      "path": "assets/generated-environment-v17-fountain.png",
+      "width": 430,
+      "height": 350,
+      "sheetRect": {
+        "x": 58,
+        "y": 169,
+        "w": 430,
+        "h": 350
+      },
+      "contentBounds": {
+        "x": 16,
+        "y": 16,
+        "w": 398,
+        "h": 318
+      },
+      "anchor": [
+        215,
+        334
+      ],
+      "alpha": {
+        "mode": "RGBA",
+        "transparentPixels": 49766,
+        "visiblePixels": 90951,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "sha256": "a0e5a643a4b4144156a95fa5e96a39b5a78e85e8f2f0f45f04294ead74c84921",
+      "provenance": "generated-new:image_gen builtin; references used for style/camera, not copied city crops"
+    },
+    {
+      "id": "generated-environment-gazebo",
+      "name": "Парковая беседка",
+      "path": "assets/generated-environment-v17-gazebo.png",
+      "width": 368,
+      "height": 429,
+      "sheetRect": {
+        "x": 584,
+        "y": 92,
+        "w": 368,
+        "h": 429
+      },
+      "contentBounds": {
+        "x": 16,
+        "y": 16,
+        "w": 336,
+        "h": 397
+      },
+      "anchor": [
+        184,
+        413
+      ],
+      "alpha": {
+        "mode": "RGBA",
+        "transparentPixels": 49549,
+        "visiblePixels": 96062,
+        "cornerAlpha": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      "sha256": "aefb2c8237e5d4a2ce5e2b75103963d0dfc95d3f161ca9221a0a8fee03f314bb",
+      "provenance": "generated-new:image_gen builtin; references used for style/camera, not copied city crops"
+    },
+    {
+      "id": "generated-environment-railway-track",
+      "name": "Две рельсовые нити со шпалами",
+      "path": "assets/generated-environment-v17-railway-track.png",
+      "width": 463,
+      "height": 202,
+      "sheetRect": {
+        "x": 1023,
+        "y": 281,
+        "w": 463,
+        "h": 202
+      },
+      "contentBounds": {
+        "x": 16,
+        "y": 16,
+        "w": 431,
+        "h": 170
+      },
+      "anchor": [
+        231,
+        186
+      ],
+      "alpha": {
+        "mode": "RGBA",
+        "transparentPixels": 18644,
+        "visiblePixels": 69316,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "sha256": "fa2c445fbe7dd429348fd7eccdf6ee28585968b91a1b79b1d8e3e1c0a9123f9c",
+      "provenance": "generated-new:image_gen builtin; references used for style/camera, not copied city crops"
+    },
+    {
+      "id": "generated-environment-platform-canopy",
+      "name": "Навес перрона",
+      "path": "assets/generated-environment-v17-platform-canopy.png",
+      "width": 497,
+      "height": 309,
+      "sheetRect": {
+        "x": 22,
+        "y": 621,
+        "w": 497,
+        "h": 309
+      },
+      "contentBounds": {
+        "x": 16,
+        "y": 16,
+        "w": 465,
+        "h": 277
+      },
+      "anchor": [
+        248,
+        293
+      ],
+      "alpha": {
+        "mode": "RGBA",
+        "transparentPixels": 51611,
+        "visiblePixels": 84793,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "sha256": "ec9d34630aee8fea59c8a9b4b55d12fd8052219df7a06e172d84e4c8467d500c",
+      "provenance": "generated-new:image_gen builtin; references used for style/camera, not copied city crops"
+    },
+    {
+      "id": "generated-environment-passenger-coach",
+      "name": "Красно-белый пассажирский вагон",
+      "path": "assets/generated-environment-v17-passenger-coach.png",
+      "width": 649,
+      "height": 224,
+      "sheetRect": {
+        "x": 516,
+        "y": 672,
+        "w": 649,
+        "h": 224
+      },
+      "contentBounds": {
+        "x": 16,
+        "y": 16,
+        "w": 617,
+        "h": 192
+      },
+      "anchor": [
+        324,
+        208
+      ],
+      "alpha": {
+        "mode": "RGBA",
+        "transparentPixels": 30949,
+        "visiblePixels": 107992,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "sha256": "54a87a932441a0bfec84f9ef35a4da668dfe9ffad44553282617efc541e2b5c5",
+      "provenance": "generated-new:image_gen builtin; references used for style/camera, not copied city crops"
+    },
+    {
+      "id": "generated-environment-park-shrub",
+      "name": "Малый парковый куст",
+      "path": "assets/generated-environment-v17-park-shrub.png",
+      "width": 280,
+      "height": 262,
+      "sheetRect": {
+        "x": 1217,
+        "y": 658,
+        "w": 280,
+        "h": 262
+      },
+      "contentBounds": {
+        "x": 16,
+        "y": 16,
+        "w": 248,
+        "h": 230
+      },
+      "anchor": [
+        140,
+        246
+      ],
+      "alpha": {
+        "mode": "RGBA",
+        "transparentPixels": 24357,
+        "visiblePixels": 42427,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "sha256": "fe6cd657a010a0334c9189f091fd0cd06dfdd691f46fd804727a852a93eda9cf",
+      "provenance": "generated-new:image_gen builtin; references used for style/camera, not copied city crops"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+✔ ONE H7 gender0 down: the actual C head/hair stays pixel-identical through four real L bodies (296.49525ms)
+✔ ONE H7 gender0 up: the actual C head/hair stays pixel-identical through four real L bodies (215.06375ms)
+✔ ONE H7 gender0 left: the actual C head/hair stays pixel-identical through four real L bodies (252.411167ms)
+✔ ONE H7 gender0 right: the actual C head/hair stays pixel-identical through four real L bodies (227.613833ms)
+✔ ONE H7 gender1 down: the actual C head/hair stays pixel-identical through four real L bodies (216.272292ms)
+✔ ONE H7 gender1 up: the actual C head/hair stays pixel-identical through four real L bodies (187.991959ms)
+✔ ONE H7 gender1 left: the actual C head/hair stays pixel-identical through four real L bodies (191.0625ms)
+✔ ONE H7 gender1 right: the actual C head/hair stays pixel-identical through four real L bodies (161.110291ms)
+✔ both models retain exact existing native locomotion for other hairstyles (1317.025958ms)
+✔ RIGHT collar seam uses only eight real customized C samples and keeps existing opaque body pixels (73.332417ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3425.179708

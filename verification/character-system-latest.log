@@ -1,0 +1,37 @@
+✔ asset bundle loads explicit full PNGs and retains authored source metadata (2.944917ms)
+✔ unreviewed or draft assets cannot be admitted as production art (0.675292ms)
+✔ a size error removes only newly loaded textures and preserves prior assets (0.380708ms)
+✔ a failed decode leaves no half-loaded outfit and next request can retry (0.271833ms)
+✔ asset paths stay in the bundle and every texture reference is declared (1.43725ms)
+✔ scenes reuse the same bundle through the shared Phaser TextureManager (0.320041ms)
+✔ concurrent scene loads serialize and a rejected bundle preserves the first one (0.450584ms)
+✔ an unrelated loader error cannot roll back valid character textures (0.263708ms)
+✔ distance clock is independent of rendering frame rate and preserves complete cycles (0.932041ms)
+✔ world movement and pets consume one shared phase rule after accepted travel (0.6655ms)
+✔ definition contract exists and returns an immutable isolated value (1.393542ms)
+✔ model requires every authored direction, pose, constant layer canvas and attachments (1.225333ms)
+✔ draft definitions and garments need explicit lab opt-in (1.166167ms)
+✔ garment validates model compatibility, all poses, layer identity and explicit texture reference (2.477375ms)
+✔ distance alone selects one frame shared by every layer and direction ordering (1.113791ms)
+✔ repeated state does not restart and timed actions hold final pose (0.530125ms)
+✔ stop and teleport discard movement phase; reduced motion cannot accumulate hidden stride (0.64375ms)
+✔ outfit changes preserve phase and invalid changes leave complete snapshot untouched (3.354667ms)
+✔ Phaser layers use common anchor and one uniform scale without resizing (1.110667ms)
+✔ Phaser missing textures, missing atlas frames and allocation errors roll back whole outfit (2.306208ms)
+✔ outfit preflight checks every pose texture, including currently invisible frames (2.372167ms)
+✔ view rejects mismatched logical frame dimensions before changing children (0.62525ms)
+✔ view releases its own objects without destroying attached foreign objects or shared textures (0.553583ms)
+✔ all poses expose the same named attachment points (0.152584ms)
+✔ timed loops honor authored durations, PNG null frames and outfit clearing retain phase (0.825875ms)
+✔ any looping distance action follows distance and repeated state retains its phase (0.492833ms)
+✔ every provided distance clock requires positive finite cycle and looping action (0.548292ms)
+✔ large page lag clamps a finite timed action to its authored end (0.268208ms)
+✔ large finite looping durations retain finite wrapped phase (0.2595ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 83.876541

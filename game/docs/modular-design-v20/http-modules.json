@@ -1,0 +1,310 @@
+{
+  "passed": true,
+  "modules_checked": 47,
+  "results": [
+    {
+      "path": "/web/account-ui.js",
+      "status": 200,
+      "bytes": 5246,
+      "matches_local": true
+    },
+    {
+      "path": "/web/action-effects.js",
+      "status": 200,
+      "bytes": 9425,
+      "matches_local": true
+    },
+    {
+      "path": "/web/actor-atlas-data.js",
+      "status": 200,
+      "bytes": 283153,
+      "matches_local": true
+    },
+    {
+      "path": "/web/actor-custom-data.js",
+      "status": 200,
+      "bytes": 353002,
+      "matches_local": true
+    },
+    {
+      "path": "/web/actor-hair-data.js",
+      "status": 200,
+      "bytes": 965204,
+      "matches_local": true
+    },
+    {
+      "path": "/web/actor-sprite.js",
+      "status": 200,
+      "bytes": 22704,
+      "matches_local": true
+    },
+    {
+      "path": "/web/ambient-animals.js",
+      "status": 200,
+      "bytes": 2798,
+      "matches_local": true
+    },
+    {
+      "path": "/web/animals-map.json",
+      "status": 200,
+      "bytes": 6703,
+      "matches_local": true
+    },
+    {
+      "path": "/web/audio.js",
+      "status": 200,
+      "bytes": 5786,
+      "matches_local": true
+    },
+    {
+      "path": "/web/avatar.js",
+      "status": 200,
+      "bytes": 9854,
+      "matches_local": true
+    },
+    {
+      "path": "/web/card-games.js",
+      "status": 200,
+      "bytes": 14940,
+      "matches_local": true
+    },
+    {
+      "path": "/web/casino-room.js",
+      "status": 200,
+      "bytes": 4771,
+      "matches_local": true
+    },
+    {
+      "path": "/web/city-architecture.js",
+      "status": 200,
+      "bytes": 17532,
+      "matches_local": true
+    },
+    {
+      "path": "/web/city-collision.js",
+      "status": 200,
+      "bytes": 4035,
+      "matches_local": true
+    },
+    {
+      "path": "/web/city-features.js",
+      "status": 200,
+      "bytes": 10838,
+      "matches_local": true
+    },
+    {
+      "path": "/web/city-ground.js",
+      "status": 200,
+      "bytes": 24560,
+      "matches_local": true
+    },
+    {
+      "path": "/web/city-scene.js",
+      "status": 200,
+      "bytes": 1162,
+      "matches_local": true
+    },
+    {
+      "path": "/web/color-picker.js",
+      "status": 200,
+      "bytes": 613,
+      "matches_local": true
+    },
+    {
+      "path": "/web/construction-ui.js",
+      "status": 200,
+      "bytes": 5220,
+      "matches_local": true
+    },
+    {
+      "path": "/web/design-assets.js",
+      "status": 200,
+      "bytes": 3091,
+      "matches_local": true
+    },
+    {
+      "path": "/web/design-data.js",
+      "status": 200,
+      "bytes": 491637,
+      "matches_local": true
+    },
+    {
+      "path": "/web/furniture-views.js",
+      "status": 200,
+      "bytes": 13965,
+      "matches_local": true
+    },
+    {
+      "path": "/web/gameplay-ui.js",
+      "status": 200,
+      "bytes": 15655,
+      "matches_local": true
+    },
+    {
+      "path": "/web/house-catalog.json",
+      "status": 200,
+      "bytes": 1459,
+      "matches_local": true
+    },
+    {
+      "path": "/web/house-models.js",
+      "status": 200,
+      "bytes": 13583,
+      "matches_local": true
+    },
+    {
+      "path": "/web/interaction-radii.js",
+      "status": 200,
+      "bytes": 148,
+      "matches_local": true
+    },
+    {
+      "path": "/web/interior-props.js",
+      "status": 200,
+      "bytes": 28932,
+      "matches_local": true
+    },
+    {
+      "path": "/web/interiors.js",
+      "status": 200,
+      "bytes": 17715,
+      "matches_local": true
+    },
+    {
+      "path": "/web/inventory-ui.js",
+      "status": 200,
+      "bytes": 3744,
+      "matches_local": true
+    },
+    {
+      "path": "/web/lake-walkways.js",
+      "status": 200,
+      "bytes": 2022,
+      "matches_local": true
+    },
+    {
+      "path": "/web/pixel-mascot.js",
+      "status": 200,
+      "bytes": 1806,
+      "matches_local": true
+    },
+    {
+      "path": "/web/profile-builder.js",
+      "status": 200,
+      "bytes": 5695,
+      "matches_local": true
+    },
+    {
+      "path": "/web/road-topology.js",
+      "status": 200,
+      "bytes": 2899,
+      "matches_local": true
+    },
+    {
+      "path": "/web/source-actors-data.js",
+      "status": 200,
+      "bytes": 1490493,
+      "matches_local": true
+    },
+    {
+      "path": "/web/source-actors.js",
+      "status": 200,
+      "bytes": 20809,
+      "matches_local": true
+    },
+    {
+      "path": "/web/source-city.js",
+      "status": 200,
+      "bytes": 45928,
+      "matches_local": true
+    },
+    {
+      "path": "/web/source-house-materials.js",
+      "status": 200,
+      "bytes": 10087,
+      "matches_local": true
+    },
+    {
+      "path": "/web/source-interiors.js",
+      "status": 200,
+      "bytes": 28148,
+      "matches_local": true
+    },
+    {
+      "path": "/web/source-ui.js",
+      "status": 200,
+      "bytes": 5458,
+      "matches_local": true
+    },
+    {
+      "path": "/web/source-water.js",
+      "status": 200,
+      "bytes": 12347,
+      "matches_local": true
+    },
+    {
+      "path": "/web/street-details.js",
+      "status": 200,
+      "bytes": 3105,
+      "matches_local": true
+    },
+    {
+      "path": "/web/supplemental-environment.js",
+      "status": 200,
+      "bytes": 8838,
+      "matches_local": true
+    },
+    {
+      "path": "/web/walk-cycle.js",
+      "status": 200,
+      "bytes": 1686,
+      "matches_local": true
+    },
+    {
+      "path": "/web/water.js",
+      "status": 200,
+      "bytes": 11831,
+      "matches_local": true
+    },
+    {
+      "path": "/web/waterfront.js",
+      "status": 200,
+      "bytes": 6523,
+      "matches_local": true
+    },
+    {
+      "path": "/web/world-camera.js",
+      "status": 200,
+      "bytes": 891,
+      "matches_local": true
+    },
+    {
+      "path": "/web/world.js",
+      "status": 200,
+      "bytes": 107563,
+      "matches_local": true
+    }
+  ],
+  "scene_data_checked": [
+    {
+      "path": "/web/world-map.json",
+      "status": 200,
+      "matches_local": true
+    },
+    {
+      "path": "/web/city-collisions.json",
+      "status": 200,
+      "matches_local": true
+    },
+    {
+      "path": "/web/interiors-map.json",
+      "status": 200,
+      "matches_local": true
+    },
+    {
+      "path": "/web/animals-map.json",
+      "status": 200,
+      "matches_local": true
+    }
+  ]
+}

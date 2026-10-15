@@ -1,0 +1,2595 @@
+{
+  "sourceDiffs": {
+    "source-actors.js": false,
+    "actor-sprite.js": true,
+    "source-actors-data.js": true,
+    "world.js": false
+  },
+  "manifest": {
+    "actors": 22,
+    "actionSequences": {
+      "human-male": 17,
+      "human-female": 17,
+      "cat-british-black": 17,
+      "cat-british-blue": 17,
+      "cat-british-cream": 17,
+      "cat-british-silver-tabby": 17,
+      "cat-maine-coon-brown-tabby": 17,
+      "cat-maine-coon-red-tabby": 17,
+      "cat-maine-coon-silver-tabby": 17,
+      "cat-maine-coon-tortoiseshell": 17,
+      "dog-corgi-red-white": 17,
+      "dog-corgi-sable-white": 17,
+      "dog-corgi-tricolor": 17,
+      "dog-german-shepherd-black": 17,
+      "dog-german-shepherd-black-tan": 17,
+      "dog-german-shepherd-sable": 17,
+      "dog-labrador-black": 17,
+      "dog-labrador-chocolate": 17,
+      "dog-labrador-yellow": 17,
+      "dog-poodle-apricot": 17,
+      "dog-poodle-black": 17,
+      "dog-poodle-white": 17
+    },
+    "daily": 168,
+    "gestures": 160,
+    "composites": 8,
+    "water": 4
+  },
+  "metrics": [
+    {
+      "gender": 0,
+      "facing": "down",
+      "rawIdle": {
+        "left": 21,
+        "right": 73,
+        "top": 11,
+        "bottom": 125,
+        "width": 53,
+        "height": 115,
+        "count": 3747
+      },
+      "runtimeIdle": {
+        "left": 21,
+        "right": 73,
+        "top": 11,
+        "bottom": 125,
+        "width": 53,
+        "height": 115,
+        "count": 4233
+      },
+      "idleChangedPixels": 4607,
+      "walk": [
+        {
+          "left": 19,
+          "right": 75,
+          "top": 11,
+          "bottom": 125,
+          "width": 57,
+          "height": 115,
+          "count": 4701,
+          "sha256": "2ae049cf56cad2404490e955cb95917cd217fed6d9a56f74c37383f4a959e066",
+          "lowerSha256": "fa0467a66a753ca5470edadad2e9d12adf928ac3e74a4c2fbf53d0be6060bab5"
+        },
+        {
+          "left": 18,
+          "right": 77,
+          "top": 11,
+          "bottom": 125,
+          "width": 60,
+          "height": 115,
+          "count": 4527,
+          "sha256": "68899b7dff9633d6c0c3ce74e94a6e12c92682f4fb2fb71fd0b95488cb96592d",
+          "lowerSha256": "2a27a5b2140a92a8e58b6f28082ca0e5d5b7c3113b0ffcf9c72e382ca08f43c0"
+        },
+        {
+          "left": 19,
+          "right": 76,
+          "top": 12,
+          "bottom": 125,
+          "width": 58,
+          "height": 114,
+          "count": 4410,
+          "sha256": "1b889d3a929152f08db55ddcf28837ce8824e71cd42b48cffd8363ae9b326ed2",
+          "lowerSha256": "1cf8c043e84327328c599069b153bb9297664be656e07cccfd410aea7a8ef117"
+        },
+        {
+          "left": 19,
+          "right": 75,
+          "top": 12,
+          "bottom": 125,
+          "width": 57,
+          "height": 114,
+          "count": 4576,
+          "sha256": "45d2659e93c60f06777a5ede23eeaf9ef1a495b6da3485df3713030a8f952401",
+          "lowerSha256": "6baee57ea40c2edd62061016a3b274d5edd00ca20887441adc85194ce991a422"
+        }
+      ],
+      "run": [
+        {
+          "left": 17,
+          "right": 78,
+          "top": 11,
+          "bottom": 125,
+          "width": 62,
+          "height": 115,
+          "count": 4448,
+          "sha256": "3642c4e1389a1e335c5bb6e437486455bb1332ee33df0b8b87cd7f7c6cc27b15",
+          "lowerSha256": "749ccda05188b09ac9de616baf38dce42b6fd61a076992e326e77ed3ace156f5"
+        },
+        {
+          "left": 17,
+          "right": 78,
+          "top": 11,
+          "bottom": 125,
+          "width": 62,
+          "height": 115,
+          "count": 4416,
+          "sha256": "a5e60a041aefd2ba0c08ff7a33045833857ac831cd87de58726ef57a1ac299c3",
+          "lowerSha256": "42869b4a518b4aaf2e273c36d6be7ac44787cfafae55d8abfb9f77c535ec8050"
+        },
+        {
+          "left": 18,
+          "right": 78,
+          "top": 11,
+          "bottom": 125,
+          "width": 61,
+          "height": 115,
+          "count": 4399,
+          "sha256": "15b80ddcbeb2b9e9c1c83365846fe63b91f9324d0574f9b07fa98f4527c617b4",
+          "lowerSha256": "a71a83c73990789f3b106bbfb625959834d5ce0b6c1463af521ea9040623d1c9"
+        },
+        {
+          "left": 18,
+          "right": 76,
+          "top": 11,
+          "bottom": 125,
+          "width": 59,
+          "height": 115,
+          "count": 4336,
+          "sha256": "89a5f07edf5c157e00fc87a49b789012fdaa910c064c650dba46197a4534f2b5",
+          "lowerSha256": "5a68c137e40cf82d047549734c4cb8bac9a936e26224c75922833b03073d06ab"
+        }
+      ]
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "rawIdle": {
+        "left": 22,
+        "right": 73,
+        "top": 11,
+        "bottom": 125,
+        "width": 52,
+        "height": 115,
+        "count": 4153
+      },
+      "runtimeIdle": {
+        "left": 22,
+        "right": 73,
+        "top": 11,
+        "bottom": 125,
+        "width": 52,
+        "height": 115,
+        "count": 4153
+      },
+      "idleChangedPixels": 0,
+      "walk": [
+        {
+          "left": 22,
+          "right": 73,
+          "top": 11,
+          "bottom": 125,
+          "width": 52,
+          "height": 115,
+          "count": 4153,
+          "sha256": "0ecd6974d04d7a467d7bb87799261d166fa20182844f299ee87c93da662e7112",
+          "lowerSha256": "472f2532046bced7e08bbe523d7864338d2d0c41af8391a289b5c98c5ca1efa3"
+        },
+        {
+          "left": 22,
+          "right": 73,
+          "top": 12,
+          "bottom": 125,
+          "width": 52,
+          "height": 114,
+          "count": 4190,
+          "sha256": "bb26c400c400b445f740cfaf94ce268ffde87306a458342442dce4280dde257a",
+          "lowerSha256": "b2a69466c29b2594b6ed0ab588d9da6c9d682d1649ad8949b1fb5b39fee5306f"
+        },
+        {
+          "left": 20,
+          "right": 75,
+          "top": 11,
+          "bottom": 125,
+          "width": 56,
+          "height": 115,
+          "count": 4046,
+          "sha256": "9ee6730f67671e3c506d4ec1ad94cf60deaf79e02425650fd5f1dd4582aca6b9",
+          "lowerSha256": "9202bda7df1003315026c19ce324c98ee467ad93fc7edc06703ebed58c96a2e8"
+        },
+        {
+          "left": 20,
+          "right": 73,
+          "top": 11,
+          "bottom": 125,
+          "width": 54,
+          "height": 115,
+          "count": 4244,
+          "sha256": "243ec4ed522fa47db00249e2c4e1746599a9d8d4770e39f829939691548530fc",
+          "lowerSha256": "b47e3e864844a3a4ff92ba244bea111b5f4565d8700d77433f3ed76b8ebd2fe1"
+        }
+      ],
+      "run": [
+        {
+          "left": 13,
+          "right": 81,
+          "top": 12,
+          "bottom": 125,
+          "width": 69,
+          "height": 114,
+          "count": 4428,
+          "sha256": "fbc5a662fa72a31682b85d8e8b29fb845b75ca0b7ace10f591cbbb71df3b98ad",
+          "lowerSha256": "741678d2b76425f9b5a4dfcfcad9be31c7a4eecf17f3e7dbdc30694bcc60e4f7"
+        },
+        {
+          "left": 20,
+          "right": 75,
+          "top": 9,
+          "bottom": 125,
+          "width": 56,
+          "height": 117,
+          "count": 4217,
+          "sha256": "35f3096e97678d375d3f40641b3bbfb995914f49e50d862912258ec4909cdd7e",
+          "lowerSha256": "b8b2ea3607b6b2d91d98227d97f9e7d952a1ec25ddc8bf4910b57089a7046445"
+        },
+        {
+          "left": 13,
+          "right": 82,
+          "top": 11,
+          "bottom": 124,
+          "width": 70,
+          "height": 114,
+          "count": 4465,
+          "sha256": "778e6eaab92925e846808efd58d6b04a2d8f7bb8be9e255ff21316e3aefcb7be",
+          "lowerSha256": "7433da0b5d1ec31b4da2094924f2cc21d860b1abbe859cc3a92b0fced8a3664f"
+        },
+        {
+          "left": 20,
+          "right": 74,
+          "top": 10,
+          "bottom": 125,
+          "width": 55,
+          "height": 116,
+          "count": 3949,
+          "sha256": "74502c0b007bb58f6fdd60bf10408dcc34b67a14d49198cd34d08f4c84fbeb23",
+          "lowerSha256": "87cc6a3747626fc35d6be43fac291344e170203ef38033fd25588d171b6888c4"
+        }
+      ]
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "rawIdle": {
+        "left": 18,
+        "right": 77,
+        "top": 9,
+        "bottom": 125,
+        "width": 60,
+        "height": 117,
+        "count": 4768
+      },
+      "runtimeIdle": {
+        "left": 18,
+        "right": 77,
+        "top": 9,
+        "bottom": 125,
+        "width": 60,
+        "height": 117,
+        "count": 4768
+      },
+      "idleChangedPixels": 0,
+      "walk": [
+        {
+          "left": 18,
+          "right": 77,
+          "top": 9,
+          "bottom": 125,
+          "width": 60,
+          "height": 117,
+          "count": 4768,
+          "sha256": "9831719fbb89b2af7394f534572284ca3080826299eb2dda55c922a8b1e28f92",
+          "lowerSha256": "7236ebb45d56b98ed108e47840d6c8a6628db6101fa334b57ea143f4ca1f156a"
+        },
+        {
+          "left": 17,
+          "right": 78,
+          "top": 11,
+          "bottom": 125,
+          "width": 62,
+          "height": 115,
+          "count": 4792,
+          "sha256": "88a45b54c09818e6272038820f8b55ed3c5b68f997763f50d656ff088fa5d82e",
+          "lowerSha256": "6776206b1e2e780d07aa35046b9e54ea10210cd9168ac8028ae948c09cc6fea1"
+        },
+        {
+          "left": 17,
+          "right": 78,
+          "top": 11,
+          "bottom": 125,
+          "width": 62,
+          "height": 115,
+          "count": 4890,
+          "sha256": "900e6c45e232291f18856cd905451f46e089920e6086800d694104d9ee54c683",
+          "lowerSha256": "0b0b9d9db6054497dd8197e048a4530ba94cb03d96bb0c8aea7446c6d455836e"
+        },
+        {
+          "left": 20,
+          "right": 76,
+          "top": 11,
+          "bottom": 125,
+          "width": 57,
+          "height": 115,
+          "count": 4658,
+          "sha256": "b9debb97da8e5f8a90a1977b319d923b429ff4c35116a592ce8783db1b80c95e",
+          "lowerSha256": "072bb0cee29c691841e5a644233c455e49da85b0dd5750fd0b54b13215e92429"
+        }
+      ],
+      "run": [
+        {
+          "left": 18,
+          "right": 76,
+          "top": 11,
+          "bottom": 125,
+          "width": 59,
+          "height": 115,
+          "count": 4233,
+          "sha256": "6d063a7ecbf33de29c8f87a64f1487ecc45fb11f2a353764af713f56824cc556",
+          "lowerSha256": "40d18df56a37c4b181cb72a476737aa6ce5d4f8f96d14d06fe5da791b48601c5"
+        },
+        {
+          "left": 19,
+          "right": 75,
+          "top": 12,
+          "bottom": 125,
+          "width": 57,
+          "height": 114,
+          "count": 4129,
+          "sha256": "ae8aa00da6b75b252930d078dcd35b5713fdd38fd4e950c25e5d34964bac4a9a",
+          "lowerSha256": "4918fef260c0525f0149ac4cad973d32838876a9ce69e4db187eb5af6af06c4b"
+        },
+        {
+          "left": 17,
+          "right": 78,
+          "top": 11,
+          "bottom": 125,
+          "width": 62,
+          "height": 115,
+          "count": 4372,
+          "sha256": "11dd3e84798181985ab1c11fdee7082a1a33fee2d0c8ef69ff1df9c2ca3cd79d",
+          "lowerSha256": "56bcc209774f174498775bdc3ed87e76e1055567d4c6831f43b5306d7215e32b"
+        },
+        {
+          "left": 19,
+          "right": 76,
+          "top": 11,
+          "bottom": 125,
+          "width": 58,
+          "height": 115,
+          "count": 4240,
+          "sha256": "fd738c6ad98a9f8adfb626449289b29cce9ef9e6055bb2c544f53b82ce82aa6b",
+          "lowerSha256": "62243d7923f5dd1ec86e49fd7777d230a29589d5959254349543c2a698f9542e"
+        }
+      ]
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "rawIdle": {
+        "left": 22,
+        "right": 73,
+        "top": 11,
+        "bottom": 125,
+        "width": 52,
+        "height": 115,
+        "count": 4156
+      },
+      "runtimeIdle": {
+        "left": 22,
+        "right": 73,
+        "top": 11,
+        "bottom": 125,
+        "width": 52,
+        "height": 115,
+        "count": 4156
+      },
+      "idleChangedPixels": 0,
+      "walk": [
+        {
+          "left": 22,
+          "right": 73,
+          "top": 11,
+          "bottom": 125,
+          "width": 52,
+          "height": 115,
+          "count": 4156,
+          "sha256": "1e4ba05db3fbdb05fedb6f6177a0dde1fdad3dba9a4b7f9a9245b2659487ecc3",
+          "lowerSha256": "dec571f947528a2602d342f4429dc791118882f8b1c50b13002ea8e848774014"
+        },
+        {
+          "left": 22,
+          "right": 73,
+          "top": 12,
+          "bottom": 125,
+          "width": 52,
+          "height": 114,
+          "count": 4220,
+          "sha256": "e56c9ee5c019c9b5b0ce04b90a9465944571ce9f70b114484b0d57adbe7ec7f2",
+          "lowerSha256": "64b55ca9568b84cee987b7472b89a2b56cbc6f9aa8c6306cafd67eccc3aa349a"
+        },
+        {
+          "left": 20,
+          "right": 75,
+          "top": 11,
+          "bottom": 125,
+          "width": 56,
+          "height": 115,
+          "count": 4055,
+          "sha256": "c182518fd06b37a89c168538a61b75b6d195f4d4315f36022b69ad1976225e52",
+          "lowerSha256": "6d53fe68f54b03bdda69d7d2f8f8a65dc2e7d5d3bcc809953ad5889acc356921"
+        },
+        {
+          "left": 22,
+          "right": 75,
+          "top": 11,
+          "bottom": 125,
+          "width": 54,
+          "height": 115,
+          "count": 4237,
+          "sha256": "b7936b10ea9dd0172381ae8063a47ab5d41f1e2052520087f57434d7c5a28a0b",
+          "lowerSha256": "b2f81afe6fd532b350ea9b1359886711a02b1e00b0f9aa805767c74d16843874"
+        }
+      ],
+      "run": [
+        {
+          "left": 13,
+          "right": 82,
+          "top": 11,
+          "bottom": 125,
+          "width": 70,
+          "height": 115,
+          "count": 4514,
+          "sha256": "964df6e09a41c4ae220a99f87fd355638c0e4b7d0b2ea7058d5c0f0c920a17b5",
+          "lowerSha256": "7f38e8d538d6bf916e7358096eb8e9d52dbbe7200d274ea88553349b3e22e571"
+        },
+        {
+          "left": 19,
+          "right": 75,
+          "top": 11,
+          "bottom": 125,
+          "width": 57,
+          "height": 115,
+          "count": 4164,
+          "sha256": "c92f417160c442ebc5029ec4adda2543f1851506e8774b59425f1935fa474bba",
+          "lowerSha256": "d34f2afc3c252911d255d379b7cfbc981378f7a2139b08390f6e1c5c104b1c2b"
+        },
+        {
+          "left": 11,
+          "right": 82,
+          "top": 11,
+          "bottom": 125,
+          "width": 72,
+          "height": 115,
+          "count": 4446,
+          "sha256": "fd467c9dd438ab832c44418d95c77814315be2b801dfbbbbd0a572d2a62c6f6e",
+          "lowerSha256": "65385e1f02223db4c6333f7e0e4af704106a79082abb24e81d9d2e1c81660e5d"
+        },
+        {
+          "left": 19,
+          "right": 76,
+          "top": 11,
+          "bottom": 125,
+          "width": 58,
+          "height": 115,
+          "count": 3967,
+          "sha256": "dbb0ccfe2bb92ce721f4cd26b40d8c8141e752100650bf12337dfd31c5e71b7f",
+          "lowerSha256": "ac16287e563485bf720a8d5e565120d9e67eea6590132bab0c6a1e525e9685d3"
+        }
+      ]
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "rawIdle": {
+        "left": 24,
+        "right": 71,
+        "top": 16,
+        "bottom": 125,
+        "width": 48,
+        "height": 110,
+        "count": 3424
+      },
+      "runtimeIdle": {
+        "left": 15,
+        "right": 80,
+        "top": 21,
+        "bottom": 125,
+        "width": 66,
+        "height": 105,
+        "count": 4028
+      },
+      "idleChangedPixels": 4509,
+      "walk": [
+        {
+          "left": 18,
+          "right": 77,
+          "top": 16,
+          "bottom": 125,
+          "width": 60,
+          "height": 110,
+          "count": 4550,
+          "sha256": "d8e6601d537f5e6abf9f6f1513ae82ecc64ebc3172cf69cbc55c9b458e48fe4e",
+          "lowerSha256": "5d8406e8492a005012b0f8593f17022ffa93b54b9a27bc7bb1bde00d06715df4"
+        },
+        {
+          "left": 19,
+          "right": 76,
+          "top": 16,
+          "bottom": 125,
+          "width": 58,
+          "height": 110,
+          "count": 4424,
+          "sha256": "0a15034e39413737a5987f9916a71840211f7b0a4b4d424d3f4ba29fee536743",
+          "lowerSha256": "e3956facfc2a5758e0c12bcaf4daaa868c9a62c8c34166630044f1455d41e4c0"
+        },
+        {
+          "left": 19,
+          "right": 76,
+          "top": 16,
+          "bottom": 125,
+          "width": 58,
+          "height": 110,
+          "count": 4443,
+          "sha256": "37fadff278560cbf68a22a58f95049288c5ee9e7ab141a74cdc5d602249315c7",
+          "lowerSha256": "1b6ca10156ffce69514f9c6e35e4fa3b64d79e4867cdb3b35d00ab5b3d175409"
+        },
+        {
+          "left": 18,
+          "right": 76,
+          "top": 16,
+          "bottom": 125,
+          "width": 59,
+          "height": 110,
+          "count": 4497,
+          "sha256": "cf0acce462da951682cb523d5e863b10dc48159fb48eed7b53778b3cfaa638ec",
+          "lowerSha256": "0af1fd92180791e88de44daa4c06bce70bc3fb427992181b4868a4f87d135ce2"
+        }
+      ],
+      "run": [
+        {
+          "left": 15,
+          "right": 80,
+          "top": 21,
+          "bottom": 125,
+          "width": 66,
+          "height": 105,
+          "count": 4317,
+          "sha256": "266b9ac30cd9c3f63a1e6e90f2e39df17258dfa3fb676cf8b2851705988c5648",
+          "lowerSha256": "8c492c1a0cd7dccf8a62a50b0cb80455dca119b91fa96b46c25b6239436fc80f"
+        },
+        {
+          "left": 18,
+          "right": 77,
+          "top": 21,
+          "bottom": 125,
+          "width": 60,
+          "height": 105,
+          "count": 4254,
+          "sha256": "07ad07f626ec848b0c5c4933885d7048c400ca230a915d9503055eafe146e8b3",
+          "lowerSha256": "0f80ddce26f436754b09800fa0af543e6ec699f6af3d462d70ccb2b2d80d118c"
+        },
+        {
+          "left": 18,
+          "right": 77,
+          "top": 21,
+          "bottom": 125,
+          "width": 60,
+          "height": 105,
+          "count": 4181,
+          "sha256": "3c602b3ccf32ed2774b59a3df7d8004ca7c98c57d808c37b9a70a0591d6b3e83",
+          "lowerSha256": "ee17567c4df38d780f8e340b24544b09351ef2d131b1b0f12149d1b4bd1ffd7c"
+        },
+        {
+          "left": 17,
+          "right": 77,
+          "top": 19,
+          "bottom": 125,
+          "width": 61,
+          "height": 107,
+          "count": 4332,
+          "sha256": "01c940f5708163c3414119b80d257e1f722c53e4688b7120a8da73066bfe192f",
+          "lowerSha256": "f7d04ce628666769ebe5493c599d7dfc2e40b979760eb047cb20580201a4c175"
+        }
+      ]
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "rawIdle": {
+        "left": 19,
+        "right": 76,
+        "top": 15,
+        "bottom": 125,
+        "width": 58,
+        "height": 111,
+        "count": 4431
+      },
+      "runtimeIdle": {
+        "left": 19,
+        "right": 76,
+        "top": 15,
+        "bottom": 125,
+        "width": 58,
+        "height": 111,
+        "count": 4431
+      },
+      "idleChangedPixels": 0,
+      "walk": [
+        {
+          "left": 19,
+          "right": 76,
+          "top": 15,
+          "bottom": 125,
+          "width": 58,
+          "height": 111,
+          "count": 4431,
+          "sha256": "2696ab5b98dd39632f8c0b72b325e068d975e38411a7e35e7428c4dc63cf1297",
+          "lowerSha256": "7b6221a5fa1b4d118db95e5e6a3423ceeedf1d527a80b48756c43be2bd3f1ba1"
+        },
+        {
+          "left": 18,
+          "right": 77,
+          "top": 15,
+          "bottom": 125,
+          "width": 60,
+          "height": 111,
+          "count": 4174,
+          "sha256": "efa205330479f7a1ed6686a2fc88e5311e445743faf0e6936497203475139e4d",
+          "lowerSha256": "607022dc65e22d8a4376e79641527768d82dfd0a898b0f3ca1d119d6d9edef46"
+        },
+        {
+          "left": 18,
+          "right": 77,
+          "top": 15,
+          "bottom": 125,
+          "width": 60,
+          "height": 111,
+          "count": 4355,
+          "sha256": "0efd28bad273e3e77529d116bc9da984b0776a920014cc73bb98a263d53041d6",
+          "lowerSha256": "28185e2294fb226f7f231a2f817cc3eebe614dbe3181e3aebc638c62dfc7c448"
+        },
+        {
+          "left": 18,
+          "right": 76,
+          "top": 15,
+          "bottom": 125,
+          "width": 59,
+          "height": 111,
+          "count": 4398,
+          "sha256": "0d8a1b7c080c92fb22a2376a776f90d39654aa761562cc88f5f6a97e4465d34a",
+          "lowerSha256": "38887a533c68f1997159de58cd3bc098774a3e6b053cd4aa869e462fe6e85bda"
+        }
+      ],
+      "run": [
+        {
+          "left": 10,
+          "right": 84,
+          "top": 20,
+          "bottom": 125,
+          "width": 75,
+          "height": 106,
+          "count": 4453,
+          "sha256": "ca93dd500735e2202eac34c587325680563c540665153d3707d21d28641db4f1",
+          "lowerSha256": "39f220841153a55c25efc42b2353033f19cfe1332cec88ba6b882f6e8ba44b67"
+        },
+        {
+          "left": 9,
+          "right": 86,
+          "top": 21,
+          "bottom": 125,
+          "width": 78,
+          "height": 105,
+          "count": 4492,
+          "sha256": "539975071b914e3b1e5f5abcab25dbc32c64078ffb04618a4c0fe2e7a2ab6e0b",
+          "lowerSha256": "c6bf472cd8b76d530c18a59374df9df9e148d265017f97b0c12252003ec182c7"
+        },
+        {
+          "left": 6,
+          "right": 88,
+          "top": 20,
+          "bottom": 125,
+          "width": 83,
+          "height": 106,
+          "count": 4448,
+          "sha256": "cac87eb8e2786f97a345aa98170b735b5a1794a6d9d5269cf7319c5a57ccbd86",
+          "lowerSha256": "983999b19aac780b2f1ca278347690460e0f3156c91dc6975db081599c8cafd9"
+        },
+        {
+          "left": 11,
+          "right": 83,
+          "top": 20,
+          "bottom": 125,
+          "width": 73,
+          "height": 106,
+          "count": 4231,
+          "sha256": "78c0987203a4a5619dc6ee0d6db59d5c4adf7524e1960bc9f81882433fbdacc1",
+          "lowerSha256": "bda97331b13d3dcf937ac620e238af7af3c4ddff4443594e65250f6ea07656cc"
+        }
+      ]
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "rawIdle": {
+        "left": 18,
+        "right": 77,
+        "top": 15,
+        "bottom": 125,
+        "width": 60,
+        "height": 111,
+        "count": 4431
+      },
+      "runtimeIdle": {
+        "left": 18,
+        "right": 77,
+        "top": 15,
+        "bottom": 125,
+        "width": 60,
+        "height": 111,
+        "count": 4431
+      },
+      "idleChangedPixels": 0,
+      "walk": [
+        {
+          "left": 18,
+          "right": 77,
+          "top": 15,
+          "bottom": 125,
+          "width": 60,
+          "height": 111,
+          "count": 4431,
+          "sha256": "4c6610922513ce9fd1cd7812f472d391753677468a19eff2d4c295121cb72839",
+          "lowerSha256": "174b7615e7e2439a92af5bf15e4bb78467ca4d8f12e5ecb2a5bce8516362b4fd"
+        },
+        {
+          "left": 19,
+          "right": 75,
+          "top": 15,
+          "bottom": 125,
+          "width": 57,
+          "height": 111,
+          "count": 4374,
+          "sha256": "016d5838dde36cce898e957d8dde847e7e22cde8dd4437c7bb9fb4948e33d4d2",
+          "lowerSha256": "504188477ac24ffbc5f42539645ede0aed2082e4713a0f627a3b9bd9c0e34e80"
+        },
+        {
+          "left": 18,
+          "right": 76,
+          "top": 15,
+          "bottom": 125,
+          "width": 59,
+          "height": 111,
+          "count": 4396,
+          "sha256": "556768fea3fb73958711d273092969f7eb8017a29804a7ad590b1a2da56fde7f",
+          "lowerSha256": "7ab000b66e40832ef5a79cd3ccf9c41dd88b19d5358fe6f0dc4638eb00f75d84"
+        },
+        {
+          "left": 18,
+          "right": 76,
+          "top": 15,
+          "bottom": 125,
+          "width": 59,
+          "height": 111,
+          "count": 4537,
+          "sha256": "b0d7b2ad7a9b02f191a89344bc6d8d716b7cb17b20c1f9172425c68760595af9",
+          "lowerSha256": "29e05cba870fbd8556a7a97212b75726258f8d50a27f43ca8aa4b6572c25d35c"
+        }
+      ],
+      "run": [
+        {
+          "left": 18,
+          "right": 77,
+          "top": 16,
+          "bottom": 124,
+          "width": 60,
+          "height": 109,
+          "count": 4349,
+          "sha256": "eeb83bcb7c73ccc251ce766b33f5925ed29e87c6c33f5230f1d112c98d731c12",
+          "lowerSha256": "3f373cbc8ff351828c4d9f4a5b67583dfc1cb48136a4f49a5f1682d7cfbfd3bd"
+        },
+        {
+          "left": 16,
+          "right": 78,
+          "top": 17,
+          "bottom": 125,
+          "width": 63,
+          "height": 109,
+          "count": 4181,
+          "sha256": "c304f526a00c4ca34611300c78cfc92245fb89d4ece215cae7537cf1c3657563",
+          "lowerSha256": "1864b5ca239dc91603cf8d2e6968b53fb3e2876dd7378c16610860784f5481aa"
+        },
+        {
+          "left": 18,
+          "right": 76,
+          "top": 17,
+          "bottom": 125,
+          "width": 59,
+          "height": 109,
+          "count": 4297,
+          "sha256": "13f597e249f024d7ec31574757428584711df8d9afe8787eb2f73369dffa4a9e",
+          "lowerSha256": "cf5d20f1a1df3b64538a03e8e035ba86aed2320b3ff4a10746ccd91067300330"
+        },
+        {
+          "left": 18,
+          "right": 76,
+          "top": 18,
+          "bottom": 125,
+          "width": 59,
+          "height": 108,
+          "count": 4131,
+          "sha256": "c685530cf2137a0d6af5da5f3ceb50e68dc961944ebe185d5025a58cfc1c53ba",
+          "lowerSha256": "6335358d48645337aa158865238bcca661d2f185da7a47d770d5d57923751b81"
+        }
+      ]
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "rawIdle": {
+        "left": 19,
+        "right": 76,
+        "top": 15,
+        "bottom": 125,
+        "width": 58,
+        "height": 111,
+        "count": 4439
+      },
+      "runtimeIdle": {
+        "left": 19,
+        "right": 76,
+        "top": 15,
+        "bottom": 125,
+        "width": 58,
+        "height": 111,
+        "count": 4439
+      },
+      "idleChangedPixels": 0,
+      "walk": [
+        {
+          "left": 19,
+          "right": 76,
+          "top": 15,
+          "bottom": 125,
+          "width": 58,
+          "height": 111,
+          "count": 4439,
+          "sha256": "7a5995c4783108fb0b005136a4bebda8c3bc8c67ee022d9d9c38c46fe4e557ec",
+          "lowerSha256": "7eb96918e3b33d35e4ef1eed4023cd40e4e882352f6f348d4a6918915e902633"
+        },
+        {
+          "left": 18,
+          "right": 77,
+          "top": 15,
+          "bottom": 125,
+          "width": 60,
+          "height": 111,
+          "count": 4159,
+          "sha256": "405a0bf6e322d1bc6e62868710d18b7e285b2772b2ff6d949e7bffe8a601f643",
+          "lowerSha256": "c3e4dde5653dfffd05be8d14f8838b39ca8b485e91e7fcc1ddea3da4ac1c68d5"
+        },
+        {
+          "left": 18,
+          "right": 77,
+          "top": 15,
+          "bottom": 125,
+          "width": 60,
+          "height": 111,
+          "count": 4356,
+          "sha256": "af79c3065d918f3dabc391dc496a298f4c0912f8c4e995f69ca044943e2aedaa",
+          "lowerSha256": "0d6537f477890e3794b0ea0825c6237cf462b0eebf27f4f435b29a28f586df89"
+        },
+        {
+          "left": 18,
+          "right": 76,
+          "top": 15,
+          "bottom": 125,
+          "width": 59,
+          "height": 111,
+          "count": 4398,
+          "sha256": "55f046d75a17c43fb4614d19c736145441a82a3b12c79afec4f91ab827754ded",
+          "lowerSha256": "ec3fcd7f76f85f6e3dca43e8ddabdefe4b3f46da4cea107db023e78afdba5110"
+        }
+      ],
+      "run": [
+        {
+          "left": 10,
+          "right": 84,
+          "top": 20,
+          "bottom": 125,
+          "width": 75,
+          "height": 106,
+          "count": 4435,
+          "sha256": "80f13b43db86fccb0d05cd7ea906c76a6da65a89bc46ac887df667160a433966",
+          "lowerSha256": "edb9f83dd38d68458939540bb54dab2a59a4c9c57fc2af0647f34ccce0714709"
+        },
+        {
+          "left": 9,
+          "right": 86,
+          "top": 21,
+          "bottom": 125,
+          "width": 78,
+          "height": 105,
+          "count": 4494,
+          "sha256": "6f97476e4725c38e9c12e54ab2b45305984c29f08ddc5e9aa8d8eedd24e0355c",
+          "lowerSha256": "56959f8376ec3e985020bb854fd4f64d279053ffe275ba0368b35baf01a641ad"
+        },
+        {
+          "left": 6,
+          "right": 88,
+          "top": 20,
+          "bottom": 125,
+          "width": 83,
+          "height": 106,
+          "count": 4451,
+          "sha256": "e45033ea092095e2aa71be912d313292cd4c9595e875504cacd6b704e26d4a92",
+          "lowerSha256": "69e732c6fecb667f61949d914827d2b1eb62b8ac88923afd1637d8d75ffe6d7f"
+        },
+        {
+          "left": 11,
+          "right": 83,
+          "top": 20,
+          "bottom": 125,
+          "width": 73,
+          "height": 106,
+          "count": 4240,
+          "sha256": "02fa3f1f008d5dcbc9d7e2089f2f8de8ca1a59bb8bf94130dd7ad0997f40658e",
+          "lowerSha256": "cfe0e677d1cd8d4c1081d8912f6940d31cb8d0a67057b3a55ef8f7273be59b7d"
+        }
+      ]
+    }
+  ],
+  "rawRepeated": [
+    {
+      "id": "human-male",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "human-male",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "human-male",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "human-male",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "human-male",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "human-male",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "human-male",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "human-male",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "human-female",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "human-female",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "human-female",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "human-female",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "human-female",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "human-female",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "human-female",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "human-female",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-black",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-black",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-black",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-black",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-black",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-black",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-black",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-black",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-blue",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-blue",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-blue",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-blue",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-blue",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-blue",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-blue",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-blue",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-cream",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-cream",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-cream",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-cream",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-cream",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-cream",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 3,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-cream",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-cream",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 3,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-silver-tabby",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-silver-tabby",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-silver-tabby",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-silver-tabby",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-silver-tabby",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-silver-tabby",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-silver-tabby",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-british-silver-tabby",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-brown-tabby",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-brown-tabby",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-brown-tabby",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-brown-tabby",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-brown-tabby",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-brown-tabby",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-brown-tabby",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-brown-tabby",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-red-tabby",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-red-tabby",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-red-tabby",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-red-tabby",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-red-tabby",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-red-tabby",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-red-tabby",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-red-tabby",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-silver-tabby",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-silver-tabby",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-silver-tabby",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-silver-tabby",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-silver-tabby",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-silver-tabby",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-silver-tabby",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-silver-tabby",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-tortoiseshell",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-tortoiseshell",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-tortoiseshell",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-tortoiseshell",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-tortoiseshell",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-tortoiseshell",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-tortoiseshell",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "cat-maine-coon-tortoiseshell",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-red-white",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-red-white",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-red-white",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-red-white",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-red-white",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-red-white",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-red-white",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-red-white",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-sable-white",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-sable-white",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-sable-white",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-sable-white",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-sable-white",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-sable-white",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-sable-white",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-sable-white",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-tricolor",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-tricolor",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-tricolor",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-tricolor",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-tricolor",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-tricolor",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 3,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-tricolor",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-corgi-tricolor",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 3,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-black",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-black",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-black",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-black",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-black",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-black",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 3,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-black",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-black",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 3,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-black-tan",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-black-tan",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-black-tan",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-black-tan",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-black-tan",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-black-tan",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-black-tan",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-black-tan",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-sable",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-sable",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-sable",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-sable",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-sable",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-sable",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-sable",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-german-shepherd-sable",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-black",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-black",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-black",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-black",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-black",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-black",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-black",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-black",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-chocolate",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-chocolate",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-chocolate",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-chocolate",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-chocolate",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-chocolate",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-chocolate",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-chocolate",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-yellow",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-yellow",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-yellow",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-yellow",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-yellow",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-yellow",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-yellow",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-labrador-yellow",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-apricot",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-apricot",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-apricot",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-apricot",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-apricot",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-apricot",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-apricot",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-apricot",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-black",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-black",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-black",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-black",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-black",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-black",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-black",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-black",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-white",
+      "name": "02_Ходьба_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-white",
+      "name": "03_Ходьба_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-white",
+      "name": "04_Ходьба_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-white",
+      "name": "05_Ходьба_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-white",
+      "name": "06_Бег_Спереди",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-white",
+      "name": "07_Бег_Справа",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-white",
+      "name": "08_Бег_Сзади",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    },
+    {
+      "id": "dog-poodle-white",
+      "name": "09_Бег_Слева",
+      "frames": 4,
+      "unique": 4,
+      "opposedEqual02": false,
+      "opposedEqual13": false
+    }
+  ],
+  "ambient": [
+    {
+      "id": "park-dog",
+      "action": "pet-dog",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "park-cat",
+      "action": "pet-cat",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "station-dog",
+      "action": "pet-dog",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "station-cat",
+      "action": "pet-cat",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "park-north-dog",
+      "action": "pet-dog",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "park-lake-cat",
+      "action": "pet-cat",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "plaza-dog",
+      "action": "pet-dog",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "plaza-cat",
+      "action": "pet-cat",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "clan-dog",
+      "action": "pet-dog",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "clan-cat",
+      "action": "pet-cat",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "shop-dog",
+      "action": "pet-dog",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cafe-cat",
+      "action": "pet-cat",
+      "phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "withoutInteractionAction": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "followerOnTransfer": {
+    "owner_id": "o",
+    "id": "p",
+    "kind": "cat",
+    "x": 459,
+    "y": 515,
+    "owner_x": 500,
+    "owner_y": 500,
+    "scene": "interior",
+    "scene_id": null,
+    "interior_id": "cafe",
+    "motion_scene": "[\"interior\",null,\"cafe\"]"
+  },
+  "followerMotion": {
+    "owner_id": "o",
+    "id": "p",
+    "kind": "cat",
+    "x": 459,
+    "y": 515,
+    "owner_x": 500,
+    "owner_y": 500,
+    "scene": "interior",
+    "scene_id": null,
+    "interior_id": "cafe",
+    "motion_scene": "[\"interior\",null,\"cafe\"]",
+    "walking": false,
+    "facing": "left",
+    "walk_frame": 0,
+    "motion_distance": 0
+  }
+}

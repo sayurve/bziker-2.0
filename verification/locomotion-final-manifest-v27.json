@@ -1,0 +1,882 @@
+{
+  "scope": "approvedwholeposeidle/runcompatibility",
+  "uniqueDecodedPNG": 80,
+  "files": [
+    {
+      "path": "assets/canonical-idle-v2/male-left.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "67b65dfc7689711577bdacf2fd3711117e9733f3cd2514595f680b0b779d3976",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-up.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "0320d7c0f189e75f406973dbeee6ffb26ee36225f2f506d2be56f2b4dcf17e70",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-down.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "a6110949e26e8d57e1dd81776f6b871991fbcaff9feb3b82657512f1e7115a5d",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-right.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "18f727c93c8fe59e71bbedcec217f202f952467319f1044ef81b152ccf456fd8",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-down-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "478a8d42240000771dbb1f9ab5a1d0f3dcee43f2ba91b3a13867a70021f7b5f3",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-right-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "9eee484ea8fd0f10833772726be630c1d1af73ce9a1c892bc6947283094759c3",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-up-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "5fbddf29e28bcd7f5f56af45ee091fab4edfd813f43defc59395f0c4d6f1b1ba",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/canonical-idle-v2/male-left-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "55bc69a685ddb506eca21576b633d8e881f5a5eeae770c739ff100d43266f73a",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-0.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "031739f1d5be5aa68dc18a03a51c75dfb0c417d6597f12445eeb3e733fb22535",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-2.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "44da03d392b92cfd898f6ae09dd867bbf1fd5629c31c3be04354b586c2262981",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-1.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "cf0313ebbff463231f42f3af9163d283241d1395a1ff8895948756eb9d5153dc",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-3.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "68955760f0a54afac1e5be59fc44ea0fa3baae789d4998af70cf9d9852be2e65",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-0.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "3e5cc78b74b3a19701b46402900e1b382204af58d4a9d5a576ec8e6963940667",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-1.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "1e47da8a662580a995a61fe51177f668c0a885110667179198e6cc3ea4625e15",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-2.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "12680c672b2a65cfc349355771f7a3e94dfeb4760db0397e0b90f848fdedc2f5",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-3.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "9ee13b82b0da520ac11336b79c7713448274e87092c4617c403c0dc3bd4a4fbc",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-0.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "fe66da19e2d9731147209c3fe2f38bde4c8064fde435680669f76c4c39b80ff2",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-1.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "da838cc6cf698eab202e428e30cb32d3e3bd25c5fbe386ac0a8ffdb2b79c4faa",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-2.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "152cbf3bb874af3e3337c4d91e93ae9cc404b3d1a1e39c7d5ca7a0e5870a4aa1",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-3.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "11c1890f5974d4554ae13ca7d464c82b8f1683d2481c33e05b97771a1522d3f8",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-0.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "0e6de53ed24028358a1fd12ef8865e37ef29b4efa3e4166a5fbb0095630d4b99",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-1.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "45cf1a81a13f967c49a2f6ed77b645f5c853e8c07a61e53ebcde5bdee7c754ed",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-3.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "4d3584cd4c885058170e9b5c6c77c1cd8554fea507e93b3c49d70285a84ce946",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-2.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "f662e0a47b9aaaf70ac757f5591210ebaddef48bcbc6d69fc2a47db5d0f63b28",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-0-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "f0092be95db63f919e7648ee7c203c9e8bbdd29b962e80287ffd1423ee5b67e6",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-1-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "8181f5d51becf23eea067648b96bbcd091af00adf6195c5acd8c548044c77227",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-2-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "40370b26ba99bca63c102acbf220a6061357855159d71e4941f1af34017211fd",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-right-3-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "42f0591a11fd4504f1b0e3ae3a7288703a344890c284f0e7e0c2df086a0026cf",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-0-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "36bd295e69a1cc46fcabfc5157f00f3d6c70b7c0f8189f953617c675151c57d7",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-1-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "1fcf63c0047a3a89a5d91d22bac18f27851cc8d6f54b79451ab32f786d8ba94d",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-2-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "a2192d6f51828d58b55eda80ab4df8850ae5feb11b3d050a50f091661630d632",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-left-3-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "97f0ae1ec2912aa95ae7c289e33b07d7ebd31d222bde83f2b3780d980a9cf91c",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-0-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "0c867393fee9b6663c11ac90ea3460157e4fd578a6b1852ded936b17619177d6",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-1-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "12c0758954086c94416c3c3a7da3a67b514a153d7e898ed297e857bbb5b08ac2",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-2-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "0276624b0a7877ff8529c9304554008aafa198ca9c38a21ec5ae8d7a092aef2d",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-0-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "3fa536529800896232856452a7273049c75a67ee018323869af5d12545973fea",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-down-3-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "bc5e152b2121b42af09971f47d52c48ada00d295ed3a5b90442a8383519ce6e8",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-1-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "6f0b78f7da840c2c3d5ced42789277ac27bd9c319423db8499d6d862d0c53c35",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-2-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "ccc45141b1f05d65126b82da02f29823bf7e8b7d587008f2270b1cb214bf3959",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/male-up-3-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "04e42e3911952ea4332cd7fd61d49f6fe79bcdc126ebeeec6a9e87c90174bb0e",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-up.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "22937072f5b4e108a4c649f4c665c23dd36c38b9a82e8c7ca658d5a656b3cfe5",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-down.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "26673c5a2b95148e7ebdc13c35f3a9e2a9c4748fc0c026da8104a52fdce21519",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-left.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "876692180993fd68adff0728982e114d7f39de16f49ff873d88a8b96dacd03dd",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-right.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "94f2a5b7e4e6e6eee20506a5c85aa06a2eb4617bbc0db94f3d329397e709dc80",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-down-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "0944f75c6143b572390896e18297c5b2ba1c79d98303bcbf6513b5c01fc7aedd",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-up-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "9fa40972d5b92b7f78b79032d2c3a458ffa5ba5b08ef9de1f1b4beeab93b0c82",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-left-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "9f6391711572b9e79164d15c615aec0cae469ab3251a219bec7232c1348cf732",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-0.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "abae649deb1aaa9872b7ede119d60c0997b80c51d003483708205edc49cc02ab",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-1.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "64a152bc36197d5fdb5b3582ce0e09cd140cf7c40c95dba5c54a079cf932041b",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-3.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "abb722e2b38c9d8358443d11b2b438efbeb898459892ca6904571e49b750a6df",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/canonical-idle-v2/female-right-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "d203084ab966846b1c6355651733f8b0a067328ce475080c6887b966e213a7c3",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-2.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "473c6940114e6b6a6c69d3704bee942972e8c8627df97098c4ba592c7a674f46",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-0.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "78692bcc3fbf50c957747e8e4bb2b0f7b9a1038f40ad7fc2703360ced5cd1aa9",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-1.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "a50ee848aae17d23a0bf5aad2a4b066ad5e84b8ec2ec645e99e939b5e3c697b9",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-2.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "d8d59702dc47d9b2076e1028dba17435d0e394fbb73b8a401b3df8bdbedfba5b",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-3.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "ec7b9cc4e6595a6843fe4241ac5970e20f01cc0a4126d1db13f6485df379adaf",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-0.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "445dd377233b2ebdf346910aae331b47109c124148e8987ea63944ccd4a29b8e",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-1.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "f6a3a90561e86b2858ab3d41170582255f96faac8c40d6059bf82c1499974008",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-2.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "fd629cfbed4eaffea0c989b3cc04533d695e7feca50d0bedbf006b94cfad6652",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-0.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "f0399ed60f88a6b87c6872981562f515ff2a2fe3ab6a093ae0e81acebbb4f62c",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-3.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "152fb5664f4156e13d123ad954b7b282e7d276d0c21833316052c65aae9492dd",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-1.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "55e566c9bfd8684fed58351625262809fbea4b91e6958d949c171ad5ae656c94",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-2.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "603ea78caf596a8b07fbd2ae8eb99b5665e9e58d0090ed050dbaa6c9787ea41d",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-3.png",
+      "width": 48,
+      "height": 64,
+      "sha256": "456c645d38de33997f0d26fc66dd703190a890b46799f1933b801de26b42e933",
+      "decoded": [
+        48,
+        64
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-0-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "51c49adc3a918e2874428f23b24f1f1c5f9ae8b569780d0da69dc9a93b89b93f",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-1-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "b5909b115327b93fda4e62bb0fac6cbe83a37d09f2feb32ad070504461a840eb",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-2-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "41f21a187fbc6c8ccd26aa29c255b678908db13fab591f3753521335081a4660",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-right-3-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "cbc10efac9336ef2905852eefa891a3409ec96bb849ef7f5effd0f090a6786b8",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-1-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "8429cd5d267a444c4ee2b36a0c89d32d7bf9b4a9af85f9bc044d379f5f4985ae",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-0-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "929363acfd70cc0cbdbeba1ad2fa24e52ae67372699b2f55dfc88a3ed8247c1b",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-2-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "0e2a507d0712d01c0a8b40d3b18f13b8de818c7842de99962067cb2718f93fbd",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-left-3-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "ff68dab45779c3b4a046366081f29246bb56065c303769b43b557f9a0eff37a1",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-0-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "d8d363141c47138fc26b05736f79d911ef75bb74cd1a366aea92e1f6dfb49db2",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-1-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "63aeb8f22a4c0413c06b0e3b43f2675bec46a23bb9b552b0374cf6112225c420",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-0-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "ba5d6a4ee8cf72a88aed75ca991b5e51004be917d3b937d39fd7607a84923f1c",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-2-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "0a5bc2ade1f0b7c4738ccba54903876453b65018f75213a2598f727c9e233e6e",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-down-3-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "0338093a0aa3217a1a0893c2e79be718d563b4ecf107ce7d09d316a626873469",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-1-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "7a7a26800508f505ced375e6fbf9830edf1835f0f79d204f247432fa95d4059e",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-3-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "0df33119d676f7f035d8a457aed9444e064df697c7632378dfe38bdfab5f2254",
+      "decoded": [
+        96,
+        128
+      ]
+    },
+    {
+      "path": "assets/locomotion-v27/female-up-2-fine.png",
+      "width": 96,
+      "height": 128,
+      "sha256": "6c3f3f26fba8d893eb6531e80acfff20acf62286e8ef11555577dc30cfbe6aa0",
+      "decoded": [
+        96,
+        128
+      ]
+    }
+  ],
+  "sourceFiles": [
+    {
+      "path": "game/assets/design-actor-detail-base-human-male-1.png",
+      "sha256": "663ad18e9a90e507beed9c85351713ee95e268b4c9c99eca0895aaca14de8b66"
+    },
+    {
+      "path": "game/assets/design-actor-detail-base-human-female-1.png",
+      "sha256": "b720684638e56c8795b0c33d9d9bf4170922145364ab49174d1d6df75217e351"
+    },
+    {
+      "path": "art/drafts/locomotion-v27/female-up-v2/sheet.png",
+      "sha256": "28376c89ace1ed15f499379b8aaebd6d302e264a3687ca85ea55df38ee33aac7"
+    },
+    {
+      "path": "art/drafts/canonical-idle-v2/male-idle-down.png",
+      "sha256": "83bc50819e8529a041b0e63718c0b2c45fa434301a7bff611f1b37f6d56ed3f3"
+    },
+    {
+      "path": "art/drafts/canonical-idle-v2/male-idle-right.png",
+      "sha256": "bcc8c713d308c151886d52d20573899552e10d8f21876dc58819c85aec24d854"
+    },
+    {
+      "path": "art/drafts/canonical-idle-v2/male-idle-up.png",
+      "sha256": "449a31c5e8b80412e0fe8b711fed301d955d31aa742f8fe9f2c5629024c22580"
+    },
+    {
+      "path": "art/drafts/canonical-idle-v2/male-idle-left.png",
+      "sha256": "42ddae0c87d99e1aa14f7d094473f985ef86a304589f09bce9d1eae275cde14f"
+    },
+    {
+      "path": "art/drafts/canonical-idle-v27/female-idle-down.png",
+      "sha256": "a16f39a241d0956401d4eb2dfb0451fbe61e00a72cd467528bd1b63ba8faefbd"
+    },
+    {
+      "path": "art/drafts/canonical-idle-v27/female-idle-right.png",
+      "sha256": "50a2f944077b9edb3629ae252acdbe38f771c756c078f7e106841d8e837805ff"
+    },
+    {
+      "path": "art/drafts/canonical-idle-v27/female-idle-up.png",
+      "sha256": "5b08b2f912a3c4e303e5a1ec682bd32320979fc19225577ab9a50b9598710702"
+    },
+    {
+      "path": "art/drafts/canonical-idle-v27/female-idle-left.png",
+      "sha256": "6dbac045d0a11e0c33cbe4f9ecefc7436ba718de27cb4cb5fbea046fc07321a1"
+    },
+    {
+      "path": "art/drafts/locomotion-v27/male-right-v2/sheet.png",
+      "sha256": "d1844b625ae8d573c82d8827991cb88be61355ff2553a1a05c658b4eaaacccf1"
+    },
+    {
+      "path": "art/drafts/locomotion-v27/male-left-v2/sheet.png",
+      "sha256": "dc5b45bd95471b2b8b94508636eee8bb360eb776b16377d707e7cf9fd59596a0"
+    },
+    {
+      "path": "art/drafts/locomotion-v27/male-frontback-shared-head/evidence.json",
+      "sha256": "4d21dcdd4b00682e6f5067653699f9f9bce376d3d422d973d54900f4b5fe302c"
+    },
+    {
+      "path": "art/drafts/locomotion-v27/female-right-v3/sheet.png",
+      "sha256": "4a5bc272d21b62d804a554ea14a0e8615b4a8cbd52d10ccb1761cdc38ae26bc4"
+    },
+    {
+      "path": "art/drafts/locomotion-v27/female-left-v3/sheet.png",
+      "sha256": "3aa37af4e8c93f085ef9a4f6709cab49cf9495d432af6a28f71325f16079854e"
+    },
+    {
+      "path": "art/drafts/locomotion-v27/female-frontback-shared-head/evidence.json",
+      "sha256": "4db3ce5728177c7ae3d309e926569068821fa7aa2dc345f2b66a5452a4218895"
+    }
+  ],
+  "moduleHashes": {
+    "game/web/canonical-actors-data.js": "9744e32229dd06b998aeb5811871c812188cdc6e7002c97f9ca3632435cfe415",
+    "game/web/locomotion-actors-data.js": "3736a50b9fc041baf97137212d3ab486bc7f134e7aaf1c6cc22437ab2f2d3007",
+    "game/web/source-actors.js": "e335bd0224fc2cc01f6dd8f1c646c55bf98252066854cddcab018e46b0f3bdb8",
+    "game/web/actor-sprite.js": "685e6d9a77feb1d746b689c3072b5373dbe33667d3d0108b6e0773bcc9100531"
+  }
+}

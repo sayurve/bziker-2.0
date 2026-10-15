@@ -1,0 +1,12 @@
+✔ fine running frames retain every native face and texture pixel at all four phases and directions (719.587042ms)
+✔ standing retains the run-canonical proportions and the pixels of its selected native idle (35.796833ms)
+✔ fine customization preserves the native eyes while changing clothes and retains the foot anchor (29.509042ms)
+✔ selected long hair keeps its added strands when the character stops running (81.741166ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1123.4685

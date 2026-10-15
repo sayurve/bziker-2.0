@@ -1,0 +1,211 @@
+{
+  "file_count": 331189,
+  "total_bytes": 16327102047,
+  "original_library_files": 231255,
+  "original_library_bytes": 15347012087,
+  "selected_phaser_files": 99934,
+  "selected_phaser_bytes": 980089960,
+  "excluded_entries": 74,
+  "top_level": [
+    {
+      "path": "01_Окружение",
+      "file_count": 3982,
+      "bytes": 2510827999
+    },
+    {
+      "path": "02_Персонажи",
+      "file_count": 123234,
+      "bytes": 6103626486
+    },
+    {
+      "path": "03_Животные",
+      "file_count": 101780,
+      "bytes": 5404335887
+    },
+    {
+      "path": "04_Анимации",
+      "file_count": 8,
+      "bytes": 25123067
+    },
+    {
+      "path": "05_Взаимодействия",
+      "file_count": 113,
+      "bytes": 183014485
+    },
+    {
+      "path": "06_Повседневные_действия",
+      "file_count": 53,
+      "bytes": 49482048
+    },
+    {
+      "path": "07_Проверка_анимаций",
+      "file_count": 8,
+      "bytes": 6576907
+    },
+    {
+      "path": "08_Фото_и_анимации",
+      "file_count": 7,
+      "bytes": 93722
+    },
+    {
+      "path": "09_Интерфейс_игры",
+      "file_count": 1867,
+      "bytes": 331764602
+    },
+    {
+      "path": "10_Проверка_сохранённых_материалов",
+      "file_count": 175,
+      "bytes": 91767847
+    },
+    {
+      "path": "AGENTS.md",
+      "file_count": 1,
+      "bytes": 1546
+    },
+    {
+      "path": "Bziker_Интерфейс.zip",
+      "file_count": 1,
+      "bytes": 403729619
+    },
+    {
+      "path": "Phaser",
+      "file_count": 99934,
+      "bytes": 980089960
+    },
+    {
+      "path": "casino-modern.png",
+      "file_count": 1,
+      "bytes": 1478157
+    },
+    {
+      "path": "index.html",
+      "file_count": 1,
+      "bytes": 4422
+    },
+    {
+      "path": "intersection-wide-sidewalks.png",
+      "file_count": 1,
+      "bytes": 1283780
+    },
+    {
+      "path": "railway-station.png",
+      "file_count": 1,
+      "bytes": 1613773
+    },
+    {
+      "path": "road-wide.png",
+      "file_count": 1,
+      "bytes": 960749
+    },
+    {
+      "path": "street-bin.png",
+      "file_count": 1,
+      "bytes": 346509
+    },
+    {
+      "path": "streetlights.png",
+      "file_count": 1,
+      "bytes": 933550
+    },
+    {
+      "path": "Бзикер_Загрузка_и_вход.zip",
+      "file_count": 1,
+      "bytes": 14223432
+    },
+    {
+      "path": "Бзикер_Карта_и_объекты.zip",
+      "file_count": 1,
+      "bytes": 84377773
+    },
+    {
+      "path": "Взаимодействия_полная_сборка.mp4",
+      "file_count": 1,
+      "bytes": 129374231
+    },
+    {
+      "path": "КАК_ОТКРЫТЬ_АНИМАЦИИ.txt",
+      "file_count": 1,
+      "bytes": 583
+    },
+    {
+      "path": "КАТАЛОГ_МЕБЕЛИ_С_РАКУРСАМИ.json",
+      "file_count": 1,
+      "bytes": 289997
+    },
+    {
+      "path": "НАВИГАЦИЯ.md",
+      "file_count": 1,
+      "bytes": 21080
+    },
+    {
+      "path": "ОТКРЫТЬ_АНИМАЦИИ.html",
+      "file_count": 1,
+      "bytes": 1735
+    },
+    {
+      "path": "ОТКРЫТЬ_ВКЛАДКИ.html",
+      "file_count": 1,
+      "bytes": 422
+    },
+    {
+      "path": "ОТКРЫТЬ_ВХОД_В_ИГРУ.html",
+      "file_count": 1,
+      "bytes": 487
+    },
+    {
+      "path": "ОТКРЫТЬ_ИНТЕРФЕЙС.html",
+      "file_count": 1,
+      "bytes": 358
+    },
+    {
+      "path": "ОТКРЫТЬ_КАРТУ_И_ОБЪЕКТЫ.html",
+      "file_count": 1,
+      "bytes": 753
+    },
+    {
+      "path": "ОТКРЫТЬ_ТЕЛЕБЗИ.html",
+      "file_count": 1,
+      "bytes": 295
+    },
+    {
+      "path": "ПРАВИЛА_РАКУРСОВ_МЕБЕЛИ.md",
+      "file_count": 1,
+      "bytes": 2706
+    },
+    {
+      "path": "ПРОВЕРКА_ПОСЛЕДНИХ_РЕДАКЦИЙ.json",
+      "file_count": 1,
+      "bytes": 23313
+    },
+    {
+      "path": "ПРОВЕРКА_РАКУРСОВ_МЕБЕЛИ.json",
+      "file_count": 1,
+      "bytes": 119405
+    },
+    {
+      "path": "ПРОВЕРКА_СОХРАНЕНИЯ_2026-10-11.json",
+      "file_count": 1,
+      "bytes": 592254
+    },
+    {
+      "path": "ПРОВЕРКА_СОХРАНЕНИЯ_2026-10-11.md",
+      "file_count": 1,
+      "bytes": 11527
+    },
+    {
+      "path": "ПРОСМОТР_МЕБЕЛИ_С_РАКУРСАМИ.html",
+      "file_count": 1,
+      "bytes": 208780
+    },
+    {
+      "path": "каталог.json",
+      "file_count": 1,
+      "bytes": 797801
+    }
+  ],
+  "draft_file_count": 20,
+  "draft_png_count": 14,
+  "draft_bytes": 4582007,
+  "art_approved": false,
+  "manifest": "materials-manifest.json"
+}

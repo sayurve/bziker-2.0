@@ -1,0 +1,105 @@
+{
+  "status": "draft",
+  "family": "water",
+  "gender": "female",
+  "dir": "right",
+  "master": "art/drafts/canonical-actions-v30/water/female-right/water-four-master.png",
+  "sourceOutput": "/Users/sapp/.codex/generated_images/01a13c9a-ae7d-7bc2-83f6-88b8b5a5e67b/exec-4a86623a-4b8a-4fe9-9ae5-07e7837dde80.png",
+  "rawMasterUnchanged": true,
+  "masterSHA256": "710b8f117e2de32526cfdd5d4cc975821e5720aa5c13709564f0b0cc68eb7e66",
+  "actualSize": [
+    1086,
+    1448
+  ],
+  "requestedSize": [
+    1536,
+    2048
+  ],
+  "cell": [
+    543,
+    724
+  ],
+  "fixedUniformScale": 0.17679558011049723,
+  "referencePaths": [
+    "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/drafts/canonical-actions-v30/references/female-right-runtime-8x.png",
+    "/Users/sapp/Desktop/Игра/Bzikert 2.0/art/drafts/canonical-actions-v30/seated/male-right/seated-four-master.png"
+  ],
+  "poses": [
+    {
+      "pose": "cast",
+      "file": "art/drafts/canonical-actions-v30/water/female-right/cast-fine-raw.png",
+      "sourceCell": [
+        0,
+        0,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        27,
+        14,
+        86,
+        128
+      ],
+      "opaquePixels": 3618,
+      "edgeInk": 36
+    },
+    {
+      "pose": "hold",
+      "file": "art/drafts/canonical-actions-v30/water/female-right/hold-fine-raw.png",
+      "sourceCell": [
+        543,
+        0,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        24,
+        14,
+        72,
+        128
+      ],
+      "opaquePixels": 3471,
+      "edgeInk": 36
+    },
+    {
+      "pose": "reel",
+      "file": "art/drafts/canonical-actions-v30/water/female-right/reel-fine-raw.png",
+      "sourceCell": [
+        0,
+        724,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        27,
+        0,
+        78,
+        124
+      ],
+      "opaquePixels": 3691,
+      "edgeInk": 36
+    },
+    {
+      "pose": "row",
+      "file": "art/drafts/canonical-actions-v30/water/female-right/row-fine-raw.png",
+      "sourceCell": [
+        543,
+        724,
+        543,
+        724
+      ],
+      "uniformScale": 0.17679558011049723,
+      "opaqueBounds": [
+        24,
+        0,
+        83,
+        122
+      ],
+      "opaquePixels": 3603,
+      "edgeInk": 36
+    }
+  ]
+}

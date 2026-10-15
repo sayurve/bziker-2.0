@@ -1,0 +1,269 @@
+{
+  "current_database": "data/first-prototype.db",
+  "backup_database": "data/backups/before-design-v17-20261011-002700.db",
+  "current_integrity": "ok",
+  "backup_integrity": "ok",
+  "current_tables": 37,
+  "backup_tables": 37,
+  "tables": [
+    {
+      "table": "account_attempts",
+      "backup_count": 1,
+      "current_count": 1,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "account_credentials",
+      "backup_count": 1,
+      "current_count": 1,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "account_pets",
+      "backup_count": 0,
+      "current_count": 0,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "accounts",
+      "backup_count": 21,
+      "current_count": 21,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "active_accounts",
+      "backup_count": 1,
+      "current_count": 1,
+      "same": false,
+      "schema_same": true
+    },
+    {
+      "table": "activity_events",
+      "backup_count": 11,
+      "current_count": 13,
+      "same": false,
+      "schema_same": true
+    },
+    {
+      "table": "base_guests",
+      "backup_count": 0,
+      "current_count": 0,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "base_invitations",
+      "backup_count": 0,
+      "current_count": 0,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "card_invitations",
+      "backup_count": 0,
+      "current_count": 0,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "card_tables",
+      "backup_count": 0,
+      "current_count": 0,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "casino_spins",
+      "backup_count": 11,
+      "current_count": 11,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "clan_members",
+      "backup_count": 3,
+      "current_count": 3,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "clan_requests",
+      "backup_count": 0,
+      "current_count": 0,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "clan_results",
+      "backup_count": 0,
+      "current_count": 0,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "clans",
+      "backup_count": 4,
+      "current_count": 4,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "daily_quest_claims",
+      "backup_count": 0,
+      "current_count": 0,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "direct_messages",
+      "backup_count": 4,
+      "current_count": 4,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "economy_ledger",
+      "backup_count": 45,
+      "current_count": 45,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "fishing_sessions",
+      "backup_count": 0,
+      "current_count": 0,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "friend_requests",
+      "backup_count": 0,
+      "current_count": 0,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "friendships",
+      "backup_count": 0,
+      "current_count": 0,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "inventory",
+      "backup_count": 4,
+      "current_count": 4,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "invitations",
+      "backup_count": 5,
+      "current_count": 5,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "litter_picks",
+      "backup_count": 3,
+      "current_count": 3,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "lobbies",
+      "backup_count": 5,
+      "current_count": 5,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "nickname_reservations",
+      "backup_count": 12,
+      "current_count": 12,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "presence",
+      "backup_count": 1,
+      "current_count": 1,
+      "same": false,
+      "schema_same": true
+    },
+    {
+      "table": "quest_claims",
+      "backup_count": 2,
+      "current_count": 2,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "sessions",
+      "backup_count": 1,
+      "current_count": 1,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "smoking_requests",
+      "backup_count": 0,
+      "current_count": 0,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "wallets",
+      "backup_count": 21,
+      "current_count": 21,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "world_action_effects",
+      "backup_count": 1,
+      "current_count": 1,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "world_animal_pauses",
+      "backup_count": 2,
+      "current_count": 2,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "world_boats",
+      "backup_count": 3,
+      "current_count": 3,
+      "same": false,
+      "schema_same": true
+    },
+    {
+      "table": "world_metadata",
+      "backup_count": 1,
+      "current_count": 1,
+      "same": false,
+      "schema_same": true
+    },
+    {
+      "table": "world_pet_effects",
+      "backup_count": 1,
+      "current_count": 1,
+      "same": true,
+      "schema_same": true
+    },
+    {
+      "table": "world_positions",
+      "backup_count": 2,
+      "current_count": 2,
+      "same": false,
+      "schema_same": true
+    }
+  ]
+}

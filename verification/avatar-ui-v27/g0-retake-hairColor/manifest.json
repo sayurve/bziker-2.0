@@ -1,0 +1,99 @@
+{
+  "createdAt": "2026-10-15T12:29:23.250Z",
+  "gender": 0,
+  "category": "hairColor",
+  "source": "final-fixed",
+  "cases": 4,
+  "crop": {
+    "x": 535,
+    "y": 375,
+    "width": 135,
+    "height": 180
+  },
+  "qaOnly": true,
+  "productionArtChanged": false,
+  "realBrowserCaptures": true,
+  "renderedMockups": false,
+  "scale": 1.5,
+  "sheets": [
+    "page-1.png"
+  ],
+  "records": [
+    {
+      "value": 6,
+      "name": "Белый",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-hairColor-06-down.jpg",
+      "sourceSha256": "510e013a5281ee8b69391fd1b6ad6c65700d04143dc1cfa3c7a53385a872d301",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-06-down-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Белый",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-hairColor-06-left.jpg",
+      "sourceSha256": "20d2c5290c1c948a15fec24937dd0cb8d193f073faafa7d6afc4533ef9dd6cbf",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-06-left-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Белый",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-hairColor-06-up.jpg",
+      "sourceSha256": "7b4c592c5f90112ff9ae2a5d2a6a02af955f198d77035f0b227255ed822e6140",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-06-up-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Белый",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-hairColor-06-right.jpg",
+      "sourceSha256": "20e962ef0ffd6de7cc1f06e29def8c9352b8745810ed522dfc471828c8663da9",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-hairColor-06-right-crop.png"
+    }
+  ]
+}

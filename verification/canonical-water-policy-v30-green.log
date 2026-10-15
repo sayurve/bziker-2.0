@@ -1,0 +1,12 @@
+✔ new water equipment uses the reviewed pose palm, separate supporting grip and authored angle (2.367708ms)
+✔ water body states select finite authored cast/hold/reel/row poses, preserve real coordinates and expose the same frame equipment metadata (15.655917ms)
+✔ a boat retains the one real seated row body for idle, travel, phone and water actions; shore phone freezes hold without a competing item (0.440875ms)
+✔ unreviewed or invalid water attachments retain actual legacy water rather than partly activating a new body (0.68925ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 675.995584

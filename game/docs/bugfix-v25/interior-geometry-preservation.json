@@ -1,0 +1,30 @@
+{
+  "rooms": 11,
+  "preserved_fields": [
+    "id",
+    "width",
+    "height",
+    "bounds",
+    "spawn",
+    "exit",
+    "door",
+    "solids",
+    "seats",
+    "props",
+    "action",
+    "staff",
+    "counter",
+    "circulation",
+    "interaction_radius"
+  ],
+  "before_sha256": "53cf2490c7042c21de7fdf999530a42f6579ffafec44f07ea9825fbf40d5dcc2",
+  "after_sha256": "53cf2490c7042c21de7fdf999530a42f6579ffafec44f07ea9825fbf40d5dcc2",
+  "unchanged": true,
+  "wall_body_height": 176,
+  "native_assets_unchanged": true,
+  "tests": {
+    "targeted": 44,
+    "failed": 0,
+    "log": "/tmp/bziker-v25-interior-related.log"
+  }
+}

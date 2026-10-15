@@ -1,0 +1,10 @@
+{
+  "name": "bziker-game",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bziker browser game; Node dependencies are used only by offline tests and renderers.",
+  "engines": { "node": ">=22" },
+  "scripts": { "test": "node scripts/test-node.mjs" },
+  "devDependencies": { "@napi-rs/canvas": "0.1.100" }
+}

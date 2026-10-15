@@ -1,0 +1,111 @@
+{
+  "hashes": {
+    "game/web/source-actors.js": "933d5b2a27c435703e4a2bf631d5c0356dda931042a2e2b9f9806fa896e09cac",
+    "game/web/actor-sprite.js": "add1cec1dcc067c3720aa465a1442b12a6ce0913eb8b2e44539903acc14f2670",
+    "game/web/interaction-actors-data.js": "3c60c0717a4bb5bf398502528b6091e0e13bda02f91c12c4e78649c6994f9fa3",
+    "game/web/canonical-actors-data.js": "9610fb8305ee69140fa0c0850f45fc287cbf75e0f1bc096f3d8152a7c0eb6177",
+    "game/web/locomotion-actors-data.js": "ca80688f968f0fa059d584e5eac3a6bd035bec515498e4d06bfbd6176a7e8b73"
+  },
+  "rows": [
+    {
+      "gender": 0,
+      "facing": "down",
+      "hand": [
+        21,
+        30
+      ],
+      "foregroundPalmPixels": 126,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "hand": [
+        33,
+        30
+      ],
+      "foregroundPalmPixels": 92,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "hand": [
+        17.5,
+        27.5
+      ],
+      "propLayer": "behind-body",
+      "handVisibility": "occluded-by-head",
+      "foregroundPalmPixels": 0,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "hand": [
+        11,
+        32.5
+      ],
+      "foregroundPalmPixels": 80,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "hand": [
+        21,
+        35
+      ],
+      "foregroundPalmPixels": 73,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "hand": [
+        32,
+        32.5
+      ],
+      "foregroundPalmPixels": 90,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "hand": [
+        18.5,
+        31
+      ],
+      "propLayer": "behind-body",
+      "handVisibility": "occluded-by-head",
+      "foregroundPalmPixels": 0,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "hand": [
+        11.5,
+        31.5
+      ],
+      "foregroundPalmPixels": 70,
+      "coveredByProp": 0,
+      "first": [],
+      "behindOverwrite": 0
+    }
+  ]
+}

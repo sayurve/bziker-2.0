@@ -1,0 +1,16 @@
+✔ canonical export rejects missing directions and per-frame fitting (1.478958ms)
+✔ exporting another model preserves the first model and its provenance (176.329209ms)
+✔ actual canonical masters export fixed canvases using one immutable model scale (80.181542ms)
+✔ late invalid anchor, missing master and invalid existing metadata preserve every installed artifact (479.812583ms)
+✔ an in-master ground landmark that clips opaque feet is rejected without changing installed output (98.039083ms)
+✔ clipping validation uses alpha128 threshold without fitting the source silhouette (448.995ms)
+✔ real male and female exports decode to fixed transparent canvases with authored grounded feet (168.297834ms)
+✔ filesystem install errors restore old artifacts and remove an incomplete new model (493.296166ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2119.597416

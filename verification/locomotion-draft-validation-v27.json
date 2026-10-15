@@ -1,0 +1,185 @@
+{
+  "status": "draft",
+  "runtimeManifestEmpty": true,
+  "uniformFineScale": 0.2125,
+  "exports": [
+    {
+      "file": "art/drafts/locomotion-v27/male-right-v2/phase-0-coarse.png",
+      "size": [
+        48,
+        64
+      ],
+      "transparent": 1940,
+      "opaque": 1026
+    },
+    {
+      "file": "art/drafts/locomotion-v27/male-right-v2/phase-0-fine.png",
+      "size": [
+        96,
+        128
+      ],
+      "transparent": 7785,
+      "opaque": 4098
+    },
+    {
+      "file": "art/drafts/locomotion-v27/male-right-v2/phase-1-coarse.png",
+      "size": [
+        48,
+        64
+      ],
+      "transparent": 2109,
+      "opaque": 891
+    },
+    {
+      "file": "art/drafts/locomotion-v27/male-right-v2/phase-1-fine.png",
+      "size": [
+        96,
+        128
+      ],
+      "transparent": 8459,
+      "opaque": 3519
+    },
+    {
+      "file": "art/drafts/locomotion-v27/male-right-v2/phase-2-coarse.png",
+      "size": [
+        48,
+        64
+      ],
+      "transparent": 1958,
+      "opaque": 1020
+    },
+    {
+      "file": "art/drafts/locomotion-v27/male-right-v2/phase-2-fine.png",
+      "size": [
+        96,
+        128
+      ],
+      "transparent": 7809,
+      "opaque": 4064
+    },
+    {
+      "file": "art/drafts/locomotion-v27/male-right-v2/phase-3-coarse.png",
+      "size": [
+        48,
+        64
+      ],
+      "transparent": 2114,
+      "opaque": 881
+    },
+    {
+      "file": "art/drafts/locomotion-v27/male-right-v2/phase-3-fine.png",
+      "size": [
+        96,
+        128
+      ],
+      "transparent": 8451,
+      "opaque": 3522
+    },
+    {
+      "file": "art/drafts/locomotion-v27/male-left-v2/phase-0-coarse.png",
+      "size": [
+        48,
+        64
+      ],
+      "transparent": 1854,
+      "opaque": 1125
+    },
+    {
+      "file": "art/drafts/locomotion-v27/male-left-v2/phase-0-fine.png",
+      "size": [
+        96,
+        128
+      ],
+      "transparent": 7451,
+      "opaque": 4483
+    },
+    {
+      "file": "art/drafts/locomotion-v27/male-left-v2/phase-1-coarse.png",
+      "size": [
+        48,
+        64
+      ],
+      "transparent": 2024,
+      "opaque": 977
+    },
+    {
+      "file": "art/drafts/locomotion-v27/male-left-v2/phase-1-fine.png",
+      "size": [
+        96,
+        128
+      ],
+      "transparent": 8140,
+      "opaque": 3847
+    },
+    {
+      "file": "art/drafts/locomotion-v27/male-left-v2/phase-2-coarse.png",
+      "size": [
+        48,
+        64
+      ],
+      "transparent": 1913,
+      "opaque": 1066
+    },
+    {
+      "file": "art/drafts/locomotion-v27/male-left-v2/phase-2-fine.png",
+      "size": [
+        96,
+        128
+      ],
+      "transparent": 7638,
+      "opaque": 4258
+    },
+    {
+      "file": "art/drafts/locomotion-v27/male-left-v2/phase-3-coarse.png",
+      "size": [
+        48,
+        64
+      ],
+      "transparent": 1968,
+      "opaque": 1002
+    },
+    {
+      "file": "art/drafts/locomotion-v27/male-left-v2/phase-3-fine.png",
+      "size": [
+        96,
+        128
+      ],
+      "transparent": 7905,
+      "opaque": 3979
+    }
+  ],
+  "materialMasks": [
+    {
+      "phase": 0,
+      "nearPixels": 10682,
+      "farPixels": 8196,
+      "overlap": 0,
+      "fineRGBChanged": 771,
+      "fineAlphaChanges": 0
+    },
+    {
+      "phase": 1,
+      "nearPixels": 10467,
+      "farPixels": 6056,
+      "overlap": 0,
+      "fineRGBChanged": 591,
+      "fineAlphaChanges": 0
+    },
+    {
+      "phase": 2,
+      "nearPixels": 8611,
+      "farPixels": 8891,
+      "overlap": 0,
+      "fineRGBChanged": 683,
+      "fineAlphaChanges": 0
+    },
+    {
+      "phase": 3,
+      "nearPixels": 4436,
+      "farPixels": 9944,
+      "overlap": 0,
+      "fineRGBChanged": 508,
+      "fineAlphaChanges": 0
+    }
+  ]
+}

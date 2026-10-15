@@ -1,0 +1,99 @@
+{
+  "createdAt": "2026-10-15T12:29:23.256Z",
+  "gender": 0,
+  "category": "pantsColor",
+  "source": "final-fixed",
+  "cases": 4,
+  "crop": {
+    "x": 535,
+    "y": 375,
+    "width": 135,
+    "height": 180
+  },
+  "qaOnly": true,
+  "productionArtChanged": false,
+  "realBrowserCaptures": true,
+  "renderedMockups": false,
+  "scale": 1.5,
+  "sheets": [
+    "page-1.png"
+  ],
+  "records": [
+    {
+      "value": 6,
+      "name": "Сиреневый",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-pantsColor-06-down.jpg",
+      "sourceSha256": "8b9c969aecc675a756f16319e8fbb1034d3ecaea1eb5119a8ea76a483e827860",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-06-down-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Сиреневый",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-pantsColor-06-left.jpg",
+      "sourceSha256": "527c71936da02048489ba6df5d3e9452fddeaa90c1bc798c7c819e78ce7f2399",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-06-left-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Сиреневый",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-pantsColor-06-up.jpg",
+      "sourceSha256": "3bba898c59892dbb73c9c0f9449275f3ae41c0303e99a5058cce4b7dd8f563d9",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-06-up-crop.png"
+    },
+    {
+      "value": 6,
+      "name": "Сиреневый",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-pantsColor-06-right.jpg",
+      "sourceSha256": "199a1682221951478b0b4f4e79dffe6ede736a5ef8ea18eb96682e4ef6e9291a",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-pantsColor-06-right-crop.png"
+    }
+  ]
+}

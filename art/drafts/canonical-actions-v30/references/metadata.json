@@ -1,0 +1,77 @@
+{
+  "status": "reference-only",
+  "refs": [
+    {
+      "gender": "male",
+      "direction": "down",
+      "path": "game/assets/canonical-idle-v2/male-down-fine.png",
+      "sourceSha256": "478a8d42240000771dbb1f9ab5a1d0f3dcee43f2ba91b3a13867a70021f7b5f3",
+      "output": "art/drafts/canonical-actions-v30/references/male-down-runtime-8x.png",
+      "removedLowAlphaPixels": 52,
+      "rule": "Source renderer quantization A>127→opaque; A<=127→transparent black; fixed8x nearest upscale only; game assets unchanged"
+    },
+    {
+      "gender": "male",
+      "direction": "right",
+      "path": "game/assets/canonical-idle-v2/male-right-fine.png",
+      "sourceSha256": "9eee484ea8fd0f10833772726be630c1d1af73ce9a1c892bc6947283094759c3",
+      "output": "art/drafts/canonical-actions-v30/references/male-right-runtime-8x.png",
+      "removedLowAlphaPixels": 48,
+      "rule": "Source renderer quantization A>127→opaque; A<=127→transparent black; fixed8x nearest upscale only; game assets unchanged"
+    },
+    {
+      "gender": "male",
+      "direction": "up",
+      "path": "game/assets/canonical-idle-v2/male-up-fine.png",
+      "sourceSha256": "5fbddf29e28bcd7f5f56af45ee091fab4edfd813f43defc59395f0c4d6f1b1ba",
+      "output": "art/drafts/canonical-actions-v30/references/male-up-runtime-8x.png",
+      "removedLowAlphaPixels": 70,
+      "rule": "Source renderer quantization A>127→opaque; A<=127→transparent black; fixed8x nearest upscale only; game assets unchanged"
+    },
+    {
+      "gender": "male",
+      "direction": "left",
+      "path": "game/assets/canonical-idle-v2/male-left-fine.png",
+      "sourceSha256": "55bc69a685ddb506eca21576b633d8e881f5a5eeae770c739ff100d43266f73a",
+      "output": "art/drafts/canonical-actions-v30/references/male-left-runtime-8x.png",
+      "removedLowAlphaPixels": 44,
+      "rule": "Source renderer quantization A>127→opaque; A<=127→transparent black; fixed8x nearest upscale only; game assets unchanged"
+    },
+    {
+      "gender": "female",
+      "direction": "down",
+      "path": "game/assets/canonical-idle-v2/female-down-fine.png",
+      "sourceSha256": "ce97ac5426d74daf57de01b7318a58b8c703a571307a321600e62f5cffda84c9",
+      "output": "art/drafts/canonical-actions-v30/references/female-down-runtime-8x.png",
+      "removedLowAlphaPixels": 132,
+      "rule": "Source renderer quantization A>127→opaque; A<=127→transparent black; fixed8x nearest upscale only; game assets unchanged"
+    },
+    {
+      "gender": "female",
+      "direction": "right",
+      "path": "game/assets/canonical-idle-v2/female-right-fine.png",
+      "sourceSha256": "65072cb617b67a35ad12bfebf51ada29d3aa0ff315ba3395ddd60177df2a678e",
+      "output": "art/drafts/canonical-actions-v30/references/female-right-runtime-8x.png",
+      "removedLowAlphaPixels": 115,
+      "rule": "Source renderer quantization A>127→opaque; A<=127→transparent black; fixed8x nearest upscale only; game assets unchanged"
+    },
+    {
+      "gender": "female",
+      "direction": "up",
+      "path": "game/assets/canonical-idle-v2/female-up-fine.png",
+      "sourceSha256": "0c070e07cc71a626ed41bc4207b5d5122989c434bbf1abc8f8259b2dcae1d99d",
+      "output": "art/drafts/canonical-actions-v30/references/female-up-runtime-8x.png",
+      "removedLowAlphaPixels": 142,
+      "rule": "Source renderer quantization A>127→opaque; A<=127→transparent black; fixed8x nearest upscale only; game assets unchanged"
+    },
+    {
+      "gender": "female",
+      "direction": "left",
+      "path": "game/assets/canonical-idle-v2/female-left-fine.png",
+      "sourceSha256": "889b4780df2c230419b85674c3ee76a2f869b73a7eb5e5d870d5703807143d21",
+      "output": "art/drafts/canonical-actions-v30/references/female-left-runtime-8x.png",
+      "removedLowAlphaPixels": 149,
+      "rule": "Source renderer quantization A>127→opaque; A<=127→transparent black; fixed8x nearest upscale only; game assets unchanged"
+    }
+  ]
+}

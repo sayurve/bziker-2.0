@@ -1,0 +1,257 @@
+{
+  "purpose": "QA screenshot assembly only; no new game art",
+  "files": [
+    {
+      "file": "isolated-up-00.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "527427ab9db1af36a5d48c0316914567f29dad41a0a849001958a9f592d8ce17"
+    },
+    {
+      "file": "isolated-up-01.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "ac351bd7f055f379feb50d30b5b598b0e8c95cc3c05506aaadcd8055105bde03"
+    },
+    {
+      "file": "isolated-up-02.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "7a433f1227b5ff3e0743945dbb01ef110a057c56bb032bc18fca0e039198fdaf"
+    },
+    {
+      "file": "isolated-up-03.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "fc55d679ff65d9f7deebf30da938a5657fb9933e8101b4ce4d978f9d9ff7441f"
+    },
+    {
+      "file": "isolated-up-04.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "6fea511fa6d883d2501c2415dfe6c7901d0d8d6490086e6b2529be47c4557579"
+    },
+    {
+      "file": "isolated-up-05.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "34afb31a5a6903e02045eef40f37a39f9fecc98f4f1400d1d27e1c739fc32562"
+    },
+    {
+      "file": "isolated-up-06.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "bfb74fb48530f4ccd6f29455cfcb8740a5e5d7e3dd4afcf22f60fa5aafa9dbab"
+    },
+    {
+      "file": "isolated-up-07.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "7ff87ee237a2496492a7c0fa5ae1a924c81502090dc7268ad1e326ccbf59c4c3"
+    },
+    {
+      "file": "isolated-up-08.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "911afc049aacd820cd63bb7a954bc687c64031cab640ef713d754c677a370f85"
+    },
+    {
+      "file": "isolated-up-09.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "30aeb23a6ad31ae4a1a685bb129472c97a2048f516ef65b8e0ab8082758119cb"
+    },
+    {
+      "file": "isolated-up-10.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "7b32f73b25e47014ac507ae3b9863eb2394ac803e2ff5309b95e6125366c0d05"
+    },
+    {
+      "file": "isolated-up-11.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "a67e57b82cf5316b07d81b968e20b9775a2e9f720d6ecb796e7c9bf7fb8ef8cb"
+    },
+    {
+      "file": "isolated-up-12.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "c7c48d927ee61649cf5d9ced5748db7c4848fe52ae2d42d3e1916c5c99abdbed"
+    },
+    {
+      "file": "isolated-up-13.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "016f0695e33ad3cd9444c7324196d9286971e0488c0b9e779533a1732b546a05"
+    },
+    {
+      "file": "isolated-up-14.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "f96dfa7f073645855c10b7d15db4337e58ad2187fe90d1376cbb6eb22ae0d397"
+    },
+    {
+      "file": "isolated-up-15.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "8787fea769e59c563d14f3e1bdb383e8de6314d30aa3519237b42efe441c3d54"
+    },
+    {
+      "file": "isolated-up-16.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "8f411b5df8855b9f361a00e3816b6086d0c3392364d06f35db6648dfaf3090df"
+    },
+    {
+      "file": "isolated-up-17.jpg",
+      "crop": [
+        575,
+        270,
+        705,
+        435
+      ],
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "sha256": "57c08159a6b94403e969bb826fb3caae5202289bf16562b20d3c05499085fc64"
+    }
+  ]
+}

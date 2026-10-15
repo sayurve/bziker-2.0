@@ -1,0 +1,22 @@
+✔ shared native sprite preserves logical grounding geometry and every stored customization value (45.20925ms)
+✔ eight gait samples display four complete approved native poses and hold each twice (2011.956041ms)
+✔ phone and sitting share the native renderer and retain the actual seated legs (387.664333ms)
+✔ authored left/right views remain distinct and malformed directions resolve to the approved down identity (39.552583ms)
+✔ fractional display scaling paints one whole native texture at integer destination edges (0.494167ms)
+✔ native gait shoulders, sleeves, head and torso remain one actual alpha component (226.473416ms)
+✔ world action progress selects approved finite keyposes while keeping feet on the common ground (727.24225ms)
+✔ open phone holds one seated pose during every action while anonymous imagery stays neutral (128.700584ms)
+✔ held litter follows the moving palm and never leaks into headgear or anonymous portraits (194.419208ms)
+✔ finite action pixels fit every saved costume and authored body/hand alpha stays attached (3645.773042ms)
+✔ locomotion displays every complete approved native body/head PNG without a runtime head transplant (978.073458ms)
+✔ ordinary locomotion is four held images, including exact sample wrap with no intermediate body (1.194125ms)
+✔ all approved gait PNGs keep one logical canvas, head dimensions and actual foot ground per clip (62.97975ms)
+✔ decoded standalone fine PNG padding is transparent and cannot sample a neighboring sprite (65.751792ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7780.478416

@@ -1,0 +1,10 @@
+{
+  "scope": "HAND/LOWER source provisional freeze; SEATED/WATER and wardrobe follow",
+  "sha256": {
+    "game/web/source-actors.js": "0015926d8e97e893a410c3a9a3cb1ce5a9584e8da3ce46962301e4f777c00d13",
+    "game/web/interaction-actors-data.js": "763c8dbb3f172dd658b091cdfc003f221eeb14bb9cfb8cc32a5dd47489e9d592",
+    "game/web/canonical-actors-data.js": "1a5b8a8dd84fd7714c36a88858dd9147c0cbd53c105356d220988883daa25233",
+    "game/web/locomotion-actors-data.js": "8b8985bba1a668c2d8fdcbbe4563d3b41726f658883bdb7557771968d24cfe48",
+    "game/web/actor-sprite.js": "3e3f06a1b01ac0ebe6c7a67568dfcb9ce1783a7cf753f5c141860c2ccabfb527"
+  }
+}

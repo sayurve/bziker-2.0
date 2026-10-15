@@ -1,0 +1,13 @@
+✔ rear glasses have no opaque lens or bridge stripe across the native back of the head (94.902958ms)
+✔ side glasses surround the authored eye line instead of being only a portrait-row stripe (175.922959ms)
+✔ beast costume ears attach to the actual crown in both genders and every direction (141.482667ms)
+✔ native coat does not introduce disconnected alpha islands around the moving body (524.319375ms)
+✔ a front chest badge is not drawn through hair on the back (18.368459ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1245.910958

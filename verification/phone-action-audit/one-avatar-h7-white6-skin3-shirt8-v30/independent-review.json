@@ -1,0 +1,114 @@
+{
+  "status": "reviewed-with-one-hair-contour-finding",
+  "reviewedAt": "2026-10-15T15:34:06.986198+00:00",
+  "avatar": {
+    "gender": 0,
+    "skin": 3,
+    "hairStyle": 7,
+    "hairColor": 6,
+    "shirtStyle": 2,
+    "shirtColor": 8,
+    "pantsStyle": 0,
+    "pantsColor": 1,
+    "accessory": 0,
+    "shoesColor": 0,
+    "headwear": 0,
+    "outfit": 0
+  },
+  "scope": "One selected avatar only,467 actual input cases,153 unique native RGBA rasters,6 actual world equipment cases",
+  "contacts": [
+    {
+      "path": "verification/phone-action-audit/one-avatar-h7-white6-skin3-shirt8-v30/native-1.png",
+      "sha256": "e7ec57d936c745dee2a70b4411fe8a04c14b6218c83156f785a72085fff99391",
+      "viewedEntireImage": true
+    },
+    {
+      "path": "verification/phone-action-audit/one-avatar-h7-white6-skin3-shirt8-v30/native-2.png",
+      "sha256": "a255a66cb2f2e45b6b9c5597dc22419ffc727426c40bc91b5e69f882cfabfb59",
+      "viewedEntireImage": true
+    },
+    {
+      "path": "verification/phone-action-audit/one-avatar-h7-white6-skin3-shirt8-v30/native-3.png",
+      "sha256": "33fb88bba22ed34943cf08fc3095d09d2b84218607f5fe9664b401a359e57348",
+      "viewedEntireImage": true
+    },
+    {
+      "path": "verification/phone-action-audit/one-avatar-h7-white6-skin3-shirt8-v30/native-4.png",
+      "sha256": "47b1ec2bc628d271c19906da8dfca757bfcac341b2783560e6782747944d18b1",
+      "viewedEntireImage": true
+    },
+    {
+      "path": "verification/phone-action-audit/one-avatar-h7-white6-skin3-shirt8-v30/native-5.png",
+      "sha256": "72fd53caae5285f1a9fee308d32027a4a3dfa57f3fb96e9a5923eb986a7db1e2",
+      "viewedEntireImage": true
+    },
+    {
+      "path": "verification/phone-action-audit/one-avatar-h7-white6-skin3-shirt8-v30/native-6.png",
+      "sha256": "4346d5b37372936688ecc10342f58e0f990a06fcb05ff85629689b088ef9d7ea",
+      "viewedEntireImage": true
+    },
+    {
+      "path": "verification/phone-action-audit/one-avatar-h7-white6-skin3-shirt8-v30/native-7.png",
+      "sha256": "5cefd52f3fae7447ad6cfe3522b0d74240f9c1148fbf607427524709936bd150",
+      "viewedEntireImage": true
+    },
+    {
+      "path": "verification/phone-action-audit/one-avatar-h7-white6-skin3-shirt8-v30/equipment.png",
+      "sha256": "85ecdab0398ff962feac29da2ec663974173d09bed01328a6ad37a9a1ddf2994",
+      "viewedEntireImage": true
+    }
+  ],
+  "observations": [
+    "All7 native sheets and equipment contact viewed entirely through view_image.",
+    "The same male face, white hairstyle and lime-gray jacket are visually retained across idle/run/HAND/LOWER/SEATED/WATER, with actual palms occluding the mouth in mouth poses.",
+    "No large head/torso detachment or visible new collar hole identified in these contacts. This is not a proof of absence of every transparent pixel.",
+    "Phone is static across4 poseFrame probes in9 contexts (standing/seated4directions andboat), frame0 seated andframe3 boat.",
+    "Rod grip, line, float and caught fish rendered using actual world draw and explicit water metadata; hull/furniture not rendered here."
+  ],
+  "findings": [
+    {
+      "id": "one-avatar-h7-left-detached-outline",
+      "status": "reported-to-hair-owner",
+      "description": "Hair7 LEFT leaves5 opaque dark contour pixels disconnected from the main figure in4 islands; hair0 comparison has one component.",
+      "finePoints": [
+        [
+          46,
+          15
+        ],
+        [
+          28,
+          18
+        ],
+        [
+          28,
+          19
+        ],
+        [
+          67,
+          41
+        ],
+        [
+          64,
+          49
+        ]
+      ],
+      "rgba": [
+        49,
+        48,
+        48,
+        255
+      ],
+      "evidence": [
+        "left-hair7-6x.png",
+        "left-hair-island-comparison.json"
+      ]
+    }
+  ],
+  "limits": [
+    "One selected avatar only. The seven server ACTION_TYPES plus world pet, running, litter holding, seated and standing/boat phone are covered.",
+    "RGBA-equivalent states share contact tiles; records retain every tested input.",
+    "Native raster uses actual avatar draw; equipment uses actual world draw. Furniture, boat hull, actual UI persistence and scene/world hip attachment are root browser QA.",
+    "Component areas and enclosed transparency alone do not prove art defects; source-backed neck repairs and actual contacts are reviewed separately."
+  ],
+  "productionWrites": false
+}

@@ -1,0 +1,23 @@
+Игра: http://127.0.0.1:8796/
+Стенд персонажа: http://127.0.0.1:8796/character-lab
+Бзикер: 127.0.0.1:8796
+Traceback (most recent call last):
+  File "/Users/sapp/Desktop/Игра/Bzikert 2.0/tools/run.py", line 23, in <module>
+    if __name__=='__main__':sys.exit(main())
+                                     ~~~~^^
+  File "/Users/sapp/Desktop/Игра/Bzikert 2.0/tools/run.py", line 22, in main
+    return subprocess.call([sys.executable,'server.py','--port',str(args.port),'--db',str(db)],cwd=ROOT/'game',env=env)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 398, in call
+    return p.wait(timeout=timeout)
+           ~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 1279, in wait
+    return self._wait(timeout=timeout)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 2084, in _wait
+    (pid, sts) = self._try_wait(0)
+                 ~~~~~~~~~~~~~~^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/subprocess.py", line 2042, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

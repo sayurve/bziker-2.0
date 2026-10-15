@@ -1,0 +1,182 @@
+[
+  {
+    "facing": "left",
+    "phase": -1,
+    "neck": [
+      20.5,
+      34
+    ],
+    "smallComponents": []
+  },
+  {
+    "facing": "left",
+    "phase": 0,
+    "neck": [
+      20.5,
+      34
+    ],
+    "smallComponents": []
+  },
+  {
+    "facing": "left",
+    "phase": 1,
+    "neck": [
+      20.5,
+      34
+    ],
+    "smallComponents": []
+  },
+  {
+    "facing": "left",
+    "phase": 2,
+    "neck": [
+      20.5,
+      34
+    ],
+    "smallComponents": []
+  },
+  {
+    "facing": "left",
+    "phase": 3,
+    "neck": [
+      20.5,
+      34
+    ],
+    "smallComponents": []
+  },
+  {
+    "facing": "right",
+    "phase": -1,
+    "neck": [
+      25.5,
+      33.5
+    ],
+    "smallComponents": []
+  },
+  {
+    "facing": "right",
+    "phase": 0,
+    "neck": [
+      25.5,
+      33.5
+    ],
+    "smallComponents": []
+  },
+  {
+    "facing": "right",
+    "phase": 1,
+    "neck": [
+      25.5,
+      33.5
+    ],
+    "smallComponents": []
+  },
+  {
+    "facing": "right",
+    "phase": 2,
+    "neck": [
+      25.5,
+      33.5
+    ],
+    "smallComponents": []
+  },
+  {
+    "facing": "right",
+    "phase": 3,
+    "neck": [
+      25.5,
+      33.5
+    ],
+    "smallComponents": []
+  },
+  {
+    "facing": "down",
+    "phase": -1,
+    "neck": [
+      24,
+      34.5
+    ],
+    "smallComponents": []
+  },
+  {
+    "facing": "down",
+    "phase": 0,
+    "neck": [
+      24,
+      34.5
+    ],
+    "smallComponents": []
+  },
+  {
+    "facing": "down",
+    "phase": 1,
+    "neck": [
+      24,
+      34.5
+    ],
+    "smallComponents": []
+  },
+  {
+    "facing": "down",
+    "phase": 2,
+    "neck": [
+      24,
+      34.5
+    ],
+    "smallComponents": []
+  },
+  {
+    "facing": "down",
+    "phase": 3,
+    "neck": [
+      24,
+      34.5
+    ],
+    "smallComponents": []
+  },
+  {
+    "facing": "up",
+    "phase": -1,
+    "neck": [
+      24,
+      32.5
+    ],
+    "smallComponents": []
+  },
+  {
+    "facing": "up",
+    "phase": 0,
+    "neck": [
+      24,
+      32.5
+    ],
+    "smallComponents": []
+  },
+  {
+    "facing": "up",
+    "phase": 1,
+    "neck": [
+      24,
+      32.5
+    ],
+    "smallComponents": []
+  },
+  {
+    "facing": "up",
+    "phase": 2,
+    "neck": [
+      24,
+      32.5
+    ],
+    "smallComponents": []
+  },
+  {
+    "facing": "up",
+    "phase": 3,
+    "neck": [
+      24,
+      32.5
+    ],
+    "smallComponents": []
+  }
+]

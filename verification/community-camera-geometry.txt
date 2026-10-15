@@ -1,0 +1,122 @@
+[
+  {
+    "room": "clans",
+    "canvas": [
+      1204,
+      650
+    ],
+    "scale": 1,
+    "roofCroppedWorldUnits": 122,
+    "fixtureCroppedWorldUnits": 81.56
+  },
+  {
+    "room": "clans",
+    "canvas": [
+      1204,
+      800
+    ],
+    "scale": 2,
+    "roofCroppedWorldUnits": 315,
+    "fixtureCroppedWorldUnits": 274.56
+  },
+  {
+    "room": "clans",
+    "canvas": [
+      390,
+      600
+    ],
+    "scale": 1,
+    "roofCroppedWorldUnits": 172,
+    "fixtureCroppedWorldUnits": 131.56
+  },
+  {
+    "room": "arena",
+    "canvas": [
+      1204,
+      650
+    ],
+    "scale": 1,
+    "roofCroppedWorldUnits": 22,
+    "fixtureCroppedWorldUnits": 18
+  },
+  {
+    "room": "arena",
+    "canvas": [
+      1204,
+      800
+    ],
+    "scale": 2,
+    "roofCroppedWorldUnits": 215,
+    "fixtureCroppedWorldUnits": 211
+  },
+  {
+    "room": "arena",
+    "canvas": [
+      390,
+      600
+    ],
+    "scale": 1,
+    "roofCroppedWorldUnits": 72,
+    "fixtureCroppedWorldUnits": 68
+  },
+  {
+    "room": "results",
+    "canvas": [
+      1204,
+      650
+    ],
+    "scale": 1,
+    "roofCroppedWorldUnits": 0,
+    "fixtureCroppedWorldUnits": 0
+  },
+  {
+    "room": "results",
+    "canvas": [
+      1204,
+      800
+    ],
+    "scale": 2,
+    "roofCroppedWorldUnits": 155,
+    "fixtureCroppedWorldUnits": 151
+  },
+  {
+    "room": "results",
+    "canvas": [
+      390,
+      600
+    ],
+    "scale": 1,
+    "roofCroppedWorldUnits": 12,
+    "fixtureCroppedWorldUnits": 8
+  },
+  {
+    "room": "terrace",
+    "canvas": [
+      1204,
+      650
+    ],
+    "scale": 1,
+    "roofCroppedWorldUnits": 122,
+    "fixtureCroppedWorldUnits": 81.56
+  },
+  {
+    "room": "terrace",
+    "canvas": [
+      1204,
+      800
+    ],
+    "scale": 2,
+    "roofCroppedWorldUnits": 315,
+    "fixtureCroppedWorldUnits": 274.56
+  },
+  {
+    "room": "terrace",
+    "canvas": [
+      390,
+      600
+    ],
+    "scale": 1,
+    "roofCroppedWorldUnits": 172,
+    "fixtureCroppedWorldUnits": 131.56
+  }
+]

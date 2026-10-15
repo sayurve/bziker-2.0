@@ -1,0 +1,322 @@
+[
+  {
+    "i": 0,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-00.jpg",
+    "at": 1792084767376,
+    "diag": {
+      "worldFps": "119.9",
+      "worldFrameMs": "8.34",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "0.91",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5586.22",
+      "worldY": "3472.00"
+    }
+  },
+  {
+    "i": 1,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-01.jpg",
+    "at": 1792084767451,
+    "diag": {
+      "worldFps": "119.9",
+      "worldFrameMs": "8.34",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "0.91",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5599.28",
+      "worldY": "3472.00"
+    }
+  },
+  {
+    "i": 2,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-02.jpg",
+    "at": 1792084767544,
+    "diag": {
+      "worldFps": "116.0",
+      "worldFrameMs": "8.62",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.34",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5616.32",
+      "worldY": "3472.00"
+    }
+  },
+  {
+    "i": 3,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-03.jpg",
+    "at": 1792084767670,
+    "diag": {
+      "worldFps": "116.0",
+      "worldFrameMs": "8.62",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.34",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5633.54",
+      "worldY": "3472.00"
+    }
+  },
+  {
+    "i": 4,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-04.jpg",
+    "at": 1792084767758,
+    "diag": {
+      "worldFps": "116.0",
+      "worldFrameMs": "8.62",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.34",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5652.19",
+      "worldY": "3472.00"
+    }
+  },
+  {
+    "i": 5,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-05.jpg",
+    "at": 1792084767887,
+    "diag": {
+      "worldFps": "116.0",
+      "worldFrameMs": "8.62",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.34",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5675.10",
+      "worldY": "3472.00"
+    }
+  },
+  {
+    "i": 6,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-06.jpg",
+    "at": 1792084767959,
+    "diag": {
+      "worldFps": "116.0",
+      "worldFrameMs": "8.62",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.34",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5686.66",
+      "worldY": "3472.00"
+    }
+  },
+  {
+    "i": 7,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-07.jpg",
+    "at": 1792084768109,
+    "diag": {
+      "worldFps": "116.0",
+      "worldFrameMs": "8.62",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.34",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5712.40",
+      "worldY": "3472.00"
+    }
+  },
+  {
+    "i": 8,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-08.jpg",
+    "at": 1792084768210,
+    "diag": {
+      "worldFps": "116.0",
+      "worldFrameMs": "8.62",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.34",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5729.67",
+      "worldY": "3472.00"
+    }
+  },
+  {
+    "i": 9,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-09.jpg",
+    "at": 1792084768304,
+    "diag": {
+      "worldFps": "116.0",
+      "worldFrameMs": "8.62",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.34",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5744.03",
+      "worldY": "3472.00"
+    }
+  },
+  {
+    "i": 10,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-10.jpg",
+    "at": 1792084768391,
+    "diag": {
+      "worldFps": "116.0",
+      "worldFrameMs": "8.62",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.34",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5744.03",
+      "worldY": "3472.00"
+    }
+  },
+  {
+    "i": 11,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-11.jpg",
+    "at": 1792084768474,
+    "diag": {
+      "worldFps": "116.0",
+      "worldFrameMs": "8.62",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.34",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5744.03",
+      "worldY": "3472.00"
+    }
+  },
+  {
+    "i": 12,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-12.jpg",
+    "at": 1792084768560,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.46",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5744.03",
+      "worldY": "3472.00"
+    }
+  },
+  {
+    "i": 13,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-13.jpg",
+    "at": 1792084768644,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.46",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5744.03",
+      "worldY": "3472.00"
+    }
+  },
+  {
+    "i": 14,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-14.jpg",
+    "at": 1792084768746,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.46",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5744.03",
+      "worldY": "3472.00"
+    }
+  },
+  {
+    "i": 15,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-15.jpg",
+    "at": 1792084768884,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.46",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5744.03",
+      "worldY": "3472.00"
+    }
+  },
+  {
+    "i": 16,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-16.jpg",
+    "at": 1792084769000,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.46",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5744.03",
+      "worldY": "3472.00"
+    }
+  },
+  {
+    "i": 17,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-17.jpg",
+    "at": 1792084769120,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.46",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5744.03",
+      "worldY": "3472.00"
+    }
+  },
+  {
+    "i": 18,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-18.jpg",
+    "at": 1792084769194,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.46",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5744.03",
+      "worldY": "3472.00"
+    }
+  },
+  {
+    "i": 19,
+    "path": "/Users/sapp/Desktop/Игра/Bzikert 2.0/verification/static-hair-v32/after-right-19.jpg",
+    "at": 1792084769256,
+    "diag": {
+      "worldFps": "117.0",
+      "worldFrameMs": "8.55",
+      "worldPhone": "false",
+      "worldPose": "idle",
+      "worldRenderMs": "1.46",
+      "worldScene": "city",
+      "worldVisibleActorNodes": "2",
+      "worldX": "5744.03",
+      "worldY": "3472.00"
+    }
+  }
+]

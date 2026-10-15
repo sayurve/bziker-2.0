@@ -1,0 +1,182 @@
+{
+  "status": "draft",
+  "approved": false,
+  "integration": "not integrated",
+  "generation": "Each frame was produced with one separate built-in image_gen call; bytes copied unchanged to these PNGs.",
+  "visual_inspection": "All four frames viewed separately. Contact frames have opposing near-arm swing. Passing frames have distinct foreground/rear leg overlap. Head and hairstyle broadly consistent, but independent generative output does not preserve every head pixel exactly. Requires playback review before integration.",
+  "frames": [
+    {
+      "file": "frame-01.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "opaque_bounds": [
+        210,
+        276,
+        1214,
+        1127
+      ],
+      "sha256": "9634983a1b188ab2fbda2a233a5d6f17c25c56ac02e2faa273ff341758be148c",
+      "head_region_comparison_to_frame01": {
+        "region": [
+          440,
+          260,
+          950,
+          650
+        ],
+        "pixels": 198900,
+        "different_rgba_pixels": 0,
+        "different_alpha_pixels": 0
+      },
+      "visible_bounds_alpha_ge_128": [
+        346,
+        280,
+        938,
+        1124
+      ],
+      "alpha_counts": {
+        "zero": 1288366,
+        "one_to_127": 11380,
+        "128_to_254": 271023,
+        "255": 1747
+      }
+    },
+    {
+      "file": "frame-02.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "opaque_bounds": [
+        33,
+        37,
+        1226,
+        1174
+      ],
+      "sha256": "fdbf6ecca90b9538ebc194f4abbdc40182f40f8341676195afd657895a80cd53",
+      "head_region_comparison_to_frame01": {
+        "region": [
+          440,
+          260,
+          950,
+          650
+        ],
+        "pixels": 198900,
+        "different_rgba_pixels": 134367,
+        "different_alpha_pixels": 49578
+      },
+      "visible_bounds_alpha_ge_128": [
+        456,
+        278,
+        930,
+        1127
+      ],
+      "alpha_counts": {
+        "zero": 1317314,
+        "one_to_127": 8898,
+        "128_to_254": 244209,
+        "255": 2095
+      }
+    },
+    {
+      "file": "frame-03.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "opaque_bounds": [
+        0,
+        114,
+        1240,
+        1254
+      ],
+      "sha256": "fdae6b59ac925c4bf98054fe3dc0f3a4b8e9706f61be20a84ae1e448aa7286dc",
+      "head_region_comparison_to_frame01": {
+        "region": [
+          440,
+          260,
+          950,
+          650
+        ],
+        "pixels": 198900,
+        "different_rgba_pixels": 134140,
+        "different_alpha_pixels": 37566
+      },
+      "visible_bounds_alpha_ge_128": [
+        340,
+        280,
+        942,
+        1130
+      ],
+      "alpha_counts": {
+        "zero": 1294624,
+        "one_to_127": 11261,
+        "128_to_254": 264989,
+        "255": 1642
+      }
+    },
+    {
+      "file": "frame-04.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "opaque_bounds": [
+        0,
+        49,
+        1210,
+        1211
+      ],
+      "sha256": "efe3afb01eefb7d519a8cf6611e1d4ab8ef2eb0c5b59dafae4d2a5e5bcc764b2",
+      "head_region_comparison_to_frame01": {
+        "region": [
+          440,
+          260,
+          950,
+          650
+        ],
+        "pixels": 198900,
+        "different_rgba_pixels": 134782,
+        "different_alpha_pixels": 39157
+      },
+      "visible_bounds_alpha_ge_128": [
+        457,
+        279,
+        930,
+        1136
+      ],
+      "alpha_counts": {
+        "zero": 1321996,
+        "one_to_127": 9593,
+        "128_to_254": 239770,
+        "255": 1157
+      }
+    }
+  ],
+  "known_issues": [
+    "Head and torso pixels differ between independent generations. Strict identity/anchor invariants are not yet satisfied.",
+    "Visible feet baselines differ by up to 12 pixels on a 1254px canvas.",
+    "Low-alpha residue is present outside the visible silhouette; PNG alpha is preserved unchanged."
+  ]
+}

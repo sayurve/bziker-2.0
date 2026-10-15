@@ -1,0 +1,8 @@
+{
+  "doNotInstall": [
+    "rootfolder/female-hand-left-*",
+    "candidates-v2/*",
+    "candidates-v3/*"
+  ],
+  "reason": "Aborted strict-literal-alpha0 validation probes. Only candidates-v4/approved-repair-manifest.json is approved."
+}

@@ -1,0 +1,264 @@
+{
+  "status": "viewed-limited-one-avatar",
+  "recordedAt": "2026-10-15T16:28:27.917203+00:00",
+  "files": [
+    {
+      "path": "verification/avatar-one-v31/retake-contact-pick.png",
+      "sha256": "9392d7a633c7d92a242764fe9afcba154cc72e57f75a494a1c138a1219491c6b",
+      "viewedEntirely": true,
+      "originalFiles": [
+        {
+          "path": "verification/avatar-one-v31/retake-pick-00.jpg",
+          "sha256": "f40c84fca7af7dd3f71651baa2ee22a87dad22eb575be8ef4db9c67e6f61ae87"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-01.jpg",
+          "sha256": "b95fbb62917ae1374e6f8668ddbf526d36fe17c79e2abad543764315be186d7d"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-02.jpg",
+          "sha256": "4c23d47a9909b5e340caf0ccd19ffb3b0be85211dcb24a9627d4036eb391aa6a"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-03.jpg",
+          "sha256": "9ae942b69af6f8f72ceb29bdcaa4348e1dd34b1b8e813f665960101ccab44581"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-04.jpg",
+          "sha256": "0a4658d7f2be15a07d56b9a79c21e3f308deff1fc865a09179badf4f2df51d3c"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-05.jpg",
+          "sha256": "93218c4eb7a2e0e6f29238d147805c77b7a1625e3c3b35703f99a1d0e8937b6c"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-06.jpg",
+          "sha256": "666f5fe23ae66eb0231b1b5faf51d9e9da94f9ac3e55150e1b421439f2995857"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-07.jpg",
+          "sha256": "2c0d2a65b237ffb5a1392527d623a4cb8dfa3cc8464fee7bc7fab064155ff3ca"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-08.jpg",
+          "sha256": "2c0d2a65b237ffb5a1392527d623a4cb8dfa3cc8464fee7bc7fab064155ff3ca"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-09.jpg",
+          "sha256": "2c0d2a65b237ffb5a1392527d623a4cb8dfa3cc8464fee7bc7fab064155ff3ca"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-10.jpg",
+          "sha256": "3bc6114e37114dfa710ad282b191d0cc7f9e59e6fd69d8b47db60c867be06c93"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-11.jpg",
+          "sha256": "3bc6114e37114dfa710ad282b191d0cc7f9e59e6fd69d8b47db60c867be06c93"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-12.jpg",
+          "sha256": "3bc6114e37114dfa710ad282b191d0cc7f9e59e6fd69d8b47db60c867be06c93"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-13.jpg",
+          "sha256": "3bc6114e37114dfa710ad282b191d0cc7f9e59e6fd69d8b47db60c867be06c93"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-14.jpg",
+          "sha256": "3bc6114e37114dfa710ad282b191d0cc7f9e59e6fd69d8b47db60c867be06c93"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-15.jpg",
+          "sha256": "3bc6114e37114dfa710ad282b191d0cc7f9e59e6fd69d8b47db60c867be06c93"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-16.jpg",
+          "sha256": "56e768ecbac5fbce3982db43a1accc676fa711076c54c481880a38e5598106c3"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-17.jpg",
+          "sha256": "7b866d3650c99765cf636b57d629b7292c9da190063c4fd851fa1cef04acfbb6"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-18.jpg",
+          "sha256": "e0ad72ae0c4b3f224245841059f03a41b730572527eedd6b823a45c18721e26f"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-19.jpg",
+          "sha256": "fc4e35a8f7f25a615959df2d26bc50bca3843f8f09c57e1ea0afe41590e26c0f"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-20.jpg",
+          "sha256": "a1f670049a36ae20b767970702e9ff1cdcdcf61108299f95096b4d9aa8d23764"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-21.jpg",
+          "sha256": "0e7b994723da7e0e88e3d68912bbbfee0c7a62378976a916d739b12ec51f106e"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-22.jpg",
+          "sha256": "702fda69449304a4423622fe348ef634aaba6aafc9b46fa781430504d2aa5bd5"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pick-23.jpg",
+          "sha256": "71dd22f534baab2289d9aa82f4e94d81de6a30ef24dcd177d77dbd88f311b629"
+        }
+      ]
+    },
+    {
+      "path": "verification/avatar-one-v31/retake-contact-throw.png",
+      "sha256": "6db7b4fe0eca951231a4485a12117cecc23496aa5caa981e556a4db590eca368",
+      "viewedEntirely": true,
+      "originalFiles": [
+        {
+          "path": "verification/avatar-one-v31/retake-throw-00.jpg",
+          "sha256": "da2219769ea690473cceb7c1bfd776a06d2e4414a5729f378c54491d4ce76e9c"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-throw-01.jpg",
+          "sha256": "da2219769ea690473cceb7c1bfd776a06d2e4414a5729f378c54491d4ce76e9c"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-throw-02.jpg",
+          "sha256": "f470e19d71a56a84fe4b326f8c9e4f8317206740a0fe68dab00c0d1bcc1cb3b8"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-throw-03.jpg",
+          "sha256": "0a571c92dd8367735faf6f85ca7fb81b2d9ced69776fcebc3d2868decfd7e2e2"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-throw-04.jpg",
+          "sha256": "491354479c7b8bcb6f5e1cbf9efd3d8f76d3a535570347a6b1675acc83212168"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-throw-05.jpg",
+          "sha256": "0c519bc2446c445cba94ad3c4105810be0a6658b2585a2353cfa3a46140298f4"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-throw-06.jpg",
+          "sha256": "0c519bc2446c445cba94ad3c4105810be0a6658b2585a2353cfa3a46140298f4"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-throw-07.jpg",
+          "sha256": "6d2f3e8e18e3e571fc0a42f2c1ce5ceb8410d706c5e18390a9eb41108ac63b06"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-throw-08.jpg",
+          "sha256": "6d2f3e8e18e3e571fc0a42f2c1ce5ceb8410d706c5e18390a9eb41108ac63b06"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-throw-09.jpg",
+          "sha256": "8968551481caf9efade54e5f6515c42ae0a94d04eeb9015fc25310911ed28931"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-throw-10.jpg",
+          "sha256": "8968551481caf9efade54e5f6515c42ae0a94d04eeb9015fc25310911ed28931"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-throw-11.jpg",
+          "sha256": "8968551481caf9efade54e5f6515c42ae0a94d04eeb9015fc25310911ed28931"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-throw-12.jpg",
+          "sha256": "8968551481caf9efade54e5f6515c42ae0a94d04eeb9015fc25310911ed28931"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-throw-13.jpg",
+          "sha256": "8968551481caf9efade54e5f6515c42ae0a94d04eeb9015fc25310911ed28931"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-throw-14.jpg",
+          "sha256": "ccb70a6bb2b1e2685bab403db4673978e1464745043438e22fddd50fde9a555c"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-throw-15.jpg",
+          "sha256": "1c25f133b757d014890eaedd4cff043581edf473365a294fad5ed10df4fa3b53"
+        }
+      ]
+    },
+    {
+      "path": "verification/avatar-one-v31/retake-contact-pet.png",
+      "sha256": "507dd91d0451d65c61a5ea7819b7463f0c4229100cea567d316d1d3e6e40e722",
+      "viewedEntirely": true,
+      "originalFiles": [
+        {
+          "path": "verification/avatar-one-v31/retake-pet-00.jpg",
+          "sha256": "1adf41f84873bb18e2676b7bdefa0264f8dc769169a9d4a099ffd044792b73b4"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pet-01.jpg",
+          "sha256": "0ee5b3e62b3f05d3053c4aba315360cf0cf33826682a52cfcb1cf1d4e2737944"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pet-02.jpg",
+          "sha256": "ebc239150d2375dc921df61f52525c0f15605cbf98bbcbcd114d66a475f5efb5"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pet-03.jpg",
+          "sha256": "3e9bc3b39d235371bcc82d162d315c87529f3cc37bc71855ea81710b97c37250"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pet-04.jpg",
+          "sha256": "2a3d9457b31040c969e4d37adf3d3b1270ab68f227576b0dc2efff6cc837feed"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pet-05.jpg",
+          "sha256": "47359546a85a92a42872a380bc70de59bec177cf363fe4daee5e1799169cccad"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pet-06.jpg",
+          "sha256": "aaf909457d121f28b0b72e6ac8ce29bd3a2282dc063ec65516eda76839f38fbe"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pet-07.jpg",
+          "sha256": "99ccd3d5bdeee72c5c8d2b4c54504a5176fd97090a2adf89d745582b21743e99"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pet-08.jpg",
+          "sha256": "8d13b9dce465d743613ad9f0f91dfe737026b18c28420021c2823993617a149e"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pet-09.jpg",
+          "sha256": "8d13b9dce465d743613ad9f0f91dfe737026b18c28420021c2823993617a149e"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pet-10.jpg",
+          "sha256": "8d13b9dce465d743613ad9f0f91dfe737026b18c28420021c2823993617a149e"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pet-11.jpg",
+          "sha256": "317b4daddf6821ebe107a0f2815819697c6cb6cdc80f8b6fe5c51655d7fc26d9"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pet-12.jpg",
+          "sha256": "317b4daddf6821ebe107a0f2815819697c6cb6cdc80f8b6fe5c51655d7fc26d9"
+        },
+        {
+          "path": "verification/avatar-one-v31/retake-pet-13.jpg",
+          "sha256": "317b4daddf6821ebe107a0f2815819697c6cb6cdc80f8b6fe5c51655d7fc26d9"
+        }
+      ]
+    },
+    {
+      "path": "verification/avatar-one-v31/retake-pet-02.jpg",
+      "sha256": "ebc239150d2375dc921df61f52525c0f15605cbf98bbcbcd114d66a475f5efb5",
+      "viewedEntirely": true
+    },
+    {
+      "path": "verification/avatar-one-v31/retake-picked-inventory.jpg",
+      "sha256": "c0b95991d77326a0aa1d21f2dab26ee92d3fcbee82b6d00531caa4b6465f1ef2",
+      "viewedEntirely": true
+    },
+    {
+      "path": "verification/avatar-one-v31/retake-duplicate-pick.jpg",
+      "sha256": "b0d1706fc1bf058a01fcdeacb6d2e047721f77c4296348650b9014f2626c9227",
+      "viewedEntirely": true
+    }
+  ],
+  "limits": [
+    "throw pre-boundsfix, not final bounded UI",
+    "No runtime writes or new appearance presets"
+  ],
+  "petFindingResolution": "Current retake B/C shows actual palm/head contact; previous jumping-above-palm sample retained as historical.",
+  "pickupLimit": "Bend/squat/rise and inventory1 observed, direct palm contact with the litter to actor left is not proven by up-facing pose reaching right."
+}

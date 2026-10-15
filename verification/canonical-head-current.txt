@@ -1,0 +1,12 @@
+✔ loaded head and headwear previews use the native source atlas rather than the retired reference renderer (18.624458ms)
+✔ native headwear hides the entire face while retaining the headwear, custom hair colour and hairstyle (24.132ms)
+✔ native head-only canvas and SVG share exactly the same cropped pixels and jury remains anonymous (5.210708ms)
+✔ canonical portraits preserve complete native eyes and lower face while face-free previews remove those eyes (6.624167ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 310.255042

@@ -1,0 +1,1030 @@
+{
+  "map_sha256": "ff35fc0bdeda3f73a30ca5489eb55630c2fbbe356a5880a5cd9582b57508a177",
+  "collision_map_sha256": "ff35fc0bdeda3f73a30ca5489eb55630c2fbbe356a5880a5cd9582b57508a177",
+  "collision_file_sha256": "a4e13981a68a4a2bb05e74ec13cbf953d0ce2e27f0ad6e6285d156349bbd9932",
+  "map_schema": 20,
+  "static_nodes": 580,
+  "points": 125,
+  "actual_actor_renders": 5000,
+  "method": "Actual supplied male/female opaque body alpha; four directions, idle and four walk frames; cumulative independent native foreground alpha, no full-scene background",
+  "minimum_visible_fraction": 0.9999941381634866,
+  "below_98_percent": [],
+  "results": [
+    {
+      "id": "spawn",
+      "x": 5045,
+      "y": 1595,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "landmark-station",
+      "x": 5045,
+      "y": 1595,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "landmark-welcome",
+      "x": 4835,
+      "y": 1615,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "landmark-plaza",
+      "x": 3590,
+      "y": 2170,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "landmark-district",
+      "x": 1255,
+      "y": 1555,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "landmark-park",
+      "x": 3436,
+      "y": 2035,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": [
+        "bin-park"
+      ]
+    },
+    {
+      "id": "landmark-dock",
+      "x": 5450,
+      "y": 1720,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "landmark-archive",
+      "x": 3905,
+      "y": 2710,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "landmark-smoking",
+      "x": 4220,
+      "y": 2450,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "landmark-fountain",
+      "x": 3565,
+      "y": 1940,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "landmark-gazebo",
+      "x": 3590,
+      "y": 1250,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "travel-station",
+      "x": 5045,
+      "y": 1595,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "travel-plaza",
+      "x": 3590,
+      "y": 2170,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "travel-district",
+      "x": 1255,
+      "y": 1555,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "travel-clans",
+      "x": 936,
+      "y": 898,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "travel-arena",
+      "x": 5450,
+      "y": 4843,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "travel-profile",
+      "x": 3526,
+      "y": 2913,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "travel-results",
+      "x": 2318,
+      "y": 1858,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "travel-messages",
+      "x": 4306,
+      "y": 4673,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "travel-terrace",
+      "x": 7250,
+      "y": 2053,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": [
+        "apartment-27"
+      ]
+    },
+    {
+      "id": "travel-shop-food",
+      "x": 4175,
+      "y": 3453,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "travel-shop-clothes",
+      "x": 2368,
+      "y": 4233,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "travel-shop-furniture",
+      "x": 3233,
+      "y": 4378,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "travel-casino",
+      "x": 2773,
+      "y": 3193,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "travel-smoking",
+      "x": 4220,
+      "y": 2450,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "travel-park",
+      "x": 3436,
+      "y": 2035,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": [
+        "bin-park"
+      ]
+    },
+    {
+      "id": "travel-dock",
+      "x": 5450,
+      "y": 1720,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-railway+0",
+      "x": 5060,
+      "y": 1524,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-railway+24",
+      "x": 5060,
+      "y": 1548,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-railway+25",
+      "x": 5060,
+      "y": 1549,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-railway+28",
+      "x": 5060,
+      "y": 1552,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-clans+0",
+      "x": 936,
+      "y": 874,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-clans+24",
+      "x": 936,
+      "y": 898,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-clans+25",
+      "x": 936,
+      "y": 899,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-clans+28",
+      "x": 936,
+      "y": 902,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-arena+0",
+      "x": 5450,
+      "y": 4819,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-arena+24",
+      "x": 5450,
+      "y": 4843,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-arena+25",
+      "x": 5450,
+      "y": 4844,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-arena+28",
+      "x": 5450,
+      "y": 4847,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-profile+0",
+      "x": 3526,
+      "y": 2889,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-profile+24",
+      "x": 3526,
+      "y": 2913,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-profile+25",
+      "x": 3526,
+      "y": 2914,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-profile+28",
+      "x": 3526,
+      "y": 2917,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-results+0",
+      "x": 2318,
+      "y": 1834,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-results+24",
+      "x": 2318,
+      "y": 1858,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-results+25",
+      "x": 2318,
+      "y": 1859,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-results+28",
+      "x": 2318,
+      "y": 1862,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-messages+0",
+      "x": 4306,
+      "y": 4649,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-messages+24",
+      "x": 4306,
+      "y": 4673,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-messages+25",
+      "x": 4306,
+      "y": 4674,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-messages+28",
+      "x": 4306,
+      "y": 4677,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-terrace+0",
+      "x": 7250,
+      "y": 2029,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-terrace+24",
+      "x": 7250,
+      "y": 2053,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": [
+        "apartment-27"
+      ]
+    },
+    {
+      "id": "door-terrace+25",
+      "x": 7250,
+      "y": 2054,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": [
+        "apartment-27"
+      ]
+    },
+    {
+      "id": "door-terrace+28",
+      "x": 7250,
+      "y": 2057,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": [
+        "apartment-27"
+      ]
+    },
+    {
+      "id": "door-shop-food+0",
+      "x": 4175,
+      "y": 3429,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-shop-food+24",
+      "x": 4175,
+      "y": 3453,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-shop-food+25",
+      "x": 4175,
+      "y": 3454,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-shop-food+28",
+      "x": 4175,
+      "y": 3457,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-shop-clothes+0",
+      "x": 2368,
+      "y": 4209,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-shop-clothes+24",
+      "x": 2368,
+      "y": 4233,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-shop-clothes+25",
+      "x": 2368,
+      "y": 4234,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-shop-clothes+28",
+      "x": 2368,
+      "y": 4237,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-shop-furniture+0",
+      "x": 3233,
+      "y": 4354,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-shop-furniture+24",
+      "x": 3233,
+      "y": 4378,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-shop-furniture+25",
+      "x": 3233,
+      "y": 4379,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-shop-furniture+28",
+      "x": 3233,
+      "y": 4382,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-casino+0",
+      "x": 2773,
+      "y": 3169,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-casino+24",
+      "x": 2773,
+      "y": 3193,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-casino+25",
+      "x": 2773,
+      "y": 3194,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-casino+28",
+      "x": 2773,
+      "y": 3197,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-1+0",
+      "x": 1804,
+      "y": 1054,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-1+24",
+      "x": 1804,
+      "y": 1078,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-1+25",
+      "x": 1804,
+      "y": 1079,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-1+28",
+      "x": 1804,
+      "y": 1082,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-2+0",
+      "x": 877,
+      "y": 1614,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-2+24",
+      "x": 877,
+      "y": 1638,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-2+25",
+      "x": 877,
+      "y": 1639,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-2+28",
+      "x": 877,
+      "y": 1642,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-3+0",
+      "x": 1733,
+      "y": 1824,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-3+24",
+      "x": 1733,
+      "y": 1848,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-3+25",
+      "x": 1733,
+      "y": 1849,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-3+28",
+      "x": 1733,
+      "y": 1852,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-4+0",
+      "x": 237,
+      "y": 399,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-4+24",
+      "x": 237,
+      "y": 423,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-4+25",
+      "x": 237,
+      "y": 424,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-4+28",
+      "x": 237,
+      "y": 427,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-5+0",
+      "x": 2478,
+      "y": 1074,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-5+24",
+      "x": 2478,
+      "y": 1098,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-5+25",
+      "x": 2478,
+      "y": 1099,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-5+28",
+      "x": 2478,
+      "y": 1102,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-6+0",
+      "x": 1437,
+      "y": 2704,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-6+24",
+      "x": 1437,
+      "y": 2728,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-6+25",
+      "x": 1437,
+      "y": 2729,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-6+28",
+      "x": 1437,
+      "y": 2732,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-7+0",
+      "x": 1212,
+      "y": 3434,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-7+24",
+      "x": 1212,
+      "y": 3458,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-7+25",
+      "x": 1212,
+      "y": 3459,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-7+28",
+      "x": 1212,
+      "y": 3462,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-8+0",
+      "x": 1137,
+      "y": 3859,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-8+24",
+      "x": 1137,
+      "y": 3883,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-8+25",
+      "x": 1137,
+      "y": 3884,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "door-base-8+28",
+      "x": 1137,
+      "y": 3887,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1854,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-city-bench-1:seat-1",
+      "x": 3189,
+      "y": 1502,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-city-bench-1:seat-2",
+      "x": 3261,
+      "y": 1502,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-city-bench-2:seat-1",
+      "x": 3828,
+      "y": 1382,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-city-bench-2:seat-2",
+      "x": 3892,
+      "y": 1382,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-city-bench-3:seat-1",
+      "x": 4112,
+      "y": 1717,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-city-bench-3:seat-2",
+      "x": 4168,
+      "y": 1717,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-city-bench-4:seat-1",
+      "x": 3904,
+      "y": 1172,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-city-bench-4:seat-2",
+      "x": 3976,
+      "y": 1172,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-city-bench-5:seat-1",
+      "x": 3278,
+      "y": 1952,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-city-bench-5:seat-2",
+      "x": 3342,
+      "y": 1952,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-city-bench-6:seat-1",
+      "x": 3887,
+      "y": 2112,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-city-bench-6:seat-2",
+      "x": 3943,
+      "y": 2112,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-city-bench-11:seat-1",
+      "x": 1608,
+      "y": 1097,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-city-bench-11:seat-2",
+      "x": 1672,
+      "y": 1097,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-city-bench-12:seat-1",
+      "x": 1462,
+      "y": 1687,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": [
+        "base-3"
+      ]
+    },
+    {
+      "id": "seat-city-bench-12:seat-2",
+      "x": 1518,
+      "y": 1687,
+      "minimum_visible_fraction": 0.9999941381634866,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": [
+        "base-3"
+      ]
+    },
+    {
+      "id": "seat-city-bench-14:seat-1",
+      "x": 2998,
+      "y": 4442,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-city-bench-14:seat-2",
+      "x": 3062,
+      "y": 4442,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-city-bench-15:seat-1",
+      "x": 4297,
+      "y": 4812,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-city-bench-15:seat-2",
+      "x": 4353,
+      "y": 4812,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-smoking-bench:seat-1",
+      "x": 4140,
+      "y": 2412,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    },
+    {
+      "id": "seat-smoking-bench:seat-2",
+      "x": 4210,
+      "y": 2412,
+      "minimum_visible_fraction": 1,
+      "actor_opaque_pixels_max": 1494,
+      "possible_foreground": []
+    }
+  ]
+}

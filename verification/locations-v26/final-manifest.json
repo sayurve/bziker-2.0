@@ -1,0 +1,246 @@
+{
+  "checked_at": "2026-10-15T03:26:23.477866+00:00",
+  "code": [
+    {
+      "path": "game/web/interiors-map.json",
+      "sha256": "0e4da5e3d9ea54fa8039eddfa0ff99983a55da99da94baa216849f7231314547"
+    },
+    {
+      "path": "game/scripts/build-modular-interiors.py",
+      "sha256": "13313eeb70e4ebaf5244b654378c0e8a6c2a2adffc6039e07fb9e7fdcf8bd873"
+    },
+    {
+      "path": "game/web/world-camera.js",
+      "sha256": "c76b48e237d64806cc90e2156cb3e7e4d7e0549e808dd60dd938e5ff20fd5efb"
+    },
+    {
+      "path": "game/web/world.js",
+      "sha256": "c8f6947e4e555b260d77d0a6a86d649598300e8d43fe0ebf9861d8f7b34d38d0"
+    }
+  ],
+  "browser": "Codex In-app Browser, Phaser 4.2.1",
+  "viewports": [
+    [
+      1204,
+      926
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "game_canvas_mobile": [
+    386,
+    792
+  ],
+  "setup": "CLI fixture at real exterior city door in disposable QA database; real UI action to enter each room",
+  "screenshots": [
+    {
+      "path": "verification/locations-v26/arena-browser-mobile.png",
+      "sha256": "86bace1cd401040817127dd42fc45da2533a23f0a43a68e1066fe2a9bf3e1ac8",
+      "size_bytes": 58154,
+      "saved_at": "2026-10-15T03:04:07.704894+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/arena-browser-wide.png",
+      "sha256": "6576470455ca54df41982ef51af4f2ead00ab79c7a8b89bb2adafcf8a47f6201",
+      "size_bytes": 170581,
+      "saved_at": "2026-10-15T03:03:38.582444+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/casino-browser-mobile.png",
+      "sha256": "a6c6226c2aed5338e865d58b642a49ce1e1f0d18b29b0f08931359344fa2186d",
+      "size_bytes": 47713,
+      "saved_at": "2026-10-15T02:57:57.013079+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/casino-browser-wide.png",
+      "sha256": "b384d4be3e5ae0b23de0e6fb61bdf8d24fe41777fd5689c9989f1f08623273dd",
+      "size_bytes": 158331,
+      "saved_at": "2026-10-15T02:57:40.493024+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/clans-browser-mobile.png",
+      "sha256": "590e1fb94e9f7c4824d21f9cff5bac1f3cfbc032bf17944de34eae1c45f51d7d",
+      "size_bytes": 56148,
+      "saved_at": "2026-10-15T02:58:38.798239+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/clans-browser-wide.png",
+      "sha256": "f92339f202396b5ee9f622ca8192e64279c0d6db6f6d649228c7f35d12a170fe",
+      "size_bytes": 137109,
+      "saved_at": "2026-10-15T02:58:26.967645+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/messages-browser-mobile.png",
+      "sha256": "ffbf3c5bac6b3ebc951884fa69c423438a957372ef7e47627356ae0fa97b92ce",
+      "size_bytes": 61050,
+      "saved_at": "2026-10-15T02:49:41.285925+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/messages-browser-wide.png",
+      "sha256": "ffca9197dcff36572357e916741f4c477512b7ef3658302b584677f27c1a850e",
+      "size_bytes": 151105,
+      "saved_at": "2026-10-15T03:24:14.455701+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/profile-browser-mobile.png",
+      "sha256": "6bb6459de010c32995ff6ecae1017b55b9d64312904a0d646cf0b70b4fd5f97e",
+      "size_bytes": 52587,
+      "saved_at": "2026-10-15T03:01:00.888786+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/profile-browser-wide.png",
+      "sha256": "2cd6d261e3f9f31ad57ca73fcfabf5880f4c5969d40d17f44bf9da2db22d57fe",
+      "size_bytes": 136745,
+      "saved_at": "2026-10-15T02:59:11.177133+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/railway-browser-mobile.png",
+      "sha256": "e59808fb14a6df42c279828f468416029687554ca854a46444e003d979eb0e48",
+      "size_bytes": 54590,
+      "saved_at": "2026-10-15T03:16:23.296282+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/railway-browser-wide.png",
+      "sha256": "7971aa6be2c3010e0faf566112d5ed04f72c5e24bedc3092f7e5c48735d3c02e",
+      "size_bytes": 162770,
+      "saved_at": "2026-10-15T03:16:09.976118+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/results-browser-mobile.png",
+      "sha256": "873dc32135690ad2b637b616fb9ecbcb3e2ef50c79d2b45561a16ce8449014f1",
+      "size_bytes": 56673,
+      "saved_at": "2026-10-15T03:05:45.007526+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/results-browser-wide.png",
+      "sha256": "0141aa2717784487e3666e5f458f76e6085c4a012ee24a6878411a6f1f6f4d9e",
+      "size_bytes": 170078,
+      "saved_at": "2026-10-15T03:05:03.018015+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/shop-clothes-browser-mobile.png",
+      "sha256": "ad8d5c68dcd55eb2972e07bc9fbb05ac83116f29693660ae54c902c217a0f4c8",
+      "size_bytes": 59201,
+      "saved_at": "2026-10-15T03:01:47.225064+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/shop-clothes-browser-wide.png",
+      "sha256": "f9c88d040376fdfcc95bddb7754dd977411e059e1ded4913f69ade7313261688",
+      "size_bytes": 164072,
+      "saved_at": "2026-10-15T03:01:33.861037+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/shop-food-browser-mobile.png",
+      "sha256": "577dcd46dbf786a2f54b40fb5a4d1cebb1d8c188d93129bd0895c7f0be90422b",
+      "size_bytes": 58957,
+      "saved_at": "2026-10-15T03:02:42.479063+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/shop-food-browser-wide.png",
+      "sha256": "6a9ef0678c1bff671c8c48817630cf2139e44a0381d256daededd1000fc76f16",
+      "size_bytes": 134445,
+      "saved_at": "2026-10-15T03:02:28.323697+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/shop-furniture-browser-mobile.png",
+      "sha256": "c78e608cef3825019913a771670f7a8903bc26f16e80320debb43c247ff5e5d6",
+      "size_bytes": 73915,
+      "saved_at": "2026-10-15T02:51:33.064375+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/shop-furniture-browser-wide.png",
+      "sha256": "95a34e9d21619e52364035bf8c94a744c9cf80b95262636c1ce88a3e05c80345",
+      "size_bytes": 188402,
+      "saved_at": "2026-10-15T02:50:31.647548+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/terrace-browser-mobile.png",
+      "sha256": "b031a3440ab9a633e3d000bdf486c63fd2747fb1b4ed73699ed07d304baddb00",
+      "size_bytes": 58017,
+      "saved_at": "2026-10-15T02:54:24.364522+00:00",
+      "mime_type": "image/jpeg"
+    },
+    {
+      "path": "verification/locations-v26/terrace-browser-wide.png",
+      "sha256": "7fda21627423a197b7203d3a65d6ed7b3c669c81d92e88e5bf24dd3548f83b9b",
+      "size_bytes": 155915,
+      "saved_at": "2026-10-15T02:54:06.420072+00:00",
+      "mime_type": "image/jpeg"
+    }
+  ],
+  "last_background_only_fix": "railway and messages wide re-captured after final backing; other images predate that cosmetic fill only",
+  "full_regression": {
+    "checkedAt": "2026-10-15T03:15:52.464786+00:00",
+    "steps": [
+      {
+        "name": "tools-tests",
+        "exitCode": 0,
+        "log": "verification/tools-tests-latest.log"
+      },
+      {
+        "name": "game-python",
+        "exitCode": 0,
+        "log": "verification/game-python-latest.log"
+      },
+      {
+        "name": "game-node",
+        "exitCode": 0,
+        "log": "verification/game-node-latest.log"
+      }
+    ],
+    "passed": true,
+    "scope": "technical validation; not an artistic approval",
+    "skills": [
+      "bziker-build-game",
+      "bziker-character-pipeline",
+      "bziker-game-qa"
+    ],
+    "art": {
+      "approvedDefinitionFiles": 0,
+      "draftPngFiles": 24,
+      "ready": false,
+      "note": "Artwork needs editable layered masters and visual approval; copied legacy-composite art is compatibility only."
+    }
+  },
+  "test_counts": {
+    "tools": 13,
+    "python": 344,
+    "node": 806
+  },
+  "handoff": {
+    "result": "passed",
+    "static_routes": 152,
+    "temporary_database": true,
+    "external_requests": false,
+    "live_database_touched": false
+  },
+  "physical_phone_tested": false,
+  "art_approved": false,
+  "independent_review": {
+    "status": "passed",
+    "scope": "report claims, evidence paths, test counts, 4 code hashes,22 screenshot hashes,4 catalog hashes,22 image dimensions",
+    "note": "Screenshot API returned JPEG bytes under historical .png filenames; report now identifies actual format. No runtime changes."
+  }
+}

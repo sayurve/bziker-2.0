@@ -1,0 +1,23 @@
+EE.
+======================================================================
+ERROR: test_another_target_and_the_next_day_remain_independent_without_tightening_limits (test_litter_result_v30.LitterResultV30Tests.test_another_target_and_the_next_day_remain_independent_without_tightening_limits)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/sapp/Desktop/Игра/Bzikert 2.0/game/tests/test_litter_result_v30.py", line 50, in test_another_target_and_the_next_day_remain_independent_without_tightening_limits
+    self.assertIs(self.pick(self.points[0])['picked'], True)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+KeyError: 'picked'
+
+======================================================================
+ERROR: test_first_pick_and_immediate_or_expired_repeats_report_the_actual_mutation (test_litter_result_v30.LitterResultV30Tests.test_first_pick_and_immediate_or_expired_repeats_report_the_actual_mutation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/sapp/Desktop/Игра/Bzikert 2.0/game/tests/test_litter_result_v30.py", line 34, in test_first_pick_and_immediate_or_expired_repeats_report_the_actual_mutation
+    self.assertIs(first['picked'], True)
+                  ~~~~~^^^^^^^^^^
+KeyError: 'picked'
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.047s
+
+FAILED (errors=2)

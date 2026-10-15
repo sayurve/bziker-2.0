@@ -1,0 +1,929 @@
+{
+  "status": "draft",
+  "family": "seated",
+  "gender": "female",
+  "dir": "up",
+  "master": "art/drafts/canonical-actions-v30/seated/female-up/seated-four-master.png",
+  "masterSHA256": "d07ee1eded8502ab66e4072fda80411e150c25dc0a1b5934525a22f366fb0dc8",
+  "rawMasterUnchanged": true,
+  "uniformFineScale": 0.17679558011049723,
+  "poses": [
+    {
+      "frame": 0,
+      "pose": "neutral",
+      "fine": "art/drafts/canonical-actions-v30/seated/female-up/neutral-fine.png",
+      "coarse": "art/drafts/canonical-actions-v30/seated/female-up/neutral.png",
+      "bodyFine": "art/drafts/canonical-actions-v30/seated/female-up/neutral-body-fine.png",
+      "head": {
+        "top": 8,
+        "bottom": 32,
+        "left": 12,
+        "right": 36,
+        "portraitChin": 32.5,
+        "eyeAnchor": [
+          24,
+          22.049999999999997
+        ],
+        "eyeLine": 22.049999999999997,
+        "neckAnchor": [
+          24,
+          31.5
+        ],
+        "facePolygon": [],
+        "scalpPolygon": [
+          [
+            13.125000000000002,
+            14.325
+          ],
+          [
+            16.425,
+            9.974999999999998
+          ],
+          [
+            23.625,
+            8.549999999999999
+          ],
+          [
+            30.525000000000002,
+            10.124999999999998
+          ],
+          [
+            34.575,
+            14.474999999999998
+          ],
+          [
+            35.4,
+            22.799999999999997
+          ],
+          [
+            33.525,
+            27.824999999999996
+          ],
+          [
+            28.95,
+            30.674999999999997
+          ],
+          [
+            23.775000000000002,
+            31.424999999999997
+          ],
+          [
+            18.525,
+            30
+          ],
+          [
+            14.850000000000001,
+            27.599999999999998
+          ],
+          [
+            13.125000000000002,
+            22.65
+          ]
+        ]
+      },
+      "hand": [
+        16.5,
+        45.5
+      ],
+      "pelvis": [
+        24,
+        47.5
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceRoot": [
+        48,
+        94
+      ],
+      "sourceNeck": [
+        48,
+        62
+      ],
+      "sourceHand": [
+        33,
+        90
+      ],
+      "sourceIsolation": [
+        0,
+        0,
+        543,
+        760
+      ],
+      "nominalCellOrigin": [
+        0,
+        0
+      ],
+      "uniformFineScale": 0.17679558011049723,
+      "clippedSourcePixels": 0,
+      "authoredOutlineCleanup": [],
+      "integerTranslation": [
+        0,
+        1
+      ],
+      "headTranslationFromCurrentC": [
+        0,
+        -2
+      ],
+      "canonicalDonor": "art/drafts/canonical-face-v29/female-heads-v1/up-fine.png",
+      "canonicalDonorSHA256": "2ae2be1acd7415ec2bc0e22d56496c6733df64f44cf0a30044296d7d35e258bb",
+      "runtimeAlphaThreshold": 127,
+      "removeHeadPolygon": [
+        [
+          8,
+          -9
+        ],
+        [
+          88,
+          -9
+        ],
+        [
+          88,
+          54
+        ],
+        [
+          79,
+          72
+        ],
+        [
+          64,
+          75
+        ],
+        [
+          55,
+          70
+        ],
+        [
+          41,
+          70
+        ],
+        [
+          32,
+          75
+        ],
+        [
+          16,
+          72
+        ],
+        [
+          8,
+          54
+        ]
+      ],
+      "neckPreservePolygon": [
+        [
+          41,
+          55
+        ],
+        [
+          57,
+          55
+        ],
+        [
+          57,
+          68
+        ],
+        [
+          41,
+          68
+        ]
+      ],
+      "actualSourceContourPoints": [],
+      "sourceNeckPreservedPixels": 207,
+      "foregroundPolygons": [
+        [
+          [
+            24,
+            82
+          ],
+          [
+            40,
+            82
+          ],
+          [
+            43,
+            88
+          ],
+          [
+            42,
+            98
+          ],
+          [
+            33,
+            101
+          ],
+          [
+            24,
+            96
+          ]
+        ]
+      ],
+      "removedSourceHeadPixels": 1380,
+      "grayClothPreservedPixels": 314,
+      "foregroundPixels": 201,
+      "donorPixels": 1704,
+      "headClippedPixels": 0,
+      "opaqueBounds": [
+        25,
+        17,
+        72,
+        126
+      ],
+      "edgeInk": 0,
+      "bodyBelowHeadUnchangedPixels": 4992,
+      "sha256": "eb47b3b8dd09e01f60e38713d7b1bbdf4863fd782433bdffcad7335332205cce"
+    },
+    {
+      "frame": 1,
+      "pose": "hand-chest",
+      "fine": "art/drafts/canonical-actions-v30/seated/female-up/hand-chest-fine.png",
+      "coarse": "art/drafts/canonical-actions-v30/seated/female-up/hand-chest.png",
+      "bodyFine": "art/drafts/canonical-actions-v30/seated/female-up/hand-chest-body-fine.png",
+      "head": {
+        "top": 8,
+        "bottom": 32,
+        "left": 12,
+        "right": 36,
+        "portraitChin": 32.5,
+        "eyeAnchor": [
+          24,
+          22.049999999999997
+        ],
+        "eyeLine": 22.049999999999997,
+        "neckAnchor": [
+          24,
+          31.5
+        ],
+        "facePolygon": [],
+        "scalpPolygon": [
+          [
+            13.125000000000002,
+            14.325
+          ],
+          [
+            16.425,
+            9.974999999999998
+          ],
+          [
+            23.625,
+            8.549999999999999
+          ],
+          [
+            30.525000000000002,
+            10.124999999999998
+          ],
+          [
+            34.575,
+            14.474999999999998
+          ],
+          [
+            35.4,
+            22.799999999999997
+          ],
+          [
+            33.525,
+            27.824999999999996
+          ],
+          [
+            28.95,
+            30.674999999999997
+          ],
+          [
+            23.775000000000002,
+            31.424999999999997
+          ],
+          [
+            18.525,
+            30
+          ],
+          [
+            14.850000000000001,
+            27.599999999999998
+          ],
+          [
+            13.125000000000002,
+            22.65
+          ]
+        ]
+      },
+      "hand": [
+        35,
+        32
+      ],
+      "pelvis": [
+        24,
+        47.5
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceRoot": [
+        48,
+        94
+      ],
+      "sourceNeck": [
+        48,
+        62
+      ],
+      "sourceHand": [
+        70,
+        63
+      ],
+      "sourceIsolation": [
+        543,
+        0,
+        1086,
+        760
+      ],
+      "nominalCellOrigin": [
+        543,
+        0
+      ],
+      "uniformFineScale": 0.17679558011049723,
+      "clippedSourcePixels": 0,
+      "authoredOutlineCleanup": [],
+      "integerTranslation": [
+        0,
+        1
+      ],
+      "headTranslationFromCurrentC": [
+        0,
+        -2
+      ],
+      "canonicalDonor": "art/drafts/canonical-face-v29/female-heads-v1/up-fine.png",
+      "canonicalDonorSHA256": "2ae2be1acd7415ec2bc0e22d56496c6733df64f44cf0a30044296d7d35e258bb",
+      "runtimeAlphaThreshold": 127,
+      "removeHeadPolygon": [
+        [
+          8,
+          -9
+        ],
+        [
+          88,
+          -9
+        ],
+        [
+          88,
+          54
+        ],
+        [
+          79,
+          72
+        ],
+        [
+          64,
+          75
+        ],
+        [
+          55,
+          70
+        ],
+        [
+          41,
+          70
+        ],
+        [
+          32,
+          75
+        ],
+        [
+          16,
+          72
+        ],
+        [
+          8,
+          54
+        ]
+      ],
+      "neckPreservePolygon": [
+        [
+          41,
+          55
+        ],
+        [
+          57,
+          55
+        ],
+        [
+          57,
+          68
+        ],
+        [
+          41,
+          68
+        ]
+      ],
+      "actualSourceContourPoints": [],
+      "sourceNeckPreservedPixels": 207,
+      "foregroundPolygons": [
+        [
+          [
+            61,
+            55
+          ],
+          [
+            77,
+            55
+          ],
+          [
+            80,
+            61
+          ],
+          [
+            79,
+            71
+          ],
+          [
+            70,
+            74
+          ],
+          [
+            61,
+            69
+          ]
+        ]
+      ],
+      "removedSourceHeadPixels": 1375,
+      "grayClothPreservedPixels": 352,
+      "foregroundPixels": 136,
+      "donorPixels": 1704,
+      "headClippedPixels": 0,
+      "opaqueBounds": [
+        25,
+        17,
+        75,
+        126
+      ],
+      "edgeInk": 0,
+      "bodyBelowHeadUnchangedPixels": 4992,
+      "sha256": "62294437eb978686dc5b938ddada85f2aca22cd5e172e5a1ca81260f51c9ef45"
+    },
+    {
+      "frame": 2,
+      "pose": "hand-mouth",
+      "fine": "art/drafts/canonical-actions-v30/seated/female-up/hand-mouth-fine.png",
+      "coarse": "art/drafts/canonical-actions-v30/seated/female-up/hand-mouth.png",
+      "bodyFine": "art/drafts/canonical-actions-v30/seated/female-up/hand-mouth-body-fine.png",
+      "head": {
+        "top": 9,
+        "bottom": 33,
+        "left": 12,
+        "right": 36,
+        "portraitChin": 33.5,
+        "eyeAnchor": [
+          24,
+          23.049999999999997
+        ],
+        "eyeLine": 23.049999999999997,
+        "neckAnchor": [
+          24,
+          32.5
+        ],
+        "facePolygon": [],
+        "scalpPolygon": [
+          [
+            13.125000000000002,
+            15.325
+          ],
+          [
+            16.425,
+            10.974999999999998
+          ],
+          [
+            23.625,
+            9.549999999999999
+          ],
+          [
+            30.525000000000002,
+            11.124999999999998
+          ],
+          [
+            34.575,
+            15.474999999999998
+          ],
+          [
+            35.4,
+            23.799999999999997
+          ],
+          [
+            33.525,
+            28.824999999999996
+          ],
+          [
+            28.95,
+            31.674999999999997
+          ],
+          [
+            23.775000000000002,
+            32.425
+          ],
+          [
+            18.525,
+            31
+          ],
+          [
+            14.850000000000001,
+            28.599999999999998
+          ],
+          [
+            13.125000000000002,
+            23.65
+          ]
+        ]
+      },
+      "hand": [
+        34.5,
+        31
+      ],
+      "pelvis": [
+        24,
+        47.5
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceRoot": [
+        48,
+        92
+      ],
+      "sourceNeck": [
+        48,
+        62
+      ],
+      "sourceHand": [
+        69,
+        59
+      ],
+      "sourceIsolation": [
+        0,
+        760,
+        543,
+        1448
+      ],
+      "nominalCellOrigin": [
+        0,
+        724
+      ],
+      "uniformFineScale": 0.17679558011049723,
+      "clippedSourcePixels": 0,
+      "authoredOutlineCleanup": [],
+      "integerTranslation": [
+        0,
+        3
+      ],
+      "headTranslationFromCurrentC": [
+        0,
+        0
+      ],
+      "canonicalDonor": "art/drafts/canonical-face-v29/female-heads-v1/up-fine.png",
+      "canonicalDonorSHA256": "2ae2be1acd7415ec2bc0e22d56496c6733df64f44cf0a30044296d7d35e258bb",
+      "runtimeAlphaThreshold": 127,
+      "removeHeadPolygon": [
+        [
+          8,
+          -7
+        ],
+        [
+          88,
+          -7
+        ],
+        [
+          88,
+          56
+        ],
+        [
+          79,
+          74
+        ],
+        [
+          64,
+          77
+        ],
+        [
+          55,
+          72
+        ],
+        [
+          41,
+          72
+        ],
+        [
+          32,
+          77
+        ],
+        [
+          16,
+          74
+        ],
+        [
+          8,
+          56
+        ]
+      ],
+      "neckPreservePolygon": [
+        [
+          41,
+          57
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          57,
+          70
+        ],
+        [
+          41,
+          70
+        ]
+      ],
+      "actualSourceContourPoints": [
+        [
+          59,
+          63
+        ],
+        [
+          60,
+          63
+        ],
+        [
+          58,
+          63
+        ]
+      ],
+      "sourceNeckPreservedPixels": 207,
+      "foregroundPolygons": [
+        [
+          [
+            63,
+            56
+          ],
+          [
+            73,
+            56
+          ],
+          [
+            76,
+            60
+          ],
+          [
+            75,
+            67
+          ],
+          [
+            69,
+            69
+          ],
+          [
+            63,
+            65
+          ]
+        ]
+      ],
+      "removedSourceHeadPixels": 1404,
+      "grayClothPreservedPixels": 476,
+      "foregroundPixels": 78,
+      "donorPixels": 1704,
+      "headClippedPixels": 0,
+      "opaqueBounds": [
+        25,
+        19,
+        72,
+        126
+      ],
+      "edgeInk": 0,
+      "bodyBelowHeadUnchangedPixels": 4800,
+      "sha256": "01cdd7ec43970f52d9cd7d5eadf2e448c99712411fbb436721780bada65a1027"
+    },
+    {
+      "frame": 3,
+      "pose": "reach",
+      "fine": "art/drafts/canonical-actions-v30/seated/female-up/reach-fine.png",
+      "coarse": "art/drafts/canonical-actions-v30/seated/female-up/reach.png",
+      "bodyFine": "art/drafts/canonical-actions-v30/seated/female-up/reach-body-fine.png",
+      "head": {
+        "top": 9,
+        "bottom": 33,
+        "left": 12,
+        "right": 36,
+        "portraitChin": 33.5,
+        "eyeAnchor": [
+          24,
+          23.049999999999997
+        ],
+        "eyeLine": 23.049999999999997,
+        "neckAnchor": [
+          24,
+          32.5
+        ],
+        "facePolygon": [],
+        "scalpPolygon": [
+          [
+            13.125000000000002,
+            15.325
+          ],
+          [
+            16.425,
+            10.974999999999998
+          ],
+          [
+            23.625,
+            9.549999999999999
+          ],
+          [
+            30.525000000000002,
+            11.124999999999998
+          ],
+          [
+            34.575,
+            15.474999999999998
+          ],
+          [
+            35.4,
+            23.799999999999997
+          ],
+          [
+            33.525,
+            28.824999999999996
+          ],
+          [
+            28.95,
+            31.674999999999997
+          ],
+          [
+            23.775000000000002,
+            32.425
+          ],
+          [
+            18.525,
+            31
+          ],
+          [
+            14.850000000000001,
+            28.599999999999998
+          ],
+          [
+            13.125000000000002,
+            23.65
+          ]
+        ]
+      },
+      "hand": [
+        41,
+        32
+      ],
+      "pelvis": [
+        24,
+        47.5
+      ],
+      "anchor": [
+        24,
+        63
+      ],
+      "sourceRoot": [
+        48,
+        92
+      ],
+      "sourceNeck": [
+        48,
+        62
+      ],
+      "sourceHand": [
+        82,
+        61
+      ],
+      "sourceIsolation": [
+        543,
+        760,
+        1086,
+        1448
+      ],
+      "nominalCellOrigin": [
+        543,
+        724
+      ],
+      "uniformFineScale": 0.17679558011049723,
+      "clippedSourcePixels": 0,
+      "authoredOutlineCleanup": [],
+      "integerTranslation": [
+        0,
+        3
+      ],
+      "headTranslationFromCurrentC": [
+        0,
+        0
+      ],
+      "canonicalDonor": "art/drafts/canonical-face-v29/female-heads-v1/up-fine.png",
+      "canonicalDonorSHA256": "2ae2be1acd7415ec2bc0e22d56496c6733df64f44cf0a30044296d7d35e258bb",
+      "runtimeAlphaThreshold": 127,
+      "removeHeadPolygon": [
+        [
+          8,
+          -7
+        ],
+        [
+          88,
+          -7
+        ],
+        [
+          88,
+          56
+        ],
+        [
+          79,
+          74
+        ],
+        [
+          64,
+          77
+        ],
+        [
+          55,
+          72
+        ],
+        [
+          41,
+          72
+        ],
+        [
+          32,
+          77
+        ],
+        [
+          16,
+          74
+        ],
+        [
+          8,
+          56
+        ]
+      ],
+      "neckPreservePolygon": [
+        [
+          41,
+          57
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          57,
+          70
+        ],
+        [
+          41,
+          70
+        ]
+      ],
+      "actualSourceContourPoints": [],
+      "sourceNeckPreservedPixels": 206,
+      "foregroundPolygons": [
+        [
+          [
+            73,
+            55
+          ],
+          [
+            89,
+            55
+          ],
+          [
+            92,
+            61
+          ],
+          [
+            91,
+            71
+          ],
+          [
+            82,
+            74
+          ],
+          [
+            73,
+            69
+          ]
+        ]
+      ],
+      "removedSourceHeadPixels": 1398,
+      "grayClothPreservedPixels": 457,
+      "foregroundPixels": 113,
+      "donorPixels": 1704,
+      "headClippedPixels": 0,
+      "opaqueBounds": [
+        25,
+        19,
+        85,
+        126
+      ],
+      "edgeInk": 0,
+      "bodyBelowHeadUnchangedPixels": 4800,
+      "sha256": "7207530550541039b7ef52f5ed5e894a07070b88579d835cbe53e1b8f349727a"
+    }
+  ]
+}

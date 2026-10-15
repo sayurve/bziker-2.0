@@ -1,0 +1,350 @@
+{
+  "status": "independent-one-preset-four-direction-gait-and-postthrow-inventory-viewed",
+  "recordedAt": "2026-10-15T16:34:48.495770+00:00",
+  "worldSHA256": "66c1cb90f59470e85d2e756f5232cac0bd8bcbad3baa692f91fdaff43e4b8c18",
+  "appearance": "ONE male H7 white6 skin3 jacket2 lime8; no preset changes",
+  "contacts": [
+    {
+      "direction": "right",
+      "contact": {
+        "path": "verification/avatar-one-v31/frozen-contact-run-right.png",
+        "sha256": "7f743b01d0aedcd9e639b2a374daccaf37f1939f05affb1f1f8d5ae743b51217",
+        "viewedEntirely": true
+      },
+      "sourceScreenshotCount": 14,
+      "sourceScreenshots": [
+        {
+          "path": "verification/avatar-one-v31/frozen-run-right-00.jpg",
+          "sha256": "1acf83cf593a3486ec999b8d032e5dd78817cf29efe73fb6001a02b5dc355770"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-right-01.jpg",
+          "sha256": "1c0949175c2acd0d9085d5a09edd7fcee328ac640747883e525b13818a3fa05c"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-right-02.jpg",
+          "sha256": "11139268ab14b187f1afcf15dbe2faad44533416e975e76b29e02d1f85e169a3"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-right-03.jpg",
+          "sha256": "7170517ec97a82648ea62eff66cbd22682099ccd500c2ab2979216c956a3aa98"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-right-04.jpg",
+          "sha256": "3462848acbc50addf7d74ec8df7c6313ee1cae94687282284ba3dd7408fa264b"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-right-05.jpg",
+          "sha256": "30b8d0315e1d554d7a665f91fe37f063475ad3214e1510b6cdb20fa7670aa1d9"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-right-06.jpg",
+          "sha256": "e989aec8208d162d1cda373d26e42b9dab4e5cabbeeab05b1b56c0dac2621964"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-right-07.jpg",
+          "sha256": "48d9bc35d4d03ac5b6b8d8495a785cfed0f003c053d6ec1fd3cc5ac3bf176883"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-right-08.jpg",
+          "sha256": "5aa74e2aa9b72dda23bfcdd566e0496f43e2bb963177068e4fb590e257f67774"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-right-09.jpg",
+          "sha256": "a98357dc0dca9f7af632cd03bbcfa8b0af54f774f0ecbd34664f39c57f055bae"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-right-10.jpg",
+          "sha256": "b0ae8b58563a0d7a197e530eb18f32bcf3db6f55739a99b2d6e67bc32a56a700"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-right-11.jpg",
+          "sha256": "33622e929285765e434698a69db214ca8076eba88a285d6715624222e40b146f"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-right-12.jpg",
+          "sha256": "49e87f11999499708e7c5b4edf69f37c96e806b17ff86e3c22810e2b9755f3e1"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-right-13.jpg",
+          "sha256": "68d9abc3a53fee91aad7c02a720b3e2cecad28fa13d55373a51f21fb73ed1b05"
+        }
+      ],
+      "movingImageRangeInclusive": [
+        1,
+        12
+      ],
+      "initialPreviousDirectionIdle": 0,
+      "finalIdleIndex": 13
+    },
+    {
+      "direction": "up",
+      "contact": {
+        "path": "verification/avatar-one-v31/frozen-contact-run-up.png",
+        "sha256": "352ebcec19838612a82e3b2fe1906f96cea909158b4fc7ccc8ccb83af405505d",
+        "viewedEntirely": true
+      },
+      "sourceScreenshotCount": 18,
+      "sourceScreenshots": [
+        {
+          "path": "verification/avatar-one-v31/frozen-run-up-00.jpg",
+          "sha256": "70eb1bbce07defc681b231a87eed9948b1589300c511c8160e61bb772872b4b1"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-up-01.jpg",
+          "sha256": "5e56118278ccbb3ef6e47011c59379eb6ae3b074f826e9b4672528a9d27194bb"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-up-02.jpg",
+          "sha256": "1b2a1c6679265a14c920988ae8756fabc2efe74ff19778c759104396d156c6e2"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-up-03.jpg",
+          "sha256": "4c57bebcc67618ec0b013894997a1f9c3e19d3ac343f295213f1a623fbafc6f9"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-up-04.jpg",
+          "sha256": "2a534cf390caebe3528723ba95e212bd4435a49555dee5937c847d6b968c66e2"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-up-05.jpg",
+          "sha256": "462ebd0e19c99071bdbda38d0bd1bae13885886bdd84046cbbd26bf1eebd624e"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-up-06.jpg",
+          "sha256": "f5efe7682635c0f3b752d785d2fbbb581e0a73855bd18d1f36a99822ee31efe8"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-up-07.jpg",
+          "sha256": "676223ea7e64ab18b112cb18319e4e193944cd1e355dc632955cf88d98ba2fc8"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-up-08.jpg",
+          "sha256": "d074b1449e39a999c236ffc3e122d1a173389c6e2b402c190efeea8528a3fb20"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-up-09.jpg",
+          "sha256": "2616a0f8d00f7e2fb356cec7f4f568857c997bac67e0af0be17f182e77993e3e"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-up-10.jpg",
+          "sha256": "b769075b91a71ee42e4f7f282a8d2047e42a22730a55c942933f84c16de6af4a"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-up-11.jpg",
+          "sha256": "52b03719cd3fe3c7ba674dfed5974f709dce5c3b17edcfe45634bc6efd1625b9"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-up-12.jpg",
+          "sha256": "09d24630b4cc73e232805b67035eb90af2cb57d8cf61e61459cfbd7e17bda356"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-up-13.jpg",
+          "sha256": "10a4373d0ff3314b7584d1504640ee817b653d0d02f33a0dce2766a5b2a69bb6"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-up-14.jpg",
+          "sha256": "1b4cd9951d44e79b9fb6ccc768d1d62571e6eada78870edc7d5c84acc5f37e64"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-up-15.jpg",
+          "sha256": "d4b228f53b240f5396a11a16337bd832f0c68e1a371d5ee3d697f160e0a813f1"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-up-16.jpg",
+          "sha256": "cf95022119087e2ed738b19334d4edf544c55fbb271b0fac489a00693e29bb52"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-up-17.jpg",
+          "sha256": "3dd08d2ef3667bcb4c2f70b26a97fe09103fa7690b33f49a0353d8c099a015d7"
+        }
+      ],
+      "movingImageRangeInclusive": [
+        1,
+        16
+      ],
+      "initialPreviousDirectionIdle": 0,
+      "finalIdleIndex": 17
+    },
+    {
+      "direction": "left",
+      "contact": {
+        "path": "verification/avatar-one-v31/frozen-contact-run-left.png",
+        "sha256": "7c8362912b0ebc9e2eaa2cf1ec6bc3fdc1c3c673f3385cef4b52da755a9790a4",
+        "viewedEntirely": true
+      },
+      "sourceScreenshotCount": 13,
+      "sourceScreenshots": [
+        {
+          "path": "verification/avatar-one-v31/frozen-run-left-00.jpg",
+          "sha256": "d67b3d951cf5073b11245f2d06d4dd3ab07150822270f9d581717cb0c375c755"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-left-01.jpg",
+          "sha256": "8787ec6279fc0c4b1f645c3ab74020f844e189b8f653b35694cff97874c55ff6"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-left-02.jpg",
+          "sha256": "2c17f2cc520d4b78f7721c75a591c1b4a9fdc95103514fdbf84ed99600351ba6"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-left-03.jpg",
+          "sha256": "bd566dfdeea6775b60778ee49b775133ebbb556c7723ec14c514b7193e3e030d"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-left-04.jpg",
+          "sha256": "cdda126b83c35326703c631fa79e66b4deae08e7813538d23fc8082bdabe8815"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-left-05.jpg",
+          "sha256": "394c68240ee9110d4771f7df4402eedd54549c5c6d78f4e2ebd9af3190faf00d"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-left-06.jpg",
+          "sha256": "ecdea852d3ceec47fb4c15a685929e655a947b18cd029e5c34041bf898a88370"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-left-07.jpg",
+          "sha256": "a061bb5c4f188ab6337c1908af210c2a887fa184074c138301729740c2fc5cad"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-left-08.jpg",
+          "sha256": "a560cb3ad4cdc191411b9428b7bff49142278973e6ef5ab8e2868b4f33125c53"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-left-09.jpg",
+          "sha256": "f1952f2d3885ecea9581883c77a8a44fbf8492ab2b6574768d9c242c1cae2270"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-left-10.jpg",
+          "sha256": "82a0bf399236926472c9ceda070b10be468e566b5f0beddafe82c028505831f4"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-left-11.jpg",
+          "sha256": "38d8d3fc69b1955395bd6375d10b5916a725cbb0853a734d9daca91e6a3991e2"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-run-left-12.jpg",
+          "sha256": "a6e5cfa5ca597c565ac867eb86d3b123fb802ebb3bd48e320bb52e9d8ae9fe63"
+        }
+      ],
+      "movingImageRangeInclusive": [
+        1,
+        12
+      ],
+      "initialPreviousDirectionIdle": 0,
+      "finalIdleIndex": null
+    },
+    {
+      "direction": "down",
+      "contact": {
+        "path": "verification/avatar-one-v31/frozen-contact-down-recheck.png",
+        "sha256": "2f5be462e8150495521d202f5e9a5d278f3e4772698b9706a6bd42d4d7da7334",
+        "viewedEntirely": true
+      },
+      "sourceScreenshotCount": 16,
+      "sourceScreenshots": [
+        {
+          "path": "verification/avatar-one-v31/frozen-down-recheck-00.jpg",
+          "sha256": "1e0a81bcc7ead279dfe666dd23606625f59e06896f776245dece47af017fa27f"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-down-recheck-01.jpg",
+          "sha256": "c6ff08e37f377d65440749272d5160f9c6a4d31bbb63db6875c7c67f7fba0d38"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-down-recheck-02.jpg",
+          "sha256": "7a0ef019b87408c333d0e1600cb569f196acd037787886fc9cb7f1b6f6c2e5fa"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-down-recheck-03.jpg",
+          "sha256": "1c45c56bf85ecc4ee2f843fd827575a976ff85b4440ca6c591527bc16dfe8207"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-down-recheck-04.jpg",
+          "sha256": "5db1328b5a8a098facc1ac2e41d5084950422626d7034770c72f52f8ac1624d7"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-down-recheck-05.jpg",
+          "sha256": "51b86a91ca8e854937c17b78a91980505255f30cf73bd8dafd70a5b6f07bd7a1"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-down-recheck-06.jpg",
+          "sha256": "072691ac1928ae0400f7da529fd73d242525c2237e3208a545f7a627992eeb98"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-down-recheck-07.jpg",
+          "sha256": "103a5b93a19236dba7576cdcbd031c25742d29f0cdc2697d47ce36d36e923b54"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-down-recheck-08.jpg",
+          "sha256": "0844e7af80ba57d19674628182077ff16aa65f7fcbe70be4a17425a09be6b7d6"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-down-recheck-09.jpg",
+          "sha256": "458b9711eb4f85834b80e7d6d6e9ede23f5ac8baa0409d200a0adab8356ee99f"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-down-recheck-10.jpg",
+          "sha256": "0f42c19e0c1d44c42168971144692ebfcd9de3317538d3312eca2d977519e0c3"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-down-recheck-11.jpg",
+          "sha256": "3db427688274d6da67b028e61f91137dd90fe6389212247187bb69863845036b"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-down-recheck-12.jpg",
+          "sha256": "6341f985adcb58981ad25cff7ae66f1e6b13df6bcd9d277bea8d4d6cf213bd2b"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-down-recheck-13.jpg",
+          "sha256": "2d7ae08e723d215382a7365d32d578f8c0c0d475b344bba1fe636b37324bde12"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-down-recheck-14.jpg",
+          "sha256": "88bfd790a7bd9d82244129fd4c879b7c9e9e539ab041751b849f3e09f57aad76"
+        },
+        {
+          "path": "verification/avatar-one-v31/frozen-down-recheck-15.jpg",
+          "sha256": "a53e5e2743b7b91c5c4b1cc9ca5f9da170371a030e130f12f2d17187af070d81"
+        }
+      ],
+      "movingImageRangeInclusive": [
+        1,
+        14
+      ],
+      "initialPreviousDirectionIdle": 0,
+      "finalIdleIndex": 15
+    }
+  ],
+  "gaitScreenshotCount": 61,
+  "movingScreenshotCount": 54,
+  "observations": [
+    "The four current contacts were opened entirely through view_image.",
+    "Motion segments show alternating spread legs/raised knee and opposing arm positions; stop frames are distinguished from gait.",
+    "The male face in front/side views, white hairstyle and collar stay consistent, without a newly observed large alpha gap, detached neck/shoulder or face/model swap. Back-facing UP does not expose the front face.",
+    "First five frozen-run-down files are excluded: right-facing imagery under a DOWN label is not a valid DOWN proof and has no established root cause here."
+  ],
+  "inventory": {
+    "path": "verification/avatar-one-v31/frozen-throw-inventory.jpg",
+    "sha256": "bb62052e4120ae323952e24f40eb88bb02371286510c81e8cb43e6e09c935db1",
+    "viewedEntirely": true,
+    "visibleOccupiedSlots": "1/10",
+    "visibleItem": "fishing rod quantity1",
+    "visibleTrashStack": false,
+    "meaning": "Trash is absent in this postthrow UI; the total inventory is not empty."
+  },
+  "excludedFiles": [
+    "verification/avatar-one-v31/frozen-run-down-00.jpg",
+    "verification/avatar-one-v31/frozen-run-down-01.jpg",
+    "verification/avatar-one-v31/frozen-run-down-02.jpg",
+    "verification/avatar-one-v31/frozen-run-down-03.jpg",
+    "verification/avatar-one-v31/frozen-run-down-04.jpg"
+  ],
+  "limits": [
+    "61gait screenshots in4contacts,54moving images by visual state; no claim of72UI action scenarios.",
+    "Discrete stills show distinct poses and actual scene displacement, not a continuous video or every interpolated frame.",
+    "No other hairstyle/model, phone/device, chair/boat or whole-game approval.",
+    "Native72trajectorycentres remain separate from this UI recording."
+  ]
+}

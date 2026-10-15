@@ -1,0 +1,22 @@
+✔ all community service points invoke their existing feature and the exit remains usable (0.606958ms)
+✔ every newly placed community seat is a selectable real directional furnishing and an occupied seat is excluded (1.215167ms)
+✔ all community seats retain their actual ground, facing and seated source clip when the phone opens (2.45625ms)
+✔ rotating native furniture retains its visible height and aligns its feet to the ground (1.676208ms)
+✔ native editor previews keep the same zoom and ground anchor while rotating (3.086292ms)
+✔ base armchairs select the supplied real armchair in all four authored views (0.811583ms)
+✔ room preload fetches only the native sides that its props actually display (131.311084ms)
+✔ all fallback themes preserve native prop supports (2.427708ms)
+✔ clan furniture selects four distinct native views without rotating a flat picture (0.789125ms)
+✔ loaded source props and surfaces paint native assets on a clipped room plane (269.25175ms)
+✔ native room details are attached to walls or existing supports, preserving every passage and interaction (2.814834ms)
+✔ room preload includes its real side walls and details without downloading unrelated rooms (0.929417ms)
+✔ full HEX palette reaches neutral native surfaces and black furniture while preserving alpha and shading (193.292584ms)
+✔ native props fit the room ceiling and detail renderer never rotates or mirrors their artwork (2.043167ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 703.950167

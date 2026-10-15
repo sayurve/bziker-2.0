@@ -1,0 +1,135 @@
+{
+  "status": "awaiting visual review",
+  "files": [
+    {
+      "file": "final-run-up-00.jpg",
+      "sha256": "bcf66f4fcee515cc38ed5601ddce0fc52d5ca41805f498761c739640ce286d0f",
+      "crop": [
+        522,
+        369,
+        682,
+        564
+      ]
+    },
+    {
+      "file": "final-run-up-01.jpg",
+      "sha256": "d88a6ab251f58943ff09d0530ad959b09fd9446822f015a21be81a51544431aa",
+      "crop": [
+        522,
+        369,
+        682,
+        564
+      ]
+    },
+    {
+      "file": "final-run-up-02.jpg",
+      "sha256": "76c57e6a1f12ee525824498a1092ac51726c10ad22485338b0f24c70d2dda36c",
+      "crop": [
+        522,
+        369,
+        682,
+        564
+      ]
+    },
+    {
+      "file": "final-run-up-03.jpg",
+      "sha256": "81665f34899ce812d6a084a171b6e4f6f65757904bb3e8040a0f687ae8372eee",
+      "crop": [
+        522,
+        369,
+        682,
+        564
+      ]
+    },
+    {
+      "file": "final-run-up-04.jpg",
+      "sha256": "aa43109bbc1b330c26a8b5d703d78bdeb440f3c12ddb35255ef51db912f53a33",
+      "crop": [
+        522,
+        369,
+        682,
+        564
+      ]
+    },
+    {
+      "file": "final-run-up-05.jpg",
+      "sha256": "653fd35c8cfc068155cfa22f6c92b008a88c5b3872b6e4867e93b12981cf9f4c",
+      "crop": [
+        522,
+        369,
+        682,
+        564
+      ]
+    },
+    {
+      "file": "final-run-up-06.jpg",
+      "sha256": "653fd35c8cfc068155cfa22f6c92b008a88c5b3872b6e4867e93b12981cf9f4c",
+      "crop": [
+        522,
+        369,
+        682,
+        564
+      ]
+    },
+    {
+      "file": "final-run-up-07.jpg",
+      "sha256": "653fd35c8cfc068155cfa22f6c92b008a88c5b3872b6e4867e93b12981cf9f4c",
+      "crop": [
+        522,
+        369,
+        682,
+        564
+      ]
+    },
+    {
+      "file": "final-run-up-08.jpg",
+      "sha256": "653fd35c8cfc068155cfa22f6c92b008a88c5b3872b6e4867e93b12981cf9f4c",
+      "crop": [
+        522,
+        369,
+        682,
+        564
+      ]
+    },
+    {
+      "file": "final-run-up-09.jpg",
+      "sha256": "653fd35c8cfc068155cfa22f6c92b008a88c5b3872b6e4867e93b12981cf9f4c",
+      "crop": [
+        522,
+        369,
+        682,
+        564
+      ]
+    },
+    {
+      "file": "final-run-up-10.jpg",
+      "sha256": "653fd35c8cfc068155cfa22f6c92b008a88c5b3872b6e4867e93b12981cf9f4c",
+      "crop": [
+        522,
+        369,
+        682,
+        564
+      ]
+    },
+    {
+      "file": "final-run-up-11.jpg",
+      "sha256": "653fd35c8cfc068155cfa22f6c92b008a88c5b3872b6e4867e93b12981cf9f4c",
+      "crop": [
+        522,
+        369,
+        682,
+        564
+      ]
+    },
+    {
+      "file": "final-idle-up.jpg",
+      "sha256": "653fd35c8cfc068155cfa22f6c92b008a88c5b3872b6e4867e93b12981cf9f4c",
+      "crop": [
+        522,
+        369,
+        682,
+        564
+      ]
+    }
+  ]
+}

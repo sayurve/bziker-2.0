@@ -1,0 +1,294 @@
+{
+  "status": "awaiting-visual-review",
+  "contact": "contact-g1-pantsColor-00.png",
+  "records": [
+    {
+      "source": "g1-pantsColor-00-up.jpg",
+      "sha256": "33acb7638dcdd8a1740ab0ab054d532aec5244730413022000cb754314da5619",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 0
+    },
+    {
+      "source": "g1-pantsColor-00-left.jpg",
+      "sha256": "d727399f56c2e407d07dcc231d6905df954f0059cfd04a4633412412a0450e04",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 0
+    },
+    {
+      "source": "g1-pantsColor-00-down.jpg",
+      "sha256": "efc50c327911de5ff8cd674778855a8acc68abc40f51619db9baaad0b8e603b3",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 0
+    },
+    {
+      "source": "g1-pantsColor-00-right.jpg",
+      "sha256": "83b286ed9a6d714035f4da530354c37acd58abe61694ed6f24e6ebd4dd2d3f1c",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 0
+    },
+    {
+      "source": "g1-pantsColor-01-up.jpg",
+      "sha256": "80e73e1edb33f52d48a88b8095b5c28d33cb7af118862aecd8052ff9c73f66fb",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 1
+    },
+    {
+      "source": "g1-pantsColor-01-left.jpg",
+      "sha256": "cf61929d7d393eab2f817e05eb0a3a5c73167687bf3812235d67a5afad65513d",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 1
+    },
+    {
+      "source": "g1-pantsColor-01-down.jpg",
+      "sha256": "4aa536a84f1d3e8e5feddb3a64224b534db54d07975d79b8e9344417fa021eda",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 1
+    },
+    {
+      "source": "g1-pantsColor-01-right.jpg",
+      "sha256": "7187cdc901c83018b241f3260975eb460ed4743b40426252a60b296f3938e66b",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 1
+    },
+    {
+      "source": "g1-pantsColor-02-up.jpg",
+      "sha256": "0f889fa37153f5806dacf75d4db7b782c85f27873627a5f41a3f248740d47f2d",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 2
+    },
+    {
+      "source": "g1-pantsColor-02-left.jpg",
+      "sha256": "01be5b79c593183c00a3e2746d257216fc9e5ce2f43c139f4f860af086595a4e",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 2
+    },
+    {
+      "source": "g1-pantsColor-02-down.jpg",
+      "sha256": "742b9a156a177b3c8b8d7c370724eda3a65b17b33141fd23d6635788c8d31dde",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 2
+    },
+    {
+      "source": "g1-pantsColor-02-right.jpg",
+      "sha256": "41d3048051e432c2940da54c8a142d13232d5e670c3b0dcc25465f1ef77eee7a",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 2
+    },
+    {
+      "source": "g1-pantsColor-03-up.jpg",
+      "sha256": "3c83827fa41c14805224d45ade6255415cfd46b52b33580847bb9fcbe977ec5b",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 3
+    },
+    {
+      "source": "g1-pantsColor-03-left.jpg",
+      "sha256": "2372656d8075b903bf594612ab5d682da0497a4688109345f2813c2b198cc46f",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 3
+    },
+    {
+      "source": "g1-pantsColor-03-down.jpg",
+      "sha256": "5f59bbfdf49f4d701cfa7a731aa00f96597edea6c3c06ddadec6fe4c0effde74",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 3
+    },
+    {
+      "source": "g1-pantsColor-03-right.jpg",
+      "sha256": "9421b92a36bf738f4abf90322a521c15a463d4de6f3bd92c068f47783bcc3653",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 3
+    },
+    {
+      "source": "g1-pantsColor-04-up.jpg",
+      "sha256": "fcb85ffd5bbb67f81892e810e945ca0e57b632fd7e8bbfdce1b00f2df00627fa",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 4
+    },
+    {
+      "source": "g1-pantsColor-04-left.jpg",
+      "sha256": "9e79703f6d293a29a35a37dba5520031c5eccb1059795b9526c02ac8d62bd181",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 4
+    },
+    {
+      "source": "g1-pantsColor-04-down.jpg",
+      "sha256": "7e007b8088f7ae8b63785a1334ca7151904f8bf71ad2b02e6d0bfb5da3155920",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 4
+    },
+    {
+      "source": "g1-pantsColor-04-right.jpg",
+      "sha256": "00f3b2ecb1fc2e6e1ca9b8349cfbd64e7070839b15ba3f85d510715e021d1480",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 4
+    },
+    {
+      "source": "g1-pantsColor-05-up.jpg",
+      "sha256": "491181225b9b95eae5da783de975fa6b6b4410bc9d2f77ceb9eb862440d05a83",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "up",
+      "value": 5
+    },
+    {
+      "source": "g1-pantsColor-05-left.jpg",
+      "sha256": "aa8a8882269318a7fbc34cafa9b3b6064d3fe065f23551118faa302e7312c98e",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "left",
+      "value": 5
+    },
+    {
+      "source": "g1-pantsColor-05-down.jpg",
+      "sha256": "e992bf66157c5838d57fe68a6ffdef3bbd67aec4400fcde7d4354757f14bbe56",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "down",
+      "value": 5
+    },
+    {
+      "source": "g1-pantsColor-05-right.jpg",
+      "sha256": "49ba92668097ad8f5748b340846d201947024a66ba56596ae2ae60af6b7e2369",
+      "crop": [
+        532,
+        372,
+        672,
+        562
+      ],
+      "direction": "right",
+      "value": 5
+    }
+  ]
+}

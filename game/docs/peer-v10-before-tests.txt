@@ -1,0 +1,25 @@
+✖ one second of remote walking is not compressed into a quarter-second sprint (37.396625ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 128.066333
+
+✖ failing tests:
+
+test at tests/world-lifecycle.test.mjs:412:1
+✖ one second of remote walking is not compressed into a quarter-second sprint (37.396625ms)
+  AssertionError [ERR_ASSERTION]: A remote player must not sprint at four times the ordinary speed
+      at TestContext.<anonymous> (file://$LOCAL_WORKSPACE/.codex/worktrees/bziker-game/%D0%9A%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82/output/bziker/tests/world-lifecycle.test.mjs:419:37)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

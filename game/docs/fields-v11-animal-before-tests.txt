@@ -1,0 +1,34 @@
+✔ open fields have 250–400 additional varied trees across every large map sector (0.914ms)
+✔ the complete new crowns and shadows remain outside all roads and their shoulders and every house entrance (19.47475ms)
+✔ field trees leave buildings, existing trees, lamps, bins and usable activity areas unobscured (16.40825ms)
+✔ tree groups stay inside dry map land with open grass between the complete silhouettes (5.502625ms)
+✔ new flower planters use supported cached sprites beside clear pedestrian routes (1.817292ms)
+✖ all continuous animal routes keep body and complete new tree silhouettes clear, including loop closure (4.360541ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 5
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 120.231083
+
+✖ failing tests:
+
+test at tests/field-trees-v11.test.mjs:73:1
+✖ all continuous animal routes keep body and complete new tree silhouettes clear, including loop closure (4.360541ms)
+  AssertionError [ERR_ASSERTION]: station-cat crosses ground radius of tree-v11-2-2-43
+      at TestContext.<anonymous> (file://$LOCAL_WORKSPACE/.codex/worktrees/bziker-game/%D0%9A%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82/output/bziker/tests/field-trees-v11.test.mjs:81:35)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

@@ -1,0 +1,61 @@
+{
+  "status": "draft",
+  "approved": false,
+  "gender": "female",
+  "action": "idle",
+  "direction": "down",
+  "revision": "v3",
+  "generator": "built-in image_gen",
+  "call_count_for_this_output": 1,
+  "source_path": "/Users/sapp/.codex/generated_images/01a13c9a-6df1-7e23-9234-eccad2b4ad49/exec-8746bca4-ab8c-4e95-9112-ebabd88c44f7.png",
+  "primary_identity_and_proportion_reference": "art/references/canonical-run/female-run-down-native.png",
+  "pose_target_only": "art/drafts/canonical-idle-v2/female-idle-down.png",
+  "male_idle_reference_used": false,
+  "rejected_third_screenshot_used": false,
+  "actual_size": [
+    1150,
+    1367
+  ],
+  "requested_size": [
+    1150,
+    1367
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "alpha_bbox": [
+    33,
+    70,
+    1073,
+    1325
+  ],
+  "alpha_bbox_ge_128": [
+    319,
+    325,
+    828,
+    1224
+  ],
+  "opaque_height_ge_128": 899,
+  "unmodified_generated_bytes": true,
+  "sha256": "fd85f204c7676701954dd4233a900586e02c1c6804cb7904294608994c52904c",
+  "postprocess": "none — original output bytes copied; no crop, resize, repaint or body-part operation",
+  "prompt_path": "female-idle-down-v3.prompt.txt",
+  "visual_inspection": {
+    "view_image_performed": true,
+    "observations": [
+      "True front/down woman, wavy chestnut hair and large eyes retained",
+      "Grey jacket, light shirt, black trousers and boots; arms down and both feet planted",
+      "Torso and legs visibly shorter than previous female down",
+      "Hair/face absolute apparent scale changes less than whole body proportions"
+    ],
+    "limitations": [
+      "Not approved; original four-direction female set remains art-review FAIL",
+      "At the unchanged shared scale, the revised raw figure is shorter (899 vs 961 source pixels), so new common-scale registration and native comparison are needed",
+      "No compiler/data/runtime assets modified; no independent claim of pixel-identical face fidelity"
+    ],
+    "status": "draft — no art PASS"
+  },
+  "registration_status": "not registered; compiler/data/assets unchanged",
+  "art_review": "draft, no PASS implied"
+}

@@ -1,0 +1,12 @@
+{
+  "integrity": "ok",
+  "table_counts": {
+    "accounts": 20,
+    "clans": 4,
+    "lobbies": 5,
+    "card_tables": 0,
+    "inventory": 4,
+    "world_positions": 1
+  },
+  "backup": "data/before-interiors-v8-20261009.db"
+}

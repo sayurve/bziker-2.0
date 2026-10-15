@@ -1,0 +1,8 @@
+import{createRequire}from'node:module';import{fileURLToPath}from'node:url';import{readFile,writeFile}from'node:fs/promises';import{loadSourceActor,drawSourceAvatarCanvas,sourceActorFrame}from'../../game/web/source-actors.js';import{defaultAvatar,parts}from'../../game/web/avatar.js';
+const{createCanvas,loadImage}=createRequire(process.execPath)('@napi-rs/canvas'),root=new URL('../../game/',import.meta.url);await loadSourceActor('human-female',{createCanvas,loadImage:p=>loadImage(fileURLToPath(new URL(p.replace(/^\//,''),root)))});
+const rows=JSON.parse(await readFile(new URL('registration-colors.json',import.meta.url),'utf8')),out=[];
+for(const row of rows.filter(x=>['C','L'].includes(x.kind)&&x.path.includes('-fine.png'))){
+ const phase=row.kind==='L'?Number(row.path.match(/-(\d)-fine\.png$/)[1]):0,o={facing:row.direction,walking:row.kind==='L',running:row.kind==='L',walkFrame:phase*2},frame=sourceActorFrame({...defaultAvatar,gender:1},o),ctx=createCanvas(96,128).getContext('2d');if(!drawSourceAvatarCanvas(ctx,{...defaultAvatar,gender:1},parts,0,0,{scale:2,...o}))throw Error('not loaded');const p=ctx.getImageData(0,0,96,128).data;
+ for(const point of row.points){const n=(point.y*96+point.x)*4,rgba=[...p.slice(n,n+4)];out.push({path:row.path,frame:frame.id,frameIndex:frame.frameIndex,...point,runtimeRGBA:rgba,excluded:rgba[3]===0});}
+}
+await writeFile(new URL('runtime.json',import.meta.url),JSON.stringify({points:out.length,allExcluded:out.every(x=>x.excluded),rows:out},null,2)+'\n');console.log({points:out.length,allExcluded:out.every(x=>x.excluded),remaining:out.filter(x=>!x.excluded)});

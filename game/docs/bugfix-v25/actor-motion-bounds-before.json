@@ -1,0 +1,365 @@
+{
+  "note": "Initial RGB diagnostic only: warmColourCandidateWidth includes other warm pixels and is not anatomical head width. Use the native contact sheets for silhouettes and actor-motion-evidence-after.json for exact opaque body bounds.",
+  "measurements": [
+    {
+      "gender": 0,
+      "facing": "down",
+      "phase": -1,
+      "top": 11,
+      "bottom": 125,
+      "frameId": "01_На_месте",
+      "warmColourCandidateWidth": 52
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "phase": 0,
+      "top": 11,
+      "bottom": 125,
+      "frameId": "06_Бег_Спереди",
+      "warmColourCandidateWidth": 57
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "phase": 1,
+      "top": 11,
+      "bottom": 125,
+      "frameId": "06_Бег_Спереди",
+      "warmColourCandidateWidth": 57
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "phase": 2,
+      "top": 11,
+      "bottom": 125,
+      "frameId": "06_Бег_Спереди",
+      "warmColourCandidateWidth": 58
+    },
+    {
+      "gender": 0,
+      "facing": "down",
+      "phase": 3,
+      "top": 11,
+      "bottom": 125,
+      "frameId": "06_Бег_Спереди",
+      "warmColourCandidateWidth": 55
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "phase": -1,
+      "top": 11,
+      "bottom": 125,
+      "frameId": "03_Ходьба_Справа",
+      "warmColourCandidateWidth": 51
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "phase": 0,
+      "top": 11,
+      "bottom": 125,
+      "frameId": "07_Бег_Справа",
+      "warmColourCandidateWidth": 59
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "phase": 1,
+      "top": 11,
+      "bottom": 125,
+      "frameId": "07_Бег_Справа",
+      "warmColourCandidateWidth": 54
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "phase": 2,
+      "top": 11,
+      "bottom": 125,
+      "frameId": "07_Бег_Справа",
+      "warmColourCandidateWidth": 58
+    },
+    {
+      "gender": 0,
+      "facing": "right",
+      "phase": 3,
+      "top": 11,
+      "bottom": 125,
+      "frameId": "07_Бег_Справа",
+      "warmColourCandidateWidth": 51
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "phase": -1,
+      "top": 9,
+      "bottom": 125,
+      "frameId": "04_Ходьба_Сзади",
+      "warmColourCandidateWidth": 52
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "phase": 0,
+      "top": 11,
+      "bottom": 125,
+      "frameId": "08_Бег_Сзади",
+      "warmColourCandidateWidth": 55
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "phase": 1,
+      "top": 12,
+      "bottom": 125,
+      "frameId": "08_Бег_Сзади",
+      "warmColourCandidateWidth": 55
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "phase": 2,
+      "top": 11,
+      "bottom": 125,
+      "frameId": "08_Бег_Сзади",
+      "warmColourCandidateWidth": 56
+    },
+    {
+      "gender": 0,
+      "facing": "up",
+      "phase": 3,
+      "top": 11,
+      "bottom": 125,
+      "frameId": "08_Бег_Сзади",
+      "warmColourCandidateWidth": 54
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "phase": -1,
+      "top": 11,
+      "bottom": 125,
+      "frameId": "05_Ходьба_Слева",
+      "warmColourCandidateWidth": 51
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "phase": 0,
+      "top": 12,
+      "bottom": 125,
+      "frameId": "09_Бег_Слева",
+      "warmColourCandidateWidth": 51
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "phase": 1,
+      "top": 9,
+      "bottom": 125,
+      "frameId": "09_Бег_Слева",
+      "warmColourCandidateWidth": 52
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "phase": 2,
+      "top": 11,
+      "bottom": 124,
+      "frameId": "09_Бег_Слева",
+      "warmColourCandidateWidth": 54
+    },
+    {
+      "gender": 0,
+      "facing": "left",
+      "phase": 3,
+      "top": 10,
+      "bottom": 125,
+      "frameId": "09_Бег_Слева",
+      "warmColourCandidateWidth": 49
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "phase": -1,
+      "top": 21,
+      "bottom": 125,
+      "frameId": "01_На_месте",
+      "warmColourCandidateWidth": 66
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "phase": 0,
+      "top": 21,
+      "bottom": 125,
+      "frameId": "06_Бег_Спереди",
+      "warmColourCandidateWidth": 66
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "phase": 1,
+      "top": 21,
+      "bottom": 125,
+      "frameId": "06_Бег_Спереди",
+      "warmColourCandidateWidth": 60
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "phase": 2,
+      "top": 21,
+      "bottom": 125,
+      "frameId": "06_Бег_Спереди",
+      "warmColourCandidateWidth": 60
+    },
+    {
+      "gender": 1,
+      "facing": "down",
+      "phase": 3,
+      "top": 19,
+      "bottom": 125,
+      "frameId": "06_Бег_Спереди",
+      "warmColourCandidateWidth": 61
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "phase": -1,
+      "top": 15,
+      "bottom": 125,
+      "frameId": "03_Ходьба_Справа",
+      "warmColourCandidateWidth": 57
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "phase": 0,
+      "top": 20,
+      "bottom": 125,
+      "frameId": "07_Бег_Справа",
+      "warmColourCandidateWidth": 57
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "phase": 1,
+      "top": 21,
+      "bottom": 125,
+      "frameId": "07_Бег_Справа",
+      "warmColourCandidateWidth": 60
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "phase": 2,
+      "top": 20,
+      "bottom": 125,
+      "frameId": "07_Бег_Справа",
+      "warmColourCandidateWidth": 57
+    },
+    {
+      "gender": 1,
+      "facing": "right",
+      "phase": 3,
+      "top": 20,
+      "bottom": 125,
+      "frameId": "07_Бег_Справа",
+      "warmColourCandidateWidth": 55
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "phase": -1,
+      "top": 15,
+      "bottom": 125,
+      "frameId": "04_Ходьба_Сзади",
+      "warmColourCandidateWidth": 60
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "phase": 0,
+      "top": 16,
+      "bottom": 124,
+      "frameId": "08_Бег_Сзади",
+      "warmColourCandidateWidth": 59
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "phase": 1,
+      "top": 17,
+      "bottom": 125,
+      "frameId": "08_Бег_Сзади",
+      "warmColourCandidateWidth": 59
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "phase": 2,
+      "top": 17,
+      "bottom": 125,
+      "frameId": "08_Бег_Сзади",
+      "warmColourCandidateWidth": 59
+    },
+    {
+      "gender": 1,
+      "facing": "up",
+      "phase": 3,
+      "top": 18,
+      "bottom": 125,
+      "frameId": "08_Бег_Сзади",
+      "warmColourCandidateWidth": 59
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "phase": -1,
+      "top": 15,
+      "bottom": 125,
+      "frameId": "05_Ходьба_Слева",
+      "warmColourCandidateWidth": 56
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "phase": 0,
+      "top": 20,
+      "bottom": 125,
+      "frameId": "09_Бег_Слева",
+      "warmColourCandidateWidth": 58
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "phase": 1,
+      "top": 21,
+      "bottom": 125,
+      "frameId": "09_Бег_Слева",
+      "warmColourCandidateWidth": 60
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "phase": 2,
+      "top": 20,
+      "bottom": 125,
+      "frameId": "09_Бег_Слева",
+      "warmColourCandidateWidth": 58
+    },
+    {
+      "gender": 1,
+      "facing": "left",
+      "phase": 3,
+      "top": 20,
+      "bottom": 125,
+      "frameId": "09_Бег_Слева",
+      "warmColourCandidateWidth": 56
+    }
+  ]
+}

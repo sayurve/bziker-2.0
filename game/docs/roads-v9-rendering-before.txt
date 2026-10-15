@@ -1,0 +1,89 @@
+✖ city preserves both arms of all real intersections (66.256083ms)
+✖ overview preserves both arms of all real intersections (1.514916ms)
+✖ footpaths and forecourts cannot erase an asphalt lane anywhere along the network (25.067875ms)
+✖ street asphalt ownership is independent of road list order (5.411541ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 0
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 166.782375
+
+✖ failing tests:
+
+test at tests/road-rendering-v9.test.mjs:15:32
+✖ city preserves both arms of all real intersections (66.256083ms)
+  AssertionError [ERR_ASSERTION]: asphalt covered at 5720,2560 by #909d93
+      at TestContext.<anonymous> (file://$LOCAL_WORKSPACE/.codex/worktrees/bziker-game/%D0%9A%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82/output/bziker/tests/road-rendering-v9.test.mjs:17:167)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/road-rendering-v9.test.mjs:15:32
+✖ overview preserves both arms of all real intersections (1.514916ms)
+  AssertionError [ERR_ASSERTION]: asphalt covered at 5720,2560 by #909d93
+      at TestContext.<anonymous> (file://$LOCAL_WORKSPACE/.codex/worktrees/bziker-game/%D0%9A%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82/output/bziker/tests/road-rendering-v9.test.mjs:17:167)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/road-rendering-v9.test.mjs:19:1
+✖ footpaths and forecourts cannot erase an asphalt lane anywhere along the network (25.067875ms)
+  AssertionError [ERR_ASSERTION]: avenue:0: lane covered at 4714.966777367849,2609.0022148421435 by #c9cec5
+      at TestContext.<anonymous> (file://$LOCAL_WORKSPACE/.codex/worktrees/bziker-game/%D0%9A%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82/output/bziker/tests/road-rendering-v9.test.mjs:20:270)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/road-rendering-v9.test.mjs:22:1
+✖ street asphalt ownership is independent of road list order (5.411541ms)
+  AssertionError [ERR_ASSERTION]: avenue:2 changes material when reordered
+  + actual - expected
+
+  + '#c9cec5'
+  - '#596266'
+
+      at TestContext.<anonymous> (file://$LOCAL_WORKSPACE/.codex/worktrees/bziker-game/%D0%9A%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82/output/bziker/tests/road-rendering-v9.test.mjs:23:239)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: '#c9cec5',
+    expected: '#596266',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

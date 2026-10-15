@@ -1,0 +1,195 @@
+{
+  "actualGeometry": [
+    {
+      "actor": "human-male",
+      "facing": "down",
+      "sourceSize": [
+        1150,
+        1367
+      ],
+      "sourceOpaqueAlphaBounds": [
+        344,
+        189,
+        800,
+        1244
+      ],
+      "alphaThreshold": 128,
+      "projectedFineBounds": [
+        23.45625,
+        14.012500000000003,
+        71.90625,
+        126.10625
+      ],
+      "clipped": false
+    },
+    {
+      "actor": "human-male",
+      "facing": "left",
+      "sourceSize": [
+        1150,
+        1367
+      ],
+      "sourceOpaqueAlphaBounds": [
+        353,
+        191,
+        801,
+        1235
+      ],
+      "alphaThreshold": 128,
+      "projectedFineBounds": [
+        24.4125,
+        15.075000000000003,
+        72.0125,
+        126
+      ],
+      "clipped": false
+    },
+    {
+      "actor": "human-male",
+      "facing": "right",
+      "sourceSize": [
+        1150,
+        1367
+      ],
+      "sourceOpaqueAlphaBounds": [
+        346,
+        169,
+        804,
+        1253
+      ],
+      "alphaThreshold": 128,
+      "projectedFineBounds": [
+        23.66875,
+        10.825000000000003,
+        72.33125,
+        126
+      ],
+      "clipped": false
+    },
+    {
+      "actor": "human-male",
+      "facing": "up",
+      "sourceSize": [
+        1085,
+        1449
+      ],
+      "sourceOpaqueAlphaBounds": [
+        322,
+        236,
+        762,
+        1299
+      ],
+      "alphaThreshold": 128,
+      "projectedFineBounds": [
+        24.625,
+        13.056250000000006,
+        71.375,
+        126
+      ],
+      "clipped": false
+    },
+    {
+      "actor": "human-female",
+      "facing": "down",
+      "sourceSize": [
+        1150,
+        1367
+      ],
+      "sourceOpaqueAlphaBounds": [
+        327,
+        286,
+        825,
+        1247
+      ],
+      "alphaThreshold": 128,
+      "projectedFineBounds": [
+        21.650000000000002,
+        23.893749999999997,
+        74.5625,
+        126
+      ],
+      "clipped": false
+    },
+    {
+      "actor": "human-female",
+      "facing": "left",
+      "sourceSize": [
+        1085,
+        1449
+      ],
+      "sourceOpaqueAlphaBounds": [
+        334,
+        340,
+        771,
+        1344
+      ],
+      "alphaThreshold": 128,
+      "projectedFineBounds": [
+        25.05,
+        19.325000000000003,
+        71.48125,
+        126
+      ],
+      "clipped": false
+    },
+    {
+      "actor": "human-female",
+      "facing": "right",
+      "sourceSize": [
+        1150,
+        1367
+      ],
+      "sourceOpaqueAlphaBounds": [
+        360,
+        315,
+        785,
+        1275
+      ],
+      "alphaThreshold": 128,
+      "projectedFineBounds": [
+        20.90625,
+        24,
+        66.0625,
+        126
+      ],
+      "clipped": false
+    },
+    {
+      "actor": "human-female",
+      "facing": "up",
+      "sourceSize": [
+        1085,
+        1449
+      ],
+      "sourceOpaqueAlphaBounds": [
+        308,
+        317,
+        762,
+        1300
+      ],
+      "alphaThreshold": 128,
+      "projectedFineBounds": [
+        23.88125,
+        21.556250000000006,
+        72.11875,
+        126
+      ],
+      "clipped": false
+    }
+  ],
+  "failureAtomicity": {
+    "error": "Authored root lies outside master up",
+    "before": {
+      "data": "092fce5325868f9728ae8a95e9dabcdcc9a5237b03d2b53f801e8a0afecf759b",
+      "image": "e1f8678543a9043ae8e270853445fc658827ef9c339029dee6235adffe750633"
+    },
+    "after": {
+      "data": "092fce5325868f9728ae8a95e9dabcdcc9a5237b03d2b53f801e8a0afecf759b",
+      "image": "e1f8678543a9043ae8e270853445fc658827ef9c339029dee6235adffe750633"
+    },
+    "oldModuleRetained": true,
+    "oldPngRetained": true
+  },
+  "clippingRejected": "Opaque master would clip the fixed canvas: down",
+  "clippedExportAccepted": false
+}

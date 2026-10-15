@@ -1,0 +1,33 @@
+✔ asset bundle loads explicit full PNGs and retains authored source metadata (3.468625ms)
+✔ unreviewed or draft assets cannot be admitted as production art (0.601625ms)
+✔ a size error removes only newly loaded textures and preserves prior assets (0.310666ms)
+✔ a failed decode leaves no half-loaded outfit and next request can retry (0.356625ms)
+✔ asset paths stay in the bundle and every texture reference is declared (1.321375ms)
+✔ distance clock is independent of rendering frame rate and preserves complete cycles (0.754541ms)
+✔ world movement and pets consume one shared phase rule after accepted travel (0.707ms)
+✔ definition contract exists and returns an immutable isolated value (1.637708ms)
+✔ model requires every authored direction, pose, constant layer canvas and attachments (1.415833ms)
+✔ draft definitions and garments need explicit lab opt-in (1.202667ms)
+✔ garment validates model compatibility, all poses, layer identity and explicit texture reference (2.301ms)
+✔ distance alone selects one frame shared by every layer and direction ordering (1.067875ms)
+✔ repeated state does not restart and timed actions hold final pose (0.418917ms)
+✔ stop and teleport discard movement phase; reduced motion cannot accumulate hidden stride (0.660542ms)
+✔ outfit changes preserve phase and invalid changes leave complete snapshot untouched (4.099875ms)
+✔ Phaser layers use common anchor and one uniform scale without resizing (1.167458ms)
+✔ Phaser missing textures, missing atlas frames and allocation errors roll back whole outfit (2.225084ms)
+✔ outfit preflight checks every pose texture, including currently invisible frames (2.36675ms)
+✔ view rejects mismatched logical frame dimensions before changing children (0.72375ms)
+✔ view releases its own objects without destroying attached foreign objects or shared textures (0.537209ms)
+✔ all poses expose the same named attachment points (0.146166ms)
+✔ timed loops honor authored durations, PNG null frames and outfit clearing retain phase (0.96225ms)
+✔ any looping distance action follows distance and repeated state retains its phase (0.510208ms)
+✔ every provided distance clock requires positive finite cycle and looping action (0.597375ms)
+✔ large page lag clamps a finite timed action to its authored end (0.354792ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 78.49675

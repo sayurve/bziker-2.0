@@ -1,0 +1,55 @@
+✔ the full fine renderer keeps logical48x64, common ground and existing eight-sample four-pose gait (61.006667ms)
+✔ female canonical models retain their own narrower body and slightly lower crown on the same ground (208.694458ms)
+✔ canonical full previews retain the exact fine native PNG palette rather than retired reference or coarse atlas pixels (42.116291ms)
+✔ original reference PNGs and their archived normalized whole poses remain retained byte for byte (2.756875ms)
+✔ all sixteen actual walk poses remain discrete complete frames and each held gait sample uses exactly the same fine raster (291.086375ms)
+✔ appearance IDs remain valid and personal nickname text cannot enter the bitmap (3.158208ms)
+✔ approved running has four native poses per gender with shared ground and no resampling between held phases (228.398792ms)
+✔ all hairstyles preserve actual native white eye pixels in the selected canonical face (216.827584ms)
+✔ continuous progress reuses a finite visible phase raster instead of allocating one bitmap per timestamp (48.8545ms)
+✔ phone preview uses the same real separate item and static body as the fine world renderer across concurrent actions (189.345833ms)
+✔ selected long strands keep their exact fine material across clothing choices (88.590459ms)
+✔ empty, draft and unreviewed locomotion leave normal source run selection unchanged (2.224584ms)
+✔ approved whole poses keep all four native phases, logical canvas and feet anchor (1.690916ms)
+✔ ordinary walk shares approved gait while missing directions and explicit archives retain safe adapters (0.826834ms)
+✔ approved locomotion uses the same accepted-distance clock and resets only at stop or scene transfer (5.928ms)
+✔ actor preload ignores draft motion PNGs and decodes all approved coarse and detail pages (178.936458ms)
+✔ customization and fine native rendering retain their pixels and geometry under a reviewed motion override (232.704959ms)
+✔ missing or malformed facing defaults to the actual approved down idle for both models (189.448792ms)
+✔ ordinary walk and run share the same approved complete L poses and face identity on every model and direction (999.890041ms)
+✔ the imported actor catalog retains all 22 entities and 374 original base actions (37.867291ms)
+✖ whole walking frames advance by discrete source order without moving the feet anchor (54.639792ms)
+✔ phone and food select seated source cycles without dropping the sitting context (0.976458ms)
+✔ animals use deterministic actual breeds and source gait frames at the existing world coordinate (0.517459ms)
+✔ canonical water keeps the reviewed body identity and never stands a seated boat occupant up; original source clips remain explicit archives (0.923375ms)
+✔ every supplied scenario and every animal action is addressable instead of silently becoming idle (6.770458ms)
+✔ untrusted animation identifiers cannot select inherited object properties (0.482209ms)
+✔ source pages are compact PNG atlases with normalized transparent cell bounds (200.058833ms)
+✔ canvas source rendering retains custom hair, skin, clothes and costume identity (339.108292ms)
+✔ loaded head and catalogue previews retain actual native fine pixels with a logical48-wide crop and no torso (353.529125ms)
+✔ face-free headwear retains genuine hair/hat pixels and selected colors while removing the actual face (183.760458ms)
+✔ head-only native canvas equals every fine SVG raster pixel; anonymous jury never reveals selected identity (29.441916ms)
+✔ complete native fine sclera and pupils survive portrait cropping and are absent in the face-free catalogue (14.60525ms)
+✔ world interaction IDs never freeze the authored gait of any ambient animal (1.839625ms)
+✔ interaction IDs also leave the animal reaction clock available (0.10125ms)
+✔ explicit looping human and animal clips wrap elapsed time after any whole cycles (0.645333ms)
+✔ explicit progress one and finite one-shots still hold their ending pose (0.1125ms)
+✔ following pet snaps into the new room instead of interpolating from the old room (0.385042ms)
+✔ following pet still eases ordinary travel and snaps owner teleport or changed pet identity (0.1025ms)
+ℹ tests 38
+ℹ suites 0
+ℹ pass 37
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1776.200792
+
+✖ failing tests:
+
+test at game/tests/source-actors-v17.test.mjs:23:1
+✖ whole walking frames advance by discrete source order without moving the feet anchor (54.639792ms)
+  ReferenceError: sourceActorsData is not defined
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/source-actors-v17.test.mjs:29:35)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)

@@ -1,0 +1,12 @@
+Use case: identity-preserve.
+Asset type: ONE full-body authored pixel-art game sprite of the canonical WOMAN, calm idle, facing screen RIGHT, genuine transparent alpha.
+
+Input image1 is the PRIMARY FEMALE IDENTITY reference: her canonical running view facing right. Input image2 is her canonical opposite-direction run, supporting her hairstyle and identity. Input image3 is the male idle right STYLE/PIXEL-QUALITY/COSTUME reference only. Do not turn her into that man; do not use his short quiff. Do not use any old thin idle.
+
+Translate the woman in image1 into a neutral standing pose. Preserve her wavy chestnut-brown shoulder-length hair with its characteristic flowing curls, large expressive dark eyes, face identity and compact body. Keep her grey jacket over a light T-shirt, black trousers and dark flat boots. Waist slightly narrower than the male style reference, shoulders compact, overall woman about7 percent shorter than the man at the same artistic scale. Keep the same large-head/compact-torso game proportions and bold chunky pixel shading. No realistic elongated anatomy, no thin old idle, no long fashion-model legs, no smooth vector style.
+
+POSE: face clearly screen RIGHT; nose, gaze and boot toes point right. Both arms hang relaxed down beside the hips; no bent running elbows. Both feet planted flat beside each other in a natural narrow stance, soles on the same invisible ground baseline. No stride, no raised knee or foot, no body lean. Draw the appropriate actual side using the female directional references, not a mechanical mirror of the man or opposite image.
+
+CANVAS AND PLACEMENT: exactly1150x1367 transparent canvas. Center figure around x575. Intended top of hair around y250; both bottom soles at y1250. Entire hairstyle, hands and both shoes visible with generous transparent margin. Keep the relative head/body proportions of the female reference and matching pixel-art finish from image3. No crop or zoom.
+
+BACKGROUND: genuine alpha transparency, not painted checkerboard. No floor, no ground shadow, no backdrop, no grid, no crosshair, no labels, no caption or watermark. Exactly one woman and one pose, not a sheet or comparison.

@@ -1,0 +1,316 @@
+{
+  "schema_version": 6,
+  "grid": {
+    "x": 180,
+    "y": 260,
+    "columns": 12,
+    "rows": 8,
+    "cell_width": 70,
+    "cell_height": 58
+  },
+  "palette": [
+    "#141414",
+    "#faf8f2",
+    "#62cdb9",
+    "#7d9de6",
+    "#f2ce61",
+    "#e88d78",
+    "#b697d7",
+    "#ffffff"
+  ],
+  "types": [
+    {
+      "id": "sofa",
+      "label": "Диван",
+      "footprint": {
+        "width": 2,
+        "height": 1
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "seats": [
+        {
+          "x": 35,
+          "y": 47
+        },
+        {
+          "x": 105,
+          "y": 47
+        }
+      ],
+      "solid": true,
+      "legacy_footprint": {
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "id": "desk",
+      "label": "Рабочий стол",
+      "footprint": {
+        "width": 2,
+        "height": 1
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "seats": [],
+      "solid": true,
+      "legacy_footprint": {
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "id": "plant",
+      "label": "Растение",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "seats": [],
+      "solid": true,
+      "legacy_footprint": {
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "id": "board",
+      "label": "Доска",
+      "footprint": {
+        "width": 2,
+        "height": 1
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "seats": [],
+      "solid": true,
+      "legacy_footprint": {
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "id": "chair",
+      "label": "Стул",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "seats": [
+        {
+          "x": 35,
+          "y": 47
+        }
+      ],
+      "solid": true,
+      "legacy_footprint": {
+        "width": 1,
+        "height": 1
+      }
+    },
+    {
+      "id": "armchair",
+      "label": "Кресло",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "seats": [
+        {
+          "x": 35,
+          "y": 47
+        }
+      ],
+      "solid": true
+    },
+    {
+      "id": "bookcase",
+      "label": "Книжный шкаф",
+      "footprint": {
+        "width": 2,
+        "height": 1
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "seats": [],
+      "solid": true
+    },
+    {
+      "id": "bed",
+      "label": "Кровать",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "seats": [
+        {
+          "x": 35,
+          "y": 99
+        }
+      ],
+      "solid": true
+    },
+    {
+      "id": "lamp",
+      "label": "Торшер",
+      "footprint": {
+        "width": 1,
+        "height": 1
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "seats": [],
+      "solid": true
+    },
+    {
+      "id": "counter",
+      "label": "Прилавок",
+      "footprint": {
+        "width": 2,
+        "height": 1
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "seats": [],
+      "solid": true
+    },
+    {
+      "id": "rug",
+      "label": "Ковёр",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "seats": [],
+      "solid": false
+    },
+    {
+      "id": "dining-table",
+      "label": "Обеденный стол",
+      "footprint": {
+        "width": 2,
+        "height": 2
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "seats": [
+        {
+          "x": 35,
+          "y": 98
+        },
+        {
+          "x": 105,
+          "y": 98
+        }
+      ],
+      "solid": true
+    },
+    {
+      "id": "shelf",
+      "label": "Полка",
+      "footprint": {
+        "width": 2,
+        "height": 1
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "seats": [],
+      "solid": true
+    },
+    {
+      "id": "tv",
+      "label": "Телевизор",
+      "footprint": {
+        "width": 2,
+        "height": 1
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "seats": [],
+      "solid": true
+    },
+    {
+      "id": "cabinet",
+      "label": "Тумба",
+      "footprint": {
+        "width": 2,
+        "height": 1
+      },
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "seats": [],
+      "solid": true
+    }
+  ]
+}

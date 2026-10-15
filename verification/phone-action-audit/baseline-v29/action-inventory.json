@@ -1,0 +1,3945 @@
+[
+  {
+    "group": "daily",
+    "id": "male-phone-standing-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 9,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-phone-standing-front",
+    "images": [
+      "assets/design-actor-daily-male-phone-standing-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-phone-standing-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 9,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-phone-standing-right",
+    "images": [
+      "assets/design-actor-daily-male-phone-standing-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-phone-standing-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 9,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-phone-standing-back",
+    "images": [
+      "assets/design-actor-daily-male-phone-standing-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-phone-standing-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 8,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-phone-standing-left",
+    "images": [
+      "assets/design-actor-daily-male-phone-standing-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-phone-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 9,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-phone-seated-front",
+    "images": [
+      "assets/design-actor-daily-male-phone-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-phone-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 9,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-phone-seated-right",
+    "images": [
+      "assets/design-actor-daily-male-phone-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-phone-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 9,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-phone-seated-back",
+    "images": [
+      "assets/design-actor-daily-male-phone-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-phone-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 8,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-phone-seated-left",
+    "images": [
+      "assets/design-actor-daily-male-phone-seated-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-call-standing-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 16,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-call-standing-front",
+    "images": [
+      "assets/design-actor-daily-male-call-standing-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-call-standing-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 16,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-call-standing-right",
+    "images": [
+      "assets/design-actor-daily-male-call-standing-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-call-standing-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 12,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-call-standing-back",
+    "images": [
+      "assets/design-actor-daily-male-call-standing-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-call-standing-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 15,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-call-standing-left",
+    "images": [
+      "assets/design-actor-daily-male-call-standing-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-call-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 16,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-call-seated-front",
+    "images": [
+      "assets/design-actor-daily-male-call-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-call-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 16,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-call-seated-right",
+    "images": [
+      "assets/design-actor-daily-male-call-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-call-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 12,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-call-seated-back",
+    "images": [
+      "assets/design-actor-daily-male-call-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-call-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 15,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-call-seated-left",
+    "images": [
+      "assets/design-actor-daily-male-call-seated-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-inventory-standing-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-inventory-standing-front",
+    "images": [
+      "assets/design-actor-daily-male-inventory-standing-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-inventory-standing-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-inventory-standing-right",
+    "images": [
+      "assets/design-actor-daily-male-inventory-standing-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-inventory-standing-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-inventory-standing-back",
+    "images": [
+      "assets/design-actor-daily-male-inventory-standing-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-inventory-standing-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-inventory-standing-left",
+    "images": [
+      "assets/design-actor-daily-male-inventory-standing-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-inventory-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-inventory-seated-front",
+    "images": [
+      "assets/design-actor-daily-male-inventory-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-inventory-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-inventory-seated-right",
+    "images": [
+      "assets/design-actor-daily-male-inventory-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-inventory-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-inventory-seated-back",
+    "images": [
+      "assets/design-actor-daily-male-inventory-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-inventory-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-inventory-seated-left",
+    "images": [
+      "assets/design-actor-daily-male-inventory-seated-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-equip-standing-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 15,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-equip-standing-front",
+    "images": [
+      "assets/design-actor-daily-male-equip-standing-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-equip-standing-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 15,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-equip-standing-right",
+    "images": [
+      "assets/design-actor-daily-male-equip-standing-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-equip-standing-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 15,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-equip-standing-back",
+    "images": [
+      "assets/design-actor-daily-male-equip-standing-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-equip-standing-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 15,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-equip-standing-left",
+    "images": [
+      "assets/design-actor-daily-male-equip-standing-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-equip-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 15,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-equip-seated-front",
+    "images": [
+      "assets/design-actor-daily-male-equip-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-equip-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 15,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-equip-seated-right",
+    "images": [
+      "assets/design-actor-daily-male-equip-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-equip-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 15,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-equip-seated-back",
+    "images": [
+      "assets/design-actor-daily-male-equip-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-equip-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 15,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-equip-seated-left",
+    "images": [
+      "assets/design-actor-daily-male-equip-seated-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-water-standing-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-water-standing-front",
+    "images": [
+      "assets/design-actor-daily-male-water-standing-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-water-standing-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-water-standing-right",
+    "images": [
+      "assets/design-actor-daily-male-water-standing-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-water-standing-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 12,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-water-standing-back",
+    "images": [
+      "assets/design-actor-daily-male-water-standing-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-water-standing-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-water-standing-left",
+    "images": [
+      "assets/design-actor-daily-male-water-standing-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-water-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-water-seated-front",
+    "images": [
+      "assets/design-actor-daily-male-water-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-water-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-water-seated-right",
+    "images": [
+      "assets/design-actor-daily-male-water-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-water-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 12,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-water-seated-back",
+    "images": [
+      "assets/design-actor-daily-male-water-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-water-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-water-seated-left",
+    "images": [
+      "assets/design-actor-daily-male-water-seated-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-soda-standing-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-soda-standing-front",
+    "images": [
+      "assets/design-actor-daily-male-soda-standing-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-soda-standing-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-soda-standing-right",
+    "images": [
+      "assets/design-actor-daily-male-soda-standing-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-soda-standing-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 12,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-soda-standing-back",
+    "images": [
+      "assets/design-actor-daily-male-soda-standing-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-soda-standing-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-soda-standing-left",
+    "images": [
+      "assets/design-actor-daily-male-soda-standing-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-soda-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-soda-seated-front",
+    "images": [
+      "assets/design-actor-daily-male-soda-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-soda-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-soda-seated-right",
+    "images": [
+      "assets/design-actor-daily-male-soda-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-soda-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 12,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-soda-seated-back",
+    "images": [
+      "assets/design-actor-daily-male-soda-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-soda-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-soda-seated-left",
+    "images": [
+      "assets/design-actor-daily-male-soda-seated-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-beer-standing-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-beer-standing-front",
+    "images": [
+      "assets/design-actor-daily-male-beer-standing-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-beer-standing-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-beer-standing-right",
+    "images": [
+      "assets/design-actor-daily-male-beer-standing-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-beer-standing-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 12,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-beer-standing-back",
+    "images": [
+      "assets/design-actor-daily-male-beer-standing-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-beer-standing-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-beer-standing-left",
+    "images": [
+      "assets/design-actor-daily-male-beer-standing-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-beer-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-beer-seated-front",
+    "images": [
+      "assets/design-actor-daily-male-beer-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-beer-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-beer-seated-right",
+    "images": [
+      "assets/design-actor-daily-male-beer-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-beer-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 12,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-beer-seated-back",
+    "images": [
+      "assets/design-actor-daily-male-beer-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-beer-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-beer-seated-left",
+    "images": [
+      "assets/design-actor-daily-male-beer-seated-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-mug-standing-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 7,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-mug-standing-front",
+    "images": [
+      "assets/design-actor-daily-male-mug-standing-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-mug-standing-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 7,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-mug-standing-right",
+    "images": [
+      "assets/design-actor-daily-male-mug-standing-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-mug-standing-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 7,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-mug-standing-back",
+    "images": [
+      "assets/design-actor-daily-male-mug-standing-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-mug-standing-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 7,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-mug-standing-left",
+    "images": [
+      "assets/design-actor-daily-male-mug-standing-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-mug-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 7,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-mug-seated-front",
+    "images": [
+      "assets/design-actor-daily-male-mug-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-mug-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 7,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-mug-seated-right",
+    "images": [
+      "assets/design-actor-daily-male-mug-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-mug-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 7,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-mug-seated-back",
+    "images": [
+      "assets/design-actor-daily-male-mug-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-mug-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 7,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-mug-seated-left",
+    "images": [
+      "assets/design-actor-daily-male-mug-seated-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-smoke-standing-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 76,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-smoke-standing-front",
+    "images": [
+      "assets/design-actor-daily-male-smoke-standing-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-smoke-standing-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 77,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-smoke-standing-right",
+    "images": [
+      "assets/design-actor-daily-male-smoke-standing-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-smoke-standing-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 58,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-smoke-standing-back",
+    "images": [
+      "assets/design-actor-daily-male-smoke-standing-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-smoke-standing-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 76,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-smoke-standing-left",
+    "images": [
+      "assets/design-actor-daily-male-smoke-standing-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-smoke-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 71,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-smoke-seated-front",
+    "images": [
+      "assets/design-actor-daily-male-smoke-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-smoke-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 73,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-smoke-seated-right",
+    "images": [
+      "assets/design-actor-daily-male-smoke-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-smoke-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 51,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-smoke-seated-back",
+    "images": [
+      "assets/design-actor-daily-male-smoke-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "male-smoke-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 72,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#male-smoke-seated-left",
+    "images": [
+      "assets/design-actor-daily-male-smoke-seated-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-phone-standing-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 9,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-phone-standing-front",
+    "images": [
+      "assets/design-actor-daily-female-phone-standing-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-phone-standing-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 9,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-phone-standing-right",
+    "images": [
+      "assets/design-actor-daily-female-phone-standing-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-phone-standing-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 7,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-phone-standing-back",
+    "images": [
+      "assets/design-actor-daily-female-phone-standing-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-phone-standing-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 9,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-phone-standing-left",
+    "images": [
+      "assets/design-actor-daily-female-phone-standing-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-phone-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 9,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-phone-seated-front",
+    "images": [
+      "assets/design-actor-daily-female-phone-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-phone-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 9,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-phone-seated-right",
+    "images": [
+      "assets/design-actor-daily-female-phone-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-phone-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 7,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-phone-seated-back",
+    "images": [
+      "assets/design-actor-daily-female-phone-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-phone-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 9,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-phone-seated-left",
+    "images": [
+      "assets/design-actor-daily-female-phone-seated-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-call-standing-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 16,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-call-standing-front",
+    "images": [
+      "assets/design-actor-daily-female-call-standing-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-call-standing-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 16,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-call-standing-right",
+    "images": [
+      "assets/design-actor-daily-female-call-standing-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-call-standing-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 12,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-call-standing-back",
+    "images": [
+      "assets/design-actor-daily-female-call-standing-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-call-standing-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 16,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-call-standing-left",
+    "images": [
+      "assets/design-actor-daily-female-call-standing-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-call-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 16,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-call-seated-front",
+    "images": [
+      "assets/design-actor-daily-female-call-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-call-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 16,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-call-seated-right",
+    "images": [
+      "assets/design-actor-daily-female-call-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-call-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 12,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-call-seated-back",
+    "images": [
+      "assets/design-actor-daily-female-call-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-call-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 16,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-call-seated-left",
+    "images": [
+      "assets/design-actor-daily-female-call-seated-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-inventory-standing-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-inventory-standing-front",
+    "images": [
+      "assets/design-actor-daily-female-inventory-standing-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-inventory-standing-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-inventory-standing-right",
+    "images": [
+      "assets/design-actor-daily-female-inventory-standing-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-inventory-standing-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-inventory-standing-back",
+    "images": [
+      "assets/design-actor-daily-female-inventory-standing-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-inventory-standing-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-inventory-standing-left",
+    "images": [
+      "assets/design-actor-daily-female-inventory-standing-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-inventory-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-inventory-seated-front",
+    "images": [
+      "assets/design-actor-daily-female-inventory-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-inventory-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-inventory-seated-right",
+    "images": [
+      "assets/design-actor-daily-female-inventory-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-inventory-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-inventory-seated-back",
+    "images": [
+      "assets/design-actor-daily-female-inventory-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-inventory-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-inventory-seated-left",
+    "images": [
+      "assets/design-actor-daily-female-inventory-seated-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-equip-standing-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 15,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-equip-standing-front",
+    "images": [
+      "assets/design-actor-daily-female-equip-standing-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-equip-standing-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 15,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-equip-standing-right",
+    "images": [
+      "assets/design-actor-daily-female-equip-standing-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-equip-standing-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 14,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-equip-standing-back",
+    "images": [
+      "assets/design-actor-daily-female-equip-standing-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-equip-standing-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 15,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-equip-standing-left",
+    "images": [
+      "assets/design-actor-daily-female-equip-standing-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-equip-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 15,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-equip-seated-front",
+    "images": [
+      "assets/design-actor-daily-female-equip-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-equip-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 15,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-equip-seated-right",
+    "images": [
+      "assets/design-actor-daily-female-equip-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-equip-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 14,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-equip-seated-back",
+    "images": [
+      "assets/design-actor-daily-female-equip-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-equip-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 15,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-equip-seated-left",
+    "images": [
+      "assets/design-actor-daily-female-equip-seated-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-water-standing-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-water-standing-front",
+    "images": [
+      "assets/design-actor-daily-female-water-standing-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-water-standing-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-water-standing-right",
+    "images": [
+      "assets/design-actor-daily-female-water-standing-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-water-standing-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-water-standing-back",
+    "images": [
+      "assets/design-actor-daily-female-water-standing-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-water-standing-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-water-standing-left",
+    "images": [
+      "assets/design-actor-daily-female-water-standing-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-water-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-water-seated-front",
+    "images": [
+      "assets/design-actor-daily-female-water-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-water-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-water-seated-right",
+    "images": [
+      "assets/design-actor-daily-female-water-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-water-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-water-seated-back",
+    "images": [
+      "assets/design-actor-daily-female-water-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-water-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-water-seated-left",
+    "images": [
+      "assets/design-actor-daily-female-water-seated-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-soda-standing-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-soda-standing-front",
+    "images": [
+      "assets/design-actor-daily-female-soda-standing-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-soda-standing-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-soda-standing-right",
+    "images": [
+      "assets/design-actor-daily-female-soda-standing-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-soda-standing-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-soda-standing-back",
+    "images": [
+      "assets/design-actor-daily-female-soda-standing-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-soda-standing-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-soda-standing-left",
+    "images": [
+      "assets/design-actor-daily-female-soda-standing-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-soda-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-soda-seated-front",
+    "images": [
+      "assets/design-actor-daily-female-soda-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-soda-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-soda-seated-right",
+    "images": [
+      "assets/design-actor-daily-female-soda-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-soda-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-soda-seated-back",
+    "images": [
+      "assets/design-actor-daily-female-soda-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-soda-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-soda-seated-left",
+    "images": [
+      "assets/design-actor-daily-female-soda-seated-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-beer-standing-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-beer-standing-front",
+    "images": [
+      "assets/design-actor-daily-female-beer-standing-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-beer-standing-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-beer-standing-right",
+    "images": [
+      "assets/design-actor-daily-female-beer-standing-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-beer-standing-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-beer-standing-back",
+    "images": [
+      "assets/design-actor-daily-female-beer-standing-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-beer-standing-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-beer-standing-left",
+    "images": [
+      "assets/design-actor-daily-female-beer-standing-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-beer-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-beer-seated-front",
+    "images": [
+      "assets/design-actor-daily-female-beer-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-beer-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-beer-seated-right",
+    "images": [
+      "assets/design-actor-daily-female-beer-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-beer-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 11,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-beer-seated-back",
+    "images": [
+      "assets/design-actor-daily-female-beer-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-beer-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 13,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-beer-seated-left",
+    "images": [
+      "assets/design-actor-daily-female-beer-seated-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-mug-standing-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 7,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-mug-standing-front",
+    "images": [
+      "assets/design-actor-daily-female-mug-standing-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-mug-standing-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 7,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-mug-standing-right",
+    "images": [
+      "assets/design-actor-daily-female-mug-standing-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-mug-standing-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 7,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-mug-standing-back",
+    "images": [
+      "assets/design-actor-daily-female-mug-standing-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-mug-standing-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 7,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-mug-standing-left",
+    "images": [
+      "assets/design-actor-daily-female-mug-standing-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-mug-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 7,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-mug-seated-front",
+    "images": [
+      "assets/design-actor-daily-female-mug-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-mug-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 7,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-mug-seated-right",
+    "images": [
+      "assets/design-actor-daily-female-mug-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-mug-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 7,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-mug-seated-back",
+    "images": [
+      "assets/design-actor-daily-female-mug-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-mug-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 7,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-mug-seated-left",
+    "images": [
+      "assets/design-actor-daily-female-mug-seated-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-smoke-standing-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 77,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-smoke-standing-front",
+    "images": [
+      "assets/design-actor-daily-female-smoke-standing-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-smoke-standing-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 77,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-smoke-standing-right",
+    "images": [
+      "assets/design-actor-daily-female-smoke-standing-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-smoke-standing-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 29,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-smoke-standing-back",
+    "images": [
+      "assets/design-actor-daily-female-smoke-standing-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-smoke-standing-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 77,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-smoke-standing-left",
+    "images": [
+      "assets/design-actor-daily-female-smoke-standing-left-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-smoke-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 72,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-smoke-seated-front",
+    "images": [
+      "assets/design-actor-daily-female-smoke-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-smoke-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 73,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-smoke-seated-right",
+    "images": [
+      "assets/design-actor-daily-female-smoke-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-smoke-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 22,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-smoke-seated-back",
+    "images": [
+      "assets/design-actor-daily-female-smoke-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "daily",
+    "id": "female-smoke-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 72,
+    "embeddedProps": true,
+    "sourceKey": "06_Повседневные_действия/каталог.json#female-smoke-seated-left",
+    "images": [
+      "assets/design-actor-daily-female-smoke-seated-left-1.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-pickup-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-pickup-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-pickup-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-pickup-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-pickup-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-pickup-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-pickup-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-pickup-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-pocket-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-pocket-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-pocket-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-pocket-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-pocket-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-pocket-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-pocket-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-pocket-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-give-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-give-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-give-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-give-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-give-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-give-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-give-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-give-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-receive-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-receive-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-receive-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-receive-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-receive-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-receive-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-receive-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-receive-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-pet-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-pet-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-pet-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-pet-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-pet-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-pet-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-pet-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-pet-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-bowl-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-bowl-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-bowl-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-bowl-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-bowl-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-bowl-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-bowl-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-bowl-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-call-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-call-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-call-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-call-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-call-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-call-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-call-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-call-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-carry-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-carry-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-carry-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-carry-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-carry-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-carry-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-carry-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-carry-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-sit-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-sit-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-sit-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-sit-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-sit-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-sit-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-sit-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-sit-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-seated-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-seated-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-seated-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-seated-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-stand-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-stand-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-stand-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-stand-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-stand-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-stand-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-stand-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-stand-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-step-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-step-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-step-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-step-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-step-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-step-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-step-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-step-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-door-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-door-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-door-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-door-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-door-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-door-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-door-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-door-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-counter-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-counter-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-counter-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-counter-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-counter-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-counter-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-counter-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-counter-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-talk-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-talk-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-talk-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-talk-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-talk-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-talk-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-talk-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-talk-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-smoke-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-smoke-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-smoke-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-smoke-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-smoke-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-smoke-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-smoke-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-smoke-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-eat-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-eat-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-eat-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-eat-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-eat-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-eat-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-eat-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-eat-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-drink-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-drink-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-drink-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-drink-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-drink-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-drink-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-drink-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-drink-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-water-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-water-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-water-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-water-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-water-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-water-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-water-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-water-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-handshake-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-handshake-front",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-handshake-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-handshake-right",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-handshake-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-handshake-back",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "male-handshake-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-handshake-left",
+    "images": [
+      "assets/design-actor-gestures-male-1.png",
+      "assets/design-actor-gestures-male-2.png",
+      "assets/design-actor-gestures-male-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-pickup-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-pickup-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-pickup-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-pickup-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-pickup-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-pickup-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-pickup-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-pickup-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-pocket-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-pocket-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-pocket-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-pocket-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-pocket-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-pocket-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-pocket-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-pocket-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-give-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-give-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-give-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-give-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-give-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-give-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-give-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-give-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-receive-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-receive-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-receive-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-receive-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-receive-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-receive-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-receive-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-receive-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-pet-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-pet-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-pet-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-pet-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-pet-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-pet-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-pet-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-pet-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-bowl-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-bowl-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-bowl-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-bowl-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-bowl-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-bowl-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-bowl-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-bowl-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-call-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-call-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-call-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-call-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-call-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-call-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-call-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-call-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-carry-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-carry-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-carry-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-carry-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-carry-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-carry-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-carry-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-carry-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-sit-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-sit-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-sit-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-sit-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-sit-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-sit-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-sit-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-sit-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-seated-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-seated-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-seated-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-seated-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-stand-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-stand-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-stand-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-stand-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-stand-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-stand-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-stand-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-stand-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-step-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-step-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-step-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-step-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-step-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-step-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-step-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-step-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-door-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-door-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-door-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-door-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-door-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-door-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-door-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-door-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-counter-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-counter-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-counter-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-counter-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-counter-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-counter-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-counter-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-counter-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-talk-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-talk-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-talk-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-talk-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-talk-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-talk-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-talk-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-talk-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-smoke-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-smoke-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-smoke-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-smoke-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-smoke-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-smoke-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-smoke-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-smoke-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-eat-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-eat-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-eat-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-eat-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-eat-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-eat-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-eat-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-eat-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-drink-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-drink-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-drink-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-drink-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-drink-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-drink-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-drink-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-drink-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-water-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-water-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-water-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-water-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-water-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-water-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-water-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-water-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-handshake-front",
+    "context": "standing",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-handshake-front",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-handshake-right",
+    "context": "standing",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-handshake-right",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-handshake-back",
+    "context": "standing",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-handshake-back",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "gestures",
+    "id": "female-handshake-left",
+    "context": "standing",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-handshake-left",
+    "images": [
+      "assets/design-actor-gestures-female-1.png",
+      "assets/design-actor-gestures-female-2.png",
+      "assets/design-actor-gestures-female-3.png"
+    ]
+  },
+  {
+    "group": "water",
+    "id": "female-water",
+    "context": "seated",
+    "direction": "right",
+    "frames": 16,
+    "sourceKey": "02_Персонажи/Женщина/Взаимодействия/06_Рыбалка/Игровой_атлас.png",
+    "images": [
+      "assets/design-actor-water-female-1.png"
+    ]
+  },
+  {
+    "group": "water",
+    "id": "male-fishing",
+    "context": "seated",
+    "direction": "right",
+    "frames": 12,
+    "embeddedProps": true,
+    "sourceKey": "01_Окружение/Водоём/07_Рыбалка/кадры_персонажа_12.png",
+    "images": [
+      "assets/design-actor-water-male-fishing-1.png"
+    ]
+  },
+  {
+    "group": "water",
+    "id": "male-boat",
+    "context": "seated",
+    "direction": "right",
+    "frames": 12,
+    "embeddedProps": true,
+    "sourceKey": "01_Окружение/Водоём/06_Лодка/подход_посадка_управление_12.png",
+    "images": [
+      "assets/design-actor-water-male-boat-1.png"
+    ]
+  },
+  {
+    "group": "water",
+    "id": "male-fish-pocket",
+    "context": "seated",
+    "direction": "right",
+    "frames": 8,
+    "embeddedProps": true,
+    "sourceKey": "01_Окружение/Водоём/07_Рыбалка/рыба_в_руке_и_карман_8.png",
+    "images": [
+      "assets/design-actor-water-male-fish-pocket-1.png"
+    ]
+  },
+  {
+    "group": "composites",
+    "id": "male-eat-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-seat-eat-front",
+    "images": [
+      "assets/design-actor-composite-male-eat-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "composites",
+    "id": "male-eat-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-seat-eat-right",
+    "images": [
+      "assets/design-actor-composite-male-eat-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "composites",
+    "id": "male-eat-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-seat-eat-back",
+    "images": [
+      "assets/design-actor-composite-male-eat-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "composites",
+    "id": "male-eat-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#male-seat-eat-left",
+    "images": [
+      "assets/design-actor-composite-male-eat-seated-left-1.png"
+    ]
+  },
+  {
+    "group": "composites",
+    "id": "female-eat-seated-front",
+    "context": "seated",
+    "direction": "front",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-seat-eat-front",
+    "images": [
+      "assets/design-actor-composite-female-eat-seated-front-1.png"
+    ]
+  },
+  {
+    "group": "composites",
+    "id": "female-eat-seated-right",
+    "context": "seated",
+    "direction": "right",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-seat-eat-right",
+    "images": [
+      "assets/design-actor-composite-female-eat-seated-right-1.png"
+    ]
+  },
+  {
+    "group": "composites",
+    "id": "female-eat-seated-back",
+    "context": "seated",
+    "direction": "back",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-seat-eat-back",
+    "images": [
+      "assets/design-actor-composite-female-eat-seated-back-1.png"
+    ]
+  },
+  {
+    "group": "composites",
+    "id": "female-eat-seated-left",
+    "context": "seated",
+    "direction": "left",
+    "frames": 4,
+    "sourceKey": "05_Взаимодействия/сцены.json#female-seat-eat-left",
+    "images": [
+      "assets/design-actor-composite-female-eat-seated-left-1.png"
+    ]
+  }
+]

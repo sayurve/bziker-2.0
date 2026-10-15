@@ -1,0 +1,34 @@
+✔ changing hair never deletes the genuine fine skin hidden by a brown coarse sample (169.831958ms)
+✔ native eyes retain every bright eye pixel through all 12 hairstyles and motion directions (4475.944917ms)
+✔ native rear and side ear skin survives every hairstyle without turning into white hair (427.9035ms)
+✔ short rear styles preserve the genuine native lower nape until a reviewed hidden-neck layer exists (1323.02475ms)
+✔ all native hairstyle phases keep a transparent safety edge without resizing the head or actor (4211.4845ms)
+✔ all 12 hairstyles preserve every opaque native authored face pixel on current approved idle and running heads (5999.911541ms)
+✔ missing or malformed facing defaults to the actual approved down idle for both models (227.20475ms)
+✔ ordinary walk and run share the same approved complete L poses and face identity on every model and direction (1950.852667ms)
+✔ stance uses actual opaque trash centre and the final squat prop socket for both models/all facings (49.472833ms)
+✔ pickup begins only at contact pose; ground and interaction disappear at contact, and return with a new day snapshot (0.499416ms)
+✔ actual mountWorld walks a bounded collision-checked path and awaits accepted server position before one pickup (918.374333ms)
+✔ server rejection, manual movement, phone opening, and cancellation during move await never pick remotely (1365.954916ms)
+✔ actual native ground paper pixels and mount floor node disappear at contact, survive stale GET, and return next day (187.802042ms)
+✔ a late previous-day movement response cannot restore yesterday collected IDs after a fresh empty day (165.625709ms)
+✔ a late previous-day action result cannot roll back collection, current action, holding or snapshot clock (161.9165ms)
+✔ ONE H7 gender0 down: the actual C head/hair stays pixel-identical through four real L bodies (740.8405ms)
+✔ ONE H7 gender0 up: the actual C head/hair stays pixel-identical through four real L bodies (453.614709ms)
+✔ ONE H7 gender0 left: the actual C head/hair stays pixel-identical through four real L bodies (455.073708ms)
+✔ ONE H7 gender0 right: the actual C head/hair stays pixel-identical through four real L bodies (314.362709ms)
+✔ ONE H7 gender1 down: the actual C head/hair stays pixel-identical through four real L bodies (308.60025ms)
+✔ ONE H7 gender1 up: the actual C head/hair stays pixel-identical through four real L bodies (245.689584ms)
+✔ ONE H7 gender1 left: the actual C head/hair stays pixel-identical through four real L bodies (282.570959ms)
+✔ ONE H7 gender1 right: the actual C head/hair stays pixel-identical through four real L bodies (196.339042ms)
+✔ both models retain exact existing native locomotion for other hairstyles (1625.275416ms)
+✔ RIGHT collar seam uses only eight real customized C samples and keeps existing opaque body pixels (88.11475ms)
+✔ static H7 heads preserve every original native moving trash palm for both models and all16 body phases (164.588167ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 26
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 17209.441209

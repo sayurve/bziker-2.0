@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "scope": "File inventory, actual SHA-256 bytes, provenance and independent files only",
+  "file_count": 331189,
+  "total_bytes": 16327102047,
+  "draft_file_count": 20,
+  "source_unchanged": true,
+  "source_writes_performed": false,
+  "art_approved": false,
+  "visual_quality_checked": false,
+  "physical_phone_checked": false,
+  "errors": [],
+  "elapsed_seconds": 125.86
+}

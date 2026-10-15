@@ -1,0 +1,28 @@
+{
+  "audit_version": 2,
+  "method": {
+    "renderer": "drawSourceEntity + preloadDesignViews",
+    "canvas": "@napi-rs/canvas",
+    "opaque_alpha_minimum": 160,
+    "tree_selection": "membership in map.decor.trees"
+  },
+  "map_sha": "6edc5160487a5f1a26de9dcc7ea0e1f4f5b681d79d9fcda1cee17f2f1d7b29bb",
+  "final_map_sha": "6edc5160487a5f1a26de9dcc7ea0e1f4f5b681d79d9fcda1cee17f2f1d7b29bb",
+  "snapshot_stable": true,
+  "schema": 21,
+  "counts": {
+    "lots": 6,
+    "cars": 30,
+    "driveways": 6,
+    "mapTrees": 310,
+    "sceneTrees": 310,
+    "nativelyRenderedTrees": 310,
+    "lamps": 61,
+    "pairs": 17,
+    "treePairCandidates": 2
+  },
+  "lotProblems": [],
+  "carProblems": [],
+  "driveProblems": [],
+  "opaqueOverlaps": []
+}

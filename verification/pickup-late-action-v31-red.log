@@ -1,0 +1,34 @@
+✔ stance uses actual opaque trash centre and the final squat prop socket for both models/all facings (24.674375ms)
+✔ pickup begins only at contact pose; ground and interaction disappear at contact, and return with a new day snapshot (0.4795ms)
+✔ actual mountWorld walks a bounded collision-checked path and awaits accepted server position before one pickup (359.019417ms)
+✔ server rejection, manual movement, phone opening, and cancellation during move await never pick remotely (734.052625ms)
+✔ actual native ground paper pixels and mount floor node disappear at contact, survive stale GET, and return next day (150.176792ms)
+✔ a late previous-day movement response cannot restore yesterday collected IDs after a fresh empty day (102.371708ms)
+✖ a late previous-day action result cannot roll back collection, current action, holding or snapshot clock (138.19725ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 6
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1846.733334
+
+✖ failing tests:
+
+test at game/tests/pickup-stance-v31.test.mjs:56:1
+✖ a late previous-day action result cannot roll back collection, current action, holding or snapshot clock (138.19725ms)
+  AssertionError [ERR_ASSERTION]: older action must not replace a newer accepted snapshot
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///Users/sapp/Desktop/%D0%98%D0%B3%D1%80%D0%B0/Bzikert%202.0/game/tests/pickup-stance-v31.test.mjs:61:9)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

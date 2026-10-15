@@ -1,0 +1,47 @@
+✔ open map ground is grass even outside the old pocket lawns and city rectangle (18.450375ms)
+✔ every public door and clan plot has a clear forecourt and a road-connected path (8.464417ms)
+✔ access paths do not cut through another house or apartment footprint (8.337542ms)
+✔ zebra crossings follow a real road segment and keep all stripes inside its asphalt edges (8.549209ms)
+✔ crossing paint is drawn after plazas so the square cannot erase half a crossing (5.966417ms)
+✔ mini-map draws the same grass, asphalt and access geometry as the outdoor renderer (6.581ms)
+✔ ground planning preserves saved geometry and handles zero-length road edges (6.50975ms)
+✔ house paths meet sidewalks with flat ends and the forecourt hides interior curb seams (8.995708ms)
+✔ every building footprint is clear of the entire street and sidewalk band (3.379083ms)
+✔ outer district street retains its two continuous road junctions and fits inside the map (0.6175ms)
+✔ waterfront pavement keeps its whole width plus a visible shore margin outside water (1.211416ms)
+✔ all fixed physical city supports remain clear of buildings, entrances and asphalt (17.690083ms)
+✔ generated bike racks and the plaza inscription sit on pavement outside asphalt (0.734375ms)
+✔ rendered house side planes remain outside asphalt (0.755458ms)
+✔ generated planter bases, sign posts and public furniture do not occupy asphalt (1.156875ms)
+✔ every authored road, footpath and generated door approach has a dry body-sized corridor (12.727875ms)
+✔ walking every road and all public/clan approaches in both directions never blocks or resets the player (25.182875ms)
+✔ all 19 outdoor doors have clear action targets and both slots of every bench can be left in every direction (1.427625ms)
+✔ city smoking platform has no path curb or diagonal paving seams through its interior (22.564125ms)
+✔ overview smoking platform has no path curb or diagonal paving seams through its interior (15.170583ms)
+✔ public paths join each other without leaving an interior curb at their shared mouth (7.566666ms)
+✔ a walkway mouth cannot paint its cap curb over the adjoining street sidewalk (1.279083ms)
+✔ every current sidewalk, public path, 19 approach and paved square has a curb-free walking interior in both renders (535.152042ms)
+✔ city preserves both arms of all real intersections (1097.0585ms)
+✔ overview preserves both arms of all real intersections (24.4785ms)
+✔ footpaths and forecourts cannot erase an asphalt lane anywhere along the network (983.553708ms)
+✔ street asphalt ownership is independent of road list order (10.573ms)
+✔ all visible front planters remain outside asphalt and clear of entrances (24.218416ms)
+✔ zebras keep their complete paint and landings clear of every branch (0.266666ms)
+✔ short front approaches reach the sidewalk without overshooting and doubling back (0.134459ms)
+✔ road junctions include four touching segment arms at a shared polyline point (1.2295ms)
+✔ T junctions are found in the middle of a through road (0.136875ms)
+✔ walkways, zero length edges, bends within one road, and separate streets do not become road junctions (0.112666ms)
+✔ collinear roads sharing an endpoint produce one connection, not duplicate junctions (0.103625ms)
+✔ the whole current city has six distinct joins between its five streets (1.057917ms)
+✔ crossing intervals leave a full zebra and pedestrian margin clear of a middle T junction (0.26575ms)
+✔ a short space between two junctions is rejected rather than placing a clipped crossing (0.159666ms)
+✔ unrelated junctions do not move a crossing, and short roads have no viable crossing (0.097209ms)
+✔ planning junctions and crossing intervals does not mutate saved road geometry (0.48175ms)
+ℹ tests 39
+ℹ suites 0
+ℹ pass 39
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2215.729834

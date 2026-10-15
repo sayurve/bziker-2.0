@@ -1,0 +1,45 @@
+[
+  {
+    spec: {
+      gender: 0,
+      facing: 'up',
+      action: 'pet',
+      hairStyle: 6,
+      shirtStyle: 0
+    },
+    holes: 0,
+    first: []
+  },
+  {
+    spec: { gender: 1, facing: 'right', action: 'carry', hairStyle: 2 },
+    holes: 55,
+    first: [ [Object], [Object], [Object] ]
+  },
+  {
+    spec: { gender: 1, facing: 'down', action: 'talk', hairStyle: 1 },
+    holes: 40,
+    first: [ [Object], [Object], [Object] ]
+  },
+  {
+    spec: {
+      gender: 1,
+      facing: 'right',
+      phoneOpen: true,
+      hairStyle: 6,
+      shirtStyle: 0
+    },
+    holes: 0,
+    first: []
+  },
+  {
+    spec: {
+      gender: 1,
+      facing: 'down',
+      action: 'inventory',
+      hairStyle: 6,
+      outfit: 6
+    },
+    holes: 20,
+    first: [ [Object], [Object], [Object] ]
+  }
+]

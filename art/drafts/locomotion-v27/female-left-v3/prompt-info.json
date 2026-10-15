@@ -1,0 +1,10 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Edit the target sprite sheet ONLY to make the fully clothed female counterpart of this same game character. This is a matching game model, NOT a new illustration style. Preserve all FOUR exact limb poses, hand positions, shoe ground contacts, pixel clusters, charcoal jacket/pale Tshirt, trousers/shoes and shading from the target. ALL sprites still face LEFT. Change ONLY the body build very subtly: waist 6 percent narrower, shoulders 3 percent narrower. Keep the exact same face, eyes, brown short hair and head size as source; these are a shared avatar face template, no new makeup/eyelashes or identity changes. No new chest details or accessories. Keep stature and root at the same source coordinates in every cell; overall female height is set by uniform scale in the game exporter later. No stretching the image, no changing the camera into a back three-quarter view; maintain the source strict side camera with the pale Tshirt visible at front. Preserve the existing readable alternating limb ownership A/B/C/D and one grounded shoe every frame. Do NOT turn it into four copies of one pose. Same 2x2 layout, true transparent background, no text/shadows. The result must look authored by exactly the same pixel artist as the source male, with only a subtly narrower clothed body.",
+  "referenced_image_paths": [
+    "/Users/sapp/.codex/generated_images/01a11cc3-6744-72b3-ad8a-81b59ea9f091/exec-af38f610-e54c-4144-8bc2-708c1c66f78c.png"
+  ],
+  "transparent_background": true,
+  "source_file": "/Users/sapp/.codex/generated_images/01a11cc3-6744-72b3-ad8a-81b59ea9f091/exec-1631a5a5-a87d-475d-aef1-8b098b09d907.png",
+  "status": "draft"
+}

@@ -1,0 +1,20 @@
+E
+======================================================================
+ERROR: test_character_lab (unittest.loader._FailedTest.test_character_lab)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_character_lab
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/unittest/loader.py", line 426, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/unittest/loader.py", line 367, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "/Users/sapp/Desktop/Игра/Bzikert 2.0/game/tests/test_character_lab.py", line 4, in <module>
+    from server import STATIC,ROOT
+ModuleNotFoundError: No module named 'server'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

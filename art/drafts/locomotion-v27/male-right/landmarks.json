@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "status": "draft",
+  "anatomyReview": "not-accepted: opposite passing ownership not established in phase3",
+  "coordinateSpace": "each untrimmed627x627 full-cell master",
+  "targetFineCanvas": [96,128],
+  "targetFineAnchor": [48,126],
+  "proposedUniformFineScale": 0.2125,
+  "transformPolicy": "one authored scale for all poses, only translation from sourceRoot; no bbox fit/flip/limb warp",
+  "precisionNote": "Manual authored landmarks from viewed native cells, approximate within3source pixels; not automatic anatomical detection. Proposed registration only, no runtime PNG export performed.",
+  "poses": [
+    {"phase":0,"file":"phase-0-master.png","sourceRoot":[320,591],"pelvis":[320,415],"neckAnchor":[355,284],"eyeAnchor":[399,232],"earAnchor":[334,230],"nearHand":[207,389],"farHand":[441,346],"screenRearShoe":[205,549],"screenFrontShoe":[438,567],"ownership":"near arm back, near leg appears front at contact; far arm forward"},
+    {"phase":1,"file":"phase-1-master.png","sourceRoot":[292,593],"pelvis":[294,410],"neckAnchor":[313,282],"eyeAnchor":[351,232],"earAnchor":[287,229],"nearHand":[234,395],"farHand":[378,353],"screenRearShoe":[281,568],"screenFrontShoe":[351,500],"ownership":"near arm down/back; front-screen knee lifted; rear-screen support foot"},
+    {"phase":2,"file":"phase-2-master.png","sourceRoot":[322,582],"pelvis":[322,410],"neckAnchor":[355,277],"eyeAnchor":[399,224],"earAnchor":[333,221],"nearHand":[440,337],"farHand":[208,376],"screenRearShoe":[205,539],"screenFrontShoe":[445,551],"ownership":"near arm visibly forward crossing chest, far arm back; reverse leg depth plausible but dark pants still ambiguous"},
+    {"phase":3,"file":"phase-3-master.png","sourceRoot":[282,585],"pelvis":[284,400],"neckAnchor":[314,275],"eyeAnchor":[352,225],"earAnchor":[290,223],"nearHand":[203,383],"farHand":[402,330],"screenRearShoe":[283,565],"screenFrontShoe":[347,495],"ownership":"near arm appears back again and front-screen knee lifted again, resembling phase1; opposite passing is not proved"}
+  ],
+  "headReview": "not-accepted: shape/scale drift across generated heads; canonical alpha-head derivation requires separate explicit review",
+  "approved": false
+}

@@ -1,0 +1,313 @@
+{
+  "status": "code and tests pass; actual post-restart browser verified by root; frozen for root final full check",
+  "method": "(runtime playable width / mean native prop world width) / (source playable width in native pixels / mean source annotated prop pixel width)",
+  "sourceAnnotations": "game/web/interiors-map-v19.json",
+  "runtime": "game/web/interiors-map.json",
+  "station": {
+    "nominalFloorHeightBefore": 620,
+    "nominalFloorHeightAfter": 310,
+    "playableWidthBefore": 1588.30495,
+    "playableDepthBefore": 520,
+    "benchGapBefore": 940.134218,
+    "benchGapAfter": 145.98174400000005,
+    "actorHeightUnchanged": 80,
+    "pngFilesChanged": false,
+    "bounds": {
+      "left": 266.923762,
+      "right": 1061.076238,
+      "top": 247,
+      "bottom": 457
+    },
+    "spawn": {
+      "x": 664.0,
+      "y": 412
+    },
+    "exit": {
+      "x": 664.0,
+      "y": 437
+    },
+    "action": {
+      "id": "travel",
+      "label": "Карта города",
+      "prop_id": "service",
+      "x": 452.8808575,
+      "y": 345,
+      "radius": 110
+    }
+  },
+  "rooms": [
+    {
+      "room": "railway",
+      "playableWidth": 794.1524760000001,
+      "playableDepth": 210,
+      "sourceFile": "01_Окружение/Здания/ЖД_вокзал/Интерьер/основной.png",
+      "comparisons": [
+        {
+          "sourceProps": [
+            "sofa-1",
+            "sofa-2"
+          ],
+          "runtimeProps": [
+            "bench-1",
+            "bench-2"
+          ],
+          "sourceMeanWidth": 308.5,
+          "runtimeMeanWidth": 168.170732,
+          "sourceFloorPerProp": 4.80388978930308,
+          "runtimeFloorPerProp": 4.7222989788734475,
+          "relativeExpansion": 0.9830156781258155,
+          "atLeastDouble": false
+        }
+      ]
+    },
+    {
+      "room": "clans",
+      "playableWidth": 1030.8079480000001,
+      "playableDepth": 500,
+      "sourceFile": "01_Окружение/Здания/ТЦ_Бзик_хаб/Интерьер/основной.png",
+      "comparisons": [],
+      "comparisonStatus": "not-comparable: historical composed scene reused from another room; current furnishings have no identical composition counterpart"
+    },
+    {
+      "room": "arena",
+      "playableWidth": 1444.5223139999998,
+      "playableDepth": 520,
+      "sourceFile": "01_Окружение/Здания/ТЦ_Бзик_хаб/Интерьер/основной.png",
+      "comparisons": [
+        {
+          "sourceProps": [
+            "service"
+          ],
+          "runtimeProps": [
+            "service"
+          ],
+          "sourceMeanWidth": 332.0,
+          "runtimeMeanWidth": 105.366528,
+          "sourceFloorPerProp": 4.240963855421687,
+          "runtimeFloorPerProp": 13.709499035595059,
+          "relativeExpansion": 3.232637556688607,
+          "atLeastDouble": true
+        },
+        {
+          "sourceProps": [
+            "battle-blue",
+            "battle-violet"
+          ],
+          "runtimeProps": [
+            "blue",
+            "violet"
+          ],
+          "sourceMeanWidth": 264.0,
+          "runtimeMeanWidth": 184.82527900000002,
+          "sourceFloorPerProp": 5.333333333333333,
+          "runtimeFloorPerProp": 7.81561008221175,
+          "relativeExpansion": 1.4654268904147032,
+          "atLeastDouble": false
+        }
+      ]
+    },
+    {
+      "room": "profile",
+      "playableWidth": 1149.6802980000002,
+      "playableDepth": 500,
+      "sourceFile": "01_Окружение/Здания/Магазин_одежды/Интерьер/основной.png",
+      "comparisons": [
+        {
+          "sourceProps": [
+            "rack-1",
+            "rack-2"
+          ],
+          "runtimeProps": [
+            "rail-1",
+            "rail-2"
+          ],
+          "sourceMeanWidth": 253.0,
+          "runtimeMeanWidth": 136.565657,
+          "sourceFloorPerProp": 5.849802371541502,
+          "runtimeFloorPerProp": 8.418516948225133,
+          "relativeExpansion": 1.4391113431763234,
+          "atLeastDouble": false
+        }
+      ]
+    },
+    {
+      "room": "results",
+      "playableWidth": 1444.5223139999998,
+      "playableDepth": 520,
+      "sourceFile": "01_Окружение/Здания/ТЦ_Бзик_хаб/Интерьер/основной.png",
+      "comparisons": [
+        {
+          "sourceProps": [
+            "service"
+          ],
+          "runtimeProps": [
+            "service"
+          ],
+          "sourceMeanWidth": 332.0,
+          "runtimeMeanWidth": 105.366528,
+          "sourceFloorPerProp": 4.240963855421687,
+          "runtimeFloorPerProp": 13.709499035595059,
+          "relativeExpansion": 3.232637556688607,
+          "atLeastDouble": true
+        },
+        {
+          "sourceProps": [
+            "battle-blue",
+            "battle-violet"
+          ],
+          "runtimeProps": [
+            "blue",
+            "violet"
+          ],
+          "sourceMeanWidth": 264.0,
+          "runtimeMeanWidth": 184.82527900000002,
+          "sourceFloorPerProp": 5.333333333333333,
+          "runtimeFloorPerProp": 7.81561008221175,
+          "relativeExpansion": 1.4654268904147032,
+          "atLeastDouble": false
+        }
+      ]
+    },
+    {
+      "room": "messages",
+      "playableWidth": 1037.171718,
+      "playableDepth": 500,
+      "sourceFile": "01_Окружение/Здания/Бар_Пивковый_туз/Интерьер/основной.png",
+      "comparisons": [
+        {
+          "sourceProps": [
+            "table-1",
+            "table-2",
+            "table-3"
+          ],
+          "runtimeProps": [
+            "table-1",
+            "table-2",
+            "table-3"
+          ],
+          "sourceMeanWidth": 137.0,
+          "runtimeMeanWidth": 89.90099,
+          "sourceFloorPerProp": 10.204379562043796,
+          "runtimeFloorPerProp": 11.53682198605377,
+          "relativeExpansion": 1.1305755451283022,
+          "atLeastDouble": false
+        }
+      ]
+    },
+    {
+      "room": "terrace",
+      "playableWidth": 1010.6666660000001,
+      "playableDepth": 500,
+      "sourceFile": "01_Окружение/Здания/Бар_Пивковый_туз/Интерьер/основной.png",
+      "comparisons": [],
+      "comparisonStatus": "not-comparable: historical composed scene reused from another room; current furnishings have no identical composition counterpart"
+    },
+    {
+      "room": "shop-food",
+      "playableWidth": 1030.8079480000001,
+      "playableDepth": 500,
+      "sourceFile": "01_Окружение/Здания/Бар_Пивковый_туз/Интерьер/основной.png",
+      "comparisons": [],
+      "comparisonStatus": "not-comparable: historical composed scene reused from another room; current furnishings have no identical composition counterpart"
+    },
+    {
+      "room": "shop-clothes",
+      "playableWidth": 1149.6802980000002,
+      "playableDepth": 500,
+      "sourceFile": "01_Окружение/Здания/Магазин_одежды/Интерьер/основной.png",
+      "comparisons": [
+        {
+          "sourceProps": [
+            "rack-1",
+            "rack-2"
+          ],
+          "runtimeProps": [
+            "rail-1",
+            "rail-2"
+          ],
+          "sourceMeanWidth": 253.0,
+          "runtimeMeanWidth": 136.565657,
+          "sourceFloorPerProp": 5.849802371541502,
+          "runtimeFloorPerProp": 8.418516948225133,
+          "relativeExpansion": 1.4391113431763234,
+          "atLeastDouble": false
+        }
+      ]
+    },
+    {
+      "room": "shop-furniture",
+      "playableWidth": 1035.7979799999998,
+      "playableDepth": 500,
+      "sourceFile": "01_Окружение/Здания/Бар_Пивковый_туз/Интерьер/основной.png",
+      "comparisons": [],
+      "comparisonStatus": "not-comparable: historical composed scene reused from another room; current furnishings have no identical composition counterpart"
+    },
+    {
+      "room": "casino",
+      "playableWidth": 1280.3953660000002,
+      "playableDepth": 540,
+      "sourceFile": "01_Окружение/Здания/Казино/Интерьер/основной.png",
+      "comparisons": [
+        {
+          "sourceProps": [
+            "roulette",
+            "poker-one"
+          ],
+          "runtimeProps": [
+            "roulette",
+            "poker-one"
+          ],
+          "sourceMeanWidth": 412.5,
+          "runtimeMeanWidth": 243.35147949999998,
+          "sourceFloorPerProp": 3.5927272727272728,
+          "runtimeFloorPerProp": 5.261506396553469,
+          "relativeExpansion": 1.464488116449599,
+          "atLeastDouble": false
+        }
+      ]
+    }
+  ],
+  "tests": {
+    "nodeTargeted": {
+      "passed": 39,
+      "failed": 0
+    },
+    "pythonInterior": {
+      "passed": 32,
+      "failed": 0
+    },
+    "pythonStation": {
+      "passed": 3,
+      "failed": 0
+    },
+    "nodeFull": {
+      "passed": 786,
+      "failed": 0,
+      "durationMs": 28285.642292,
+      "command": "node scripts/test-node.mjs (from game)",
+      "log": "verification/station-node-full.txt"
+    },
+    "nodeStaleRegressionTargeted": {
+      "passed": 19,
+      "failed": 0
+    }
+  },
+  "redEvidence": [
+    "station floor/bench 9.4445979 versus source4.8038898",
+    "entry viewport1204×880 saw0bench groups; both390×800 and1204×880 now show2"
+  ],
+  "otherRooms": "10 room records preserved during station replacement; all11 match current generator output",
+  "browser": {
+    "status": "verified by root after restart",
+    "screenshotInspected": "verification/browser-station-after-v2.png",
+    "actionsReportedByRoot": [
+      "bench collision",
+      "sit",
+      "open phone",
+      "still seated",
+      "stand"
+    ],
+    "mobileViewportReportedByRoot": 390,
+    "physicalPhoneTested": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "qa_db": "/tmp/bziker-locations-v26-qa.sqlite3",
+  "scope": "Disposable local QA account only; repeat daily receipt reset to allow real UI pickup and final bounded-bin throw retake; no inventory or effect fabrication",
+  "before": [
+    {
+      "account_id": "Bl-qtHytVcLiMoFsdLHrrZKiaBIMX1Oh",
+      "target_id": "litter-park-1",
+      "day": "2026-10-15"
+    }
+  ],
+  "utc": "2026-10-15T16:24:06.580122+00:00"
+}

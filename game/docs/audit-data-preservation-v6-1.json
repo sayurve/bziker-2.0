@@ -1,0 +1,18 @@
+{
+  "live_integrity": "ok",
+  "backup_integrity": "ok",
+  "durable_tables_unchanged": {
+    "accounts": true,
+    "account_credentials": true,
+    "clans": true,
+    "clan_members": true,
+    "clan_requests": true,
+    "clan_results": true,
+    "lobbies": true,
+    "nickname_reservations": true,
+    "wallets": true,
+    "inventory": true,
+    "direct_messages": true
+  },
+  "private_rows_exported": false
+}

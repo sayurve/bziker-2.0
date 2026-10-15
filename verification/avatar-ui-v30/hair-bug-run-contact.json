@@ -1,0 +1,149 @@
+{
+  "status": "awaiting visual review",
+  "records": [
+    {
+      "file": "hair-bug-run-down-0.jpg",
+      "sha256": "2d6cd48dfe0d60049a4569dffa6940910398832f554bdb2a7ce81d429e963d7d",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "captureOrder": 0
+    },
+    {
+      "file": "hair-bug-run-down-1.jpg",
+      "sha256": "ab5268f85d233586fa44a6cd2d27b418181a8063ed7200ead3b04371dbead4c4",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "captureOrder": 1
+    },
+    {
+      "file": "hair-bug-run-down-2.jpg",
+      "sha256": "c076bb9c68b8774396dff4aa285008342deed065a774b9ee037fe054ad9dcb5c",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "captureOrder": 2
+    },
+    {
+      "file": "hair-bug-run-right-0.jpg",
+      "sha256": "ad857fc1d64d087e5f9cafcdb0073fccc5188e8cdde21817044fef0053363fce",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "captureOrder": 0
+    },
+    {
+      "file": "hair-bug-run-right-1.jpg",
+      "sha256": "eec7aa7258f5dda1a3c146b52597233cdb6da249326389605e126d1f5a36762a",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "captureOrder": 1
+    },
+    {
+      "file": "hair-bug-run-right-2.jpg",
+      "sha256": "a2fd6961a776ab12d390a4ea194bf136b7eca599e0527ab48cd4ba321853383b",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "captureOrder": 2
+    },
+    {
+      "file": "hair-bug-run-up-0.jpg",
+      "sha256": "8fbe09fda8024dad5bfe77919262f41e7696f6925a6f41e1d47c5dd74df16feb",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "captureOrder": 0
+    },
+    {
+      "file": "hair-bug-run-up-1.jpg",
+      "sha256": "3cb41781591a960aa944001edf802d62a89ecbad6dd6b9d8b9bfa396c3a3e2b9",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "captureOrder": 1
+    },
+    {
+      "file": "hair-bug-run-up-2.jpg",
+      "sha256": "077c4d4d537e47a204b4b936ecc430727d3c85b1c954a298c4539fab0f31f03a",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "captureOrder": 2
+    },
+    {
+      "file": "hair-bug-run-left-0.jpg",
+      "sha256": "4e0060c1543c43dff72090176eb9ac1df8476ac61f5768b2dbe84719f67d353c",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "captureOrder": 0
+    },
+    {
+      "file": "hair-bug-run-left-1.jpg",
+      "sha256": "7eaeedbb76502921cc860f1619150f822400784c5548bf85b226e50435fb66bf",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "captureOrder": 1
+    },
+    {
+      "file": "hair-bug-run-left-2.jpg",
+      "sha256": "f459ec2fda546518d03faf34a4b3c84a9df6ff4cba835cf197d1cae18e2546d7",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "captureOrder": 2
+    }
+  ]
+}

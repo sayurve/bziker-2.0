@@ -1,0 +1,44 @@
+✔ catalog exposes two body choices and broad named visual parts (0.48025ms)
+✔ legacy avatar retains saved part values and new parts get safe defaults (0.477584ms)
+✔ all hairstyle thumbnails and body/outfit choices visibly differ (593.68225ms)
+✔ jury silhouette cannot reveal author customization (33.492917ms)
+✔ same avatar has walking/facing canvas frames and no dynamic unsafe colors (254.932375ms)
+✔ phone, sitting and smoking poses are visible and cannot reveal jury appearance (112.795417ms)
+✔ new shop outfits and face-free headgear previews use safe shared parts (131.080708ms)
+✔ card room routing is based on authorized canonical world assignment (0.127416ms)
+✔ compact shared sprite exports its grounding geometry and preserves saved outfit IDs (69.063375ms)
+✔ eight movement samples hold four complete approved run poses in their source order (743.216375ms)
+✔ phone preserves the selected directional face and the occupied seated body (588.200125ms)
+✔ poses, all directions and phone overlays remain inside64px and jury ignores every personal layer (587.467542ms)
+✔ skin, hair and cloth contain material shades instead of single flat colour fills (81.263167ms)
+✔ shared SVG and canvas stay inside a complete 48 by 64 reference sprite envelope (790.266375ms)
+✔ four directions and walking phases remain distinct while catalog values stay deterministic (1880.351417ms)
+✔ headwear previews contain only a face-free head and generic jury cannot reveal any customization or pose (91.030167ms)
+✔ reference head and body have shaped silhouettes and narrower independent side profiles (14.372958ms)
+✔ shared native sprite preserves logical grounding geometry and every stored customization value (107.451541ms)
+✔ eight gait samples display four complete approved native poses and hold each twice (2886.899625ms)
+✔ phone and sitting share the native renderer and retain the actual seated legs (555.459208ms)
+✔ authored left/right views remain distinct and malformed directions resolve to the approved down identity (36.65725ms)
+✔ fractional display scaling paints one whole native texture at integer destination edges (0.59975ms)
+✔ native gait shoulders, sleeves, head and torso remain one actual alpha component (218.744417ms)
+✔ world action progress selects approved finite keyposes while keeping feet on the common ground (705.592125ms)
+✔ open phone holds one seated pose during every action while anonymous imagery stays neutral (127.942959ms)
+✔ held litter follows the moving palm and never leaks into headgear or anonymous portraits (196.9225ms)
+✔ finite action pixels fit every saved costume and authored body/hand alpha stays attached (3579.637ms)
+✔ source-derived character retains detailed head materials and two separate bright eye areas (191.760958ms)
+✔ all saved parts still produce unique redraws; no unsafe or external raster is embedded (1370.012833ms)
+✔ customized movement holds each complete pose twice and retains distinct independent direction art (6753.632666ms)
+✔ missing or malformed facing defaults to the actual approved down idle for both models (237.299875ms)
+✔ ordinary walk and run share the same approved complete L poses and face identity on every model and direction (1541.033333ms)
+✔ locomotion displays every complete approved native body/head PNG without a runtime head transplant (1677.19275ms)
+✔ ordinary locomotion is four held images, including exact sample wrap with no intermediate body (2.332042ms)
+✔ all approved gait PNGs keep one logical canvas, head dimensions and actual foot ground per clip (68.740333ms)
+✔ decoded standalone fine PNG padding is transparent and cannot sample a neighboring sprite (107.134833ms)
+ℹ tests 36
+ℹ suites 0
+ℹ pass 36
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8874.494292

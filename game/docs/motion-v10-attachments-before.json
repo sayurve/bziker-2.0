@@ -1,0 +1,30 @@
+{
+  "source_sha256": "65010ad3126f63c71a0a50add0caab9f19030298755ee601be22040a5395652c",
+  "check": "Shadow fillRect uses the exact world.js rect/drawAvatar coordinate formulas; not full scene rendering",
+  "scales": [
+    {
+      "physicalScale": 1,
+      "distinctShadowBuffers": 1,
+      "shadowLeftDeviceRange": [
+        101,
+        101
+      ]
+    },
+    {
+      "physicalScale": 2,
+      "distinctShadowBuffers": 3,
+      "shadowLeftDeviceRange": [
+        81,
+        83
+      ]
+    },
+    {
+      "physicalScale": 3,
+      "distinctShadowBuffers": 3,
+      "shadowLeftDeviceRange": [
+        62,
+        64
+      ]
+    }
+  ]
+}

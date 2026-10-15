@@ -1,0 +1,281 @@
+{
+  "gender": "male",
+  "dir": "up",
+  "status": "draft",
+  "poses": [
+    {
+      "frame": 1,
+      "pelvis": [
+        23,
+        48
+      ],
+      "nativePelvis": [
+        46,
+        96
+      ],
+      "sourcePelvis": [
+        358,
+        707
+      ],
+      "pelvisAuthority": "authored native coat/pants waist boundary; no bbox fit",
+      "fine": "art/drafts/canonical-actions-v30/lower-reach/male-up/pose-1-fine.png",
+      "coarse": "art/drafts/canonical-actions-v30/lower-reach/male-up/pose-1.png",
+      "bodyFine": "art/drafts/canonical-actions-v30/lower-reach/male-up/pose-1-body-fine.png",
+      "head": {
+        "top": 5.5,
+        "bottom": 28.5,
+        "left": 15,
+        "right": 39,
+        "eyeAnchor": [
+          27,
+          20.5
+        ],
+        "eyeLine": 20.5,
+        "neckAnchor": [
+          27,
+          30
+        ],
+        "facePolygon": [],
+        "portraitChin": 31
+      },
+      "hand": [
+        36,
+        53
+      ],
+      "sourceSheet": "art/drafts/canonical-actions-v30/lower-reach/male-up/sheet.png",
+      "sourceSheetSHA256": "269c552898162db0814cd6451f21fe85ff923b4cbef919647077a32bf92a0454",
+      "sourceCell": [
+        0,
+        0,
+        768,
+        1024
+      ],
+      "sourceRoot": [
+        374,
+        947
+      ],
+      "sourceNeck": [
+        425,
+        415
+      ],
+      "sourcePalm": [
+        562,
+        786
+      ],
+      "uniformFineScale": 0.125,
+      "nativeOffset": [
+        1.25,
+        7.625
+      ],
+      "headTranslationFromCurrentC": [
+        6,
+        -1
+      ],
+      "canonicalDonor": "art/drafts/locomotion-v27/shared-head-style-proposal/male-up-native-run0-head-fine.png",
+      "canonicalDonorSHA256": "a91ac1adc6c06308aa7161e3a86850c72bf9d8ccbb72f67d3225a40f01476786",
+      "removeHeadPolygon": [
+        [
+          14,
+          -6
+        ],
+        [
+          94,
+          -6
+        ],
+        [
+          94,
+          46
+        ],
+        [
+          85,
+          71
+        ],
+        [
+          69,
+          75
+        ],
+        [
+          61,
+          67
+        ],
+        [
+          47,
+          67
+        ],
+        [
+          38,
+          75
+        ],
+        [
+          22,
+          71
+        ],
+        [
+          14,
+          46
+        ]
+      ],
+      "removedSourceHeadPixels": 1752,
+      "preservedPixelsBelowHeadDomain": 4992,
+      "canvas": [
+        96,
+        128
+      ],
+      "anchor": [
+        48,
+        126
+      ],
+      "opaqueBounds": [
+        19,
+        13,
+        80,
+        125
+      ],
+      "transformedSourceOpaqueBounds": [
+        19,
+        17,
+        79,
+        125
+      ],
+      "clippedOpaqueSourcePixels": 0,
+      "sha256": "89537acc50f78f640ede77306928b276a34c98bd85a2d3151c2d05fd512d34ea"
+    },
+    {
+      "frame": 2,
+      "pelvis": [
+        22,
+        53
+      ],
+      "nativePelvis": [
+        44,
+        106
+      ],
+      "sourcePelvis": [
+        275,
+        787
+      ],
+      "pelvisAuthority": "authored native coat/pants waist boundary; no bbox fit",
+      "fine": "art/drafts/canonical-actions-v30/lower-reach/male-up/pose-2-fine.png",
+      "coarse": "art/drafts/canonical-actions-v30/lower-reach/male-up/pose-2.png",
+      "bodyFine": "art/drafts/canonical-actions-v30/lower-reach/male-up/pose-2-body-fine.png",
+      "head": {
+        "top": 12.5,
+        "bottom": 35.5,
+        "left": 17.5,
+        "right": 41.5,
+        "eyeAnchor": [
+          29.5,
+          27.5
+        ],
+        "eyeLine": 27.5,
+        "neckAnchor": [
+          29.5,
+          37
+        ],
+        "facePolygon": [],
+        "portraitChin": 38
+      },
+      "hand": [
+        39.5,
+        58.5
+      ],
+      "sourceSheet": "art/drafts/canonical-actions-v30/lower-reach/male-up/sheet.png",
+      "sourceSheetSHA256": "269c552898162db0814cd6451f21fe85ff923b4cbef919647077a32bf92a0454",
+      "sourceCell": [
+        768,
+        0,
+        768,
+        1024
+      ],
+      "sourceRoot": [
+        307,
+        947
+      ],
+      "sourceNeck": [
+        392,
+        533
+      ],
+      "sourcePalm": [
+        556,
+        874
+      ],
+      "uniformFineScale": 0.125,
+      "nativeOffset": [
+        9.625,
+        7.625
+      ],
+      "headTranslationFromCurrentC": [
+        11,
+        13
+      ],
+      "canonicalDonor": "art/drafts/locomotion-v27/shared-head-style-proposal/male-up-native-run0-head-fine.png",
+      "canonicalDonorSHA256": "a91ac1adc6c06308aa7161e3a86850c72bf9d8ccbb72f67d3225a40f01476786",
+      "removeHeadPolygon": [
+        [
+          19,
+          8
+        ],
+        [
+          99,
+          8
+        ],
+        [
+          99,
+          60
+        ],
+        [
+          90,
+          85
+        ],
+        [
+          74,
+          89
+        ],
+        [
+          66,
+          81
+        ],
+        [
+          52,
+          81
+        ],
+        [
+          43,
+          89
+        ],
+        [
+          27,
+          85
+        ],
+        [
+          19,
+          60
+        ]
+      ],
+      "removedSourceHeadPixels": 1719,
+      "preservedPixelsBelowHeadDomain": 3648,
+      "canvas": [
+        96,
+        128
+      ],
+      "anchor": [
+        48,
+        126
+      ],
+      "opaqueBounds": [
+        23,
+        27,
+        85,
+        125
+      ],
+      "transformedSourceOpaqueBounds": [
+        22,
+        31,
+        84,
+        125
+      ],
+      "clippedOpaqueSourcePixels": 0,
+      "sha256": "cf3def2b40a7f68af0166e14328e697cba2e729673ba85d9863a4a4be383987b"
+    }
+  ]
+}

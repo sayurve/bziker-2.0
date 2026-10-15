@@ -1,0 +1,294 @@
+{
+  "status": "awaiting-visual-review",
+  "contact": "contact-g0-hairStyle-00.png",
+  "records": [
+    {
+      "source": "g0-hairStyle-00-up.jpg",
+      "sha256": "df4074231abef7ad516000f4c47665a10396d9b74382936e4408490373914010",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 0
+    },
+    {
+      "source": "g0-hairStyle-00-left.jpg",
+      "sha256": "430ec8c2a8031833e4615ec5db1f83438c5cc8f8888adcefae3abb420788c78a",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 0
+    },
+    {
+      "source": "g0-hairStyle-00-down.jpg",
+      "sha256": "659444439471977512e071c22b9a0f384a1455bf143902c0f6c6f6b7cf85a56e",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 0
+    },
+    {
+      "source": "g0-hairStyle-00-right.jpg",
+      "sha256": "e13488462d64d2d4d216d1905ac78f05c48d2b4823fbf437718f20d91a2b34d8",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 0
+    },
+    {
+      "source": "g0-hairStyle-01-up.jpg",
+      "sha256": "8a5e785cacc9c98cc7736ad0a0cb158727ca7fd98c469b4d8e009c44aff49e72",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 1
+    },
+    {
+      "source": "g0-hairStyle-01-left.jpg",
+      "sha256": "27e391e7853a3824b2d725cc1829653aa4d78ce28c04c4b21dfaf61829cd451f",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 1
+    },
+    {
+      "source": "g0-hairStyle-01-down.jpg",
+      "sha256": "e1e35f862e544ac2b334e8e836575a938e4df625cb81b1c66d7a43bfea7b3c4d",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 1
+    },
+    {
+      "source": "g0-hairStyle-01-right.jpg",
+      "sha256": "48dbaa0de52920c56f6ea78113df0b69ba6778e8cbdeed9876ace2411c0cd50b",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 1
+    },
+    {
+      "source": "g0-hairStyle-02-up.jpg",
+      "sha256": "1f1322e9eefafcb8a74f40a9e92483d1e1fdd977ea63b229aeaf93bf35897e42",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 2
+    },
+    {
+      "source": "g0-hairStyle-02-left.jpg",
+      "sha256": "950333c72f28e342820024769c79abf3eacc6d243d5801d36c94667827ddb0ba",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 2
+    },
+    {
+      "source": "g0-hairStyle-02-down.jpg",
+      "sha256": "c1b91989b3736fb1f98b848fc4d41c5e09ad924f9c19ff56e587537c3058fd7d",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 2
+    },
+    {
+      "source": "g0-hairStyle-02-right.jpg",
+      "sha256": "d0341d7939e637c5b76ea665bf82a73b09225c12d00161e013564c5bfe189ab9",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 2
+    },
+    {
+      "source": "g0-hairStyle-03-up.jpg",
+      "sha256": "6f3c05a967302d9ad5958fae7cba094ee1f316a8fdddc6aca7cd2118681b57df",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 3
+    },
+    {
+      "source": "g0-hairStyle-03-left.jpg",
+      "sha256": "eb6f1efaef0cb4cb8b15c2233cb092e606526b81b5e3b71a637382c2f45193d7",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 3
+    },
+    {
+      "source": "g0-hairStyle-03-down.jpg",
+      "sha256": "54bf973666ff5747e9767f8dfff2d4c6aab5852b561c693d84381e15e3ecd34f",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 3
+    },
+    {
+      "source": "g0-hairStyle-03-right.jpg",
+      "sha256": "6e2702db82ead7c64c31338d84325643327973c8041b581bf1d183ab1ce0bbb1",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 3
+    },
+    {
+      "source": "g0-hairStyle-04-up.jpg",
+      "sha256": "dbe3660a35ccd0fe599562b1b3c128572abe4ffe2e67c2b57a378c4f4bf7d8c7",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 4
+    },
+    {
+      "source": "g0-hairStyle-04-left.jpg",
+      "sha256": "3afed2154a492497523dedf029fb240be1ea8e777136efd324b02c9a47125ad7",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 4
+    },
+    {
+      "source": "g0-hairStyle-04-down.jpg",
+      "sha256": "19959ca27a4046a1c2ea81918d23d4f2d1181bfc52065dd3dd0aa775f8f38c4b",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 4
+    },
+    {
+      "source": "g0-hairStyle-04-right.jpg",
+      "sha256": "c93fa0b83df516f4953bfa5534d32326a17fce526e542072bf40e4868fb93ec0",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 4
+    },
+    {
+      "source": "g0-hairStyle-05-up.jpg",
+      "sha256": "5a7b97e5c8a65a5956053f11c10ed8823710da12e17e4e6880e7def628564d11",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "up",
+      "value": 5
+    },
+    {
+      "source": "g0-hairStyle-05-left.jpg",
+      "sha256": "ce141a52b8ea4b0ea8c65e3b52f12ca66edcdf547ddca6d6be18c295703fcb1a",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "left",
+      "value": 5
+    },
+    {
+      "source": "g0-hairStyle-05-down.jpg",
+      "sha256": "e02d09ffd6c7424fc4501e12db4e477661cbcf52ba980e9f5fb700e91426b623",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "down",
+      "value": 5
+    },
+    {
+      "source": "g0-hairStyle-05-right.jpg",
+      "sha256": "5ace9ffb8fb44e964273ec18fcae2543614a6ba3df93c04f1e7eafcb55b5f544",
+      "crop": [
+        532,
+        374,
+        672,
+        564
+      ],
+      "direction": "right",
+      "value": 5
+    }
+  ]
+}

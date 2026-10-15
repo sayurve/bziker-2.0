@@ -1,0 +1,283 @@
+{
+  "status": "approved",
+  "scope": "16 real B/C bodies; exact HAND0/HAND1 reuse required for standing endpoints; not runtime props/garments/layered master",
+  "evidence": [
+    "verification/canonical-lower-reach-art-review-v30.md"
+  ],
+  "contacts": [
+    {
+      "path": "verification/canonical-lower-reach-male-v30-draft.png",
+      "sha256": "66f18198893c83e1a790b779c4b01e4e2e4b2b2edd744571e28e4b87814341db"
+    },
+    {
+      "path": "verification/canonical-lower-reach-female-v30-draft.png",
+      "sha256": "02353388d065817ac856d0d1a51cef07da43aa03df0e651eea5e777bb5676f87"
+    }
+  ],
+  "resources": [
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-down/pose-1-fine.png",
+      "sha256": "74e97056180c57cfe98504dcd5687e8c9b609f398dd1d1529865549d5b096ab3"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-down/pose-1.png",
+      "sha256": "c51a4525e67beb6520110205c76c763f17996c7d56d57c724fe0dc56a5dc8d55"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-down/pose-1-body-fine.png",
+      "sha256": "303c20b63e1358f62bf512631e8e6b5debb375a7e60e03e85b632069a93d71b5"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-down/sheet.png",
+      "sha256": "181a36cae32a8a5332cd953e258d0bb83c54878ba21508bf8cb2415b0e9364ae"
+    },
+    {
+      "path": "art/drafts/locomotion-v27/shared-head-style-proposal/male-down-native-run0-head-fine.png",
+      "sha256": "6caf6f0792eefdc4d364d3b0d0195bfb1659f8f2ea1e02769848b9e3ec04711a"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-down/pose-2-fine.png",
+      "sha256": "2b4bb0cac31f726fe243ce23c542d9d5c0bed9bd84b5f5bd9889ecb285051673"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-down/pose-2.png",
+      "sha256": "88cc8836dfaa55a2681b30c6be6de23df9d559aceab3acbf7cc8933c0f5cdff7"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-down/pose-2-body-fine.png",
+      "sha256": "52df0a3f4e3b6b2ae9b5d641b29d6202202cfda21163532b1ec0f7c027a693b0"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-down/hand-clearance-v2/sheet.png",
+      "sha256": "fccb2301044503eb7ac75b661fd8c177dee4ec15a86d85af6bece5bed7df51ca"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-right/pose-1-fine.png",
+      "sha256": "6ebe7459707db3804b8c88086dd755dc22afac59189bc1c4721aafeb3fd09053"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-right/pose-1.png",
+      "sha256": "356e21d3894eeefe6a2e7bcf5075e02cf4d127728f59ab11ecd780643430d26f"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-right/pose-1-body-fine.png",
+      "sha256": "6480233863f3554f63ba24ca52c88173be2388addb0163f2c6e0634a608df1c4"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v29/lower-reach/male-right/sheet.png",
+      "sha256": "86c6aacf1c19aee75c64f5f3622692ed21daa8e1c8ca00d26c0d28858427991c"
+    },
+    {
+      "path": "art/drafts/locomotion-v27/shared-head-style-proposal/male-right-native-run0-head-fine.png",
+      "sha256": "28d3ee9492fd16959c789e39849c10ff5d0dd0145fb733a14958bda77450839d"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-right/pose-2-fine.png",
+      "sha256": "2776fb8b6f9ed90f3c914b2243dcae33b70f2a36ba4f6b16273086a3e8c3971f"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-right/pose-2.png",
+      "sha256": "17b3b96ca08aa5b0db4ac67332dcee52cc7e0499b3fdd724b0d7002995f24ae7"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-right/pose-2-body-fine.png",
+      "sha256": "4f56d79f110825b01d6fa73422d029a053746b45208c3cc0cdc1aa5f0f0dedc8"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-up/pose-1-fine.png",
+      "sha256": "89537acc50f78f640ede77306928b276a34c98bd85a2d3151c2d05fd512d34ea"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-up/pose-1.png",
+      "sha256": "1549abdccbc26c1b2594e9085e8f9aab2099abc4a9fd63fa1219f37cb0bd97f0"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-up/pose-1-body-fine.png",
+      "sha256": "8f66e1e58f9461cf2ca4bcea894746937082e18a74c97601622aedd16e08b571"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-up/sheet.png",
+      "sha256": "269c552898162db0814cd6451f21fe85ff923b4cbef919647077a32bf92a0454"
+    },
+    {
+      "path": "art/drafts/locomotion-v27/shared-head-style-proposal/male-up-native-run0-head-fine.png",
+      "sha256": "a91ac1adc6c06308aa7161e3a86850c72bf9d8ccbb72f67d3225a40f01476786"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-up/pose-2-fine.png",
+      "sha256": "cf3def2b40a7f68af0166e14328e697cba2e729673ba85d9863a4a4be383987b"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-up/pose-2.png",
+      "sha256": "d4d97539cd33dc9f97401a6318ad8ecab1d537eaeaaf609c615c9f4649590642"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-up/pose-2-body-fine.png",
+      "sha256": "7ad3158ad3c684d7153767e51ff7e061e35fbb99b424f65071cdbef3f2eb3975"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-left/pose-1-fine.png",
+      "sha256": "2404a7b07d8eaa0b4e4be3148951d81415785d2966429ac340163d1d3dfbbef9"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-left/pose-1.png",
+      "sha256": "3d9168b32bab424038abe4ed346497f621f4618365076f75ac5acf77813f28d2"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-left/pose-1-body-fine.png",
+      "sha256": "892a5efaa5dcae63147a7abb4fa0e277b174d92a5910e01641db01c8b2a1a6b8"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-left/sheet.png",
+      "sha256": "0feba57cd8b48d3faa2cbbf7db8e69f69a3b58a00b1a24caa28eeea28f511a8f"
+    },
+    {
+      "path": "art/drafts/locomotion-v27/shared-head-style-proposal/male-left-native-run0-head-fine.png",
+      "sha256": "808c31b3f5e25b41a95be00ba614066ddc946dd5cc1802c382dbab3de8e9d022"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-left/pose-2-fine.png",
+      "sha256": "facc1cf00abbe671837aad1dcf0d077f61a6b38c66af8711b5de47f12fe85752"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-left/pose-2.png",
+      "sha256": "b26e34b961bfacab0d42d5164797972b19a40e4fafde28bb71a7dd8078bbd09e"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/male-left/pose-2-body-fine.png",
+      "sha256": "0a7c207ab506a33e7c6e5519bff8ddd4f62563198574246c5b391e8e856925a1"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-down/pose-1-fine.png",
+      "sha256": "b66942d23ee847a9e5caf1557d158eb74fcbddabe10e243c043a7f577bea40a7"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-down/pose-1.png",
+      "sha256": "92ca711582c34d31c82961f776736548dfe61f7ddcffaad41f39c64571289dda"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-down/pose-1-body-fine.png",
+      "sha256": "62e56d75b36ac654fc59ac433f809fab67a79908a5fb397a9c4cb2ad3b5f98f8"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-down/sheet.png",
+      "sha256": "d0f8ad3468984589073396306fd38a6cf452ee3e61b0548d27c257fb606fb2dd"
+    },
+    {
+      "path": "art/drafts/canonical-face-v29/female-heads-v1/down-fine.png",
+      "sha256": "2c3febc479296cd800d7497141191b43c076aaf6610e756aab4deba2e7f7cb33"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-down/pose-2-fine.png",
+      "sha256": "84bb7a572e2c2a562d8319e52bddf1b85750576229f44b9fee02bca8f52e5d19"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-down/pose-2.png",
+      "sha256": "bf448e351d9fc3dde69afd5d75971692e3ecfd7fbdf6d825aff782b934cffc40"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-down/pose-2-body-fine.png",
+      "sha256": "1402089b0f7e6964d7ea786708b363cd596fef954563cdd0a5301150a01eaa86"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-down/hand-clearance-v2/sheet.png",
+      "sha256": "526af08c0436a56639f66db4f535ccd8868f844254b21e6a4ee75a0dbbad2032"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-right/pose-1-fine.png",
+      "sha256": "c8f5a7ea82f904b02b493b4103e8cf78bbb1ef5798bd6a2d9325e8fbdc277e06"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-right/pose-1.png",
+      "sha256": "3720f397b2e82eb0a0651269dee52c68b5705c9cca80393f42aae9cfb42d4897"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-right/pose-1-body-fine.png",
+      "sha256": "c8977d9578d12ee5d7c043963e8e347c96cc11854e0ce089a0b555f5bcc0c5e0"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-right/sheet.png",
+      "sha256": "efcc5202199a8d0d68129cd391eb02bc628a0d0ab9614cb8cbdd810bdc5ace05"
+    },
+    {
+      "path": "art/drafts/canonical-face-v29/female-heads-v1/right-fine.png",
+      "sha256": "4329eb109b40d0d47de048b8256d681df95c711f11abc48b9f6be4a32b09dd77"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-right/pose-2-fine.png",
+      "sha256": "2b8ed49da215bbc8653c289bb985f0dd0e91a0b3f8bade7497cb5dfe053b817f"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-right/pose-2.png",
+      "sha256": "1f415cbcd5b4e60a6e00ea1005b74b9067df352fc6120f7538ca900f30c0f71e"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-right/pose-2-body-fine.png",
+      "sha256": "ac8264244d551bbc7c67b6a98316b638688b912945ff1d38fc4fb256c1102244"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-up/pose-1-fine.png",
+      "sha256": "60ddbf6ebdb1df3fab9c32994715d89c945ea9d1b5ff12c2f56ca27000f24d6b"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-up/pose-1.png",
+      "sha256": "56d636b34347c0782c98befc5ff5d0fe780694b9212758b63431cdebde5bd0ea"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-up/pose-1-body-fine.png",
+      "sha256": "a2b3e05817e4dffd459f19d028a4a1cfbaf01983fdc0a9d0efcfe9ec6037f02e"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-up/sheet.png",
+      "sha256": "b5f0bab01864453d4f6931c98bbedcf597df727acfadeca83d884b511c130776"
+    },
+    {
+      "path": "art/drafts/canonical-face-v29/female-heads-v1/up-fine.png",
+      "sha256": "2ae2be1acd7415ec2bc0e22d56496c6733df64f44cf0a30044296d7d35e258bb"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-up/pose-2-fine.png",
+      "sha256": "ac05634675bf85754cfbe73a5dc5a5ad06d3c34c24a49a76b0417b9221b1963a"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-up/pose-2.png",
+      "sha256": "589921cec7d4f8b217b03de0671ecc547b2b31bc265f926ebc7a02651799bcee"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-up/pose-2-body-fine.png",
+      "sha256": "47cc0c951842b96538b3b24c37d0cd744b3e914ab713bbe82001ffb0417d3f64"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-left/pose-1-fine.png",
+      "sha256": "63edb00acc8147c9f7e14f2944d1b53da00a2a92a51d6ef0a8b0c27a9650b1c8"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-left/pose-1.png",
+      "sha256": "2a49c096956af47908f05e0e0f06aabdabdafbf3bfe6b54f9880154b9a0cdb4b"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-left/pose-1-body-fine.png",
+      "sha256": "e5560132f099fee981f9370782023f5f52c116f2a6c1aabc1e537392dc980449"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-left/sheet.png",
+      "sha256": "44a06001bf33515332c728a1e1e5fb24df38ab6e1cef09468ad8bd308c6a496d"
+    },
+    {
+      "path": "art/drafts/canonical-face-v29/female-heads-v1/left-fine.png",
+      "sha256": "65fb9ba6df23d7e1bf5555240d44d14fcd5e35f86cbf2a2074cd170f2128df74"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-left/pose-2-fine.png",
+      "sha256": "d0eda3168c11abc4470a55a7fb55a8c9a9324c9112997011a4dcfe84f3e3d998"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-left/pose-2.png",
+      "sha256": "ce935b300352760934f3a36cf65f41a457461eed6899b2bc756c7b642baf89b7"
+    },
+    {
+      "path": "art/drafts/canonical-actions-v30/lower-reach/female-left/pose-2-body-fine.png",
+      "sha256": "8bd1ba8e2f54639f767a63d0fc1b57c1bf91220871f03cc1686733381eb10add"
+    }
+  ]
+}

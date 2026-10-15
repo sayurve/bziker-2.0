@@ -1,0 +1,15 @@
+✔ a floor interaction outline stays visible beside the player and cannot erase their face (4.76425ms)
+✔ raster bounds include fractional edges without squeezing the underlying texture (0.829583ms)
+✔ visible bounds are independent of DPR and physical canvas dimensions (0.154625ms)
+✔ animation repaint key follows discrete authored samples instead of render FPS (0.110417ms)
+✔ an existing game canvas is booted with an explicit Phaser renderer (0.176833ms)
+✔ reduced motion still redraws changed actor poses while retaining unchanged textures (1.841ms)
+✔ changed clan house art redraws despite an unchanged object id and dimensions (0.46475ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 221.950834

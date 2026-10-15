@@ -1,0 +1,12 @@
+✔ loaded head and catalogue previews retain actual native fine pixels with a logical48-wide crop and no torso (246.47ms)
+✔ face-free headwear retains genuine hair/hat pixels and selected colors while removing the actual face (158.273625ms)
+✔ head-only native canvas equals every fine SVG raster pixel; anonymous jury never reveals selected identity (111.413584ms)
+✔ complete native fine sclera and pupils survive portrait cropping and are absent in the face-free catalogue (12.749833ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 892.915209

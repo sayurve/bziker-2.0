@@ -1,0 +1,117 @@
+{
+  "reviewedAt": "2026-10-15T12:23:56.335851+00:00",
+  "sourceHashes": {
+    "game/web/avatar.js": "2ba445c67ed7cef5a8cdea6ade353ec32bfae18e72d87b7029c23b6ea0e86d7c",
+    "game/web/source-actors.js": "e335bd0224fc2cc01f6dd8f1c646c55bf98252066854cddcab018e46b0f3bdb8",
+    "game/web/actor-sprite.js": "685e6d9a77feb1d746b689c3072b5373dbe33667d3d0108b6e0773bcc9100531",
+    "game/web/actor-hair-data.js": "a36efd9c23ae568d2cd5224ebe9feb274866e16d8a0fa8fb55becf7bb0f0bea2",
+    "game/web/actor-custom-data.js": "6c32b6b014e44b69ba06969e367ee1a02662b3b6ab5092f91fea37423fe43fcf",
+    "game/web/actor-atlas-data.js": "be7043781e5c68465d0af1747a8c7f256dd0a4efa648a07dab90f98d2b569a06",
+    "game/web/source-actors-data.js": "2753bf062e500cc18cc65751c94ad95e57cedb77fa1298327320d330809c92a1",
+    "game/web/canonical-actors-data.js": "9744e32229dd06b998aeb5811871c812188cdc6e7002c97f9ca3632435cfe415",
+    "game/web/locomotion.js": "0e21e1877c7e63e074a55f86108b72c1307efad9fcd63cebb4584a25512a5e98",
+    "game/web/locomotion-actors-data.js": "3736a50b9fc041baf97137212d3ab486bc7f134e7aaf1c6cc22437ab2f2d3007"
+  },
+  "sourceStillMatchesAtReview": true,
+  "sheetsVisuallyReviewed": [
+    {
+      "path": "outfits-g0.png",
+      "sha256": "daae1b785b3ac484a9ba31e142ef3e4d3cea9e47c929a42682fe58d7168d4bf6"
+    },
+    {
+      "path": "outfits-g1.png",
+      "sha256": "2c68b8186edcddcc819a2bef9e525314bd3a43237cd668c3aaa3493100bcf938"
+    },
+    {
+      "path": "hair-g0-c0-h0.png",
+      "sha256": "cba960c6706bef063d65b115729650a0c141a88c623f8bf82c01ec523f24a051"
+    },
+    {
+      "path": "hair-g0-c0-h1.png",
+      "sha256": "9e1bd5089a0a3bfcc29cd4e8d40912c93688925151911c4a6c86b1478e62df6a"
+    },
+    {
+      "path": "hair-g0-c0-h2.png",
+      "sha256": "3c701cab96c552688f1111aefe8b2e0352001d065ebabfcc8c2be9e027cd26b4"
+    },
+    {
+      "path": "hair-g0-c0-h3.png",
+      "sha256": "4d5b89f7654c9ba0ef9c7c1cc2d5494368422be80f291515169893d79cddb6de"
+    },
+    {
+      "path": "hair-g0-c0-h4.png",
+      "sha256": "b1dff7a7d6c4677c91d051181672272148f88779bc9a04de7f7b3e80a5624f96"
+    },
+    {
+      "path": "hair-g0-c6-h0.png",
+      "sha256": "42eb6bd2ad46de07722ccca047bb83af498729b7f70b072a54c72a8228dfa1db"
+    },
+    {
+      "path": "hair-g0-c6-h1.png",
+      "sha256": "019b330466a3af7dcfc53ff119aec4ba50f729c617529d6ce9df74bf7555ad28"
+    },
+    {
+      "path": "hair-g0-c6-h2.png",
+      "sha256": "38393fe5033817a9bb5592930cf02ee6390bd8cebd6ee0ee2785c5fee05e771f"
+    },
+    {
+      "path": "hair-g0-c6-h3.png",
+      "sha256": "03114a1cd643eabe5a0c66113231c59024dbdc28c48c49f3f613f60e14e8a60b"
+    },
+    {
+      "path": "hair-g0-c6-h4.png",
+      "sha256": "5c8c17a4c08d7b096fcd831f8d32259ef67e485a612baedcb6fa40d2c4c64a18"
+    },
+    {
+      "path": "hair-g1-c0-h0.png",
+      "sha256": "e3a2ceafc03df570c2293bf6244d2e4febd8148d29863b5ad105151ffdb6a4f1"
+    },
+    {
+      "path": "hair-g1-c0-h1.png",
+      "sha256": "cfda6beee363176a979390f2bea91c9dee58dfee519e6926411ff20f68e73392"
+    },
+    {
+      "path": "hair-g1-c0-h2.png",
+      "sha256": "c443d14f696ace616fa3cd3f03cbfa39084a4336d0ab005320a9829e6d35146a"
+    },
+    {
+      "path": "hair-g1-c0-h3.png",
+      "sha256": "05d3f4f897d0b55f2a3a4239a4cad2ae3ab77166c57082a0ab4cfbfed256eeb6"
+    },
+    {
+      "path": "hair-g1-c0-h4.png",
+      "sha256": "b212cfda40bd22fdafdbea7e6a9c5deb4e08399a6858c1e246bd84dd109d0434"
+    },
+    {
+      "path": "hair-g1-c6-h0.png",
+      "sha256": "95242ec6897f222998a8d4e0a7b9d25b8cb98d9bd19630b341405ec1cb6de9c7"
+    },
+    {
+      "path": "hair-g1-c6-h1.png",
+      "sha256": "65c5e2982bb753d6f84d6e9ab65c87b1e4e00a43584a81d169533d2bd03e3c6c"
+    },
+    {
+      "path": "hair-g1-c6-h2.png",
+      "sha256": "e25eaab6524bc706a6c836796f4f3358acfeb65f9dcea07b466937d4b9f77f01"
+    },
+    {
+      "path": "hair-g1-c6-h3.png",
+      "sha256": "b24f55c8e9c9d8715d25cd86bb8e09f3e86ce0dbfa0c5c1f08a4bf10935ee1e8"
+    },
+    {
+      "path": "hair-g1-c6-h4.png",
+      "sha256": "8d6866da77454a735968b8e9690ee6623d6d88c7d6ac993981bd3d40a20d8451"
+    }
+  ],
+  "visualFindings": [],
+  "faceCandidates": 0,
+  "faceLostPixels": 0,
+  "previousAttentionCasesRechecked": 116,
+  "previousAttentionChangedPixelsNow": 0,
+  "limits": [
+    "Static four-phase images, no browser playback by this subagent",
+    "Polygon equality does not establish face equality across independent pose authorship",
+    "No physical phone check",
+    "Technical checks are not blanket art approval"
+  ]
+}

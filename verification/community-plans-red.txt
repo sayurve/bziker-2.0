@@ -1,0 +1,27 @@
+test_community_interior_plans (unittest.loader._FailedTest.test_community_interior_plans) ... ERROR
+
+======================================================================
+ERROR: test_community_interior_plans (unittest.loader._FailedTest.test_community_interior_plans)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_community_interior_plans
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/unittest/loader.py", line 426, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/unittest/loader.py", line 367, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "/Users/sapp/Desktop/Игра/Bzikert 2.0/game/tests/test_community_interior_plans.py", line 17, in <module>
+    PLAN = load_module('community_plan', GAME / 'scripts/interior_plans/community.py')
+  File "/Users/sapp/Desktop/Игра/Bzikert 2.0/game/tests/test_community_interior_plans.py", line 13, in load_module
+    spec.loader.exec_module(module)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "<frozen importlib._bootstrap_external>", line 755, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 892, in get_code
+  File "<frozen importlib._bootstrap_external>", line 950, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/sapp/Desktop/Игра/Bzikert 2.0/game/scripts/interior_plans/community.py'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

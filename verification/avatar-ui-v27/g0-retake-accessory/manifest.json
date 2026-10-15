@@ -1,0 +1,99 @@
+{
+  "createdAt": "2026-10-15T12:29:23.237Z",
+  "gender": 0,
+  "category": "accessory",
+  "source": "final-fixed",
+  "cases": 4,
+  "crop": {
+    "x": 535,
+    "y": 375,
+    "width": 135,
+    "height": 180
+  },
+  "qaOnly": true,
+  "productionArtChanged": false,
+  "realBrowserCaptures": true,
+  "renderedMockups": false,
+  "scale": 1.5,
+  "sheets": [
+    "page-1.png"
+  ],
+  "records": [
+    {
+      "value": 0,
+      "name": "Без аксессуара",
+      "gender": 0,
+      "direction": "down",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-accessory-00-down.jpg",
+      "sourceSha256": "6f05d0186bc5838c36a012b0b87f43e7c695eb69ab31b5d02ec5880b6dc1ad76",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-00-down-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Без аксессуара",
+      "gender": 0,
+      "direction": "left",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-accessory-00-left.jpg",
+      "sourceSha256": "84c017fae6b493d2329da2291d56bea17622aafcda4fa32121603ee457f810a6",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-00-left-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Без аксессуара",
+      "gender": 0,
+      "direction": "up",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-accessory-00-up.jpg",
+      "sourceSha256": "15f2f6110db3893e88fef3ad4f6d1657da247f948677963feb1248ac1021ca04",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-00-up-crop.png"
+    },
+    {
+      "value": 0,
+      "name": "Без аксессуара",
+      "gender": 0,
+      "direction": "right",
+      "source": "verification/avatar-ui-v27/final-fixed/g0-accessory-00-right.jpg",
+      "sourceSha256": "fed8fb03840ddab64a07d5edee8664d81de81c787025f70360830ed08f6be73a",
+      "sourceDimensions": [
+        1204,
+        925
+      ],
+      "crop": {
+        "x": 535,
+        "y": 375,
+        "width": 135,
+        "height": 180
+      },
+      "output": "g0-accessory-00-right-crop.png"
+    }
+  ]
+}
