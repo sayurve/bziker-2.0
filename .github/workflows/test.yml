@@ -24,7 +24,15 @@ jobs:
       - name: Install test dependencies
         run: npm ci --ignore-scripts
         working-directory: game
+      - name: Show runner resources
+        run: |
+          node -e "const os = require('node:os'); console.log(JSON.stringify({node: process.version, cpus: os.availableParallelism(), totalMemory: os.totalmem()}));"
+          free -m
       - name: Run full project regression
-        run: python3 tools/check-project.py --full
+        run: |
+          tail -n 0 -F verification/tools-tests-latest.log verification/game-python-latest.log verification/game-node-latest.log &
+          log_pid=$!
+          trap 'kill "$log_pid" 2>/dev/null || true' EXIT
+          python3 tools/check-project.py --full
       - name: Check clean handoff
         run: python3 game/scripts/check-handoff.py
